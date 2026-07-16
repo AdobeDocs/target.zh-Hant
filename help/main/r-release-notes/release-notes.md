@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -30,6 +30,34 @@ ht-degree: 58%
 探索[!DNL Adobe Target]的最新功能、增強功能和修正。 這些發行說明也涵蓋了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台元件（如適用）的更新。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 26.7.2 （2026年7月16日）
+
+**活動**
+
++++檢視詳細資料
+
+* **[!UICONTROL 活動概覽]頁面上的目標資訊不正確。** 修正[!DNL Automated Personalization]活動的[!UICONTROL 活動概覽]頁面顯示其他目標而非最佳化目標的問題。 (TGT-55553)
+
+* 以[!UICONTROL 瀏覽]模式瀏覽頁面時，**畫面無回應。** 修正在[!UICONTROL 瀏覽]模式中瀏覽頁面時，畫面無回應的問題。 (TGT-55565)
+
++++
+
+**首頁**
+
++++檢視詳細資料
+
+* [!UICONTROL 最佳執行者]和[!UICONTROL 儲存]的&#x200B;**UI變更。** 更新表現最佳者的UI並儲存體驗。 (TGT-54975)
+
++++
+
+**客群**
+
++++檢視詳細資料
+
+* 在[!UICONTROL 建立設定檔指令碼]對話方塊中&#x200B;**未當地語系化的字串。** 修正[!UICONTROL 建立設定檔指令碼]對話方塊中的字串未當地語系化的問題。 (TGT-51527)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.1 （2026年7月9日）
 
