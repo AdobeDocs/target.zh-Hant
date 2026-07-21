@@ -3,9 +3,9 @@ title: 為何使用標幟
 description: 瞭解Adobe Target中旗標的主要使用案例，從選擇性功能測試到協調一致的多重應用程式發行。
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 逐步推出以避免後端服務突然出現流量尖峰，而非一次讓所有使用者看到新功能。
 
 **協調的多重應用程式發行**
-針對一組特定使用者，同時跨多個應用程式和團隊啟用一項功能。 標幟可確保整個發行表面的一致性。
+針對一組特定使用者，在多個應用程式間同時啟用一項功能。 標幟可確保整個發行表面的一致性。
 
 **延期的發行**
 提早將程式碼部署到生產環境，然後在精確的時間啟動功能 — 例如，在產品啟動事件開始時 — 沒有在最後一刻變更任何程式碼。

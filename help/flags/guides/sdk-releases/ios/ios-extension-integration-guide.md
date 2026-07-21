@@ -1,56 +1,53 @@
 ---
-title: iOS整合指南的Experience Rollout擴充功能
-description: 瞭解如何在iOS上將Experience Rollout擴充功能與Adobe Experience Platform Mobile SDK整合。
+title: iOS整合指南的旗標擴充功能
+description: 瞭解如何在iOS上將Flags擴充功能與Adobe Experience Platform Mobile SDK整合。
 hide: true
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 6%
+source-wordcount: '1035'
+ht-degree: 5%
 
 ---
 
-# iOS的Experience Rollout擴充功能 {#ios-extension-integration-guide}
+# 標示iOS的擴充功能 {#ios-extension-integration-guide}
 
-本指南說明如何在iOS上將Experience Rollout擴充功能與Adobe Experience Platform Mobile SDK整合。
+本指南說明如何在iOS上將Flags擴充功能與Adobe Experience Platform Mobile SDK整合。
 
 ## 先決條件 {#prerequisites}
 
-在實作Experience Rollout擴充功能之前，請確定您已：
+在實作Flags擴充功能之前，請確定您擁有：
 
 * 在[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中設定的行動屬性
-* 已在您的行動屬性中安裝並設定的Experience Rollout擴充功能
+* 在您的行動屬性中安裝並設定的Flags擴充功能
 * Adobe Experience Cloud組織ID
 * 最低部署目標： iOS 12.0
-* Xcode 14.1或更新版本
 
 ## 擴充功能相依性 {#extension-dependencies}
 
-Experience Rollout擴充功能需要下列Adobe Experience Platform擴充功能：
+Flags擴充功能需要下列Adobe Experience Platform擴充功能：
 
 | 延伸 | 說明 | 必要 |
 |---|---|---|
 | 行動核心 | 提供核心功能，包括設定和事件處理 | 是 |
 | Lifecycle | 收集行動SDK的應用程式生命週期和工作階段資料 | 是 |
 | Edge Network | 啟用與Adobe Experience Platform Edge Network的通訊 | 是 |
-| Edge身分 | 管理Edge Network的使用者身分 | 是 |
+| Edge身分 | 使用Edge Network擴充功能時，啟用行動應用程式的身分管理 | 是 |
 
 請確認這些擴充功能已安裝在您的資料收集行動屬性中，並包含在您的應用程式相依性中。
 
-## 在資料收集中設定Experience Rollout擴充功能 {#configure}
+## 在資料收集中設定標幟副檔名 {#configure}
 
 ### 安裝擴充功能 {#install-extension}
 
 1. 登入[Adobe Experience Platform資料彙集](https://experience.adobe.com/#/data-collection)。
 1. 選取&#x200B;**標籤**&#x200B;標籤，然後選擇您的行動裝置屬性。
 1. 瀏覽至&#x200B;**擴充功能** > **目錄**。
-1. 搜尋&#x200B;**Experience Rollout擴充功能**&#x200B;並選取&#x200B;**安裝**。
+1. 搜尋&#x200B;**標籤延伸模組**&#x200B;並選取&#x200B;**安裝**。
 1. 設定擴充功能設定：
 
    | 設定 | 說明 |
    |---|---|
-   | 沙箱 | 包含您的體驗轉出設定的Adobe Experience Platform沙箱 |
-   | 應用程式 ID | 您在體驗轉出中的應用程式唯一識別碼 |
-   | 資料集 ID | 分析事件資料的Adobe Experience Platform資料集ID |
+   | 應用程式 ID | 旗標中應用程式的唯一識別碼 |
 
 1. 選取&#x200B;**儲存**。
 1. 依照[發佈程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)更新您的設定。
@@ -61,84 +58,109 @@ Experience Rollout擴充功能需要下列Adobe Experience Platform擴充功能�
 1. 為您的環境選取&#x200B;**安裝**&#x200B;欄下的方塊圖示。
 1. 在&#x200B;**行動安裝指示**&#x200B;對話方塊中，複製&#x200B;**環境檔案識別碼**。
 
->[!IMPORTANT]
->
->在&#x200B;**暫存**&#x200B;環境中，在環境檔案識別碼前面加上`staging/` — 也就是使用`staging/<environmentId>`。 在&#x200B;**生產**&#x200B;中，直接使用環境檔案ID。
-
-## 將Experience Rollout擴充功能新增至您的應用程式 {#add-to-app}
+## 將Flags擴充功能新增至您的應用程式 {#add-to-app}
 
 ### 新增相依性 {#add-dependencies}
 
-將行動SDK相依性新增至您的專案。 Experience Rollout擴充功能需要行動核心及下列與Edge相關的擴充功能。
+將行動SDK相依性新增至您的專案。 Flags擴充功能需要行動核心及下列與Edge相關的擴充功能。
 
-#### 使用Swift Package Manager （建議） {#swift-package-manager}
+#### 使用Swift封裝管理程式 {#swift-package-manager}
 
-1. 在Xcode中，瀏覽至&#x200B;**檔案** > **新增套件相依性**。
-1. 輸入Adobe Experience Platform Mobile SDK存放庫URL：
+在Xcode中，選取&#x200B;**檔案** > **新增套件**，並新增下列Adobe Experience Platform Mobile SDK套件URL：
 
-   ```
-   https://github.com/adobe/aepsdk-core-ios
-   ```
+| 套件 | URL |
+|---|---|
+| AEPCore | `https://github.com/adobe/aepsdk-core-ios.git` |
+| AEPEdge | `https://github.com/adobe/aepsdk-edge-ios.git` |
+| AEPEdgeIdentity | `https://github.com/adobe/aepsdk-edgeidentity-ios.git` |
 
-1. 新增下列套件：
+出現提示時，選取下列資料庫以新增至您的目標：
 
-   | 套件 | 存放庫 |
-   |---|---|
-   | AEPCore， AEPLifecycle | `https://github.com/adobe/aepsdk-core-ios` |
-   | AEPEdge | `https://github.com/adobe/aepsdk-edge-ios` |
-   | AEPEdgeIdentity | `https://github.com/adobe/aepsdk-edgeidentity-ios` |
-   | AEPRollout | `https://github.com/adobe/aepsdk-rollout-ios` |
+* `AEPCore`，`AEPLifecycle` （來自`aepsdk-core-ios`）
+* `AEPEdge` （來自`aepsdk-edge-ios`）
+* `AEPEdgeIdentity` （來自`aepsdk-edgeidentity-ios`）
 
-#### 使用CocoaPods {#cocoapods}
+使用AEPCore 5.8.0或更新版本。
 
-將下列Pod新增至您的`Podfile`：
-
-```ruby
-pod 'AEPCore'
-pod 'AEPLifecycle'
-pod 'AEPEdge'
-pod 'AEPEdgeIdentity'
-pod 'AEPRollout'
-```
-
-然後執行：
-
-```bash
-pod install
-```
-
->[!IMPORTANT]
+>[!NOTE]
 >
->對於生產應用程式，Adobe建議釘選到明確的版本編號，而不是使用`~>`或開啟的範圍。 如需詳細資訊，請參閱[CocoaPods版本設定指南](https://guides.cocoapods.org/using/the-podfile.html)。
+>在Xcode中新增套件時，請為每個套件選擇相依性規則（例如&#x200B;**至下一個主要版本**），這會自動挑選新的次要和修補程式發行版本，同時排除下一個主要版本。 如需最新發行的版本，請檢視GitHub上每個擴充功能的發行頁面。
+
+### 新增Flags套件 {#add-flags-package}
+
+請針對應用程式目標使用Swift套件或XCFramework整合方法，而非兩者。
+
+#### 適用於沒有Package.swift檔案的Xcode專案 {#xcode-project}
+
+1. 在Xcode中，選取&#x200B;**檔案** > **新增封裝**。
+1. 選取&#x200B;**新增本機**。
+1. 選取提供的`Packages/AEPFlags`目錄，其中包含`Package.swift`。
+1. 將`AEPFlags`資料庫新增至您的應用程式目標。
+
+Xcode會將本機套件參考儲存在專案中，因此您的應用程式不需要自己的`Package.swift`檔案。
+
+#### 針對含有Package.swift檔案的專案 {#package-swift-project}
+
+在現有資訊清單中，新增`AEPFlags`至您的應用程式目標相依性，並使用提供的URL和資訊清單中的總和檢查碼新增二進位目標：
+
+```swift
+targets: [
+    .target(
+        name: "YourApp",
+        dependencies: [
+            "AEPFlags"
+        ]
+    ),
+    .binaryTarget(
+        name: "AEPFlags",
+        url: "<AEPFlags binary URL>",
+        checksum: "<AEPFlags binary checksum>"
+    )
+]
+```
+
+Swift封裝管理程式會解析本機Xcode、CI和封存組建的二進位目標。
+
+#### 直接新增XCFramework {#xcframework}
+
+或者，將提供的`AEPFlags.xcframework`拖曳至Xcode專案導覽器，並將其新增至您的應用程式目標。 在&#x200B;**一般** > **架構、程式庫和內嵌內容**&#x200B;底下，將架構設定為&#x200B;**內嵌與簽署**。
 
 ### 初始化SDK {#initialize-sdk}
 
-呼叫任何Experience Rollout擴充功能API之前，請先在您的`AppDelegate` （或`SceneDelegate`）中初始化Mobile SDK。 使用您行動屬性中的環境檔案ID，讓應用程式會挑選您在「資料收集」中發佈的轉出設定。
+呼叫任何Flags API之前，請先在您的`AppDelegate`中註冊Mobile SDK擴充功能。 在身分識別、Edge和生命週期後註冊`Flag`，然後使用行動屬性中的環境檔案ID設定SDK。
+
+#### 註冊和設定擴充功能 {#register-configure}
+
+>[!IMPORTANT]
+>
+>對於生產應用程式，僅使用`.error`記錄層級；請勿在發行組建中使用`.debug`或`.trace`。
 
 **Swift**
 
 ```swift
+// AppDelegate.swift
 import AEPCore
 import AEPLifecycle
 import AEPEdge
 import AEPEdgeIdentity
-import AEPRollout
+import AEPFlags
+import UIKit
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+final class AppDelegate: NSObject, UIApplicationDelegate {
 
-    func application(
-        _ application: UIApplication,
-        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-    ) -> Bool {
-
+    func application(_: UIApplication,
+                      didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        // Production: use .error only. Do not use .debug or .trace in release builds.
         MobileCore.setLogLevel(.error)
 
-        MobileCore.registerExtensions(
-            [Lifecycle.self, Edge.self, Identity.self, Rollout.self]
-        ) {
-            // Initialize with your Environment File ID from Data Collection
+        MobileCore.registerExtensions([
+            Identity.self,
+            Edge.self,
+            Lifecycle.self,
+            Flag.self
+        ]) {
             MobileCore.configureWith(appId: "YOUR_ENVIRONMENT_FILE_ID")
+            MobileCore.lifecycleStart(additionalContextData: nil)
         }
 
         return true
@@ -149,29 +171,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 **Objective-C**
 
 ```objc
+// AppDelegate.m
+#import "AppDelegate.h"
 @import AEPCore;
 @import AEPLifecycle;
 @import AEPEdge;
 @import AEPEdgeIdentity;
-@import AEPRollout;
+@import AEPFlags;
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    // Production: use AEPLogLevelError only. Do not use Debug or Trace in release builds.
     [AEPMobileCore setLogLevel:AEPLogLevelError];
 
-    NSArray *extensions = @[
-        AEPMobileLifecycle.class,
-        AEPMobileEdge.class,
+    [AEPMobileCore registerExtensions:@[
         AEPMobileEdgeIdentity.class,
-        AEPMobileRollout.class
-    ];
-
-    [AEPMobileCore registerExtensions:extensions completion:^{
-        // Initialize with your Environment File ID from Data Collection
+        AEPMobileEdge.class,
+        AEPMobileLifecycle.class,
+        AEPMobileFlag.class
+    ] completion:^{
         [AEPMobileCore configureWithAppId:@"YOUR_ENVIRONMENT_FILE_ID"];
+        [AEPMobileCore lifecycleStart:nil];
     }];
 
     return YES;
@@ -180,23 +203,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 @end
 ```
 
->[!IMPORTANT]
->
->對於生產應用程式，僅使用`LogLevel.error`。 請勿在發行版本組建中使用`.debug`或`.verbose`。
-
 ## 評估內容 {#evaluation-context}
 
-`FeatureEvaluationContext`包含目標屬性（用於轉出規則比對）和選擇性身分（用於analytics）。
+`FeatureEvaluationContext`包含目標屬性（用於旗標規則比對）。
 
-| 方法 | 必要 | 說明 |
+| 參數 | 必填 | 說明 |
 |---|---|---|
-| `withIdentity(namespace:id:)` | 否 | 第一個引數：身分名稱空間（請參閱[Adobe身分名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)）。 第二個引數：身分值。 當您想要在Analytics中表示該名稱空間和ID以用於此評估時，請包含此專案。 若未提供，Analytics預設會使用ECID。 這不會用來推動功能啟用決策。 |
-| `withAttributes(_:)` | 否 | `[String: [String]]`. 索引鍵是轉出規則所使用的內容屬性名稱（例如`locale`、`platform`、`appVersion`、`deviceType`）。 值是目前使用者/工作階段之索引鍵的候選屬性值清單（例如`["en_US"]`或`["phone"]`）。 |
+| `attributes` | 否 | `[String: [String]]`. 索引鍵是旗標規則所使用的內容屬性名稱（例如`locale`、`platform`、`appVersion`、`deviceType`）。 值是目前使用者/工作階段之索引鍵的候選屬性值清單（例如`["en_US"]`或`["phone"]`）。 |
 
 **Swift**
 
 ```swift
-import AEPRollout
+import AEPFlags
 
 let attrs: [String: [String]] = [
     "locale": ["en_US"],
@@ -205,7 +223,6 @@ let attrs: [String: [String]] = [
 ]
 
 let ctx = FeatureEvaluationContext.builder()
-    .withIdentity(namespace: "Email", id: "customer@example.com")
     .withAttributes(attrs)
     .build()
 ```
@@ -213,7 +230,7 @@ let ctx = FeatureEvaluationContext.builder()
 **Objective-C**
 
 ```objc
-@import AEPRollout;
+@import AEPFlags;
 
 NSDictionary<NSString *, NSArray<NSString *> *> *attrs = @{
     @"locale": @[@"en_US"],
@@ -221,10 +238,8 @@ NSDictionary<NSString *, NSArray<NSString *> *> *attrs = @{
     @"appVersion": @[@"3.0.0"]
 };
 
-AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder]
-    withIdentityNamespace:@"Email" id:@"customer@example.com"]
-    withAttributes:attrs]
-    .build;
+AEPFeatureEvaluationContextBuilder *builder = [AEPFeatureEvaluationContext builder];
+AEPFeatureEvaluationContext *ctx = [[builder withAttributes:attrs] build];
 ```
 
 ### 目標屬性範例 {#sample-attributes}
@@ -236,28 +251,54 @@ AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder
 | `appVersion` | 應用程式版本 | `["3.0.0"]` |
 | `deviceType` | 裝置類型 | `["phone"]`, `["tablet"]` |
 
-## 功能評估的主要概念 {#key-concepts}
+### 自訂身分 {#custom-identity}
 
-在應用程式中實作功能閘道時，請記得下列事項：
+Flags擴充功能會使用Edge Network的身分擴充功能來進行身分解析。 功能標幟可以在自訂身分上分組（例如CRM ID或忠誠度ID），以便變數拆分和分析繫結到對您的應用程式重要的身分。
 
-* **傳遞屬性值，但不顯示標籤。** 內容屬性值是&#x200B;**區分大小寫**。 傳遞您的應用程式或網站所傳送的原始值（例如`"en_US"`或`"IOS"`），而非主控台中顯示的標籤。
-* **在功能（旗標）層級進行評估。** 即使旗標屬於功能群組，請一律使用個別&#x200B;**功能金鑰**&#x200B;呼叫API。 沒有群組層級評估。 此回應會傳回使用者加入的變體。
-* **身分不需要連結到設定檔。** 評估會在執行階段進行。 無論身分是否連結至已知設定檔，都會將評估事件傳送至Customer Journey Analytics。
-* **每個新標幟都需要變更代碼。** 為您的程式碼中的每個旗標索引鍵新增閘道。 使用`isFeatureEnabled()`檢查布林值開啟/關閉狀態，或使用`getFeature()`擷取包含變體的完整功能裝載。
+編寫功能標幟時，必須在標幟UI中選取自訂身分名稱空間。 若要根據該身分評估旗標，裝置上的Edge身分`identityMap`中必須存在相同的身分，使用相符的名稱空間。 在執行階段提供Edge Network `updateIdentities` API的身分識別。
+
+#### 將自訂身分新增至身分對應 {#add-identity}
+
+在功能標幟上設定的相同名稱空間下新增身分。
+
+**Swift**
+
+```swift
+import AEPEdgeIdentity
+
+let identityMap = IdentityMap()
+identityMap.add(item: IdentityItem(id: "1111", authenticatedState: .authenticated, primary: true),
+                 withNamespace: "userCRMId") // must match the namespace configured on the feature flag
+Identity.updateIdentities(with: identityMap)
+```
+
+**Objective-C**
+
+```objc
+@import AEPEdgeIdentity;
+
+AEPIdentityItem *item = [[AEPIdentityItem alloc]
+    initWithId:@"1111"
+    authenticatedState:AEPAuthenticatedStateAuthenticated
+    primary:YES];
+AEPIdentityMap *identityMap = [[AEPIdentityMap alloc] init];
+[identityMap addItem:item withNamespace:@"userCRMId"]; // must match the namespace configured on the feature flag
+[AEPMobileEdgeIdentity updateIdentities:identityMap];
+```
 
 ## API 參考資料 {#api-reference}
 
 ### isFeatureEnable {#is-feature-enabled}
 
-`isFeatureEnabled`會傳回指定內容的體驗轉出功能是開啟還是關閉。 傳遞`featureKey`、`FeatureEvaluationContext` （選擇性的目標定位屬性和analytics的選擇性身分）以及完成處理常式。 請參閱[評估內容](#evaluation-context)。
+`isFeatureEnabled`會傳回指定內容的旗標功能是開啟還是關閉。 傳遞`featureKey`、`FeatureEvaluationContext` （選擇性目標屬性）和完成結束。 請參閱[評估內容](#evaluation-context)。
 
 **簽章**
 
 *Swift*
 
 ```swift
-Rollout.isFeatureEnabled(
-    featureKey: String,
+static func isFeatureEnabled(
+    _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
     completion: @escaping (Bool) -> Void
 )
@@ -266,17 +307,17 @@ Rollout.isFeatureEnabled(
 *Objective-C*
 
 ```objc
-[AEPMobileRollout isFeatureEnabled:(NSString *)featureKey
-               evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-                      completion:(void (^)(BOOL))completion];
++ (void)isFeatureEnabled:(NSString *)featureKey
+       evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
+               completion:(void (^)(BOOL))completion;
 ```
 
 **參數**
 
 | 參數 | 類型 | 說明 |
 |---|---|---|
-| `featureKey` | 字串 | 要在Experience轉出中評估的功能索引鍵 |
-| `evaluationContext` | FeatureEvaluationContext | 視需要包含目標屬性以及分析的可選身分識別；針對空白內容使用`FeatureEvaluationContext.builder().build()`。 請參閱[評估內容](#evaluation-context)。 |
+| `featureKey` | 字串 | 要在旗標中評估的功能索引鍵 |
+| `evaluationContext` | FeatureEvaluationContext | 視需要包含目標屬性；針對空白內容使用`FeatureEvaluationContext.builder().build()`。 請參閱[評估內容](#evaluation-context)。 |
 | `completion` | `(Bool) -> Void` | 如果功能已啟用，則使用`true`呼叫，否則使用`false`。 |
 
 **範例**
@@ -284,16 +325,16 @@ Rollout.isFeatureEnabled(
 *Swift*
 
 ```swift
-import AEPRollout
+import AEPFlags
 
-Rollout.isFeatureEnabled(
-    featureKey: "new-checkout-experience",
+Flag.isFeatureEnabled(
+    "new-flag",
     evaluationContext: ctx
 ) { isEnabled in
     if isEnabled {
-        showNewCheckout()
+        // Feature is enabled: run the feature-specific behavior
     } else {
-        showDefaultCheckout()
+        // Feature is disabled: fall back to the default behavior
     }
 }
 ```
@@ -301,15 +342,15 @@ Rollout.isFeatureEnabled(
 *Objective-C*
 
 ```objc
-@import AEPRollout;
+@import AEPFlags;
 
-[AEPMobileRollout isFeatureEnabled:@"new-checkout-experience"
-               evaluationContext:ctx
+[AEPMobileFlag isFeatureEnabled:@"new-flag"
+              evaluationContext:ctx
                       completion:^(BOOL isEnabled) {
     if (isEnabled) {
-        [self showNewCheckout];
+        // Feature is enabled: run the feature-specific behavior
     } else {
-        [self showDefaultCheckout];
+        // Feature is disabled: fall back to the default behavior
     }
 }];
 ```
@@ -323,8 +364,8 @@ Rollout.isFeatureEnabled(
 *Swift*
 
 ```swift
-Rollout.getFeature(
-    featureKey: String,
+static func getFeature(
+    _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
     completion: @escaping (FeatureEvaluationResult?) -> Void
 )
@@ -333,18 +374,18 @@ Rollout.getFeature(
 *Objective-C*
 
 ```objc
-[AEPMobileRollout getFeature:(NSString *)featureKey
-         evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-                completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion];
++ (void)getFeature:(NSString *)featureKey
+ evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
+        completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion;
 ```
 
 **參數**
 
 | 參數 | 類型 | 說明 |
 |---|---|---|
-| `featureKey` | 字串 | 要在Experience轉出中評估的功能索引鍵 |
-| `evaluationContext` | FeatureEvaluationContext | 視需要包含目標屬性以及分析的可選身分識別；針對空白內容使用`FeatureEvaluationContext.builder().build()`。 請參閱[評估內容](#evaluation-context)。 |
-| `completion` | `(FeatureEvaluationResult?) -> Void` | 使用評估的功能裝載呼叫；找不到功能時，可能為`nil`。 |
+| `featureKey` | 字串 | 要在旗標中評估的功能索引鍵 |
+| `evaluationContext` | FeatureEvaluationContext | 視需要包含目標屬性；針對空白內容使用`FeatureEvaluationContext.builder().build()`。 請參閱[評估內容](#evaluation-context)。 |
+| `completion` | `(FeatureEvaluationResult?) -> Void` | 使用評估的功能裝載呼叫；找不到功能時`nil`。 |
 
 **回應**
 
@@ -354,15 +395,15 @@ Rollout.getFeature(
 |---|---|---|
 | `id` | 整數 | 數值功能識別碼 |
 | `key` | 字串 | 功能鍵 |
-| `releaseKey` | 字串？ | 此功能的發行金鑰（可用時） |
-| `meta` | 字串？ | 可用時以JSON字串形式顯示功能中繼資料 |
+| `featureGroupKey` | 字串？ | 功能群組索引鍵（可用時） |
+| `meta` | 字串？ | 不透明功能中繼資料（可用時） |
 | `analyticsParam` | AnalyticsParam？ | 已評估功能的Analytics詳細資料 |
 
 *AnalyticsParam*
 
 | 欄位 | 類型 | 說明 |
 |---|---|---|
-| `releaseId` | 整數 | 數值發行識別碼 |
+| `featureGroupId` | 整數 | 數值功能群組識別碼 |
 | `featureId` | 整數 | 數值功能識別碼 |
 | `variantId` | 字串？ | 變體識別碼 |
 
@@ -371,63 +412,53 @@ Rollout.getFeature(
 *Swift*
 
 ```swift
-import AEPRollout
+import AEPFlags
 
-Rollout.getFeature(
-    featureKey: "new-checkout-experience",
+Flag.getFeature(
+    "new-flag",
     evaluationContext: ctx
 ) { feature in
-    if let meta = feature?.meta, !meta.isEmpty {
-        applyMetaDrivenExperience(meta)
-    } else {
-        showFallbackExperience()
+    guard let meta = feature?.meta, !meta.isEmpty else {
+        // No metadata available: fall back to the default behavior
+        return
     }
+    // Feature metadata is available: use it to drive the feature behavior
 }
 ```
 
 *Objective-C*
 
 ```objc
-@import AEPRollout;
+@import AEPFlags;
 
-[AEPMobileRollout getFeature:@"new-checkout-experience"
-         evaluationContext:ctx
+[AEPMobileFlag getFeature:@"new-flag"
+        evaluationContext:ctx
                 completion:^(AEPFeatureEvaluationResult * _Nullable feature) {
     NSString *meta = feature.meta;
-    if (meta != nil && meta.length > 0) {
-        [self applyMetaDrivenExperience:meta];
+    if (meta.length > 0) {
+        // Feature metadata is available: use it to drive the feature behavior
     } else {
-        [self showFallbackExperience];
+        // No metadata available: fall back to the default behavior
     }
 }];
 ```
 
-### refreshCache {#refresh-cache}
+### extensionVersion {#extension-version}
 
-根據預設，Experience Rollout擴充功能會定期根據您可設定的排程同步來自伺服器的最新轉出規則和功能。 如果您需要比下一次排定的同步處理更早的更新，請呼叫`refreshCache`以強制重新整理。 典型案例包括登入後或應用程式狀態改變而影響鎖定目標時。
+傳回Flags副檔名的版本字串。
 
 **語法**
 
 *Swift*
 
 ```swift
-Rollout.refreshCache()
+static var extensionVersion: String
 ```
 
 *Objective-C*
 
 ```objc
-[AEPMobileRollout refreshCache];
-```
-
-### extensionVersion {#extension-version}
-
-傳回Experience Rollout擴充功能的版本字串。
-
-**語法**
-
-```swift
-Rollout.extensionVersion(): String
++ (nonnull NSString *)flagExtensionVersion;
 ```
 
 **範例**
@@ -435,28 +466,26 @@ Rollout.extensionVersion(): String
 *Swift*
 
 ```swift
-let version = Rollout.extensionVersion()
+let version = Flag.extensionVersion
 ```
 
 *Objective-C*
 
 ```objc
-NSString *version = [AEPMobileRollout extensionVersion];
+NSString *version = [AEPMobileFlag flagExtensionVersion];
 ```
 
 ## API摘要 {#api-summary}
 
 | API | 傳回值 |
 |---|---|
-| `isFeatureEnabled(featureKey:evaluationContext:completion:)`. `FeatureEvaluationContext`攜帶規則的鎖定目標屬性和analytics的選用身分識別。 請參閱[isFeatureEnabled](#is-feature-enabled)。 | 透過完成處理常式布林值 |
-| `getFeature(featureKey:evaluationContext:completion:)`. 傳回給定內容的評估功能裝載。 請參閱[getFeature](#get-feature)。 | FeatureEvaluationResult？ 透過完成處理常式 |
-| `refreshCache()` | 無效 |
-| `extensionVersion()` | 字串 |
+| `isFeatureEnabled(_:evaluationContext:completion:)`. `FeatureEvaluationContext`攜帶規則的鎖定目標屬性。 請參閱[isFeatureEnabled](#is-feature-enabled)。 | 透過完成關閉的布林值 |
+| `getFeature(_:evaluationContext:completion:)`. 傳回給定內容的評估功能裝載。 請參閱[getFeature](#get-feature)。 | FeatureEvaluationResult？ 透過關閉 |
+| `extensionVersion` | 字串 |
 
 ## 另請參閱 {#see-also}
 
 * [行動應用程式](../../integrate/mobile-applications.md)
-* [整合步驟](../../integrate/integration-steps.md)
 * [SDK](../../integrate/sdks.md)
 * [Android擴充功能整合指南](../android/android-extension-integration-guide.md)
 

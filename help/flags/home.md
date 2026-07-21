@@ -4,7 +4,7 @@ description: 瞭解如何使用Adobe Target中的旗標，透過受控制的轉�
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 3%
@@ -39,14 +39,10 @@ Adobe Target中的旗標可讓產品團隊逐步、安全地傳送新功能，�
 
 1. **建立並發佈標幟** — 請依照[建立您的第一個功能標幟](guides/feature-flags/create-your-first-feature-flag.md)指南中的指示來定義標幟、設定您的初始對象並將其發佈到您的環境。
 
-1. **與您的應用程式整合** — 使用AEP Web SDK或AEP Mobile SDK連線您的應用程式，以便在執行階段擷取並套用旗標。 從應用程式型別的[整合步驟](guides/integrate/integration-steps.md)開始。
+1. **與您的應用程式整合** — 使用AEP Web SDK或AEP Mobile SDK連線您的應用程式，以便在執行階段擷取並套用旗標。 從您應用程式型別的[整合指南](guides/integrate/sdks.md)開始。
 
 一旦您的第一個旗標上線，您就可以調整其對象、設定逐步轉出，並將其從儲存提升為完全轉出。
 
 ## 需要協助嗎？
 
 如果某些專案的行為與預期不符，請聯絡您的Adobe代表以尋求支援。
-
-<!-- 
-Bob was here. Again.
--->

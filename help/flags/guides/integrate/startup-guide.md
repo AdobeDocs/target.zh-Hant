@@ -3,9 +3,9 @@ title: 啟動指南
 description: 請依照下列步驟，從請求存取權到建立您的第一個功能標幟，讓您的應用程式與標幟整合。
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: 9a4e16418c93fa163d821409a0eecb251f2a9929
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
@@ -27,31 +27,25 @@ ht-degree: 1%
 | 需求 | 詳細資料 |
 |---|---|
 | **應用程式識別碼** | 呼叫旗標API時使用的唯一使用者端識別碼。 在可用的情況下，使用您應用程式現有的使用者端ID。 |
-| **伺服器端使用者端** | 如果與伺服器端SDK整合，您需要具有適當許可權的管理員使用者端ID。 |
-| **案頭使用者端** | 產品代碼和產品版本可用來取代使用者端ID。 |
 
-## 步驟3：取得您的認證 {#step-3-credentials}
+## 步驟3：取得環境檔案ID {#step-3-credentials}
 
-您需要的憑證取決於您的整合路徑：
+您需要的環境檔案ID取決於您的整合路徑：
 
 * **網頁和行動裝置（以標籤為基礎）：**&#x200B;使用您發佈的標籤屬性中的&#x200B;**環境檔案識別碼**。 請參閱步驟4a以瞭解如何取得此資訊。
-* **伺服器端SDK：**&#x200B;要求&#x200B;**服務權杖使用者端ID**&#x200B;並擁有旗標支援允許清單，您才能從SDK進行API呼叫。
-* **案頭：**&#x200B;可以使用產品代碼和產品版本來取代使用者端識別碼。
 
 ## 步驟4：使用SDK整合 {#step-4-integrate}
 
-請針對您的應用程式型別，執行[整合步驟](integration-steps.md)。 選擇適合您棧疊的路徑：
+請遵循應用程式型別的整合指南。 選擇適合您棧疊的路徑：
 
-* **網頁服務** → Java SDK或Node.js SDK
-* **網頁和行動應用程式** → AEP Mobile SDK — 請參閱[Android](../sdk-releases/android/android-extension-integration-guide.md)和[iOS](../sdk-releases/ios/ios-extension-integration-guide.md)指南
-* **案頭應用程式** → SDK （即將推出）
+* **網頁和行動應用程式** — 請參閱整合指南區段中的[Android](../sdk-releases/android/android-extension-integration-guide.md)、[iOS](../sdk-releases/ios/ios-extension-integration-guide.md)和[網頁](../sdk-releases/web/web-extension-integration-guide.md)指南
 
 ## 步驟4a：設定資料收集並發佈您的設定 {#step-4a-data-collection}
 
 如果您透過標籤式方法（網頁或行動裝置）進行整合，請在初始化SDK之前設定標籤屬性：
 
 1. 在[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中，開啟您的行動或Web屬性。
-1. 安裝&#x200B;**Edge Network**&#x200B;擴充功能，然後安裝&#x200B;**Experience Rollout**&#x200B;擴充功能（依序安裝）。
+1. 安裝&#x200B;**Edge Network**&#x200B;擴充功能，然後安裝&#x200B;**Flags**&#x200B;擴充功能（依序安裝）。
 1. 選取您的&#x200B;**資料流** （必須包含Customer Journey Analytics資料集）和邊緣網域。
 1. 透過&#x200B;**Dev → Staging → Production**&#x200B;發佈設定。
 1. 從&#x200B;**環境**&#x200B;索引標籤複製&#x200B;**環境檔案ID** — 您將使用此項初始化SDK。
@@ -69,7 +63,6 @@ ht-degree: 1%
 ## 另請參閱 {#see-also}
 
 * [在應用程式中整合標幟](integrating-in-your-app.md)
-* [整合步驟](integration-steps.md)
 * [SDK](sdks.md)
 
 <!-- -->
