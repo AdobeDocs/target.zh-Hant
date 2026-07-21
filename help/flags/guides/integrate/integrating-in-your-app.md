@@ -3,9 +3,9 @@ title: 在應用程式中整合標幟
 description: 瞭解如何將旗標整合至您的應用程式，不論是Web服務、Web屬性、行動應用程式或案頭應用程式。
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -19,20 +19,14 @@ ht-degree: 0%
 選取與您的應用程式型別相符的指南：
 
 1. [啟動指南](startup-guide.md) — 從這裡開始，深入瞭解所有整合步驟
-2. [案頭應用程式](desktop-applications.md) — 案頭應用程式的SDK整合
-3. [行動應用程式](mobile-applications.md) — 適用於行動應用程式的SDK整合
-4. [Web應用程式](web-applications.md) — Web屬性的SDK整合
-5. [網站服務](web-services.md) — 後端服務的伺服器端SDK整合
-6. [SDK](sdks.md) — SDK架構、必要條件和可用的SDK
-7. [整合步驟](integration-steps.md) — 詳細的逐步整合指示
+1. [行動應用程式](mobile-applications.md) — 適用於行動應用程式的SDK整合
+1. [Web應用程式](web-applications.md) — Web屬性的SDK整合
 
 ## 應用程式型別總覽 {#overview}
 
 | 應用程式型別 | 建議的整合 |
 | --- | --- |
-| **Web服務/後端** | Java SDK或Node.js SDK |
-| **網頁應用程式** | Web SDK （即將推出） |
 | **行動應用程式** | AEP Mobile SDK — 請參閱[Android](../sdk-releases/android/android-extension-integration-guide.md)和[iOS](../sdk-releases/ios/ios-extension-integration-guide.md)指南 |
-| **案頭應用程式** | SDK （即將推出） |
+| **網頁應用程式** | 網頁SDK — 請參閱[網頁整合指南](../sdk-releases/web/web-extension-integration-guide.md) |
 
 <!-- -->

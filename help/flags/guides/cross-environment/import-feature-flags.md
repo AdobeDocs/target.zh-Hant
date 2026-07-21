@@ -3,9 +3,9 @@ title: 匯入功能標幟
 description: 瞭解如何在Flags中將功能標幟從一個沙箱匯入另一個沙箱中，以避免手動重新建立標幟設定。
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 ## 步驟1：前往目的地沙箱和應用程式 {#step-1}
 
-登入&#x200B;**目的地**&#x200B;沙箱的主控台 — 您要將旗標&#x200B;*匯入*&#x200B;的沙箱。 從「功能旗標」頁面的應用程式下拉式清單中，選取您要匯入旗標的應用程式。
+登入&#x200B;**目的地**&#x200B;沙箱的主控台 — 您要匯入旗標的沙箱。 按一下&#x200B;**匯入功能旗標**，然後從應用程式下拉式清單中選取您要匯入旗標的應用程式。
+
+功能旗標頁面上的![匯入功能旗標按鈕](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >

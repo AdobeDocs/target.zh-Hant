@@ -3,9 +3,9 @@ title: 環境概觀
 description: 瞭解如何在Flags中工作時選取正確的Adobe Experience Platform沙箱。
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 6%
 ## 如何選取沙箱 {#how-to}
 
 使用沙箱切換器在Flags console的頂部導覽列選擇正確的沙箱，然後建立或修改功能標幟。
+
+在Flags主控台中的![沙箱切換器](assets/sandbox-selection.png)
 
 ## 另請參閱 {#see-also}
 

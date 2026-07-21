@@ -3,9 +3,9 @@ title: 要求發行
 description: 瞭解如何在Flags中請求新的協調發行，以及要提供哪些資訊。
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 ## 先決條件 {#prerequisites}
 
-* 您有&#x200B;**發行管理員**&#x200B;角色 — 請參閱<!-- broken link[User roles](../teams/user-roles.md) -->
+* 您有&#x200B;**版本管理員**&#x200B;角色
 * 您的應用程式已上線 — 請參閱[將應用程式上線](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->在要求發行之前，請檢閱<!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->。 跨團隊功能群組能夠以較少的經常性費用滿足您的需求 — 這是自助式的，可支援更豐富的對象目標定位。
+>在請求發行之前，請先考慮跨團隊功能群組是否能在更少的開銷下滿足您的需求 — 這是自助式的，可支援更豐富的對象目標定位。
 
 ## 提交支援要求 {#submit}
 

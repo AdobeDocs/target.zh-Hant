@@ -3,10 +3,10 @@ title: 使用功能標幟的A/B測試
 description: 瞭解如何透過為一組功能標幟設定多個變體，以使用標幟中的功能群組執行A/B測試。
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 您可以存取主控台 — 請參閱[登入主控台](../console/log-in-to-the-console.md)
 * 您屬於某個團隊，您的應用程式已上線
-* 您有&#x200B;**開發人員**&#x200B;或&#x200B;**產品發行擁有者**&#x200B;角色
+* 您有&#x200B;**產品發行擁有者**&#x200B;角色
 * 您已建立要測試的功能標幟 — 請參閱[建立您的第一個功能標幟](create-your-first-feature-flag.md)
 
 ## 步驟1：建立具有多個變體的功能群組 {#create}
@@ -37,10 +37,6 @@ ht-degree: 0%
 
 在&#x200B;**對象**&#x200B;索引標籤上，新增對象條件並選取要包含的應用程式。 功能群組可以在同一個團隊中跨越多個應用程式。
 
->[!NOTE]
->
->若要在A/B測試中鎖定外部使用者，您必須擁有&#x200B;**產品發行擁有者**&#x200B;角色。 開發人員角色是沙箱式，並限於私人測試。
-
 ## 步驟3：為每個變體新增功能 {#features}
 
 在&#x200B;**功能**&#x200B;標籤下，每個變體都有自己的標籤。 為每個變體新增適當的功能標幟，以定義您要比較的不同體驗。
@@ -57,6 +53,6 @@ ht-degree: 0%
 
 * [建立功能群組](create-a-feature-group.md)
 * [設定逐步推出的功能群組](set-feature-group-gradual-rollout.md)
-* [報告](analytics.md)
+* [報告](reporting.md)
 
 <!-- -->
