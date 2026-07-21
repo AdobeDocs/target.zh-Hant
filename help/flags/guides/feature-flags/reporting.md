@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ![實驗面板，包含實驗、控制變體和量度選擇器](assets/experimentation-selection.png)
 
-請參閱[Experimentation面板檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation)，以取得如何計算這些量度的詳細資訊。
+請參閱[Experimentation面板檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation)，以取得如何計算這些量度的詳細資訊。
 
 ![依變體顯示提升度、信賴度和轉換率的實驗結果](assets/experimentation.png)
 
