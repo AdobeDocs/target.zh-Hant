@@ -15,10 +15,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4049
-ht-degree: 27%
+source-wordcount: 4434
+ht-degree: 25%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 27%
 | 演演算法型別 | 何時使用/可用的演演算法 |
 | --- | --- |
 | [!UICONTROL 購物車型] | 根據使用者的購物車內容提供建議。<ul><li>[!UICONTROL 瀏覽過這些專案的使用者，也瀏覽了]</li><li>[!UICONTROL 瀏覽過這些商品的人們也購買了]</li><li>[!UICONTROL 已購買這些商品的人，也已購買]</li></ul> |
-| [!UICONTROL 以熱門程度為基礎] | 根據您網站上的專案整體人氣或使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。 <ul><li>整個網站檢視次數最多</li><li>依類別檢視次數最多</li><li>[!UICONTROL 檢視次數最多的專案屬性]</li><li>整個網站[!UICONTROL 最暢銷商品]</li><li>[!UICONTROL 依類別排名的最暢銷商品]</li><li>[!UICONTROL 依專案屬性的最暢銷商品]</li><li>[!UICONTROL Analytics量度排名最前]</li></ul> |
+| [!UICONTROL 以熱門程度為基礎] | 根據您網站上的專案整體人氣或使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。 <ul><li>整個網站檢視次數最多</li><li>依類別檢視次數最多</li><li>[!UICONTROL 檢視次數最多的專案屬性]</li><li>設定檔屬性檢視次數最多</li><li>整個網站[!UICONTROL 最暢銷商品]</li><li>[!UICONTROL 依類別排名的最暢銷商品]</li><li>[!UICONTROL 依專案屬性的最暢銷商品]</li><li>[!UICONTROL 依個人檔案屬性的最暢銷商品]</li><li>[!UICONTROL Analytics量度排名最前]</li></ul> |
 | [!UICONTROL 專案型] | 根據找到使用者目前正在檢視或最近檢視之專案的類似專案提供建議。 <ul><li>[!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者]</li><li>[!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者]</li><li>[!UICONTROL 購買了此專案、也購買了其他專案的使用者]</li><li>[!UICONTROL 具有類似屬性的專案]</li></ul> |
 | [!UICONTROL 以使用者為基礎] | 根據使用者的行為提供建議。 <ul><li>[!UICONTROL 最近查看的項目]</li><li>[!UICONTROL 為您推薦]</li></ul> |
 | [!UICONTROL 自訂條件] | 根據您上傳的自訂檔案提出建議。 <ul><li>自訂演演算法</li></ul> |
@@ -179,6 +179,43 @@ ht-degree: 27%
 此演演算法可讓您選取建議要根據的專案屬性，例如「名稱」或「品牌」。
 
 接著，您需選取訪客的設定檔中儲存哪些設定檔屬性要符合，例如「最喜愛的品牌」、「加入購物車的最後一個專案」或「最常檢視的節目」。
+
+### 設定檔屬性檢視次數最多
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="輪廓屬性"
+>abstract="您可以使用設定檔指令碼來建立設定檔屬性。 一旦建立並啟動設定檔指令碼後，即可將對應的設定檔屬性用於此演演算法。"
+
+建議依訪客設定檔屬性而非專案資訊群組的最常檢視專案，例如[!UICONTROL 依類別檢視次數最多]和[!UICONTROL 依專案屬性檢視次數最多]。 [!DNL Target]會為每個屬性值保留個別的排名清單，並在傳送時顯示符合自己儲存值的清單。
+
+此演演算法依賴設定檔指令碼來填入屬性，指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。
+
+在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
+
+例如，以訪客區域為基礎而名為`recsAttributeRegion`的指令碼可能會如下所示：
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+建立並啟動指令碼後，建立條件視窗的設定檔屬性下拉式清單中會提供對應的[!UICONTROL 區域]專案。 請注意，`recsAttribute`首碼本身不會顯示在下拉式清單中。
+
+### [!UICONTROL 依個人檔案屬性的最暢銷商品]
+
+建議依訪客設定檔屬性而非專案資訊群組的最暢銷商品，例如[!UICONTROL 依類別的最暢銷商品]和[!UICONTROL 依專案屬性的最暢銷商品]。 [!DNL Target]會保留每個屬性值的個別最暢銷商品清單，並在傳送時顯示符合訪客自己儲存值的清單。
+
+和設定檔屬性檢視次數最多的一樣，此演演算法依賴設定檔指令碼來填入屬性，而且指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]會將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
+
+例如，以訪客的忠誠度等級為基礎而名為`recsAttributeLoyaltyTier`的指令碼可能會如下所示：
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+建立並啟動指令碼後，建立條件視窗的設定檔屬性下拉式清單中會提供對應的[!UICONTROL 忠誠度等級]專案。 請注意，`recsAttribute`首碼本身不會顯示在下拉式清單中。
 
 ### [!UICONTROL Analytics量度排名最前]
 

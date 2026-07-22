@@ -1,11 +1,12 @@
 ---
 title: 建立功能群組
 description: 瞭解如何在旗標中建立功能群組，以單一單位管理團隊中跨應用程式的多個功能旗標。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---

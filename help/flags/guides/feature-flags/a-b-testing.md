@@ -1,11 +1,12 @@
 ---
 title: 使用功能標幟的A/B測試
 description: 瞭解如何透過為一組功能標幟設定多個變體，以使用標幟中的功能群組執行A/B測試。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---

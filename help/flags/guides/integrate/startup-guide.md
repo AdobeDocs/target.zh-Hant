@@ -1,11 +1,12 @@
 ---
 title: 啟動指南
 description: 請依照下列步驟，從請求存取權到建立您的第一個功能標幟，讓您的應用程式與標幟整合。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 9a4e16418c93fa163d821409a0eecb251f2a9929
+source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -44,9 +45,10 @@ ht-degree: 1%
 
 如果您透過標籤式方法（網頁或行動裝置）進行整合，請在初始化SDK之前設定標籤屬性：
 
-1. 在[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中，開啟您的行動或Web屬性。
-1. 安裝&#x200B;**Edge Network**&#x200B;擴充功能，然後安裝&#x200B;**Flags**&#x200B;擴充功能（依序安裝）。
-1. 選取您的&#x200B;**資料流** （必須包含Customer Journey Analytics資料集）和邊緣網域。
+1. 在[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中，建立[標籤屬性](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/quick-start) （如果尚未建立），或使用現有的標籤屬性。
+1. 開啟行動或Web標籤屬性，並移至[擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/extensions/overview)。
+1. 安裝並設定&#x200B;**Edge Network**&#x200B;擴充功能。 然後安裝&#x200B;**Flags**&#x200B;擴充功能。
+1. 選取&#x200B;**資料流** （必須包含Customer Journey Analytics資料集）並設定Edge網域。
 1. 透過&#x200B;**Dev → Staging → Production**&#x200B;發佈設定。
 1. 從&#x200B;**環境**&#x200B;索引標籤複製&#x200B;**環境檔案ID** — 您將使用此項初始化SDK。
 

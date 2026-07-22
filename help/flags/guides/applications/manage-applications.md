@@ -1,12 +1,13 @@
 ---
 title: 管理應用程式
 description: 瞭解如何管理旗標中的應用程式，包括新增應用程式。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 2%
+source-wordcount: '100'
+ht-degree: 3%
 
 ---
 

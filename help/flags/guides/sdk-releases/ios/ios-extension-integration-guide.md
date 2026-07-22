@@ -1,10 +1,11 @@
 ---
 title: iOS整合指南的旗標擴充功能
 description: 瞭解如何在iOS上將Flags擴充功能與Adobe Experience Platform Mobile SDK整合。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1036'
 ht-degree: 5%
 
 ---

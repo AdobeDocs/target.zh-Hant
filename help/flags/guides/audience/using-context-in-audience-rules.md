@@ -1,11 +1,12 @@
 ---
 title: 在對象規則中使用內容
 description: 瞭解如何在對象規則中使用內容屬性，以取得標籤中的功能標籤和功能群組。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---

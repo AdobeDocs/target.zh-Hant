@@ -1,12 +1,13 @@
 ---
 title: 報表
 description: 瞭解如何使用Customer Journey Analytics檢視旗標中的功能標幟報告。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 檢視報表之前，請確定：
 
-1. 已為您的應用程式設定報告 — 請參閱[使用Customer Journey Analytics設定報告](#setup)。
+1. 已為您的應用程式設定報告 — 請參閱[設定CJA以取得功能標幟報告](set-up-cja-reporting.md)。
 1. 您的功能標幟或功能群組處於作用中狀態，並已累積資料。
 
 ## 檢視報告 {#view-report}
@@ -66,28 +67,9 @@ ht-degree: 0%
 
 ![依變體顯示提升度、信賴度和轉換率的實驗結果](assets/experimentation.png)
 
-### 在CJA中分析（選用） {#analyze-in-cja}
-
-載入報告後，**在CJA中分析**&#x200B;按鈕會出現在「報告」標籤的右上方。 選取此專案，即可在新的瀏覽器標籤中在Customer Journey Analytics開啟相同的報表完整頁面，讓您擁有完整的CJA工具集，以進行更深入的Ad Hoc分析。
-
-在Customer Journey Analytics工作區中開啟的![標幟概觀報告](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->報告會以暫時、未儲存的專案開啟。 如果您在CJA中自訂它（新增量度、變更面板、調整篩選器等）並想要保留這些變更，請使用「**專案>另存為範本**」來儲存它。 否則，當您關閉報表時，您的編輯將會遺失。
-
-![醒目提示「另存為範本」的「專案」功能表](assets/save-as-template.png)
-
-## 使用Customer Journey Analytics設定報告 {#setup}
-
-報表需要將Customer Journey Analytics資料集連線至您的Flags應用程式。 請聯絡Flags支援或您的Adobe代表，為您的應用程式啟用報告功能。
-
->[!NOTE]
->
->在功能要求中傳遞的身分不需要連結到設定檔。 評估會在執行階段進行，且事件會傳送至Customer Journey Analytics。
-
 ## 另請參閱 {#see-also}
 
+* [設定CJA功能標幟報表](set-up-cja-reporting.md)
 * [建立您的第一個功能標幟](create-your-first-feature-flag.md)
 * [使用功能標幟的A/B測試](a-b-testing.md)
 * [建立功能群組](create-a-feature-group.md)

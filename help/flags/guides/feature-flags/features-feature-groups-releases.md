@@ -1,11 +1,12 @@
 ---
 title: 特徵和特徵群組
 description: 瞭解功能旗標和旗標中的功能群組之間的差異，以及何時使用各功能。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 3%
 
 ---

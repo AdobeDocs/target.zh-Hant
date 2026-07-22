@@ -1,11 +1,12 @@
 ---
 title: 標幟簡介
 description: 瞭解Adobe Target中的旗標如何提供控管發行系統，以便逐步部署功能給鎖定目標的對象。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 2%
 
 ---

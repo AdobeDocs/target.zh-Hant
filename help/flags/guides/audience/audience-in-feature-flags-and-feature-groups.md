@@ -1,12 +1,13 @@
 ---
 title: 功能標幟和功能群組中的對象
 description: 瞭解如何使用內容屬性來定義標幟中功能標幟和功能群組的對象條件。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 4a8f7c3f-1ae5-4e65-a070-9fc33133eec0
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '70'
+ht-degree: 4%
 
 ---
 

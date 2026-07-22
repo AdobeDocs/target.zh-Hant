@@ -15,10 +15,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 44%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="輪廓屬性"
->abstract="您可以使用輪廓指令碼來建立輪廓屬性。"
+>abstract="您可以使用設定檔指令碼來建立設定檔屬性。"
 
 1. 選取&#x200B;**[!UICONTROL 演演算法型別]**&#x200B;和&#x200B;**[!UICONTROL 演演算法]**：
 
@@ -88,7 +88,7 @@ ht-degree: 46%
    | 演演算法型別 | 何時使用/可用的演演算法 |
    | --- | --- |
    | [!UICONTROL 購物車型] | 根據使用者的購物車內容提供建議。 <ul><li>[!UICONTROL 瀏覽過這些專案的使用者，也瀏覽了] </li><li>[!UICONTROL 瀏覽過這些商品的人們也購買了]</li><li>[!UICONTROL 已購買這些商品的人，也已購買]</li></ul> |
-   | [!UICONTROL 以熱門程度為基礎] | 根據您網站上的專案整體人氣或使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。 <ul><li>整個網站檢視次數最多</li><li>依類別檢視次數最多</li><li>[!UICONTROL 檢視次數最多的專案屬性]</li><li>整個網站[!UICONTROL 最暢銷商品]</li><li>[!UICONTROL 依類別排名的最暢銷商品]</li><li>[!UICONTROL 依專案屬性的最暢銷商品]</li><li>[!UICONTROL Analytics量度排名最前]</li></ul> |
+   | [!UICONTROL 以熱門程度為基礎] | 根據您網站上的專案整體人氣或使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。 <ul><li>整個網站檢視次數最多</li><li>依類別檢視次數最多</li><li>[!UICONTROL 檢視次數最多的專案屬性]</li><li>設定檔屬性檢視次數最多</li><li>整個網站[!UICONTROL 最暢銷商品]</li><li>[!UICONTROL 依類別排名的最暢銷商品]</li><li>[!UICONTROL 依專案屬性的最暢銷商品]</li><li>[!UICONTROL 依個人檔案屬性的最暢銷商品]</li><li>[!UICONTROL Analytics量度排名最前]</li></ul> |
    | [!UICONTROL 專案型] | 根據找到使用者目前正在檢視或最近檢視之專案的類似專案提供建議。 <ul><li>[!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者]</li><li>[!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者]</li><li>[!UICONTROL 購買了此專案、也購買了其他專案的使用者]</li><li>[!UICONTROL 具有類似屬性的專案]</li></ul> |
    | [!UICONTROL 以使用者為基礎] | 根據使用者的行為提供建議。<ul><li>[!UICONTROL 最近查看的項目]</li><li>[!UICONTROL 為您推薦]</li></ul> |
    | [!UICONTROL 自訂條件] | 根據您上傳的自訂檔案提出建議。<ul><li>自訂演演算法</li></ul> |
@@ -100,6 +100,8 @@ ht-degree: 46%
 1. 視需要選取&#x200B;**專案屬性**&#x200B;和&#x200B;**設定檔屬性以符合**、**建議金鑰**、**篩選金鑰**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以設定演演算法。
 
 其餘的演演算法組態選項會依選取的演演算法而有所不同。 若要完成演演算法的設定，請選取要比對的的[!UICONTROL 建議索引鍵]、[!UICONTROL 篩選索引鍵]、[!UICONTROL 共同發生基礎]、[!UICONTROL Analytics量度]和/或[!UICONTROL 專案屬性]和設定檔屬性。
+
+當您選取[!UICONTROL 依設定檔屬性檢視次數最多]或[!UICONTROL 依設定檔屬性最暢銷商品]時，請選取&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;以群組互動資料。 設定檔屬性來自擷取訪客特性的設定檔指令碼，例如地區或國家，而且指令碼名稱必須包含`recsAttribute`前置詞，因此會儲存為`user.recsAttribute<Name>`，例如`user.recsAttributeRegion`。 在傳遞期間，[!DNL Target]會向每位訪客提供對應至該屬性自身值的排名清單。
 
 如需有關選擇[!UICONTROL 建議索引鍵]的詳細資訊，請參閱[讓建議以建議索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 

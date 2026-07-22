@@ -1,11 +1,12 @@
 ---
 title: Adobe Target中的存取旗標
 description: 瞭解如何透過請求存取許可權並從Adobe Target中開啟旗標，開始使用旗標。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
