@@ -45,8 +45,8 @@ ht-degree: 1%
 
 如果您透過標籤式方法（網頁或行動裝置）進行整合，請在初始化SDK之前設定標籤屬性：
 
-1. 在[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中，建立[標籤屬性](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) （如果尚未建立），或使用現有的標籤屬性。
-1. 開啟行動或Web標籤屬性，並移至[擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)。
+1. 在[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中，建立[標籤屬性](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/quick-start) （如果尚未建立），或使用現有的標籤屬性。
+1. 開啟行動或Web標籤屬性，並移至[擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/extensions/overview)。
 1. 安裝並設定&#x200B;**Edge Network**&#x200B;擴充功能。 然後安裝&#x200B;**Flags**&#x200B;擴充功能。
 1. 選取&#x200B;**資料流** （必須包含Customer Journey Analytics資料集）並設定Edge網域。
 1. 透過&#x200B;**Dev → Staging → Production**&#x200B;發佈設定。
