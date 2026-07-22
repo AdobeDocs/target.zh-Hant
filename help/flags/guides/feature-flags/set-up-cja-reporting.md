@@ -52,7 +52,7 @@ ht-degree: 4%
 1. 使用正確的資訊設定您的[連線與資料設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)。
 1. 新增您在設定資料流時使用的ExD事件資料集。
 1. 新增要做為轉換事件的資料集，然後選取&#x200B;**下一步**。
-1. 在&#x200B;**新增資料集**&#x200B;對話方塊中，逐一設定每個所選資料集](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings)的[設定。
+1. 在&#x200B;**新增資料集**&#x200B;對話方塊中，逐一設定每個所選資料集[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings)的設定。
 
 在新增任何資料集之前![新增資料集對話方塊](assets/cja-connection-new-add-datasets-empty.png)
 
