@@ -6,18 +6,12 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4405
+source-wordcount: 4434
 ht-degree: 25%
 
 ---
@@ -44,7 +38,7 @@ ht-degree: 25%
 
 ## 購物車型 {#cart-based}
 
-[!UICONTROL 購物車型]演演算法型別允許根據訪客目前購物車的內容推薦專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
+[!UICONTROL 購物車型]演演算法型別允許根據訪客目前購物車的內容推薦專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
 
 購物車型建議邏輯類似於&quot;[!UICONTROL 為您推薦的]&quot;使用者型演演算法，以及&quot;[!UICONTROL 瀏覽過這些專案、購買那些]&quot;和&quot;[!UICONTROL 購買這些專案、購買那些]&quot;專案型演演算法的使用者。
 
@@ -182,11 +176,16 @@ ht-degree: 25%
 
 ### 設定檔屬性檢視次數最多
 
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="輪廓屬性"
+>abstract="您可以使用設定檔指令碼來建立設定檔屬性。 一旦建立並啟動設定檔指令碼後，即可將對應的設定檔屬性用於此演演算法。"
+
 建議依訪客設定檔屬性而非專案資訊群組的最常檢視專案，例如[!UICONTROL 依類別檢視次數最多]和[!UICONTROL 依專案屬性檢視次數最多]。 [!DNL Target]會為每個屬性值保留個別的排名清單，並在傳送時顯示符合自己儲存值的清單。
 
 此演演算法依賴設定檔指令碼來填入屬性，指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。
 
-在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
+在[此頁面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
 
 例如，以訪客區域為基礎而名為`recsAttributeRegion`的指令碼可能會如下所示：
 
@@ -201,7 +200,7 @@ if (region) return region;
 
 建議依訪客設定檔屬性而非專案資訊群組的最暢銷商品，例如[!UICONTROL 依類別的最暢銷商品]和[!UICONTROL 依專案屬性的最暢銷商品]。 [!DNL Target]會保留每個屬性值的個別最暢銷商品清單，並在傳送時顯示符合訪客自己儲存值的清單。
 
-和設定檔屬性檢視次數最多的一樣，此演演算法依賴設定檔指令碼來填入屬性，而且指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]會將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
+和設定檔屬性]檢視次數最多的[!UICONTROL 一樣，此演演算法依賴設定檔指令碼來填入屬性，而且指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]會將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。 在[此頁面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
 
 例如，以訪客的忠誠度等級為基礎而名為`recsAttributeLoyaltyTier`的指令碼可能會如下所示：
 
