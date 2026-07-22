@@ -1,11 +1,12 @@
 ---
 title: 建立您的第一個功能標幟
 description: 瞭解如何在旗標中建立功能標幟、設定對象以及在推出給使用者之前測試對象。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 2%
 
 ---

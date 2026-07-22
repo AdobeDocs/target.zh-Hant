@@ -1,10 +1,11 @@
 ---
 title: iOS整合指南的旗標擴充功能
 description: 瞭解如何在iOS上將Flags擴充功能與Adobe Experience Platform Mobile SDK整合。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1036'
 ht-degree: 5%
 
 ---
@@ -50,7 +51,7 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
    | 應用程式 ID | 旗標中應用程式的唯一識別碼 |
 
 1. 選取&#x200B;**儲存**。
-1. 依照[發佈程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)更新您的設定。
+1. 依照[發佈程式](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的設定。
 
 ### 取得環境檔案ID {#environment-file-id}
 

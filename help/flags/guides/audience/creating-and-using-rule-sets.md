@@ -1,10 +1,11 @@
 ---
 title: 建立和使用規則集
 description: 瞭解如何在旗標中建立可重複使用的受眾內容條件規則集，並將其匯入功能旗標和功能群組中。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---

@@ -1,11 +1,12 @@
 ---
 title: 建立功能群組
 description: 瞭解如何在旗標中建立功能群組，以單一單位管理團隊中跨應用程式的多個功能旗標。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 1. 提供標題、索引鍵、說明，以及選用的標籤。
 2. 設定功能群組的&#x200B;**百分比轉出**。
-3. 如果要執行A/B測試，請選取多個變體。 否則，請將其保留在一個變體中。 如需詳細資訊，請參閱具有功能旗標[&#128279;](a-b-testing.md)的A/B測試。
+3. 如果要執行A/B測試，請選取多個變體。 否則，請將其保留在一個變體中。 如需詳細資訊，請參閱具有功能旗標](a-b-testing.md)的[A/B測試。
 
 ## 步驟3：對象 {#audience}
 

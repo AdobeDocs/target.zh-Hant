@@ -1,12 +1,13 @@
 ---
 title: 要求存取權
 description: 瞭解如何在Adobe Target中要求旗標團隊的存取權，以及新成員可用的角色。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 

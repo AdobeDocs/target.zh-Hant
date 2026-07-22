@@ -1,12 +1,13 @@
 ---
 title: 更新發行對象規則
 description: 瞭解如何在Flags中設定和更新版本的對象條件，包括支援的規則型別以及如何組合這些型別。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 3%
+source-wordcount: '342'
+ht-degree: 4%
 
 ---
 

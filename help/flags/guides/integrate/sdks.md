@@ -1,12 +1,13 @@
 ---
 title: SDK
 description: 瞭解Flags中的SDK架構，以及可用的AEP Web SDK和AEP Mobile SDK擴充功能。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 

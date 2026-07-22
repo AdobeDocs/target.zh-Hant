@@ -3,9 +3,9 @@ audience: user
 user-guide-title: 旗標
 user-guide-description: 瞭解如何使用Adobe Target中的旗標來管理應用程式的功能旗標、受控轉出和目標發行。
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 9%
   + [設定逐步推出的功能群組](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [使用功能標幟的A/B測試](guides/feature-flags/a-b-testing.md)
   + [報表](guides/feature-flags/reporting.md)
+  + [設定CJA功能標幟報表](guides/feature-flags/set-up-cja-reporting.md)
 + 對象條件 {#audience}
   + [功能標幟和功能群組中的對象](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [在對象規則中使用內容](guides/audience/using-context-in-audience-rules.md)

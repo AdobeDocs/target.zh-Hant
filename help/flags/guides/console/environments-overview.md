@@ -1,12 +1,13 @@
 ---
 title: 環境概觀
 description: 瞭解如何在Flags中工作時選取正確的Adobe Experience Platform沙箱。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 6%
+source-wordcount: '95'
+ht-degree: 7%
 
 ---
 

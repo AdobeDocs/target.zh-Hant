@@ -1,11 +1,12 @@
 ---
 title: 控制多個特徵的特徵群組
 description: 瞭解旗標中的功能群組如何讓您以單一單元打包並管理跨應用程式的相關功能旗標。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---

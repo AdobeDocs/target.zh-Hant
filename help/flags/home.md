@@ -1,12 +1,13 @@
 ---
 title: 旗標
 description: 瞭解如何使用Adobe Target中的旗標，透過受控制的轉出、功能旗標和目標受眾管理，安全且逐步地傳遞功能。
+badge: label="Beta" type="Informative"
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '359'
 ht-degree: 3%
 
 ---
