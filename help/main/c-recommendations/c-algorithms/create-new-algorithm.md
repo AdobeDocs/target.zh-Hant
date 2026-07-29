@@ -79,7 +79,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="輪廓屬性"
->abstract="您可以使用設定檔指令碼來建立設定檔屬性。"
+>abstract="您可以使用輪廓指令碼來建立輪廓屬性。"
 
 1. 選取&#x200B;**[!UICONTROL 演演算法型別]**&#x200B;和&#x200B;**[!UICONTROL 演演算法]**：
 
@@ -88,7 +88,7 @@ ht-degree: 44%
    | 演演算法型別 | 何時使用/可用的演演算法 |
    | --- | --- |
    | [!UICONTROL 購物車型] | 根據使用者的購物車內容提供建議。 <ul><li>[!UICONTROL 瀏覽過這些專案的使用者，也瀏覽了] </li><li>[!UICONTROL 瀏覽過這些商品的人們也購買了]</li><li>[!UICONTROL 已購買這些商品的人，也已購買]</li></ul> |
-   | [!UICONTROL 以熱門程度為基礎] | 根據您網站上的專案整體人氣或使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。 <ul><li>整個網站檢視次數最多</li><li>依類別檢視次數最多</li><li>[!UICONTROL 檢視次數最多的專案屬性]</li><li>設定檔屬性檢視次數最多</li><li>整個網站[!UICONTROL 最暢銷商品]</li><li>[!UICONTROL 依類別排名的最暢銷商品]</li><li>[!UICONTROL 依專案屬性的最暢銷商品]</li><li>[!UICONTROL 依個人檔案屬性的最暢銷商品]</li><li>[!UICONTROL Analytics量度排名最前]</li></ul> |
+   | [!UICONTROL 以熱門程度為基礎] | 根據您網站上的專案整體人氣或使用者最喜愛或檢視次數最多的類別、品牌、型別等內的專案人氣提供建議。 <ul><li>整個網站檢視次數最多</li><li>依類別檢視次數最多</li><li>[!UICONTROL 檢視次數最多的專案屬性]</li><li>[!UICONTROL 依輪廓屬性的檢視次數最多項目]</li><li>整個網站[!UICONTROL 最暢銷商品]</li><li>[!UICONTROL 依類別排名的最暢銷商品]</li><li>[!UICONTROL 依專案屬性的最暢銷商品]</li><li>[!UICONTROL 依個人檔案屬性的最暢銷商品]</li><li>[!UICONTROL Analytics量度排名最前]</li></ul> |
    | [!UICONTROL 專案型] | 根據找到使用者目前正在檢視或最近檢視之專案的類似專案提供建議。 <ul><li>[!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者]</li><li>[!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者]</li><li>[!UICONTROL 購買了此專案、也購買了其他專案的使用者]</li><li>[!UICONTROL 具有類似屬性的專案]</li></ul> |
    | [!UICONTROL 以使用者為基礎] | 根據使用者的行為提供建議。<ul><li>[!UICONTROL 最近查看的項目]</li><li>[!UICONTROL 為您推薦]</li></ul> |
    | [!UICONTROL 自訂條件] | 根據您上傳的自訂檔案提出建議。<ul><li>自訂演演算法</li></ul> |
