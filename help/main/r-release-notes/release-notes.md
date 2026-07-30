@@ -7,21 +7,14 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 29%
+source-wordcount: 1046
+ht-degree: 26%
 
 ---
 
@@ -30,6 +23,26 @@ ht-degree: 29%
 探索[!DNL Adobe Target]的最新功能、增強功能和修正。 這些發行說明也涵蓋了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台元件（如適用）的更新。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 26.7.5 （2026年7月30日）
+
+**活動**
+
++++檢視詳細資料
+
+* **[!DNL A/B Test (Manual)]活動的Bayesian統計資料** [!DNL A/B Test (Manual)]活動現在支援Bayesian統計資料作為Welch的t檢定的替代方法。 在[!UICONTROL 目標與設定]中選擇統計方法：貝葉斯活動的報告會顯示以機率為基礎的決策量度，例如[!UICONTROL 成功控制的機會]，以及可信的區間，而不是頻率信賴區間。 [了解更多](../c-reports/statistical-methodology/statistical-calculations.md)
+
+* **[!DNL Customer Journey Analytics]報告[!DNL Auto-Allocate]個活動。** 除了[!DNL Target]和[!DNL Adobe Analytics] (A4T)之外，[!DNL Auto-Allocate]活動現在還可以使用[!DNL Customer Journey Analytics]作為其報告來源。 [了解更多](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+
++++
+
+**[!UICONTROL 視覺化體驗撰寫器] (VEC)**
+
++++檢視詳細資料
+
+* **無法選取或修改活動中的HTML選件。** 修正將某些HTML或體驗片段選件新增至活動時，導致[!UICONTROL 視覺化體驗撰寫器]當機，導致無法選取或修改選件的問題。 (TGT-55732)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.4 （2026年7月23日）
 
@@ -166,7 +179,7 @@ ht-degree: 29%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
