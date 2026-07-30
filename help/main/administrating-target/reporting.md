@@ -15,10 +15,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
 workflow-type: tm+mt
-source-wordcount: 795
-ht-degree: 22%
+source-wordcount: 823
+ht-degree: 21%
 
 ---
 
@@ -68,11 +68,11 @@ ht-degree: 22%
 
 * **[!DNL Customer Journey Analytics]**：如需在[!DNL Customer Journey Analytics]中使用[!DNL Target]報告的支援活動的矩陣，請參閱&#x200B;[!DNL Adobe Customer Journey Analytics]*中*[!DNL Target]&#x200B;報告中的[支援的活動型別](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities)。
 
-  不論選取的報表來源為何，[!UICONTROL Automated Personalization] (AP)、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動皆可建立及啟用。 當您選擇[Adobe Customer Journey Analytics做為報表來源](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)時，不支援這些活動。
+  無論在帳戶層級選取的報表來源為何，[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]活動皆可建立及啟用。 當您選擇[Adobe Customer Journey Analytics做為活動的報表來源](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)時，不支援這些活動型別。
 
-  即使您指定[!DNL Customer Journey Analytics]作為您的報表來源，[!DNL Target]也會用作[!DNL Automated Personalization]活動的報表來源。
+  即使您在帳戶層級指定[!DNL Customer Journey Analytics]作為您的報表來源，[!DNL Target]也會用作[!DNL Automated Personalization]活動的報表來源。
 
-  如果您指定[!DNL Customer Journey Analytics]作為[!UICONTROL 自動分配]或[!UICONTROL 自動鎖定目標]活動的報表來源，則可以使用[!DNL Target]或[!DNL Analytics]作為報表來源。
+  [!UICONTROL 自動分配]活動可使用[!DNL Customer Journey Analytics]作為報表來源。 請參閱[在&#x200B;[!DNL Adobe Customer Journey Analytics]*的*[!DNL Target]&#x200B;報表中建立使用 [!DNL Customer Journey Analytics] 作為報表來源](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source)的活動。 如果您指定[!DNL Customer Journey Analytics]作為[!UICONTROL 自動鎖定目標]活動的報表來源，則可以使用[!DNL Target]或[!DNL Analytics]作為報表來源。
 
 ## 報表的時區
 
