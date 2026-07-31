@@ -4,22 +4,15 @@ description: 瞭解如何將在 [!DNL Adobe Journey Optimizer] 中建立的優�
 title: 如何使用優惠決定？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+badge: label="舊版" type="Informative"
 TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 7ececdaa52eb07e65f62723a09961f1471921e1a
 workflow-type: tm+mt
-source-wordcount: 1017
+source-wordcount: 1018
 ht-degree: 3%
 
 ---
@@ -32,7 +25,7 @@ ht-degree: 3%
 
 如需[!DNL Adobe Journey Optimizer]和優惠決定的詳細資訊，請參閱&#x200B;*[!DNL Journey Optimizer]*&#x200B;檔案中的下列主題：
 
-* [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=zh-Hant)
+* [開始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
 * [關於決定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hant)
 
@@ -40,7 +33,7 @@ ht-degree: 3%
 
 若要在[!DNL Target]中使用報價決策，您需要下列專案：
 
-* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}實作的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}實作的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
 
   使用at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
 
@@ -85,11 +78,11 @@ ht-degree: 3%
 
 1. 在VEC右側的&#x200B;**[!UICONTROL 新增優惠決定]**&#x200B;邊欄中，選取所需的沙箱，然後按一下選取優惠決定.placement。
 
-   [!DNL Adobe Experience Platform]中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=zh-Hant){target=_blank}可讓您將執行個體分割到虛擬環境中。 例如，您可能有生產環境和測試環境。 [!DNL Adobe Journey Optimizer]中的[位置](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=zh-Hant){target=_blank}有助於確保正確的優惠方案內容顯示在正確位置。
+   [!DNL Adobe Experience Platform]中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}可讓您將執行個體分割到虛擬環境中。 例如，您可能有生產環境和測試環境。 [!DNL Adobe Journey Optimizer]中的[位置](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}有助於確保正確的優惠方案內容顯示在正確位置。
 
    ![新增優惠決定對話方塊中的「沙箱」和「位置」下拉式清單](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
-1. 選取想要的優惠位置和優惠決定，然後按一下[新增]。**&#x200B;**
+1. 選取想要的優惠位置和優惠決定，然後按一下[新增]。****
 
    ![選取優惠決定對話方塊](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
@@ -109,7 +102,7 @@ ht-degree: 3%
 
 處理優惠決定時，請考量下列資訊：
 
-* 此Offer Decisioning整合適用於以[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}為基礎的[!DNL Target]實施。 透過at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
+* 此Offer Decisioning整合適用於以[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}為基礎的[!DNL Target]實施。 透過at.js或其他[!DNL Target] SDK實作[!DNL Target]時，此功能無法使用。
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer]整合僅支援[手動[!UICONTROL A/B測試]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL 體驗鎖定目標]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活動。 此功能不適用於其他活動型別。
 
