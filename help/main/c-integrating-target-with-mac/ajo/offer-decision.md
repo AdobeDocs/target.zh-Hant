@@ -4,6 +4,7 @@ description: 瞭解如何將在 [!DNL Adobe Journey Optimizer] 中建立的優�
 title: 如何使用優惠決定？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+badge: label="舊版" type="Informative"
 TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
@@ -17,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 7ececdaa52eb07e65f62723a09961f1471921e1a
 workflow-type: tm+mt
-source-wordcount: 1017
+source-wordcount: 1018
 ht-degree: 3%
 
 ---
