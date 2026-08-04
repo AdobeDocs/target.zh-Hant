@@ -5,21 +5,10 @@ title: 我如何整合  [!DNL Target] 和 [!DNL Real-Time Customer Data Platform
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 TQID: https://experienceleague.adobe.com/0Zw98ulFxHFH-PdV8tmocpOXYCKR2ciKtqFKwD44iiM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 1173
@@ -122,11 +111,11 @@ Real-Time CDP 輪廓屬性可與 [!DNL Target] 共用，用於 HTML 產品建議
 如需詳細資訊，請參閱下列主題:
 
 * *Adobe Experience Platform發行說明中的[目的地發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant#destinations){target=_blank}*
-* [在&#x200B;*目的地概觀*&#x200B;指南中，設定相同頁面和下一頁個人化的個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hant){target=_blank}。
-* *目的地總覽*&#x200B;指南中的[Adobe Target連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hant){target=_blank}
+* [在&#x200B;*目的地概觀*&#x200B;指南中，設定相同頁面和下一頁個人化的個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}。
+* *目的地總覽*&#x200B;指南中的[Adobe Target連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
 * 在&#x200B;*目的地概觀*&#x200B;指南中的[對應屬性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hant#map-attributes){target=_blank}。
-* 在&#x200B;*目的地概觀*&#x200B;指南中[啟用對象以邊緣個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hant){target=_blank}。
-* 透過&#x200B;*目的地概觀*&#x200B;指南中「常見問題」下的 [!DNL Adobe Target] 和自訂Personalization目的地[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=zh-Hant#same-next-page-personalization){target=_blank} 相同頁面和下一頁個人化。
+* 在&#x200B;*目的地概觀*&#x200B;指南中[啟用對象以邊緣個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}。
+* 透過&#x200B;*目的地概觀*&#x200B;指南中「常見問題」下的 [!DNL Adobe Target] 和自訂Personalization目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} [相同頁面和下一頁個人化。
 
 ## 影片和部落格文章 {#videos-blogs}
 
@@ -144,25 +133,25 @@ Real-Time CDP 輪廓屬性可與 [!DNL Target] 共用，用於 HTML 產品建議
 
 了解如何在 [!DNL Real-Time Customer Data Platform] 中設定 [!DNL Adobe Target] 目的地，以開始從 [!DNL Real-Time CDP] 傳送區段和輪廓屬性到 [!DNL Target]。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449804/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### 影片：啟動區段和輪廓屬性
 
 了解如何從 [!DNL Adobe Real-Time Customer Data Platform] 將區段和輪廓屬性啟動到 [!DNL Adobe Target] 以在您的網站、行動應用程式和其他數位資產中顯示即時個人化內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447366/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
 ### 影片：在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 區段
 
 了解如何在 [!DNL Adobe Target] 中使用 [!DNL Real-Time Customer Data Platform] 區段，以在您的網站和行動應用程式上提供個人化體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446838/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
 ### 影片：在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 輪廓屬性
 
 了解如何在 [!DNL Adobe Target] 中使用 [!DNL Adobe Real-Time Customer Data Platform] 輪廓屬性，以在您的網站和行動應用程式上提供個人化體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451904/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### [!DNL Adobe Target] 部落格和影片：同一頁面增強的個人化
 
