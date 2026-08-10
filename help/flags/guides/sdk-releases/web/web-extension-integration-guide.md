@@ -5,8 +5,8 @@ badge: label="Beta" type="Informative"
 hide: true
 source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 7%
+source-wordcount: '1184'
+ht-degree: 8%
 
 ---
 
