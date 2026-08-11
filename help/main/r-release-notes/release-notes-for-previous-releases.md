@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 1175d9840a6607f7fea5e5ac6f768d12cdf52c8d
+source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
 workflow-type: tm+mt
-source-wordcount: 71469
+source-wordcount: 72205
 ht-degree: 48%
 
 ---
@@ -57,6 +57,136 @@ ht-degree: 48%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 — 2026
+
+## [!DNL Target Standard/Premium] 26.7.5 （2026年7月30日）
+
+**活動**
+
++++檢視詳細資料
+
+* **[!DNL A/B Test (Manual)]活動的Bayesian統計資料** [!DNL A/B Test (Manual)]活動現在支援Bayesian統計資料作為Welch的t檢定的替代方法。 在[!UICONTROL 目標與設定]中選擇統計方法：貝葉斯活動的報告會顯示以機率為基礎的決策量度，例如[!UICONTROL 成功控制的機會]，以及可信的區間，而不是頻率信賴區間。
+
+* **[!DNL Customer Journey Analytics]報告[!DNL Auto-Allocate]個活動。** 除了[!DNL Target]和[!DNL Adobe Analytics] (A4T)之外，[!DNL Auto-Allocate]活動現在還可以使用[!DNL Customer Journey Analytics]作為其報告來源。
+
++++
+
+**[!UICONTROL 視覺化體驗撰寫器] (VEC)**
+
++++檢視詳細資料
+
+* **無法選取或修改活動中的HTML選件。** 修正將某些HTML或體驗片段選件新增至活動時，導致[!UICONTROL 視覺化體驗撰寫器]當機，導致無法選取或修改選件的問題。 (TGT-55732)
+
++++
+
+## [!DNL Target Standard/Premium] 26.7.4 （2026年7月23日）
+
+**報告**
+
++++檢視詳細資料
+
+* **轉換率圖表不適用於特定行動對象。** 修正未針對特定行動對象呈現[!UICONTROL 轉換率]圖表的問題。 (TGT-55611)
+
+* 從下拉式清單中選取時，**「已檢視mbox」轉換目標無法運作。** 修正從[!UICONTROL 目標與設定]中下拉式清單中為「已檢視mbox」轉換目標選取mbox時，無法正確儲存mbox名稱，導致無法記錄轉換的問題。 (TGT-55588)
+
++++
+
+**客群**
+
++++檢視詳細資料
+
+* **對象庫頁面上的版面配置問題。** 修正當側面導覽摺疊時，[!UICONTROL 對象庫]頁面上啟用篩選器時發生的配置問題。 (TGT-55502)
+
++++
+
+**[!UICONTROL 視覺化體驗撰寫器] (VEC)**
+
++++檢視詳細資料
+
+* **行動版本未正確載入。** 修正[!UICONTROL 視覺化體驗撰寫器]無法提供重新整理方法，導致行動檢視無法正確載入的問題。 (TGT-54408)
+
+* **編輯或刪除修改動作無法運作。** 修正無法從[!UICONTROL 編輯體驗]檢視中編輯或刪除修改的問題。 (TGT-55250)
+
+* **活動載入後，瀏覽模式無回應。** 修正[!UICONTROL 瀏覽]模式對包含修改的體驗無回應而無法進一步導覽和編寫的問題。 (TGT-55306)
+
+* **無法選取Salesforce LWC （陰影DOM）內的元素。** 修正[!UICONTROL 視覺化體驗撰寫器]無法選取使用Shadow DOM巢狀內嵌Salesforce Lightning Web Components的元素的問題，進而導致「找不到選取器」錯誤。 (TGT-54956)
+
+* **在[!UICONTROL 視覺化體驗撰寫器]中出現重複的選件。** 修正修改和選件在活動編寫UI中間歇性重複顯示的問題。 (TGT-55685)
+
++++
+
+**管理**
+
++++檢視詳細資料
+
+* **已將內容產生助理重新命名為[!UICONTROL 產生內容]。** 將「AI助理」內容產生功能重新命名為[!UICONTROL 產生跨[!DNL Target]個UI表面的內容]。 (TGT-55689)
+
++++
+
+**推薦**
+
++++檢視詳細資料
+
+* **使用設定檔屬性的熱門程度建議。** [!DNL Target]現在支援依訪客個人資料屬性（例如國家、偏好語言或會員層級）動態地分組熱門程度建議、檢視次數最多和最暢銷商品。 （錐度–7614）
+
+* **建議集合在[!UICONTROL 集合]和活動設定之間不相符。** 修正從活動設定檢視時，[!UICONTROL Recommendations]集合與[!UICONTROL Recommendations] > [!UICONTROL 集合]檢視相比，傳回其他不合格實體的問題。 (TGT-55554)
+
++++
+
+## [!DNL Target Standard/Premium] 26.7.2 （2026年7月16日）
+
+**活動**
+
++++檢視詳細資料
+
+* **[!UICONTROL 活動概覽]頁面上的目標資訊不正確。** 修正[!DNL Automated Personalization]活動的[!UICONTROL 活動概覽]頁面顯示其他目標而非最佳化目標的問題。 (TGT-55553)
+
+* 以[!UICONTROL 瀏覽]模式瀏覽頁面時，**畫面無回應。** 修正在[!UICONTROL 瀏覽]模式中瀏覽頁面時，畫面無回應的問題。 (TGT-55565)
+
++++
+
+**首頁**
+
++++檢視詳細資料
+
+* [!UICONTROL 最佳執行者]和[!UICONTROL 儲存]的&#x200B;**UI變更。** 更新表現最佳者的UI並儲存體驗。 (TGT-54975)
+
++++
+
+**客群**
+
++++檢視詳細資料
+
+* 在[!UICONTROL 建立設定檔指令碼]對話方塊中&#x200B;**未當地語系化的字串。** 修正[!UICONTROL 建立設定檔指令碼]對話方塊中的字串未當地語系化的問題。 (TGT-51527)
+
++++
+
+## [!DNL Target Standard/Premium] 26.7.1 （2026年7月9日）
+
+**活動**
+
++++檢視詳細資料
+
+* **在[!UICONTROL 活動]、[!UICONTROL 對象]和[!UICONTROL 選件]頁面間不一致的來源顯示。** 修正來源在[!UICONTROL 活動]、[!UICONTROL 對象]和[!UICONTROL 選件]頁面上顯示不一致的問題。 (TGT-55247)
+
+* **透過UI編輯時活動來源變更。** 修正透過UI編輯活動變更原始活動來源的問題。 (TGT-55248)
+
++++
+
+**客群**
+
++++檢視詳細資料
+
+* **編輯對象時預設工作區不正確。** 修正編輯對象後，預設工作區不正確的問題。 (TGT-55510)
+
++++
+
+**報告**
+
++++檢視詳細資料
+
+* 5月報告的&#x200B;**CSV下載失敗。** 修正五月下載CSV報表失敗的問題。 (TGT-55524)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.8 （2026年6月24日）
 
