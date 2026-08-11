@@ -5,10 +5,40 @@ title: 舊版版本包含哪些功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 TQID: https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0aid: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e6ff21d3-dec6-4298-8590-7c749fffaf78id: e9001ce2-5245-4a8e-8601-dd958009072fid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
 workflow-type: tm+mt
 source-wordcount: 72205
@@ -735,7 +765,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 +++檢視詳細資料
 
-* 在新的VEC UI **中，**[!UICONTROL &#x200B;體驗片段]名稱被截斷(TGT-54312)
+* 在新的VEC UI **中，**&#x200B;[!UICONTROL &#x200B;體驗片段]名稱被截斷(TGT-54312)
 * **無法對[!UICONTROL 收入]量度使用[!UICONTROL 進階設定]。** 此修正解決使用者在[!UICONTROL 目標與設定]中設定[!UICONTROL 收入]量度的[!UICONTROL 進階設定]時遇到403「存取遭拒」錯誤的問題。 新增與主要目標繫結的相依性條件時發生問題；後端不正確地要求編輯者許可權，即使使用者已經有足夠的許可權可建立和編輯活動。 因此，儘管設定有效，儲存活動仍會失敗。 更新會更正許可權檢查，使具有適當存取許可權的使用者可以成功新增收入量度相依性，而不會觸發禁止的資源錯誤。 (TGT-54092)
 * **修正[新增]按鈕未套用至所選取影像的問題。** 已修正導致客戶在活動建立程式中選取或更新影像時無法新增特定影像的問題。 例如，當客戶搜尋特定資產時，搜尋&quot;ipp&quot;時傳回的影像，按一下[!UICONTROL 新增]按鈕未套用選取的影像，且未建立任何修改。 選取其他影像（例如`Homepage-banner-1-moz.jpg`）可繼續如預期運作。 此更新可確保所有有效影像都能在更新後的UI中一致地套用。 (TGT-53610)
 * **修正刪除URL條件會重設目標量度組態的問題。** 修正移除[!UICONTROL 目標]量度中的單一URL條件導致整個設定在更新的UI中重設的問題。 當客戶嘗試刪除[!UICONTROL 轉換] > [!UICONTROL 已檢視頁面]下儲存的URL條件時，目標型別意外地切換為[!UICONTROL 已檢視Mbox]，且先前設定的所有設定都已移除。 此更新可確保只刪除選取的URL條件，而其餘的所有目標設定都會保持不變。 (TGT-53271)
@@ -807,13 +837,13 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 * **具有實體屬性比對之屬性的促銷活動在活動儲存後無法載入建議索引鍵。** 修正型別[!UICONTROL 依屬性]且規則型別為[!UICONTROL 實體屬性比對]的促銷活動，在儲存活動後編輯時未載入建議金鑰的問題。 此問題是因為未透過GraphQL要求`customKeyId`所造成。 現在，建議索引鍵會在升級編輯期間正確載入。 (TGT-53117)
 * 從ExpB切換到ExpA時，**建議會以視覺化方式持續存在。** 解決在體驗B中插入建議，然後切換至體驗A，讓建議選件方塊保持可見的問題。 這僅是視覺上的不一致；現在當在體驗之間切換時，修改會正確呈現，以確保準確的UI行為。 (TGT-53911)
-* **建議金鑰未載入具有[!UICONTROL 實體屬性]相符的[!UICONTROL 依屬性的促銷活動]。** 已解決規則型別為[!UICONTROL 實體屬性比對]且依屬性]促銷之型別[!UICONTROL 的促銷活動在儲存活動後編輯時未載入建議金鑰的問題。 現在，可透過GraphQL正確擷取建議金鑰，確保促銷活動如預期般顯示及運作。 (TGT-53917)
+* **建議金鑰未載入具有[!UICONTROL 實體屬性]相符的[!UICONTROL 依屬性的促銷活動]。** 已解決規則型別為[!UICONTROL 實體屬性比對]且依屬性促銷之型別的促銷活動在儲存活動後編輯時未載入建議金鑰的問題。 現在，可透過GraphQL正確擷取建議金鑰，確保促銷活動如預期般顯示及運作。 (TGT-53917)
 * **在已更新的UI中，無法對隱藏的HTML元素編輯建議。** 解決[!UICONTROL 新建立]和VEC UI中，無法編輯套用至隱藏HTML元素的建議活動的問題。 此功能現在可如預期運作，恢復與舊版UI的同等性，並確保不論元素可見度為何，建議均可修改。 (TGT-53953)
 * **無法在更新的UI中編輯隱藏HTML元素的建議活動。** 解決更新UI中無法編輯套用至隱藏HTML元素的建議活動的問題。 此功能現在可如預期運作，恢復與舊版UI的同等性，並確保不論元素可見度為何，建議均可修改。 (TGT-53951)
 * **建議目錄在更新的UI中間歇性地遺漏屬性值。** 已解決在更新的[!UICONTROL Recommendations] UI中，目錄搜尋清單間歇性地無法顯示某些屬性值（例如訊息）的問題，即使是在產品摘要中顯示亦然。 屬性值現在會在搜尋結果中持續載入，而不需要重新設定欄，進而改善目錄管理的可靠性和效率。 (TGT-52769)
 * 更新的UI中缺少[!DNL Recommendations]活動的&#x200B;**[!UICONTROL 下載建議]按鈕。** 解決更新的[!DNL Recommendations] UI中，使用建議的A/B活動看不到[!UICONTROL 下載建議]按鈕的問題。 按鈕現在會正確顯示，可讓使用者如預期匯出建議資料，與舊版UI中的功能一致。 (TGT-53768)
 * 更新後的總覽UI中缺少&#x200B;**[!UICONTROL 下載建議資料]按鈕。** 解決更新的[!UICONTROL 總覽] UI中，包含建議的活動看不到[!UICONTROL 下載建議資料]按鈕的問題。 按鈕現在會正確顯示，確保使用者可直接匯出建議資料，而無需切換回舊版UI。 (TGT-53772)
-* **編輯活動條件有時會在更新的UI中產生空白熒幕。** 解決在更新的UI中按一下體驗]中的[!UICONTROL 編輯條件偶爾會導致某些活動的空白畫面的問題。 條件編輯器現在會在所有活動中以可靠的方式載入，確保使用者可以編輯而不會中斷。 (TGT-53961)
+* **編輯活動條件有時會在更新的UI中產生空白熒幕。** 解決在更新的UI中按一下體驗中的編輯條件偶爾會導致某些活動的空白畫面的問題。 條件編輯器現在會在所有活動中以可靠的方式載入，確保使用者可以編輯而不會中斷。 (TGT-53961)
 * **無法在更新的UI中編輯順序條件。** 解決在更新的UI中嘗試編輯[!UICONTROL 序列條件]導致條件快顯視窗在載入時卡住，然後顯示空白畫面的問題。 條件編輯器現在會正確載入，讓使用者可以編輯和更新順序條件而不會中斷。 (TGT-53985)
 
 +++
@@ -2377,7 +2407,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 | 更新 | 詳細資料 |
 |--- |--- |
-| [!UICONTROL 瀏覽器:iPad]和[!UICONTROL 瀏覽器:iPhone]已更新建立對象時所用的[瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md)。 | [!DNL Adobe Target]可讓您[鎖定數個類別屬性中的任何一個](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括瀏覽您的頁面時使用特定[瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md)的訪客。<P>從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）將會更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`為[!DNL iPad]和[!DNL iPhone]執行適當的鎖定目標。<P>此更新不需要客戶採取任何動作。<p><B>重要</b>：若要讓客戶在設定檔指令碼（和JavaScript區段）中針對[!DNL iPad]和[!DNL iPhone]執行適當的目標定位，客戶必須在&#x200B;**2024年4月30日**&#x200B;之前進行手動變更。 如需必須手動變更的替代設定範例，請參閱[!UICONTROL 瀏覽器]對象屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)中 [!DNL iPad] 和 [!DNL iPhone] 的[更新。 |
+| [!UICONTROL 瀏覽器:iPad]和[!UICONTROL 瀏覽器:iPhone]已更新建立對象時所用的[瀏覽器屬性](/help/main/c-target/c-audiences/c-target-rules/browser.md)。 | [!DNL Adobe Target]可讓您[鎖定數個類別屬性中的任何一個](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括瀏覽您的頁面時使用特定[瀏覽器或瀏覽器選項](/help/main/c-target/c-audiences/c-target-rules/browser.md)的訪客。<P>從[!DNL Target] Standard/Premium 24.3.1 （2024年3月4至6日）開始，使用Target UI建立的內建對象（例如`Browser:iPad`和`Browser:iPhone`）將會更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`為[!DNL iPad]和[!DNL iPhone]執行適當的鎖定目標。<P>此更新不需要客戶採取任何動作。<p><B>重要</b>：若要讓客戶在設定檔指令碼（和JavaScript區段）中針對[!DNL iPad]和[!DNL iPhone]執行適當的目標定位，客戶必須在&#x200B;**2024年4月30日**&#x200B;之前進行手動變更。 如需必須手動變更的替代設定範例，請參閱[!UICONTROL 瀏覽器]對象屬性[&#128279;](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)中 [!DNL iPad] 和 [!DNL iPhone] 的更新。 |
 
 ### [!UICONTROL Visual Editing Helper]擴充功能（2024年3月14日）
 
@@ -2418,7 +2448,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 此版本包含下列增強功能和修正：
 
-* 已增強[活動QA](/help/main/c-activities/c-activity-qa/activity-qa.md)功能，以支援[!UICONTROL Automated Personalization]活動中的體驗不允許重複選件](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。 [(TGT-46627)
+* 已增強[活動QA](/help/main/c-activities/c-activity-qa/activity-qa.md)功能，以支援[!UICONTROL Automated Personalization]活動中的體驗不允許重複選件[&#128279;](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。 (TGT-46627)
 * 在 [!DNL Target] UI 中新增工具提示，可協助客戶了解為什麼在沒有流量分配給控制體驗時，活動報告可能沒有資料。 工具提示中包含更多資訊的連結： [為什麼我的活動報告沒有可用的資料？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。 (TGT-46610)
 * 修正少數客戶的[!UICONTROL 活動]頁面上無法正確顯示活動的問題。 (TGT-46830)
 * 修正下列問題，這些問題會影響使用[[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)作為報表來源的活動：
@@ -2500,7 +2530,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 此版本包含下列增強功能和修正：
 
-* 改善在[!UICONTROL 視覺化體驗撰寫器] (VEC)中使用DOM路徑](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)導覽元素以包含陰影DOM元素時的搜尋。 [(TGT-45262)
+* 改善在[!UICONTROL 視覺化體驗撰寫器] (VEC)中使用DOM路徑[&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)導覽元素以包含陰影DOM元素時的搜尋。 (TGT-45262)
 * 已修正[變更覆蓋](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)設定無法正常運作的問題。 (TGT-45202)
 * 已修正一些客戶在收到以下錯誤訊息：「使用者無權存取報告」後無法下載活動報告的問題。 (TGT-45724 和 TGT-45747)
 
@@ -2560,7 +2590,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 | 功能 | 詳細資料 |
 |--- |--- |
-| 已針對[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]最佳化A4T量度<p>(發行日期：2023 年 3 月 30 日) | 針對[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用[!UICONTROL A4T]時，[!DNL Target]可讓您根據二項式事件，或根據連續事件選擇量度。<P>請注意受支援量度的以下變更：<ul><li>[!DNL Target] 已保留現有活動的先前行為，直到 2023 年 9 月 9 日。 在此日期之後，將停止使用非支援之量度的活動，以強制現有活動遷移至新行為。</li></ul>如需詳細資訊，請參閱[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)中的「支援的目標量度」。<br>因為此功能，已更新以下教學課程：<ul><li>[在 [!DNL Analysis Workspace] 中為[!UICONTROL 自動分配]活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>在 [!DNL Analysis Workspace] 中為[!UICONTROL 自動鎖定目標]活動](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}設定A4T報告[</li></ul> |
+| 已針對[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]最佳化A4T量度<p>(發行日期：2023 年 3 月 30 日) | 針對[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動使用[!UICONTROL A4T]時，[!DNL Target]可讓您根據二項式事件，或根據連續事件選擇量度。<P>請注意受支援量度的以下變更：<ul><li>[!DNL Target] 已保留現有活動的先前行為，直到 2023 年 9 月 9 日。 在此日期之後，將停止使用非支援之量度的活動，以強制現有活動遷移至新行為。</li></ul>如需詳細資訊，請參閱[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動的[A4T支援](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)中的「支援的目標量度」。<br>因為此功能，已更新以下教學課程：<ul><li>[在 [!DNL Analysis Workspace] 中為[!UICONTROL 自動分配]活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>在 [!DNL Analysis Workspace] 中為[!UICONTROL 自動鎖定目標]活動[&#128279;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}設定A4T報告</li></ul> |
 
 * 增強客群和活動同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 中建立的項目可更快地在 [!DNL Target] UI 中使用。 (TGT-44568)
 * 增強使用者介面，可讓使用者移除[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器] > [!UICONTROL 預設URL]底下的[!UICONTROL 預設URL]。 此變更可讓客戶將預設 URL 變更回空字串，這在以前於初始設定後是不可能的。 (TGT-44577)
@@ -2860,7 +2890,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 * 已修正在編輯活動時，導致合併的受眾停用[!UICONTROL 包含]及[!UICONTROL 排除]選項的問題。 (TGT-43422)
 * 已修正導致某些客戶在編輯活動時無法看到可用客群清單的問題。 (TGT-43404)
-* 已修正導致某些客戶無法從[!UICONTROL 管理] > [!UICONTROL 報告]中的[!DNL Target]報告資料]」清單刪除IP位址的問題。 [!UICONTROL (TGT-43384)
+* 已修正導致某些客戶無法從[!UICONTROL 管理] > [!UICONTROL 報告]中的[!DNL Target]報告資料」清單刪除IP位址的問題。 (TGT-43384)
 * 已修正導致無法在檢查任何變數為「大於」、「大於或等於」、「小於」或「小於或等於」的客群條件中使用負數的問題。 (TGT-43367)
 * 已修正導致客戶在建立合併受眾時無法看到[!UICONTROL 受眾詳細資料]卡片的問題。 (TGT-43303)
 
@@ -3013,7 +3043,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 | 功能 | 詳細資料 |
 | --- | --- |
-| ![Premium徽章](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL 目錄搜尋] API | 透過 API 以程式設計方式搜尋您的 [!DNL Recommendations] 產品和內容目錄，以識別符合搜尋條件的項目並簡化目錄管理。<br>**限制和備註**：<ul><li>具有超過 2,000,000 個項目的環境不支援透過 API 進行目錄搜尋。</li><li>透過 API 的目錄搜尋結果，比透過 [!DNL Target] UI 的目錄搜尋結果更新得更快。 [!DNL Target] UI 中的目錄搜索可能需要額外的時間來反映最新結果。</li></ul>如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API* 指南中的「[搜尋實體](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)」。 |
+| ![Premium徽章](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL 目錄搜尋] API | 透過 API 以程式設計方式搜尋您的 [!DNL Recommendations] 產品和內容目錄，以識別符合搜尋條件的項目並簡化目錄管理。<br>**限制和備註**：<ul><li>具有超過 2,000,000 個項目的環境不支援透過 API 進行目錄搜尋。</li><li>透過 API 的目錄搜尋結果，比透過 [!DNL Target] UI 的目錄搜尋結果更新得更快。 [!DNL Target] UI 中的目錄搜索可能需要額外的時間來反映最新結果。</li></ul>如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target]&#x200B;[!DNL Recommendations] API* 指南中的「[搜尋實體](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)」。 |
 
 此版本維護發行包含下列修正。
 
@@ -3228,8 +3258,8 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 
 | 功能/增強功能 | 說明 |
 | --- | --- |
-| at.js 1.8.2 | 此 at.js 版本為維護版本，包含下列修正：<ul><li>修正使用CNAME和Edge覆寫時，at.js 1.*x*&#x200B;可能建立錯誤的伺服器網域，而導致[!DNL Target]要求失敗的問題。 (TNT-35064)</li></ul>如需詳細資訊，請參閱[ at.js 版本詳細資訊](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
-| at.js 2.3.1 | 此 at.js 版本為維護版本，包含下列增強功能和修正：<ul><li>透過 [targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} 將 `deviceIdLifetime` 設定設為可覆寫。 (TNT-36349)</li><li>修正使用CNAME和Edge覆寫時，at.js 2.*x*&#x200B;可能建立錯誤的伺服器網域，而導致[!DNL Target]要求失敗的問題。 (TNT-35065)</li><li>修正使用 [!DNL Target] [!DNL Launch]擴充功能 v2 和 [!DNL Adobe Analytics] [!DNL Launch]擴充功能時，[!DNL Target] 延遲 [!DNL Analytics]`sendBeacon` 呼叫的問題。 (TNT-36407、TNT-35990、TNT-36000)</li></ul>如需詳細資訊，請參閱[ at.js 版本詳細資訊](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
+| at.js 1.8.2 | 此 at.js 版本為維護版本，包含下列修正：<ul><li>修正使用CNAME和Edge覆寫時，at.js 1.*x*&#x200B;可能建立錯誤的伺服器網域，而導致[!DNL Target]要求失敗的問題。 (TNT-35064)</li></ul>如需詳細資訊，請參閱[&#x200B; at.js 版本詳細資訊](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
+| at.js 2.3.1 | 此 at.js 版本為維護版本，包含下列增強功能和修正：<ul><li>透過 [targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} 將 `deviceIdLifetime` 設定設為可覆寫。 (TNT-36349)</li><li>修正使用CNAME和Edge覆寫時，at.js 2.*x*&#x200B;可能建立錯誤的伺服器網域，而導致[!DNL Target]要求失敗的問題。 (TNT-35065)</li><li>修正使用 [!DNL Target] [!DNL Launch]擴充功能 v2 和 [!DNL Adobe Analytics] [!DNL Launch]擴充功能時，[!DNL Target] 延遲 [!DNL Analytics]`sendBeacon` 呼叫的問題。 (TNT-36407、TNT-35990、TNT-36000)</li></ul>如需詳細資訊，請參閱[&#x200B; at.js 版本詳細資訊](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。 |
 
 ### 輪廓批次狀態 API v2 變更（2020 年 5 月 14 日）
 
@@ -3323,7 +3353,7 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * at.js 2.3.0版
 * at.js 1.8.1 版
 
-如需詳細資訊，請參閱[ at.js 版本詳細資訊](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+如需詳細資訊，請參閱[&#x200B; at.js 版本詳細資訊](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 ### Target Standard/Premium 20.2.1 (2020 年 3 月 23 日)
 
@@ -5427,7 +5457,7 @@ Adobe Target Standard/Premium 16.5.1 (2016 年 5 月 19 日) 版本包括下列�
    <td colname="col1" class="premium"> Recommendations CSV 下載 </td> 
    <td colname="col2"> <p>CSV下載現在適用於所有環境，包括沒有實體推薦的環境(例如： 
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>). </p> </td> 
   </tr> 
  </tbody> 
