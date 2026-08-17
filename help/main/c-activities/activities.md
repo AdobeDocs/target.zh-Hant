@@ -5,21 +5,12 @@ title: 如何使用 [!DNL Target]個人化內容及測試頁面設計？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 TQID: https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
+source-wordcount: 2648
 ht-degree: 25%
 
 ---
@@ -47,7 +38,7 @@ ht-degree: 25%
 | [!UICONTROL 顯示篩選器]圖示<P>![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) | 若要存取篩選器，請按一下靠近清單頂端的&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;圖示，依[!UICONTROL 型別]、[!UICONTROL 狀態]、[!UICONTROL 報告Source]、[!UICONTROL 體驗撰寫器]、[!UICONTROL 量度型別]、[!UICONTROL 決策Source]、[!UICONTROL 活動Source]和[!UICONTROL 屬性]來篩選活動。<P>您設定的篩選器會在目前的工作階段中持續存在。<P>如需詳細資訊，請參閱下面的[套用篩選器至[!UICONTROL 活動]清單](#filters)。 |
 | 搜尋欄位 | 快速尋找活動，或減少[!UICONTROL 活動]清單中顯示的活動數目。 您可以使用下拉式清單依[!UICONTROL 活動名稱]、[!UICONTROL URL]或[!UICONTROL ID]搜尋。<P>您設定的搜尋選項會持續存在於目前的作業階段中。 |
 | [!UICONTROL 建立活動] | 建立活動。<P>如需建立各種活動型別的詳細資訊，請參閱： <ul><li>[建立[!UICONTROL A/B測試]活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[建立[!UICONTROL 自動分配]活動](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[建立[!UICONTROL 自動鎖定目標]活動](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[建立[!UICONTROL Automated Personalization]活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[建立[!UICONTROL 體驗鎖定目標]活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[建立活動](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[建立[!UICONTROL Recommendations]活動](/help/main/c-recommendations/recommendations.md)</li></ul>如需每個型別的詳細資訊，請參閱下面的[活動型別](#types)。 |
-| [!UICONTROL 建立行動裝置預覽連結]<P>![其他動作功能表](/help/main/assets/icons/MoreVertical.svg) | 使用[行動裝置預覽連結](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/mobile-apps/target-mobile-preview)為行動應用程式活動執行簡單的端對端QA。<P>按一下&#x200B;**更多選項**&#x200B;圖示，選取&#x200B;**建立行動裝置預覽連結**，然後選擇要在行動裝置上測試的活動。 |
+| [!UICONTROL 建立行動裝置預覽連結]<P>![其他動作功能表](/help/main/assets/icons/MoreVertical.svg) | 使用[行動裝置預覽連結](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview)為行動應用程式活動執行簡單的端對端QA。<P>按一下&#x200B;**更多選項**&#x200B;圖示，選取&#x200B;**建立行動裝置預覽連結**，然後選擇要在行動裝置上測試的活動。 |
 | 自訂表格<P>![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg) | 按一下頁面右上角的&#x200B;**[!UICONTROL 自訂表格]**&#x200B;圖示，然後選取或取消選取想要的欄，以變更哪些欄會顯示在[!UICONTROL 活動]清單中。<P>變更會套用至您的帳戶，並在您登出[!DNL Target]後仍會保持作用中。 |
 | 大量作業核取方塊<P>![大量作業圖示](/help/main/assets/icons/Rectangle.svg) | 針對所有活動或選取的活動執行大量作業。<P>如需可用動作的清單（視您的許可權和活動狀態而定），請參閱下列[執行快速動作](#quick-actions)。 |
 | [!UICONTROL 類型] | 活動型別。 [!UICONTROL 型別]欄可讓您依型別快速識別每個活動。 <ul><li>**AB-M**：手動[!UICONTROL A/B測試]</li><li>**AB-AA**： [!UICONTROL 自動分配]</li><li>**AB-AT**： [!UICONTROL 自動鎖定目標]</li><li>**AP**： [!UICONTROL Automated Personalization]</li><li>**XT**： [!UICONTROL 體驗鎖定目標]</li><li>**MVT**： [!UICONTROL 多變數測試]</li><li>**REC**： [!UICONTROL 建議]</li></ul>如需每個型別的詳細資訊，請參閱下面的[活動型別](#types)。 |
@@ -57,9 +48,9 @@ ht-degree: 25%
 | [!UICONTROL 優先順序] | 活動的優先順序。<P>如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。 如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<P>根據您的[設定](/help/main/administrating-target/reporting.md)，[!UICONTROL 優先順序]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的舊設定，或者您可以啟用從0到999的微調優先順序。<P>如需優先順序設定的詳細資訊，請參閱&#x200B;*目標與設定*&#x200B;中&#x200B;*活動設定*&#x200B;下的[優先順序](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。 |
 | [!UICONTROL 屬性] | 顯示活動的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。<P>企業使用者許可權是[Target Premium](/help/main/c-intro/intro.md#premium)功能。 |
 | [!UICONTROL 預估收入成長] | 如果 100% 的對象皆看到勝出體驗，則顯示預測收入增加。<P>使用下列公式計算:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>如果縮短格式在小數前只有一位數，此數字會四捨五入到最多一位小數。 例如: $1.6M、$60K、$900、$8.5K、$205K<P>如果活動沒有足夠資料來召開冠軍賽，或沒有成本預估，此欄會顯示 &quot;---&quot;。<P>請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。 |
-| [!UICONTROL Source] | 顯示建立活動的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/overview)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hant)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hant)或[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
+| [!UICONTROL Source] | 顯示建立活動的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview)、[[!DNL Adobe Target] MCP伺服器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)或[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
 | [!UICONTROL 作者] | 建立活動的使用者名稱。 |
-| [!UICONTROL 決策方法] | 每個活動中使用的決策方法： [伺服器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hant)或[使用者端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)。 |
+| [!UICONTROL 決策方法] | 每個活動中使用的決策方法： [伺服器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html)或[使用者端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)。 |
 
 <!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
 
@@ -90,8 +81,8 @@ ht-degree: 25%
 | [!UICONTROL 報告Source] | 依報表來源篩選。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)：顯示使用[!UICONTROL Analytics for Target] (A4T)作為報表來源的活動。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md)：顯示使用[!DNL Target]作為報表來源的活動。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)：顯示使用[!DNL Adobe Customer Analytics]作為報表來源的活動。</li></ul> |
 | [!UICONTROL 體驗撰寫器] | 活動建立期間使用體驗撰寫器的篩選：<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：顯示使用[!UICONTROL Visual Experience Composer] (VEC)建立的活動。</li><li>[表單式](/help/main/c-experiences/form-experience-composer.md)：顯示使用[!UICONTROL 表單式體驗撰寫器]建立的活動。</li></ul> |
 | [!UICONTROL 量度型別] | 活動建立期間選擇[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的篩選器。<ul><li>[!UICONTROL 轉換]</li><li>[!UICONTROL 收入]</li><li>[!UICONTROL 參與]</li><li>[!UICONTROL 使用Analytics度量]</lI></ul> |
-| [!UICONTROL 決策方法] | 依每個活動中使用的決策方法篩選。<ul><li>[伺服器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hant)：顯示使用伺服器端決策的活動。</li><li>[使用者端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：顯示使用使用者端決策的活動。</li></ul> |
-| [!UICONTROL 活動Source] | 依用來建立每個活動的活動來源篩選。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hant)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hant)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL 決策方法] | 依每個活動中使用的決策方法篩選。<ul><li>[伺服器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html)：顯示使用伺服器端決策的活動。</li><li>[使用者端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：顯示使用使用者端決策的活動。</li></ul> |
+| [!UICONTROL 活動Source] | 依用來建立每個活動的活動來源篩選。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html)</li><li>[[!DNL Adobe Target] MCP伺服器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL 屬性] | 依建立活動所在的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)篩選。 |
 
 
@@ -111,7 +102,7 @@ ht-degree: 25%
 
 | 動作 | 說明 |
 | --- | --- |
-| [!UICONTROL 編輯] | 變更活動。 任何活動皆可編輯。<P>如需各種活動編輯方式的詳細資訊，請參閱[編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md)。 |
+| [!UICONTROL 編輯] | 變更活動。 任何活動都可以編輯，包括透過[!DNL Adobe Target] API或[!DNL Adobe Target] MCP伺服器建立的活動。<P>如需各種活動編輯方式的詳細資訊，請參閱[編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md)。 |
 | [!UICONTROL 停用] | 停止已上線或排定的活動。 已停用的活動可以重新啟動或封存。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。 在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
 | [!UICONTROL 啟動] | 啟動非使用中活動或準備好要啟動的活動。 |
 | [!UICONTROL 封存] | 將活動傳送至封存。 依預設，已封存的活動不再出現在[!UICONTROL 活動]清單中。 變更[!UICONTROL 活動]清單的篩選器以包含已封存的活動以檢視它們。 您可以啟動已封存的活動以再次使用。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。 在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
@@ -127,11 +118,11 @@ ht-degree: 25%
 * [!UICONTROL Automated Personalization] (AP)、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]以外的所有活動型別皆可讓您選擇使用[!DNL Target]或[!DNL Adobe Analytics]做為資料來源。 [!UICONTROL Automated Personalization]、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標] *一律*&#x200B;使用[!DNL Target]資料。
 * 活動可供許多通路使用:
 
-   * Web 和行動版網站
-   * 連上網際網路的螢幕和裝置，包括資訊站和 ATM。
-   * 電子郵件和其他取得通路或夥伴網站
-   * 行動應用程式
-   * 任何其他可傳送標記內容的地方
+  * Web 和行動版網站
+  * 連上網際網路的螢幕和裝置，包括資訊站和 ATM。
+  * 電子郵件和其他取得通路或夥伴網站
+  * 行動應用程式
+  * 任何其他可傳送標記內容的地方
 
 ## 限制 {#section_049D4684403A4E07B998067EB8E9BE56}
 
