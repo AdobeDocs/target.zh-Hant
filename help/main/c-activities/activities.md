@@ -17,9 +17,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
+source-wordcount: 2648
 ht-degree: 25%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 25%
 | [!UICONTROL 優先順序] | 活動的優先順序。<P>如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。 如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<P>根據您的[設定](/help/main/administrating-target/reporting.md)，[!UICONTROL 優先順序]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的舊設定，或者您可以啟用從0到999的微調優先順序。<P>如需優先順序設定的詳細資訊，請參閱&#x200B;*目標與設定*&#x200B;中&#x200B;*活動設定*&#x200B;下的[優先順序](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。 |
 | [!UICONTROL 屬性] | 顯示活動的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。<P>企業使用者許可權是[Target Premium](/help/main/c-intro/intro.md#premium)功能。 |
 | [!UICONTROL 預估收入成長] | 如果 100% 的對象皆看到勝出體驗，則顯示預測收入增加。<P>使用下列公式計算:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>如果縮短格式在小數前只有一位數，此數字會四捨五入到最多一位小數。 例如: $1.6M、$60K、$900、$8.5K、$205K<P>如果活動沒有足夠資料來召開冠軍賽，或沒有成本預估，此欄會顯示 &quot;---&quot;。<P>請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。 |
-| [!UICONTROL Source] | 顯示建立活動的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/overview)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hant)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hant)或[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
+| [!UICONTROL Source] | 顯示建立活動的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/overview)、[[!DNL Adobe Target] MCP伺服器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hant)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hant)或[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
 | [!UICONTROL 作者] | 建立活動的使用者名稱。 |
 | [!UICONTROL 決策方法] | 每個活動中使用的決策方法： [伺服器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hant)或[使用者端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)。 |
 
@@ -91,7 +91,7 @@ ht-degree: 25%
 | [!UICONTROL 體驗撰寫器] | 活動建立期間使用體驗撰寫器的篩選：<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：顯示使用[!UICONTROL Visual Experience Composer] (VEC)建立的活動。</li><li>[表單式](/help/main/c-experiences/form-experience-composer.md)：顯示使用[!UICONTROL 表單式體驗撰寫器]建立的活動。</li></ul> |
 | [!UICONTROL 量度型別] | 活動建立期間選擇[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的篩選器。<ul><li>[!UICONTROL 轉換]</li><li>[!UICONTROL 收入]</li><li>[!UICONTROL 參與]</li><li>[!UICONTROL 使用Analytics度量]</lI></ul> |
 | [!UICONTROL 決策方法] | 依每個活動中使用的決策方法篩選。<ul><li>[伺服器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hant)：顯示使用伺服器端決策的活動。</li><li>[使用者端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：顯示使用使用者端決策的活動。</li></ul> |
-| [!UICONTROL 活動Source] | 依用來建立每個活動的活動來源篩選。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hant)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hant)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL 活動Source] | 依用來建立每個活動的活動來源篩選。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant)</li><li>[[!DNL Adobe Target] MCP伺服器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hant)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hant)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL 屬性] | 依建立活動所在的[屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)篩選。 |
 
 
@@ -111,7 +111,7 @@ ht-degree: 25%
 
 | 動作 | 說明 |
 | --- | --- |
-| [!UICONTROL 編輯] | 變更活動。 任何活動皆可編輯。<P>如需各種活動編輯方式的詳細資訊，請參閱[編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md)。 |
+| [!UICONTROL 編輯] | 變更活動。 任何活動都可以編輯，包括透過[!DNL Adobe Target] API或[!DNL Adobe Target] MCP伺服器建立的活動。<P>如需各種活動編輯方式的詳細資訊，請參閱[編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md)。 |
 | [!UICONTROL 停用] | 停止已上線或排定的活動。 已停用的活動可以重新啟動或封存。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。 在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
 | [!UICONTROL 啟動] | 啟動非使用中活動或準備好要啟動的活動。 |
 | [!UICONTROL 封存] | 將活動傳送至封存。 依預設，已封存的活動不再出現在[!UICONTROL 活動]清單中。 變更[!UICONTROL 活動]清單的篩選器以包含已封存的活動以檢視它們。 您可以啟動已封存的活動以再次使用。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。 在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
@@ -127,11 +127,11 @@ ht-degree: 25%
 * [!UICONTROL Automated Personalization] (AP)、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]以外的所有活動型別皆可讓您選擇使用[!DNL Target]或[!DNL Adobe Analytics]做為資料來源。 [!UICONTROL Automated Personalization]、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標] *一律*&#x200B;使用[!DNL Target]資料。
 * 活動可供許多通路使用:
 
-   * Web 和行動版網站
-   * 連上網際網路的螢幕和裝置，包括資訊站和 ATM。
-   * 電子郵件和其他取得通路或夥伴網站
-   * 行動應用程式
-   * 任何其他可傳送標記內容的地方
+  * Web 和行動版網站
+  * 連上網際網路的螢幕和裝置，包括資訊站和 ATM。
+  * 電子郵件和其他取得通路或夥伴網站
+  * 行動應用程式
+  * 任何其他可傳送標記內容的地方
 
 ## 限制 {#section_049D4684403A4E07B998067EB8E9BE56}
 
