@@ -35,7 +35,7 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->本文主要介紹[!DNL Target]/RTCDP整合。 自2026年8月起，Experience Platform目的地目錄中的基礎&#x200B;**[!UICONTROL Adobe Target]**&#x200B;目的地也適用於沒有Real-Time CDP且擁有[!DNL Adobe Journey Optimizer]的組織。 如需每種軟體權利檔案型別可用的功能的詳細資訊，請參閱「*Adobe Target連線*」指南中的[軟體權利檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank}。
+>本文主要介紹[!DNL Target]/RTCDP整合。 自2026年8月起，Experience Platform目的地目錄中的基礎&#x200B;**[!UICONTROL Adobe Target]**&#x200B;目的地也適用於沒有Real-Time CDP且擁有[!DNL Adobe Journey Optimizer]的組織。 如需每種軟體權利檔案型別可用的功能的詳細資訊，請參閱「*Adobe Target連線*」指南中的[軟體權利檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hant#entitlement){target=_blank}。
 
 ## 重要功能
 
@@ -126,11 +126,11 @@ Real-Time CDP 輪廓屬性可與 [!DNL Target] 共用，用於 HTML 產品建議
 如需詳細資訊，請參閱下列主題:
 
 * *Adobe Experience Platform發行說明中的[目的地發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant#destinations){target=_blank}*
-* [在&#x200B;*目的地概觀*&#x200B;指南中，設定相同頁面和下一頁個人化的個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}。
-* *目的地總覽*&#x200B;指南中的[Adobe Target連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
+* [在&#x200B;*目的地概觀*&#x200B;指南中，設定相同頁面和下一頁個人化的個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hant){target=_blank}。
+* *目的地總覽*&#x200B;指南中的[Adobe Target連線](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hant){target=_blank}
 * 在&#x200B;*目的地概觀*&#x200B;指南中的[對應屬性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hant#map-attributes){target=_blank}。
-* 在&#x200B;*目的地概觀*&#x200B;指南中[啟用對象以邊緣個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}。
-* 透過&#x200B;*目的地概觀*&#x200B;指南中「常見問題」下的 [!DNL Adobe Target] 和自訂Personalization目的地[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} 相同頁面和下一頁個人化。
+* 在&#x200B;*目的地概觀*&#x200B;指南中[啟用對象以邊緣個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hant){target=_blank}。
+* 透過&#x200B;*目的地概觀*&#x200B;指南中「常見問題」下的 [!DNL Adobe Target] 和自訂Personalization目的地[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=zh-Hant#same-next-page-personalization){target=_blank} 相同頁面和下一頁個人化。
 
 ## 影片和部落格文章 {#videos-blogs}
 
