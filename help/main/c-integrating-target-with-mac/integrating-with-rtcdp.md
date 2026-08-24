@@ -20,10 +20,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 6d72a6d0a1de27d8cd0286c799e61028d6419761
 workflow-type: tm+mt
-source-wordcount: 1173
-ht-degree: 71%
+source-wordcount: 1239
+ht-degree: 67%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 71%
 [!DNL Real-Time Customer Data Platform] (RTCDP)，建置在 [!DNL Adobe Experience Platform] 上，可幫助公司整合來自多個企業來源的已知和匿名資料。 RTCDP 可讓您建立客戶輪廓，並且可將這些輪廓用來即時提供跨所有管道和裝置的個人化客戶體驗。
 
 如需RTCDP的詳細資訊，請參閱[Real-Time Customer Data Platform概觀](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant){target=_blank}。
+
+>[!NOTE]
+>
+>本文主要介紹[!DNL Target]/RTCDP整合。 自2026年8月起，Experience Platform目的地目錄中的基礎&#x200B;**[!UICONTROL Adobe Target]**&#x200B;目的地也適用於沒有Real-Time CDP且擁有[!DNL Adobe Journey Optimizer]的組織。 如需每種軟體權利檔案型別可用的功能的詳細資訊，請參閱「*Adobe Target連線*」指南中的[軟體權利檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hant#entitlement){target=_blank}。
 
 ## 重要功能
 
