@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 72205
+source-wordcount: 72534
 ht-degree: 48%
 
 ---
@@ -57,6 +57,66 @@ ht-degree: 48%
 >請參閱 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以取得本月 Target 版本 (平台和 Target Standard/Premium) 的資訊。
 
 ## 發行說明 — 2026
+
+## [!DNL Target Standard/Premium] 26.8.5 （2026年8月18日）
+
+**推薦**
+
++++檢視詳細資料
+
+* 排除和集合的&#x200B;**Null值篩選器。** 在[!DNL Recommendations]中定義排除規則和集合篩選器時，您現在可以使用&#x200B;**Value present**&#x200B;和&#x200B;**Value not present**&#x200B;運運算元。 (TGT-55790)
+
++++
+
+**[!UICONTROL 視覺化體驗撰寫器] (VEC)**
+
++++檢視詳細資料
+
+* **儲存活動後，點選量度元素未顯示在VEC編輯器中。** 修正您在[!UICONTROL 視覺化體驗撰寫器]中編輯活動的目標與量度時，即使量度在活動報表中持續受到正確追蹤，先前設定的點選量度仍無法顯示的問題。 (TGT-55826)
+
+* **VEC中間歇性的「沒有修改」訊息。** 修正&#x200B;**[!UICONTROL 修改]**&#x200B;面板針對使用中體驗鎖定目標活動中的現有修改間歇性顯示「無修改」的問題。 (TGT-55842)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.3 （2026年8月13日）
+
+**活動和對象**
+
++++檢視詳細資料
+
+* **已針對API/MCP建立的活動和對象啟用編輯。** 透過[!DNL Adobe Target] Admin API和[!DNL Target] MCP建立的活動和對象現在可以在[!DNL Target] UI中編輯。
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.2 （2026年8月11日）
+
+**客群**
+
++++檢視詳細資料
+
+* **無法使用僅限於此活動的對象，在活動中複製並儲存自訂程式碼修改。** 修正的問題：在您新增自訂程式碼修改後，複製使用僅限活動對象的活動時，無法儲存並出現「無效對象ID」錯誤。 (TGT-55785)
+
++++
+
+**本地化**
+
++++檢視詳細資料
+
+* **活動URL中有損毀的多位元組字元。** 修正活動URL中的多位元組字元在[!UICONTROL 視覺化體驗撰寫器]和&#x200B;**[!UICONTROL 衝突]**&#x200B;索引標籤上似乎損毀的問題。 (TGT-55708)
+
+* 開啟已刪除的設計時&#x200B;**未本地化的錯誤訊息。** 修正當您嘗試開啟已被其他使用者刪除的設計時，找不到&#x200B;**[!UICONTROL 要求的資源]**&#x200B;錯誤訊息未當地語系化的問題。 (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 （2026年8月4日）
+
+**[!UICONTROL 視覺化體驗撰寫器] (VEC)**
+
++++檢視詳細資料
+
+* **在[!UICONTROL 體驗對象]面板中截斷的圖示。** 修正在活動建立期間，**[!UICONTROL 體驗對象]**&#x200B;面板中的&#x200B;**[!UICONTROL 新增]**&#x200B;和展開/摺疊圖示隱藏或截斷的問題。 (TGT-55372)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.5 （2026年7月30日）
 
@@ -4499,7 +4559,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>行動批次和預先擷取功能傳送 </p> </td> 
-   <td colname="col2"> <p><b>更新日期：2017 年 10 月 12 日</b> </p> <p> 多個 mbox 的內容可以在單一呼叫中，預先擷取並快取在本機裝置上，而不需擔心怎麼做、何時做，以及使用者是否會看見該內容。 </p> <p>此功能需要您下載和安裝適當的 Adobe Mobile SDK 4.14 (或更新版本) 版本。 </p> <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=zh-Hant" format="dita" scope="local">預先擷取選件內容</a>。 </p> </td> 
+   <td colname="col2"> <p><b>更新日期：2017 年 10 月 12 日</b> </p> <p> 多個 mbox 的內容可以在單一呼叫中，預先擷取並快取在本機裝置上，而不需擔心怎麼做、何時做，以及使用者是否會看見該內容。 </p> <p>此功能需要您下載和安裝適當的 Adobe Mobile SDK 4.14 (或更新版本) 版本。 </p> <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local">預先擷取選件內容</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>活動 </p> </td> 
