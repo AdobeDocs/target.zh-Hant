@@ -7,21 +7,14 @@ title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 411
+ht-degree: 65%
 
 ---
 
@@ -31,43 +24,13 @@ ht-degree: 47%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 26.8.3 （2026年8月13日）
+## [!DNL Target Standard/Premium] 26.9.1 （2026年9月1日）
 
-**活動和對象**
-
-+++檢視詳細資料
-
-* **已針對API/MCP建立的活動和對象啟用編輯。** 透過[!DNL Adobe Target] Admin API和[!DNL Target] MCP建立的活動和對象現在可以在[!DNL Target] UI中編輯。
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.2 （2026年8月11日）
-
-**客群**
+**[!UICONTROL 客群]**
 
 +++檢視詳細資料
 
-* **無法使用僅限於此活動的對象，在活動中複製並儲存自訂程式碼修改。** 修正的問題：在您新增自訂程式碼修改後，複製使用僅限活動對象的活動時，無法儲存並出現「無效對象ID」錯誤。 (TGT-55785)
-
-+++
-
-**本地化**
-
-+++檢視詳細資料
-
-* **活動URL中有損毀的多位元組字元。** 修正活動URL中的多位元組字元在[!UICONTROL 視覺化體驗撰寫器]和&#x200B;**[!UICONTROL 衝突]**&#x200B;索引標籤上似乎損毀的問題。 (TGT-55708)
-
-* 開啟已刪除的設計時&#x200B;**未本地化的錯誤訊息。** 修正當您嘗試開啟已被其他使用者刪除的設計時，找不到&#x200B;**[!UICONTROL 要求的資源]**&#x200B;錯誤訊息未當地語系化的問題。 (TGT-50902)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.1 （2026年8月4日）
-
-**[!UICONTROL 視覺化體驗撰寫器] (VEC)**
-
-+++檢視詳細資料
-
-* **在[!UICONTROL 體驗對象]面板中截斷的圖示。** 修正在活動建立期間，**[!UICONTROL 體驗對象]**&#x200B;面板中的&#x200B;**[!UICONTROL 新增]**&#x200B;和展開/摺疊圖示隱藏或截斷的問題。 (TGT-55372)
+* **複製具有僅限於此活動對象的活動無法儲存**。 當A/B活動使用僅限於此活動（本機範圍）的對象規則和自訂程式碼修改時，複製它並儲存副本會失敗並出現「無效的對象ID」錯誤。 (TGT-55785)
 
 +++
 
@@ -96,7 +59,7 @@ ht-degree: 47%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
