@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
+source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 65%
+source-wordcount: 495
+ht-degree: 54%
 
 ---
 
@@ -30,6 +30,25 @@ ht-degree: 65%
 探索[!DNL Adobe Target]的最新功能、增強功能和修正。 這些發行說明也涵蓋了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台元件（如適用）的更新。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 26.9.2 （2026年9月8日）
+
+
+**[!UICONTROL 推薦]**
+
++++檢視詳細資料
+
+* **[!DNL New]使用者介面對摘要URL的編碼不正確**。 從新[!DNL Target]介面中的URL建立建議摘要時，摘要URL編碼不正確，導致摘要建立失敗，出現未知錯誤。 (TGT-56084)
+
++++
+
+**[!UICONTROL 報告]**
+
++++檢視詳細資料
+
+* **自動化區段報告無法一致地顯示屬性值**。 自動化區段報告無法一致地顯示[!DNL Automated Personalization]和[!DNL Auto-Target]活動的屬性值和範圍。 有些自動化區段只顯示屬性名稱，而不會顯示關聯的值或範圍。 (TGT-55855)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.1 （2026年9月1日）
 
