@@ -1,35 +1,58 @@
 ---
 keywords: 發行說明；新功能；發行；更新；更新；發行；增強功能；增強功能；修正；錯誤修正；更新；目前更新
-description: 了解  [!DNL Adobe Target] 目前版本包含的新功能、加強功能和錯誤修正，其中包括 SDK、API 和 JavaScript 程式庫。
-landing-page-description: 深入了解  [!DNL Adobe Target] 目前版本所包含的新功能、增強功能和修正。
-short-description: 深入了解  [!DNL Target] 目前版本所包含的新功能、增強功能和修正。
+description: 了解 [!DNL Adobe Target] 目前版本包含的新功能、加強功能和錯誤修正，其中包括 SDK、API 和 JavaScript 程式庫。
+landing-page-description: 深入了解 [!DNL Adobe Target] 目前版本所包含的新功能、增強功能和修正。
+short-description: 深入了解 [!DNL Target] 目前版本所包含的新功能、增強功能和修正。
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
+    internal-label: Administration
+source-git-commit: 965473d15c55d4a728ace2f67a5dd0b16a4ef55b
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 54%
-
+source-wordcount: '578'
+ht-degree: 47%
 ---
-
 # [!DNL Target] 發行說明 (最新)
 
 探索[!DNL Adobe Target]的最新功能、增強功能和修正。 這些發行說明也涵蓋了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台元件（如適用）的更新。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 26.9.3 （2026年9月16日）
+
+**[!UICONTROL 報告]**
+
++++檢視詳細資料
+
+* **在某些[!DNL A4T Auto-Target]報告**&#x200B;中遺失[!UICONTROL 提升度]和[!UICONTROL 信賴度]值。 針對使用&#x200B;**[!UICONTROL 最大化造訪轉換率]**&#x200B;最佳化目標的[!DNL A4T Auto-Target]活動，預設&#x200B;**[!UICONTROL 我的主要量度]**&#x200B;報告量度未正確解析，將&#x200B;**[!UICONTROL 提升度]**&#x200B;和&#x200B;**[!UICONTROL 信賴度]**&#x200B;留為空白。 (TGT-56137)
+
++++
+
+**[!UICONTROL 目標分析]**
+
++++檢視詳細資料
+
+* 對於沒有[!DNL Analytics]存取權的已上線活動，**[!UICONTROL 報告Source]欄位現在為唯讀**。 先前，當已上線活動的擁有者無權存取[!DNL Adobe Analytics]時，**[!UICONTROL 報告Source]**&#x200B;欄位及其相關欄位仍可編輯。 (TGT-56089)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.2 （2026年9月8日）
 
@@ -85,7 +108,7 @@ ht-degree: 54%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
