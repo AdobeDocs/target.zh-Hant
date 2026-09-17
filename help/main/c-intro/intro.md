@@ -1,6 +1,6 @@
 ---
 keywords: Target Standard;推薦;Target Premium;Automated Personalization;自動鎖定目標;自動鎖定目標;權限;什麼是adobe target;
-description: 瞭解Adobe [!DNL Target] Standard和Adobe [!DNL Target] Premium的基本概念。 [!DNL Target] Premium包含Standard產品中不提供的進階功能。
+description: 了解 Adobe [!DNL Target] Standard 和 Adobe [!DNL Target] Premium 的基本概念。[!DNL Target] Premium 包含標準產品中不提供的進階功能。
 landing-page-description: 實現個人化的客戶體驗，協助您在網站和行動網站、應用程式、社交媒體和其他數位頻道上獲得最大收入。
 short-description: 實現個人化的客戶體驗，協助您在網站和行動網站、應用程式、社交媒體和其他數位頻道上獲得最大收入。
 title: 什麼是 Target？
@@ -9,22 +9,28 @@ exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: 9a55efe5570867a822e4f6c0494a505e456bd536
 workflow-type: tm+mt
-source-wordcount: 995
-ht-degree: 50%
-
+source-wordcount: '1644'
+ht-degree: 33%
 ---
-
 # [!DNL Target]簡介
 
 [!DNL Adobe Target] （屬於[!DNL Adobe Experience Cloud]的一部分）提供全方位的工具，可跨網站、行動網站、應用程式、社群媒體和其他數位頻道個人化客戶體驗。
@@ -114,7 +120,7 @@ AP完全自動化，以最少的人工分析持續學習。 它會建立模型�
 
 [Adobe Target歡迎套件](/help/main/c-intro/target-welcome-kit.md)
 
-## 訓練影片：活動型別(9:03) ![總覽徽章](/help/main/assets/overview.png)
+## 訓練影片：活動型別(9:03) ![Overview badge](/help/main/assets/overview.png)
 
 下列影片說明 [!DNL Target Standard/Premium] 中可用的活動類型，以及 [!DNL Target] 的三步驟引導式工作流程如何協助您達成網站目標。
 
@@ -123,3 +129,93 @@ AP完全自動化，以最少的人工分析持續學習。 它會建立模型�
 * 說明適用所有活動類型的三個步驟引導工作流程
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_ab_daily_traffic"
+>title="每日流量"
+>abstract="每天有多少使用者進入您的實驗。 如果您不清楚自己的每日流量，請選擇上方的「流量大小」，電腦會使用您的其他輸入來解決這個問題。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup"
+>title="設定測試"
+>abstract="這些欄位會定義您的A/B測試、您預期看到的內容，以及您對結果所需的信賴度。 繫結至您上述選取專案的欄位將會自動解決。 其餘部分填入您的預期值。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_experiences"
+>title="體驗數量"
+>abstract="實驗中的變數數量，包括控制。 A/B測試有2個臂。 五個變體加上控制項等於6。 更多的武器需要更多的流量以維持統計能力。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_duration"
+>title="A/B測試持續時間"
+>abstract="您的實驗將執行幾天。 較長的持續時間可讓您的實驗有更多時間收集資料，讓您可靠地偵測到較小的效果。 較短的持續時間需要較大的效果或較多的每日流量，才能獲得可靠的結果。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_minimum_detectable_effect"
+>title="最小可偵測效果"
+>abstract="值得偵測的最小改善，也就是您要採取的量度最小變更。 這是提升度的大小（以百分比點為單位），而非相對於基線的百分比變更。 例如，如果您的基準線是5%，而提升1個百分點很重要，請輸入1。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_expected_improvement"
+>title="預期的改善"
+>abstract="您預期實驗將產生的改進。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_variance"
+>title="變異數"
+>abstract="量度值的分佈方式（而非其平均值）。 點選率之類的量度（大多為0和1）具有低變異數，而像每使用者收入之類的量度（少數高消費者，許多低消費者）則可能有高得多的變異數。 如果您不確定，請保留預設值1。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_confidence_level"
+>title="信賴水準"
+>abstract="您對於結果在稱為真實之前並非只是隨機機率有多自信，這是統計顯著性的臨界值。 95%信賴水準表示最多有5%的機會是誤判。 較高的值可減少誤判，但需要較多的資料。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="統計檢定力"
+>abstract="如果確實存在效果，則偵測到效果的機率，也就是實驗的靈敏度。 80%的功率表示有80%的機會偵測到實際效果。 較高的功率可減少誤判，但需要更多流量或較長的執行時間。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_traffic_mode"
+>title="流量模式"
+>abstract="使用者如何進入您的實驗。 持續：使用者在實驗期間每天輸入。 流量會在結果產生時，自動轉向績效較佳的變體。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="量度類型"
+>abstract="您正在測量哪種量度。 百分比：將此用於點按或轉換等二進位結果，其中每位使用者有所作為或未有所作為。 數字：收入或頁面檢視等量度使用此值，這些量度的值可能會因使用者而有很大的差異。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_auto_daily_traffic"
+>title="每日流量"
+>abstract="每天有多少使用者進入您的實驗。 用於持續進行多天的實驗，流量會在結果傳入時自動轉向表現更好的變體。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_metric_rate"
+>title="基準測量結果速率"
+>abstract="實驗開始前您目前的效能，控制臂平均值。 一律為必要。 若是百分比量度，請輸入百分比：如果5%的訪客按一下今天購買，請輸入5。 若是計數量度，請輸入原始十進位值。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="主要量度"
+>abstract="主要量度會自動從報表設定中提取。 若要進行變更，請在「目標與設定」下修改目標量度。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="假設"
+>abstract="假設是您定義的陳述，可說明實驗的預期結果。 包括變更內容與位置的說明，然後說明您要變更的量度及變更方式。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_insights"
+>title="分析"
+>abstract="實驗洞察是當實驗資料達到統計顯著性時，AI 分析得出的重要發現。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="機會"
+>abstract="實驗機會是AI根據在您的實驗熒幕擷取畫面和結果中找到的模式AI建議的處理想法。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="實驗組詳細資料"
+>abstract="處理細節會顯示使用者符合處理條件時處理外觀的影像。 您可以檢閱這些影像以進行所有實驗。 某些實驗可能會要求您確認影像，或視需要加以取代。"
