@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target] 發行說明 (最新)
 
@@ -103,6 +103,18 @@ ht-degree: 40%
 
 +++
 
+**[!DNL Adobe Target]MCP伺服器 — Recommendations工具（公用Beta）**
+
++++檢視詳細資料
+
+[!DNL Adobe Target] MCP伺服器現在會公開Recommendations工具，讓您列出、檢查、建立及更新條件、集合、設計、促銷活動和排除專案，以及直接從您的AI助理搜尋產品目錄。
+
+此功能需要具有&#x200B;**Target Premium**&#x200B;且已啟用Recommendations的租使用者；此功能在非Premium帳戶中無法使用。
+
+如需詳細資訊，請參閱[MCP伺服器工具參考](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)。
+
++++
+
 ## 您需要瞭解的時間性更新 {#time-sensitive}
 
 [!BADGE 重要]{type=Informative}
@@ -128,7 +140,7 @@ ht-degree: 40%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
