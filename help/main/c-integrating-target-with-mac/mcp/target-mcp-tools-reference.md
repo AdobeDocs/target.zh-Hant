@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '3804'
 ht-degree: 14%
-
 ---
-
 # [!DNL Adobe Target] MCP伺服器工具參考 {#target-mcp-tools-reference}
 
 >[!AVAILABILITY]
@@ -755,6 +753,143 @@ ht-degree: 14%
 
 +++
 
+## Recommendations工具 {#tools-recommendations}
+
+>[!NOTE]
+>
+>* Recommendations工具需要具有&#x200B;**Target Premium**&#x200B;且已啟用Recommendations的租使用者。 在非Premium帳戶上，這些工具不會顯示在使用者端的工具清單中，且基礎API傳回403錯誤。
+>* 這些工具支援「條件」、「集合」、「設計」、「促銷活動」和「排除專案」的清單、取得、建立和更新作業。 刪除操作不會透過MCP伺服器公開。
+
++++條件
+
+**工具：** `list_target_criteria`，`get_target_criteria`，`list_target_criteria_by_type`，`get_target_criteria_by_type`，`create_target_criteria`，`update_target_criteria`
+
+條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的專案。 條件已分組為9個型別系列： `category`、`custom`、`item`、`cart`、`popularity`、`profileattribute`、`recent`、`sequence`、`userhistory`。
+
+| 參數 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| `criteria_id` | 整數 | 取得/更新 | 條件的唯一識別碼 |
+| `criteria_type` | string | 對於輸入的作業 | 9個條件系列中的一個 |
+| `limit` / `offset` | 整數 | 無 | 分頁 |
+| `name` | string | 是（建立） | 條件的唯一名稱 |
+| `criteriaTitle` | string | 否 | 透過`$criteria.title`顯示設計中使用的標題 |
+| `description` | string | 否 | 條件的說明 |
+| `key` | string | 是（建立/更新，大多數型別） | 建議金鑰（例如`CURRENT`、`LAST_VIEWED`、`LAST_PURCHASED`、`MOST_VIEWED`、`PROFILE_ATTRIBUTE`） |
+| `type` | string | 是（建立/更新，大多數型別） | 建議邏輯（例如`VIEWED_BOUGHT`、`BOUGHT_CF`、`VIEWED_CF`、`SITE_AFFINITY`、`SIMILARITY`） |
+| `configuration` | 物件 | 是（建立/更新） | 包含規則、屬性加權、價格篩選和其他系列專屬設定 |
+| `daysCount` | string | 因情況而異 | 已考量的歷史時間範圍（例如`ONE_DAY`到`TWO_MONTHS`） |
+
+`list_target_criteria`和`get_target_criteria`傳回最少的、跨系列條件中繼資料(`id`、`name`、`criteriaTitle`、`criteriaGroup`)。 搭配`criteria_type`使用`list_target_criteria_by_type` / `get_target_criteria_by_type` （或`create_target_criteria` / `update_target_criteria`）以使用完整、型別特定的組態。 每個系列的欄位需求不同 — 如需完整的每種型別結構描述，請參閱[!DNL Adobe] [Recommendations API參考](https://developer.adobe.com/target/administer/recommendations-api/){target="_blank"}。
+
+**傳回：**&#x200B;條件物件或具有`offset`、`limit`、`total`和`list`的分頁清單。
+
+**範例提示：**「列出此帳戶中設定的所有Recommendations條件，並摘要使用中的演演算法型別。」
+
++++
+
++++集合
+
+**工具：** `list_target_collections`，`get_target_collection`，`create_target_collection`，`update_target_collection`
+
+集合會依相符規則將目錄實體分組，以用於條件和促銷活動。
+
+| 參數 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| `collection_id` | 整數 | 取得/更新 | 集合的唯一識別碼 |
+| `limit` / `offset` | 整數 | 無 | 分頁 |
+| `name` | string | 是 | 集合的唯一名稱（最多250個字元） |
+| `description` | string | 否 | 集合說明（最多1000個字元） |
+| `rules` | 陣列 | 是 | 決定目錄成員資格的1-1000個規則（`attribute` +運運算元/運算元） |
+
+**傳回：**&#x200B;集合物件，包括`id`、`name`、`description`、`rules`和上次修改的中繼資料。
+
+**範例提示：** 「我有哪些集合，以及它們篩選了哪些目錄屬性？」
+
++++
+
++++設計
+
+**工具：** `list_target_designs`，`get_target_design`，`create_target_design`，`update_target_design`
+
+設計是Velocity或HTML範本，可控制建議實體的呈現方式。
+
+| 參數 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| `design_id` | 整數 | 取得/更新 | 設計的唯一識別碼 |
+| `limit` / `offset` | 整數 | 無 | 分頁 |
+| `includeScript` | 布林值 | 否 | 是否包含設計的範本內容 |
+| `name` | string | 是 | 設計的唯一名稱（最多250個字元） |
+| `script` | string | 是 | 至少參照一個實體物件的Velocity範本（最多65,000個字元） |
+| `type` | string | 否 | 指令碼的內容型別： `HTML`、`JSON`或`OTHER` （預設） |
+
+**傳回：**&#x200B;設計物件，包括`id`、`name`、`script`和`type`。
+
+**範例提示：** 「我為Recommendations設定了哪些設計和集合？」
+
++++
+
++++促銷活動
+
+**工具：** `list_target_promotions`，`get_target_promotion`，`create_target_promotion`，`update_target_promotion`
+
+促銷活動會強制特定實體加入建議結果，使其優先於條件和備用建議。
+
+| 參數 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| `promotion_id` | 整數 | 取得/更新 | 促銷的唯一識別碼 |
+| `limit` / `offset` | 整數 | 無 | 分頁 |
+| `name` | string | 是 | 促銷活動的唯一名稱（最多250個字元） |
+| `type` | string | 是 | 目前僅支援`EXTERNAL` |
+| `key` | string | 否 | 促銷活動金鑰： `CURRENT`、`LAST_VIEWED`、`LAST_PURCHASED`、`MOST_VIEWED`或`PROFILE_ATTRIBUTE` |
+| `attribute` | string | 否 | 設定檔屬性名稱，`key`為`PROFILE_ATTRIBUTE`時適用 |
+| `schedule` | 物件 | 無 | 促銷套用的開始/結束時間視窗 |
+| `order` | 物件 | 無 | 提升實體的排序設定 |
+| `configuration` | 物件 | 無 | 已升級專案的集合參考（`rules`為空時使用） |
+| `rules` | 陣列 | 否 | 識別要提升哪些實體的包含規則 |
+
+**傳回：**&#x200B;推進物件。
+
+**範例提示：** 「建立外部促銷活動，在8月底之前使用&#39;Backpacking Tents&#39;集合。」
+
++++
+
++++排除項目
+
+**工具：** `list_target_exclusions`，`get_target_exclusion`，`create_target_exclusion`，`update_target_exclusion`
+
+排除專案會從建議結果中移除相符的實體。 排除專案會套用至整個帳戶，並涵蓋所有條件和活動。
+
+| 參數 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| `exclusion_id` | 整數 | 取得/更新 | 排除的唯一識別碼 |
+| `name` | string | 是 | 排除專案的唯一名稱（最多250個字元） |
+| `description` | string | 否 | 排除專案說明（最多1000個字元） |
+| `rule` | 物件 | 無 | 識別要排除之實體的單一規則（`attribute` +運運算元/運算元） |
+
+**傳回：**&#x200B;排除物件。
+
+**範例提示：** 「目前是否已設定任何全帳戶排除專案，以及這些專案會篩選哪些專案？」
+
++++
+
++++目錄
+
+**工具：** `get_target_entity`，`search_target_catalog`
+
+檢查Recommendations產品/內容目錄的唯讀工具。 沒有透過MCP伺服器建立、更新或刪除目錄實體的工具。
+
+| 參數 | 類型 | 必要 | 說明 |
+|---|---|---|---|
+| `catalog_entity_id` | string | 是（取得） | 目錄實體ID （例如SKU） |
+| `environment_id` | string | 否 | 要在其中查詢實體的環境 |
+| `query` | 物件 | 是（搜尋） | `meta`區塊（需要`environmentId`，選用的`displayFields`）加上`query`區塊（`simple`或`compound`）；簡單查詢使用`queryFields`、`operator` (`eq`、`lt`、`gt`、`le`、`ge`、`contains`)和`matchValue` |
+
+**傳回：** `get_target_entity`傳回實體的目錄屬性。 `search_target_catalog`在`entities`陣列中傳回符合專案。 `query`中的欄位名稱必須為租使用者設定的實際目錄屬性。
+
+**範例提示：**「搜尋目錄中的存貨低於1000的產品。」
+
++++
+
 ## 工具摘要 {#tools-summary}
 
 | 類別 | 計數 | 工具 |
@@ -770,7 +905,8 @@ ht-degree: 14%
 | 修訂 | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | at.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | 範本 | 1 | `list_target_templates` |
-| **總計** | **38** | |
+| 推薦 | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| **總計** | **62** | |
 
 ## 相關資源 {#tools-related}
 

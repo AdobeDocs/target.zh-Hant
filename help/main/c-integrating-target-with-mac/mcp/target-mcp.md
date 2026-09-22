@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1039'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Target] MCP伺服器 {#target-mcp}
 
 [!DNL Adobe Target] MCP整合可讓您直接從AI助理檢查、分析及管理A/B測試和個人化活動。 將[!DNL Target]的實驗和個人化資料轉換為純語言的工作流程 — 稽核您的實驗組合、檢閱效能報表、探索對象和選件、建立活動並進行更新，而不需導覽UI或撰寫API呼叫。
@@ -48,10 +46,10 @@ ht-degree: 0%
 * **探索活動** — 列出、檢查及分析A/B和XT活動。
 * **建立和更新活動** — 建立新的A/B和體驗鎖定目標活動、更新設定、管理流量分割、新增或移除變體，以及控制活動狀態（啟用、暫停、停用）。
 * **探索及管理對象和選件** — 清單、檢查、建立和更新對象、HTML選件和JSON選件。
-<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
+* **管理Recommendations** — 列出、檢查、建立及更新條件、集合、設計、促銷活動及排除專案，並搜尋產品目錄。 需要Target Premium權益。
 * **稽核實作** — 檢閱at.js設定、回應Token和每個實體的修訂歷史記錄。
 
-[!DNL Adobe Target] MCP伺服器會公開10個類別中的41種工具 — 從活動建立和報告，到對象管理和QA預覽。 如需完整的引數參考，請參閱[MCP伺服器工具參考](target-mcp-tools-reference.md)。
+[!DNL Adobe Target] MCP伺服器會公開11個類別中的62種工具 — 從活動建立和報告，到對象管理、QA預覽和Recommendations設定。 如需完整的引數參考，請參閱[MCP伺服器工具參考](target-mcp-tools-reference.md)。
 
 若要探索您可以使用[!DNL Adobe Target] MCP伺服器做什麼 — 包括逐步提示逐步說明 — 請參閱[使用案例和逐步說明](target-mcp-use-cases.md)。
 
@@ -66,7 +64,7 @@ ht-degree: 0%
 
 +++我可以透過MCP存取哪些[!DNL Adobe Target]物件？
 
-您可以存取和管理活動(A/B、XT、AP)、對象、選件、屬性、mbox、回應Token、at.js設定、A4T報告和實體修訂歷史記錄。 MCP伺服器會公開41種工具，涵蓋讀取和寫入作業。
+您可以存取和管理活動(A/B、XT、AP)、對象、選件、屬性、mbox、回應Token、at.js設定、A4T報表、實體修訂記錄和Recommendations設定（條件、集合、設計、促銷活動、排除和目錄搜尋）。 MCP伺服器會公開62種工具，包括讀取和寫入作業。 Recommendations工具需要Target Premium權益，但在非Premium帳戶中無法使用。
 +++
 
 +++MCP伺服器可以建立或修改活動嗎？

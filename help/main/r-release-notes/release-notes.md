@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 42%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target] 發行說明 (最新)
 
 探索[!DNL Adobe Target]的最新功能、增強功能和修正。 這些發行說明也涵蓋了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台元件（如適用）的更新。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 26.9.5 （2026年9月21日）
+
+**[!UICONTROL 目標分析]**
+
++++檢視詳細資料
+
+* **A4T報告連結未在[!DNL Target] UI**&#x200B;中產生。 針對[!DNL A4T]活動，即使基礎報告資料同時顯示在[!DNL Target] UI和[!DNL Adobe Analytics] UI中，仍無法在&#x200B;**[!UICONTROL 報告]**&#x200B;區段中產生報告連結。 (TGT-56247)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.4 （2026年9月17日）
 
@@ -90,6 +100,18 @@ ht-degree: 42%
 +++檢視詳細資料
 
 * **複製具有僅限於此活動對象的活動無法儲存**。 當A/B活動使用僅限於此活動（本機範圍）的對象規則和自訂程式碼修改時，複製它並儲存副本會失敗並出現「無效的對象ID」錯誤。 (TGT-55785)
+
++++
+
+**[!DNL Adobe Target]MCP伺服器 — Recommendations工具（公用Beta）**
+
++++檢視詳細資料
+
+[!DNL Adobe Target] MCP伺服器現在會公開Recommendations工具，讓您列出、檢查、建立及更新條件、集合、設計、促銷活動和排除專案，以及直接從您的AI助理搜尋產品目錄。
+
+此功能需要具有&#x200B;**Target Premium**&#x200B;且已啟用Recommendations的租使用者；此功能在非Premium帳戶中無法使用。
+
+如需詳細資訊，請參閱[MCP伺服器工具參考](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)。
 
 +++
 
