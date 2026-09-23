@@ -4,20 +4,12 @@ description: 瞭解內容預先隱藏如何減少忽隱忽現情形：使用帳�
 title: 個人化體驗的內容預先隱藏
 feature: Administration & Configuration
 role: Admin
-badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
-hide: true
-source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
+source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
-
+source-wordcount: '596'
+ht-degree: 1%
 ---
-
 # 個人化體驗的內容預先隱藏
-
->[!AVAILABILITY]
->
->個人化內容的內容預先隱藏可作為&#x200B;**beta**&#x200B;功能使用。
 
 當訪客載入頁面時，預設內容可能會短暫出現，然後由[!DNL Adobe Target]中的個人化內容取代。 這個可見的切換常稱為&#x200B;**忽隱忽現**，這是個人化方案的常見體驗問題。
 
@@ -55,7 +47,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 這會將忽隱忽現的管理設定套用至您的執行個體。
 
-1. 啟用後，請按一下[下載] **&#x200B;**，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/prehide-sdk)。
+1. 啟用後，請按一下[下載] ****，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 
