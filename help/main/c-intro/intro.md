@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 2cecb1f8ae52fd6c47e543710bb14e00503c06ef
 workflow-type: tm+mt
 source-wordcount: '1644'
-ht-degree: 33%
+ht-degree: 70%
 ---
 # [!DNL Target]簡介
 
@@ -37,92 +37,92 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="每日流量"
->abstract="每天有多少使用者進入您的實驗。 如果您不清楚自己的每日流量，請選擇上方的「流量大小」，電腦會使用您的其他輸入來解決這個問題。"
+>abstract="每天有多少使用者進入您的實驗。 如果您不知道自己的每日流量，請選擇上方的「流量」，計算機將根據您的其他輸入進行計算。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup"
 >title="設定測試"
->abstract="這些欄位會定義您的A/B測試、您預期看到的內容，以及您對結果所需的信賴度。 繫結至您上述選取專案的欄位將會自動解決。 其餘部分填入您的預期值。"
+>abstract="這些欄位會定義您的 A/B 測試、您預期看到的內容，以及您對結果所需的信賴度。 與您上方所選內容繫結的欄位將會自動計算。 其餘欄位請填入您預期的值。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
 >title="體驗數量"
->abstract="實驗中的變數數量，包括控制。 A/B測試有2個臂。 五個變體加上控制項等於6。 更多的武器需要更多的流量以維持統計能力。"
+>abstract="實驗中變體的數量，包括控制組。 A/B 測試包含 2 個組。 五個變體加上一個控制組，共 6 組。 組數越多，維持統計檢定力所需的流量就越大。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_duration"
->title="A/B測試持續時間"
->abstract="您的實驗將執行幾天。 較長的持續時間可讓您的實驗有更多時間收集資料，讓您可靠地偵測到較小的效果。 較短的持續時間需要較大的效果或較多的每日流量，才能獲得可靠的結果。"
+>title="A/B 測試持續時間"
+>abstract="您的實驗將執行多少天。 較長的持續時間可使實驗有更多的時間來收集資料，讓您能可靠地檢測較小的效應。 較短的持續時間需要較大的效應或較多的每日流量，才能獲得可靠的結果。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_minimum_detectable_effect"
->title="最小可偵測效果"
->abstract="值得偵測的最小改善，也就是您要採取的量度最小變更。 這是提升度的大小（以百分比點為單位），而非相對於基線的百分比變更。 例如，如果您的基準線是5%，而提升1個百分點很重要，請輸入1。"
+>title="最小可檢測效應"
+>abstract="值得檢測的最小改進，即您會採取行動的量度的最小變化量。 這是提升度的大小 (以百分點為單位)，而非相對於基準線的百分比變化。 例如，如果您的基準線是 5%，而提升 1 個百分點很重要，請輸入 1。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_expected_improvement"
->title="預期的改善"
+>title="預期的改進"
 >abstract="您預期實驗將產生的改進。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="變異數"
->abstract="量度值的分佈方式（而非其平均值）。 點選率之類的量度（大多為0和1）具有低變異數，而像每使用者收入之類的量度（少數高消費者，許多低消費者）則可能有高得多的變異數。 如果您不確定，請保留預設值1。"
+>abstract="您的量度值的分佈方式 (而非其平均值)。 點按率之類的量度 (大多為 0 和 1) 具有低變異數，而每位使用者的收入之類的量度 (少數高支出者，眾多低支出者) 則可能具有較高的變異數。 如果您不確定，請保留預設值 1。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="信賴水準"
->abstract="您對於結果在稱為真實之前並非只是隨機機率有多自信，這是統計顯著性的臨界值。 95%信賴水準表示最多有5%的機會是誤判。 較高的值可減少誤判，但需要較多的資料。"
+>abstract="在將某個結果稱為真實結果之前，您需要有多大的自信才能確定其非隨機巧合，這就是統計顯著性的臨界值。 95% 信賴水準表示最多有 5% 的機率是誤判。 較高的值可降低誤判率，但需要較多的資料。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="統計檢定力"
->abstract="如果確實存在效果，則偵測到效果的機率，也就是實驗的靈敏度。 80%的功率表示有80%的機會偵測到實際效果。 較高的功率可減少誤判，但需要更多流量或較長的執行時間。"
+>abstract="檢測到效應的機率 (如果效應確實存在)，即實驗的靈敏度。 80% 的檢定力意味著有 80% 的機率可以檢測到真實效應。 較高的檢定力可降低誤判率，但需要較多的流量或較長的執行時間。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_traffic_mode"
 >title="流量模式"
->abstract="使用者如何進入您的實驗。 持續：使用者在實驗期間每天輸入。 流量會在結果產生時，自動轉向績效較佳的變體。"
+>abstract="使用者如何進入您的實驗。 持續：使用者在實驗期間每天進入。 流量會在結果產生時自動轉向績效較佳的變體。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="量度類型"
->abstract="您正在測量哪種量度。 百分比：將此用於點按或轉換等二進位結果，其中每位使用者有所作為或未有所作為。 數字：收入或頁面檢視等量度使用此值，這些量度的值可能會因使用者而有很大的差異。"
+>abstract="您在衡量的量度類型。 百分比：請將此用於點按或轉換等二進位結果，其中每位使用者要麼有執行動作，要麼沒有執行動作。 數字：請將此用於收入或頁面檢視數等量度，其中的值可能會因使用者而有很大的變化。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_auto_daily_traffic"
 >title="每日流量"
->abstract="每天有多少使用者進入您的實驗。 用於持續進行多天的實驗，流量會在結果傳入時自動轉向表現更好的變體。"
+>abstract="每天有多少使用者進入您的實驗。 用於執行多天的持續實驗，流量會在結果產生時自動轉向績效較佳的變體。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_metric_rate"
->title="基準測量結果速率"
->abstract="實驗開始前您目前的效能，控制臂平均值。 一律為必要。 若是百分比量度，請輸入百分比：如果5%的訪客按一下今天購買，請輸入5。 若是計數量度，請輸入原始十進位值。"
+>title="基準線量度比率"
+>abstract="您在實驗開始前的目前績效，即控制組平均值。 始終為必要項。 對於百分比量度，請輸入百分比：如果 5% 的訪客點按「今日購買」，請輸入 5。 對於計數量度，請輸入原始小數值。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
 >title="主要量度"
->abstract="主要量度會自動從報表設定中提取。 若要進行變更，請在「目標與設定」下修改目標量度。"
+>abstract="主要量度會自動從報告設定中提取。 若要進行變更，請在「目標和設定」下方修改目標量度。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_hypothesis"
 >title="假設"
->abstract="假設是您定義的陳述，可說明實驗的預期結果。 包括變更內容與位置的說明，然後說明您要變更的量度及變更方式。"
+>abstract="假設是您定義的陳述，用來說明實驗的預期結果。 包括說明要變更的內容及位置，然後指出您預期變更的量度以及變更方式。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
->title="分析"
->abstract="實驗洞察是當實驗資料達到統計顯著性時，AI 分析得出的重要發現。"
+>title="洞察"
+>abstract="實驗洞察是當實驗資料達到統計顯著性時，AI 所獲得的學習成果。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="機會"
->abstract="實驗機會是AI根據在您的實驗熒幕擷取畫面和結果中找到的模式AI建議的處理想法。"
+>abstract="實驗機會是根據在您的實驗螢幕擷圖和結果中所發現的模式，AI 所建議的處理想法。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
->title="實驗組詳細資料"
->abstract="處理細節會顯示使用者符合處理條件時處理外觀的影像。 您可以檢閱這些影像以進行所有實驗。 某些實驗可能會要求您確認影像，或視需要加以取代。"
+>title="處理詳細資料"
+>abstract="處理詳細資料會顯示當使用者符合處理資格時處理外觀的影像。 您可以為所有實驗檢閱這些影像。 有些實驗可能會要求您確認影像或在需要時進行取代。"
 
 [!DNL Adobe Target] （屬於[!DNL Adobe Experience Cloud]的一部分）提供全方位的工具，可跨網站、行動網站、應用程式、社群媒體和其他數位頻道個人化客戶體驗。
 
