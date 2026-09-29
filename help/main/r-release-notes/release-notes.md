@@ -6,16 +6,20 @@ short-description: 深入了解 [!DNL Target] 目前版本所包含的新功能�
 title: 目前發行的版本包含哪些內容？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
+TQID: 'https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
     internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -25,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4d083419d76b0287c3c254a0fc382abc7444cc75
+source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 30%
 ---
 # [!DNL Target] 發行說明 (最新)
 
 探索[!DNL Adobe Target]的最新功能、增強功能和修正。 這些發行說明也涵蓋了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台元件（如適用）的更新。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 26.9.7 （2026年9月28日）
+
+**[!UICONTROL 推薦]**
+
++++ 檢視詳細資料
+
+* 視覺化體驗撰寫器&#x200B;**中的**「使用者輸入無效」錯誤。 在視覺化體驗撰寫器中編輯Recommendations活動時，嘗試儲存並關閉活動時出現「無效的使用者輸入」錯誤。
+
++++
+
 
 ## [!DNL Target Standard/Premium] 26.9.6 （2026年9月24日）
 
