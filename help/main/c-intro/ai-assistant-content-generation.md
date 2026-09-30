@@ -3,7 +3,7 @@ keywords: ai助理；人工智慧助理；內容產生；內容加速器；內�
 description: 瞭解如何使用[!DNL AI Assistant]產生吸引人的內容。
 title: 如何使用[!DNL Target]中的[!DNL AI Assistant]產生吸引人的內容？
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="[!DNL Adobe Target]中有哪些Beta功能。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip="[!DNL Adobe Target]中有哪些Beta功能。"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030

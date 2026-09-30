@@ -35,7 +35,7 @@ ht-degree: 27%
 ## 我可以在[!DNL Analysis Workspace]中檢視我的[!DNL Target]活動資料嗎？ {#workspace}
 
 +++回答
-您可以使用[!DNL Analysis Workspace]來分析您的[!DNL Target]活動和體驗。 [Analytics for Target面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html??lang=zh-Hant)可讓您檢視多達三個成功量度的提升度和可信度。 您也可以使用表格和視覺效果來深入瞭解。
+您可以使用[!DNL Analysis Workspace]來分析您的[!DNL Target]活動和體驗。 [Analytics for Target面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant&?lang=zh-Hant)可讓您檢視多達三個成功量度的提升度和可信度。 您也可以使用表格和視覺效果來深入瞭解。
 
 如需詳細資訊和範例，請開啟[!UICONTROL Adobe Experience League]提供的[Analytics &amp; Target： Analysis最佳實務教學課程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
 
@@ -91,7 +91,7 @@ ht-degree: 27%
 * 當使用者符合活動資格，且內容從[!DNL Target]傳回時，上述量度就會觸發。 這不一定表示使用者已經看到產品建議。 若活動體驗位於下半部，且使用者並未向下捲動頁面，則雖然 [!DNL Target] 已提供產品建議，但使用者並未看到產品建議。
 * [!UICONTROL 活動曝光次數] （由[!DNL Target]測量）與[!UICONTROL 執行個體] （由[!DNL Analytics]測量）相等，除非相同活動的相同頁面上有多個mbox呼叫。 這會導致系統計算多個[!UICONTROL 活動曝光次數]，但僅有單一[!UICONTROL 例項]。
 
-如需詳細資訊，請參閱&#x200B;*Adobe Target教學課程*&#x200B;中的[如何在Analysis Workspace中為自動鎖定目標活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html)。
+如需詳細資訊，請參閱&#x200B;*Adobe Target教學課程*&#x200B;中的[如何在Analysis Workspace中為自動鎖定目標活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hant)。
 
 +++
 
@@ -100,7 +100,7 @@ ht-degree: 27%
 +++回答
 [!DNL Reports & Analytics]將同一次接觸歸因模型套用至「活動曝光數」和「活動轉換」，但[!DNL Analysis Workspace]會顯示原始量度，由於[!DNL Target]維度的持續存在，這些量度可能會膨脹。
 
-若要在[!DNL Analysis Workspace]中評估正確的[!UICONTROL 活動曝光次數]和[!UICONTROL 活動轉換]量度，請確定這兩個量度皆已套用[!UICONTROL 相同接觸]歸因模型。 若要套用模型，請按一下欄設定齒輪，啟用[!UICONTROL 非預設歸因模型]，然後選取[!UICONTROL 相同接觸]。 在&#x200B;*Analytics工具指南*&#x200B;的[屬性IQ概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html)中進一步瞭解歸因。
+若要在[!DNL Analysis Workspace]中評估正確的[!UICONTROL 活動曝光次數]和[!UICONTROL 活動轉換]量度，請確定這兩個量度皆已套用[!UICONTROL 相同接觸]歸因模型。 若要套用模型，請按一下欄設定齒輪，啟用[!UICONTROL 非預設歸因模型]，然後選取[!UICONTROL 相同接觸]。 在&#x200B;*Analytics工具指南*&#x200B;的[屬性IQ概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=zh-Hant)中進一步瞭解歸因。
 
 +++
 
@@ -166,7 +166,7 @@ ht-degree: 27%
 
 因為兩個體驗都在轉換前看過，所以它們都會獲得訂單的「評分」。 但系統中僅會有一個訂單生效，並透過總計反映出來。 對於[!DNL Target]報告，因為您不是針對其他活動放入[!DNL Target]活動以檢視哪些活動更成功，所以使用者看到的所有活動獲得點數並不重要。 您正在比較單一活動中兩個專案的結果。 使用者不可能在同一個活動中看到不同的體驗，因此您不必擔心訂購點數的交叉汙染。
 
-如需詳細資訊，請參閱&#x200B;*Analytics管理指南*&#x200B;中的[轉換變數(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html))。
+如需詳細資訊，請參閱&#x200B;*Analytics管理指南*&#x200B;中的[轉換變數(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=zh-Hant))。
 
 +++
 
@@ -238,7 +238,7 @@ A4T活動停用後的報表曝光來源可以是QA模式流量。 Target通常�
 若要在[!DNL Analysis Workspace]中檢視活動曝光數：
 
 1. 在[!DNL Target] UI中，按一下&#x200B;**[!UICONTROL 在Analytics中檢視]**。
-1. 將&#x200B;**[!UICONTROL 活動曝光次數]**&#x200B;欄新增至[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}報表。
+1. 將&#x200B;**[!UICONTROL 活動曝光次數]**&#x200B;欄新增至[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant){target=_blank}報表。
 1. 在&#x200B;**[!UICONTROL 活動曝光次數]**&#x200B;欄中，按一下[!UICONTROL 齒輪]圖示。
 1. 按一下&#x200B;**[!UICONTROL 使用非預設歸因模型]**。
 1. 選取&#x200B;**[!UICONTROL 相同接觸模式]** > **[!UICONTROL 套用]**。
