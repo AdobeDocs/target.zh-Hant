@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ## 先決條件
 
-1. 請確定您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
+1. 請確定您已在 [!DNL Adobe Target]&#x200B;[&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
 
    * 貴組織必須首先同意法律條款。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
    * 您的系統管理員必須授予您足夠許可權以存取[!DNL AI Assistant]。
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. （選用）按一下&#x200B;**[!UICONTROL 品牌Assets]**，在產生期間上傳或切換品牌資產，以取得其他內容內容。
 
-1. 按一下「產生&#x200B;****」以建立文字變化清單。
+1. 按一下「產生&#x200B;**&#x200B;**」以建立文字變化清單。
 
    ![AI助理文字變化](/help/main/c-intro/assets/ai-variations-text.png)
 

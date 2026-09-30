@@ -242,7 +242,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 +++詳細資料
 如需可加入允許清單之IP位址的詳細資訊，請參閱下列文章：
 
-* **增強體驗撰寫器(EEC)**：請參閱[EEC不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法於公用IP上存取的內部QA URL ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)
+* **增強體驗撰寫器(EEC)**：請參閱[EEC不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法於公用IP上存取的內部QA URL &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)
 * **[!UICONTROL 建議]**：檢視Recommendations摘要處理伺服器使用的[IP位址](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)。
 
 +++

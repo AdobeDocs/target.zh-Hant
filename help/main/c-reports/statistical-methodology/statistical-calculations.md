@@ -59,7 +59,7 @@ ht-degree: 1%
   * 如果使用&#x200B;**[!UICONTROL 造訪]**&#x200B;做為計數方法，則每個單位都是定義為在[!DNL Target]工作階段期間體驗中唯一參與者的唯一造訪（具有唯一的`sessionId`）。 當`sessionId`變更時，或訪客達到轉換步驟時，即會計為新造訪。
   * 如果使用&#x200B;**[!UICONTROL 活動曝光次數]**&#x200B;做為計數方法，則每個單位都是定義為每次訪客載入活動任何頁面時的唯一曝光次數。
 
-### 平均]/[!UICONTROL 轉換率]的[!UICONTROL 信賴區間
+### 平均/[!UICONTROL 轉換率]的信賴區間
 
 轉換率的信賴區間在直覺上定義為與基礎資料一致的可能轉換率範圍。
 
@@ -113,7 +113,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此計算使用「差異」方法，本檔案將詳細說明[](/help/main/assets/confidence_interval_lift.pdf)
+此計算使用「差異」方法，本檔案將詳細說明[&#128279;](/help/main/assets/confidence_interval_lift.pdf)
 
 ### [!UICONTROL 信賴度]
 

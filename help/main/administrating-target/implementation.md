@@ -40,7 +40,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform]中的標籤是實作[!DNL Target]的偏好方法。 [!DNL Adobe Experience Platform]中的標籤是新一代[!DNL Adobe]的標籤管理功能。 標籤可讓客戶透過簡單的方式部署及管理必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。 如需詳細資訊，請參閱[使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}。
+>[!DNL Adobe Experience Platform]中的標籤是實作[!DNL Target]的偏好方法。 [!DNL Adobe Experience Platform]中的標籤是新一代[!DNL Adobe]的標籤管理功能。 標籤可讓客戶透過簡單的方式部署及管理必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。 如需詳細資訊，請參閱[使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}。
 
 1. 若要存取[!UICONTROL 實作]頁面，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
 

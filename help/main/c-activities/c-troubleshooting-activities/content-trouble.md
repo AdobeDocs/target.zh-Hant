@@ -63,7 +63,7 @@ ht-degree: 85%
 擷取授權權杖：
 
 1. 按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
-1. 在[偵錯工具]區段中，按一下[產生]新驗證Token ]**。**[!UICONTROL 
+1. 在[偵錯工具]區段中，按一下[產生]新驗證Token **。**
 
    ![產生新驗證權杖](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 

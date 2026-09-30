@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**[!UICONTROL Analytics分類]**，然後指定報表套裝。
 
-1. 按一下[下一步]****&#x200B;以前進到&#x200B;**[!UICONTROL 排程]**&#x200B;設定，選取摘要的頻率期間：
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以前進到&#x200B;**[!UICONTROL 排程]**&#x200B;設定，選取摘要的頻率期間：
 
    * [!UICONTROL 每日]
    * [!UICONTROL 每週]
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    您也可以選取一天中要處理摘要的時間。
 
-1. 按一下[下一步]****&#x200B;前進到&#x200B;**[!UICONTROL 對應]**&#x200B;設定，然後將欄位資料行標題對應到適當的[!UICONTROL Recommendations]欄位名稱。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;前進到&#x200B;**[!UICONTROL 對應]**&#x200B;設定，然後將欄位資料行標題對應到適當的[!UICONTROL Recommendations]欄位名稱。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 

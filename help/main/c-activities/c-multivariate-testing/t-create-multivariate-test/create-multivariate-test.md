@@ -39,7 +39,7 @@ ht-degree: 23%
 
 1. （視條件而定）如果您是[Target Premium](/help/main/c-intro/intro.md#premium)客戶，[請選擇工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. [為您要測試的頁面指定URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然後按一下[建立]。****
+1. [為您要測試的頁面指定URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然後按一下[建立]。**&#x200B;**
 
    >[!NOTE]
    >
@@ -99,7 +99,7 @@ ht-degree: 23%
 
 1. [使用流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)來測試您的測試計劃的可行性。
 
-1. 按一下[下一步]****&#x200B;以前進到[!UICONTROL 鎖定目標]頁面。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以前進到[!UICONTROL 鎖定目標]頁面。
 
    如果您曾使用其他[!DNL Target]活動型別，**鎖定目標**&#x200B;步驟看起來會很熟悉。 您可以在此選取受眾，並指定看到每個體驗的訪客百分比。
 
@@ -125,7 +125,7 @@ ht-degree: 23%
 
    例如，您可將項目限制為所有訪客的 50%，或「加州人」客群的 45%。
 
-1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]]**。**[!UICONTROL 
+1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]&#x200B;**。**
 
 1. [指定測試的目標與設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 

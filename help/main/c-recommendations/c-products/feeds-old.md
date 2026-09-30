@@ -128,7 +128,7 @@ Google 產品搜尋摘要類型使用 Google 格式。 這與[!DNL Adobe]專有�
 >
 >不一定要使用 Google 資料。 [!DNL Recommendations]使用與Google相同的格式。 您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。 不過，您在設定檔案時，必須保留 Google 預先定義的屬性名稱。
 
-大部分零售商都會將產品上傳至Google，因此當訪客使用Google產品搜尋時，會顯示其產品。 [!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的[屬性。 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
+大部分零售商都會將產品上傳至Google，因此當訪客使用Google產品搜尋時，會顯示其產品。 [!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的屬性。 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
 
 >[!NOTE]
 >

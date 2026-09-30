@@ -48,7 +48,7 @@ ht-degree: 29%
 
    如果您有Adobe ID，則會辨識您的Adobe ID，並提示您登入。
 1. 接受[!UICONTROL 使用條款]。
-1. 檢閱您目前已完成的摘要，然後按一下[繼續前往Experience Cloud] ****。
+1. 檢閱您目前已完成的摘要，然後按一下[繼續前往Experience Cloud] **&#x200B;**。
 1. 登入[!DNL Adobe Experience Cloud]並按一下&#x200B;**[!UICONTROL 連結帳戶]**。
 
    >[!NOTE]

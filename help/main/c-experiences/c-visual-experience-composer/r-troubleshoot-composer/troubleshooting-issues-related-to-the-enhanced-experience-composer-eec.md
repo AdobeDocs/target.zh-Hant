@@ -162,7 +162,7 @@ ht-degree: 29%
 ## EEC 不會在我使用 TLS 1.0 的網站上安全頁面中載入。 (僅限 EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++詳細資料
-您可能會看到上述「增強視覺化體驗撰寫器]不會在我的網站上安全頁面中載入」中所述的錯誤訊息。 [!UICONTROL 如果上述IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target]目前使用1.2的預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
+您可能會看到上述「增強視覺化體驗撰寫器不會在我的網站上安全頁面中載入」中所述的錯誤訊息。 如果上述IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target]目前使用1.2的預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
 若要使用 Firefox 檢查您的網站的 TLS 版本 (其他瀏覽器有類似的步驟):
 

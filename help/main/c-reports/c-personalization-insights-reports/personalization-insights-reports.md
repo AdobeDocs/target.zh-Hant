@@ -69,7 +69,7 @@ ht-degree: 29%
 
 * [!UICONTROL Personalization Insights]報告只有在從[!UICONTROL 報告量度]下拉式清單中選取[!UICONTROL 主要目標]時才可用。
 
-* [!UICONTROL 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights]報告。
+* 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights報告。
 
 * [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL 即時]狀態且已啟用且接收流量至少15天的活動產生。
 

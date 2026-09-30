@@ -78,7 +78,7 @@ ht-degree: 56%
 
    ![整合功能索引標籤](/help/main/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. （視條件而定）若要新增整合，請按一下[新增整合] ****，選取想要的整合，然後按一下[儲存] ****。
+1. （視條件而定）若要新增整合，請按一下[新增整合] **&#x200B;**，選取想要的整合，然後按一下[儲存] **&#x200B;**。
 
 1. 從&#x200B;**[!UICONTROL 產品角色]**&#x200B;下拉式清單中，選取該工作區的所需角色：
 

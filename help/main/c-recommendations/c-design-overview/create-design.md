@@ -55,7 +55,7 @@ ht-degree: 23%
 1. 按一下「**[!UICONTROL 建議]** > **[!UICONTROL 設計]**」以顯示[!UICONTROL 設計]資料庫。
 
 
-1. 按一下您想要建立的設計的[更多動作]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下[複製]。****
+1. 按一下您想要建立的設計的[更多動作]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下[複製]。**&#x200B;**
 
    [!UICONTROL 建立設計]對話方塊隨即顯示。
 

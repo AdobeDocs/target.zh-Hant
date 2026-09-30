@@ -183,7 +183,7 @@ ht-degree: 50%
 **我可以將活動排程在固定時間開始和結束嗎？**
 
 +++檢視詳細資料
-使用三部分活動工作流程的[!UICONTROL 目標與設定]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的[排程功能，指定開始和結束日期。
+使用三部分活動工作流程的[!UICONTROL 目標與設定]&#x200B;[&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的排程功能，指定開始和結束日期。
 
 記得啟動活動。 只有線上活動才會遵循指定的排程。 達到結束日期之後，活動會進入[!UICONTROL 已結束]狀態。
 
@@ -192,7 +192,7 @@ ht-degree: 50%
 **我可以只對[!UICONTROL 鎖定目標]步驟進行變更，而不要完成整個三個步驟引導工作流程來進行編輯？**
 
 +++檢視詳細資料
-您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。[
+您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面[&#128279;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。
 
 +++
 
@@ -309,7 +309,7 @@ ht-degree: 50%
 
 我們也提供[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單[。
+也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單。
 
 +++
 
@@ -323,7 +323,7 @@ ht-degree: 50%
 **我有多個網域。 其中一個網域需要啟用[!UICONTROL 增強體驗撰寫器]，而其他網域則需要將其停用。 我應該怎麼做？**
 
 +++檢視詳細資料
-您一律可以使用活動層級](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增強體驗撰寫器選項來覆寫預設設定（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
+您一律可以使用活動層級[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增強體驗撰寫器選項來覆寫預設設定（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
 
 +++
 

@@ -57,7 +57,7 @@ ht-degree: 8%
 
 * **檢視體驗**：若要檢視體驗，請按一下所需的體驗，以在[!UICONTROL 設計]畫布中顯示。
 * **新增體驗**：按一下&#x200B;**[!UICONTROL 新增]**&#x200B;圖示（![新增圖示](/help/main/assets/icons/Add.svg) ）以新增體驗。 視需要設定新體驗。
-* **重新命名體驗**：按一下&#x200B;**[!UICONTROL 重新命名]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/Rename.svg)）以顯示[!UICONTROL 重新命名體驗]對話方塊。 指定新名稱，然後按一下[儲存]。****
+* **重新命名體驗**：按一下&#x200B;**[!UICONTROL 重新命名]**&#x200B;圖示（![重新命名圖示](/help/main/assets/icons/Rename.svg)）以顯示[!UICONTROL 重新命名體驗]對話方塊。 指定新名稱，然後按一下[儲存]。**&#x200B;**
 * **複製、刪除或重新導向體驗**：按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後選擇&#x200B;**[!UICONTROL 複製]**、**[!UICONTROL 刪除]**&#x200B;或&#x200B;**[!UICONTROL 重新導向至URL]**。
 
 ### 活動設定/設定 {#settings}
