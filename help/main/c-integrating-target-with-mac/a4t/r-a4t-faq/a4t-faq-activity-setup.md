@@ -1,23 +1,28 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;活動設定
-description: 尋找使用Analytics for [!DNL Target] (A4T)時活動設定的相關問題解答。 A4T可讓您對 [!DNL Target] 個活動使用Analytics報告。
+description: 為[!DNL Target] (A4T)使用Analytics時尋找有關活動設定的問題解答。 A4T可讓您對[!DNL Target]個活動使用Analytics報告。
 title: 我可以在哪裡找到有關A4T活動設定的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-TQID: https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8
+TQID: 'https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '643'
 ht-degree: 14%
-
 ---
-
 # 活動設定 - A4T 常見問題集
 
 此主題包含經常詢問關於活動設定和使用[!DNL Analytics]做為[!DNL Target] (A4T)報表來源問題的回答。

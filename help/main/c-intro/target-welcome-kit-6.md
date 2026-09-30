@@ -1,24 +1,33 @@
 ---
 keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
-description: 從他人的錯誤中學習，這樣當您在使用 Adobe [!DNL Target] 當做您測試與個人化策略的一部分時，就不會重蹈覆轍。
-title: 使用 [!DNL Target] 的常見錯誤是什麼？要如何避免？
+description: 從他人的錯誤中學習，這樣當您在使用Adobe [!DNL Target]作為測試與個人化策略的一部分時，就不會重蹈覆轍。
+title: 使用[!DNL Target]的常見錯誤是什麼？要如何避免？
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-TQID: https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos
+TQID: 'https://experienceleague.adobe.com/AKPsKnKLbro9zbfYTwUXvSq9MJ0ObQoWWHkPH6PYGos'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 400
-ht-degree: 89%
-
+source-wordcount: '402'
+ht-degree: 81%
 ---
-
 # 第 6 章：容易避免的陷阱
 
 現在啟動最佳化和個人化計畫的好處是，已經進行了一段時間的人已經發現了許多容易犯的錯誤。 只要知道這些陷阱，您就能輕鬆避免或修正它們。

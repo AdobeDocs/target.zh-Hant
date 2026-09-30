@@ -8,13 +8,27 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%
-
 ---
-
 # 開始使用[!DNL Adobe Target] MCP伺服器 {#target-mcp-get-started}
 
 >[!AVAILABILITY]
@@ -38,9 +52,9 @@ ht-degree: 0%
 * 您與Adobe Experience Platform組織有作用中的[!DNL Adobe Target]授權（Adobe Experience Cloud訂閱）。
 * 您有一個支援的MCP相容應用程式（目前為Claude Web、Claude Desktop、Claude Code、Cursor或ChatGPT）。
 * 您已在Adobe Admin Console中設定[!DNL Adobe Target]許可權。 所需的角色取決於您要執行的作業：
-   * **觀察者**&#x200B;角色或更新版本：存取所有唯讀工具（檢查、報告、稽核）
-   * **編輯者**&#x200B;角色或更新版本：存取讀取工具與寫入工具（建立、更新）
-   * **核准者**&#x200B;角色：存取所有工具，包括啟用和停用
+  * **觀察者**&#x200B;角色或更新版本：存取所有唯讀工具（檢查、報告、稽核）
+  * **編輯者**&#x200B;角色或更新版本：存取讀取工具與寫入工具（建立、更新）
+  * **核准者**&#x200B;角色：存取所有工具，包括啟用和停用
 
 ## 連線[!DNL Adobe Target] MCP伺服器 {#mcp-connect}
 

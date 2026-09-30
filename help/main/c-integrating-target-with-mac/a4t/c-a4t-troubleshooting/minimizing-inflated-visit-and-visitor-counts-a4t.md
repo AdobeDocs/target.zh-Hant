@@ -1,16 +1,20 @@
 ---
 keywords: 部分資料;A4T;差異;analytics for target;孤立;虛擬報表套裝;虛設;疑難排解;未拼接;膨脹;未指定
-description: 了解在使用 Analytics for [!DNL Target] (A4t) 時，如何將膨脹的造訪和訪客計數影響降到最低。 了解什麼是「部分資料」以及如何使其減少。
+description: 瞭解在使用Analytics for [!DNL Target] (A4t)時，如何將膨脹的造訪和訪客計數影響降到最低。 了解什麼是「部分資料」以及如何使其減少。
 title: 如何在 A4T 中將膨脹的造訪和訪客計數減到最少？
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 97%
-
+ht-degree: 96%
 ---
-
 # 在 A4T 中將膨脹的造訪和訪客計數減到最少
 
 有關可協助您在使用 [!DNL Adobe Analytics] 作為 [!DNL Adobe Target] (A4T) 的報告來源時，將膨脹的造訪和訪客計數影響降到最低的資訊。

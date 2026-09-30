@@ -4,19 +4,23 @@ description: 瞭解如何針對Adobe [!DNL Target] [!UICONTROL 體驗鎖定目�
 title: 如何針對[!UICONTROL 多變數測試]活動使用[!UICONTROL 位置貢獻]報表？
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
+TQID: 'https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 32%
-
+source-wordcount: '285'
+ht-degree: 35%
 ---
-
 # [!UICONTROL 位置貢獻]報表(MVT)
 
 [!UICONTROL 位置貢獻]報表會顯示每個元素和每個選件的效能。
@@ -41,6 +45,6 @@ ht-degree: 32%
 
 ## 訓練影片: 建立 MVT 測試
 
-此影片示範如何使用[!DNL Target]三步驟引導式工作流程建立多變數測試。 位置貢獻報表的說明從8:45開始。
+此影片示範如何使用[!DNL Target]三步驟引導式工作流程建立多變數測試。 8:45 開始說明「位置貢獻」報表。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

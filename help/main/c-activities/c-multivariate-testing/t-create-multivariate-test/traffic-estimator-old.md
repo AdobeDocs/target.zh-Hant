@@ -1,16 +1,20 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: 瞭解如何使用流量估算程式，讓您知道您是否擁有足夠的流量以讓 [!DNL Adobe Target] [!UICONTROL 多變數測試]活動成功。
+description: 瞭解如何使用流量估算程式，讓您知道您的[!DNL Adobe Target] [!UICONTROL 多變數測試]活動是否有足夠的流量可以成功。
 title: '[!UICONTROL 多變數測試] (MVT)活動需要多少流量？'
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 51%
-
 ---
-
 # 預估成功的[!UICONTROL 多變數測試]活動所需的流量
 
 因為多變數測試會比較多個體驗，請務必瞭解若要提供有意義的結果需要多少流量。 流量估算程式會使用關於您的頁面和待測試體驗數量的統計資料，以預估讓測試成功所需的流量和測試持續時間。

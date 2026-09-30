@@ -4,13 +4,14 @@ description: 瞭解如何在旗標中建立功能群組，以單一單位管理�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
-
 ---
-
 # 建立功能群組 {#create-feature-group}
 
 ## 先決條件 {#prerequisites}

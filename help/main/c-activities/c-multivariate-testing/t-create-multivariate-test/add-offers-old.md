@@ -1,16 +1,20 @@
 ---
 keywords: mvt；多變數測試；選件；組合
-description: 瞭解如何在Adobe [!DNL Target] 中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立您要包含在[!UICONTROL 多變數測試] (MVT)中的選件。
+description: 瞭解如何在Adobe [!DNL Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立您要包含在[!UICONTROL 多變數測試] (MVT)中的選件。
 title: 如何在[!UICONTROL 多變數測試] (MVT)中建立組合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '510'
 ht-degree: 60%
-
 ---
-
 # 建立組合
 
 在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立您要包含在[!UICONTROL 多變數測試] (MVT)中的選件。

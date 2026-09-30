@@ -4,13 +4,14 @@ description: 瞭解如何將新應用程式上線至旗標，以便開始建立�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 2%
-
+ht-degree: 5%
 ---
-
 # 將您的應用程式上線 {#onboard-your-application}
 
 您必須擁有&#x200B;**管理員**&#x200B;角色才能新增應用程式。 如果您需要驗證或更新您的角色，請聯絡管理員。
@@ -29,7 +30,7 @@ ht-degree: 2%
 
 4. 提供下列資訊：
 
-   標示*的欄位為必填欄位。
+   標有 * 的欄位為必填欄位。
 
    | 欄位 | 說明 |
    | --- | --- |

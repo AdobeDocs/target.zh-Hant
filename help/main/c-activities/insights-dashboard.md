@@ -1,16 +1,20 @@
 ---
 keywords: 活動；活動；見解儀表板
-description: '[!UICONTROL Adobe Target儀表板]提供貴組織如何隨著時間使用 [!DNL Target] 的高階檢視，顯示採用率、活動量和實驗使用情形概覽。'
+description: '[!UICONTROL Adobe Target儀表板]提供貴組織如何隨著時間使用[!DNL Target]的高階檢視，一眼即可掌握採用程度、活動量和實驗使用情形。'
 title: Adobe Target見解控制面板
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
-source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 1%
-
 ---
-
 # Adobe Target見解控制面板
 
 [!UICONTROL Adobe Target儀表板]提供貴組織如何隨著時間使用[!DNL Adobe Target]的高層級檢視。 它有助於團隊一眼就瞭解採用、活動量和實驗用法。

@@ -1,38 +1,57 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;搜尋引擎最佳化;搜尋引擎最佳化;seo;邊緣叢集,中央叢集;at.js;mbox.js;
-description: 瞭解 [!DNL Adobe Target] 的運作方式，包括有關JavaScript資料庫(AEP Web SDK at.js)、伺服器呼叫使用策略、使用情況、Adobe資料中心、SEO測試和機器人的資訊。
-title: ' [!DNL Target] 如何運作？'
+description: 瞭解[!DNL Adobe Target]的運作方式，包括有關JavaScript資料庫(AEP Web SDK at.js)、伺服器呼叫使用策略、使用、Adobe資料中心、SEO測試和機器人的資訊。
+title: '[!DNL Target]如何運作？'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
+TQID: 'https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2421
-ht-degree: 25%
-
+source-wordcount: '2424'
+ht-degree: 24%
 ---
-
 # [!DNL Adobe Target] 運作方式
 
 瞭解[!DNL Adobe Target]的運作方式，包括有關JavaScript資料庫（[!DNL Adobe Experience Platform Web SDK]和at.js）的詳細資料。 本文也涵蓋您可以建立的各種活動型別、[!DNL Target]使用計數策略、[!DNL Target] Edge Network、SEO和機器人偵測。
@@ -156,7 +175,7 @@ The following information helps you understand the counting strategy used for [!
 
 為改善回應時間，[!DNL Target] Edges 僅代管活動邏輯、快取輪廓和產品建議資訊。
 
-活動和內容資料庫、[!DNL Analytics]資料、API和行銷人員使用者介面存放在[!DNL Adobe]中央叢集中。 更新會傳送至[!DNL Target]邊緣，這些邊緣會自動與中央叢集同步，以持續更新快取的活動資料。 所有1:1模型也會儲存在每個邊緣，允許在本機處理複雜的請求。
+活動和內容資料庫、[!DNL Analytics]資料、API和行銷人員使用者介面存放在[!DNL Adobe]中央叢集中。 更新會傳送至[!DNL Target]邊緣，這些邊緣會自動與中央叢集同步，以持續更新快取的活動資料。 所有1:1模型也會儲存在每個邊緣，以便在本機處理複雜的請求。
 
 每個Edge叢集都包含回應訪客內容請求及追蹤分析資料所需的所有必要資訊。 訪客請求會路由至最接近的邊緣叢集。
 

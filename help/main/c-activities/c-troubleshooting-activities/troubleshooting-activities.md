@@ -1,23 +1,28 @@
 ---
 keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 顯示上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪輪廓指令碼; ajax 無法使用
-description: 如果您的 Adobe [!DNL Target] 活動未出現在網站上，請尋找疑難排解建議。
+description: 如果您的Adobe [!DNL Target]活動未出現在網站上，請尋找疑難排解建議。
 title: 如何疑難排解活動？
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
+TQID: 'https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 43%
-
+source-wordcount: '867'
+ht-degree: 41%
 ---
-
 # 疑難排解活動
 
 如果您的 [!DNL Adobe Target] 活動未出現在網站上，這些疑難排解建議應可協助您尋找您的解決方案。

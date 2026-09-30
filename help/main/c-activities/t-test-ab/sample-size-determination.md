@@ -1,25 +1,33 @@
 ---
 keywords: AB； A/B； AB...n；樣本大小；樣本大小電腦；自動分配；電腦
-description: 瞭解執行A/B測試的時間長度。 在 [!DNL Adobe Target] 中成功的A/B測試需要足夠的訪客（樣本大小）來提高轉換率。
+description: 瞭解執行A/B測試的時間長度。 在[!DNL Adobe Target]中成功的A/B測試需要足夠的訪客（樣本大小）來提高轉換率。
 title: A/B測試該執行多久？
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-TQID: https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs
+TQID: 'https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Optimization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3184
+source-wordcount: '3185'
 ht-degree: 47%
-
 ---
-
 # A/B 測試該執行多久？
 
 在[!DNL Adobe Target]中成功的[!UICONTROL A/B測試]活動需要足夠的訪客（樣本大小）來提高轉換率。 您如何知道執行A/B測試的時間長度？ 本文包含有關[!UICONTROL 自動分配]活動和[!UICONTROL Adobe Target]樣本大小計算器的資訊，可協助您確保活動有足夠訪客達成您的目標。

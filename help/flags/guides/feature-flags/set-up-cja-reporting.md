@@ -4,13 +4,14 @@ description: 設定透過Customer Journey Analytics檢視功能標幟和功能�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 4%
-
 ---
-
 # 設定CJA功能標幟報表 {#set-up-cja-reporting}
 
 旗標與Adobe Customer Journey Analytics (CJA)之間的整合提供統一方式，可衡量功能旗標變體對業務的影響。 隨時將CJA成功量度套用至Flags報表，並運用Customer Journey Analytics功能（例如[Experimentation面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation)）來評估實驗效能，並瞭解功能變體如何影響客戶行為。

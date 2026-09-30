@@ -1,16 +1,23 @@
 ---
 keywords: 活動設定; A/B目標與設定; 報表設定; 目標量度; 成功量度; 相依成功量度; 進階設定; 主要目標; 其他量度; 目標; 優先順序; 持續時間; 報表解決方案; 目標; 報表客群; 增加此量度前需要達成哪些成功量度; 使用者達到此目標量度後會發生什麼事; 備註
 description: 瞭解如何使用[!UICONTROL 目標與設定]頁面來指定A/B活動目標的相關資訊。
-title: 如何在 [!DNL Target] A/B活動中指定目標與設定？
+title: 如何在[!DNL Target] A/B活動中指定目標與設定？
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 37%
-
+source-wordcount: '1416'
+ht-degree: 38%
 ---
-
 # 目標與設定
 
 [!DNL Adobe Target]中的[!UICONTROL 目標與設定]頁面是您指定活動目標相關資訊的位置。
@@ -25,7 +32,7 @@ ht-degree: 37%
 |--- |--- |
 | [!UICONTROL 目標] | 輸入可選目標。 目標可以是任何有助於您與您的團隊成員識別活動的資訊。 |
 | [!UICONTROL 優先順序] | 根據您的設定，[!UICONTROL 優先順序]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的舊設定，或者您可以啟用從0到999的微調優先順序。<P>如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。 如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<P>如果未在[!UICONTROL 管理] （預設）中啟用此選項，請指定優先順序： [!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]。<P>若要啟用[微調優先順序](/help/main/administrating-target/reporting.md)，請按一下[!UICONTROL 管理] > [!UICONTROL 報告]，然後將[!UICONTROL 啟用微調優先順序]選項切換到「開啟」位置。 <P>如果已啟用此選項，請指定從0到999的值： 0 = [!UICONTROL 低]和999 = [!UICONTROL 高]。 <P>對於在舊版[!DNL Target]中建立的活動，[!UICONTROL 低]優先順序會轉換為0，[!UICONTROL Medium]會轉換為5，而[!UICONTROL 高]會轉換為10。 您可以視需要調整這些值。<P>注意：在使用微調優先順序後，在您可以停用此選項之前，必須將所有優先順序設定回0、5和10。 |
-| 持續時間 | 活動可以在核准後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。 |
+| 持續時間 | 活動可以在核准後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用 24 小時時鐘，午夜為 00:00。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。 |
 
 ## [!UICONTROL 報表設定] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -82,7 +89,7 @@ ht-degree: 37%
 
 ### 建立A/B測試(8:36) ![教學課程徽章](/help/main/assets/tutorial.png)
 
-此影片示範活動設定如何在建立活動時配合三個步驟引導工作流程。 目標與設定從5:30開始討論。
+此影片示範活動設定如何在建立活動時配合三個步驟引導工作流程。 在 5:30 開始討論目標和設定。
 
 * 在 Adobe Target 中建立 A/B 活動
 * 使用手動分割或自動流量分配來分配流量

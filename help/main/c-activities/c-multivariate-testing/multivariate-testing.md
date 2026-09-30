@@ -1,24 +1,28 @@
 ---
 keywords: 多變數測試；mvt；全階乘；mvt或a/b；多變數a/b；流量估算；何時使用mvt；mvt考量；多變數；部分階乘；部分階乘；全階乘
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 多變數測試] (MVT)來比較頁面上元素中的選件組合，以判斷哪個組合表現最好。
+description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL 多變數測試] (MVT)來比較頁面上元素中的選件組合，以判斷哪個組合表現最好。
 title: 什麼是[!UICONTROL 多變數測試]？
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+TQID: 'https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1473
+source-wordcount: '1477'
 ht-degree: 46%
-
 ---
-
 # [!UICONTROL 多變數測試]總覽
 
 [!DNL Adobe Target]中的[!UICONTROL 多變數測試] (MVT)活動會比較頁面上元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳。 [!UICONTROL 多變數測試]活動也有助於識別哪個元素最能影響活動的成功。
@@ -98,9 +102,9 @@ Target的[流量估算程式](/help/main/c-activities/c-multivariate-testing/t-c
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 活動型別(9:03) ![總覽徽章](/help/main/assets/overview.png)
+### 活動型別(9:03) ![Overview badge](/help/main/assets/overview.png)
 
-此概觀影片說明[!DNL Target]中可用的活動型別。 多變數測試的討論開始於4:20。
+此概觀影片說明[!DNL Target]中可用的活動型別。 4:20 開始討論多變數測試。
 
 * 說明 [!DNL Adobe Target] 中包括的活動類型
 * 選取達成目標的適當活動類型

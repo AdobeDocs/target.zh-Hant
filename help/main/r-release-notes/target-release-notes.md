@@ -1,26 +1,33 @@
 ---
 keywords: 發行說明；發行；更新；未來發行；增強功能；新功能；修正；更新；發行前；搶先使用
-description: 了解  [!DNL Target] 即將發行的版本所包含的新功能、增強功能和修正，其中包括 SDK、API 和 JavaScript 程式庫。
-title: 即將發行的  [!DNL Target]  版本將包含哪些新功能和增強功能？
+description: 瞭解[!DNL Target]即將發行版本包含的新功能、增強功能和錯誤修正，其中包括SDK、API和JavaScript資料庫。
+title: 即將發行的[!DNL Target]版本包含哪些新功能和增強功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-TQID: https://experienceleague.adobe.com/ITCtRvL0t6ZyT-BRkO7oYDq6-D08qoUP6XIQTe9RPKY
+TQID: 'https://experienceleague.adobe.com/ITCtRvL0t6ZyT-BRkO7oYDq6-D08qoUP6XIQTe9RPKY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 203
-ht-degree: 80%
-
+source-wordcount: '204'
+ht-degree: 65%
 ---
-
 # [!DNL Target] 發行說明 (搶鮮版)
 
 本文包含即將發行的 [!DNL Adobe Target] 版本 (包括 SDK、API 和 JavaScript 程式庫) 的搶鮮版資訊。

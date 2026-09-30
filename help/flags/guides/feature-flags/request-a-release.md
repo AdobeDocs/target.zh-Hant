@@ -4,13 +4,14 @@ description: 瞭解如何在Flags中請求新的協調發行，以及要提供�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 3%
-
 ---
-
 # 要求發行 {#request-a-release}
 
 ## 先決條件 {#prerequisites}

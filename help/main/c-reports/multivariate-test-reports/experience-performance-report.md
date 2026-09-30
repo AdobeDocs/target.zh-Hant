@@ -1,23 +1,28 @@
 ---
 keywords: 多變數測試;mvt;體驗效能報表
-description: 瞭解如何針對Adobe [!DNL Target] 體驗鎖定目標活動使用體驗效能報表，以顯示活動中每個體驗的執行成果。
+description: 瞭解如何針對Adobe [!DNL Target]體驗鎖定目標活動使用體驗效能報表，以顯示活動中每個體驗的執行成果。
 title: 如何將體驗效能報表用於多變數測試？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-TQID: https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg
+TQID: 'https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 331
-ht-degree: 71%
-
+source-wordcount: '333'
+ht-degree: 74%
 ---
-
 # [!UICONTROL 體驗效能]報表(MVT)
 
 [!UICONTROL 體驗效能]報表顯示活動中的每個體驗的執行成果。 此報表包括關於加入者數量、轉換率、提升度和可信度的資訊。
@@ -42,6 +47,6 @@ ht-degree: 71%
 
 ## 訓練影片：建立MVT測試![教學課程徽章](/help/main/assets/tutorial.png)
 
-此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。 從8:20開始說明體驗效能報表。
+此影片示範如何使用 Target 三個步驟引導工作流程來建立多變數測試。 8:20 開始說明「體驗效能」報表。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

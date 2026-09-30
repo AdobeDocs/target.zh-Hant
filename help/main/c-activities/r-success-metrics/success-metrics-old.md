@@ -1,16 +1,23 @@
 ---
 keywords: 鎖定目標；成功；轉換量度；頁面分數量度；頁面檢視量度；收入量度；網站逗留時間量度；預估值；進階設定；成功量度；進階設定；相依性；相依性；增加計數並保留活動中的使用者；增加計數、釋出使用者，以及允許重新進入；增加計數、釋出使用者，並禁止重新進入
-description: 瞭解Adobe [!DNL Target] 中的成功量度，協助您判斷活動是否成功。 成功量度包括轉換、收入、頁面檢視、自訂評分和網站逗留時間。
+description: 瞭解Adobe [!DNL Target]中的成功量度，其可協助您判斷活動是否成功。 成功量度包括轉換、收入、頁面檢視、自訂評分和網站逗留時間。
 title: 什麼是成功量度？
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1279'
 ht-degree: 41%
-
 ---
-
 # 成功量度
 
 在[!DNL Adobe Target]個成功量度中，是用來測量活動成功的引數。 成功量度包含重要的商務測量，可讓您判斷[!DNL Target]活動中特定體驗或選件的成功程度。

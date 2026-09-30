@@ -3,13 +3,14 @@ title: 建立和使用規則集
 description: 瞭解如何在旗標中建立可重複使用的受眾內容條件規則集，並將其匯入功能旗標和功能群組中。
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 1%
-
 ---
-
 # 建立和使用規則集 {#creating-and-using-rule-sets}
 
 規則集是可重複使用的對象內容條件集合。 當多個功能標幟或功能群組需要相同對象時，請建立規則集。 接著，您可以匯入規則集，而非為每個功能重新建立對象條件。

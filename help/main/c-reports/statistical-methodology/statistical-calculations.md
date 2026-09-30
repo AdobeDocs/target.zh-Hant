@@ -1,22 +1,26 @@
 ---
 keywords: 報表；統計方法；統計計算；統計；平均值；轉換率；每位訪客帶來的收入；rpv；信賴區間；提升度；welch t測試；離線計算
-description: 瞭解在 [!DNL Adobe Target]中的手動[!UICONTROL A/B測試]活動中使用的統計計算。
+description: 瞭解在[!DNL Adobe Target]中的手動[!UICONTROL A/B測試]活動中使用的統計計算。
 title: 如何瞭解[!UICONTROL A/B測試]活動中使用的統計計算？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+TQID: 'https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 224dafac8d5d0ba17baa4ee998ca7dd89b73b898
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: '1506'
 ht-degree: 1%
-
 ---
-
 # A/Bn測試中的統計計算
 
 本文記錄了[!DNL Adobe Target]中手動A/Bn測試使用的詳細統計計算。 已提供&#x200B;**[!UICONTROL 轉換率]**、**[!UICONTROL 轉換率的信賴區間]**、**[!UICONTROL 提升度]**、**[!UICONTROL 提升度的信賴區間]**、**[!UICONTROL 信賴度]**&#x200B;以及&#x200B;**[!UICONTROL 貝葉斯]**&#x200B;決定度量的定義。

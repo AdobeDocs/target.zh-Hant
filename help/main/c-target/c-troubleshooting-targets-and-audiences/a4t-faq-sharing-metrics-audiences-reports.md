@@ -1,26 +1,32 @@
 ---
 keywords: 常見問題集、常見問題集、Analytics For Target、區段、A4T、共用報表
-description: 尋找在使用Analytics for [!DNL Target] (A4T)時共用量度、對象和報表的常見問題集。 A4T可讓您對Adobe [!DNL Target] 活動使用Analytics報告。
+description: 尋找在使用Analytics for [!DNL Target] (A4T)時共用量度、對象和報表的常見問題集。 A4T可讓您對Adobe [!DNL Target]活動使用Analytics報告。
 title: 何處可以找到A4T中共用量度、對象和報表的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
-TQID: https://experienceleague.adobe.com/eCcPdeeOZ2h9wDrkT-wZxN2meh5dD0QW9rNsQU1ytLA
+TQID: 'https://experienceleague.adobe.com/eCcPdeeOZ2h9wDrkT-wZxN2meh5dD0QW9rNsQU1ytLA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Optimization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '250'
 ht-degree: 65%
-
 ---
-
 # 共用量度、客群和報表 - A4T 常見問題集
 
 此主題包含使用 Analytics 做為 Target 報表來源 (A4T) 時經常詢問關於共用量度、客群和報表問題的回答。

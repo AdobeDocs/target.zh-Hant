@@ -1,21 +1,27 @@
 ---
 keywords: 自動流量分配；鎖定目標；自動分配
-description: 瞭解 [!DNL Adobe Target] 中的[!UICONTROL 自動分配]活動如何從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者。
+description: 瞭解[!DNL Adobe Target]中的[!UICONTROL 自動分配]活動如何從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者。
 title: '[!UICONTROL 自動分配]活動能否取得更快的結果和更高的收入？'
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
-TQID: https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk
+TQID: 'https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '561'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL 自動分配]提供比手動測試更快的測試結果和更高的收入
 
 使用手動A/B活動時，您可能會失去轉換，因為您無法在活動完成前將成功體驗傳送給整個對象。 即使在您認識到某些體驗勝過其他體驗，以及活動必須執行其整個課程才能對獲勝者採取行動之後，您的流量分配仍會維持固定。

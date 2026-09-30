@@ -1,17 +1,24 @@
 ---
 keywords: 流量估算器；automated personalization；ap；估算流量
-description: 使用 [!DNL Adobe Target] [!UICONTROL 流量估算程式]來判斷您的[!UICONTROL Automated Personalization]活動是否有足夠的流量可以成功。
+description: 使用[!DNL Adobe Target] [!UICONTROL 流量估算程式]來判斷您的[!UICONTROL Automated Personalization]活動是否有足夠的流量可以成功。
 title: 成功的[!UICONTROL Automated Personalization]活動需要多少流量？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 9%
-
 ---
-
 # 預估成功所需的流量
 
 [!DNL Adobe Target] [!UICONTROL 流量估算程式]提供的意見回饋可讓您知道您的[!UICONTROL Automated Personalization] (AP)活動是否有足夠的流量可以成功。

@@ -1,25 +1,33 @@
 ---
 keywords: 體驗；視覺化體驗撰寫器；增強體驗撰寫器；表單式體驗撰寫器；表單式撰寫器；視覺化撰寫器；體驗撰寫器；混合內容； iframe； iframe爆破；爆破iframe； x-frame-options； x frame選項；跨來源；跨來源問題；驗證工作流程
 description: 深入瞭解Adobe體驗撰寫器 — 視覺化體驗撰寫器(VEC)、表單式體驗撰寫器和單頁視覺化體驗撰寫器。
-title: ' [!DNL Target] 提供哪些體驗撰寫器？'
+title: '[!DNL Target]提供哪些體驗撰寫器？'
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
-TQID: https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw
+TQID: 'https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: '389'
 ht-degree: 79%
-
 ---
-
 # 體驗與產品建議
 
 [!DNL Adobe Target]中的體驗會決定當訪客滿足活動的對象條件時，要顯示哪些內容。

@@ -1,25 +1,32 @@
 ---
 keywords: 報表；封鎖ip位址；封鎖來自ip位址的訪客；下載報表；csv；報表
-description: 精通 [!DNL Adobe Target]的報告功能以最佳化您的活動，進而增強決策能力並提高ROI。
+description: 精通[!DNL Adobe Target]的報告功能以最佳化您的活動，進而增強決策能力並提高ROI。
 title: 如何檢視報表？
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-TQID: https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI
+TQID: 'https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: '948'
 ht-degree: 24%
-
 ---
-
 # 報告
 
 報表提供有關[!DNL Adobe Target]活動進度和結果的資訊，可協助您根據資料進行決策。 報表資料可協助您決定要在何時終止活動、顯示哪個體驗或選件是獲勝者，以及提供判斷後續動作所需的前瞻分析或經驗談。

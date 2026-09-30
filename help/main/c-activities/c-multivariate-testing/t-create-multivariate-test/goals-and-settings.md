@@ -1,26 +1,32 @@
 ---
 keywords: 活動設定；目標與設定；多變數；mvt
-description: 瞭解如何使用 [!DNL Adobe Target] 中的[!UICONTROL 目標與設定]頁面，以指定[!UICONTROL 多變數測試] (MVT)活動之目標的相關資訊。
+description: 瞭解如何使用[!DNL Adobe Target]中的[!UICONTROL 目標與設定]頁面，以指定[!UICONTROL 多變數測試] (MVT)活動之目標的相關資訊。
 title: 如何在[!UICONTROL 多變數測試] (MVT)活動中指定目標與設定？
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 39%
-
+source-wordcount: '1266'
+ht-degree: 40%
 ---
-
 # 目標與設定（[!UICONTROL 多變數測試]）
 
 [!DNL Adobe Target]中的[!UICONTROL 目標與設定]頁面是您輸入[!UICONTROL 多變數測試] (MVT)活動之目標相關資訊的位置。
@@ -64,7 +70,7 @@ ht-degree: 39%
 
 ### 持續時間
 
-活動可以在核准後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
+活動可以在核准後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用 24 小時時鐘，午夜為 00:00。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
 
 ## 報表設定 {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -181,9 +187,9 @@ ht-degree: 39%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 正在建立多變數測試(9:25)
+### 建立多變數測試(9:25)
 
-此影片示範如何使用[!DNL Target]三步驟引導式工作流程建立多變數測試。 目標與設定從7:00開始討論。
+此影片示範如何使用[!DNL Target]三步驟引導式工作流程建立多變數測試。 在 7:00 開始討論目標和設定。
 
 * 定義和設計多變數測試
 * 建立多變數測試

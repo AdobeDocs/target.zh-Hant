@@ -1,22 +1,26 @@
 ---
 keywords: 多頁面; 歷程測試; 多頁面活動
-description: 瞭解如何在Adobe [!DNL Target] 中建立多頁活動，讓您使用每個頁面專屬的設計，在多個頁面上建立劇本。
+description: 瞭解如何在Adobe [!DNL Target]中建立多頁活動，可讓您使用每個頁面專屬的設計，在多個頁面上建立劇本。
 title: 如何建立多頁活動？
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-TQID: https://experienceleague.adobe.com/ZFqgbNp-sLF-ahG-uXKvWY0XPcxO0oZScGkpNX8hDHY
+TQID: 'https://experienceleague.adobe.com/ZFqgbNp-sLF-ahG-uXKvWY0XPcxO0oZScGkpNX8hDHY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Mobile experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '354'
 ht-degree: 54%
-
 ---
-
 # 多頁活動
 
 [!DNL Adobe Target]中的多頁活動可讓您使用每個頁面專屬的設計，來建立多個頁面的劇本。

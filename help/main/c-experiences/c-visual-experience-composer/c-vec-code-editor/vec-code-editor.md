@@ -1,22 +1,26 @@
 ---
 keywords: CSS 選取器; 自訂程式碼; 程式碼編輯器; Mobile Web Experience Editor
-description: 瞭解如何使用Adobe [!DNL Target] 中的修改面板來檢視頁面修改及新增其他修改（CSS選取器、Mbox和自訂程式碼）。
+description: 瞭解如何使用Adobe [!DNL Target]中的修改面板來檢視頁面修改及新增其他修改（CSS選取器、Mbox和自訂程式碼）。
 title: 我可以修改我的頁面嗎？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-TQID: https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU
+TQID: 'https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 82%
-
+source-wordcount: '2264'
+ht-degree: 81%
 ---
-
 # 修改
 
 有關[!DNL Adobe Target]中[!UICONTROL 修改]頁面的資訊，可讓您檢視對頁面的修改並新增其他修改（CSS選取器、Mbox和自訂程式碼）。

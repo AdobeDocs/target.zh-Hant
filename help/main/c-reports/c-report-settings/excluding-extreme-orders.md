@@ -1,21 +1,24 @@
 ---
 keywords: Target;報表;報表設定;極端訂單;極端值
-description: 瞭解如何在Adobe [!DNL Target] 中排除極端值，以免影響報表，讓少數不尋常的訂單不會影響您的活動結果。
+description: 瞭解如何在Adobe [!DNL Target]中排除極端值，以免影響報表，讓少數不尋常的訂單不會影響您的活動結果。
 title: 如何在報表中排除極端值？
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-TQID: https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI
+TQID: 'https://experienceleague.adobe.com/yQtG4u-sLVJ66PezWW9ZgmY8ZuK177m-hLdQq-zlmfI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '333'
 ht-degree: 62%
-
 ---
-
 # 排除極端值
 
 您可以排除極端值，以免影響[!DNL Adobe Target]中的報表，讓少數不尋常的訂單不會影響您的活動結果。 異常訂單的範例可能是為整個團隊購買制服的教練，而非購買個別制服的個別購買者。
@@ -38,4 +41,4 @@ ht-degree: 62%
 1. 按一下「報表設定」（![報表設定圖示](/help/main/assets/icons/Setting.svg)）圖示，以顯示&#x200B;**[!UICONTROL 設定]**&#x200B;對話方塊。
 
 1. 視需要滑動&#x200B;**[!UICONTROL 排除極端值]**&#x200B;切換至「開啟」或「關閉」位置。
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。

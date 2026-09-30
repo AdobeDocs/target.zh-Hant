@@ -4,13 +4,14 @@ description: 瞭解Adobe Target中的旗標如何提供控管發行系統，以�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 2%
-
 ---
-
 # 標幟簡介 {#introduction}
 
 >[!AVAILABILITY]

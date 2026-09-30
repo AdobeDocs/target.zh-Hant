@@ -1,23 +1,28 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;提升度;隨選;報表產生器;可信度
-description: 為 [!DNL Target] (A4T)使用Analytics時，尋找提升度和可信度的相關問題解答。 A4T可讓您對 [!DNL Target] 個活動使用Analytics報告。
+description: 為[!DNL Target] (A4T)使用Analytics時，尋找提升度和可信度的相關問題解答。 A4T可讓您對[!DNL Target]個活動使用Analytics報告。
 title: 哪裡可以找到A4T的提升度和可信度相關資訊？
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-TQID: https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY
+TQID: 'https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Optimization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '549'
 ht-degree: 25%
-
 ---
-
 # 提升度和可信度 - A4T 常見問題集
 
 此主題包含使用[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報表來源時，經常詢問關於提升度和可信度問題的回答。

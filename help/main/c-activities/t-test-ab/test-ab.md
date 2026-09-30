@@ -1,23 +1,31 @@
 ---
 keywords: AB； A/B； AB...n；比較體驗；鎖定目標；比較內容；自動鎖定目標；自動分配
-description: 探索 [!DNL Target] - [!UICONTROL 手動]、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]中的A/B測試活動。
-title: 探索 [!DNL Target]中可用的A/B測試活動。
+description: 在[!DNL Target] - [!UICONTROL 手動]、[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]中探索A/B測試活動。
+title: 探索[!DNL Target]中可用的A/B測試活動。
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-TQID: https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg
+TQID: 'https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '757'
 ht-degree: 19%
-
 ---
-
 # A/B測試概覽
 
 手動[!UICONTROL A/B測試]活動（有時稱為A/B...N測試）會比較兩個或更多版本的網站內容，以檢視哪個版本最能提升您的轉換、銷售或其他識別量度。 使用 A/B 測試來將對您的頁面的變更與您的預設頁面設計比較，以決定哪個體驗可產生最佳結果。

@@ -1,16 +1,23 @@
 ---
 keywords: 建立A/B； A/B測試； A/B活動；新a/b活動；建立a/b
-description: 瞭解如何在Adobe [!DNL Target] 中使用視覺化體驗撰寫器(VEC)，直接在啟用 [!DNL Target]的頁面上建立您的A/B測試活動。
+description: 瞭解如何在Adobe [!DNL Target]中使用視覺化體驗撰寫器(VEC)，直接在啟用[!DNL Target]的頁面上建立您的A/B測試活動。
 title: 如何建立A/B測試？
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 36%
-
 ---
-
 # 建立 A/B 測試
 
 在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)，直接在啟用[!DNL Target]的頁面上建立您的[!UICONTROL A/B測試]活動，以及在[!DNL Target]內修改頁面的部分。

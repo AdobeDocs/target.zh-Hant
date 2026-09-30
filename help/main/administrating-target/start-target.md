@@ -1,26 +1,32 @@
 ---
 keywords: 管理;核准者角色;核准者
-description: 在收到 [!DNL Adobe Experience Cloud]的電子郵件邀請後，執行 [!DNL Adobe Target] 管理員應該採取的第一個工作。
-title: 我該從哪裡開始管理 [!DNL Target]？
+description: 在收到[!DNL Adobe Experience Cloud]的電子郵件邀請後，執行[!DNL Adobe Target]管理員應該採取的第一個工作。
+title: 我該從哪裡開始管理[!DNL Target]？
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
+TQID: 'https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 30%
-
+source-wordcount: '474'
+ht-degree: 29%
 ---
-
 # 管理員入門
 
 本文包含[!DNL Adobe Target]管理員在收到電子郵件寄送的[!DNL Adobe Experience Cloud]加入邀請時應採取的前幾個步驟。

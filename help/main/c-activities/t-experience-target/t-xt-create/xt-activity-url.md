@@ -1,21 +1,27 @@
 ---
 keywords: 體驗鎖定目標； XT；活動URL； URL
-description: 瞭解如何指定[!UICONTROL 活動URL]，以決定測試中使用以及使用 [!DNL Adobe Target]設計[!UICONTROL 體驗鎖定目標]活動時開啟的頁面。
+description: 瞭解如何指定[!UICONTROL 活動URL]，以決定測試中使用以及使用[!DNL Adobe Target]設計[!UICONTROL 體驗鎖定目標]活動時開啟的頁面。
 title: 什麼是[!UICONTROL 體驗鎖定目標] (XT)活動中的[!UICONTROL 活動URL]？
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
+TQID: 'https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 35%
-
 ---
-
 # [!UICONTROL 體驗鎖定目標] (XT)活動中的活動URL
 
 [!UICONTROL 活動URL]決定了[!DNL Adobe Target] [!UICONTROL 體驗鎖定目標] (XT)活動中使用的頁面。 這是設計活動時[!UICONTROL 視覺化體驗撰寫器] (VEC)或[!UICONTROL 表單式體驗撰寫器]中開啟的頁面。

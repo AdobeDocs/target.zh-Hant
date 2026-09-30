@@ -1,27 +1,35 @@
 ---
 keywords: ai助理；人工智慧助理
-description: 瞭解如何使用 [!DNL AI Assistant]取得 [!DNL Target] 產品知識。
-title: 如何在 [!DNL Target] 中使用 [!DNL AI Assistant] 取得產品知識？
+description: 瞭解如何使用[!DNL AI Assistant]取得[!DNL Target]產品知識。
+title: 如何在[!DNL Target]中使用[!DNL AI Assistant]來取得產品知識？
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
+TQID: 'https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: '318'
 ht-degree: 1%
-
 ---
-
 # 在[!DNL Adobe Target]中使用[!DNL AI Assistant]學習產品知識
 
 [!DNL Adobe Experience Platform]中的[!DNL AI Assistant]是使用者介面功能，可用來瀏覽及瞭解[!DNL Adobe Target]概念。
@@ -38,7 +46,7 @@ ht-degree: 1%
 
 若要存取產品知識的[!DNL AI Assistant]：
 
-1. 請確定您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
+1. 請確定您已在 [!DNL Adobe Target]&#x200B;[&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的啟用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先決條件工作。
 
    * 貴組織必須首先同意法律條款。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
    * 您的系統管理員必須授予您足夠許可權以存取[!DNL AI Assistant]。

@@ -1,29 +1,37 @@
 ---
 keywords: A4T；Adobe Analytics；Analytics型活動；Analytics報表套裝；報表套裝；Analytics Target整合；設定報表套裝；at.js；atjs；adobe experience platform web sdk；aep web sdk；platform web sdk
-description: 請依照在Adobe [!DNL Target] 和Adobe Analytics解決方案中實作Analytics for [!DNL Target] (A4T)所需的步驟操作。
-title: 如何為 [!DNL Target] (A4T)實作Analytics？
+description: 請依照必要的步驟，在您的Adobe [!DNL Target]和Adobe Analytics解決方案中實作[!DNL Target] (A4T)的Analytics。
+title: 如何為[!DNL Target] (A4T)實作Analytics？
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
+TQID: 'https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1194
+source-wordcount: '1195'
 ht-degree: 18%
-
 ---
-
 # Analytics for [!DNL Target]實作
 
 實作[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報告來源時，需要幾個步驟。 此程式會因您使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)或使用at.js實作A4T而有所不同。

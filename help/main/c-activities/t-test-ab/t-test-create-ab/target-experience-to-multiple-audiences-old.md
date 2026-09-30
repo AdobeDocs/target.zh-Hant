@@ -1,16 +1,23 @@
 ---
 keywords: 多個客群; 體驗版本; 鎖定體驗版本
-description: 瞭解如何在 [!DNL Adobe Target] A/B活動中將相同體驗的版本鎖定至不同的對象。
+description: 瞭解如何在[!DNL Adobe Target] A/B活動中將相同體驗的版本鎖定至不同的對象。
 title: 我可以在A/B活動中使用多個體驗版本嗎？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '609'
 ht-degree: 51%
-
 ---
-
 # A/B 測試中的多個體驗客群
 
 您可以在[!DNL Adobe Target] A/B活動中將相同體驗的版本鎖定至不同的對象。 您可以在[!UICONTROL 視覺化體驗撰寫器] (VEC)或表單式體驗撰寫器中為體驗設定多個對象。

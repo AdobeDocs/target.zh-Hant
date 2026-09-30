@@ -1,23 +1,29 @@
 ---
 keywords: 包含規則;包含條件;建議;建立新條件;促銷活動;動態篩選;動態;空白值;忽略篩選規則;靜態篩選;按值篩選;實體屬性比對;輪廓屬性比對;參數比對;靜態篩選
-description: 瞭解如何在 [!DNL Target] Recommendations中建立條件與促銷的包含規則。
+description: 瞭解如何在[!DNL Target] Recommendations中建立條件和促銷的包含規則。
 title: 如何在Recommendations中使用動態和靜態包含規則？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-TQID: https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ
+TQID: 'https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: '2259'
 ht-degree: 14%
-
 ---
-
 # 使用動態和靜態包含規則
 
 在[!DNL Adobe Target]中建立條件和促銷活動的包含規則，並新增動態或靜態篩選規則，以便為您的建議取得更好的結果。
@@ -76,7 +82,7 @@ ht-degree: 14%
 | --- | --- |
 | [[!UICONTROL 靜態篩選器]](/help/main/c-recommendations/c-algorithms/static-value.md) | 手動輸入一或多個要篩選的靜態值。 |
 
-## 可用的運運算元 {#operators}
+## 可用運算子 {#operators}
 
 動態條件和促銷活動比靜態條件和促銷活動強大得多，並產生更好的結果和參與。
 

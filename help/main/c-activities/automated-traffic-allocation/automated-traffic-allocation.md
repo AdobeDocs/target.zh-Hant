@@ -1,27 +1,37 @@
 ---
 keywords: 自動流量分配；鎖定目標；增加計數以及讓使用者留在活動中；流量分配；自動分配
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 自動分配]活動，該活動可在兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者。
+description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL 自動分配]活動，該活動可在兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者。
 title: 什麼是[!UICONTROL 自動分配]活動？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+TQID: 'https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: '3760'
 ht-degree: 34%
-
 ---
-
 # [!UICONTROL 自動分配]總覽
 
 [!DNL Adobe Target]中的[!UICONTROL 自動分配]活動會從兩個或多個體驗中識別獲勝者，並自動重新分配更多流量給獲勝者以增加轉換，同時測試會繼續執行和學習。
@@ -134,9 +144,9 @@ ht-degree: 34%
 
   例如：
 
-   * 「感謝上帝，現在是星期五」導致星期五的轉換率較高。
-   * 「週一快速啟動」週一的轉換率較高。
-   * 「Gear up for an East-coast winter」在東海岸或受冬季影響的位置提供較高的轉換率。
+  * 「感謝上帝，現在是星期五」導致星期五的轉換率較高。
+  * 「週一快速啟動」週一的轉換率較高。
+  * 「Gear up for an East-coast winter」在東海岸或受冬季影響的位置提供較高的轉換率。
 
   使用具有不同內容相關性的體驗時，[!UICONTROL 自動分配]測試的結果會比使用A/B測試時偏斜，因為A/B測試會分析較長期間的結果。
 

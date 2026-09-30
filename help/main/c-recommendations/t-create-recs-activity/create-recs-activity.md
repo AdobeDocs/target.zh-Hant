@@ -1,25 +1,32 @@
 ---
 keywords: 建立建議;推薦活動;新建議;建議概觀
-description: 瞭解如何使用 [!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)來建立 [!DNL Recommendations] 活動。
-title: 如何建立 [!DNL Recommendations] 活動？
+description: 瞭解如何使用[!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!DNL Recommendations]活動。
+title: 如何建立[!DNL Recommendations]活動？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: '1306'
 ht-degree: 52%
-
 ---
-
 # 建立[!DNL Recommendations]活動
 
 使用[!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)直接在啟用[!DNL Target]的頁面上建立[!DNL Recommendations]活動，以及在[!DNL Target]內修改頁面的部分。

@@ -5,25 +5,36 @@ title: 如何尋找有關[!UICONTROL Automated Personalization]活動的常見�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 17%
-
 ---
-
 # Automated Personalization常見問題集
 
 在[!DNL Adobe Target]中處理[!UICONTROL Automated Personalization]活動時，請查閱下列常見問答集。
@@ -57,32 +68,32 @@ ht-degree: 17%
 * 如果您想要個人化低流量頁面，或想對個人化的體驗進行結構性變更，請考慮使用[!UICONTROL 自動鎖定目標]活動來取代[!UICONTROL Automated Personalization]。 請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 * 請考慮針對您打算在[!UICONTROL Automated Personalization]活動中使用的不同選件和位置進行[!UICONTROL A/B測試]活動，以確定位置和選項件對最佳化目標具影響力。 如果[!UICONTROL A/B測試]活動未展現明顯的差異，[!UICONTROL Automated Personalization]很可能也無法產生提升度。
 
-   * 如果A/B...N測試顯示體驗之間沒有統計上的顯著差異，可能是因為下列一或多個情況所造成：
+  * 如果A/B...N測試顯示體驗之間沒有統計上的顯著差異，可能是因為下列一或多個情況所造成：
 
-      * 選件間的差異可能不足。
-      * 您選取的位置不會影響成功量度。
-      * 最佳化目標在轉換funnel中太遠，無法受您選擇的選件影響。
+    * 選件間的差異可能不足。
+    * 您選取的位置不會影響成功量度。
+    * 最佳化目標在轉換funnel中太遠，無法受您選擇的選件影響。
 
 * 請務必使用[流量估算程式](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以瞭解在[!UICONTROL Automated Personalization]活動中建立個人化模型所需的時間。
 * 在開始活動之前，根據您的目標，決定控制與目標之間的配置。
 
   根據活動目標和您已選取的控制型別，請考慮三種情況：
 
-   * **使用隨機體驗作為控制，且活動目標是測試個人化演演算法的有效程度**：如果您的目標是評估個人化演演算法，則您想要更準確地瞭解提升度。 如果您只是執行[!UICONTROL A/B測試] （隨機提供的控制），您也很可能想要比較體驗或選件的轉換率。 在此情況下，建議對隨機提供的體驗控制執行 50% 分配。
-   * **「隨機體驗」作為控制，且活動目標是最大化個人化流量**：如果您很熟悉演演算法，而且想要有最大量的個人化流量，建議對控制執行10%至30%分配。 這裡的取捨是您在提升度資訊中看到的準確度。 控制流量的信賴區間較大，因為流向它們的流量較少。
-   * **使用特定體驗作為控制，具有任一目標類型**: 若要比較個人化模型的特定行銷人員導向體驗，建議對控制執行 10% 至 30% 分配。 當您只選取一個體驗作為控制時，該流量不會散佈在活動中的每個選件或體驗之間。
+  * **使用隨機體驗作為控制，且活動目標是測試個人化演演算法的有效程度**：如果您的目標是評估個人化演演算法，則您想要更準確地瞭解提升度。 如果您只是執行[!UICONTROL A/B測試] （隨機提供的控制），您也很可能想要比較體驗或選件的轉換率。 在此情況下，建議對隨機提供的體驗控制執行 50% 分配。
+  * **「隨機體驗」作為控制，且活動目標是最大化個人化流量**：如果您很熟悉演演算法，而且想要有最大量的個人化流量，建議對控制執行10%至30%分配。 這裡的取捨是您在提升度資訊中看到的準確度。 控制流量的信賴區間較大，因為流向它們的流量較少。
+  * **使用特定體驗作為控制，具有任一目標類型**: 若要比較個人化模型的特定行銷人員導向體驗，建議對控制執行 10% 至 30% 分配。 當您只選取一個體驗作為控制時，該流量不會散佈在活動中的每個選件或體驗之間。
 
 * 鎖定目標規則應儘可能少用，因為會妨礙模型的最佳化能力。
 * 報表群組可以限制您的[!UICONTROL Automated Personalization]活動的成功。 僅在特定條件下使用報表群組：
 
-   * 只有在符合下列條件時，才使用報表群組：
+  * 只有在符合下列條件時，才使用報表群組：
 
-      * 您打算在活動執行時取代或新增優惠方案。
-      * 報表群組中的選件會吸引相同的訪客。
-      * 該報表群組中的選件具有大約相同的整體回應率。
+    * 您打算在活動執行時取代或新增優惠方案。
+    * 報表群組中的選件會吸引相同的訪客。
+    * 該報表群組中的選件具有大約相同的整體回應率。
 
-   * 報表群組中的選件之間沒有個人化專案。 個人化模型會將所有選件視為相同專案。
-   * 絕不將活動中的所有產品建議全部放入單一報表群組中。 這麼做會讓所有選件都隨機提供給活動中的所有訪客。
+  * 報表群組中的選件之間沒有個人化專案。 個人化模型會將所有選件視為相同專案。
+  * 絕不將活動中的所有產品建議全部放入單一報表群組中。 這麼做會讓所有選件都隨機提供給活動中的所有訪客。
 
 +++
 

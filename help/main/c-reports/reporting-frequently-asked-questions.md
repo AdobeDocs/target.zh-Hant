@@ -1,30 +1,39 @@
 ---
 keywords: 疑難排解；量度差異；FAQ；報表；新訪客；新訪客；舊訪客；舊訪客；回訪；新造訪
-description: 探索有關Adobe [!DNL Target] 報告的常見問答清單。
-title: 哪裡可以找到有關 [!DNL Target] 報告的問題的解答？
+description: 探索有關Adobe [!DNL Target]報告的常見問答清單。
+title: 哪裡可以找到有關[!DNL Target]報表問題的解答？
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
+TQID: 'https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 24%
-
+source-wordcount: '1393'
+ht-degree: 23%
 ---
-
 # 報表常見問題集
 
 關於 [!DNL Adobe Target] 中報表常見問題的清單。
@@ -32,8 +41,8 @@ ht-degree: 24%
 ## 新訪客與回訪訪客量度如何計算？ {#methodology}
 
 只要訪客在網站上處於作用中狀態，新訪客的首次造訪就會持續。
-如果使用者閒置30分鐘或更長時間，工作階段會重設。重設工作階段表示該訪客在下次造訪時成為回訪訪客，或在閒置30分鐘後再次變為使用中。
-如果訪客在網站中一整天每29分鐘瀏覽一次，則此訪客即會計為當天的新訪客。工作階段從未重設，因為訪客從未超過30分鐘的臨界值。
+如果使用者閒置30分鐘或更長時間，工作階段會重設。 重設工作階段表示該訪客在下次造訪時成為回訪訪客，或在閒置30分鐘後再次變為使用中。
+如果訪客在網站中一整天每29分鐘瀏覽一次，則此訪客即會計為當天的新訪客。 工作階段從未重設，因為訪客從未超過30分鐘的臨界值。
 
 下列資訊將更詳細地說明新訪客和回訪訪客的計數方式。 同時也會舉例說明為何這兩個區段的總和並不一定等於訪客總數。
 
@@ -139,6 +148,6 @@ XT 活動應一律都有控制體驗。 如果您使用XT活動的方式類似�
 * A/B和MVT測試的最佳實務是保持流量分割均勻。 在測試期間變更體驗之間的流量分佈（例如從90/10到50/50）可能會導致體驗之間的訪客不平均。 較低的流量體驗可能永遠無法「趕上」。
 * 如果您遵循上述最佳實務，且流量分割不會隨著時間正常化，您應檢查下列專案：
 
-   * 您使用最新的at.js資料庫嗎？ 如需目前版本和相關發行說明的詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+  * 您使用最新的at.js資料庫嗎？ 如需目前版本和相關發行說明的詳細資訊，請參閱[at.js版本詳細資料](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
-   * 這是重新導向測試嗎？ 標籤在頁面上引發的時間不正確會導致不平均的流量分割，尤其是在使用[!DNL Analytics]做為[!DNL Target]活動的資料來源時。 如需使用Analytics for Target (A4T)修正重新導向活動上不平均流量分佈的詳細資訊，請參閱[重新導向選件 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。
+  * 這是重新導向測試嗎？ 標籤在頁面上引發的時間不正確會導致不平均的流量分割，尤其是在使用[!DNL Analytics]做為[!DNL Target]活動的資料來源時。 如需使用Analytics for Target (A4T)修正重新導向活動上不平均流量分佈的詳細資訊，請參閱[重新導向選件 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。

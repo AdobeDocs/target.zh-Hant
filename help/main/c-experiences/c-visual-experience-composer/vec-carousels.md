@@ -1,21 +1,24 @@
 ---
 keywords: 可視化體驗撰寫器; VEC; 輪播
-description: 瞭解如何建立可以在Adobe [!DNL Target] 視覺化體驗撰寫器(VEC)中編輯的輪播。
+description: 瞭解如何建立可以在Adobe [!DNL Target]視覺化體驗撰寫器(VEC)中編輯的輪播。
 title: 如何在視覺化體驗撰寫器中建立輪播？
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
-TQID: https://experienceleague.adobe.com/RN04MJgC49BI2-h2e-i-kgSRTejpLHzKACm-hOv2VCE
+TQID: 'https://experienceleague.adobe.com/RN04MJgC49BI2-h2e-i-kgSRTejpLHzKACm-hOv2VCE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 152
-ht-degree: 71%
-
+source-wordcount: '153'
+ht-degree: 70%
 ---
-
 # 建立可在可視化體驗撰寫器中運作的輪播
 
 此主題顯示如何建立可以在[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)中編輯的輪播。

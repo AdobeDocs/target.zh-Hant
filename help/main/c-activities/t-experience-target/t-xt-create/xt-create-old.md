@@ -1,16 +1,23 @@
 ---
 keywords: 體驗鎖定目標； XT；建立
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 體驗鎖定目標] (XT)活動。
+description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 體驗鎖定目標] (XT)活動。
 title: 如何建立[!UICONTROL 體驗鎖定目標]活動？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 35%
-
 ---
-
 # 建立[!UICONTROL 體驗鎖定目標] (XT)活動
 
 使用[!UICONTROL 視覺化體驗撰寫器] (VEC)在啟用[!DNL Target]的頁面上建立[!UICONTROL 體驗鎖定目標] (XT)活動，以及在[!DNL Adobe Target]內修改頁面的部分。
