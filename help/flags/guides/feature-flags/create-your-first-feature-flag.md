@@ -4,13 +4,14 @@ description: 瞭解如何在旗標中建立功能標幟、設定對象以及在�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 2%
-
+ht-degree: 4%
 ---
-
 # 建立您的第一個功能標幟 {#create-feature-flag}
 
 ## 先決條件 {#prerequisites}
@@ -40,7 +41,7 @@ ht-degree: 2%
    | **身分** * | 此旗標是依據身分評估（例如ECID）。 這是功能要求中傳遞的身分。 |
    | **轉出百分比** | 提供此功能的已定義對象百分比。 預設為100%。 請參閱[設定逐步推出的功能](set-feature-gradual-rollout.md)。 |
 
-   標示*的欄位為必填欄位。
+   標有 * 的欄位為必填欄位。
 
 >[!IMPORTANT]
 >

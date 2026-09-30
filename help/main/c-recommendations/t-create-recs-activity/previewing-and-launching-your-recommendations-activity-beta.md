@@ -5,13 +5,20 @@ title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1445'
 ht-degree: 14%
-
 ---
-
 # 預覽和啟動推薦活動
 
 在您建立包含[Recommendations選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標] (XT)活動後，您將會想要預覽您的建議，以確保在啟動活動之前結果可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。

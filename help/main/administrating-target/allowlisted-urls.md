@@ -8,13 +8,23 @@ role: Admin
 level: Intermediate
 solution: Target
 product: Target
-source-git-commit: 882c91244e5dae0977c8a6a1e5878525f497a720
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
-
 ---
-
 # 已加入允許清單的URL
 
 列入允許清單的URL會定義貴組織可建立和執行[!DNL Adobe Target]體驗的受信任URL模式，包括當您使用遠端或重新導向選件時。 此清單可與[主機管理](/help/main/administrating-target/hosts.md)和[環境](/help/main/administrating-target/environments.md)搭配使用，但特別適用於允許的遠端選件URL模式和相關驗證。

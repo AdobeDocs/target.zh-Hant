@@ -1,21 +1,24 @@
 ---
 keywords: 多變數測試；活動URL
-description: 瞭解如何指定活動URL，以決定測試中使用以及使用 [!DNL Adobe Target]設計[!UICONTROL 多變數測試]活動時開啟的頁面。
+description: 瞭解如何指定活動URL，以決定測試中使用以及使用[!DNL Adobe Target]設計[!UICONTROL 多變數測試]活動時開啟的頁面。
 title: '[!UICONTROL 多變數測試] (MVT)活動中的活動URL為何？'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-TQID: https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM
+TQID: 'https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 38%
-
 ---
-
 # 活動 URL
 
 活動URL會決定[!UICONTROL 多變數測試] (MVT)中使用以及在[!DNL Adobe Target]中設計測試時開啟的頁面。
@@ -34,7 +37,7 @@ ht-degree: 38%
 
    其他規則可以根據以下任何項目:
 
-   * [!UICONTROL &#x200B; URL]
+   * [!UICONTROL  URL]
    * [!UICONTROL 網域]
    * [!UICONTROL 路徑]
    * [!UICONTROL 雜湊(#)片段]

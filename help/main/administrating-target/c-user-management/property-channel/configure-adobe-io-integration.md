@@ -2,30 +2,38 @@
 keywords: 整合;角色;使用者權限;admin console
 description: 瞭解如何以Adobe Target中的所需角色，授予現有Adobe I/O整合功能可存取所有工作區的許可權。
 title: 如何授予Adobe I/O工作區存取權並指派角色？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-TQID: https://experienceleague.adobe.com/8WUCeb4ztjDdWUEtawLYeC-4FDgn1SiGarmS1hqGNgI
+TQID: 'https://experienceleague.adobe.com/8WUCeb4ztjDdWUEtawLYeC-4FDgn1SiGarmS1hqGNgI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 647
+source-wordcount: '647'
 ht-degree: 56%
-
 ---
-
 # 授予 Adobe I/O 整合功能對工作區的存取權並指派角色
 
 [!UICONTROL 企業許可權]可讓[!DNL Target]客戶使用單一組織，但將其分割為多個工作區以供其不同團隊或工作流程使用。
@@ -70,7 +78,7 @@ ht-degree: 56%
 
    ![整合功能索引標籤](/help/main/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. （視條件而定）若要新增整合，請按一下[新增整合] **&#x200B;**，選取想要的整合，然後按一下[儲存] **&#x200B;**。
+1. （視條件而定）若要新增整合，請按一下[新增整合] ****，選取想要的整合，然後按一下[儲存] ****。
 
 1. 從&#x200B;**[!UICONTROL 產品角色]**&#x200B;下拉式清單中，選取該工作區的所需角色：
 

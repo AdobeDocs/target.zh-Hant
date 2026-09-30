@@ -1,23 +1,28 @@
 ---
 keywords: 多變數; MVT; 量度; 設定量度; 目標量度; 活動設定; 成功量度; 轉換; 收入; 參與
-description: 瞭解如何在 [!DNL Adobe Target] [!UICONTROL 多變數測試]活動中指定量度，以判斷造訪是否成功，例如[!UICONTROL 轉換]、[!UICONTROL 收入]和[!UICONTROL 參與]。
+description: 瞭解如何在[!DNL Adobe Target] [!UICONTROL 多變數測試]活動中指定量度，以判斷造訪是否成功，例如[!UICONTROL 轉換]、[!UICONTROL 收入]和[!UICONTROL 參與]。
 title: 如何在[!UICONTROL 多變數測試] (MVT)活動中設定目標量度？
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-TQID: https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw
+TQID: 'https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '355'
 ht-degree: 56%
-
 ---
-
 # 設定[!UICONTROL 多變數測試]活動的量度
 
 在[!DNL Adobe Target] [!UICONTROL 多變數測試]中使用量度以判斷造訪是否成功。

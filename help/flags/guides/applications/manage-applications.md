@@ -4,13 +4,14 @@ description: 瞭解如何管理旗標中的應用程式，包括新增應用程�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 3%
-
 ---
-
 # 管理應用程式 {#manage-applications}
 
 旗標中的&#x200B;**應用程式**&#x200B;代表您要使用功能旗標控制的服務或產品。 您必須先將至少一個應用程式上線至主控台，才能建立功能標幟。

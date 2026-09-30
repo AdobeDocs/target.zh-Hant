@@ -1,21 +1,24 @@
 ---
 keywords: 多變數測試;mvt;mvt 計劃;多變數測試計劃
-description: 瞭解如何在 [!DNL Adobe Target] 中規劃[!UICONTROL 多變數測試]，以便建立成功的測試。
+description: 瞭解如何在[!DNL Adobe Target]中規劃[!UICONTROL 多變數測試]，以便建立成功的測試。
 title: 如何計畫[!UICONTROL 多變數測試]？
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
-TQID: https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA
+TQID: 'https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 295
-ht-degree: 63%
-
+source-wordcount: '297'
+ht-degree: 62%
 ---
-
 # 計畫[!UICONTROL 多變數測試]
 
 在[!DNL Adobe Target]中的[!UICONTROL 多變數測試] (MVT)活動需要一些規劃，才能建立成功的測試。

@@ -1,25 +1,33 @@
 ---
 keywords: 點擊追蹤; 追蹤點擊; 點擊; AppMeasurement
-description: 瞭解如何 [!DNL Adobe Target] 可讓您追蹤任何元素上的點選做為成功量度。
+description: 瞭解[!DNL Adobe Target]如何讓您追蹤任何元素上的點選做為成功量度。
 title: 什麼是點選追蹤？
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
+TQID: 'https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: '943'
 ht-degree: 55%
-
 ---
-
 # 點擊追蹤
 
 [!DNL Adobe Target]可讓您追蹤任何元素上的點選做為成功量度。 點選追蹤是指監視和記錄使用者互動（尤其是點選）在網頁或體驗中元素的程式。 這是在A/B測試、多變數測試和個人化活動中測量參與度和績效的關鍵部分。
@@ -92,14 +100,14 @@ ht-degree: 55%
 
   當點擊追蹤事件附加至 [!DNL at.js] (連結) 標記或 `A` 標記時，下列步驟是由 `FORM` 執行:
 
-   1. 叫用 `event.preventDefault()`。
+  1. 叫用 `event.preventDefault()`。
 
-   1. 引發[!DNL Target]要求。
+  1. 引發[!DNL Target]要求。
 
-   1. 在[!DNL Target]要求成功或錯誤回呼時，執行預設行為：
+  1. 在[!DNL Target]要求成功或錯誤回呼時，執行預設行為：
 
-      * `A` (連結) 標記: 預設行為是導覽至 HREF 屬性定義的 URL。
-      * `FORM` 標記: 預設行為是提交表單。
+     * `A` (連結) 標記: 預設行為是導覽至 HREF 屬性定義的 URL。
+     * `FORM` 標記: 預設行為是提交表單。
 
   此預設行為可能會干擾[!DNL Analytics]點選追蹤。 如果您使用[!DNL Analytics]，則點選追蹤應該依賴[!DNL Analytics]，而非[!DNL Target]。
 

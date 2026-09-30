@@ -4,13 +4,14 @@ description: 瞭解旗標中的功能標幟如何讓您控制功能可用性、�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # 可啟用和停用功能的功能標幟 {#feature-flags}
 
 功能標幟可讓您在執行階段開啟或關閉應用程式功能，而不需重新部署程式碼。 此外，他們還將計畫碼部署與功能可用性分開 — 新計畫碼可以在標幟後面部署到生產環境，並且僅在您準備好時開啟。

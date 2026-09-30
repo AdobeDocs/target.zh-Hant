@@ -4,26 +4,34 @@ description: 瞭解如何疑難排解[!UICONTROL 視覺化體驗撰寫器] (VEC)
 title: 如何疑難排解[!UICONTROL 視覺化體驗撰寫器]的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+TQID: 'https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 29%
-
 ---
-
 # 疑難排解[!UICONTROL 視覺化體驗撰寫器]的相關問題
 
 顯示在某些情況下，有時候會在[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)中發生問題。
@@ -87,16 +95,16 @@ ht-degree: 29%
    * 規則名稱
    * 修改規則
 
-      * 將&#x200B;**[!UICONTROL 「新增」]**&#x200B;切換為&#x200B;**[!UICONTROL 「移除」]**。
-      * 將&#x200B;**[!UICONTROL 「要求」]**&#x200B;切換為&#x200B;**[!UICONTROL 「回應」]**。
-      * 輸入 &quot;X-Frame-Options&quot; 作為標頭名稱。
-      * 重複先前的步驟並輸入 &quot;x-frame-options&quot; 作為標頭名稱。
+     * 將&#x200B;**[!UICONTROL 「新增」]**&#x200B;切換為&#x200B;**[!UICONTROL 「移除」]**。
+     * 將&#x200B;**[!UICONTROL 「要求」]**&#x200B;切換為&#x200B;**[!UICONTROL 「回應」]**。
+     * 輸入 &quot;X-Frame-Options&quot; 作為標頭名稱。
+     * 重複先前的步驟並輸入 &quot;x-frame-options&quot; 作為標頭名稱。
 
-        >[!NOTE]
-        >
-        >透過[!DNL Requestly]處理的標頭須區分大小寫。
+       >[!NOTE]
+       >
+       >透過[!DNL Requestly]處理的標頭須區分大小寫。
 
-      * 將&#x200B;**[!UICONTROL 「等於」]**&#x200B;變更為&#x200B;**[!UICONTROL 「包含」]**，作為來源 URL 的條件，並輸入您嘗試在 VEC 中載入之活動的 URL。
+     * 將&#x200B;**[!UICONTROL 「等於」]**&#x200B;變更為&#x200B;**[!UICONTROL 「包含」]**，作為來源 URL 的條件，並輸入您嘗試在 VEC 中載入之活動的 URL。
 
      ![chrome_extension影像](assets/chrome_extension.png)
 
@@ -140,14 +148,14 @@ ht-degree: 29%
 
 * 請確認網頁的Javascript不會干擾編寫程式庫。 請勿使用或包含使用下列保留名稱的檔案：
 
-   * `target-vec-helper.js`
-   * `target-vec.js`
-   * `target.js`
-   * `admin.css`
-   * `sizzle.js`
-   * `mixContentCheck.html`
+  * `target-vec-helper.js`
+  * `target-vec.js`
+  * `target.js`
+  * `admin.css`
+  * `sizzle.js`
+  * `mixContentCheck.html`
 
-     此外，意外覆寫這些檔案中定義的變數或事件可能會導致VEC發生問題。
+    此外，意外覆寫這些檔案中定義的變數或事件可能會導致VEC發生問題。
 
 * 瀏覽器正在封鎖安全網站上不安全的頁面。
 
@@ -161,7 +169,7 @@ ht-degree: 29%
 ## 當我使用[!UICONTROL 瀏覽]模式時，VEC似乎損毀。 (僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++詳細資料
-使用[!UICONTROL 瀏覽]模式時，如果您存取的URL未實作[!DNL Target]資料庫（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hant){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}）或包含frame-buster標頭，VEC就會顯示為已損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
+使用[!UICONTROL 瀏覽]模式時，如果您存取的URL未實作[!DNL Target]資料庫（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}）或包含frame-buster標頭，VEC就會顯示為已損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
 
 發生此問題的原因是VEC在`<iframe>`中載入網頁。 由於相同來源原則，瀏覽器的目前安全性機制導致[!DNL Target] UI無法存取指定框架的專案。 瀏覽器會封鎖嘗試存取具有不同來源且包含`location.href`等資訊之框架的Script。
 

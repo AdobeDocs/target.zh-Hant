@@ -2,22 +2,28 @@
 keywords: 多值實體屬性;自訂實體屬性;有效的 JSON;實體屬性值;JSON 陣列;多值
 description: 瞭解如何使用單值和多值自訂實體屬性，以定義Adobe [!DNL Target] Recommendations目錄中專案的相關額外資訊。
 title: 如何使用自訂實體屬性？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
+TQID: 'https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1504
+source-wordcount: '1505'
 ht-degree: 80%
-
 ---
-
 # 自訂實體屬性
 
 在[!DNL Adobe Target Recommendations]中使用單值和多值自訂實體屬性，以定義有關目錄中專案的其他資訊。
@@ -132,7 +138,7 @@ function targetPageParams() {
   }
 ```
 
-如需使用傳送和儲存實體API的相關資訊，請參閱[Adobe Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+如需使用傳送和儲存實體API的相關資訊，請參閱[Adobe Recommendations API檔案](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ## 使用運運算元處理多值屬性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

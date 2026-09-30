@@ -1,17 +1,24 @@
 ---
 keywords: 建議摘要；摘要；SAINT；ftp；csv；分類；analytics分類
-description: 瞭解摘要如何使用CSV檔案、Google產品搜尋摘要格式和 [!DNL Analytics] 產品分類，將實體匯入至 [!DNL Adobe Target] [!DNL Recommendations]。
-title: 如何在 [!DNL Target Recommendations]中使用[!UICONTROL 摘要]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+description: 瞭解摘要如何使用CSV檔案、Google產品搜尋摘要格式和[!DNL Analytics]產品分類，將實體匯入至[!DNL Adobe Target] [!DNL Recommendations]。
+title: 如何在[!DNL Target Recommendations]中使用[!UICONTROL 摘要]？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2580'
 ht-degree: 45%
-
 ---
-
 # 摘要
 
 使用摘要來將實體匯入[!DNL Adobe Target] [!DNL Recommendations]。 實體可以使用CSV檔案、Google產品搜尋摘要格式和[!DNL Adobe Analytics]產品分類來傳送。
@@ -121,7 +128,7 @@ Google 產品搜尋摘要類型使用 Google 格式。 這與[!DNL Adobe]專有�
 >
 >不一定要使用 Google 資料。 [!DNL Recommendations]使用與Google相同的格式。 您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。 不過，您在設定檔案時，必須保留 Google 預先定義的屬性名稱。
 
-大部分零售商都會將產品上傳至Google，因此當訪客使用Google產品搜尋時，會顯示其產品。 [!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的屬性。 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
+大部分零售商都會將產品上傳至Google，因此當訪客使用Google產品搜尋時，會顯示其產品。 [!DNL Recommendations] 的實體摘要完全遵循 Google 的規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的[屬性。 結果可供 [Google 購物頁面](https://www.google.com/prdhp)上搜尋。
 
 >[!NOTE]
 >
@@ -212,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+[!DNL Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
@@ -246,10 +253,10 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
      支援的 FTP 伺服器設定:
 
-      * FTP 和 FTPS 必須設定為使用被動式 FTP。
-      * 對於FTPS，請將伺服器設定為接受明確FTPS連線。
-      * 不支援 SFTP。
-      * 您可以手動指定起始連線的連線埠（例如，`ftp://ftp.yoursite.com:2121`）。 如果您未指定連接埠，則會使用預設 FTP 或 FTPS 連接埠。
+     * FTP 和 FTPS 必須設定為使用被動式 FTP。
+     * 對於FTPS，請將伺服器設定為接受明確FTPS連線。
+     * 不支援 SFTP。
+     * 您可以手動指定起始連線的連線埠（例如，`ftp://ftp.yoursite.com:2121`）。 如果您未指定連接埠，則會使用預設 FTP 或 FTPS 連接埠。
 
    * **URL**：如果您選取[!UICONTROL URL]，請指定URL。
 
@@ -328,15 +335,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 **範例 1:**
 
-* 第一天：上午9:00 （太平洋標準時間）的每日摘要程式。
-* 第二天：現在是下午3:30，而且摘要從昨天上午9:00起就沒有執行。
+* 第一天：每日摘要處理於太平洋標準時間上午9:00。
+* 第二天: 現在是下午 3:30，摘要自昨天上午 9:00 以來尚未執行
 
 狀態應該是黃色，因為索引在大約 6.5 小時以前就應該執行。 6.5 小時 + 24 等於 127% 的摘要時段。
 
 **範例 2:**
 
 * 1月1日：每月摘要於太平洋標準時間上午9:00處理。
-* 2月3日：上午10:00，摘要已有一個月、一天和一小時前未執行。
+* 2月3日：上午10:00，摘要已分別有一個月、一天和一小時前未執行。
 
 狀態應該是黃色，因為索引在大約一天又一小時以前就應該執行。 雖然這只有頻率設定的 (31+(1/25))/30 = 1.03%，但已超過一天延遲的上限。
 
@@ -344,7 +351,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 瞭解Recommendations (3:01) ![Overview badge](/help/main/assets/overview.png)中的摘要
+### 瞭解Recommendations中的摘要(3:01) ![Overview badge](/help/main/assets/overview.png)
 
 此影片包含下列資訊:
 

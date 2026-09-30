@@ -1,16 +1,23 @@
 ---
 keywords: 內容資料庫; 資產; 注釋; 複製; 刪除資產; 下載資產; 編輯內容; 共用卡片; 檢視內容屬性
-description: 瞭解如何在Adobe [!DNL Target] 選件資料庫中管理程式碼和影像選件。 瞭解如何檢視優惠方案的詳細資訊，以及如何編輯、複製、移動或刪除優惠方案。
+description: 瞭解如何管理Adobe [!DNL Target]選件資料庫中的程式碼和影像選件。 瞭解如何檢視優惠方案的詳細資訊，以及如何編輯、複製、移動或刪除優惠方案。
 title: 如何使用優惠資料庫中的內容？
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '773'
 ht-degree: 31%
-
 ---
-
 # 使用資產庫中的內容
 
 關於您可以在[!DNL Adobe Target]的內容資料庫中執行之工作的資訊，包括註釋、複製、刪除、下載、編輯、共用和檢視屬性。
@@ -55,19 +62,19 @@ ht-degree: 31%
 
 * **選取**：選取要執行下列動作的一或多個資料夾：
 
-   * 下載
-   * 複製
-   * 移動
-   * 刪除（請參閱[刪除專案](#delete)時的考量事項。）
+  * 下載
+  * 複製
+  * 移動
+  * 刪除（請參閱[刪除專案](#delete)時的考量事項。）
 
   選取要執行下列動作的一或多個影像選件：
 
-   * 共用
-   * 下載
-   * 檢視屬性
-   * 編輯
-   * 注釋
-   * 移動
+  * 共用
+  * 下載
+  * 檢視屬性
+  * 編輯
+  * 注釋
+  * 移動
 
 * **下載**：下載影像選件或資料夾及其內容。
 * **檢視屬性**：檢視專案的屬性。 請務必按一下「[!UICONTROL 基本]」標籤和「[!UICONTROL 進階]」標籤，以檢視所有可用的資訊。 按一下屬性頁面上的「鉛筆」圖示，可編輯屬性和新增更多資訊。 您可以新增中繼資料資訊、發佈狀態和授權資料。
@@ -86,7 +93,7 @@ ht-degree: 31%
 
 此影片包括關於管理內容的資訊。 (4:56)
 
-* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=zh-Hant) 與 Target 內容庫之間的連線
+* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
 * 自訂 HTML 產品建議
 * 可視化體驗撰寫器中的自訂 HTML 產品建議
 

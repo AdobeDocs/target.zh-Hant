@@ -5,13 +5,20 @@ title: 如何讓建議以建議金鑰為依據？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '4021'
+source-wordcount: '4075'
 ht-degree: 31%
-
 ---
-
 # 使推薦以推薦索引鍵為依據
 
 以演演算法為基礎的建議會使用訪客行為內容來顯示[!DNL Adobe Target] [!DNL Recommendations]活動中的相關結果。
@@ -34,7 +41,7 @@ ht-degree: 31%
 
 ## 購物車型 {#cart-based}
 
-[!UICONTROL 購物車型]演演算法型別允許根據訪客目前購物車的內容推薦專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
+[!UICONTROL 購物車型]演演算法型別允許根據訪客目前購物車的內容推薦專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
 
 購物車型建議邏輯類似於&quot;[!UICONTROL 為您推薦的]&quot;使用者型演演算法，以及&quot;[!UICONTROL 瀏覽過這些專案、購買那些]&quot;和&quot;[!UICONTROL 購買這些專案、購買那些]&quot;專案型演演算法的使用者。
 
@@ -48,7 +55,7 @@ ht-degree: 31%
 
 * **[!UICONTROL 跨工作階段]**：根據其他訪客在多個工作階段所做的動作。
 
-  當產品根據訪客偏好或品味強烈「配合」時，檢視多個工作階段的行為可能有意義。例如，訪客喜歡《星際大戰》，可能也喜歡《印地安納瓊斯》，即使訪客不一定想同時觀看兩部電影。或者，訪客喜歡桌遊遊戲「Codenames」，並且可能也喜歡桌遊遊戲「Avalon」，即使訪客無法同時玩兩個遊戲。 
+  當產品根據訪客偏好或品味強烈「配合」時，檢視多個工作階段的行為可能有意義。 例如，訪客喜歡《星際大戰》，可能也喜歡《印地安納瓊斯》，即使訪客不一定想同時觀看兩部電影。 或者，訪客喜歡桌遊遊戲「Codenames」，並且可能也喜歡桌遊遊戲「Avalon」，即使訪客無法同時玩兩個遊戲。 
 
 [!DNL Target]會根據每位訪客目前購物車中的專案提供建議，無論您是檢視單一工作階段內的訪客行為，還是檢視多個工作階段的訪客行為。
 

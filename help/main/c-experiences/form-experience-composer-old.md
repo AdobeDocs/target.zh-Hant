@@ -1,16 +1,23 @@
 ---
 keywords: 表單式體驗撰寫器; 表單式撰寫器; 細分
-description: 瞭解如何使用Adobe [!DNL Target] 表單式體驗撰寫器來建立非視覺體驗。 當VEC無法使用或不實用的情況下，使用此撰寫器。
+description: 瞭解如何使用Adobe [!DNL Target]表單式體驗撰寫器來建立非視覺體驗。 當VEC無法使用或不實用的情況下，使用此撰寫器。
 title: 如何使用表單式體驗撰寫器？
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c3941678-bb9e-4bea-bdba-ce89c7d01eba
+    internal-label: Activity tools
+subfeature_v2:
+  - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
+    internal-label: Form based Experience Composer
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 39%
-
 ---
-
 # 表單式體驗撰寫器
 
 [!DNL Adobe Target] [!UICONTROL 表單式體驗撰寫器]是一種非視覺化體驗和選件建立介面，適合在[!UICONTROL 視覺化體驗撰寫器] (VEC)無法使用或不實用的情況下，用於建立可供[!UICONTROL A/B測試]、[!UICONTROL 體驗鎖定目標]、[!UICONTROL Automated Personalization]和[!UICONTROL Recommendations]活動使用的體驗。 例如，您可以使用表單式體驗撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和選件。
@@ -44,7 +51,7 @@ ht-degree: 39%
    >
    >在活動建立期間建立手動輸入的位置不會自動建立新位置。 位置名稱僅會儲存在活動內容中。 位置是在有內容傳遞呼叫時建立。 建立位置之後，就可在其他活動中使用，以便從可用位置的下拉式清單中建立對象等。
 
-1. 按一下「新增對象細分」**&#x200B;**，為此活動選擇一個或多個[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然後按一下「完成」**&#x200B;**。
+1. 按一下「新增對象細分」****，為此活動選擇一個或多個[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然後按一下「完成」****。
 
    ![location_refinements_2圖片](assets/location_refinements_2.png)
 

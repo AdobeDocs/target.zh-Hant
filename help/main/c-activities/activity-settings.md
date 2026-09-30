@@ -1,26 +1,32 @@
 ---
 keywords: 目標與設定；目標；優先順序；持續時間
-description: 瞭解如何使用Adobe [!DNL Target] 中的活動設定來管理活動的目標、優先順序和持續時間。
+description: 瞭解如何使用Adobe [!DNL Target]中的活動設定來管理活動的目標、優先順序和期間。
 title: 如何指定活動設定？
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
-TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
+TQID: 'https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 77%
-
+source-wordcount: '434'
+ht-degree: 79%
 ---
-
 # 活動設定
 
 在[!DNL Adobe Target]中使用[!UICONTROL 活動設定]來管理活動的目標、優先順序和持續時間。
@@ -51,7 +57,7 @@ ht-degree: 77%
 
 1. 設定活動的持續時間。
 
-   您可以手動啟動和停用活動，或活動傳送指定日期和時間。 時間控制項使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
+   您可以手動啟動和停用活動，或活動傳送指定日期和時間。 時間控制項會使用 24 小時制，午夜為 00:00。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
 
    >[!NOTE]
    >

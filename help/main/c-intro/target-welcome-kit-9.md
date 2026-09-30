@@ -4,26 +4,36 @@ description: 您已在 Adobe Target 中建立第一個活動。 接下來呢？ 
 title: 在哪裡可以找到更多有效使用 Target 的額外資源？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
+TQID: 'https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: '701'
 ht-degree: 79%
-
 ---
-
 # 第 9 章：接續步續和資源
 
 我們已涵蓋執行您第一個活動的基本知識。 我們希望此活動向您和您的公司展示使用 [!DNL Adobe Target] 進行最佳化和個人化對業務盈虧底線產生影響的驚人潛力。 這只是個開始。 您思考第二項活動將著重於哪些內容了嗎？ 考慮建立您要執行之活動的優先順序清單。 您將驚訝地發現，您能以多快的速度在一個個活動中改善客戶體驗並推動業務成功。
@@ -44,17 +54,17 @@ ht-degree: 79%
 
 * **Adobe Target 教學課程**：瞭解基本知識或精進技能。 請參閲 [Adobe Target 教學課程頁面](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant)。
 * **Adobe Target 裝置上培訓**：探索我們提供的各種 Target 課程。 請參閲 [Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)頁面。
-* **Adobe Target 影片：**&#x200B;觀看 [!DNL Target] 影片以觀看成功案例和解決方案功能。 請參閱[&#x200B; Adobe Target Standard 和 Premium培訓影片](/help/main/c-intro/target-standard-premium-training-videos.md)
+* **Adobe Target 影片：**&#x200B;觀看 [!DNL Target] 影片以觀看成功案例和解決方案功能。 請參閱[ Adobe Target Standard 和 Premium培訓影片](/help/main/c-intro/target-standard-premium-training-videos.md)
 * **網路研討會系列**：Adobe Target 基本概念。 加入我們的客戶成功網路研討會系列，與 Adobe Target 使用者一起探討最佳化基本概念。 請參閲 [Target 基礎網路研討會系列](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)。
 * **Adobe 客戶服務「營業時間」**：「營業時間」是由 Adobe 客戶服務團隊開始的一項計畫。 這些課程富有教育意義，亦協助參與者疑難排解問題，並提供要訣和技巧，以成功使用 [!DNL Adobe Experience Cloud] 解決方案，包括[!DNL Target]。 請參閱[Adobe 客戶服務營業時間](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)。
 * **Adobe Summit**：參加年度數位行銷人員最重要的專業活動。
-   * [Adobe Summit](https://summit.adobe.com/na/) (北美洲)
-   * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
+  * [Adobe Summit](https://summit.adobe.com/na/) (北美洲)
+  * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
 
 ## 其他資源
 
 * **Adobe Target 首頁**：在[!DNL Adobe Target] 的首頁可瞭解我們的功能和查看最新成功案例。 請參閲 [Adobe Target](https://www.adobe.com/tw/marketing/target.html)。
 * **部落格**：追蹤 [Target 部落格](https://blog.adobe.com/en/topics/target)，隨時掌握最新消息、提示和成功案例。
-* **Experience League**：探索您啟動體驗業務所需的指南、活動和訓練，並與Target社群連絡並找到想要的答案。 請參閲[Adobe Experience League Target 首頁](https://experienceleague.adobe.com/zh-hant#home)。
+* **Experience League**：探索您啟動體驗業務所需的指南、活動和訓練，並與Target社群連絡並找到想要的答案。 請參閲[Adobe Experience League Target 首頁](https://experienceleague.adobe.com/#home)。
 * **Adobe Target 認證**：透過新的 Adobe Target 測驗，取得 Adobe 認證專家的地位。 —在此安排測驗或培訓課程。 請參閲[培訓與認證](/help/main/c-intro/training-and-certification.md)。
 * **Adobe Target 發行說明**：每個 [!DNL Target Standard] 和 [!DNL Target Premium] 版本的功能、增強功能和修正。 此外，也會隨附 Target API、SDK、JavaScript 程式庫 (at.js) 的發行說明，以及其他平台變更 (如適用)。 請參閲 [Target 發行說明 (最新)](/help/main/r-release-notes/release-notes.md)。

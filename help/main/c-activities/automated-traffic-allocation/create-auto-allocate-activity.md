@@ -4,23 +4,32 @@ description: 瞭解如何使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建
 title: 如何建立[!UICONTROL 自動分配]活動？
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-TQID: https://experienceleague.adobe.com/dInypDH72qyoj5UygbEt-BWpq1gZkbxJiSXSheNPO54
+TQID: 'https://experienceleague.adobe.com/dInypDH72qyoj5UygbEt-BWpq1gZkbxJiSXSheNPO54'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a2afe9f1acd1758f1c9e0f8442eafd54037bb3f4
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: '1074'
 ht-degree: 14%
-
 ---
-
 # 建立[!UICONTROL 自動分配]活動
 
 在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)，直接在啟用[!DNL Target]的頁面上建立您的[!UICONTROL 自動分配] [!UICONTROL A/B測試]活動，以及在[!DNL Target]內修改頁面的部分。

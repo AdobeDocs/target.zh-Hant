@@ -1,16 +1,23 @@
 ---
 keywords: 建立自動分配； A/B測試；自動分配活動；新a/b活動；自動分配；自動分配至最佳體驗；分配；自動分配
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 自動分配] A/B測試活動。
+description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 自動分配] A/B測試活動。
 title: 如何建立[!UICONTROL 自動分配]活動？
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '906'
 ht-degree: 39%
-
 ---
-
 # 建立[!UICONTROL 自動分配]活動
 
 在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)，直接在啟用[!DNL Target]的頁面上建立您的[!UICONTROL 自動分配] [!UICONTROL A/B測試]活動，以及在[!DNL Target]內修改頁面的部分。
@@ -37,7 +44,7 @@ ht-degree: 39%
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)，然後按一下[建立]。**&#x200B;**
+1. 指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)，然後按一下[建立]。****
 
    如果您的帳戶設定了預設的 URL，該 URL 依預設會顯示。 您可以視需要將預設URL變更為其他URL。
 
@@ -96,7 +103,7 @@ ht-degree: 39%
 
    * **[!UICONTROL 針對個人化體驗自動鎖定目標]**： [!DNL Target]會使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。 如需詳細資訊，請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 
-   您也可以按一下[新增&#x200B;**&#x200B;**]來新增其他體驗至活動。
+   您也可以按一下[新增&#x200B;****]來新增其他體驗至活動。
 
 1. 在您滿意您的對象、體驗選擇和流量配置選擇後，請按一下[下一步] **[!UICONTROL 移至三步驟引導式工作流程的第三個步驟。]**
 

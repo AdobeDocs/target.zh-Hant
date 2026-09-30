@@ -2,16 +2,23 @@
 keywords: 建立自訂條件;演算法;條件;建議條件;csv;ftp;上傳 csv
 description: 瞭解如何上傳CSV檔案，以自訂Adobe [!DNL Target] Recommendations中的建議。
 title: 如何在Recommendations中上傳自訂條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '736'
 ht-degree: 32%
-
 ---
-
 # 上傳自訂條件
 
 上傳CSV檔案以在[!DNL Adobe Target]中自訂您的建議。
@@ -80,7 +87,7 @@ ht-degree: 32%
   | 找不到目錄 | 提供伺服器上存在的目錄。 |
   | 找不到檔案 | 提供伺服器上存在於指出目錄中檔案的名稱。 |
 
-## 訓練影片：在Recommendations (12:33) ![教學課程徽章](/help/main/assets/tutorial.png)中建立條件
+## 訓練影片：在Recommendations中建立條件(12:33) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片包含下列資訊（上傳自訂條件的詳細資訊從11:43開始）：
 

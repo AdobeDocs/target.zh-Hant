@@ -5,30 +5,41 @@ title: 什麼是主機？如何使用主機？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+TQID: 'https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 21%
-
 ---
-
 # 主機
 
 組織您的網站和生產前環境，以在[!DNL Adobe Target]中輕鬆管理和分隔報表。
@@ -50,8 +61,8 @@ ht-degree: 21%
 * 主機上必須至少有一個[!DNL Target]要求
 * 主機上的頁面必須具備下列專案：
 
-   * 精確的at.js參考
-   * [!DNL Target]要求或自動產生的全域[!DNL Target]要求
+  * 精確的at.js參考
+  * [!DNL Target]要求或自動產生的全域[!DNL Target]要求
 
 * 必須在瀏覽器中檢視具有[!DNL Target]要求的頁面
 
@@ -102,7 +113,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->**安全性最佳實務**：如果您使用[!DNL Target]的ubox功能，此允許清單也會控制您的[重新導向程式](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hant){target=_blank}可瀏覽的網域清單。 使用ubox作為實施作業的一部分時，請務必新增您要重新導向的任何網域。 如果允許清單未指定，[!DNL Adobe]將無法驗證重新導向URL，並保護不受潛在的惡意重新導向。
+>**安全性最佳實務**：如果您使用[!DNL Target]的ubox功能，此允許清單也會控制您的[重新導向程式](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}可瀏覽的網域清單。 使用ubox作為實施作業的一部分時，請務必新增您要重新導向的任何網域。 如果允許清單未指定，[!DNL Adobe]將無法驗證重新導向URL，並保護不受潛在的惡意重新導向。
 >
 >允許清單的優先順序高於環境。 在使用允許清單功能之前，請先清除所有主機，然後只有允許清單允許的主機才會出現在您的主機清單中。 接著可將主機移至想要的環境中。
 

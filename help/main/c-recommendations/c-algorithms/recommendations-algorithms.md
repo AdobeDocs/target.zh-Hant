@@ -1,30 +1,41 @@
 ---
 keywords: 建議演演算法；模型訓練；模型服務；內容傳送；專案型；使用者型；人氣型；購物車型；自訂條件
-description: 瞭解 [!DNL Target Recommendations]中使用的演演算法，包括模型訓練和模型服務。
+description: 瞭解[!DNL Target Recommendations]中使用的演演算法，包括模型訓練和模型服務。
 title: 我可以在何處瞭解Target建議演演算法背後的科學？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+TQID: 'https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3045
+source-wordcount: '3045'
 ht-degree: 0%
-
 ---
-
 # Target 推薦演算法背後的科學
 
 [!DNL Adobe Target Recommendations]中所使用演演算法的深入說明，包括模型訓練的邏輯和數學細節，以及模型服務的程式。
@@ -63,13 +74,13 @@ ht-degree: 0%
 
 針對「檢視/購買此專案的使用者也檢視/購買這些專案」演演算法，目標是計算所有專案配對之間的相似度(A，B)。 接著，系統會針對指定專案A，依其相似度s(A，B)排序排名最前的建議。
 
-這種相似性的一個範例是專案之間的共同發生：購買兩個專案的使用者人數的簡單計數。 雖然此量度直覺式偏好，但偏向於推薦熱門專案，因此這種量度並不實際。 例如，如果在retailer的雜貨店大多數人購買麵包，則麵包會與所有專案具有高度的共生性，但這不一定是好的建議。 [!DNL Target]改為使用更複雜的相似性量度，稱為對數似然比(LLR)。 如果兩個專案（A和B）同時發生的機率與其不同時發生的機率非常不同，則此數量會很大。 如需具體資訊，請考量檢視此專案、購買該演演算法的人案例。 購買B的可能性為&#x200B;*not*&#x200B;時，LLR相似度會很高，這和某人是否檢視A無關。
+這種相似性的一個範例是專案之間的共同發生：購買兩個專案的使用者人數的簡單計數。 雖然此量度直覺式偏好，但偏向於推薦熱門專案，因此這種量度並不實際。 例如，如果在retailer的雜貨店大多數人購買麵包，則麵包會與所有專案具有高度的共生性，但這不一定是好的建議。 [!DNL Target]改為使用更複雜的相似性量度，稱為對數似然比(LLR)。 如果兩個專案（A和B）同時發生的機率與其不同時發生的機率非常不同，則此數量會很大。 如需具體資訊，請考量檢視此專案、購買該]演演算法的[!UICONTROL 人案例。 購買B的可能性為&#x200B;*not*&#x200B;時，LLR相似度會很高，這和某人是否檢視A無關。
 
 例如，若
 
 已檢視/已購買演演算法的![公式](assets/formula.png)
 
-那麼專案B不應與專案A一起建議。此PDF[&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此對數似然比相似度計算的完整詳細資料。
+那麼專案B不應與專案A一起建議。此PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此對數似然比相似度計算的完整詳細資料[。
 
 實際演演算法實施的邏輯流程如下圖所示：
 
@@ -77,7 +88,7 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**：行為資料，其形式為當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的訪客檢視和購買。
+* **輸入資料**：行為資料，其形式為當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的訪客檢視和購買。
 
 * **模型訓練**：
 
@@ -101,7 +112,7 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**：如前所述，此演演算法完全以目錄資料為基礎(透過[目錄摘要、實體API或頁面上的更新擷取至[!DNL Target]。](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}
+* **輸入資料**：如前所述，此演演算法完全以目錄資料為基礎(透過[目錄摘要、實體API或頁面上的更新擷取至[!DNL Target]。](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}
 
 * **模型訓練**：
 
@@ -139,7 +150,7 @@ ht-degree: 0%
 
 這些步驟的詳細資訊如下：
 
-* **輸入資料**：這與專案 — 專案協同篩選(CF)方法相同。 [!UICONTROL 為您推薦的]和購物車型演演算法都使用行為資料，其形式為當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的使用者檢視和購買。
+* **輸入資料**：這與專案 — 專案協同篩選(CF)方法相同。 [!UICONTROL 為您推薦的]和購物車型演演算法都使用行為資料，其形式為當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的使用者檢視和購買。
 
 * **模型訓練**：
 
@@ -171,7 +182,7 @@ ht-degree: 0%
 * 整個網站檢視次數最多
 * 依類別檢視次數最多
 * [!UICONTROL 檢視次數最多的專案屬性]
-* 設定檔屬性檢視次數最多
+* [!UICONTROL 依輪廓屬性的檢視次數最多項目]
 * 整個網站[!UICONTROL 最暢銷商品]
 * [!UICONTROL 依類別排名的最暢銷商品]
 * [!UICONTROL 依專案屬性的最暢銷商品]

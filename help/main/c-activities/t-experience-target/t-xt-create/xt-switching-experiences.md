@@ -1,23 +1,29 @@
 ---
 keywords: 優先順序; 體驗建立; 體驗; 客群; 切換體驗; 可視化體驗撰寫器
-description: 瞭解訪客如何隨著設定檔的演化，在 [!DNL Adobe Target] [!UICONTROL 體驗鎖定目標] (XT)活動中的體驗之間切換。
+description: 瞭解訪客如何隨著其設定檔的演化，在[!DNL Adobe Target] [!UICONTROL 體驗鎖定目標] (XT)活動中的體驗之間切換。
 title: 訪客可以在[!UICONTROL 體驗鎖定目標]活動中切換體驗嗎？
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
+TQID: 'https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '742'
 ht-degree: 40%
-
 ---
-
 # 在[!UICONTROL 體驗鎖定目標]中切換體驗
 
 透過[!UICONTROL 體驗鎖定目標]，您可以控制訪客在其設定檔演化時看到的體驗。

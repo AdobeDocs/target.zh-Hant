@@ -1,17 +1,24 @@
 ---
 keywords: 自動鎖定目標；鎖定目標；流量分配；常見問題；faq；疑難排解；疑難排解
-description: 瞭解 [!DNL Target] 中的[!UICONTROL 自動鎖定目標]活動如何根據客戶設定檔和類似訪客的行為，提供每位訪客量身打造的最佳體驗。
+description: 瞭解[!DNL Target]中的[!UICONTROL 自動鎖定目標]活動如何根據客戶設定檔和類似訪客的行為，提供每位訪客量身打造的最佳體驗。
 title: 什麼是[!UICONTROL 自動鎖定目標]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 20%
-
 ---
-
 # [!UICONTROL 自動鎖定目標]總覽
 
 [!DNL Adobe Target]中的[!UICONTROL 自動鎖定目標]活動會使用進階機器學習，從多個高效能、行銷人員定義的體驗中加以選取，以個人化內容並促進轉換。 [!UICONTROL 自動鎖定目標]會根據個別客戶設定檔與具有類似設定檔之先前訪客的行為，提供每位訪客量身打造的最佳體驗。
@@ -74,7 +81,7 @@ A/B活動流程中的[!UICONTROL 自動鎖定目標]選項可讓您只要按一�
 |--- |--- |
 | [隨機森林演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!DNL Target]在[!UICONTROL 自動鎖定目標]和[!UICONTROL Automated Personalization]中使用的主要個人化演演算法是隨機森林。 整體方法（例如隨機森林）會使用多種學習演演算法，以獲得比從任何組成學習演演算法都更好的預測效能。 [!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]活動中的隨機森林演演算法是一種分類或回歸方法，可在訓練時建構許多決策樹來運作。 |
 | [正在上傳 [!DNL Target]的Personalization演演算法的資料](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | 有幾種方式可輸入[!UICONTROL 自動鎖定目標]和[!UICONTROL Automated Personalization]模型的資料。 |
-| [&#x200B; [!DNL Target]的Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]的個人化演演算法會自動收集各種資料。 |
+| [ [!DNL Target]的Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]的個人化演演算法會自動收集各種資料。 |
 
 ## 決定流量分配 {#section_AB3656F71D2D4C67A55A24B38092958F}
 

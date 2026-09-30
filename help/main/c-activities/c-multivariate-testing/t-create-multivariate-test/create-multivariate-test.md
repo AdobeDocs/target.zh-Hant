@@ -1,23 +1,26 @@
 ---
 keywords: MVT; 多變數測試; 多變數測試建立; 多變數測試建立; MVT 建立; MVT 建立; MVT 如何; 多變數測試如何
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 多變數測試] (MVT)。
+description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 多變數測試] (MVT)。
 title: 如何建立[!UICONTROL 多變數測試]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
+TQID: 'https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: '811'
 ht-degree: 23%
-
 ---
-
 # 建立多變數測試
 
 在[!DNL Adobe Target]中的[!UICONTROL 視覺化體驗撰寫器] (VEC)可讓您輕鬆建立[!UICONTROL 多變數測試]，以及在[!DNL Target]內修改頁面的部分。
@@ -36,7 +39,7 @@ ht-degree: 23%
 
 1. （視條件而定）如果您是[Target Premium](/help/main/c-intro/intro.md#premium)客戶，[請選擇工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. [為您要測試的頁面指定URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然後按一下[建立]。**&#x200B;**
+1. [為您要測試的頁面指定URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然後按一下[建立]。****
 
    >[!NOTE]
    >
@@ -96,7 +99,7 @@ ht-degree: 23%
 
 1. [使用流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)來測試您的測試計劃的可行性。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以前進到[!UICONTROL 鎖定目標]頁面。
+1. 按一下[下一步]****&#x200B;以前進到[!UICONTROL 鎖定目標]頁面。
 
    如果您曾使用其他[!DNL Target]活動型別，**鎖定目標**&#x200B;步驟看起來會很熟悉。 您可以在此選取受眾，並指定看到每個體驗的訪客百分比。
 
@@ -122,7 +125,7 @@ ht-degree: 23%
 
    例如，您可將項目限制為所有訪客的 50%，或「加州人」客群的 45%。
 
-1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]&#x200B;**。**
+1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]]**。**[!UICONTROL 
 
 1. [指定測試的目標與設定](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 

@@ -1,25 +1,30 @@
 ---
 keywords: analytics for target；a4t；Analytics作為報表來源；Analytics
-description: 瞭解如何將Analytics用於 [!DNL Target] (A4T)。 對於使用Analytics量度和受眾區段的 [!DNL Target] 活動，A4T可讓您存取Analytics報表。
+description: 瞭解如何將Analytics用於[!DNL Target] (A4T)。 對於使用Analytics量度和受眾區段的[!DNL Target]活動，A4T提供對Analytics報表的存取權。
 title: 如何在A4T中使用報表？
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
+TQID: 'https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1316
+source-wordcount: '1317'
 ht-degree: 41%
-
 ---
-
 # A4T 報表
 
 使用[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報告來源，可讓您存取[!DNL Target]活動的[!DNL Analytics]報告。
@@ -57,7 +62,7 @@ ht-degree: 41%
 * [!UICONTROL 活動曝光次數] — 符合[!DNL Target]報表中的[!UICONTROL 加入者]數字。
 * [!UICONTROL 活動轉換] — 符合[!DNL Target]報告中的[!UICONTROL 自訂轉換]數字。
 
-在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板，以提升度和信賴度分析您的[!DNL Target]活動和體驗。 如需詳細資訊，請參閱&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant&?lang=zh-Hant)。
+在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板，以提升度和信賴度分析您的[!DNL Target]活動和體驗。 如需詳細資訊，請參閱&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html??lang=zh-Hant)。
 
 >[!IMPORTANT]
 >
@@ -98,7 +103,7 @@ ht-degree: 41%
 1. 按一下「**[!UICONTROL 工具]** > **[!UICONTROL 資料倉儲]**」。
 1. 在&#x200B;**[!UICONTROL 「資料倉儲要求」]**&#x200B;標籤上，填寫欄位。
 
-   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hant)中的「資料倉儲說明」。
+   如需每一個欄位的相關資訊，請參閱[資料倉儲](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)中的「資料倉儲說明」。
 
    | 欄位 | 指示 |
    |--- |--- |
@@ -118,5 +123,5 @@ ht-degree: 41%
 
 如需 [!DNL Data Warehouse] 的相關資訊，請參閱 [!DNL Analytics] 說明文件中的下列連結:
 
-* [建立Data Warehouse請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=zh-Hant)
-* [Data Warehouse最佳作法](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=zh-Hant)
+* [建立Data Warehouse請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse最佳作法](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

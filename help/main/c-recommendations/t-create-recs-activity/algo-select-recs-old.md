@@ -2,16 +2,23 @@
 keywords: Recommendations；Recommendations活動；條件；演演算法
 description: 瞭解如何選取條件（決定要建議哪些產品或內容的規則），以用於您的Adobe [!DNL Target] Recommendations活動。
 title: 如何為Recommendations活動選取條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '425'
 ht-degree: 63%
-
 ---
-
 # 選取條件
 
 選取要在您的[!DNL Adobe Target Recommendations]活動中使用的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。 條件即為一種規則，用來根據預先決定的一組訪客行為決定要建議的產品。
@@ -38,4 +45,4 @@ ht-degree: 63%
    * **頁面類型:** 頁面類型可幫助您對您的建議進行分類。 也有可為每個頁面類型選擇的內建條件。
    * **相容:** 僅顯示選取的頁面通過所需資料的這些條件。 不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。 可以在您的設定中停用或啟用此選項： **[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以顯示[[選取設計]](/help/main/c-recommendations/c-design-overview/design-overview.md)對話方塊。
+1. 按一下[下一步]****&#x200B;以顯示[[選取設計]](/help/main/c-recommendations/c-design-overview/design-overview.md)對話方塊。

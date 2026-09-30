@@ -1,37 +1,55 @@
 ---
 keywords: Target Standard;faq;常見問答;速查表;速查表
-description: 探索關於使用 [!DNL Target]中功能常見問題的清單，以及資訊和連結，以取得更多資訊。
+description: 探索關於使用[!DNL Target]中功能常見問題的清單，以及相關資訊和連結。
 title: 何處可以找到有關最佳化和個人化的問題和回答？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+TQID: 'https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2871
+source-wordcount: '2871'
 ht-degree: 50%
-
 ---
-
 # Target 最佳化和個人化常見問答
 
 探索關於使用[!DNL Adobe Target]功能的常見問題解答。 瞭解如何最佳化您的實驗、個人化體驗，並透過直接連結存取實用的資源，以獲得更深入的見解。
@@ -69,14 +87,14 @@ ht-degree: 50%
 **是否有[!DNL Adobe]社群/論壇，我可以在這裡找到關於[!DNL Target]的答案和詳細資訊？**
 
 +++檢視詳細資料
-在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
+在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
 
 +++
 
 **[!DNL Target]支援哪些瀏覽器？**
 
 +++檢視詳細資料
-如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
+如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
 
 +++
 
@@ -165,7 +183,7 @@ ht-degree: 50%
 **我可以將活動排程在固定時間開始和結束嗎？**
 
 +++檢視詳細資料
-使用三部分活動工作流程的[!UICONTROL 目標與設定][&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的排程功能，指定開始和結束日期。
+使用三部分活動工作流程的[!UICONTROL 目標與設定]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的[排程功能，指定開始和結束日期。
 
 記得啟動活動。 只有線上活動才會遵循指定的排程。 達到結束日期之後，活動會進入[!UICONTROL 已結束]狀態。
 
@@ -174,7 +192,7 @@ ht-degree: 50%
 **我可以只對[!UICONTROL 鎖定目標]步驟進行變更，而不要完成整個三個步驟引導工作流程來進行編輯？**
 
 +++檢視詳細資料
-您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面[&#128279;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。
+您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。[
 
 +++
 
@@ -254,7 +272,7 @@ ht-degree: 50%
 查看產品的下列方面:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -291,7 +309,7 @@ ht-degree: 50%
 
 我們也提供[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單。
+也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單[。
 
 +++
 
@@ -305,7 +323,7 @@ ht-degree: 50%
 **我有多個網域。 其中一個網域需要啟用[!UICONTROL 增強體驗撰寫器]，而其他網域則需要將其停用。 我應該怎麼做？**
 
 +++檢視詳細資料
-您一律可以使用活動層級[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增強體驗撰寫器選項來覆寫預設設定（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
+您一律可以使用活動層級](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增強體驗撰寫器選項來覆寫預設設定（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
 
 +++
 
@@ -401,7 +419,7 @@ ht-degree: 50%
 查看產品的下列方面:
 
 * [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -475,6 +493,6 @@ ht-degree: 50%
 **我可以在何處進一步瞭解[!DNL Target] API？**
 
 +++檢視詳細資料
-我們提供詳盡的 API 相關文件。 請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
+我們提供詳盡的 API 相關文件。 請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
 
 +++

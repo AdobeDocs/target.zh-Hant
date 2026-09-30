@@ -1,28 +1,39 @@
 ---
 keywords: 體驗;控制;automated personalization;自動鎖定目標
-description: 瞭解如何在 [!DNL Adobe Target]中建立[!UICONTROL Automated Personalization] (AP)或[!UICONTROL 自動鎖定目標]活動時，選取要用來作為控制的體驗。
+description: 瞭解如何在[!DNL Adobe Target]中建立[!UICONTROL Automated Personalization] (AP)或[!UICONTROL 自動鎖定目標]活動時，選取要用來作為控制的體驗。
 title: 如何在[!UICONTROL Automated Personalization]活動中使用特定體驗作為控制？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-TQID: https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA
+TQID: 'https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '840'
 ht-degree: 36%
-
 ---
-
 # 選取[!UICONTROL Automated Personalization]或[!UICONTROL 自動鎖定目標]活動的控制權
 
 建立[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)或[[!UICONTROL 自動鎖定目標]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)活動時，您可以選取要用來作為控制的隨機提供的體驗或特定體驗。
@@ -66,6 +77,6 @@ ht-degree: 36%
 * 因為在您選取體驗作為控制時，所有控制流量都會進入單一體驗或一組產品建議 (相較之下，在隨機狀況中，控制流量則會分散在活動中的多個體驗或產品建議之中)，您通常不需要像流向控制如此多的流量。 建議從 10% 開始。
 * 如果您透過作為控制的特定體驗對上線活動執行下列其中一項操作，控制會自動重設為隨機提供體驗 (而不是先前選取的特定體驗):
 
-   * 刪除體驗
-   * 移除位置或選件（僅限[!UICONTROL Automated Personalization]）
-   * 透過移除重複選件或透過排除群組（僅限[!UICONTROL Automated Personalization]）手動排除體驗
+  * 刪除體驗
+  * 移除位置或選件（僅限[!UICONTROL Automated Personalization]）
+  * 透過移除重複選件或透過排除群組（僅限[!UICONTROL Automated Personalization]）手動排除體驗

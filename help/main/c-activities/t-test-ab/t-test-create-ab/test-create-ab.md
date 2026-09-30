@@ -1,26 +1,35 @@
 ---
 keywords: 建立A/B； A/B測試； A/B活動；新a/b活動；建立a/b
-description: 使用[!UICONTROL 視覺化體驗撰寫器] (VEC)直接在啟用 [!DNL Target]的頁面上建立A/B測試活動。
+description: 使用[!UICONTROL 視覺化體驗撰寫器] (VEC)直接在啟用[!DNL Target]的頁面上建立A/B測試活動。
 title: 如何建立A/B測試？
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-TQID: https://experienceleague.adobe.com/3oJeJ1q8KeFLZhUJseG6hOe6xJqH4CKILIUglcL7E3M
+TQID: 'https://experienceleague.adobe.com/3oJeJ1q8KeFLZhUJseG6hOe6xJqH4CKILIUglcL7E3M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1019
+source-wordcount: '1019'
 ht-degree: 19%
-
 ---
-
 # 建立A/B測試活動
 
 運用[!DNL Adobe Target]中的[!UICONTROL 視覺化體驗撰寫器] (VEC)，直接在啟用[!DNL Target]的頁面上建立[!UICONTROL A/B測試]活動，以及在[!DNL Target]內修改頁面區段。

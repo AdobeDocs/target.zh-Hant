@@ -4,20 +4,23 @@ description: 瞭解您可以編輯現有活動的不同方式。
 title: 如何編輯活動？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+TQID: 'https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 21%
-
 ---
-
 # 編輯活動
 
 瞭解如何編輯[!DNL Adobe Target]中的現有活動。 本文介紹[!DNL Target]介面中可用來修改活動的不同方法。 無論您是要更新體驗、調整鎖定目標規則或設定目標，[!DNL Target]都可以確保在啟用之前安全地儲存您的變更。
@@ -70,33 +73,33 @@ ht-degree: 21%
 
 * 如果您將同一工作區中的活動或從預設工作區複製到非預設工作區，則會自動開啟「活動精靈」。 在跨工作區副本中，您可能只需要更新活動屬性。
 * 將活動從非預設工作區複製到另一個工作區（無論預設或非預設）時，活動精靈會開啟，並且需要一些手動輸入才能完成設定：
-   * **[!UICONTROL 屬性]**：工作區之間的屬性可能不同。 此情況可能會觸發警告：
+  * **[!UICONTROL 屬性]**：工作區之間的屬性可能不同。 此情況可能會觸發警告：
 
-      * 在[!UICONTROL 表單式體驗撰寫器]中，警告會直接顯示在使用者介面中，以便立即顯示。
+    * 在[!UICONTROL 表單式體驗撰寫器]中，警告會直接顯示在使用者介面中，以便立即顯示。
 
-        ![表單式工作區警告](/help/main/c-activities/assets/form-based-warning.png)
+      ![表單式工作區警告](/help/main/c-activities/assets/form-based-warning.png)
 
-      * 在VEC中，當您按一下[!UICONTROL 設定] > [!UICONTROL 屬性]時，會顯示警告。
+    * 在VEC中，當您按一下[!UICONTROL 設定] > [!UICONTROL 屬性]時，會顯示警告。
 
-        ![vec警告](/help/main/c-activities/assets/vec-warning.png)
+      ![vec警告](/help/main/c-activities/assets/vec-warning.png)
 
-        若要解決此問題，請按一下[!UICONTROL 新增/移除]，以便只顯示目的地工作區中可用的屬性以供選取。
+      若要解決此問題，請按一下[!UICONTROL 新增/移除]，以便只顯示目的地工作區中可用的屬性以供選取。
 
-   * **對象和選件**：將活動複製到新工作區時，所有相關聯的[!DNL Target]或原始工作區的臨機對象和選件會使用以下格式複製： [!DNL Target]個對象和`<Entity Name>`個臨機選件的`<Entity Name> Copy <Date>`。
+  * **對象和選件**：將活動複製到新工作區時，所有相關聯的[!DNL Target]或原始工作區的臨機對象和選件會使用以下格式複製： [!DNL Target]個對象和`<Entity Name>`個臨機選件的`<Entity Name> Copy <Date>`。
 
-     行為詳細資料：
+    行為詳細資料：
 
-      * 在儲存並重新開啟活動之前，複製的對象和選件不會出現在[!UICONTROL 對象]和[!UICONTROL 選件]清單中。
-      * 複製後無法立即編輯這些實體。 客戶在初始編輯工作階段中，可能會在VEC中看到這些專案的空白內容。
-      * 如有需要，客戶可使用目的地工作區中的其他對象或選件，取代複製的對象或選件。
+    * 在儲存並重新開啟活動之前，複製的對象和選件不會出現在[!UICONTROL 對象]和[!UICONTROL 選件]清單中。
+    * 複製後無法立即編輯這些實體。 客戶在初始編輯工作階段中，可能會在VEC中看到這些專案的空白內容。
+    * 如有需要，客戶可使用目的地工作區中的其他對象或選件，取代複製的對象或選件。
 
-     此程式可確保更流暢的跨工作區活動複製，同時維持自訂的彈性。
+    此程式可確保更流暢的跨工作區活動複製，同時維持自訂的彈性。
 
-     複製活動時，必須手動取代未儲存在目前工作區或預設工作區中的非目標對象和選件。
+    複製活動時，必須手動取代未儲存在目前工作區或預設工作區中的非目標對象和選件。
 
-     手動取代這些非目標對象，並提供選件可確保在複製的活動中僅使用有效、可存取的實體，並防止在編輯或傳送期間發生錯誤。
+    手動取代這些非目標對象，並提供選件可確保在複製的活動中僅使用有效、可存取的實體，並防止在編輯或傳送期間發生錯誤。
 
-     ![警告訊息](/help/main/c-activities/assets/copy.png)
+    ![警告訊息](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >

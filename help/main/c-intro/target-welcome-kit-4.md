@@ -1,33 +1,47 @@
 ---
 keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
-description: 閱讀我們的專家小組所提供有關使用 Adobe [!DNL Target] 當做測試與個人化工作之一部分的提示。
+description: 閱讀我們的專家小組所提供有關使用Adobe [!DNL Target]作為測試與個人化工作一部分的提示。
 title: 何處可以找到有關使用 Target 的提示和訣竅？
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+TQID: 'https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Audience segmentation
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 73%
-
+source-wordcount: '2961'
+ht-degree: 72%
 ---
-
 # 第 4 章：使用 Target 的提示
 
 根據我們與許多[!DNL Target]使用者的合作，我們觀察到您從[!DNL Target]解決方案中獲得更多價值的方式。 我們在本章中提供的許多秘訣中已加以總結。 雖然您可能還沒準備好立即使用這些概念，但請繼續閱讀這份清單。 您使用解決方案的經驗越多，程式越成熟，您就會越瞭解這些秘訣如何協助您使用[!DNL Target]完成更多工作。
@@ -38,11 +52,11 @@ ht-degree: 73%
 
 例如，您可以將銷售點系統的購買資料與訪客資料建立關聯。 若要這麼做，只需建立包含最多 200 個離線變數的 CSV 檔案，然後透過檔案上傳直接上傳至 [!DNL Adobe Experience Cloud]，或使用 FTP 代管並排程您的檔案，以定期更新。 一旦您的客戶屬性位於 [!DNL Adobe Experience Cloud]中，您就可以將它們對應至 [!DNL Experience Cloud] 解決方案，例如 [!DNL Adobe Analytics] 和 [!DNL Target]，以便用於分析、測試和個人化。
 
-如需逐步指示，請參閱[自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hant&?lang=zh-Hant)。
+如需逐步指示，請參閱[自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html??lang=zh-Hant)。
 
 **很高興知道**：由於 [!DNL Target] 此平台是開放且不可知的平台，可以搭配不同的技術運作，因此您可以以多種不同的方式新增 CRM 或購買的資料。 這表示您可以選擇最適合您組織的方法。
 
-如需詳細資訊，請參閱[將資料匯入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[將資料匯入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ## 提示 2：將 [!DNL Target] 客群與其他 Adobe Experience Cloud 客群混合，以實現更深度的個人化。
 
@@ -168,8 +182,8 @@ ht-degree: 73%
 
 設定活動以使用QA參數的好處之一，就是您可以與團隊中的每個人共用這些連結。 您可以讓更多人知道此活動，並確保他們在點選測試變體時，不認為網站運作不正常。
 
-完成測試後，您可以通訊促銷活動啟動、測試結果，尤其是所學的課程，協助您建立對測試結果的認知和興趣。與組織中的每個人分享結果也避免重新測試假設、教育每個人什麼有效，並協助他們根據您的發現，從根本上挑戰自己對什麼有效的想法。您最好準備一個範本，每次都用來分享您的發現和關鍵學習。
-然後考慮建立可共用的書籍或Microsoft PowerPoint資料夾，以累積擷取這些學習內容。
+完成測試後，您可以通訊促銷活動啟動、測試結果，尤其是所學的課程，協助您建立對測試結果的認知和興趣。 與組織中的每個人分享結果也避免重新測試假設、教育每個人什麼有效，並協助他們根據您的發現，從根本上挑戰自己對什麼有效的想法。 您最好準備一個範本，每次都用來分享您的發現和關鍵學習。
+然後，考慮建立可共用的書籍或 Microsoft PowerPoint 資料夾，以累積擷取這些學習內容。
 
 ## 提示 20：運用行動功能來建立更具創意的行動活動。
 

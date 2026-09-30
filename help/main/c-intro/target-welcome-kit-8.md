@@ -1,22 +1,29 @@
 ---
 keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
-description: 使用執行摘要結果範本協助您傳達 Adobe [!DNL Target] 活動的成功結果。
-title: 如何與我的組織分享我的 [!DNL Target] 活動成果？
+description: 使用執行摘要結果範本協助您傳達Adobe [!DNL Target]活動的成功結果。
+title: 如何與我的組織分享我的[!DNL Target]活動結果？
 feature: Overview
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-TQID: https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ
+TQID: 'https://experienceleague.adobe.com/mO9F-HaF2IvFvB4m9uILZOondvs-POKUUGeb6Oq24EQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 100%
-
+source-wordcount: '218'
+ht-degree: 87%
 ---
-
 # 第 8 章：溝通活動結果
 
 如果您執行活動並取得令人驚艷的結果，您必須將這些結果與組織分享。 或許您剛剛贏得更多客戶、增加收入、減少客服中心來電以節省金錢，或提高了平均訂單值。 使用 [!DNL Target] 最佳化及個人化，向利害關係人展示您為業務所做的事。

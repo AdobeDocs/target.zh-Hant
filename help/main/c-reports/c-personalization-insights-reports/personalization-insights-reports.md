@@ -2,30 +2,39 @@
 keywords: 鎖定目標;AP 報告;自動個人化報告;自動鎖定目標;自動鎖定目標報告;個人化;洞察;自動化區段;faq;常見問題集;重要屬性
 description: 瞭解如何針對Automated Personalization (AP)和自動鎖定目標(AT)活動使用專用報表 — 自動化區段和重要屬性。
 title: 如何使用Personalization前瞻分析報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-TQID: https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI
+TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1023
+source-wordcount: '1023'
 ht-degree: 29%
-
 ---
-
 # [!UICONTROL Personalization Insights]報表
 
 [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標] (AT)活動的使用者可以使用兩個專用報表： [!UICONTROL 自動化區段]和[!UICONTROL 重要屬性]報表。
@@ -38,29 +47,29 @@ ht-degree: 29%
 
 * [!UICONTROL Personalization Insights]報表僅適用於AP和AT活動，其設定如下：
 
-   * [!DNL Target]報告> [!UICONTROL 轉換]
+  * [!DNL Target]報告> [!UICONTROL 轉換]
 
-     例如：
+    例如：
 
-     ![目標報告>轉換](/help/main/c-reports/assets/conversion.png)
+    ![目標報告>轉換](/help/main/c-reports/assets/conversion.png)
 
-   * [!DNL Analytics]報告> [!DNL Conversion]
+  * [!DNL Analytics]報告> [!DNL Conversion]
 
-     例如：
+    例如：
 
-     ![Analytic Reporting >轉換](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+    ![Analytic Reporting >轉換](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
-   * [!DNL Analytics]報告> [!UICONTROL 使用Analytics量度] > [!UICONTROL 最大化造訪轉換率]
+  * [!DNL Analytics]報告> [!UICONTROL 使用Analytics量度] > [!UICONTROL 最大化造訪轉換率]
 
-     例如：
+    例如：
 
-     ![使用Analytics量度>最大化造訪轉換率](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+    ![使用Analytics量度>最大化造訪轉換率](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * 也不支援最佳化目標在活動上線後已從收入變更為轉換的活動。
 
 * [!UICONTROL Personalization Insights]報告只有在從[!UICONTROL 報告量度]下拉式清單中選取[!UICONTROL 主要目標]時才可用。
 
-* 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights報告。
+* [!UICONTROL 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights]報告。
 
 * [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL 即時]狀態且已啟用且接收流量至少15天的活動產生。
 

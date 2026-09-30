@@ -1,23 +1,31 @@
 ---
 keywords: 遠端選件；快取內容；動態內容；url型別
-description: 瞭解如何利用 [!DNL Target] 中的遠端選件來主控來自CMS或其他系統的外部內容。
+description: 瞭解如何在[!DNL Target]中運用遠端選件，託管來自CMS或其他系統的外部內容。
 title: 如何建立遠端選件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+TQID: 'https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1146'
 ht-degree: 24%
-
 ---
-
 # 建立遠端產品建議
 
 使用遠端選件在[!DNL Adobe Target]外部託管內容，允許[!DNL Target]參照此內容並將其傳遞給使用者網站。 基於方便使用或安全理由，此內容可以位於內容管理系統(CMS)或其他系統中。
@@ -41,14 +49,14 @@ ht-degree: 24%
 
 * 支援遠端選件，位置如下：
 
-   * A/B活動
-   * 體驗鎖定目標 (XT) 活動
-   * 表單式工作流程
+  * A/B活動
+  * 體驗鎖定目標 (XT) 活動
+  * 表單式工作流程
 
 * 不支援遠端選件：
 
-   * [進階功能](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP)、自動鎖定目標和Recommendations)
-   * Multivariate Testing (MVT)，因為依賴VEC而不支援遠端選件。
+  * [進階功能](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP)、自動鎖定目標和Recommendations)
+  * Multivariate Testing (MVT)，因為依賴VEC而不支援遠端選件。
 
 * 如果您的選件與[!DNL Target]要求位於相同的網域中，使用[!UICONTROL Cached]選項可讓您使用相對URL來說明您的選件位置。
 

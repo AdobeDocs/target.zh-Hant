@@ -1,23 +1,30 @@
 ---
 keywords: 疑難排解;常見問答;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
-description: 檢視有關 [!DNL Target Recommendations] 活動的常見問答清單。
-title: 哪裡可以找到有關 [!DNL Recommendations]的問答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+description: 檢視有關[!DNL Target Recommendations]活動的常見問答清單。
+title: 哪裡可以找到有關[!DNL Recommendations]的問答？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3578
+source-wordcount: '3579'
 ht-degree: 80%
-
 ---
-
 # 推薦常見問題集
 
 關於 [!DNL Adobe Target] [!DNL Recommendations] 活動的常見問答 (FAQ) 清單。
@@ -73,9 +80,9 @@ ht-degree: 80%
 * 促銷活動設定的變更最多可能需要五個小時的時間才會反映在網站上。
 * 其他條件設定的變更可能要等到下一次演算法執行後才會反映在網站上。
 
-   * 部分條件設定（例如「新增動態包含規則」）會立即反映。
-   * 其他條件設定（例如「移除動態包含規則」、變更回顧視窗等）要等到下一次演演算法執行後才能併入。
-   * 這些變更會觸發演算法執行，但最多可能需要 24 小時的時間才能執行完成。 也會以每 12-24 小時的間隔安排執行演算法。
+  * 部分條件設定（例如「新增動態包含規則」）會立即反映。
+  * 其他條件設定（例如「移除動態包含規則」、變更回顧視窗等）要等到下一次演演算法執行後才能併入。
+  * 這些變更會觸發演算法執行，但最多可能需要 24 小時的時間才能執行完成。 也會以每 12-24 小時的間隔安排執行演算法。
 
 ## 使用者的行為（例如點選產品A及購買產品B）需要多久的時間才會反映在&#x200B;*使用者收到的建議？*
 
@@ -109,7 +116,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-[!DNL Target] 的[篩選不相容條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}設定可控制演算法選擇器的智慧型篩選。
+[!DNL Target] 的[篩選不相容條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定可控制演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >
@@ -264,7 +271,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？
 
-[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium][&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
+[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
 
 ## 如何只推薦新文章或影片？ {#recommend-new-articles}
 

@@ -1,23 +1,26 @@
 ---
 keywords: 摘要
-description: 檢視[!UICONTROL 多變數測試] (MVT)活動的摘要，其中提供您 [!DNL Adobe Target]中活動的視覺化概觀。
+description: 檢視[!UICONTROL 多變數測試] (MVT)活動的摘要，其中提供您[!DNL Adobe Target]中活動的視覺化概觀。
 title: 如何檢視[!UICONTROL 多變數測試] (MVT)活動的摘要？
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
-TQID: https://experienceleague.adobe.com/qPe34s7dkRzaGLO-ZUhiTxu3Dz5NUpVk7nBRLQBz7ZM
+TQID: 'https://experienceleague.adobe.com/qPe34s7dkRzaGLO-ZUhiTxu3Dz5NUpVk7nBRLQBz7ZM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: '116'
 ht-degree: 30%
-
 ---
-
 # 測試摘要（[!UICONTROL 多變數測試]）
 
 [!UICONTROL 鎖定目標]頁面提供[!DNL Adobe Target] [!UICONTROL 多變數測試]的視覺化概觀。

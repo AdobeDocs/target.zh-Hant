@@ -1,24 +1,32 @@
 ---
 keywords: 電子郵件;ESP;電子郵件服務提供者;rawbox;傳送 API;僅供下載的範本;電子郵件範本;批次處理;建置時間電子郵件
-description: 了解如何將電子郵件與 Adobe [!DNL Target Recommendations], including using the [!DNL Target] 傳送 API、rawbox 範本及僅供下載的範本整合。
+description: 瞭解如何將電子郵件與Adobe [!DNL Target Recommendations]整合，包括使用[!DNL Target]傳遞API、rawbox範本及僅供下載的範本。
 title: 如何將推薦與電子郵件整合？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-TQID: https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE
+TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1768
-ht-degree: 87%
-
+source-wordcount: '1772'
+ht-degree: 86%
 ---
-
 # 將[!DNL Recommendations]與電子郵件整合
 
 [!DNL Adobe Target] 支援電子郵件中推薦的傳送時間個人化。
@@ -85,7 +93,7 @@ curl -X POST \
 >
 >各電子郵件收件者 (例如，針對每個 API 呼叫) 的 `sessionId` 及 `tntId` 或 `thirdPartyId` 兩者之一，請務必提供唯一值。 如果您沒有為這些欄位提供唯一值，API 回應可能會因為在單一輪廓中產生的許多事件而變得緩慢或失敗。
 
-如需詳細資訊，請參閱[傳送 API 文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[傳送 API 文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}。
 
 ## 方法 2：使用 rawbox 電子郵件範本 {#rawbox}
 
@@ -114,9 +122,9 @@ rawbox 類似於 mbox 請求，但適用於非 Web 環境，例如電子郵件�
 
 * 電子郵件應用程式應該搜尋該文字，而且必須能夠處理錯誤。 電子郵件提供者有多個選項可用於處理此情況:
 
-   * 立即嘗試另一個伺服器呼叫 (建議，也許可以使用嘗試計數器)。
-   * 去除該特定電子郵件並繼續下一個電子郵件。
-   * 將該特定電子郵件加入佇列，並在最初執行結束時，以批次形式重新執行失敗的電子郵件。
+  * 立即嘗試另一個伺服器呼叫 (建議，也許可以使用嘗試計數器)。
+  * 去除該特定電子郵件並繼續下一個電子郵件。
+  * 將該特定電子郵件加入佇列，並在最初執行結束時，以批次形式重新執行失敗的電子郵件。
 
 ### 樣本請求 URL
 

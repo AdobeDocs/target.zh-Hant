@@ -1,40 +1,62 @@
 ---
-description: Adobe [!DNL Target] 中使用的不同詞彙是什麼意思？ 尋找常用詞彙的定義，以協助您充分利用  [!DNL Target]。
+description: Adobe [!DNL Target]中使用的不同辭彙是什麼意思？ 尋找常用辭彙的定義，以協助您充分利用[!DNL Target]。
 title: 我可以在哪裡找到 Target 中使用的詞彙和定義？
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-TQID: https://experienceleague.adobe.com/3NVue96KdaSn9GJq8xVn-3wijCZofXzQzV4NYn8uDPQ
+TQID: 'https://experienceleague.adobe.com/3NVue96KdaSn9GJq8xVn-3wijCZofXzQzV4NYn8uDPQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
   - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
+    internal-label: Multivariate test
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2526
+source-wordcount: '2527'
 ht-degree: 97%
-
 ---
-
 # 字彙表
 
 詞彙定義。
@@ -331,7 +353,7 @@ Target Standard 中活動的視覺表示。
 
 **遠端產品建議**
 
-使用遠端產品建議來主控 所參考且位於 [!DNL Target]&#x200B;[!DNL Target] 外部的內容，並傳遞至使用者的網站。 此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
+使用遠端產品建議來主控 所參考且位於 [!DNL Target][!DNL Target] 外部的內容，並傳遞至使用者的網站。 此內容可能在內容管理或其他系統中，可能是基於易於使用或安全性理由。
 
 **報表**
 

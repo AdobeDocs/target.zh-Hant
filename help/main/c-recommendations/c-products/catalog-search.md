@@ -1,23 +1,30 @@
 ---
 keywords: 目錄搜尋；目錄；搜尋；排除；集合；篩選器；推薦
-description: 瞭解如何使用 [!DNL Recommendations] [!UICONTROL 目錄搜尋]來尋找產品或內容、從目錄中移除專案等等。
-title: 如何使用 [!DNL Recommendations] [!UICONTROL 目錄搜尋]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+description: 瞭解如何使用[!DNL Recommendations] [!UICONTROL 目錄搜尋]來尋找產品或內容、從目錄中移除專案等等。
+title: 如何使用[!DNL Recommendations] [!UICONTROL 目錄搜尋]？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
+TQID: 'https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 552
-ht-degree: 21%
-
+source-wordcount: '554'
+ht-degree: 20%
 ---
-
 # [!UICONTROL 目錄搜尋]
 
 [!DNL Adobe Recommendations]中的[!UICONTROL 目錄搜尋]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、篩選多面、修改表格中的欄、新增搜尋多面等等。

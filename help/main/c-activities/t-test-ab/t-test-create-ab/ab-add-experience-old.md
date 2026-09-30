@@ -1,16 +1,23 @@
 ---
 keywords: 鎖定目標; 體驗; 新增體驗; 體驗新增
-description: 瞭解如何在 [!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)。
-title: 如何在A [!DNL Target] A/B活動中新增體驗？
+description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)。
+title: 如何在[!DNL Target] A/B活動中新增體驗？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 41%
-
 ---
-
 # 新增體驗
 
 [!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)提供用於新增及編輯您的頁面上體驗的視覺介面。

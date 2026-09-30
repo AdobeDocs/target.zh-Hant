@@ -4,13 +4,14 @@ description: 瞭解管理旗標中協調發行的端對端工作流程，從定�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 2%
-
 ---
-
 # 端對端發行工作流程 {#release-workflow}
 
 本頁說明由「版本管理員」管理的協調發行所涉及的全序列活動。

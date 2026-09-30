@@ -1,24 +1,28 @@
 ---
 keywords: 設定; 優先順序
-description: 瞭解 [!DNL Adobe Target] 如何根據您使用的 [!DNL Target] 介面以及活動建立功能，以不同方式決定要傳遞至頁面的活動（或活動）。
-title: ' [!DNL Target] 如何將優先順序指派給不同的活動？'
+description: 瞭解[!DNL Adobe Target]如何根據您使用的[!DNL Target]介面和活動建立功能，以不同方式決定要傳遞至頁面的活動（或活動）。
+title: '[!DNL Target]如何將優先順序指派給不同的活動？'
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
+TQID: 'https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '991'
 ht-degree: 34%
-
 ---
-
 # 優先順序
 
 [!DNL Adobe Target]會根據您使用的[!DNL Target]介面以及活動建立功能([[!UICONTROL 視覺化體驗撰寫器(VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)或[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md))，以不同方式決定要傳遞至頁面的活動（一或多個活動）。

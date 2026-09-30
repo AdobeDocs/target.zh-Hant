@@ -4,13 +4,14 @@ description: 瞭解如何在Adobe Target中要求旗標團隊的存取權，以�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 2%
-
 ---
-
 # 要求存取權 {#request-access}
 
 對旗標的存取在團隊層級進行管理。 若要使用旗標，您需要將自己新增到具有適當角色的團隊中。

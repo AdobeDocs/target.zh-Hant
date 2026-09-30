@@ -1,26 +1,35 @@
 ---
 keywords: 歡迎套件;target 歡迎套件;介紹;簡介;開始
-description: 在 Adobe [!DNL Target] 中開始您的第一個活動，好讓您可以獲得您投資的報酬。
+description: 讓我們開始您在Adobe [!DNL Target]中的第一個活動，好讓您可以取得您投資的報酬。
 title: 我需要在 Target 中建立我的第一個活動。 我該從哪開始？
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
+TQID: 'https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1742
-ht-degree: 70%
-
+source-wordcount: '1743'
+ht-degree: 69%
 ---
-
 # 第 7 章：建立和執行第一個 [!DNL Target] 活動
 
 您準備好開始您在[!DNL Target]中的第一個活動了嗎？ 太好了！ 讓我們為您的網站、行動網站或行動應用程式找出一些不太複雜的活動，但又能提供快速的投資報酬率，並讓您對使用[!DNL Target]進行測試和個人化的潛力感到振奮。 視您的組織及其重點而定，您可能會考慮在第一個活動中採取三種不同的方法之一。

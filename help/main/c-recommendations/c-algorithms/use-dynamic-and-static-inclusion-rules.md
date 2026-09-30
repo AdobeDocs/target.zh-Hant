@@ -1,23 +1,29 @@
 ---
 keywords: 包含規則;包含條件;建議;建立新條件;促銷活動;動態篩選;動態;空白值;忽略篩選規則;靜態篩選;按值篩選;實體屬性比對;輪廓屬性比對;參數比對;靜態篩選
-description: 瞭解如何在 [!DNL Target] Recommendations中建立條件與促銷的包含規則。
+description: 瞭解如何在[!DNL Target] Recommendations中建立條件和促銷的包含規則。
 title: 如何在Recommendations中使用動態和靜態包含規則？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-TQID: https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ
+TQID: 'https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: '2259'
 ht-degree: 14%
-
 ---
-
 # 使用動態和靜態包含規則
 
 在[!DNL Adobe Target]中建立條件和促銷活動的包含規則，並新增動態或靜態篩選規則，以便為您的建議取得更好的結果。
@@ -76,7 +82,7 @@ ht-degree: 14%
 | --- | --- |
 | [[!UICONTROL 靜態篩選器]](/help/main/c-recommendations/c-algorithms/static-value.md) | 手動輸入一或多個要篩選的靜態值。 |
 
-## 可用的運運算元 {#operators}
+## 可用運算子 {#operators}
 
 動態條件和促銷活動比靜態條件和促銷活動強大得多，並產生更好的結果和參與。
 
@@ -96,7 +102,7 @@ ht-degree: 14%
 | [!UICONTROL 不包含任何]<P>（[!UICONTROL 實體屬性比對]、[!UICONTROL 設定檔屬性比對]、[!UICONTROL 引數比對]和[!UICONTROL 靜態篩選器]。） | 使用「不包含任何」運運算元，當訪客檢視您網站上的專案時（例如產品），您可以促銷如下的其他專案：<ul><li>標題不含粗字</li></ul> |
 | [!UICONTROL 以任一]開始<P>（[!UICONTROL 實體屬性比對]、[!UICONTROL 設定檔屬性比對]、[!UICONTROL 引數比對]和[!UICONTROL 靜態篩選器]。） | 使用&quot;[!UICONTROL 開頭為]&quot;運運算元，當訪客檢視您網站上的專案時（例如產品），您可以促銷如下的其他專案：<ul><li>產品名稱以iPhone開頭</li></ul> |
 | [!UICONTROL 結尾為]的任一項<P>（[!UICONTROL 實體屬性比對]、[!UICONTROL 設定檔屬性比對]、[!UICONTROL 引數比對]和[!UICONTROL 靜態篩選器]。） | 使用&quot;[!UICONTROL 結尾為]&quot;運運算元，當訪客檢視您網站上的專案時（例如產品），您可以促銷如下的其他專案：<ul><li>內容結尾是EN，表示英文</li></ul> |
-| [!UICONTROL 介於]之間<P>（[!UICONTROL 實體屬性比對]、[!UICONTROL 設定檔屬性比對]和[!UICONTROL 引數比對]時可用。） | 如果在動態促銷活動中使用「介於間的is」運運算元，當訪客檢視您網站上的專案時（例如產品、文章或電影），您可以促銷如下的其他專案：<ul><li>更貴</li><li>更便宜</li><li>成本加減30%</li><li>同季的後續集數</li><li>系列中先前的書籍</li></ul> |
+| [!UICONTROL 介於]之間<P>（[!UICONTROL 實體屬性比對]、[!UICONTROL 設定檔屬性比對]和[!UICONTROL 引數比對]時可用。） | 如果在動態促銷活動中使用「介於]間的i[!UICONTROL s」運運算元，當訪客檢視您網站上的專案時（例如產品、文章或電影），您可以促銷如下的其他專案：<ul><li>更貴</li><li>更便宜</li><li>成本加減30%</li><li>同季的後續集數</li><li>系列中先前的書籍</li></ul> |
 | [!UICONTROL 清單包含]中的專案<P>（[!UICONTROL 設定檔屬性符合]且[!UICONTROL 引數符合]時可用。） | 使用[!UICONTROL 清單在設定檔屬性比對中包含]運運算元中的專案，當訪客檢視您網站上的專案時（例如產品、文章或電影），您可以促銷如下的其他專案：<ul><li>可在訪客的地理位置中使用</li></ul>**範例**：您想要建議只在訪客地理區域中可用的專案。<P>您的篩選規則可能如下所示：<P>`availableGeographies list contains an item in user.currentGeography`<P>**注意**：使用此運運算元時，規則的[右側](#caveats)應該會有清單。 |
 | [!UICONTROL 清單在]中不包含專案<P>（[!UICONTROL 設定檔屬性符合]且[!UICONTROL 引數符合]時可用。） | 使用「[!UICONTROL 清單」時，在設定檔屬性比對中，]」運運算元不包含專案，當訪客檢視您網站上的專案時（例如產品、文章或電影），您可以排除下列其他專案：<ul><li>在訪客已檢視的最後10個專案清單中</li></ul></ul>**範例**：您不想要促銷訪客最近檢視過且沒有興趣的專案。<P>您的篩選規則可能如下所示：<P>`id is not contained in list user.lastViewedItems`<P>**注意**：使用此運運算元時，規則的[右側](#caveats)應該會有清單。 |
 | [!UICONTROL 清單包含]中的專案<P>（[!UICONTROL 實體屬性比對]、[!UICONTROL 設定檔屬性比對]和[!UICONTROL 引數比對]時可用。） | 使用[!UICONTROL 清單在設定檔屬性比對中包含]運運算元中的專案，當訪客檢視您網站上的專案時（例如體育賽事或音樂會），您可以促銷如下的其他專案：<ul><li>與訪客最喜愛的團隊之一相關聯</li></ul>**範例**：您想要建議與訪客最喜愛的團隊之一相關聯的遊戲。<P>您的篩選規則可能如下所示：<P>` teamsPlaying list contains an item in user.favoriteTeams`<P>**注意**：使用此運運算元時，規則的[兩面](#caveats)中應該要有清單。 |

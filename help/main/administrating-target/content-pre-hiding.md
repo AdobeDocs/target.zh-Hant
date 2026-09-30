@@ -4,7 +4,16 @@ description: 瞭解內容預先隱藏如何減少忽隱忽現情形：使用帳�
 title: 個人化體驗的內容預先隱藏
 feature: Administration & Configuration
 role: Admin
-source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -47,7 +56,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 這會將忽隱忽現的管理設定套用至您的執行個體。
 
-1. 啟用後，請按一下[下載] **&#x200B;**，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/prehide-sdk)。
+1. 啟用後，請按一下[下載] ****，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 

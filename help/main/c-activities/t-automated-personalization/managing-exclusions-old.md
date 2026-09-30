@@ -1,18 +1,27 @@
 ---
 keywords: 重複資料刪除；允許重複專案；排除重複選件；自動個人化；不允許重複選件；排除；預設內容；排除群組；
-description: 管理 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活動中的排除專案。 建立排除群組並排除重複選件、特定體驗和預設內容。
+description: 管理[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活動中的排除專案。 建立排除群組並排除重複選件、特定體驗和預設內容。
 title: 如何管理[!UICONTROL Automated Personalization]活動中的排除專案？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 47%
-
 ---
-
 # 管理排除項目
 
 管理排除的方法包括在[!DNL Adobe Target]中建立[!UICONTROL Automated Personalization] (AP)活動中的排除群組、排除重複選件、排除特定體驗，以及排除預設內容。

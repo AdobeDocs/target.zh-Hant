@@ -4,20 +4,28 @@ description: 瞭解如何預覽Adobe [!DNL Target] Recommendations活動，以�
 title: 如何預覽和啟動Recommendations活動？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # 預覽和啟動推薦活動
 
 在您建立包含[Recommendations選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標] (XT)活動後，您將會想要預覽您的建議，以確保在啟動活動之前結果可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
@@ -110,13 +118,13 @@ CSV下載檔案會一致地反映後端條件執行後產生的結果。
 
 * **若為基於人氣的演演算法（非基於金鑰），檔案包含：**
 
-   * 前置詞為* （星號）的備份建議列
-   * 根據演演算法設定列出建議的獨立列
+  * 前置詞為* （星號）的備份建議列
+  * 根據演演算法設定列出建議的獨立列
 
 * **對於金鑰式演演算法，檔案包含：**
 
-   * 與熱門程度演演算法類似的備份列
-   * 鍵值格式的多列，其中第一個專案是鍵的產品ID，後面是代表建議候選人的逗號分隔產品ID
+  * 與熱門程度演演算法類似的備份列
+  * 鍵值格式的多列，其中第一個專案是鍵的產品ID，後面是代表建議候選人的逗號分隔產品ID
 
 ## 啟用您的Recommendations活動
 

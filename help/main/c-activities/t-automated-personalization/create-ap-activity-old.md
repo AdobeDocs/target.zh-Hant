@@ -1,17 +1,24 @@
 ---
 keywords: 自動個人化；ap
-description: 瞭解如何使用[!UICONTROL 視覺化體驗撰寫器]在 [!DNL Adobe Target] 中建立[!UICONTROL Automated Personalization] (AP)活動。
+description: 瞭解如何使用[!UICONTROL 視覺化體驗撰寫器]在[!DNL Adobe Target]中建立[!UICONTROL Automated Personalization] (AP)活動。
 title: 如何建立[!UICONTROL Automated Personalization]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1928'
 ht-degree: 30%
-
 ---
-
 # 建立[!UICONTROL Automated Personalization]活動
 
 使用[!UICONTROL 視覺化體驗撰寫器] (VEC)在[!DNL Adobe Target]中建立[!UICONTROL Automated Personalization] (AP)活動。
@@ -34,7 +41,7 @@ ht-degree: 30%
 
 1. （視條件而定） [選擇工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 驗證或輸入活動URL，然後按一下[建立]。**&#x200B;**
+1. 驗證或輸入活動URL，然後按一下[建立]。****
 
    >[!NOTE]
    >
@@ -108,7 +115,7 @@ ht-degree: 30%
 
    雖然您可以在 AP 測試中建立最多 30,000 個體驗，使用少於 10,000 相異體驗時，演算法的執行效能最佳。 即使活動已啟用[!UICONTROL 不允許重複專案]選項，此限制也會套用。
 
-   如果您目前尚未在您的活動中包括任何排除群組，請按一下&#x200B;**「建立排除群組」**。 您可以篩選以建立僅顯示您要排除之組合的清單。 命名您的排除群組，然後按一下[儲存]。**&#x200B;**
+   如果您目前尚未在您的活動中包括任何排除群組，請按一下&#x200B;**「建立排除群組」**。 您可以篩選以建立僅顯示您要排除之組合的清單。 命名您的排除群組，然後按一下[儲存]。****
 
    若要編輯現有的排除群組，請將游標暫留在您要編輯的群組上方，然後按一下鉛筆圖示。
 
@@ -134,8 +141,8 @@ ht-degree: 30%
    >
    >在[!UICONTROL Automated Personalization]活動中，會評估每個要求的輸入條件（URL鎖定目標、範本規則和對象目標）。 在舊版中，會對每個工作階段評估輸入條件。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以顯示&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面。
-1. 使用下列設定來設定活動，然後按一下[儲存並關閉]。**&#x200B;**
+1. 按一下[下一步]****&#x200B;以顯示&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面。
+1. 使用下列設定來設定活動，然後按一下[儲存並關閉]。****
 
    | 設定 | 說明 |
    |--- |--- |

@@ -1,16 +1,23 @@
 ---
 keywords: 範本測試; 範本; 類似頁面上有相同體驗; 範本測試
-description: 瞭解如何使用Adobe [!DNL Target] 視覺化體驗撰寫器(VEC)，在結構類似或包含相同範本元素的多個頁面上包含相同體驗。
+description: 瞭解如何使用Adobe [!DNL Target]視覺化體驗撰寫器(VEC)，在結構類似或包含相同範本元素的多個頁面上包含相同體驗。
 title: 我可以在類似頁面上包含相同體驗嗎？
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '625'
 ht-degree: 32%
-
 ---
-
 # 在類似頁面上包含相同體驗
 
 在[!DNL Adobe Target]中使用頁面範本為您的頁面提供結構，或如果您的頁面包含類似的元素，則以類似的結構化頁面元素或整個網域來測試變數。

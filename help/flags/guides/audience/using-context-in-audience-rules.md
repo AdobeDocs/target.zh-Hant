@@ -4,13 +4,14 @@ description: 瞭解如何在對象規則中使用內容屬性，以取得標籤�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 # 在對象規則中使用內容 {#context-in-audience-rules}
 
 內容屬性是使用者端應用程式在執行階段提供的值。 它們可讓您根據動態的工作階段層級資訊來鎖定使用者，例如使用者的作用中語言、裝置型別或應用程式狀態。

@@ -1,32 +1,43 @@
 ---
 keywords: a4t;analytics;analytics for target;analytics 報告來源;adobe analytics 當作 target 的報告來源;atjs;at.js;adobe experience platform web sdk;platform web sdk;platform sdk
-description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) 可根據 [!DNL Analytics] 轉換量度和客群區段建立活動，並使用 [!DNL Analytics] 報表來檢查結果。
-title: 什麼是 [!DNL Analytics] for [!DNL Target] (A4T)？
+description: 使用[!DNL Analytics] for [!DNL Target] (A4T)以根據[!DNL Analytics]轉換量度和受眾區段建立活動，並使用[!DNL Analytics]報表來檢查結果。
+title: 什麼是[!DNL Target] (A4T)的[!DNL Analytics]？
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-TQID: https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8
+TQID: 'https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 78%
-
+source-wordcount: '1131'
+ht-degree: 76%
 ---
-
 # [!DNL Adobe Analytics] 當作 [!DNL Adobe Target] (A4T) 的報告來源
 
 [!DNL Adobe Analytics for Target] (A4T) 是一種跨解決方案的整合，可讓您根據 [!DNL Analytics] 轉換量度和客群區段來建立活動。 A4T 整合可讓您使用 [!DNL Analytics] 報表來檢查您的結果。 如果您使用 [!DNL Analytics] 當作活動的報告來源，則該活動的所有報告和區段都會根據 [!DNL Analytics] 資料收集。
@@ -140,5 +151,5 @@ ht-degree: 78%
 >
 >* [Analytics for [!DNL Target] 實作](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)：包含 at.js 和 Platform Web SDK 的實作資訊。
 >* [重新導向產品建議 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [什麼是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)：包含有關 Platform Web SDK 的概觀資訊。
->* [Target 概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hant)：包含 [!DNL Target] 和 [!DNL Platform Web SDK] 特有的資訊。
+>* [什麼是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)：包含有關 Platform Web SDK 的概觀資訊。
+>* [Target 概觀](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)：包含 [!DNL Target] 和 [!DNL Platform Web SDK] 特有的資訊。

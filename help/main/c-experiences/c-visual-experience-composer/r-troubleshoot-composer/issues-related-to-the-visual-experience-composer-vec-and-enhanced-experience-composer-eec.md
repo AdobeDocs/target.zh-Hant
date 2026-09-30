@@ -1,29 +1,37 @@
 ---
 keywords: 鎖定目標；視覺化體驗撰寫器；白名單；允許清單；允許清單；增強視覺化體驗撰寫器； VEC；疑難排解視覺化體驗撰寫器；疑難排解； EEC；增強體驗撰寫器； TLS； TLS 1.2
-description: 瞭解如何疑難排解 [!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)在某些情況下有時會發生的問題。
+description: 瞭解如何疑難排解[!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)在某些情況下有時會發生的問題。
 title: 如何疑難排解[!UICONTROL 視覺化體驗撰寫器]和[!UICONTROL 增強體驗撰寫器]的相關問題？
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
+TQID: 'https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1271
+source-wordcount: '1272'
 ht-degree: 31%
-
 ---
-
 # 疑難排解[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器]和[!UICONTROL 增強體驗撰寫器]的相關問題
 
 在某些情況下，[!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)有時會發生顯示問題和其他問題。

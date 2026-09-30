@@ -1,25 +1,33 @@
 ---
 keywords: 體驗鎖定目標； XT；建立
-description: 瞭解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 體驗鎖定目標] (XT)活動。
+description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 體驗鎖定目標] (XT)活動。
 title: 如何建立[!UICONTROL 體驗鎖定目標]活動？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-TQID: https://experienceleague.adobe.com/RKSF7zTO3lb4hs1VaJuTUR9v8AnOlCjHkp-whqBIcKo
+TQID: 'https://experienceleague.adobe.com/RKSF7zTO3lb4hs1VaJuTUR9v8AnOlCjHkp-whqBIcKo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 443
+source-wordcount: '444'
 ht-degree: 30%
-
 ---
-
 # 建立[!UICONTROL 體驗鎖定目標] (XT)活動
 
 使用[!UICONTROL 視覺化體驗撰寫器] (VEC)在啟用[!DNL Target]的頁面上建立[!UICONTROL 體驗鎖定目標] (XT)活動，以及在[!DNL Adobe Target]內修改頁面的部分。
@@ -54,7 +62,7 @@ ht-degree: 30%
 
    [!UICONTROL 選擇工作區]選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示貴組織擁有[!DNL Target Standard]授權。
 
-1. 指定您的[活動URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下[建立]。**&#x200B;**
+1. 指定您的[活動URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下[建立]。****
 
    如果您的帳戶[設定了預設的 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，該 URL 依預設會顯示。 您可以視需要將預設 URL 變更為其他 URL。
 

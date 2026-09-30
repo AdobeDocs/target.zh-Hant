@@ -4,25 +4,34 @@ description: 瞭解如何建立JSON選件以用於[!UICONTROL 表單式體驗撰
 title: 如何建立JSON選件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-TQID: https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU
+TQID: 'https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '506'
 ht-degree: 23%
-
 ---
-
 # 建立 JSON 產品建議
 
 在[!DNL Adobe Target]的[!UICONTROL 選件資料庫]中建立JSON選件，以用於[!UICONTROL 表單式體驗撰寫器]。
@@ -35,7 +44,7 @@ JSON選件可用於表單式活動，以啟用需要[!DNL Target]決策才能以
 
 * JSON選件目前僅適用於[!UICONTROL A/B測試]、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 體驗鎖定目標] (XT)活動。
 * JSON選件只能用於[表單式活動](/help/main/c-experiences/form-experience-composer.md)。
-* 使用[伺服器端API和Mobile Node.js、Java、.NET及Python SDK](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/server-side/server-side-overview){target=_blank}時，可以直接擷取JSON選件。
+* 使用[伺服器端API和Mobile Node.js、Java、.NET及Python SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}時，可以直接擷取JSON選件。
 * 在瀏覽器中，只能透過at.js 1.2.3 （或更新版本）及使用[getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} （使用`setJson`動作來篩選動作）來擷取JSON選件。
 * JSON 產品建議是以原生 JSON 物件提供，而不是字串。 這些物件的取用者不再需要將物件當作字串來處理，再轉換成 JSON 物件。
 * 不同於其他產品建議 (例如 HTML 產品建議)，JSON 產品建議不會自動套用，因為 JSON 產品建議不是視覺化產品建議。 開發人員必須撰寫程式碼，才能使用[getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}明確取得選件。

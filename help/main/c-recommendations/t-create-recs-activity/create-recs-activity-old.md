@@ -1,17 +1,24 @@
 ---
 keywords: 建立建議;推薦活動;新建議;建議概觀
-description: 瞭解如何使用Adobe [!DNL Target] 視覺化體驗撰寫器(VEC)直接在啟用 [!DNL Target]的頁面上建立Recommendations活動。
+description: 瞭解如何使用Adobe [!DNL Target]視覺化體驗撰寫器(VEC)，直接在啟用[!DNL Target]的頁面上建立Recommendations活動。
 title: 如何建立Recommendations活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 58%
-
 ---
-
 # 建立推薦活動
 
 使用 Target 可視化體驗撰寫器 (VEC) 直接在啟用 Target 的頁面上建立建議活動，以及在 Target 內修改頁面的部分。
@@ -30,11 +37,11 @@ ht-degree: 58%
    >
    >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上圖中的[[!UICONTROL [選擇工作區]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示您的組織擁有的是Target Standard授權。
+   >上圖中的[!UICONTROL [選擇工作區]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示您的組織擁有的是Target Standard授權。
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定活動URL，然後按一下[下一步]。**&#x200B;**
+1. 指定活動URL，然後按一下[下一步]。****
 
    >[!NOTE]
    >
@@ -77,13 +84,13 @@ ht-degree: 58%
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。 根據您的Recommendations設定（**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件]**），可能不會顯示[!UICONTROL 相容]選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+   >不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。 根據您的Recommendations設定（**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件]**），可能不會顯示[!UICONTROL 相容]選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
    ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    如果您選取多個條件，流量會在選取的條件間平均分割。 例如，如果您已選取了兩個條件，而您的活動是設計為對 20% 的活動加入者顯示預設內容，那麼 40% 的活動加入者將看到每個條件所控制的建議。 沒有選項可變更每個條件的百分比。
 
-   * 若要搜尋現有條件（例如，如果顯示了大量條件卡片），請在搜尋欄位中輸入內容，直到需要的條件出現為止，接著選取條件，然後按一下[下一步]。**&#x200B;**
+   * 若要搜尋現有條件（例如，如果顯示了大量條件卡片），請在搜尋欄位中輸入內容，直到需要的條件出現為止，接著選取條件，然後按一下[下一步]。****
 
      有些條件是由 [!DNL Recommendations] 提供。 您和您的團隊也可以建立自己的自訂條件。
 
@@ -99,7 +106,7 @@ ht-degree: 58%
 
    每個設計會顯示其外觀的圖形呈現，而圖示會顯示目前您的已上線和非使用中的活動有多少使用該設計。
 
-   * 若要選取一或多個現有設計，請按一下設計，然後按一下[下一步]。**&#x200B;**
+   * 若要選取一或多個現有設計，請按一下設計，然後按一下[下一步]。****
 
      如果您選取了多個條件，則僅能選取一個設計。
 
@@ -119,7 +126,7 @@ ht-degree: 58%
 
    完成預覽您的建議時，請按一下&#x200B;**[!UICONTROL 「撰寫」]**。
 
-1. 在VEC中檢閱您的建議，然後按一下[下一步]。**&#x200B;**
+1. 在VEC中檢閱您的建議，然後按一下[下一步]。****
 
 1. 在流程圖表中檢閱您的 [!DNL Recommendations] 活動，並進行任何必要的變更。
 

@@ -4,23 +4,29 @@ description: 瞭解如何在Adobe Target中設定報表設定，包括量度、�
 title: 如何設定報表設定？
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
+TQID: 'https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1932
+source-wordcount: '1932'
 ht-degree: 47%
-
 ---
-
 # 報表設定
 
 可協助您設定要在[!DNL Adobe Target]的報表中顯示之元素的資訊。 可以儲存報表設定以供稍後使用。
@@ -145,7 +151,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，AEP資料流中的環境應符合[!DNL Target]報表設定中的環境。
+>如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，AEP資料流中的環境應符合[!DNL Target]報表設定中的環境。
 
 ### 重設報告資料
 
@@ -191,7 +197,7 @@ ht-degree: 47%
 考慮以下事項：
 
 * 僅在[!UICONTROL 資料表檢視]中檢視報表時可用。
-* 此功能無法供以[&#x200B; Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
+* 此功能無法供以[ Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
 
 ## 位置貢獻 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 

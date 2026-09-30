@@ -4,13 +4,14 @@ description: 瞭解如何在Flags中為功能群組設定以百分比為基礎�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 3%
-
 ---
-
 # 設定逐步推出的功能群組 {#gradual-rollout-feature-group}
 
 已在&#x200B;**基本詳細資料**&#x200B;索引標籤中設定功能群組的百分比轉出。 您可以隨時在轉出過程中將此值調整為向上或向下。

@@ -1,25 +1,30 @@
 ---
 keywords: 資料差異;analytics;差異;差別;a4t;analytics for target;analytics 作為報表來源
-description: 瞭解Adobe [!DNL Target] 與Analytics之間未使用Analytics for [!DNL Target] (A4T)時的預期資料差異，其可完全消弭資料差異。
+description: 瞭解Adobe [!DNL Target]與Analytics之間未使用Analytics for [!DNL Target] (A4T)時的預期資料差異，其可完全消弭資料差異。
 title: Analytics和A4T之間的預期資料差異為何？
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-TQID: https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg
+TQID: 'https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: '732'
 ht-degree: 45%
-
 ---
-
 # 使用和不使用A4T時，Adobe [!DNL Target]和Adobe Analytics之間的預期資料差異
 
 有關&#x200B;*使用*&#x200B;和&#x200B;*不使用* Analytics 做為報表來源 (A4T) 時，[!DNL Target] 和 Adobe [!DNL Analytics] 之間預期資料差異的資訊。 A4T 可大幅減少資料差異.

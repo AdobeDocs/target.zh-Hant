@@ -1,17 +1,24 @@
 ---
 keywords: 行為資料來源；analytics；建議；條件；產品變數
-description: 瞭解如何使用 [!DNL Adobe Analytics] 做為行為資料來源，以使用來自 [!DNL Target Recommendations]中 [!DNL Analytics] 的檢視型和/或購買型行為資料。
-title: 如何搭配 [!DNL Target Recommendations]使用 [!DNL Adobe Analytics] ？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+description: 瞭解如何使用[!DNL Adobe Analytics]做為行為資料來源，以使用來自[!DNL Target Recommendations]中[!DNL Analytics]的檢視型和/或購買型行為資料。
+title: 如何搭配[!DNL Target Recommendations]使用[!DNL Adobe Analytics]？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 1%
-
 ---
-
 # 搭配[!DNL Recommendations]使用[!DNL Adobe Analytics]
 
 使用[!DNL Adobe Analytics]做為行為資料來源，可讓使用者端在[!DNL Adobe Target] [!DNL Recommendations]活動中使用[!DNL Analytics]的檢視型和/或購買型行為資料。 此功能在[!DNL Target Recommendations]設定是新的，且[!DNL Analytics]有許多歷史資料可使用的情形下特別有用。
@@ -49,7 +56,7 @@ ht-degree: 1%
 >
 >如果是內容網站，個別內容片段必須視為「產品」，且該內容的關聯屬性必須作為屬性傳遞。 此類屬性可包括作者名稱、發佈日期、內容標題、發行月份等。 類別層級或類別型別的詳細程度，應由企業根據使用案例需求決定。
 
-如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hant)。 該檔案中有些附註需要部署團隊自行決定（例如：類別）。 在執行此活動之前，請一律建議諮詢[!DNL Adobe]。
+如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)。 該檔案中有些附註需要部署團隊自行決定（例如：類別）。 在執行此活動之前，請一律建議諮詢[!DNL Adobe]。
 
 ### 考量事項
 
@@ -71,7 +78,7 @@ ht-degree: 1%
 
    ![Analytics分類選項](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以前進到&#x200B;**[!UICONTROL 排程]**&#x200B;設定，選取摘要的頻率期間：
+1. 按一下[下一步]****&#x200B;以前進到&#x200B;**[!UICONTROL 排程]**&#x200B;設定，選取摘要的頻率期間：
 
    * [!UICONTROL 每日]
    * [!UICONTROL 每週]
@@ -80,7 +87,7 @@ ht-degree: 1%
 
    您也可以選取一天中要處理摘要的時間。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;前進到&#x200B;**[!UICONTROL 對應]**&#x200B;設定，然後將欄位資料行標題對應到適當的[!UICONTROL Recommendations]欄位名稱。
+1. 按一下[下一步]****&#x200B;前進到&#x200B;**[!UICONTROL 對應]**&#x200B;設定，然後將欄位資料行標題對應到適當的[!UICONTROL Recommendations]欄位名稱。
 
    ![對應區段](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 

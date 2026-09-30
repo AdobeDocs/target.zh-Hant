@@ -1,16 +1,23 @@
 ---
 keywords: AB； A/B； AB...n；比較體驗；鎖定目標；比較內容；自動鎖定目標；自動分配
-description: 瞭解Adobe [!DNL Target] 中不同型別的A/B測試活動 — 手動、自動分配和自動鎖定目標。 選擇適合您的選擇。
+description: 瞭解Adobe [!DNL Target]中不同型別的A/B測試活動：手動、自動分配和自動鎖定目標。 選擇適合您的選擇。
 title: Target中有哪種A/B活動型別？
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 22%
-
 ---
-
 # A/B測試概覽
 
 手動[!UICONTROL A/B測試]活動會比較兩個或更多版本的網站內容，以檢視在預先指定的測試期間，哪個版本最能改善您的轉換。
@@ -58,7 +65,7 @@ ht-degree: 22%
 
 若要使用此功能，您必須具備[Target Premium授權](/help/main/c-intro/intro.md#premium)
 
-## 訓練影片：活動型別(9:03) ![總覽徽章](/help/main/assets/overview.png)
+## 訓練影片：活動型別(9:03) ![Overview badge](/help/main/assets/overview.png)
 
 此影片說明 [!DNL Target Standard/Premium] 中的可用活動類型。
 

@@ -4,13 +4,20 @@ description: 瞭解如何在中建立JSON選件，以用於[!UICONTROL 表單式
 title: 如何建立JSON選件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 29%
-
 ---
-
 # 建立 JSON 產品建議
 
 在[!DNL Adobe Target]的[!UICONTROL 選件資料庫]中建立JSON選件，以用於[!UICONTROL 表單式體驗撰寫器]。
@@ -23,7 +30,7 @@ JSON選件可用於表單式活動，以啟用需要[!DNL Target]決策才能以
 
 * JSON選件目前僅適用於[!UICONTROL A/B測試]、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 體驗鎖定目標] (XT)活動。
 * JSON選件只能用於[表單式活動](/help/main/c-experiences/form-experience-composer.md)。
-* 使用[伺服器端API和Mobile Node.js、Java、.NET及Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}時，可以直接擷取JSON選件。
+* 使用[伺服器端API和Mobile Node.js、Java、.NET及Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}時，可以直接擷取JSON選件。
 * 在瀏覽器中，只能透過at.js 1.2.3 （或更新版本）及使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} （使用`setJson`動作來篩選動作）來擷取JSON選件。
 * JSON 產品建議是以原生 JSON 物件提供，而不是字串。 這些物件的取用者不再需要將物件當作字串來處理，再轉換成 JSON 物件。
 * 不同於其他產品建議 (例如 HTML 產品建議)，JSON 產品建議不會自動套用，因為 JSON 產品建議不是視覺化產品建議。 開發人員必須撰寫程式碼，才能使用[getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}明確取得選件。

@@ -1,23 +1,31 @@
 ---
 keywords: ai助理；人工智慧助理
-description: 瞭解如何在[!DNL &#x200B; Adobe Target]中啟用 [!DNL AI Assistant] 。
-title: 如何啟用 [!DNL Target]中的 [!DNL AI Assistant] ？
+description: 瞭解如何在[!DNL  Adobe Target]中啟用[!DNL AI Assistant]。
+title: 如何在[!DNL Target]中啟用[!DNL AI Assistant]？
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
-TQID: https://experienceleague.adobe.com/CJl-OFlDJhs-G99Cqy8i0xrHolV8GRQQcuXoKvXYNY4
+TQID: 'https://experienceleague.adobe.com/CJl-OFlDJhs-G99Cqy8i0xrHolV8GRQQcuXoKvXYNY4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 234
+source-wordcount: '236'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Adobe Target]中啟用[!DNL Adobe Experience Platform] [!DNL AI Assistant]
 
 有關貴組織必須先完成之先決條件工作的資訊，您才能在[!DNL Adobe Target]中使用[!DNL AI Assistant]。
@@ -26,7 +34,7 @@ ht-degree: 0%
 
 您的組織必須首先同意其他法律條款，才能存取[!DNL AI Assistant]。 如需這些條款的指引，請聯絡您的Adobe客戶團隊。
 
-如需詳細資訊，請參閱&#x200B;*[!DNL Experience Platform]*&#x200B;檔案中的[存取 [!DNL Experience Platform]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access){target=_blank}。 [!DNL AI Assistant] 
+如需詳細資訊，請參閱&#x200B;*[!DNL Experience Platform]*&#x200B;檔案中的[存取 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}。 [!DNL AI Assistant] 
 
 ## 啟用[!UICONTROL AI小幫手]的使用者許可權
 
@@ -55,4 +63,4 @@ ht-degree: 0%
 
 瞭解如何在[!DNL Adobe Experience Platform]內設定[!DNL AI Assistant]的存取權和許可權。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475930/?captions=chi_hant&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)

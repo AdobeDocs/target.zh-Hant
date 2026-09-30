@@ -4,13 +4,14 @@ description: 請依照下列步驟，從請求存取權到建立您的第一個�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
-
 ---
-
 # 啟動指南 {#startup-guide}
 
 請依照下列步驟，將旗標整合至您的應用程式。
@@ -45,8 +46,8 @@ ht-degree: 1%
 
 如果您透過標籤式方法（網頁或行動裝置）進行整合，請在初始化SDK之前設定標籤屬性：
 
-1. 在[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中，建立[標籤屬性](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/get-started/quick-start) （如果尚未建立），或使用現有的標籤屬性。
-1. 開啟行動或Web標籤屬性，並移至[擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/extensions/overview)。
+1. 在[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中，建立[標籤屬性](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) （如果尚未建立），或使用現有的標籤屬性。
+1. 開啟行動或Web標籤屬性，並移至[擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)。
 1. 安裝並設定&#x200B;**Edge Network**&#x200B;擴充功能。 然後安裝&#x200B;**Flags**&#x200B;擴充功能。
 1. 選取&#x200B;**資料流** （必須包含Customer Journey Analytics資料集）並設定Edge網域。
 1. 透過&#x200B;**Dev → Staging → Production**&#x200B;發佈設定。

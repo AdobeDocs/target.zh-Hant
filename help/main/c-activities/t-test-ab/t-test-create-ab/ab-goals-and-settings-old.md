@@ -1,16 +1,23 @@
 ---
 keywords: 活動設定; A/B目標與設定; 報表設定; 目標量度; 成功量度; 相依成功量度; 進階設定; 主要目標; 其他量度; 目標; 優先順序; 持續時間; 報表解決方案; 目標; 報表客群; 增加此量度前需要達成哪些成功量度; 使用者達到此目標量度後會發生什麼事; 備註
 description: 瞭解如何使用[!UICONTROL 目標與設定]頁面來指定A/B活動目標的相關資訊。
-title: 如何在 [!DNL Target] A/B活動中指定目標與設定？
+title: 如何在[!DNL Target] A/B活動中指定目標與設定？
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 37%
-
+source-wordcount: '1416'
+ht-degree: 38%
 ---
-
 # 目標與設定
 
 [!DNL Adobe Target]中的[!UICONTROL 目標與設定]頁面是您指定活動目標相關資訊的位置。
@@ -25,7 +32,7 @@ ht-degree: 37%
 |--- |--- |
 | [!UICONTROL 目標] | 輸入可選目標。 目標可以是任何有助於您與您的團隊成員識別活動的資訊。 |
 | [!UICONTROL 優先順序] | 根據您的設定，[!UICONTROL 優先順序]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的舊設定，或者您可以啟用從0到999的微調優先順序。<P>如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。 如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<P>如果未在[!UICONTROL 管理] （預設）中啟用此選項，請指定優先順序： [!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]。<P>若要啟用[微調優先順序](/help/main/administrating-target/reporting.md)，請按一下[!UICONTROL 管理] > [!UICONTROL 報告]，然後將[!UICONTROL 啟用微調優先順序]選項切換到「開啟」位置。 <P>如果已啟用此選項，請指定從0到999的值： 0 = [!UICONTROL 低]和999 = [!UICONTROL 高]。 <P>對於在舊版[!DNL Target]中建立的活動，[!UICONTROL 低]優先順序會轉換為0，[!UICONTROL Medium]會轉換為5，而[!UICONTROL 高]會轉換為10。 您可以視需要調整這些值。<P>注意：在使用微調優先順序後，在您可以停用此選項之前，必須將所有優先順序設定回0、5和10。 |
-| 持續時間 | 活動可以在核准後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。 |
+| 持續時間 | 活動可以在核准後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用 24 小時時鐘，午夜為 00:00。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。 |
 
 ## [!UICONTROL 報表設定] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -56,7 +63,7 @@ ht-degree: 37%
 |--- |--- |
 | [!UICONTROL 增加此量度前必須達到哪個成功量度？] | 使用此選項時，如果某人先前達到不同的成功量度，則僅將其計算為達到成功量度。 例如，活動轉換可能只有在轉換之前訪客點選了選件，或達到特定頁面時才有效。 您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未到達時計數才會增加。 定義兩個（或多個）成功量度，之後才可以讓某個量度相依於另一個量度。 [!UICONTROL 「新增相依性」]選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。 若要新增相依性:<ul><li>新增其他量度後，按一下[!UICONTROL 「進階設定」]。</li><li>按一下[!UICONTROL 「新增相依性」]選項:</li><li>將需要的量度從左窗格拖放到右窗格，然後按一下[!UICONTROL 已達到]以在[!UICONTROL 已達到]與[!UICONTROL 未達到]之間切換設定。</li><li>您可以在新增相依性之後加以編輯或移除。</li></ul> |
 | [!UICONTROL 使用者遇到此目標量度後會發生什麼事？] | 有三個選項可控制訪客達到目標量度後會發生什麼事:<ul><li>選取[!UICONTROL 「增加計數以及讓使用者留在活動中」]以指定計數的增加方式。</li><li>選取[!UICONTROL 「增加計數、釋出使用者以及允許重新進入」]以指定如果使用者重新進入活動，使用者會看見的體驗。</li><li>選取[!UICONTROL 增加計數、釋出使用者以及禁止重新進入]，以指定使用者會看見的內容，而非活動內容。</li></ul> |
-| [!UICONTROL 計數將如何增加？] | 計數的遞增方式共有三個選項:<ul><li>每個加入者[!UICONTROL 一次]</li><li>每次曝光時[!UICONTROL &#x200B; （排除頁面重新整理）]</li><li>每次曝光時</li></ul> |
+| [!UICONTROL 計數將如何增加？] | 計數的遞增方式共有三個選項:<ul><li>每個加入者[!UICONTROL 一次]</li><li>每次曝光時[!UICONTROL  （排除頁面重新整理）]</li><li>每次曝光時</li></ul> |
 
 請參閱[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)以取得關於進階設定的詳細資訊。
 
@@ -82,7 +89,7 @@ ht-degree: 37%
 
 ### 建立A/B測試(8:36) ![教學課程徽章](/help/main/assets/tutorial.png)
 
-此影片示範活動設定如何在建立活動時配合三個步驟引導工作流程。 目標與設定從5:30開始討論。
+此影片示範活動設定如何在建立活動時配合三個步驟引導工作流程。 在 5:30 開始討論目標和設定。
 
 * 在 Adobe Target 中建立 A/B 活動
 * 使用手動分割或自動流量分配來分配流量

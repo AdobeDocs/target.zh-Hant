@@ -4,13 +4,14 @@ description: 瞭解旗標中版本的生命週期狀態，包括每個狀態的�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 3%
-
 ---
-
 # 發行狀態 {#release-states}
 
 Release Manager可以直接從主控台導覽列更新發行版本的狀態。 此狀態會控制發行為即時、限於測試、完全轉出或關閉。

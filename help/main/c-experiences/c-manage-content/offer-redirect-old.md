@@ -1,16 +1,23 @@
 ---
 keywords: 重新導向產品建議; 建立重新導向產品建議; 新增 html 產品建議; 在重新導向中傳入所有 URL 參數; 在重新導向中傳入 mboxSessionId (只有在要重新導向至不同網域時才需要)
-description: 瞭解如何在Adobe [!DNL Target] 中建立重新導向選件，使瀏覽器重新導向至新頁面。
+description: 瞭解如何在Adobe [!DNL Target]中建立重新導向選件，以將瀏覽器重新導向至新頁面。
 title: 如何建立重新導向選件？
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1211'
 ht-degree: 44%
-
 ---
-
 # 建立重新導向產品建議
 
 [!DNL Adobe Target]中的重新導向選件會造成瀏覽器重新導向至新頁面。

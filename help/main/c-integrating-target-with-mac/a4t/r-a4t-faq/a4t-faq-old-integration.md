@@ -4,21 +4,25 @@ description: 尋找有關舊版SiteCatalyst到Test&Target整合和使用Analytic
 title: 我可以在哪裡找到有關SiteCatalyst與Test&Target整合的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
-TQID: https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc
+TQID: 'https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '169'
 ht-degree: 39%
-
 ---
-
 # 舊版 SiteCatalyst 到 Test&amp;Target 整合 - A4T 常見問題集
 
 此主題包含經常詢問關於舊版SiteCatalyst到Test&amp;Target整合和使用[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報告來源問題的回答。

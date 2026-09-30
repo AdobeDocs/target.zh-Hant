@@ -4,13 +4,14 @@ description: 瞭解如何使用Customer Journey Analytics檢視旗標中的功�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
-
 ---
-
 # 報表 {#reporting}
 
 旗標會透過&#x200B;**Customer Journey Analytics (CJA)**&#x200B;傳送報表。 每個功能標幟和功能群組詳細資訊頁面上都有&#x200B;**報告**&#x200B;索引標籤。 它可讓您檢視範圍限定為直接內嵌在頁面中之特定標幟或群組的CJA報表。
@@ -63,7 +64,7 @@ ht-degree: 1%
 
 ![實驗面板，包含實驗、控制變體和量度選擇器](assets/experimentation-selection.png)
 
-請參閱[Experimentation面板檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation)，以取得如何計算這些量度的詳細資訊。
+請參閱[Experimentation面板檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation)，以取得如何計算這些量度的詳細資訊。
 
 ![依變體顯示提升度、信賴度和轉換率的實驗結果](assets/experimentation.png)
 

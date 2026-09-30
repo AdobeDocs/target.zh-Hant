@@ -1,29 +1,37 @@
 ---
 keywords: faq;常見問題集;analytics for target;a4T;重新導向;重新導向產品建議;adobe-mc-sdid;adobe_mc_ref
-description: 尋找在使用Analytics for [!DNL Target] (A4T)時使用重新導向選件的相關問題解答。 A4T可讓您對 [!DNL Target] 個活動使用Analytics報告。
+description: 尋找在使用Analytics for [!DNL Target] (A4T)時使用重新導向選件相關問題的解答。 A4T可讓您對[!DNL Target]個活動使用Analytics報告。
 title: 我可以在哪裡找到有關使用A4T重新導向選件的常見問題集？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-TQID: https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA
+TQID: 'https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1472
+source-wordcount: '1473'
 ht-degree: 50%
-
 ---
-
 # 重新導向產品建議 - A4T 常見問題集
 
 此主題包含使用[!DNL Adobe Analytics]做為[!DNL Adobe Target] (A4T)的報表來源時，經常詢問關於重新導向選件問題的回答。

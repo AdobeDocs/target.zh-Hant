@@ -4,13 +4,20 @@ description: 瞭解如何在Adobe [!DNL Target] Recommendations中建立排除�
 title: 如何在Recommendations活動中使用排除專案？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 30%
-
 ---
-
 # 排除項目
 
 在[!DNL Adobe Target Recommendations]中建立排除專案，以防止向訪客建議產品或內容。 排除是不建議給訪客的產品或內容子集。
@@ -37,7 +44,7 @@ ht-degree: 30%
 
    ![排除專案清單影像](assets/exclusions_list.png)
 
-   針對[!UICONTROL 排除專案]清單檢視中的每個排除專案所報告的「專案數量」，是設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數量。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}，瞭解如何變更預設主機群組。
+   針對[!UICONTROL 排除專案]清單檢視中的每個排除專案所報告的「專案數量」，是設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數量。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}，瞭解如何變更預設主機群組。
 
 1. 按一下&#x200B;**[!UICONTROL 建立排除專案]**。
 

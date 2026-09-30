@@ -4,27 +4,36 @@ description: 探索為什麼有些網站可能無法可靠地在[!UICONTROL 視�
 title: 如何使用[!UICONTROL Visual Editing Helper]擴充功能？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
+TQID: 'https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 52%
-
 ---
-
 # [!UICONTROL Visual Editing Helper]擴充功能
 
 適用於[!DNL Google Chrome]的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]瀏覽器擴充功能可讓您可靠地在[!UICONTROL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)內載入網站，以快速撰寫網頁體驗並進行QA。
@@ -80,8 +89,8 @@ ht-degree: 52%
 * 在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用此擴充功能來插入 at.js 時，您必須開啟另一個 Chrome 分頁。 必須向您活動建立所在的相同 [!DNL Adobe Experience Cloud] 組織驗證此 Chrome 分頁。
 * 以下訊息有助於您了解：
 
-   * 如果您嘗試使用無法載入的VEC載入網站，則會顯示一則訊息，建議您安裝[!UICONTROL Visual Editing Helper]瀏覽器擴充功能。
-   * 如果網站上尚未實作 at.js 或 alloy.js，則 VEC 中會顯示一則訊息，建議您安裝此擴充功能。
+  * 如果您嘗試使用無法載入的VEC載入網站，則會顯示一則訊息，建議您安裝[!UICONTROL Visual Editing Helper]瀏覽器擴充功能。
+  * 如果網站上尚未實作 at.js 或 alloy.js，則 VEC 中會顯示一則訊息，建議您安裝此擴充功能。
 * 如果您嘗試使用新的擴充功能，然後返回[舊擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，而 [!DNL Target] 無法載入您的網站，請清除所有瀏覽器資料並停用新的擴充功能。
 
 ## 常見問題集

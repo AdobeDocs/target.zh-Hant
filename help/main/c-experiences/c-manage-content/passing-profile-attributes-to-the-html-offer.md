@@ -1,24 +1,31 @@
 ---
 keywords: 動態資料;資產;資料;產品建議;個人化產品建議;個人化產品建議;token 取代
-description: 瞭解如何在 [!DNL Adobe Target]中將動態資料傳遞至選件。
+description: 瞭解如何在[!DNL Adobe Target]中將動態資料傳遞至選件。
 title: 如何將動態資料傳遞至選件？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-TQID: https://experienceleague.adobe.com/SzzxgYAYlWviRCrG-LhAixFJbgHEN73shrt7jZOmp4Y
+TQID: 'https://experienceleague.adobe.com/SzzxgYAYlWviRCrG-LhAixFJbgHEN73shrt7jZOmp4Y'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 538
+source-wordcount: '547'
 ht-degree: 55%
-
 ---
-
 # 將動態資料傳遞至產品建議
 
 您可以動態顯示儲存在[!DNL Adobe Target]設定檔中的訪客資訊。 同樣地，活動資訊 (例如活動名稱或體驗名稱) 也能用來根據訪客興趣、過去行為和整體輪廓，建立動態地傳回個人化內容的單一產品建議。

@@ -4,13 +4,20 @@ description: 瞭解如何上傳影像以在Adobe Target中作為影像選件使�
 title: 如何將內容上傳至優惠方案資料庫？
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 17%
-
 ---
-
 # 上傳內容
 
 您可以將影像上傳到[!DNL Adobe Target]中的[!UICONTROL 影像選件]清單，以作為活動中的影像選件。 您也可以刪除活動中不再需要的影像選件。
@@ -22,7 +29,7 @@ ht-degree: 17%
    ![選件>影像選件](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
 1. 按一下&#x200B;**[!UICONTROL 建立]** > **[!UICONTROL 檔案]**。
-1. 瀏覽並選取您要新增的專案，然後按一下[開啟]。**&#x200B;**
+1. 瀏覽並選取您要新增的專案，然後按一下[開啟]。****
 1. 視需要編輯專案的檔案名稱，然後按一下&#x200B;**[!UICONTROL 上傳]**。
 
 ## 刪除影像選件或資料夾
@@ -39,7 +46,7 @@ ht-degree: 17%
 
 此影片包括關於管理內容的資訊。
 
-* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=zh-Hant) 與 Target 內容庫之間的連線
+* [Experience Cloud 資產資料庫](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) 與 Target 內容庫之間的連線
 * 自訂 HTML 產品建議
 * 可視化體驗撰寫器中的自訂 HTML 產品建議
 

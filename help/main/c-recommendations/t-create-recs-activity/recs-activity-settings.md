@@ -2,25 +2,33 @@
 keywords: 推薦;設定;名稱;目標;優先順序;持續時間;報表設定;其他中繼資料
 description: 瞭解如何進行設定，以說明和控制Adobe Target中的Recommendations活動。
 title: 如何設定Recommendations活動設定？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-TQID: https://experienceleague.adobe.com/pfMAvl6MmLCtH3PZfOR4Ve-WFIc3e2iN2Bh-cIzjeC0
+TQID: 'https://experienceleague.adobe.com/pfMAvl6MmLCtH3PZfOR4Ve-WFIc3e2iN2Bh-cIzjeC0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 608
-ht-degree: 44%
-
+source-wordcount: '610'
+ht-degree: 46%
 ---
-
 # 推薦活動設定
 
 您可以用來描述及控制[!DNL Adobe Target]中[!UICONTROL Recommendations]活動的設定相關資訊。
@@ -58,15 +66,15 @@ ht-degree: 44%
 
 設定活動的持續時間。
 
-活動可以在啟用後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用24小時時鐘，00:00為午夜。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
+活動可以在啟用後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用 24 小時時鐘，午夜為 00:00。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
 
 ## 報表設定
 
 * **報告Source：**&#x200B;指定收集自下列專案的解決方案資料：
 
-   * [!DNL Adobe Target]
-   * [!DNL Adobe Analytics]
-   * [!DNL Adobe Customer Journey Analytics]
+  * [!DNL Adobe Target]
+  * [!DNL Adobe Analytics]
+  * [!DNL Adobe Customer Journey Analytics]
 
   如果已在您的[帳戶設定](/help/main/administrating-target/reporting.md)中指定報表解決方案，則會使用指定的解決方案，而且此設定不會顯示。
 

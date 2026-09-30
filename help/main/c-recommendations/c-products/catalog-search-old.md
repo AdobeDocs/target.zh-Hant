@@ -2,16 +2,23 @@
 keywords: 目錄搜尋；目錄；搜尋；排除；集合；篩選器
 description: 瞭解如何使用Recommendations目錄搜尋來找出產品或內容、建立集合或排除專案、從目錄中移除專案等。
 title: 如何使用Recommendations目錄搜尋？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 20%
-
 ---
-
 # 目錄搜尋
 
 [!DNL Adobe Recommendations]中的[!UICONTROL 目錄搜尋]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、將搜尋結果儲存至集合或排除專案、新增篩選多面向及修改表格中的欄、新增搜尋多面向等等。
@@ -153,7 +160,7 @@ ht-degree: 20%
 
    ![修改篩選器連結](/help/main/c-recommendations/c-products/assets/modify-filters.png)
 
-1. 選取所需的搜尋Facet （識別碼、名稱、訊息等），然後按一下[儲存]。**&#x200B;**
+1. 選取所需的搜尋Facet （識別碼、名稱、訊息等），然後按一下[儲存]。****
 
    ![新增篩選器](/help/main/c-recommendations/c-products/assets/add-filters.png)
 

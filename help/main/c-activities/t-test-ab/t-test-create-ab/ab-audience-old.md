@@ -1,16 +1,23 @@
 ---
 keywords: 客群; 選取客群; 選擇客群; 選取器
-description: 對象會決定哪些網站訪客進入您的Adobe [!DNL Target] 活動。
-title: 如何在 [!DNL Target] A/B活動中選取對象？
+description: 對象會決定哪些網站訪客進入您的Adobe [!DNL Target]活動。
+title: 如何在[!DNL Target] A/B活動中選取對象？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 68%
-
+source-wordcount: '440'
+ht-degree: 67%
 ---
-
 # 選取客群
 
 對象會決定哪些網站訪客進入您的[!DNL Adobe Target]活動。
@@ -58,7 +65,7 @@ ht-degree: 68%
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 在Adobe Target (6:21) ![Overview badge](/help/main/assets/overview.png)中使用對象
+### 在Adobe Target中使用對象(6:21) ![Overview badge](/help/main/assets/overview.png)
 
 此影片說明如何在 [!DNL Target Standard/Premium] 中使用客群。
 

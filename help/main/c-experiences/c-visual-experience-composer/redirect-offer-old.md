@@ -1,16 +1,20 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 瞭解當您想要將訪客傳送至其他頁面而不是在相同頁面上顯示內容時，如何使用Adobe [!DNL Target] 中的「重新導向至URL」選項。
+description: 瞭解當您想要將訪客傳送至其他頁面而不是在相同頁面上顯示內容時，如何使用Adobe [!DNL Target]中的「重新導向至URL」選項。
 title: 我可以將頁面重新導向至不同的URL嗎？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 82%
-
 ---
-
 # 重新導向至 URL
 
 當您想要將訪客傳送至不同頁面而不是在相同頁面上顯示內容時，請使用[!DNL Adobe Target]中的[!UICONTROL 重新導向至URL]選項。

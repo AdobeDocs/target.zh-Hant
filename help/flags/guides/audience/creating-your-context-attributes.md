@@ -3,13 +3,14 @@ title: 建立您的內容屬性
 description: 瞭解如何在旗標中建立及組織上下文屬性和上下文群組，以便在對象條件中使用它們。
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
-
 ---
-
 # 建立您的內容屬性 {#creating-your-context-attributes}
 
 內容屬性是描述使用者、工作階段或應用程式內容（例如訂閱層、應用程式版本或區域）的自訂資料欄位。 使用內容屬性來定義功能標幟的對象條件。

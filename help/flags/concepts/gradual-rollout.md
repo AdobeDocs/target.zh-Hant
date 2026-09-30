@@ -4,13 +4,14 @@ description: 瞭解旗標中的逐步推出如何讓您以即時意見反應和�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # 逐步轉出 {#gradual-rollout}
 
 逐步推出會以漸進方式將新功能分階段推出至生產環境，而非一次對所有使用者啟用。 此方法可降低風險、協助管理後端負載，並在完整發行之前建立緊密的回饋迴路。

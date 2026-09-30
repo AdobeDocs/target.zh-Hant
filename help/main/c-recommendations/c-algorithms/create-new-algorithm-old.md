@@ -2,16 +2,23 @@
 keywords: 條件；演演算法；垂直產業；頁面型別；建議索引鍵；建議邏輯；資料範圍；回顧視窗；行為資料來源；部分設計；備用建議；包含規則；屬性加權；目前類別；自訂屬性；上次購買的專案；上次檢視的專案；檢視次數最多的專案；最愛類別；人氣；最近檢視的專案；上次購買的專案；上次檢視次數最多；最愛；最近檢視；最近檢視
 description: 瞭解如何建立條件來控制Adobe Recommendations活動的內容，以顯示最適合您活動的建議。
 title: 如何在Recommendations中建立條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2934'
 ht-degree: 48%
-
 ---
-
 # 建立條件
 
 [!UICONTROL Adobe Target] [!UICONTROL Recommendations]中的條件可控制[!UICONTROL Recommendations]活動的內容。 建立條件以顯示最適合您的活動的建議。 這些條件會使用訪客的動作，判斷要顯示的內容或產品。
@@ -68,7 +75,7 @@ ht-degree: 48%
 
    產業垂直和頁面類型可共同用來分類您儲存的條件，讓您可輕鬆對其他 [!DNL Recommendations] 活動重複使用條件。
 
-## [!UICONTROL 建議演演算法] {#rec-algo}
+## [!UICONTROL 推薦演算法] {#rec-algo}
 
 1. 選取&#x200B;**[!UICONTROL 演演算法型別]**&#x200B;和&#x200B;**[!UICONTROL 演演算法]**：
 
@@ -88,7 +95,7 @@ ht-degree: 48%
 
 1. 視需要選取&#x200B;**專案屬性**&#x200B;和&#x200B;**設定檔屬性以符合**、**建議金鑰**、**篩選金鑰**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以設定演演算法。
 
-其餘的演演算法組態選項會依選取的演演算法而有所不同。 若要完成演演算法的設定，請選取要比對的的[!UICONTROL 建議索引鍵]、[!UICONTROL 篩選索引鍵]、[!UICONTROL 共同發生基礎]、[!UICONTROL Analytics量度]和/或[!UICONTROL 專案屬性]和設定檔屬性。
+其餘的演演算法組態選項會依選取的演演算法而有所不同。 若要完成演演算法的設定，請選取要比對的]的[!UICONTROL 建議索引鍵]、[!UICONTROL 篩選索引鍵]、[!UICONTROL 共同發生基礎]、[!UICONTROL Analytics量度]和/或[!UICONTROL 專案屬性]和[!UICONTROL 設定檔屬性。
 
 如需有關選擇[!UICONTROL 建議索引鍵]的詳細資訊，請參閱[讓建議以建議索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
@@ -267,7 +274,7 @@ ht-degree: 48%
 
 如果您要建立新的 [!UICONTROL Recommendations] 活動或編輯現有的活動，依預設會選取&#x200B;**[!UICONTROL 「儲存條件以供稍後使用」]**&#x200B;核取方塊。 如果您不想在其他活動中使用條件，請在儲存之前清除核取方塊。
 
-## 訓練影片：在Recommendations (12:33) ![教學課程徽章](/help/main/assets/tutorial.png)中建立條件
+## 訓練影片：在Recommendations中建立條件(12:33) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此影片包含下列資訊:
 

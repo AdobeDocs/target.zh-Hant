@@ -4,26 +4,34 @@ description: 瞭解使用[!UICONTROL 視覺化體驗撰寫器] (VEC)時，讓您
 title: '[!UICONTROL 視覺化體驗撰寫器]有哪些最佳作法和限制？'
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-TQID: https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs
+TQID: 'https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2552
+source-wordcount: '2552'
 ht-degree: 49%
-
 ---
-
 # [!UICONTROL 視覺化體驗撰寫器]最佳作法和限制
 
 若要確保您的體驗如預期般運作，請在使用[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)時遵循最佳作法。 請注意重要提示和限制，以最大化效能並避免常見問題。
@@ -53,7 +61,7 @@ ht-degree: 49%
 +++檢視詳細資料
 載入[!UICONTROL 增強體驗撰寫器]的問題可藉由將下列IP位址列入允許清單來解決。 這些IP位址適用於用於[!UICONTROL 增強體驗撰寫器] Proxy的[!DNL Adobe]伺服器。 只有針對活動編輯才需要這些資訊。 您網站的訪客不需要將這些IP位址加入允許清單。
 
-如需詳細資訊，請參閱[&#x200B; EEC將不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法透過公用IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)存取的內部QA URL。
+如需詳細資訊，請參閱[ EEC將不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法透過公用IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)存取的內部QA URL。
 
 +++
 
@@ -135,7 +143,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 
 換句話說，如果您使用文字新增元素，然後在個別的動作中使用不同文字編輯了該元素，則代碼編輯器會將這兩個動作顯示為個別的元素。 編輯元素時，您會建立可修改您原始建立元素的新元素，包含編輯的文字。 如果您之後刪除原始元素，編輯後文字將找不到編輯後的元素，因此將不會顯示。 第二個元素會維持在元素的清單中，但它不會影響頁面，因為它變更的元素已不再存在。
 
-檢視[!UICONTROL 視覺化體驗撰寫器][&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)中使用的元素選取器。
+檢視[!UICONTROL 視覺化體驗撰寫器]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)中使用的[元素選取器。
 
 +++
 
@@ -315,7 +323,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 ### 正在處理VEC與[!DNL Chrome]擴充功能原則變更的相容性。 {#ext}
 
 +++詳細資料
-由於Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了V3資訊清單原則，在瀏覽器剖析原始DOM之前，擴充功能無法再修改原始DOM。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
+由於Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了[V3資訊清單原則，在瀏覽器剖析原始DOM之前，擴充功能無法再修改原始DOM。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
 
 為確保相容性，當頁面載入[!DNL Target] iframe內時，應有條件地停用這些指令碼。 透過檢查`window.adobeVecExtension`物件的存在可以安全地完成此程式，此物件是在VEC載入期間由[!DNL Target]插入。
 

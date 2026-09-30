@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n;錯誤;陷阱;失誤;重要性;獲勝者;差異;統計;統計檢定力;流量分配;分配;
-description: 了解在  [!DNL Adobe Target] 和其他測試解決方案中執行 A/B 測試時，如何避免許多公司最常見的陷阱和錯誤。
+description: 瞭解在[!DNL Adobe Target]和其他測試解決方案中執行A/B測試時，如何避免許多公司最常見的陷阱和錯誤。
 title: 該如何避免常見的 A/B 測試錯誤？
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+TQID: 'https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3983
-ht-degree: 100%
-
+source-wordcount: '3984'
+ht-degree: 99%
 ---
-
 # 十個常見的 A/B 測試陷阱和避免方法
 
 [!DNL Adobe Target] 中的 A/B 測試會形成大多數數位行銷最佳化計劃的骨幹，協助行銷人員為其訪客和客戶提供最佳化和針對性的體驗。 本文概述許多公司在執行 A/B 測試時深受其害的十大陷阱。 其中也包括避免這些陷阱的方法，好讓貴公司可透過測試成果獲得更高的 ROI，並在報告的 A/B 測試結果中擁有更高的可信度。

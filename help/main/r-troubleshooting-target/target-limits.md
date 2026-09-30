@@ -1,32 +1,44 @@
 ---
 keywords: 字元限制;mbox 參數;批次傳送 api;輪廓參數;限制;內建輪廓;上限;限制;限制;字元;最佳實務;orderid;orderTotal;mbox3rdPartyID;類別;categoryID;疑難排解
-description: 檢視影響 [!DNL Adobe Target]中活動和其他元素的字元限制和其他限制清單。
-title: ' [!DNL Adobe Target]中的各種字元、大小和其他限制是什麼？'
+description: 檢視影響[!DNL Adobe Target]中活動和其他元素的字元限制和其他限制清單。
+title: '[!DNL Adobe Target]中的各種字元、大小和其他限制是什麼？'
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
+TQID: 'https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1772
+source-wordcount: '1772'
 ht-degree: 73%
-
 ---
-
 # 限制
 
 字元限制和其他限制（選件大小、對象、設定檔、值、引數等） 會影響[!DNL Adobe Target]中活動和其他元素的其他限制（選件大小、設定檔等）。
@@ -81,17 +93,17 @@ ht-degree: 73%
 
   如果客戶超過指定用戶工作階段的 100 個同時 [!DNL Target] 內容傳遞請求，則該用戶工作階段的所有後續請求都將被封鎖。 如果在收到任何請求的回應之前，向 [!DNL Target] 伺服器傳送兩個或多個請求，則這些請求均視為同時。 [!DNL Target] 會依序處理相同工作階段的同時請求。
 
-   * **錯誤行為**：
+  * **錯誤行為**：
 
-      * Delivery API 和批次 mbox v2：
-         * 錯誤碼：HTTP 420 請求數太多
-         * 錯誤訊息：「相同工作階段 ID 的請求數太多」
+    * Delivery API 和批次 mbox v2：
+      * 錯誤碼：HTTP 420 請求數太多
+      * 錯誤訊息：「相同工作階段 ID 的請求數太多」
 
-      * 舊版 mbox API：
-         * 預設內容與註解：「相同工作階段 ID 的請求數太多」
+    * 舊版 mbox API：
+      * 預設內容與註解：「相同工作階段 ID 的請求數太多」
 
-      * at.js:
-         * 顯示預設內容
+    * at.js:
+      * 顯示預設內容
 
 * **限制**：每個[!DNL Target]內容傳遞批次mbox要求有50個mbox。
 
@@ -139,8 +151,8 @@ ht-degree: 73%
 
 * **字元限制**：字元長度上限視語言而定。
 
-   * 15,000 個字元 (單值、單位元和雙位元語言)
-   * 500 個值，每個值 100 個字元 (多值)
+  * 15,000 個字元 (單值、單位元和雙位元語言)
+  * 500 個值，每個值 100 個字元 (多值)
 
   單值實體自訂屬性的長度上限為 15,000 個字元 (適用於單位元組和雙位元組 UTF-8 編碼語言，例如英文和其他拉丁字母) 或 10,000 個字元 (適用於三位元組 UTF-8 編碼語言，例如中文、日文和韓文)。
 
@@ -212,9 +224,9 @@ ht-degree: 73%
 
   對於標準 mbox 呼叫：
 
-   * mbox 參數；每個 mbox 500 個參數。
-   * 輪廓參數：每個 mbox 有 500 個參數輪廓參數。
-   * 其他引數（URL、反向連結URL等）：其他引數型別每個mbox 50。
+  * mbox 參數；每個 mbox 500 個參數。
+  * 輪廓參數：每個 mbox 有 500 個參數輪廓參數。
+  * 其他引數（URL、反向連結URL等）：其他引數型別每個mbox 50。
 
   除非要求因網頁瀏覽器限制而縮短，否則適用上述限制。
 
@@ -228,25 +240,25 @@ ht-degree: 73%
 
   **批次 mbox v2**:
 
-   * mbox 參數 100
-   * mbox 參數名稱最大長度 128
-   * mbox 參數值不能為 null
-   * mbox 參數值 5000
-   * 輪廓參數 50
-   * 輪廓參數名稱最大長度 128
-   * 輪廓參數值不能為 null
-   * 輪廓參數值最大長度 256
+  * mbox 參數 100
+  * mbox 參數名稱最大長度 128
+  * mbox 參數值不能為 null
+  * mbox 參數值 5000
+  * 輪廓參數 50
+  * 輪廓參數名稱最大長度 128
+  * 輪廓參數值不能為 null
+  * 輪廓參數值最大長度 256
 
   **傳送 API 端點：**
 
-   * mbox 參數 100
-   * mbox 參數名稱最大長度 128
-   * mbox 參數值不能為 null
-   * mbox 參數值 5000
-   * 輪廓參數 50
-   * 輪廓參數名稱最大長度 128
-   * 輪廓參數值不能為 null
-   * 輪廓參數值最大長度 256
+  * mbox 參數 100
+  * mbox 參數名稱最大長度 128
+  * mbox 參數值不能為 null
+  * mbox 參數值 5000
+  * 輪廓參數 50
+  * 輪廓參數名稱最大長度 128
+  * 輪廓參數值不能為 null
+  * 輪廓參數值最大長度 256
 
 ### mbox 要求 URL
 

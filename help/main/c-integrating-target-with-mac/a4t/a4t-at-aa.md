@@ -1,33 +1,45 @@
 ---
 keywords: a4t；A4T；Analytics作為Target的報表來源；Analytics for Target
-description: 瞭解如何在 [!DNL Target] 中建立使用 [!DNL Analytics] 作為報告來源(A4T)的[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動。
+description: 瞭解如何在[!DNL Target]中建立使用[!DNL Analytics]作為報告來源(A4T)的[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動。
 title: A4T是否支援[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-TQID: https://experienceleague.adobe.com/VVbjMp7jYDyslZ8ubn8ntPufLK8nKGI9k3ZGh1DLWWs
+TQID: 'https://experienceleague.adobe.com/VVbjMp7jYDyslZ8ubn8ntPufLK8nKGI9k3ZGh1DLWWs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1509
+source-wordcount: '1511'
 ht-degree: 6%
-
 ---
-
 # [!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動的A4T支援
 
 [!DNL Adobe Target]至[!DNL Adobe Analytics]整合(稱為[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T))支援[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動。
@@ -37,7 +49,7 @@ A4T整合可讓您：
 * 使用[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) multi-armed Bandit功能將流量引導至成功體驗。
 * 使用[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)整體機器學習演演算法，為每位訪客選擇最佳體驗。 [!UICONTROL 自動鎖定目標]會根據每位使用者的設定檔、行為和內容來選擇最佳體驗，同時使用[!DNL Adobe Analytics]目標量度和[!DNL Adobe Analytics]的豐富報告和分析功能。
 
-確定您已實施[搭配A/B測試和體驗鎖定目標活動使用的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 如果您使用`analyticsLogging = client_side`，也必須將`sessionId`值傳遞給[!DNL Analytics]。 如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[Analytics for Target (A4T)報告](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=zh-Hant){target=_blank}。
+確定您已實施[搭配A/B測試和體驗鎖定目標活動使用的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 如果您使用`analyticsLogging = client_side`，也必須將`sessionId`值傳遞給[!DNL Analytics]。 如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[Analytics for Target (A4T)報告](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}。
 
 若要開始執行:
 
@@ -149,7 +161,7 @@ A4T整合可讓您：
 
 * 使用[!DNL Analytics]做為[!UICONTROL 自動鎖定目標]活動的資料來源時，工作階段會在六小時後結束。 六小時後發生的轉換則不會計算在內。
 
-如需詳細資訊，請參閱&#x200B;*Analytics工具指南*&#x200B;中的[歸因模型和回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hant)。
+如需詳細資訊，請參閱&#x200B;*Analytics工具指南*&#x200B;中的[歸因模型和回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)。
 
 ## 教學課程
 
@@ -159,12 +171,12 @@ A4T整合可讓您：
 
 此教學課程會逐步引導您瞭解在[!DNL Analysis Workspace]中分析[!UICONTROL 自動分配]活動的建議修改。
 
-如需詳細資訊，請參閱&#x200B;*Adobe Target教學課程*&#x200B;中的[如何在Analysis Workspace中為自動分配活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*Adobe Target教學課程*&#x200B;中的[如何在Analysis Workspace中為自動分配活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}。
 
 ### 在[!DNL Analysis Workspace]中為[!UICONTROL 自動鎖定目標]活動設定A4T報告
 
 此教學課程會逐步引導您瞭解在[!DNL Analysis Workspace]中分析[!UICONTROL 自動鎖定目標]活動的建議修改。
 
-如需詳細資訊，請參閱&#x200B;*Adobe Target教學課程*&#x200B;中的[如何在Analysis Workspace中為自動鎖定目標活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*Adobe Target教學課程*&#x200B;中的[如何在Analysis Workspace中為自動鎖定目標活動設定A4T報告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}。
 
 

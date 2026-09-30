@@ -4,13 +4,14 @@ description: 瞭解如何在Flags中為功能標幟設定以百分比為基礎�
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 3%
-
 ---
-
 # 設定逐步推出的功能 {#gradual-rollout-feature}
 
 已在&#x200B;**基本詳細資料**&#x200B;索引標籤中設定功能標幟的百分比轉出。 您可以隨時在轉出過程中將此值調整為向上或向下。

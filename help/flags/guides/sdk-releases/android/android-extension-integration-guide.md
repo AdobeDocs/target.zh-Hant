@@ -4,13 +4,14 @@ description: 瞭解如何在Android上將Flags擴充功能與Adobe Experience Pl
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 5%
-
+source-wordcount: '996'
+ht-degree: 6%
 ---
-
 # 標示Android的擴充功能 {#android-extension-integration-guide}
 
 本指南說明如何在Android上將Flags擴充功能與Adobe Experience Platform Mobile SDK整合。
@@ -52,7 +53,7 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
    | 應用程式 ID | 旗標中應用程式的唯一識別碼 |
 
 1. 選取&#x200B;**儲存**。
-1. 依照[發佈程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)更新您的設定。
+1. 依照[發佈程式](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的設定。
 
 ### 取得環境檔案ID {#environment-file-id}
 
