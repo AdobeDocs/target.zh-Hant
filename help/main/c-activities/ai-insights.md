@@ -4,10 +4,10 @@ description: 瞭解如何在Adobe Target活動概觀中使用AI產生的深入�
 title: 活動概觀中的AI深入分析
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 31%
+source-wordcount: '763'
+ht-degree: 27%
 ---
 # AI深入分析
 
@@ -24,7 +24,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="洞察"
->abstract="實驗洞察是當實驗資料達到統計顯著性時，AI 所獲得的學習成果。"
+>abstract="深入分析是AI產生的結果，當您的實驗達到統計顯著性時，這些結果即可使用。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="洞察"
->abstract="實驗洞察是當實驗資料達到統計顯著性時，AI 所獲得的學習成果。"
+>abstract="實驗見解是AI產生的學習，當實驗達到統計顯著性時，這些學習就變得可用。"
 
 實驗見解是衍生自此實驗的AI產生的學習。 當實驗達到統計顯著性並提供促使其成功的背景資訊後，這些見解就可供使用。 它們會醒目提示成功體驗中與控制不同的關鍵屬性，而且可能會影響結果。
 
