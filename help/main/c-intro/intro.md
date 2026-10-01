@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 70%
+source-wordcount: '1510'
+ht-degree: 68%
 ---
 # [!DNL Target]簡介
 
@@ -104,30 +104,6 @@ ht-degree: 70%
 >title="基準線量度比率"
 >abstract="您在實驗開始前的目前績效，即控制組平均值。 始終為必要項。 對於百分比量度，請輸入百分比：如果 5% 的訪客點按「今日購買」，請輸入 5。 對於計數量度，請輸入原始小數值。"
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="主要量度"
->abstract="主要量度會自動從報告設定中提取。 若要進行變更，請在「目標和設定」下方修改目標量度。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="假設"
->abstract="假設是您定義的陳述，用來說明實驗的預期結果。 包括說明要變更的內容及位置，然後指出您預期變更的量度以及變更方式。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="洞察"
->abstract="實驗洞察是當實驗資料達到統計顯著性時，AI 所獲得的學習成果。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="機會"
->abstract="實驗機會是根據在您的實驗螢幕擷圖和結果中所發現的模式，AI 所建議的處理想法。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="處理詳細資料"
->abstract="處理詳細資料會顯示當使用者符合處理資格時處理外觀的影像。 您可以為所有實驗檢閱這些影像。 有些實驗可能會要求您確認影像或在需要時進行取代。"
 
 [!DNL Adobe Target] （屬於[!DNL Adobe Experience Cloud]的一部分）提供全方位的工具，可跨網站、行動網站、應用程式、社群媒體和其他數位頻道個人化客戶體驗。
 
