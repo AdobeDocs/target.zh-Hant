@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1627'
 ht-degree: 70%
 ---
 # [!DNL Target]簡介
@@ -113,11 +113,6 @@ ht-degree: 70%
 >id="target_ai_insights_hypothesis"
 >title="假設"
 >abstract="假設是您定義的陳述，用來說明實驗的預期結果。 包括說明要變更的內容及位置，然後指出您預期變更的量度以及變更方式。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="洞察"
->abstract="實驗洞察是當實驗資料達到統計顯著性時，AI 所獲得的學習成果。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"

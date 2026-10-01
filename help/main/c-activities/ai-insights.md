@@ -4,10 +4,10 @@ description: 瞭解如何在Adobe Target活動概觀中使用AI產生的深入�
 title: 活動概觀中的AI深入分析
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 643b30757e9212388dcb6921580f86feb0704338
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 18%
 ---
 # AI深入分析
 
@@ -20,6 +20,11 @@ ht-degree: 16%
 您的&#x200B;**[!UICONTROL 活動概覽]**&#x200B;中的&#x200B;**[!UICONTROL AI深入分析]**&#x200B;功能表可讓您存取深入分析和最佳化機會。 使用此標籤來檢閱實驗學習、比較處理，並識別可能改善轉換率的變更。
 
 ## 設定AI見解和商機
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights"
+>title="洞察"
+>abstract="實驗洞察是當實驗資料達到統計顯著性時，AI 所獲得的學習成果。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -69,10 +74,10 @@ ht-degree: 16%
 
 設定完成後，您的活動便可產生商機。 實驗具有足夠的資料進行統計驗證且必要的實驗詳細資訊獲得確認後，分析即可使用。
 
-## 洞察
+## 洞察 {#insights}
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights"
+>id="target_ai_insights_insights"
 >title="洞察"
 >abstract="實驗洞察是當實驗資料達到統計顯著性時，AI 所獲得的學習成果。"
 
