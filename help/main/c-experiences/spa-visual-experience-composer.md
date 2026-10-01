@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: de649ea8b193a832eb55d398c7443a95675abb44
+source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
 workflow-type: tm+mt
-source-wordcount: '3949'
+source-wordcount: '3955'
 ht-degree: 56%
 ---
 # 單頁應用程式 (SPA) 可視化體驗撰寫器
@@ -90,128 +90,134 @@ ht-degree: 56%
 
 我們已在上文中介紹 Adobe Target 檢視的功能，現在可以在 Target 中運用這個概念，讓行銷人員透過 VEC 在 SPA 上執行 A/B 和 XT 測試。 進行測試需要一次性開發人員設定。 以下逐一說明設定步驟。
 
-1. 安裝 at.js 2.x。
++++ 安裝 at.js 2.x。
 
-   首先，我們需要安裝at.js 2.x。 這個版本的at.js是針對SPA所開發。 舊版at.js，不支援Adobe Target檢視和適用於SPA的VEC。
+首先，我們需要安裝at.js 2.x。 這個版本的at.js是針對SPA所開發。 舊版at.js，不支援Adobe Target檢視和適用於SPA的VEC。
 
-   ![實作詳細資料對話方塊](/help/main/c-experiences/assets/imp-200.png)
+![實作詳細資料對話方塊](/help/main/c-experiences/assets/imp-200.png)
 
-   透過[!UICONTROL 管理>實作]中的Adobe Target UI下載at.js 2.x。 也可透過[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的標籤來部署at.js 2.x。 不過，Adobe Target擴充功能目前不是最新版本，且不受支援。
+透過[!UICONTROL 管理>實作]中的Adobe Target UI下載at.js 2.x。 也可透過[Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的標籤來部署at.js 2.x。 不過，Adobe Target擴充功能目前不是最新版本，且不受支援。
 
-1. 在您的網站上實作at.js 2.x的最新函式： [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}。
++++
 
-   定義您要執行A/B或XT測試的SPA的檢視後，使用傳入作為引數的檢視來實作at.js 2.x的`triggerView()`函式。 這麼做可讓行銷人員針對已定義檢視，使用 VEC 設計和執行的 A/B 和 XT 測試。 如果沒有針對這些檢視定義 `triggerView()` 函數，VEC 將無法偵測檢視，進而導致行銷人員無法使用 VEC 來設計和執行 A/B 和 XT 測試。
++++ 實作at.js 2.x的最新函式
 
-   **`adobe.target.triggerView(viewName, options)`**
+在您的網站上實作at.js 2.x的最新函式[triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}。
 
-   | 參數 | 類型 | 必要? | 驗證 | 說明 |
-   | --- | --- | --- | --- | --- |
-   | viewName | 字串 | 是 | &#x200B;1. 沒有尾端空格。<br>2。 不得為空白。<br>3。 所有頁面的檢視名稱應該是唯一的。<br>4. **警告**: 檢視名稱的開頭或結尾不能為「`/`」。 這是因為客戶通常會從 URL 路徑中擷取檢視名稱。 對我們來說，&quot;home&quot;與&quot;`/home`&quot;不同。<br>5. **警告**: 同一個檢視不應使用 `{page: true}` 選項連續觸發多次。 | 傳入任何名稱作為要代表檢視的字串類型。 此檢視名稱會顯示在VEC的[!UICONTROL 修改]面板中，供行銷人員建立動作和執行其A/B和XT活動。 |
-   | options | 物件 | 無 |  |  |
-   | options > page | 布林值 | 無 |  | **TRUE:** 頁面的預設值為 true。 當`page=true`時，會傳送通知至Edge伺服器以增加曝光計數。<br>**FALSE**：當`page=false`時，不會傳送通知以增加曝光計數。 只有當您想重新呈現頁面上含有某個產品建議的元件時，才應使用此項目。 |
+定義您要執行A/B或XT測試的SPA的檢視後，使用傳入作為引數的檢視來實作at.js 2.x的`triggerView()`函式。 這麼做可讓行銷人員針對已定義檢視，使用 VEC 設計和執行的 A/B 和 XT 測試。 如果沒有針對這些檢視定義 `triggerView()` 函數，VEC 將無法偵測檢視，進而導致行銷人員無法使用 VEC 來設計和執行 A/B 和 XT 測試。
 
-   現在，讓我們來看看一些使用範例，瞭解如何在React中叫用假設性的電子商務SPA的`triggerView()`函式：
+**`adobe.target.triggerView(viewName, options)`**
 
-   **連結： [主網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+| 參數 | 類型 | 必要? | 驗證 | 說明 |
+| --- | --- | --- | --- | --- |
+| viewName | 字串 | 是 | &#x200B;1. 沒有尾端空格。<br>2。 不得為空白。<br>3。 所有頁面的檢視名稱應該是唯一的。<br>4. **警告**: 檢視名稱的開頭或結尾不能為「`/`」。 這是因為客戶通常會從 URL 路徑中擷取檢視名稱。 對我們來說，&quot;home&quot;與&quot;`/home`&quot;不同。<br>5. **警告**: 同一個檢視不應使用 `{page: true}` 選項連續觸發多次。 | 傳入任何名稱作為要代表檢視的字串類型。 此檢視名稱會顯示在VEC的[!UICONTROL 修改]面板中，供行銷人員建立動作和執行其A/B和XT活動。 |
+| options | 物件 | 無 |  |  |
+| options > page | 布林值 | 無 |  | **TRUE:** 頁面的預設值為 true。 當`page=true`時，會傳送通知至Edge伺服器以增加曝光計數。<br>**FALSE**：當`page=false`時，不會傳送通知以增加曝光計數。 只有當您想重新呈現頁面上含有某個產品建議的元件時，才應使用此項目。 |
 
-   ![home-react-1](/help/main/c-experiences/assets/react1.png)
+現在，讓我們來看看一些使用範例，瞭解如何在React中叫用假設性的電子商務SPA的`triggerView()`函式：
 
-   行銷人員如果要在整個主網站上執行 A/B 測試，會想要將檢視命名為「主頁」(可從 URL 擷取):
+**連結： [主網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
-   ```javascript
-   function targetView() {
-     var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
-   
-     viewName = viewName || 'home'; // view name cannot be empty
-   
-     // Sanitize viewName to get rid of any trailing symbols derived from URL
-     if (viewName.startsWith('#') || viewName.startsWith('/')) {
-       viewName = viewName.substr(1);
-     }
-   
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   // react router v4
-   const history = syncHistoryWithStore(createBrowserHistory(), store);
-   history.listen(targetView);
-   
-   // react router v3
-   <Router history={hashHistory} onUpdate={targetView} >
-   ```
+![home-react-1](/help/main/c-experiences/assets/react1.png)
 
-   **連結： [產品網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+行銷人員如果要在整個主網站上執行 A/B 測試，會想要將檢視命名為「主頁」(可從 URL 擷取):
 
-   現在，讓我們來看看更複雜的範例。 假設我們是行銷人員，想要在使用者按一下「載入更多」按鈕後，將價格標籤顏色變更為紅色，以個人化產品的第二列。
+```javascript
+function targetView() {
+  var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
 
-   ![react 產品](/help/main/c-experiences/assets/react4.png)
+  viewName = viewName || 'home'; // view name cannot be empty
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Products extends Component {
-     render() {
-       return (
-         <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
-       );
-     }
-   
-     handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component's state
-       this.setState({page: page});
-       targetView('PRODUCTS-PAGE-' + page);
-     }
-   }
-   ```
+  // Sanitize viewName to get rid of any trailing symbols derived from URL
+  if (viewName.startsWith('#') || viewName.startsWith('/')) {
+    viewName = viewName.substr(1);
+  }
 
-   **連結： [結帳](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
 
-   ![react 結帳](/help/main/c-experiences/assets/react6.png)
+// react router v4
+const history = syncHistoryWithStore(createBrowserHistory(), store);
+history.listen(targetView);
 
-   如果行銷人員想要根據選取的配送偏好設定個人化網站內容，可針對每個配送偏好設定建立一個檢視。 如果是這種情況，當我們選取「一般運送」，可將「檢視」命名為「一般運送」。 如果選取的是「快速運送」，則可將「檢視」命名為「快速運送」。
+// react router v3
+<Router history={hashHistory} onUpdate={targetView} >
+```
 
-   假設現在行銷人員想執行 A/B 測試，以瞭解當選取「快捷配送」時，相較於讓這兩種配送選項的按鈕均保持藍色，按鈕從藍色變為紅色是否能增加轉換次數。
+**連結： [產品網站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Checkout extends Component {
-     render() {
-       return (
-         <div onChange={this.onDeliveryPreferenceChanged}>
-           <label>
-             <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
-             <span> Normal Delivery (7-10 business days)</span>
-           </label>
-   
-           <label>
-             <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
-             <span> Express Delivery* (2-3 business days)</span>
-           </label>
-         </div>
-       );
-     }
-     onDeliveryPreferenceChanged(evt) {
-       var selectedPreferenceValue = evt.target.value;
-       targetView(selectedPreferenceValue);
-     }
-   }
-   ```
+現在，讓我們來看看更複雜的範例。 假設我們是行銷人員，想要在使用者按一下「載入更多」按鈕後，將價格標籤顏色變更為紅色，以個人化產品的第二列。
 
-1. 透過 VEC 啟動 A/B 或 XT 活動。
+![react 產品](/help/main/c-experiences/assets/react4.png)
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Products extends Component {
+  render() {
+    return (
+      <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
+    );
+  }
+
+  handleLoadMoreClicked() {
+    var page = this.state.page + 1; // assuming page number is derived from component's state
+    this.setState({page: page});
+    targetView('PRODUCTS-PAGE-' + page);
+  }
+}
+```
+
+**連結： [結帳](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+
+![react 結帳](/help/main/c-experiences/assets/react6.png)
+
+如果行銷人員想要根據選取的配送偏好設定個人化網站內容，可針對每個配送偏好設定建立一個檢視。 如果是這種情況，當我們選取「一般運送」，可將「檢視」命名為「一般運送」。 如果選取的是「快速運送」，則可將「檢視」命名為「快速運送」。
+
+假設現在行銷人員想執行 A/B 測試，以瞭解當選取「快捷配送」時，相較於讓這兩種配送選項的按鈕均保持藍色，按鈕從藍色變為紅色是否能增加轉換次數。
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Checkout extends Component {
+  render() {
+    return (
+      <div onChange={this.onDeliveryPreferenceChanged}>
+        <label>
+          <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
+          <span> Normal Delivery (7-10 business days)</span>
+        </label>
+
+        <label>
+          <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
+          <span> Express Delivery* (2-3 business days)</span>
+        </label>
+      </div>
+    );
+  }
+  onDeliveryPreferenceChanged(evt) {
+    var selectedPreferenceValue = evt.target.value;
+    targetView(selectedPreferenceValue);
+  }
+}
+```
+
++++
+
++++ 透過 VEC 啟動 A/B 或 XT 活動。
 
 當您在 SPA 上實作 `adobe.target.triggerView()` 且已傳入「檢視」名稱作為參數，VEC 就能夠偵測這些檢視，並允許使用者建立 A/B 或 XT 活動的動作或修改。
 
@@ -284,6 +290,8 @@ VEC 的[「修改」](/help/main/c-experiences/c-visual-experience-composer/c-ve
 >[!NOTE]
 >
 >在您按下「快速運送」選項按鈕前，「CHECKOUT-EXPRESS」檢視不會顯示在修改面板中。 這是因為「快速運送」選項按鈕經選取時才會觸發 `triggerView()` 函數，而且只有這個時候 VEC 才會知道要在修改面板中顯示「檢視」。
+
++++
 
 ## 深入分析 at.js 和 SPA
 
@@ -385,7 +393,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 是 |
 | [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
-| [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant){target=_blank} | 是 |
+| [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 是 |
 | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
 ## 支援的功能 {#supported-features}
@@ -408,7 +416,7 @@ adobe.target.getOffers({
 
 ![頁面傳送選項對話方塊](/help/main/c-experiences/assets/page-delivery.png)
 
-例如，如上方顯示的[!UICONTROL 頁面傳送]設定所定義，Target活動會在訪客直接在`https://www.adobe.com` *或*&#x200B;上登陸任何包含`https://www.adobe.com/tw/products`的URL時符合併執行。 這非常適合任何多頁應用程式，其中與頁面的所有互動都會叫用頁面重新載入，而 at.js 會擷取符合使用者導覽之目標 URL 的活動。
+例如，如上方顯示的[!UICONTROL 頁面傳送]設定所定義，Target活動會在訪客直接在`https://www.adobe.com` *或*&#x200B;上登陸任何包含`https://www.adobe.com/products`的URL時符合併執行。 這非常適合任何多頁應用程式，其中與頁面的所有互動都會叫用頁面重新載入，而 at.js 會擷取符合使用者導覽之目標 URL 的活動。
 
 不過，由於SPA的運作方式不同，[!UICONTROL 頁面傳送]的設定方式必須如SPA VEC活動中所定義，可將所有動作套用至檢視。
 
@@ -470,5 +478,5 @@ adobe.target.getOffers({
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-如需詳細資訊，請參閱[在Adobe Target中使用適用於單頁應用程式的視覺化體驗撰寫器(SPA VEC) &#x200B;](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。
+如需詳細資訊，請參閱[在Adobe Target中使用適用於單頁應用程式的視覺化體驗撰寫器(SPA VEC) ](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。
 

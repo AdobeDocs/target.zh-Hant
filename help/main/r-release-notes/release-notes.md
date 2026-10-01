@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
+source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 28%
+source-wordcount: '1112'
+ht-degree: 26%
 ---
 # [!DNL Target] 發行說明 (最新)
 
@@ -40,7 +40,7 @@ ht-degree: 28%
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
-## [!DNL Target Standard/Premium] 26.9.7 （2026年9月28日）
+## [!DNL Target Standard/Premium] 26.9.8 （2026年9月30日）
 
 ### 功能
 
@@ -80,6 +80,15 @@ ht-degree: 28%
 
 ### 功能改善
 
+**[!UICONTROL 管理]**
+
++++ 檢視詳細資料
+
+* **無法授予AI許可權給使用者**。 具有產品管理員和系統管理員存取許可權的使用者無法將AI許可權授與其他使用者。 嘗試啟用AI許可權導致`Unauthorized`錯誤，即使組織已啟用AI亦然。 (TGT-56261)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.7 （2026年9月28日）
 
 
 **[!UICONTROL 推薦]**
@@ -226,7 +235,7 @@ ht-degree: 28%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
