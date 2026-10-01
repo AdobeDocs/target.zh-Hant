@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 ---
 # [!DNL Target] 發行說明 (最新)
 
@@ -41,6 +41,46 @@ ht-degree: 30%
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
 
 ## [!DNL Target Standard/Premium] 26.9.7 （2026年9月28日）
+
+### 功能
+
+<table>
+<thead>
+<tr>
+<th><strong>樣本大小電腦</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>樣本大小計算器可協助您在啟動前計畫實驗，方法是估計所需的流量、測試持續時間、體驗數量，或您可以可靠偵測的最小影響。 它可透過「活動」功能表取得，會使用您的輸入來協助您決定測試所需的資源和執行階段。</p>
+<p>樣本大小計算器功能目前以Beta版形式提供。</p>
+<p>如需詳細資訊，請參閱<a href="../c-activities/sample-size-calculator.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Insights</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI深入分析可為A/B測試活動提供由AI產生的實驗學習和最佳化機會，並包含手動流量分配。 當實驗達到統計顯著性時，深入分析會強調成功體驗中可能對其效能有所貢獻的屬性。 建議的機會包括新的體驗構想、假設和實作指引，以協助改善轉換率。</p>
+<p>AI深入分析功能目前是以Beta版的形式提供。</p>
+<p>如需詳細資訊，請參閱<a href="../c-activities/ai-insights.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 功能改善
+
+
 
 **[!UICONTROL 推薦]**
 
@@ -186,7 +226,7 @@ ht-degree: 30%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

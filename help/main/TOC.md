@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何跨網站、應用程式和社群管道將客戶體驗個人化，藉以大幅提升收益。
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: d56bda63de533f7a1d0fb4f7297242a58064403f
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1322'
 ht-degree: 83%
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 83%
     + {hide-from-toc}[整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizer使用案例 {#use-cases}
       + {hide-from-toc}[Adobe Journey Optimizer中最佳化使用案例 — 網頁和程式碼型管道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[在Adobe Journey Optimizer中透過A/B測試進行內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + 在Adobe Journey Optimizer中透過A/B測試進行{hide-from-toc}[內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[在網頁中新增或隱藏元件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)
   + 將Target與Adobe Experience Manager (AEM)整合 {#aem}
@@ -123,6 +123,7 @@ ht-degree: 83%
 + 活動 {#activities}
   + [活動概觀](c-activities/activities.md)
   + [見解控制面板](c-activities/insights-dashboard.md)
+  + [樣本數計算器](c-activities/sample-size-calculator.md)
   + [Target 活動類型](c-activities/target-activities-guide.md)
   + A/B 測試 {#abtest}
     + [A/B 測試概觀](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +195,7 @@ ht-degree: 83%
     + [點擊追蹤](c-activities/r-success-metrics/click-tracking.md)
     + [擷取分數](c-activities/r-success-metrics/capture-score.md)
   + [活動變更記錄](c-activities/change-log.md)
+  + [AI深入分析](c-activities/ai-insights.md)
   + 疑難排解活動 {#troubleshoot-activities}
     + [疑難排解活動概觀](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [疑難排解內容傳送](c-activities/c-troubleshooting-activities/content-trouble.md)
