@@ -157,7 +157,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 變數]**：量度值的分佈方式。 點進率通常具有低變異數，每位使用者的收入可能會高很多。 如果您不確定，請將預設值保留為1。
 
-     在[Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中瞭解如何計算&#x200B;**[!UICONTROL 變數]**
+     在[Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中瞭解如何計算&#x200B;**[!UICONTROL 變數]**
 
      ![](assets/calculator-cja-analytics-2.png)
 
