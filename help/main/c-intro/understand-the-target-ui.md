@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1442'
 ht-degree: 23%
 ---
 # 了解 [!DNL Target] UI
@@ -62,11 +62,11 @@ ht-degree: 23%
 
 提供意見回饋的描述，包括適用的檔案或熒幕擷取畫面，以及任何其他必要的詳細資料，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
-### [!DNL AI Assistant]
+### [!DNL Coworker]
 
-（視條件而定）如果您的組織已授予您使用[!DNL AI Assistant]的權利，請按一下[!DNL AI Assistant]圖示。
+（視條件而定）如果您的組織已授予您使用[!DNL Coworker]的權利，請按一下[!DNL Coworker]圖示。
 
-如需詳細資訊，請參閱[Adobe Experience Platform AI助理概述](/help/main/c-intro/ai-assistant.md)。
+如需詳細資訊，請參閱[Adobe Target的同事技能](/help/main/c-intro/coworker-skills.md)。
 
 ### 說明
 
@@ -134,7 +134,7 @@ ht-degree: 23%
 
 主動公告會提醒您發生中斷事件和維護事件。
 
-如需深入資訊，請參閱[Adobe Status](https://status.adobe.com/zh-tw/)頁面。
+如需深入資訊，請參閱[Adobe Status](https://status.adobe.com/)頁面。
 
 ### 設定通知和公告
 
@@ -151,7 +151,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >[!UICONTROL 新版本]和內容的更新是唯一適用於[!DNL Target]的通知類別。 其他類別適用於其他[!DNL Adobe]解決方案。
+   >[!UICONTROL 新版本]和內容]的[!UICONTROL 更新是唯一適用於[!DNL Target]的通知類別。 其他類別適用於其他[!DNL Adobe]解決方案。
 
 1. 選取您希望警報在瀏覽器中顯示的通知。
 
