@@ -6,7 +6,7 @@ feature: Overview
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: cc4c6b77fa6c600723813b939ba1e5323836ebcc
+source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 2%
@@ -49,166 +49,166 @@ ht-degree: 2%
 
   提供Target實體（包括活動、對象、選件和相關設定）的唯讀探索、檢查和計數。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「列出我的作用中活動。」
-  * 「目前執行中的活動數目？」
-  * 「顯示此活動使用的對象和選件。」
+* 「列出我的作用中活動。」
+* 「目前執行中的活動數目？」
+* 「顯示此活動使用的對象和選件。」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標活動裁決**
 
   使用顯著性計算和設定檢查來判斷活動是否已準備好出貨、應等待更多資料、應停止或需要修正。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「我是否應該送出這項測試？」
-  * 「此活動是否準備好停止？」
-  * 「目前的活動設定是否有任何問題？」
+* 「我是否應該送出這項測試？」
+* 「此活動是否準備好停止？」
+* 「目前的活動設定是否有任何問題？」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標設計**
 
   建立及設定活動和選件、產生QA URL，以及作者或最佳化選件內容。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「建立首頁的A/B測試。」
-  * 「為回訪訪客體驗建立選件。」
-  * 「產生此活動的QA URL。」
+* 「建立首頁的A/B測試。」
+* 「為回訪訪客體驗建立選件。」
+* 「產生此活動的QA URL。」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標VEC**
 
   建立和編輯視覺化體驗撰寫器活動及其頁面傳送對象。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「建立首頁的VEC A/B測試。」
-  * 「編輯我的VEC活動中的主圖示題。」
-  * 「為此VEC活動建立頁面傳送對象。」
+* 「建立首頁的VEC A/B測試。」
+* 「編輯我的VEC活動中的主圖示題。」
+* 「為此VEC活動建立頁面傳送對象。」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標設定**
 
   指南會完成A/B、體驗鎖定目標或視覺化體驗撰寫器活動的建立，包括先決條件、排程、QA和啟動。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+    *範例提示：*
+    
+    *「協助我建立第一個測試。」
+    *「建立體驗鎖定目標活動之前需要什麼？」
+    *「逐步說明排程、QA和啟動此活動。」
 
-  * 「協助我建立第一個測試。」
-  * 「建立體驗鎖定目標活動之前需要什麼？」
-  * 「逐步說明排程、QA和啟動此活動。」
-
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標智慧**
 
   稽核Target程式中的風險、衝突、設定錯誤、衛生問題和快速獲勝。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「稽核我的Target活動。」
-  * 「尋找我的活動中的衝突或設定風險。」
-  * 「哪些快速入選可以改善我的Target程式的衛生？」
+* 「稽核我的Target活動。」
+* 「尋找我的活動中的衝突或設定風險。」
+* 「哪些快速入選可以改善我的Target程式的衛生？」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標策略專家**
 
   分析過去Target資料中的成功模式，並建議未來的測試。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「接下來應該根據過去的結果進行哪些測試？」
-  * 「哪些模式會出現在我表現最好的測試中？」
-  * 「建議根據此活動結果進行後續測試。」
+* 「接下來應該根據過去的結果進行哪些測試？」
+* 「哪些模式會出現在我表現最好的測試中？」
+* 「建議根據此活動結果進行後續測試。」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標測試電腦**
 
   針對轉換和收入量度，計畫A/B/n範例大小、持續時間和可偵測提升度，並針對多項比較採取Bonferroni校正。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「我需要什麼樣本量？」
-  * 「此A/B測試應該執行多久才能偵測到5%的提升度？」
-  * 「我可以使用這個流量測量哪些可偵測的提升度？」
+* 「我需要什麼樣本量？」
+* 「此A/B測試應該執行多久才能偵測到5%的提升度？」
+* 「我可以使用這個流量測量哪些可偵測的提升度？」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標Portfolio報告**
 
   提供唯讀、整個方案的效能統計，以及活動趨勢和動向分析。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「哪些是我最好和最差的測驗？」
-  * 「顯示我的活動的效能趨勢。」
-  * 「哪些活動最近獲得或失去動力？」
+* 「哪些是我最好和最差的測驗？」
+* 「顯示我的活動的效能趨勢。」
+* 「哪些活動最近獲得或失去動力？」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標對象撰寫器**
 
   從自然語言說明或明確規則建立或編輯目標原生對象。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「為回訪行動訪客建立受眾。」
-  * 「編輯此對象以包含來自有機搜尋的訪客。」
-  * 「為檢視定價頁面的訪客建立Target對象。」
+* 「為回訪行動訪客建立受眾。」
+* 「編輯此對象以包含來自有機搜尋的訪客。」
+* 「為檢視定價頁面的訪客建立Target對象。」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標建議**
 
   管理與使用Target Recommendations活動和設定。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「建立Recommendations活動。」
-  * &quot;顯示我的Recommendations活動和設定。&quot;
-  * 「更新此Recommendations活動的設定。」
+* 「建立Recommendations活動。」
+* &quot;顯示我的Recommendations活動和設定。&quot;
+* 「更新此Recommendations活動的設定。」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **目標建議診斷**
 
   診斷Recommendations傳送、設定、目錄和摘要問題。
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *範例提示：*
+*範例提示：*
 
-  * 「為何沒有顯示我的建議？」
-  * 「診斷此Recommendations活動的摘要和目錄設定。」
-  * 「傳送或設定問題是否會影響我的建議？」
+* 「為何沒有顯示我的建議？」
+* 「診斷此Recommendations活動的摘要和目錄設定。」
+* 「傳送或設定問題是否會影響我的建議？」
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]

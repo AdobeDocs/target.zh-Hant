@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '72534'
+source-wordcount: '72418'
 ht-degree: 48%
 ---
 # 舊版發行說明
@@ -2085,15 +2085,17 @@ Adobe Target現在包含新的深入分析儀表板，提供貴組織如何將Ta
 * 新增錯誤訊息，以在對象時間範圍無效時提醒使用者。 (TGT52522)
 * 更新活動結構以支援不同型別的重複對象。 (TGT-51200)
 
-### [!DNL Adobe Target] [!DNL AI Assistant]版本（2025年5月16日）
+<!--
+### [!DNL Adobe Target] [!DNL AI Assistant] release (May 16, 2025)
 
-我們很高興在[!DNL Adobe Target]中宣佈[!DNL AI Assistant]的啟動！ 這個強大的使用者介面功能可協助您輕鬆瀏覽及瞭解[!DNL Target]概念。 在[!DNL Adobe Experience Cloud]的多個產品（包括[!DNL Target]）中都有提供，[!DNL AI Assistant]可在此為您帶來全新的體驗。
+We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe Target]! This powerful user interface feature is designed to help you navigate and understand [!DNL Target] concepts with ease. Available across multiple products in [!DNL Adobe Experience Cloud], including [!DNL Target], [!DNL AI Assistant] is here to revolutionize your experience.
 
-[!UICONTROL Target]中的[!DNL AI Assistant]是對話式工具，可用來加速處理[!DNL Experience Platform]應用程式和服務的工作流程。 使用[!DNL AI Assistant]提升整體生產力並提升您對產品知識的理解
+[!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-在[!DNL Target]中，[!DNL AI Assistant]的第一階段以[!DNL Experience League]檔案為基礎，提供寶貴的產品知識。 無論您是要設定設定檔指令碼、疑難排解錯誤，還是要考慮升級至AEP Web SDK，[!DNL AI Assistant]皆已涵蓋您的所有事項。
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
-如需詳細資訊，請參閱[Adobe Experience Platform AI助理概述](/help/main/c-intro/ai-assistant.md)。
+For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
+-->
 
 ### [!DNL Target Standard/Premium] 25.5.2 （2025年5月8日）
 
