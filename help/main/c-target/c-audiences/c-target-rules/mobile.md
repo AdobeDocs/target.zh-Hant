@@ -1,27 +1,31 @@
 ---
 keywords: 鎖定目標;行動裝置;目標行動裝置;deviceatlas;iphone;iphone 型號;device atlas;displaywidth;顯示寬度;裝置類型;displayheight;手機;平板電腦;裝置型號
-description: 瞭解如何在 [!DNL Adobe Target] 中建立對象，以鎖定行動裝置。
+description: 瞭解如何在[!DNL Adobe Target]中建立對象，以鎖定行動裝置。
 title: 我可以根據行動裝置選項鎖定訪客嗎？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 39%
-
+source-wordcount: '828'
+ht-degree: 33%
 ---
-
 # 行動
 
 在[!DNL Adobe Target]中建立受眾，根據行動裝置、裝置型別、裝置廠商、畫面維度等引數來鎖定行動裝置。
@@ -89,6 +93,14 @@ iOS 12.2 （或更新版本）更新不會影響下列模型的識別，因為�
 ### 鎖定執行Safari 14.0.2 （或更新版本）的裝置
 
 使用行動規則來鎖定在macOS上執行Safari 14.0.2版（或更新版本）的裝置時，由於Apple的使用者代理程式和DeviceAtlas發生已知問題，[!DNL Target]在Mac和iPad裝置上錯誤識別Safari。 此問題將在未來解決。
+
+### 覆寫使用者代理的自訂指令碼 {#custom-scripts-overwrite-user-agent}
+
+由於行動裝置目標定位需仰賴使用者代理字串，因此頁面上任何在[!DNL Target]讀取前修改`navigator.userAgent`的自訂指令碼都可能導致裝置目標定位失敗。
+
+如果您的網站有自訂指令碼，可監聽所有事件，而不是它需要的特定事件，則可能會無意間攔截[!DNL Web SDK]事件並覆寫`navigator.userAgent`。 因此，[!DNL Target]會收到錯誤的裝置資訊，而不是訪客的實際裝置，而且不會提供預期的體驗。
+
+如果行動裝置目標定位未如預期般運作，請檢查頁面上的任何自訂指令碼或事件接聽程式是否修改`navigator.userAgent`，並儘可能縮小這些接聽程式的範圍，以免無意中攔截[!DNL Target]或Web SDK事件。
 
 ## 訓練影片: 建立客群
 

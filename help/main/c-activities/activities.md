@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '2649'
-ht-degree: 25%
+source-wordcount: '2682'
+ht-degree: 24%
 ---
 # 活動概觀
 
@@ -120,7 +120,7 @@ ht-degree: 25%
 
 | 動作 | 說明 |
 | --- | --- |
-| [!UICONTROL 編輯] | 變更活動。 任何活動都可以編輯，包括透過[!DNL Adobe Target] API或[!DNL Adobe Target] MCP伺服器建立的活動。<P>如需各種活動編輯方式的詳細資訊，請參閱[編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md)。 |
+| [!UICONTROL 編輯] | 變更活動。 任何活動都可以編輯，包括透過[!DNL Adobe Target] API或[!DNL Adobe Target] MCP伺服器建立的活動。 在UI中編輯API建立的活動後，會將其視為UI已修改。 先前限制的動作（包括[!UICONTROL 複製]和[!UICONTROL 刪除]）變為可用，但取決於您的許可權和活動狀態。<P>如需各種活動編輯方式的詳細資訊，請參閱[編輯活動或另存為草稿](/help/main/c-activities/edit-activity.md)。 |
 | [!UICONTROL 停用] | 停止已上線或排定的活動。 已停用的活動可以重新啟動或封存。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。 在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |
 | [!UICONTROL 啟動] | 啟動非使用中活動或準備好要啟動的活動。 |
 | [!UICONTROL 封存] | 將活動傳送至封存。 依預設，已封存的活動不再出現在[!UICONTROL 活動]清單中。 變更[!UICONTROL 活動]清單的篩選器以包含已封存的活動以檢視它們。 您可以啟動已封存的活動以再次使用。<P>如果您停用或封存活動，之後又重新啟動活動，若訪客在停用或封存活動前便位於活動中，則重新啟動後會繼續隸屬該活動。 在兩個事件之間記錄的任何轉換指標不會歸於該活動。 |

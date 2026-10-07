@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '72418'
+source-wordcount: '72456'
 ht-degree: 48%
 ---
 # 舊版發行說明
@@ -112,11 +112,11 @@ ht-degree: 48%
 
 ## [!DNL Target Standard/Premium] 26.8.3 （2026年8月13日）
 
-**活動和對象**
+**活動、選件和對象**
 
 +++檢視詳細資料
 
-* **已針對API/MCP建立的活動和對象啟用編輯。** 透過[!DNL Adobe Target] Admin API和[!DNL Target] MCP建立的活動和對象現在可以在[!DNL Target] UI中編輯。
+* **已啟用API/MCP建立的活動、選件和對象的編輯。** 透過[!DNL Adobe Target] Admin API和[!DNL Target] MCP建立的活動、選件和對象現在可以在[!DNL Target] UI中編輯。 在UI中編輯API建立的活動後，會將其視為UI已修改。 先前限制的動作（包括[!UICONTROL 複製]和[!UICONTROL 刪除]）變為可用，但取決於您的許可權和活動狀態。 (TGT-55116)
 
 +++
 

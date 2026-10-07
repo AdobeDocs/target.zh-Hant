@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3560'
 ht-degree: 80%
 ---
 # 推薦常見問題集
@@ -310,5 +310,4 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 當 [!DNL Target] 傳回含 getOffer() 的 JSON 產品建議時，它會傳回 JSON 類型。 然而，如果您傳回 JSON推薦設計，則它會傳回 HTML 類型。
 * 若 60 天內未經由動態消息或 API 收到更新，過期的實體即會確實過期；不過，實體過期之後並未從目錄搜尋索引中移除。 透過動態消息或 API 刪除的實體目前也不會從目錄搜尋索引中移除。 (IRI-857)
 * A/B 和體驗鎖定活動中的推薦產品建議不會顯示推薦系統匣的視覺化預覽 (TGT-33426)
-* 透過 API 建立的推薦活動可在使用者介面中檢視，但只能透過 API 編輯。
 * 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。 自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。 (TGT-35896 和 TGT-36173)
