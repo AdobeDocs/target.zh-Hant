@@ -17,9 +17,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '974'
 ht-degree: 7%
 ---
 # 產品建議
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 ![產品建議頁面](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-[!UICONTROL 選件]資料庫包含已透過[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS)和API設定的選件。 在 [!DNL Target Classic] 或其他解決方案中建立的產品建議，都可以在 [!DNL Target Standard/Premium] 中編輯。
+[!UICONTROL 選件]資料庫包含已透過[!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS)和API設定的選件。 在 [!DNL Target Classic] 或其他解決方案中建立的產品建議，都可以在 [!DNL Target Standard/Premium] 中編輯。 透過[!DNL Adobe Target] API或[!DNL Adobe Target] MCP伺服器建立的選件也可在[!DNL Target] UI中編輯。
 
 [!UICONTROL 選件]資料庫提供所有程式碼和影像選件的概觀，並讓您執行各種動作：
 

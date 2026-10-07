@@ -2,7 +2,7 @@
 keywords: 疑難排解;常見問答;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
 description: 檢視有關[!DNL Target Recommendations]活動的常見問答清單。
 title: 哪裡可以找到有關[!DNL Recommendations]的問答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3560'
 ht-degree: 80%
 ---
 # 推薦常見問題集
@@ -116,7 +116,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-[!DNL Target] 的[篩選不相容條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}設定可控制演算法選擇器的智慧型篩選。
+[!DNL Target] 的[篩選不相容條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定可控制演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >
@@ -271,7 +271,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？
 
-[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]&#x200B;[&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
+[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
 
 ## 如何只推薦新文章或影片？ {#recommend-new-articles}
 
@@ -310,5 +310,4 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 當 [!DNL Target] 傳回含 getOffer() 的 JSON 產品建議時，它會傳回 JSON 類型。 然而，如果您傳回 JSON推薦設計，則它會傳回 HTML 類型。
 * 若 60 天內未經由動態消息或 API 收到更新，過期的實體即會確實過期；不過，實體過期之後並未從目錄搜尋索引中移除。 透過動態消息或 API 刪除的實體目前也不會從目錄搜尋索引中移除。 (IRI-857)
 * A/B 和體驗鎖定活動中的推薦產品建議不會顯示推薦系統匣的視覺化預覽 (TGT-33426)
-* 透過 API 建立的推薦活動可在使用者介面中檢視，但只能透過 API 編輯。
 * 條件清單 (卡片) 檢視中顯示的自訂條件摘要狀態每隔十分鐘會重新整理一次，但在少數情況下，可能會過時超過十分鐘。 自訂條件編輯檢視中顯示的狀態會即時擷取，且隨時保持在最新狀態。 (TGT-35896 和 TGT-36173)
