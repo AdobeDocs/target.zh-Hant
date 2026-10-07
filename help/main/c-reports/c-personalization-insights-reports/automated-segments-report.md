@@ -2,7 +2,7 @@
 keywords: 鎖定目標;AP 報告;自動個人化報告;自動鎖定目標;自動鎖定目標報告;個人化;洞察;自動化區段;faq;常見問題集
 description: 瞭解Adobe [!DNL Target]個人化模型所定義的不同區段，會如何檢視「自動化區段」報表，以回應活動中的選件/體驗。
 title: 什麼是自動化區段報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 65%
+source-wordcount: '2219'
+ht-degree: 62%
 ---
 # [!UICONTROL 自動化區段]報告
 
@@ -50,7 +50,7 @@ ht-degree: 65%
 >
 >* [!UICONTROL Personalization Insights]報告只有在從[!UICONTROL 報告量度]下拉式清單中選取[!UICONTROL 主要目標]時才可用。
 >
->* 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights報告。
+>* [!UICONTROL 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights]報告。
 >
 >* [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL 即時]狀態且已啟用且接收流量至少15天的活動產生。
 
@@ -92,9 +92,9 @@ ht-degree: 65%
 
 | 元素 | 詳細資料 |
 |--- |--- |
-| 左側面板 | 左側面板列出根據此活動之 Target 個人化模型找出的 20 個最大的「自動化區段」。 「自動化區段」就像對象，但它是由 Target 的個人化模型 (而非行銷人員) 定義。 每個自動化區段是由特定屬性的特定值 (或值範圍) 所組成。<br>自動化區段可以重疊。 自動化區段可以由一、二、三或四個屬性定義。 如需詳細資訊，請參閱下列範例。<br>若要深入瞭解 Target 的個人化模型，請參閱[隨機森林演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。 若要深入瞭解用於建立自動化區段之屬性 Target 的個人化模型，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
+| 左側面板 | 左側面板會列出最多100個由Target針對此活動的個人化模型所識別的最大「自動化區段」。 「自動化區段」就像對象，但它是由 Target 的個人化模型 (而非行銷人員) 定義。 每個自動化區段是由特定屬性的特定值 (或值範圍) 所組成。<br>自動化區段可以重疊。 自動化區段可以由一、二、三或四個屬性定義。 如需詳細資訊，請參閱下列範例。<br>若要深入瞭解 Target 的個人化模型，請參閱[隨機森林演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。 若要深入瞭解用於建立自動化區段之屬性 Target 的個人化模型，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
 | 中心圖 | 中心圖表顯示活動內容在反白顯示自動化區段中的執行方式。 當您按一下左側面板上的不同區段時，中心圖將隨之更新。 |
-| 圓形圖 | 中心面板頂端的圓餅圖顯示自動化區段的大小，以及活動中的個人化造訪總數 (例如，個人化模型提供的活動流量。 其不包括整體成功案例模型所提供的控制流量或流量)。 區段的大小僅根據個人化造訪而定。<br>![圓形圖](/help/main/c-reports/assets/pie.png) |
+| 圓形圖 | 中央面板頂端的圓形圖顯示自動化區段的大小，以及活動中的個人化造訪總數。 個人化造訪僅包括Target的個人化模型為其選取了選件或體驗的流量。 這類量度會排除控制流量、整體成功案例模型提供的流量，以及用於繼續訓練模型的隨機流量。 區段的大小僅根據個人化造訪而定。<br>![圓形圖](/help/main/c-reports/assets/pie.png) |
 | 雙軸長條圖 | 雙軸長條圖包括根據該特定自動化區段之產品建議或體驗的造訪和轉換資訊。 |
 | 粉紅色長條 | 粉紅色長條代表轉換率，並使用圖表的底部軸。 您可以將游標移至長條上以獲取更多資訊 |
 | 藍色長條 | 藍色長條代表造訪次數，並使用圖表的頂部軸。 您可以將游標移至長條上以獲取更多資訊。 |
@@ -126,7 +126,7 @@ ht-degree: 65%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。 例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 **何謂自動化區段?**
 
