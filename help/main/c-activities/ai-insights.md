@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 27%
+ht-degree: 36%
 ---
 # AI深入分析
 
@@ -19,12 +19,12 @@ ht-degree: 27%
 
 您的&#x200B;**[!UICONTROL 活動概覽]**&#x200B;中的&#x200B;**[!UICONTROL AI深入分析]**&#x200B;功能表可讓您存取深入分析和最佳化機會。 使用此標籤來檢閱實驗學習、比較處理，並識別可能改善轉換率的變更。
 
-## 設定AI見解和商機
+## 設定 AI 洞察與機會
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="洞察"
->abstract="深入分析是AI產生的結果，當您的實驗達到統計顯著性時，這些結果即可使用。"
+>abstract="洞察是指 AI 產生的研究發現，當您的實驗達到統計顯著性時，即可取得該研究發現。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -39,7 +39,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="體驗詳細資料"
->abstract="體驗詳細資訊會顯示使用者符合體驗資格時體驗的外觀。 您可以為所有實驗檢閱這些影像。 有些實驗可能會要求您確認影像或在需要時進行取代。"
+>abstract="體驗詳細資料會顯示當使用者符合體驗資格時體驗外觀的影像。 您可以為所有實驗檢閱這些影像。 有些實驗可能會要求您確認影像或在需要時進行取代。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -54,7 +54,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="機會"
->abstract="實驗機會是根據在您的實驗螢幕擷圖和結果中所發現的模式，AI 所建議的處理想法。"
+>abstract="實驗機會是指 AI 根據在您的實驗螢幕擷圖和結果中所發現的模式，所建議的處理想法。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
@@ -99,7 +99,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="洞察"
->abstract="實驗見解是AI產生的學習，當實驗達到統計顯著性時，這些學習就變得可用。"
+>abstract="實驗洞察是指 AI 產生的學習心得，當實驗達到統計顯著性時，即可取得該學習心得。"
 
 實驗見解是衍生自此實驗的AI產生的學習。 當實驗達到統計顯著性並提供促使其成功的背景資訊後，這些見解就可供使用。 它們會醒目提示成功體驗中與控制不同的關鍵屬性，而且可能會影響結果。
 
@@ -118,7 +118,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="機會"
->abstract="實驗機會是AI建議的體驗想法，根據在您的實驗熒幕擷取畫面和結果中找到AI的模式。"
+>abstract="實驗機會是指 AI 根據在您的實驗螢幕擷圖和結果中所發現的模式，所建議的體驗想法。"
 
 **[!UICONTROL 機會]**&#x200B;面板會顯示AI產生的建議，這些建議旨在改善測試效能並符合更廣泛的業務目標和KPI。
 

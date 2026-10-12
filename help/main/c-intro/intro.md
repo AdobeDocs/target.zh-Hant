@@ -42,7 +42,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="每日流量"
->abstract="每天有多少使用者進入您的實驗。 如果您不知道自己的每日流量，請選擇上方的「流量」，計算機將根據您的其他輸入進行計算。"
+>abstract="每天有多少使用者進入您的實驗。 如果您不知道自己的每日流量，請選擇上方的「流量大小」，計算器將根據您的其他輸入進行計算。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup"
@@ -77,7 +77,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="信賴水準"
->abstract="在將某個結果稱為真實結果之前，您需要有多大的自信才能確定其非隨機巧合，這就是統計顯著性的臨界值。 95% 信賴水準表示最多有 5% 的機率是誤判。 較高的值可降低誤判率，但需要較多的資料。"
+>abstract="在將某個結果判定為真實結果之前，您需要多大的自信才能確定其非隨機巧合，這就是統計顯著性的臨界值。 95% 信賴水準表示最多有 5% 的機率是誤判。 較高的值可降低誤判率，但需要較多的資料。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
@@ -102,7 +102,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_metric_rate"
 >title="基準線量度比率"
->abstract="您在實驗開始前的目前績效，即控制組平均值。 始終為必要項。 對於百分比量度，請輸入百分比：如果 5% 的訪客點按「今日購買」，請輸入 5。 對於計數量度，請輸入原始小數值。"
+>abstract="您在實驗開始前的目前績效，即控制組平均值。 始終為必要項。 對於百分比量度，請輸入百分比：如果 5% 的訪客點按「今日購買」，請輸入 5。 對於計數量度，請輸入原始十進位值。"
 
 
 [!DNL Adobe Target] （屬於[!DNL Adobe Experience Cloud]的一部分）提供全方位的工具，可跨網站、行動網站、應用程式、社群媒體和其他數位頻道個人化客戶體驗。
