@@ -215,7 +215,7 @@ if (region) return region;
 
 建議依訪客設定檔屬性而非專案資訊群組的最暢銷商品，例如[!UICONTROL 依類別的最暢銷商品]和[!UICONTROL 依專案屬性的最暢銷商品]。 [!DNL Target]會保留每個屬性值的個別最暢銷商品清單，並在傳送時顯示符合訪客自己儲存值的清單。
 
-和設定檔屬性]檢視次數最多的[!UICONTROL 一樣，此演演算法依賴設定檔指令碼來填入屬性，而且指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]會將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。 在[此頁面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
+和設定檔屬性檢視次數最多的一樣，此演演算法依賴設定檔指令碼來填入屬性，而且指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]會將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。 在[此頁面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
 
 例如，以訪客的忠誠度等級為基礎而名為`recsAttributeLoyaltyTier`的指令碼可能會如下所示：
 
