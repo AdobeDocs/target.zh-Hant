@@ -7,29 +7,29 @@ badge: label="Beta" type="Informative"
 source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
 workflow-type: tm+mt
 source-wordcount: '1604'
-ht-degree: 11%
+ht-degree: 35%
 ---
 # 樣本數計算器
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="每日流量"
->abstract="每天有多少使用者進入實驗。 如果您不知道這個值，請選擇上方的「流量」，電腦會使用其他輸入來解決這個問題。"
+>abstract="每天有多少使用者進入實驗。 如果您不知道此值，請選擇上方的「流量大小」，計算器將根據您的其他輸入進行計算。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="信賴水準"
->abstract="在呼叫重要結果之前，您需確定結果並非隨機偶然所造成。 95% 信賴水準表示最多有 5% 的機率是誤判。 較高的值可減少誤判，但同時也需要更多資料。"
+>abstract="在將某個結果判定為顯著之前，您需要多大的把握才能確定其非隨機巧合。 95% 信賴水準表示最多有 5% 的機率是誤判。 較高的值可降低誤判率，但也需要較多的資料。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="統計檢定力"
->abstract="偵測實際效果（如果存在）的機率。 80%的電源等級表示有80%的機會偵測到真正的效果。 較高的功率可減少誤判，但需要較多的流量或較長的執行時間。"
+>abstract="檢測到真實效應 (若有的話) 的機率。 80% 的檢定力層級意味著有 80% 的機率可以檢測到真正效應。 較高的檢定力可降低誤判率，但需要較多的流量或較長的執行時間。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup_cja"
 >title="設定測試"
->abstract="這些欄位定義實驗、預期結果和結果的信賴臨界值。 繫結至您上述選取值的欄位會自動解決；其餘欄位會以您的預期值填入。"
+>abstract="這些欄位會定義實驗、預期結果以及結果的信賴度臨界值。 與您上方所選內容繫結的欄位將會自動計算；其餘欄位請填入您預期的值。"
 
 
 >[!AVAILABILITY]
@@ -42,32 +42,32 @@ ht-degree: 11%
 
 ![](assets/calculator_menu.png)
 
-## A/B （目標報告）
+## A/B (Target 報告)
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_bonferroni"
->title="Bonferroni校正"
->abstract="調整信賴等級，以考慮同時比較多個選件與控制項。 只有在選件數量大於兩個時，這才重要。 它符合Adobe的公用Target計算器工具中使用的相同校正。"
+>title="Bonferroni 校正"
+>abstract="調整信賴水準，以便同時將多個產品建議與控制組進行比較。 這僅在產品建議數量大於兩個時才重要。 它與 Adobe 的公開 Target 計算器工具中使用的校正相同。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="量度類型"
->abstract="您在衡量的量度類型。 使用「百分比」計算每個使用者有或未完成動作的二進位結果，例如點按或轉換。 「數字」可用於營收或頁面檢視等量度，這些量度的值可能會因使用者而有很大的差異。"
+>abstract="您要衡量的量度類型。 將「百分比」用於點按或轉換等二元結果，其中每位使用者要麼有完成動作，要麼未完成動作。 將「數字」用於收入或頁面檢視數等量度，其中的值可能會因使用者而有很大的變化。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_offers"
->title="實體數"
->abstract="實驗中的體驗數量，包括控制。 兩個以上的選件會自動套用Bonferroni校正（啟用時），以保持所有比較中的整體信賴水準準確。"
+>title="產品建議數量"
+>abstract="實驗中的體驗數量，包括控制組。 超過兩個產品建議會自動套用 Bonferroni 校正 (當啟用時)，以確保所有比較中的整體信賴水準正確。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_lift"
 >title="提升度"
->abstract="相對於您要偵測之基準線的改善。 以基準的百分比輸入。 例如，11.8%基準轉換率目標為12.39%時提升5%。"
+>abstract="您想要檢測到相對於基準線的改進。 請以基準線的百分比輸入。 例如，在 11.8% 基準轉換率上提高 5%，則目標轉換率為 12.39%。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_conversion_rate"
 >title="基準轉換率"
->abstract="實驗開始前您目前的轉換率，這是控制臂平均值。 此值一律為必填。 在百分比量度中，輸入5%的百分比，例如5。 對於計數量度，請輸入原始小數值。"
+>abstract="您在實驗開始前的目前轉換率，即控制組平均值。 此值始終為必要項。 對於百分比量度，請輸入百分比，例如 5% 則輸入 5。 對於計數量度，請輸入原始十進位值。"
 
 預估計畫和執行A/B測試所需的輸入。 這些值可協助您決定需要多少流量、測試應執行多久，以及您實際可偵測的效果大小。
 
@@ -128,7 +128,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="變異數"
->abstract="量度值的分佈方式，而非平均值。 點按率（通常是0和1）等量度通常具有低變異數，而如每使用者收入等量度則可能有高得多的變異數。 如果您不確定，請將預設值保留為1。"
+>abstract="您量度值的分散程度，而非平均值。 點按率之類的量度 (大多為 0 和 1) 通常具有低變異數，而每位使用者的收入之類的量度則可能具有較高的變異數。 如果您不確定，請保留預設值 1。"
 
 預估依賴Adobe Analytics或Customer Journey Analytics資料之A/B活動的規劃輸入。 它可協助您在啟動活動之前定義實驗大小、預期提升度和測試持續時間。
 
@@ -155,9 +155,9 @@ ht-degree: 11%
 
    * **[!UICONTROL 預期的改善]**：您預期實驗產生的改善。
 
-   * **[!UICONTROL 變數]**：量度值的分佈方式。 點進率通常具有低變異數，每位使用者的收入可能會高很多。 如果您不確定，請將預設值保留為1。
+   * **[!UICONTROL 變數]**：量度值的分佈方式。 點進率通常具有低變異數，每位使用者的收入可能會高很多。 如果您不確定，請保留預設值 1。
 
-     在[Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中瞭解如何計算&#x200B;**[!UICONTROL 變數]**
+     在[Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中瞭解如何計算&#x200B;**[!UICONTROL 變數]**
 
      ![](assets/calculator-cja-analytics-2.png)
 
