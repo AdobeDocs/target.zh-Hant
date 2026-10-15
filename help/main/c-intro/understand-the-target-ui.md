@@ -134,7 +134,7 @@ ht-degree: 23%
 
 主動公告會提醒您發生中斷事件和維護事件。
 
-如需深入資訊，請參閱[Adobe Status](https://status.adobe.com/zh-tw/)頁面。
+如需深入資訊，請參閱[Adobe Status](https://status.adobe.com/)頁面。
 
 ### 設定通知和公告
 
@@ -151,7 +151,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >[!UICONTROL 新版本]和內容的更新是唯一適用於[!DNL Target]的通知類別。 其他類別適用於其他[!DNL Adobe]解決方案。
+   >[!UICONTROL 新版本]和內容]的[!UICONTROL 更新是唯一適用於[!DNL Target]的通知類別。 其他類別適用於其他[!DNL Adobe]解決方案。
 
 1. 選取您希望警報在瀏覽器中顯示的通知。
 
