@@ -30,7 +30,7 @@ ht-degree: 15%
 >
 >如果您無法在2025年2月3日前完成實作檢閱並解決任何問題，可以請求一次性的六個月延期。 請確定您的請求已在2025年1月31日之前提交。 Adobe將審閱並決定您的請求。
 
-若要在手動呈現主張時受益於此最佳化，請檢閱您的[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}，以確保您在手動呈現體驗後或使用`applyPropositions`方法（或相對應的[!DNL Launch]動作作為協助程式）呈現體驗時傳送通知。
+若要在手動呈現主張時受益於此最佳化，請檢閱您的[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}，以確保您在手動呈現體驗後或使用`applyPropositions`方法（或相對應的[!DNL Launch]動作作為協助程式）呈現體驗時傳送通知。
 
 手動呈現體驗時最常見的案例包括：
 
@@ -38,7 +38,7 @@ ht-degree: 15%
 * 在[[!UICONTROL 表單式體驗撰寫器]](/help/main/c-experiences/form-experience-composer.md)中建立的活動中使用自訂決定範圍
 * 擷取使用全域`__view__`範圍的[!UICONTROL 表單式體驗撰寫器]建立的活動時，未使用`renderDecisions: true`
 
-如果通知未如&#x200B;*資料彙集*&#x200B;指南中的[轉譯個人化內容](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank}中記錄的那樣實作，則在[!DNL Target]和[Analytics for Target報告](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)中可能會遺漏報告資料。 在某些情況下，您可能會因為未擷取報表資料而注意到不正確的流量分割。 或者，在其他情況下，重複報告相同的事件。
+如果通知未如&#x200B;*資料彙集*&#x200B;指南中的[轉譯個人化內容](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank}中記錄的那樣實作，則在[!DNL Target]和[Analytics for Target報告](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)中可能會遺漏報告資料。 在某些情況下，您可能會因為未擷取報表資料而注意到不正確的流量分割。 或者，在其他情況下，重複報告相同的事件。
 
 根據您的實作，檢查[!DNL Analytics]和A4T報告影響。
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 * **分割呼叫（也稱為頁面事件的頂端和底部）。**
 
-  此實作型別是[!DNL Adobe]建議的新[分割呼叫實作方法](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}。 使用此方法時，新的最佳化不會影響[!DNL Analytics]或A4T報表。
+  此實作型別是[!DNL Adobe]建議的新[分割呼叫實作方法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}。 使用此方法時，新的最佳化不會影響[!DNL Analytics]或A4T報表。
 
 如有疑問，請連絡[Adobe客戶服務](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C)。 (KB-2179)
 
@@ -67,12 +67,12 @@ ht-degree: 15%
 
 ### [!DNL Target]報告於[!DNL Adobe Customer Journey Analytics] （2024年5月8日）
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間的整合為您的最佳化程式提供強大的分析與省時的工具。
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間的整合為您的最佳化程式提供強大的分析與省時的工具。
 
 使用 [!DNL Customer Journey Analytics] 作為 [!DNL Target] 的報告來源的主要優點如下：
 
 * 市場行銷人員可隨時動態地將 [!DNL Customer Journey Analytics] 成功量度套用至 [!DNL Target] 活動報告。 執行活動之前完全不需要指定。
-* 行銷人員可利用[!DNL Customer Journey Analytics]功能（例如[Experimentation面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）來進一步分析其網站個人化。
+* 行銷人員可利用[!DNL Customer Journey Analytics]功能（例如[Experimentation面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）來進一步分析其網站個人化。
 
 如需詳細資訊，請參閱[Adobe Customer Journey Analytics中的Target報告](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)。
 

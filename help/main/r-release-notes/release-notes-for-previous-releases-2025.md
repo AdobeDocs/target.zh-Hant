@@ -275,7 +275,7 @@ ht-degree: 5%
 
 +++檢視詳細資料
 
-* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。** 作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
+* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。** 作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
 
 +++
 
@@ -356,7 +356,7 @@ ht-degree: 5%
 * 相同的資料串流ID只能用於不同的連線，前提是它們是在不同的沙箱中設定。
 * 此規則適用於所有資料流選取專案，包括選取「無」時。
 
-此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱&#x200B;*Adobe Target目的地*&#x200B;指南中的[Experience Platform連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}。
+此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱&#x200B;*Adobe Target目的地*&#x200B;指南中的[Experience Platform連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}。
 
 ### [!DNL Target Standard/Premium] 25.9.1 （2025年9月5日）
 
@@ -1520,7 +1520,7 @@ For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
 * [重新設計報表](/help/main/administrating-target/reporting.md)，以更深入瞭解活動結果。
-* [[!UICONTROL 已更新變更記錄]](/help/main/c-activities/change-log.md)頁面，現在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊。
+* [[!UICONTROL 已更新變更記錄]](/help/main/c-activities/change-log.md)頁面，現在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊。
 * [可自訂的清單檢視](/help/main/c-activities/activities.md)，以在不同團隊需求之間提供更好的彈性。
 * [增強的快速資訊和詳細熒幕](/help/main/c-activities/activities.md)，以更輕鬆存取資訊。
 * [工作階段持續搜尋和篩選選項](/help/main/c-activities/activities.md)。
