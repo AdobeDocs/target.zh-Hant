@@ -18,96 +18,101 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 47%
+source-wordcount: '889'
+ht-degree: 0%
 ---
 # [!UICONTROL 視覺化體驗撰寫器] (VEC)
 
-[!DNL Adobe Target]中的[!UICONTROL 視覺化體驗撰寫器] (VEC)是WYSIWYG編輯器，可讓客戶直接在其網站或行動網頁上建立和測試個人化體驗，而不需要編輯程式碼。
+[!DNL Adobe Target]中的[!UICONTROL 視覺化體驗撰寫器] (VEC)是WYSIWYG編輯器，可直接在網站和行動網頁上建立和測試個人化體驗，無須編輯程式碼。
 
->[!NOTE]
->
->[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行版本包含VEC的更新版本。 如需有關更新的VEC與舊版有何差異的資訊，請參閱[視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。 如需更新VEC中各種選項的概觀，請參閱[視覺化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+拖放元素、交換內容及變更頁面配置，以建立[!DNL Target]活動的體驗和選件。 撰寫器也提供用於編輯HTML和JavaScript的選項。
 
-VEC可讓您輕鬆建立及測試網站內容中的個人化體驗和選件。 您可以拖放、交換及修改網頁 (或產品建議) 或行動網頁的版面和內容，以建立 [!DNL Target] 活動的體驗和產品建議。
+## 瀏覽器需求 {#browser-requirements}
 
-VEC 是 [!DNL Target] 的其中一項主要功能。 VEC 可讓行銷人員和設計人員使用視覺化介面來建立和變更內容。 您可以進行許多設計選擇，而不需直接編輯程式碼。 您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。
+[!DNL Adobe Target]介面支援[!DNL Safari]。 您可以在[!DNL Safari]中建立表單式活動，並使用除VEC和[!UICONTROL 增強體驗撰寫器] (EEC)以外的所有功能。 如果您在[!DNL Safari]中開啟視覺化體驗撰寫器，覆蓋會提示您切換至[!DNL Google Chrome]以編輯體驗。
 
-在[!DNL Target] **[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]**&#x200B;索引標籤上，您可以輸入預設的[!UICONTROL 視覺化體驗撰寫器] URL。
+[!DNL Firefox]之類的瀏覽器可能會封鎖包含混合內容的頁面，例如安全網站內的不安全頁面，使其無法在VEC中顯示。 如果頁面未顯示，請按一下瀏覽器位址列中URL旁的圖示，然後按一下&#x200B;**[!UICONTROL 停用此頁面的保護]**。 此問題不會影響頁面向網站訪客顯示的方式。
 
-此 URL 決定您開啟 VEC 時的開始位置。 如果您未輸入預設URL，當您開啟編輯器時，會從空白頁面開始，然後您可以指定URL。
+## 開啟VEC {#open-the-vec}
+
+若要設定預設在VEC中開啟的頁面，請在[!DNL Target] **[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]**&#x200B;索引標籤上輸入預設的[!UICONTROL 視覺化體驗撰寫器] URL。
+
+如果您未設定預設URL，VEC會以空白頁面開啟，您可以在其中指定URL。
 
 ![醒目提示 VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
->[!NOTE]
->
->如果頁面包含混合內容（例如，安全網站中的不安全頁面），某些瀏覽器（例如[!DNL Firefox]）可能會阻擋此頁面在VEC中顯示。 如果您的頁面未顯示，請在瀏覽器網址列按一下URL旁的圖示，然後按一下&#x200B;**[!UICONTROL 停用此頁面的保護]**。 此問題不影響向網站訪客顯示您的頁面。
+## 編輯體驗 {#edit-experiences}
 
-頁面上位於 iframe 內的內容無法在 VEC 中修改。 若要編輯iframe內的內容，請確定iframe檔案已啟用[!DNL Target]，然後在VEC中載入該iframe URL。
+### 檢視和命名體驗 {#view-and-name-experiences}
 
-您可以使用[!UICONTROL 體驗]邊欄中的索引標籤來檢視您的頁面，使其對不同對象或不同體驗的顯示方式。 您可以為每個體驗命名。 例如，如果您在導覽列中測試「首頁」連結的位置，您可以命名首先顯示「首頁」連結的體驗。 例如，「首頁連結」可讓您更輕鬆地識別清單中的體驗。
+使用[!UICONTROL 體驗]邊欄中的索引標籤，檢視您的頁面在不同對象或不同體驗中的顯示方式。 為每個體驗提供描述性名稱，以便於在清單中識別。
 
->[!NOTE]
->
->如果變更頁面結構而影響該頁面上建立的活動中所使用的位置，可能會在編輯體驗時造成問題。 如果在VEC之外變更位置，[!DNL Target]可能無法找到內容已變更的位置。
+例如，在導覽列中測試「首頁」連結的位置時，將其顯示在首位的體驗命名為「首頁連結在前」。
 
-當您在頁面上四處移動滑鼠時，即時線上方塊會緊跟著游標，並醒目提示頁面上的元素。
+![重新命名體驗邊欄中的體驗](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
 
-<!--
-Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+### 選取和修改元素 {#select-and-modify-elements}
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
--->
+將游標移至頁面上，以使用內容感應方塊反白顯示個別元素。
 
-按一下醒目提示的元素，以顯示該元素型別可用的選項功能表。 例如，您可以按一下影像，然後選取&#x200B;**[!UICONTROL 變更影像]**&#x200B;以將影像變更為其他影像。 或者，按一下按鈕並變更文字顏色。
+按一下醒目提示的元素以顯示該元素型別的編輯選項。 例如，選取影像並按一下&#x200B;**[!UICONTROL 變更影像來源]**&#x200B;以取代該影像，或選取按鈕以變更其文字顏色。
 
-您也可以按一下&#x200B;**[!UICONTROL 「瀏覽」]**，然後導覽至主要頁面所提供的頁面，例如出貨頁面或購物車，然後在該頁面上測試變更。 您也可以存取暫留時可用的頁面元素，例如飛出功能表和迷你購物車。 當您完成瀏覽至頁面時，請按一下[設計] **&#x200B;**&#x200B;來編輯體驗。 例如，您可能需要變更購物車下拉式清單或影像輪播的設計。
+![編輯選取專案的選項](/help/main/c-experiences/c-visual-experience-composer/assets/properties-exp.png)
 
->[!NOTE]
->
->如果暫留狀態依賴JavaScript，請確定未選取&#x200B;**[!UICONTROL 停用JavaScript]**。 JavaScript 必須啟用才能編輯 JavaScript 元素。
+您無法編輯內嵌於頁面中的iframe內容。 若要編輯該內容，請確定iframe檔案已啟用[!DNL Target]，然後直接在VEC中載入iframe URL。
 
-如需 VEC 中可用選項的相關資訊，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。
+在VEC外部變更頁面結構可能會影響活動使用的位置。 如果這些位置變更，[!DNL Target]可能無法找到您修改的元素，這可能會導致編輯體驗時發生問題。
 
-您可以在頁面載入時 (或頁面無法載入後) 在頁面上執行一些修改，或者也可以在 VEC 中取消頁面載入。 如需詳細資訊，請參閱:
+### 瀏覽和設計 {#browse-and-design}
 
-* [在頁面載入時或頁面無法載入後編輯頁面](#loading)
-* [在VEC內取消載入頁面](#cancel-loading)
+按一下&#x200B;**[!UICONTROL 瀏覽]**&#x200B;以瀏覽到可從目前頁面存取的頁面，例如出貨頁面或購物車，並在那裡測試變更。
 
-## 在頁面載入時或頁面無法載入後編輯頁面 {#loading}
+VEC中的![瀏覽模式](/help/main/c-experiences/c-visual-experience-composer/assets/browse_exp.png)
 
-您可以在 VEC 中的頁面載入前，或甚至頁面完全無法載入時 (例如自訂程式碼無法繼續正常運作) 執行許多動作。
+在「瀏覽」模式中，您也可以存取游標停留時顯示的元素，例如彈出式選單和迷你購物車。 當您到達要編輯的頁面或元素時，請按一下[設計] **[!UICONTROL 來編輯體驗。]**
 
-您可能想要在頁面於 VEC 內載入時或無法載入後存取或編輯頁面的一些原因包括:
+如果暫留狀態依賴JavaScript，請確定未選取&#x200B;**[!UICONTROL 停用JavaScript]**。 必須啟用JavaScript才能編輯相依於它的元素。
 
-* 您想要對頁面進行簡單的修改，例如新增自訂程式碼或變更體驗的名稱
-* 您想要從無法再存取的頁面中複製現有的自訂程式碼
-* 您知道頁面將不會在 VEC 內載入，但您仍想要進行簡單的編輯
+如需有關可用編輯選項的詳細資訊，請參閱[視覺化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。
 
-當頁面載入時（或無法載入後），可以存取[!UICONTROL 體驗]邊欄、[!UICONTROL 元件]邊欄和[!UICONTROL 設定]選項。
+## 管理頁面載入 {#manage-page-loading}
 
-## 在VEC內取消載入頁面 {#cancel-loading}
+頁面載入時或無法載入後，某些編輯選項仍可使用。 您也可以取消頁面載入以存取這些選項，而不需要等候。
 
-您可以在 VEC 內取消頁面載入，以解除鎖定活動編輯，而不需要等候頁面載入。 此功能可節省時間並協助您更有效率地進行簡單的編輯或插入自訂程式碼，而不需要等候 VEC 內的頁面載入。
+### 在頁面載入時或頁面無法載入後編輯頁面 {#loading}
 
-您可能想要取消 VEC 內的頁面載入的幾項原因包括:
+您可以在VEC中的頁面載入完成前或無法載入後（例如，因為自訂程式碼已無法運作）進行一些變更。
 
-* 想要對現有修改進行微幅編輯
-* 想要刪除一或多個現有修改
-* 想要插入或編輯自訂程式碼
-* 您錯誤地輸入了錯誤的頁面 URL
-* 想要在 VEC 內的頁面載入前啟用或停用 JavaScript
-* 您想要將更多範本測試規則新增至[!UICONTROL 頁面傳送]條件
-* 透過EEC或僅限iframe載入頁面時，您想要覆寫全域[!UICONTROL 增強體驗撰寫器] (EEC)切換按鈕
+使用可用的編輯選項來執行下列作業：
 
-如果您取消在VEC中載入頁面，則可以在活動中的體驗之間切換，而不需要等候頁面載入。 若要再次在VEC中檢視頁面，您必須按一下&#x200B;**[!UICONTROL 重新載入]**&#x200B;按鈕。
+* 進行簡單的變更，例如新增自訂程式碼或重新命名體驗
+* 從無法再存取的頁面複製現有的自訂程式碼
+* 對無法在VEC中載入的頁面進行簡單編輯
+
+在頁面載入時或無法載入後，[!UICONTROL 體驗]邊欄、[!UICONTROL 元件]邊欄和[!UICONTROL 設定]選項仍可存取。
+
+### 在VEC內取消載入頁面 {#cancel-loading}
+
+在VEC中取消頁面載入以編輯活動，而不等待頁面完成載入。
+
+當您需要以下工作時，取消頁面載入會很有用：
+
+* 對現有修改進行微幅編輯
+* 刪除一或多個現有修改
+* 插入或編輯自訂程式碼
+* 更正錯誤輸入的頁面URL
+* 在VEC中載入頁面之前，啟用或停用JavaScript
+* 將範本測試規則新增至[!UICONTROL 頁面傳送]條件
+* 透過EEC或僅限iframe模式載入頁面時，覆寫全域[!UICONTROL 增強體驗撰寫器] (EEC)切換按鈕
+
+取消頁面載入後，您可以在活動中的體驗之間切換，而不需要等候頁面載入。 按一下「重新載入&#x200B;****」以再次在VEC中顯示頁面。
 
 >[!IMPORTANT]
 >
->請注意，進行自訂程式碼或任何修改時，若選擇取消在 VEC 內載入，您則必須確保程式碼或變更已正確執行。 請務必執行適當的 QA，確保自訂程式碼和任何其他修改如預期般提供。
+>如果您在取消頁面載入後編輯自訂程式碼或進行其他修改，請執行品質保證(QA)測試，以驗證您的變更是否如預期般傳送。
 
-若要取消在VEC內載入頁面，請在頁面載入時按一下&#x200B;**[!UICONTROL 取消載入]**&#x200B;按鈕。 在目前編輯工作階段期間，頁面將不會在此活動的 VEC 中載入。
+若要停止載入頁面，請在載入頁面時按一下&#x200B;**[!UICONTROL 取消載入]**。 除非您重新載入頁面，否則此活動在目前編輯工作階段期間會保持未載入頁面。
 
-若要繼續管理目前活動中的體驗或新增新的修改，您必須按一下&#x200B;**[!UICONTROL 重新載入]**&#x200B;按鈕。
+按一下&#x200B;**[!UICONTROL 重新載入]**&#x200B;以繼續管理目前活動中的體驗，或新增修改。

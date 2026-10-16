@@ -1,6 +1,6 @@
 ---
 keywords: 視覺化體驗撰寫器； VEC；預設URL；增強體驗撰寫器； EEC；混合內容；體驗快照；行動檢視區； CSS； CSS選取器
-description: 瞭解如何透過指定其一般設定、行動檢視區設定和CSS選取器來設定Adobe [!DNL Target] 視覺化體驗撰寫器(VEC)。
+description: 瞭解如何透過指定其一般設定、行動檢視區設定和CSS選取器來設定Adobe [!DNL Target]視覺化體驗撰寫器(VEC)。
 title: 如何設定視覺化體驗撰寫器(VEC)？
 feature: Administration & Configuration
 role: Admin
@@ -8,28 +8,38 @@ exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '733'
 ht-degree: 47%
-
 ---
-
 # 設定[!UICONTROL 視覺化體驗撰寫器]
 
 設定[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)，方法是指定其一般設定、行動檢視區組態和CSS選取器。
@@ -57,6 +67,8 @@ ht-degree: 47%
 ### 啟用增強體驗撰寫器 {#eec}
 
 允許在 iframe-busting 網站以及含有混合內容的網站上編輯。 部分網站可能與增強型版本不相容。 取消選取此選項以還原至原始[!UICONTROL 視覺化體驗撰寫器]。 此選擇不會影響網站上的活動傳送。
+
+請注意，[!DNL Safari]不支援[!UICONTROL 增強體驗撰寫器]。
 
 如需詳細資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
@@ -86,7 +98,7 @@ ht-degree: 47%
 
 ![行動檢視區設定區段](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-按一下[新增]&#x200B;**&#x200B;**，指定行動檢視區的描述性名稱、指定寬度和高度、選取所需的作業系統，然後按一下[儲存]。
+按一下[新增]****，指定行動檢視區的描述性名稱、指定寬度和高度、選取所需的作業系統，然後按一下[儲存]。
 
 如需如何新增行動檢視區的詳細資訊，請參閱[行動檢視區設定](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 

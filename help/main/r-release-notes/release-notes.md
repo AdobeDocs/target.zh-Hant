@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '645'
 ht-degree: 42%
 ---
 # [!DNL Target] 發行說明 (最新)
@@ -71,7 +71,7 @@ ht-degree: 42%
 +++檢視詳細資料
 
 * **已新增Safari支援至[!DNL Adobe Target]**。 [!DNL Safari]瀏覽器現在支援[!DNL Target]。 請注意，[!DNL Safari]不支援視覺化體驗撰寫器和[!DNL Enhanced Experience Composer]。 因此，[!DNL VEC]中現在會出現覆蓋，以通知使用者必須切換至[!DNL Chrome]才能使用編輯器。 (TGT-55853)
-
+  [了解更多](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
 +++
 
 
@@ -118,7 +118,7 @@ ht-degree: 42%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
