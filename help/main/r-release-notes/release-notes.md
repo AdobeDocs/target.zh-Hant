@@ -29,16 +29,51 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
+source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 58%
+source-wordcount: '643'
+ht-degree: 42%
 ---
 # [!DNL Target] 發行說明 (最新)
 
 探索[!DNL Adobe Target]的最新功能、增強功能和修正。 這些發行說明也涵蓋了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台元件（如適用）的更新。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 26.10.2 （2026年10月15日）
+
+**[!UICONTROL 活動]**
+
++++檢視詳細資料
+
+* **活動總覽中顯示的目標設定不正確**。 修正活動的&#x200B;**[!UICONTROL 總覽]**&#x200B;頁面中顯示的目標設定不正確的問題。 例如，`https://`已新增至頁面URL，而且&#x200B;**[!UICONTROL URL包含]**&#x200B;條件未顯示，即使實際目標設定正確。 (TGT-56326)
+
++++
+
+**[!UICONTROL 推薦]**
+
++++檢視詳細資料
+
+* **即時活動中更新促銷活動後顯示的備用建議**。 修正在即時[!DNL Recommendations]活動中編輯促銷活動導致[!DNL Target]建立新促銷活動和建議單位的問題，即使其定義未變更亦然。 (TGT-56369)
+
++++
+
+**[!UICONTROL 報表]**
+
++++檢視詳細資料
+
+* **報告預設集已在兩週後刪除**。 修正使用者為活動儲存的報告預設集在約兩週後自動刪除的問題。 (TGT-56374)
+
++++
+
+**[!UICONTROL 視覺化體驗撰寫器] (VEC)**
+
++++檢視詳細資料
+
+* **已新增Safari支援至[!DNL Adobe Target]**。 [!DNL Safari]瀏覽器現在支援[!DNL Target]。 請注意，[!DNL Safari]不支援視覺化體驗撰寫器和[!DNL Enhanced Experience Composer]。 因此，[!DNL VEC]中現在會出現覆蓋，以通知使用者必須切換至[!DNL Chrome]才能使用編輯器。 (TGT-55853)
+
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.1 （2026年10月13日）
 
@@ -83,7 +118,7 @@ ht-degree: 58%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
