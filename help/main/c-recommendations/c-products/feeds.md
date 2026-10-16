@@ -134,7 +134,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >您不需要將資料提交至[!DNL Google]。 您可以匯入自己的資料和排程更新，前提是檔案使用預先定義的[!DNL Google]屬性名稱。
 
-[!DNL Recommendations]接受遵循[!DNL Google]摘要規格的.xml、.txt和.tsv檔案，並使用Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的[屬性。 指定摘要的URL或FTP位置，讓[!DNL Recommendations]伺服器可以擷取檔案並建置您的目錄。
+[!DNL Recommendations]接受遵循[!DNL Google]摘要規格的.xml、.txt和.tsv檔案，並使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的屬性。 指定摘要的URL或FTP位置，讓[!DNL Recommendations]伺服器可以擷取檔案並建置您的目錄。
 
 >[!NOTE]
 >
