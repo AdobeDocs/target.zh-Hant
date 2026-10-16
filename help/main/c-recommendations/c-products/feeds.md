@@ -1,8 +1,8 @@
 ---
-keywords: 建議摘要；摘要；SAINT；ftp；csv；分類；analytics分類
+keywords: 建議摘要；摘要；SAINT；ftp；sftp；csv；分類；analytics分類
 description: 瞭解摘要如何使用CSV檔案、[!DNL Google Product Search]摘要格式和[!DNL Analytics]產品分類將實體匯入至[!DNL Adobe Target] [!DNL Recommendations]。
 title: 如何在[!DNL Target Recommendations]中使用[!UICONTROL 摘要]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 36%
+source-wordcount: '2785'
+ht-degree: 31%
 ---
 # 摘要
 
@@ -128,31 +128,28 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-[!DNL Google Product Search]摘要型別使用[!DNL Google]格式。 這與[!DNL Adobe]專有的CSV上傳格式不同。
-
-如果您有現有的[!DNL Google Product Feed]，則可以將其用作匯入檔案。
+[!DNL Google Product Search]摘要型別使用[!DNL Google]格式，而非[!DNL Adobe]專屬CSV格式。 您可以重複使用現有的[!DNL Google Product Feed]，將產品資料匯入[!DNL Recommendations]。
 
 >[!NOTE]
 >
->不一定要使用[!DNL Google]資料。 [!DNL Recommendations]使用與[!DNL Google]相同的格式。 您可以使用此方法上傳任何您有的資料，並且使用可用的排程功能。 不過，當您設定檔案時，必須保留[!DNL Google]預先定義的屬性名稱。
+>您不需要將資料提交至[!DNL Google]。 您可以匯入自己的資料和排程更新，前提是檔案使用預先定義的[!DNL Google]屬性名稱。
 
-大部分零售商會將產品上傳至[!DNL Google]，所以當訪客使用[!DNL Google]產品搜尋時，會顯示其產品。 [!DNL Recommendations]完全遵循實體摘要的[!DNL Google]規格。 實體摘要可透過.xml、.txt或.tsv傳送至[!DNL Recommendations]，並可使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的屬性。 可以在[[!DNL Google] 購物頁面](https://www.google.com/prdhp)上搜尋結果。
+[!DNL Recommendations]接受遵循[!DNL Google]摘要規格的.xml、.txt和.tsv檔案，並使用Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的[屬性。 指定摘要的URL或FTP位置，讓[!DNL Recommendations]伺服器可以擷取檔案並建置您的目錄。
 
 >[!NOTE]
 >
->主控[!DNL Google]摘要內容的伺服器上必須允許使用POST方法。
+>裝載[!DNL Google]摘要的伺服器必須允許POST方法。
 
-因為[!DNL Recommendations]使用者已設定.xml或.txt摘要透過URL或FTP傳送至[!DNL Google]，實體摘要會接受該產品資料並使用它來建置建議目錄。 指定該摘要存在何處及供 Recommendations 伺服器擷取資料的位置。
+請牢記以下要求和限制：
 
-如果您將[!DNL Google Product Search]用於實體摘要上傳，而且想要在其中顯示建議或根據檢視追蹤演演算法傳送的產品檢視，您仍然必須在頁面上擁有產品頁面mbox。
+* 仍需要產品頁面mbox才能在該頁面上顯示建議或追蹤檢視型演演算法的產品檢視。
+* [!DNL Google]摘要不支援自訂屬性的多個值。
 
-[!DNL Google]摘要不支援自訂屬性的多個值。
+摘要會在您儲存並啟動時執行，然後每天比初始執行時間晚一個小時。
 
-摘要會在您儲存並啟動時執行。 它會在您儲存摘要時執行，然後在一小時後每天執行。
+下列範例顯示.xml格式的[!DNL Google Product Search]摘要：
 
-下列是[!DNL Google Product Search]摘要.xml檔案的範常式式碼：
-
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
 <feed xmlns="https://www.w3.org/2005/Atom" xmlns:ns2="https://base.google.com/ns/1.0" xmlns:ns3="https://base.google.com/cns/1.0"> 
     <title>Product Feed</title> 
@@ -227,7 +224,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
@@ -257,12 +254,28 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
    * **FTP**: 如果您已選取 FTP，請提供 FTP 伺服器資訊、登入認證、檔案名稱和 FTP 目錄。 您可以使用FTP搭配SSL (FTPS)，以更安全地上傳。
 
-     支援的 FTP 伺服器設定:
+     +++ 支援的FTP伺服器設定
 
      * FTP 和 FTPS 必須設定為使用被動式 FTP。
      * 對於FTPS，請將伺服器設定為接受明確FTPS連線。
-     * 不支援 SFTP。
      * 您可以手動指定起始連線的連線埠（例如，`ftp://ftp.yoursite.com:2121`）。 如果您未指定連接埠，則會使用預設 FTP 或 FTPS 連接埠。
+
+   +++
+
+   * **SFTP**：輸入您的SFTP伺服器主機名稱或IP位址、連線埠（預設值： 22）、使用者名稱、目錄和檔案名稱。 如需驗證，請提供密碼、SSH私密金鑰或兩者。
+
+     +++ 支援的SFTP伺服器設定和限制
+
+     * 驗證使用密碼、SSH私密金鑰或兩者。 至少需要一個。
+     * 客戶產生並擁有金鑰組。 在SFTP使用者的`authorized_keys`檔案中安裝公開金鑰，然後將私密金鑰貼入Target做為PEM文字。 接受的金鑰型別為RSA、Ed25519和ECDSA，格式為PEM (`-----BEGIN RSA PRIVATE KEY-----`)、PKCS#8 (`-----BEGIN PRIVATE KEY-----`)或OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`)。
+     * 不支援受密碼保護的私密金鑰，摘要無法連同一個摘要一起儲存。
+     * Target會儲存加密的私密金鑰，且不再顯示。 若要旋轉摘要，請編輯摘要並輸入新索引鍵。
+     * 輸入不含前置詞`sftp://`的裸主機名稱或IP位址、連線埠或路徑。 將「連線埠」欄位用於非預設的連線埠。
+     * 第一次連線時接受伺服器主機金鑰，不需要與Adobe交換指紋。
+     * Target介面和Recommendations API提供SFTP，舊版Recommendations Classic管理介面中不提供。 Adobe不託管SFTP端點，使用客戶託管的伺服器。
+     * SFTP伺服器必須可從網際網路連線，並允許來自Adobe Target下載位址的傳入連線。 發佈此更新之前，生產IP清單必須由工程部門確認。
+
+   +++
 
    * **URL**：如果您選取[!UICONTROL URL]，請指定URL。
 
@@ -289,11 +302,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-在您建立或編輯摘要後，摘要會立即執行。 然後會根據您設定的引數更新摘要。 需要一些時間才能提供資訊。 首先，摘要必須同步，然後必須經過處理和編列索引，才能發佈和可供使用。 目前狀態會顯示在[!UICONTROL 摘要]清單中的[摘要狀態](/help/main/c-recommendations/c-products/feeds.md#status)下。 您可以在處理程序完成之前關閉 [!DNL Target]，處理程序會繼續。
+在您建立或編輯摘要後，摘要會立即執行，然後根據您的設定進行更新。 摘要必須先同步、處理及編制索引，其資料才可供使用。 檢查[!UICONTROL 摘要]清單中的[摘要狀態](/help/main/c-recommendations/c-products/feeds.md#status)以取得進度。 即使您關閉[!DNL Target]，處理作業仍會繼續進行。
 
-編列索引進行時，在個別值已編列索引之前，產品和摘要標題會先出現。 這可讓您搜尋及檢視產品，以便於在完成索引前建立集合、排除專案、設計和活動。
+在索引期間，產品和摘要標題會顯示在個別值之前，因此您可以在索引完成之前搜尋產品並建立集合、排除專案、設計和活動。
 
-當狀態顯示「成功」時，表示找到檔案且剖析正確。 在檔案編列索引之前，[!DNL Recommendations] 內沒有資訊可用，這需要一些時間，視檔案大小而定。 如果程式失敗，則表示找不到檔案。 例如，您使用不正確的URL，或FTP資訊不正確，或存在剖析錯誤。
+「成功」狀態表示已找到檔案且已正確剖析。 它的資料只有在索引後才能在[!DNL Recommendations]中使用，這需要時間，具體取決於檔案大小。 失敗的原因可能是URL或FTP資訊不正確、檔案遺失或剖析錯誤。
 
 ## 摘要狀態和指示器 {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -315,7 +328,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 | 已於&#x200B;*時間*&#x200B;成功匯入摘要 | [!DNL Target]已將摘要檔案匯入其內容傳遞系統。 已在內容傳遞系統中進行專案屬性的變更，這些變更很快會反映在已傳送的建議中。 如果您沒有看到預期的變更，請再試一次，然後重新整理包含建議的頁面。<br>注意：<ul><li>如果專案屬性的變更導致建議排除了該專案，則會立即反映排除。 如果專案是新增的專案，或屬性變更導致建議中不再包含&#x200B;*專案*，該專案要等到下次演演算法更新時才會反映出來，這會在24小時內發生。</li><li>顯示此狀態時，更新可能尚未反映在[!UICONTROL 目錄搜尋] UI中。 [!UICONTROL 目錄搜尋]中會列出另一個狀態，指出上次更新可搜尋目錄的時間。</li></ul> |
 | 部分匯入失敗 | 先前，如果未上傳所有列，摘要仍會標籤為成功。 因此，當摘要顯示成功時，會建立所有列皆已上傳的錯誤印象。<P>以下是您可能會遇到部分摘要匯入的案例：<ul><li>您已上傳生產環境的摘要檔案，例如100列。</li><li>摘要執行並上傳了80列（共20列），但由於格式不正確、欄位超過字元等原因而捨棄了20列。</li><li>摘要在UI中標示為成功，讓您產生已上傳所有100列的印象。</li><li>您預期這20種產品中會有一部分在活動傳送中，但實際上並未發生。</li><li> 您現在很困惑，因為您上傳的摘要中有相關產品的產品詳細資料。 您透過實體API進行查詢時，不會在後端看到，這表示它不在後端。</li></ul>若要消除此混淆，已改良此訊息，以告知摘要的確切狀況。 與其標籤為成功，現在會標籤為部分匯入失敗。 |
 | [!UICONTROL 無法編列索引] | 編列索引作業失敗。 再試一次。 |
-| 找不到[!UICONTROL 伺服器] | FTP 或 URL 位置無效或無法觸達。 |
+| 找不到[!UICONTROL 伺服器] | FTP、SFTP或URL位置無效或無法連線。 |
 
 若要更新摘要 (例如，變更摘要組態或摘要檔案)，請開啟摘要，進行任何所需的變更，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
