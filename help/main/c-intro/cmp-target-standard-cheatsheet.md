@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '2871'
+source-wordcount: '2913'
 ht-degree: 50%
 ---
 # Target 最佳化和個人化常見問答
@@ -95,6 +95,8 @@ ht-degree: 50%
 
 +++檢視詳細資料
 如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
+
+[!DNL Target]介面支援[!DNL Safari]。 您可以在[!DNL Safari]中建立表單式活動，並使用所有功能，但[!DNL Safari]不支援的[!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)除外。 若要在VEC或EEC中編輯體驗，請使用[!DNL Google Chrome]。
 
 +++
 

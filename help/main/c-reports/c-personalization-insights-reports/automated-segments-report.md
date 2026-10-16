@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # [!UICONTROL 自動化區段]報告
 
@@ -139,6 +139,11 @@ ht-degree: 62%
 **決定自動化區段順序的因素為何？**
 
 根據每個區段的大小，及其對您活動內容執行方法的差異，計算每個區段的分數。 這些輸入的組合決定自動化區段的順序，針對不同內容的回應方式，具有較大差異的大型區段會顯示在更接近區段清單的頂端。
+
+**使用「已點選任何卡片」時，為何多卡片AP體驗中的所有卡片都顯示相同的轉換率？**
+
+在[!UICONTROL Automated Personalization]中，最佳化和報告是在體驗層級，而不是在個別卡片或元件層級進行評估。 當訪客點按體驗中的至少一個卡片時，[!UICONTROL 任何卡片點按]成功量度會記錄一次轉換。
+由於點按會歸屬於整個體驗，該體驗中的所有卡片都可以在報表中顯示相同的轉換計數和轉換率，包括[!UICONTROL 自動化區段]。 此行為是預期行為，並反映[!UICONTROL Automated Personalization]如何最佳化內容組合，而非個別卡片。
 
 **為什麼我的「自動化區段」報表中只顯示部分產品建議/體驗?**
 

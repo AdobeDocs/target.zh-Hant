@@ -1,5 +1,5 @@
 ---
-keywords: 建立自訂條件;演算法;條件;建議條件;csv;ftp;上傳 csv
+keywords: 建立自訂條件；演演算法；條件；建議條件；csv；ftp；sftp；上傳csv
 description: 瞭解如何上傳CSV檔案，以自訂Adobe [!DNL Target] Recommendations中的建議。
 title: 如何在[!DNL Recommendations]中上傳自訂條件？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 32%
+source-wordcount: '762'
+ht-degree: 27%
 ---
 # 上傳自訂條件
 
@@ -57,9 +57,13 @@ ht-degree: 32%
 
    CSV 檔案的格式必須正確上傳才能成功。 按一下&#x200B;**[!UICONTROL 「下載 CSV 範本」]**&#x200B;來取得格式正確的 CSV 檔案。
 
-   您有兩個位置選項︰
+   您有三個位置選項：
 
    * **FTP：**&#x200B;若要從FTP伺服器上傳CSV檔案，請選取&#x200B;**[!UICONTROL FTP]**，然後輸入必要的資訊。 您可以使用SSL，其使用FTPS通訊協定來安全地傳輸您的CSV檔案。
+
+   * **SFTP：**&#x200B;若要從SFTP伺服器上傳CSV檔案，請選取&#x200B;**[!UICONTROL SFTP]**，然後輸入主機名稱或IP位址、連線埠（預設為22）、使用者名稱、密碼和/或SSH私密金鑰、目錄和檔案名稱。 如需詳細資訊，請參閱[支援的SFTP伺服器設定](/help/main/c-recommendations/c-products/feeds.md#sftp-settings)。
+
+     SFTP不會變更自訂條件CSV格式。 使用`# Key,Recommendation_1,...`格式，使用不同的摘要型別格式會導致匯入失敗。
 
    * **URL：**&#x200B;若要從URL上傳您的CSV檔案，請選取&#x200B;**[!UICONTROL URL]**，然後輸入摘要URL。
 
