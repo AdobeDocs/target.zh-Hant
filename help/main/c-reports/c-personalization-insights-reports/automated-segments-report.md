@@ -2,7 +2,7 @@
 keywords: 鎖定目標;AP 報告;自動個人化報告;自動鎖定目標;自動鎖定目標報告;個人化;洞察;自動化區段;faq;常見問題集
 description: 瞭解Adobe [!DNL Target]個人化模型所定義的不同區段，會如何檢視「自動化區段」報表，以回應活動中的選件/體驗。
 title: 什麼是自動化區段報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # [!UICONTROL 自動化區段]報告
 
@@ -50,7 +50,7 @@ ht-degree: 62%
 >
 >* [!UICONTROL Personalization Insights]報告只有在從[!UICONTROL 報告量度]下拉式清單中選取[!UICONTROL 主要目標]時才可用。
 >
->* 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights報告。
+>* [!UICONTROL 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights]報告。
 >
 >* [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL 即時]狀態且已啟用且接收流量至少15天的活動產生。
 
@@ -126,7 +126,7 @@ ht-degree: 62%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。 例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 **何謂自動化區段?**
 
@@ -139,6 +139,11 @@ ht-degree: 62%
 **決定自動化區段順序的因素為何？**
 
 根據每個區段的大小，及其對您活動內容執行方法的差異，計算每個區段的分數。 這些輸入的組合決定自動化區段的順序，針對不同內容的回應方式，具有較大差異的大型區段會顯示在更接近區段清單的頂端。
+
+**使用「已點選任何卡片」時，為何多卡片AP體驗中的所有卡片都顯示相同的轉換率？**
+
+在[!UICONTROL Automated Personalization]中，最佳化和報告是在體驗層級，而不是在個別卡片或元件層級進行評估。 當訪客點按體驗中的至少一個卡片時，[!UICONTROL 任何卡片點按]成功量度會記錄一次轉換。
+由於點按會歸屬於整個體驗，該體驗中的所有卡片都可以在報表中顯示相同的轉換計數和轉換率，包括[!UICONTROL 自動化區段]。 此行為是預期行為，並反映[!UICONTROL Automated Personalization]如何最佳化內容組合，而非個別卡片。
 
 **為什麼我的「自動化區段」報表中只顯示部分產品建議/體驗?**
 
