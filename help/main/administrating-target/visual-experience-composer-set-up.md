@@ -98,7 +98,7 @@ ht-degree: 47%
 
 ![行動檢視區設定區段](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-按一下[新增]****，指定行動檢視區的描述性名稱、指定寬度和高度、選取所需的作業系統，然後按一下[儲存]。
+按一下[新增]&#x200B;**&#x200B;**，指定行動檢視區的描述性名稱、指定寬度和高度、選取所需的作業系統，然後按一下[儲存]。
 
 如需如何新增行動檢視區的詳細資訊，請參閱[行動檢視區設定](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 
