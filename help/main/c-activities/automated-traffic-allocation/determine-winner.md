@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: cfab6f04bc59cc7480d871f327fde9ce0a2d6e8f
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 20%
+source-wordcount: '1288'
+ht-degree: 19%
 ---
 # 解譯[!UICONTROL 自動分配]報告
 
@@ -41,6 +41,8 @@ ht-degree: 20%
 宣告明確的獲勝者時，[!DNL Target]會顯示「獲勝者：體驗&#x200B;*X*」徽章。
 
 ![獲勝者徽章](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+
+獲勝者徽章也會顯示在[!UICONTROL 活動]清單中的活動資訊快顯視窗中，因此您可以看到[!UICONTROL 自動分配]活動的狀態，而不需要開啟它。
 
 >[!NOTE]
 >
@@ -92,6 +94,6 @@ ht-degree: 20%
 
 ### 使用[!UICONTROL Analytics做為報表來源] (A4T)的[!UICONTROL 自動分配]活動是否有「無贏家」、「贏家」和「星星」徽章可用？
 
-[!DNL Analysis Workspace]中的[!UICONTROL A4T]面板目前無法使用「尚未有贏家」和「贏家」徽章。 如果在[!DNL Target]中檢視相同的報表，則也無法使用這些徽章。 使用A4T的[!UICONTROL 自動分配]活動在[!DNL Target]報告中顯示的獲勝者「星星」徽章應予以忽略。
+「尚未有贏家」和「贏家」徽章會出現在[!UICONTROL 活動]清單中的活動資訊快顯視窗中。 在[!DNL Analysis Workspace]的[!UICONTROL A4T]面板中或您在[!DNL Target]中檢視相同報表時，不會顯示這些報表。 如果A4T [!UICONTROL 自動分配]活動的[!DNL Target]報告顯示獲勝者「星星」徽章，請忽略該報告。
 
 如需此專案以及其他限制和附註的詳細資訊，請參閱[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]活動&#x200B;*在* A4T支援中的[自動分配](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)。
