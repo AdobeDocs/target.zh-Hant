@@ -250,7 +250,7 @@ The following information helps you understand the counting strategy used for [!
 
 * **使用rel=&quot;canonical&quot;**：有時A/B測試需要不同的URL才能顯示變數。 在這些情況下，所有變異都應該包含參照原始（控制） URL的rel=&quot;canonical&quot;標籤。 例如，如果[!DNL Adobe]正在測試其首頁是否有每個變數的不同URL，首頁的下列canonical標籤應該放在每個變數的`<head>`標籤中：
 
-  `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com/tw" />`
 
 * **使用302 （暫時）重新導向**：當測試中的變異頁面使用個別URL時，[!DNL Google]建議使用302重新導向，將流量導向測試變異。 302重新導向會通知搜尋引擎，重新導向是暫時性的，而且只有在測試執行時才有效。
 

@@ -45,7 +45,7 @@ ht-degree: 58%
 
    >[!NOTE]
    >
-   >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都相符。
+   >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。 因此，[!DNL `http://www.adobe.com/tw`]和[!DNL `https://wwww.adobe.com`]都相符。
 
    活動 URL 為將顯示建議所在的頁面。
 

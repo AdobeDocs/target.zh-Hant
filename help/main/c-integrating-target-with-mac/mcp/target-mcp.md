@@ -95,7 +95,7 @@ ht-degree: 0%
 
 +++我的[!DNL Adobe Target]資料是否已傳送給MCP使用者端提供者？
 
-當您提交提示時，MCP使用者端可能會傳送相關內容（包括MCP伺服器傳回的[!DNL Adobe Target]資料）到其模型以進行處理。 在連線到生產資料之前，請檢閱MCP使用者端提供者的隱私權和資料處理原則。 Adobe的資料處理受[Adobe隱私權原則](https://www.adobe.com/privacy.html)和[資料保護條款](https://www.adobe.com/go/dpt-ww)所規範。
+當您提交提示時，MCP使用者端可能會傳送相關內容（包括MCP伺服器傳回的[!DNL Adobe Target]資料）到其模型以進行處理。 在連線到生產資料之前，請檢閱MCP使用者端提供者的隱私權和資料處理原則。 Adobe的資料處理受[Adobe隱私權原則](https://www.adobe.com/tw/privacy.html)和[資料保護條款](https://www.adobe.com/go/dpt-ww)所規範。
 +++
 
 +++寫入操作是否會對已上線的活動造成非預期的變更？

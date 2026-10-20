@@ -149,7 +149,7 @@ Adobe Experience Cloud 客戶服務團隊在此協助您，並提供可以與其
 * © 2023 Adobe Systems Incorporated. All rights reserved.
 * Published by Adobe Systems Incorporated.
 
-[使用條款](https://www.adobe.com/legal/terms.html)
+[使用條款](https://www.adobe.com/tw/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol （®、™等） 表示Adobe商標。
 
