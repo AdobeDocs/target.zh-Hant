@@ -69,7 +69,7 @@ ht-degree: 23%
 
    如果您的帳戶[設定了預設的 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，該 URL 依預設會顯示。 您可以視需要將預設URL變更為其他URL。
 
-   [!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都相符。
+   [!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com/tw`]和[!DNL `https://wwww.adobe.com`]都相符。
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 

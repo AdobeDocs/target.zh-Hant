@@ -45,7 +45,7 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >[!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都相符。
+   >[!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com/tw`]和[!DNL `https://wwww.adobe.com`]都相符。
 
    具有指定URL的頁面會在VEC中開啟。
 

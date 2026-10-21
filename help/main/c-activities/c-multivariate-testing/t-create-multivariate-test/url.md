@@ -27,7 +27,7 @@ ht-degree: 38%
 
    >[!NOTE]
    >
-   >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。 因此，[!DNL `https://www.adobe.com`]和[!DNL `http://www.adobe.com`]都相符。
+   >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。 因此，[!DNL `https://www.adobe.com/tw`]和[!DNL `http://www.adobe.com/tw`]都相符。
 
    根據預設，[!UICONTROL 視覺化體驗撰寫器] (VEC)會開啟[視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。 您可以在活動建立期間指定不同的頁面。
 
