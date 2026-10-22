@@ -76,12 +76,12 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 >
 >mbox.js資料庫是[!DNL Target]的舊版實作，自2021年3月31日起不再支援。 升級至[!UICONTROL Experience Platform Web SDK] （偏好設定）或at.js最新版本。
 
-在您網站的每個頁面上參考[!UICONTROL Experience Platform Web SDK]或at.js。 例如，將其中一個程式庫新增至全域標頭。 或者，使用Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的[標籤來實作[!DNL Target]。
+在您網站的每個頁面上參考[!UICONTROL Experience Platform Web SDK]或at.js。 例如，將其中一個程式庫新增至全域標頭。 或者，使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的標籤來實作[!DNL Target]。
 
 下列資源包含協助您實作 [!DNL Experience Platform Web SDK] 或 at.js 的詳細資訊：
 
 * [[!DNL Adobe Experience Platform Web SDK]副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次訪客請求針對[!DNL Target]最佳化的頁面時，就會傳送即時請求給目標定位系統，以決定要提供的內容。 每次頁面載入時，都會提出並完成此要求，受行銷人員控制的活動和體驗管理。 內容將目標鎖定在個別網站訪客，最大化回應率、贏取率和收入。 個人化內容可協助確保訪客回應、互動或進行購買。
 
