@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 24%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # [!DNL Adobe Target] 運作方式
 
@@ -236,13 +236,7 @@ The following information helps you understand the counting strategy used for [!
 
 [!DNL Adobe Target] 會符合搜尋引擎對於測試的準則。
 
-如需詳細資訊，請參閱下列 Google 資源:
-
-* [網站測試和 Google 搜尋](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [實驗與隱身](https://support.google.com/analytics/answer/12979939?hl)
-
-
-[Google 網站管理員中心部落格](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)文章中已提供準則。 雖然文章發佈於2012年，但仍為[!DNL Google]對這件事的最新表述，准則仍然適用。
+如需詳細資訊，請參閱[Google檔案](https://developers.google.com/search/docs/crawling-indexing/website-testing)。
 
 * **無遮蓋**：遮蓋是指將一組內容顯示給使用者，並將一組內容顯示給搜尋引擎機器人，方法是特別識別機器人，並將不同的內容提供給搜尋引擎機器人。
 
@@ -266,13 +260,7 @@ The following information helps you understand the counting strategy used for [!
 
   此外，請考量您測試頁面的協助工具。 如果搜尋引擎無法存取頁面，且從來無意在自然搜尋中排名，則這些考量事項不適用。 其中一個範例是電子郵件促銷活動的專屬著陸頁面。
 
-Google 表示下列這些準則「應該會讓您的測試幾乎或完全不影響您的網站在搜尋結果中的情形」。
-
-除了這些準則，Google 在說明文件中還對「內容實驗」工具多提供一條準則:
-
-* 「變異頁面應該維持原始頁面內容的本意。 這些變異不可變更該原始內容的意義，或使用者對原始內容的普遍認知。」
-
-Google 舉例表示「如果網站的原始頁面所載入的關鍵字與顯示給使用者的組合無關，我們會從索引中移除該網站。」
+Google指出，測試中的變數通常對搜尋結果片段或頁面排名沒有影響或影響很小。
 
 [!UICONTROL Adobe]認為在測試變異中，很難無意間改變原始內容的含義。 但是，[!UICONTROL Adobe]建議注意頁面上的關鍵字主題並維護這些主題。 變更頁面內容 (尤其是新增或刪除有意義的關鍵字) 可能導致 URL 在自然搜尋中的排名發生變化。 [!DNL Adobe] 建議您與 SEO 合作夥伴互動，以作為測試通訊協定的一部分。
 
