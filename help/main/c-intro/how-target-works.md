@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 24%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # [!DNL Adobe Target] 運作方式
 
@@ -69,19 +69,19 @@ ht-degree: 24%
 
 Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此使用者端JavaScript程式庫可讓[!DNL Adobe Experience Cloud]客戶透過[!DNL Experience Platform Edge Network]與各種服務互動。 [!DNL Adobe]建議新[!DNL Target]客戶實作[!DNL Experience Platform Web SDK]。
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此使用者端JavaScript程式庫可讓[!DNL Adobe Experience Cloud]客戶透過[!DNL Experience Platform Edge Network]與各種服務互動。 [!DNL Adobe]建議新[!DNL Target]客戶實作[!DNL Experience Platform Web SDK]。
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**：這個[!DNL Target]的實作程式庫可縮短Web實作的頁面載入時間，並為單頁應用程式提供更好的選項。 經常更新新功能，[!DNL Adobe]建議所有[at.js使用者更新至最新版本](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 >[!NOTE]
 >
 >mbox.js資料庫是[!DNL Target]的舊版實作，自2021年3月31日起不再支援。 升級至[!UICONTROL Experience Platform Web SDK] （偏好設定）或at.js最新版本。
 
-在您網站的每個頁面上參考[!UICONTROL Experience Platform Web SDK]或at.js。 例如，將其中一個程式庫新增至全域標頭。 或者，使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home){target=_blank}中的標籤來實作[!DNL Target]。
+在您網站的每個頁面上參考[!UICONTROL Experience Platform Web SDK]或at.js。 例如，將其中一個程式庫新增至全域標頭。 或者，使用Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的[標籤來實作[!DNL Target]。
 
 下列資源包含協助您實作 [!DNL Experience Platform Web SDK] 或 at.js 的詳細資訊：
 
-* [[!DNL Adobe Experience Platform Web SDK]副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hant){target=_blank}
-* [使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK]副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次訪客請求針對[!DNL Target]最佳化的頁面時，就會傳送即時請求給目標定位系統，以決定要提供的內容。 每次頁面載入時，都會提出並完成此要求，受行銷人員控制的活動和體驗管理。 內容將目標鎖定在個別網站訪客，最大化回應率、贏取率和收入。 個人化內容可協助確保訪客回應、互動或進行購買。
 
@@ -213,7 +213,7 @@ The following information helps you understand the counting strategy used for [!
 >
 >[!DNL Target]目前在中國缺少Edge叢集，因此限制了該區域[!DNL Target]客戶的訪客效能。 防火牆和缺少Edge叢集可能會影響網站體驗，導致轉譯和頁面載入速度緩慢。 此外，行銷人員在使用[!DNL Target]編寫UI時可能會遇到延遲。
 
-如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保護的使用者體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -236,13 +236,7 @@ The following information helps you understand the counting strategy used for [!
 
 [!DNL Adobe Target] 會符合搜尋引擎對於測試的準則。
 
-如需詳細資訊，請參閱下列 Google 資源:
-
-* [網站測試和 Google 搜尋](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [實驗與隱身](https://support.google.com/analytics/answer/12979939?hl)
-
-
-[Google 網站管理員中心部落格](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)文章中已提供準則。 雖然文章發佈於2012年，但仍為[!DNL Google]對這件事的最新表述，准則仍然適用。
+如需詳細資訊，請參閱[Google檔案](https://developers.google.com/search/docs/crawling-indexing/website-testing)。
 
 * **無遮蓋**：遮蓋是指將一組內容顯示給使用者，並將一組內容顯示給搜尋引擎機器人，方法是特別識別機器人，並將不同的內容提供給搜尋引擎機器人。
 
@@ -250,7 +244,7 @@ The following information helps you understand the counting strategy used for [!
 
 * **使用rel=&quot;canonical&quot;**：有時A/B測試需要不同的URL才能顯示變數。 在這些情況下，所有變異都應該包含參照原始（控制） URL的rel=&quot;canonical&quot;標籤。 例如，如果[!DNL Adobe]正在測試其首頁是否有每個變數的不同URL，首頁的下列canonical標籤應該放在每個變數的`<head>`標籤中：
 
-  `<link rel="canonical" href="https://www.adobe.com/tw" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **使用302 （暫時）重新導向**：當測試中的變異頁面使用個別URL時，[!DNL Google]建議使用302重新導向，將流量導向測試變異。 302重新導向會通知搜尋引擎，重新導向是暫時性的，而且只有在測試執行時才有效。
 
@@ -266,13 +260,7 @@ The following information helps you understand the counting strategy used for [!
 
   此外，請考量您測試頁面的協助工具。 如果搜尋引擎無法存取頁面，且從來無意在自然搜尋中排名，則這些考量事項不適用。 其中一個範例是電子郵件促銷活動的專屬著陸頁面。
 
-Google 表示下列這些準則「應該會讓您的測試幾乎或完全不影響您的網站在搜尋結果中的情形」。
-
-除了這些準則，Google 在說明文件中還對「內容實驗」工具多提供一條準則:
-
-* 「變異頁面應該維持原始頁面內容的本意。 這些變異不可變更該原始內容的意義，或使用者對原始內容的普遍認知。」
-
-Google 舉例表示「如果網站的原始頁面所載入的關鍵字與顯示給使用者的組合無關，我們會從索引中移除該網站。」
+Google指出，測試中的變數通常對搜尋結果片段或頁面排名沒有影響或影響很小。
 
 [!UICONTROL Adobe]認為在測試變異中，很難無意間改變原始內容的含義。 但是，[!UICONTROL Adobe]建議注意頁面上的關鍵字主題並維護這些主題。 變更頁面內容 (尤其是新增或刪除有意義的關鍵字) 可能導致 URL 在自然搜尋中的排名發生變化。 [!DNL Adobe] 建議您與 SEO 合作夥伴互動，以作為測試通訊協定的一部分。
 
