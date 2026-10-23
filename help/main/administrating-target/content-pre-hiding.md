@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # 個人化體驗的內容預先隱藏
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 這會將忽隱忽現的管理設定套用至您的執行個體。
 
-1. 啟用後，請按一下[下載] **&#x200B;**，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/prehide-sdk)。
+1. 啟用後，請按一下[下載] ****，然後將檔案新增至頁面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前載入。 如需完整的實作指示，請參閱[預先隱藏SDK的內容](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 為您的執行個體啟用預先隱藏後，請選擇每個活動是否在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;中使用它。 您啟用預先隱藏的活動會在其上線時包含在目標行為中。
 
-然後[!DNL Target]會從在[!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 表單式撰寫器]中編寫的已上線活動，建置輕量型規則集，其中說明選取器以及傳遞可以變更的區域。
+然後[!DNL Target]會從在[!UICONTROL 視覺化體驗撰寫器] (VEC)中編寫的已上線活動中建置輕量型規則集，其中說明傳送可以變更的選擇器和區域。
 
 當您建立或編輯活動時：
 
