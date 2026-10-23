@@ -7,13 +7,11 @@ source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 9%
-
 ---
-
 
 # 旗標 {#flags}
 
-+ [概述](home.md)
++ [概觀](home.md)
 + 快速入門 {#get-started}
   + [標幟簡介](getting-started/introduction.md)
   + [為何使用標幟](getting-started/why-use-flags.md)

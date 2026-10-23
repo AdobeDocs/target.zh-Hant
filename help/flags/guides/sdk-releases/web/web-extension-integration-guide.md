@@ -147,7 +147,7 @@ window.flagClientReady
 
 | 屬性 | 必要 | 說明 |
 |---|---|---|
-| `identityNamespace` | 是 | 身分名稱空間（請參閱[Adobe身分名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)）。 通用值： `ECID`、`Email`、`CRMId`。 |
+| `identityNamespace` | 是 | 身分名稱空間（請參閱[Adobe身分名稱空間](https://experienceleague.adobe.com/zh-Hant/docs/experience-platform/identity/features/namespaces)）。 通用值： `ECID`、`Email`、`CRMId`。 |
 | `identityId` | 是 | 目前使用者的身分值。 |
 | `attributes` | 否 | `Record<string, string[]>`. 索引鍵是旗標規則所使用的內容屬性名稱（例如`locale`、`platform`）。 值是該索引鍵的候選屬性值清單。 |
 
