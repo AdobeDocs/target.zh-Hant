@@ -912,7 +912,7 @@ ht-degree: 14%
 |---|---|---|
 | 活動 | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | 產品建議 | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| 客群 | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
+| 對象 | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | 屬性 | 1 | `list_target_properties` |
 | 報表 | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
