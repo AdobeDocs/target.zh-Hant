@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1754'
 ht-degree: 69%
 ---
 # 第 7 章：建立和執行第一個 [!DNL Target] 活動
@@ -126,4 +126,4 @@ ht-degree: 69%
 
 ## 開啟 [!DNL Target] 並建立及啟動您的活動
 
-您已填妥活動規劃師。 現在應該進入解決方案並建立您的活動。 [!DNL Target]可讓您在[!UICONTROL 視覺化體驗撰寫器]中輕鬆修改網頁。
+您已填妥活動規劃師。 現在進入解決方案並建立您的活動了。 [!DNL Target]可讓您在[!UICONTROL 視覺化體驗撰寫器]中輕鬆修改網頁。

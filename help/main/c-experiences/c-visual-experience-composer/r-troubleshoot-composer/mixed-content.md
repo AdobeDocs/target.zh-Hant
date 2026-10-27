@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 84%
+source-wordcount: '569'
+ht-degree: 73%
 ---
 # 在您的瀏覽器中啟用混合式內容
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 
 先前雖然不允許混合式內容，但是當您在建立活動時，仍可在三步驟引導式工作流程的步驟 1 執行一些動作。 [!DNL Target] 現在禁止在步驟 1 執行動作。 出現此訊息時，您必須啟用混合式內容才能繼續建立活動。
 
-瀏覽器的安全性設定可能會封鎖混合式內容或不安全 (HTTP) 內容，使其無法載入到安全 (HTTPS) 頁面或頁框 (例如 VEC)。 如果您不想停用瀏覽器的安全性設定，您必須擁有 HTTPS 網站。
+瀏覽器的安全性設定可能會封鎖混合式內容或不安全 (HTTP) 內容，使其無法載入到安全 (HTTPS) 頁面或頁框 (例如 VEC)。 如果您不想停用瀏覽器的安全性設定，您必須擁有HTTPS網站。
 
 如果您的網站在不安全 (HTTP) 網域中運作，您需要允許 VEC 載入使用中的混合式內容。
 
@@ -47,7 +47,7 @@ ht-degree: 84%
 
 ## 在 [!DNL Google Chrome] 中啟用混合式內容 {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-如果您透過安全連線造訪網站，[!DNL Chrome] 會驗證網頁內容是否經過安全傳輸。
+如果您透過安全連線造訪網站，[!DNL Chrome]會驗證網頁上的內容是否已安全地傳輸。
 
 請參閱 Google Chrome 說明中的「[管理不安全網站的警告](https://support.google.com/chrome/answer/99020?hl=en)」。
 
@@ -86,7 +86,7 @@ ht-degree: 84%
 
 ## 在 [!DNL Microsoft Edge] 中啟用混合式內容
 
-如果您透過安全連線造訪網站，[!DNL Edge] 會驗證網頁內容是否經過安全地傳輸。
+如果您透過安全連線造訪網站，[!DNL Edge]會驗證網頁上的內容是否已安全地傳輸。
 
 如果您正在搭配最新版 [!DNL Edge] 使用 VEC，您必須更新網站設定。 您網站的訪客不需要完成這些步驟。
 

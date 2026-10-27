@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 50%
+source-wordcount: '1475'
+ht-degree: 46%
 ---
 # 重新導向產品建議 - A4T 常見問題集
 
@@ -145,7 +145,7 @@ ht-degree: 50%
 
 +++
 
-## 如果不使用 A4T 來處理重新導向活動，且不想在 URL 中多出這些額外的參數，怎麼辦? {#section_9E608D75FF9349FE96C65FEDD7539F45}
+## 如果不使用A4T來處理重新導向活動，且不想在URL中多出這些額外的引數，怎麼辦？ {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 +++回答
 使用自訂編碼重新導向，如果：
@@ -163,7 +163,7 @@ ht-degree: 50%
 +++回答
 如果您使用 A4T 和重新導向產品建議，Target 會將 `adobe_mc_ref` 和 `adobe_mc_sdid` 參數附加至 URL。 這些值皆已完成 URL 編碼。 一切通常皆沒問題，不過，某些客戶可能有負載平衡器或 WEB 伺服器，會嘗試將查詢字串參數再多編碼一次。
 
-因為編碼兩次，當訪客 API 嘗試將 `adobe_mc_sdid` 值解碼時，就無法擷取 SDID 值並產生新的 SDID。 此程式會導致傳給Target和Analytics的SDID值不正確，且您在Analytics報表中看到重新導向分割不平均。
+因為編碼兩次，當訪客API嘗試解碼`adobe_mc_sdid`值時，就無法擷取SDID值並產生新的SDID。 此程式會導致傳給Target和Analytics的SDID值不正確，且您在Analytics報表中看到重新導向分割不平均。
 
 Adobe建議您洽詢IT團隊，確定`adobe_mc_ref`和`adobe_mc_sdid`已加入允許清單，因此這些值絕不會轉換。
 
@@ -183,13 +183,13 @@ Adobe建議您洽詢IT團隊，確定`adobe_mc_ref`和`adobe_mc_sdid`已加入�
 ## 我可以使用自訂/HTML 重新導向產品建議嗎? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++回答
-否，對於以 [!DNL Analytics] 作為報表來源 (A4T) 的活動，您必須使用內建的重新導向產品建議。 對 [!DNL Target] 而言，HTML 產品建議不透明: [!DNL Target] 無法知道一段特定的 HTML 包含可將重新導向具現化的 JavaScript。
+否，對於以 [!DNL Analytics] 作為報表來源 (A4T) 的活動，您必須使用內建的重新導向產品建議。 從[!DNL Target]的觀點來看，HTML選件不透明： [!DNL Target]無法知道一段特定的HTML包含可將重新導向具現化的JavaScript。
 
 +++
 
 ### 我可以搭配[!DNL Platform Web SDK]使用自訂/HTML重新導向選件嗎？
 
 +++回答
-否，對於使用A4T的活動，您必須使用內建的重新導向選件。 從[!DNL Target]的觀點來看，HTML選件是不透明的。 [!DNL Target]無法得知某段HTML包含可將重新導向具現化的JavaScript。
+否，對於使用A4T的活動，您必須使用內建的重新導向選件。 從[!DNL Target]的觀點來看，HTML選件是不透明的。 [!DNL Target]無法得知特定HTML片段包含可將重新導向具現化的JavaScript。
 
 +++

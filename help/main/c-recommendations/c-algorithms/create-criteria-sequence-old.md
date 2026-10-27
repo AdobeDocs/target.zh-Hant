@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 30%
+source-wordcount: '869'
+ht-degree: 26%
 ---
 # 建立條件序列
 
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 若要建立條件順序，您必須先建立您要在序列中包括的條件。 如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
-透過使用條件序列，您可以在條件未傳回可滿足您的設計的足夠結果時，提供其他鎖定目標的建議，而非使用更一般的備用建議。 通常，條件序列將從可能傳回較少結果的更特定目標定位，繼續到通常傳回較多結果的更一般目標定位。
+當條件未傳回足夠結果填滿您的設計時，透過使用條件序列，您可以提供其他鎖定目標的建議，而不是使用較一般的備用建議。 通常，條件序列將從可能傳回較少結果的更特定目標定位，繼續到通常傳回較多結果的更一般目標定位。
 
 您的條件序列可能會依頁面型別的不同而有所不同，如下列範例所示：
 

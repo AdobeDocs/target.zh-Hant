@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 29%
+source-wordcount: '1054'
+ht-degree: 27%
 ---
 # [!UICONTROL Automated Personalization] (AP)
 
@@ -81,7 +81,7 @@ ht-degree: 29%
 
 * 多臂吃角子老虎機可確保模型一律會「花費」一小部分的流量，在整個活動期間繼續學習，並防止過度利用先前學習過的趨勢。
 * 每24小時使用最新的訪客行為資料重建基礎模型，以確保[!DNL Target]一律使用變更的訪客偏好設定。
-* 如果演算法無法判斷個別訪客的成功體驗，它會自動切換，以顯示整體的最佳執行體驗，同時仍繼續尋找個人化獲勝者。 使用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)找到執行最佳的體驗。
+* 如果演演算法無法判斷個別訪客的獲勝體驗，它會自動切換為顯示整體表現最佳的體驗，同時繼續尋找個人化的獲勝者。 使用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)找到執行最佳的體驗。
 
 ## 模型會持續將單一目標量度最佳化
 

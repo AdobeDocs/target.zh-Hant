@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 18%
+source-wordcount: '2160'
+ht-degree: 16%
 ---
 # [!UICONTROL 自動鎖定目標]總覽
 
@@ -153,7 +153,7 @@ A/B活動流程中的[!UICONTROL 自動鎖定目標]選項可讓您只要按一�
 
 * 多臂吃角子老虎機可確保模型一律「花費」少量流量，在整個活動學習期間持續學習，並防止過度利用先前學習的趨勢。
 * 基礎模型每24小時會使用最新的訪客行為資料重建一次，以確保[!DNL Target]一律會利用訪客偏好設定的不斷變化進行探索。
-* 如果演算法無法為個人決定勝出體驗，則會自動切換為顯示整體表現最佳的體驗，同時仍繼續尋找個人化獲勝者。 採用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)可找出表現最佳的體驗。
+* 如果演演算法無法判斷個人的成功體驗，它會自動切換為顯示整體最佳表現體驗，同時繼續尋找個人化的獲勝者。 採用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)可找出表現最佳的體驗。
 
 ### 演演算法會持續針對單一目標量度最佳化。
 
@@ -165,7 +165,7 @@ A/B活動流程中的[!UICONTROL 自動鎖定目標]選項可讓您只要按一�
 
 ### [!DNL Target]會自動使用所有[!DNL Adobe Experience Cloud]個共用對象來建置個人化模型。
 
-* 您不需要做任何特定的動作將對象新增至模型。 如需將 [!DNL Experience Cloud Audiences] 用於 [!DNL Target] 的相關資訊，請參閱 [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)。
+* 您不需要執行任何特定動作，即可將對象新增至模型。 如需將 [!DNL Experience Cloud Audiences] 用於 [!DNL Target] 的相關資訊，請參閱 [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)。
 
 ### 行銷人員可以上傳離線資料、傾向分數或其他自訂資料，以建立個人化模型。
 

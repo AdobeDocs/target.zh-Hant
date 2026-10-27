@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 56%
+source-wordcount: '648'
+ht-degree: 50%
 ---
 # 授予 Adobe I/O 整合功能對工作區的存取權並指派角色
 
@@ -60,7 +60,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->如果未執行此動作，在 [!DNL Target] 2019 年 9 月版之後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。 事先設定整合功能並不會有任何不利的反應。 此變更越早進行越好。 根據您組織中的工作區數量，此程式只需要按幾下滑鼠，即可使用所需角色將現有整合功能新增至工作區。
+>如果未執行此動作，在2019年9月[!DNL Target]發行後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。 事先設定整合功能並不會有任何不利的反應。 此變更越早進行越好。 根據您組織中的工作區數量，此程式只需要按幾下滑鼠，即可使用所需角色將現有整合功能新增至工作區。
 
 **如何授予 Adobe I/O 整合功能對工作區的存取權並指派角色:**
 

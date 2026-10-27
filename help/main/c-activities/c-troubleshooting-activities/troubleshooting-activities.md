@@ -1,5 +1,5 @@
 ---
-keywords: 疑難排解 Target; 預設內容; 測試未上線; 活動未上線; 鎖定目標無法使用; 顯示上一個體驗; 無法建立活動; 建立活動; 頁面結構已變更; 頁面結構已修改; 錯誤訊息; 誤刪輪廓指令碼; ajax 無法使用
+keywords: 疑難排解Target；預設內容；測試未上線；活動未上線；鎖定目標無法使用；顯示上一個體驗；無法建立活動；建立活動；頁面結構已變更；頁面結構已修改；錯誤訊息；錯誤刪除設定檔指令碼； ajax無法使用
 description: 如果您的Adobe [!DNL Target]活動未出現在網站上，請尋找疑難排解建議。
 title: 如何疑難排解活動？
 feature: Activities
@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 41%
+source-wordcount: '870'
+ht-degree: 36%
 ---
 # 疑難排解活動
 

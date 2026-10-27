@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4075'
-ht-degree: 31%
+source-wordcount: '4083'
+ht-degree: 29%
 ---
 # 使推薦以推薦索引鍵為依據
 
@@ -372,7 +372,7 @@ ht-degree: 31%
 
    ![建立新條件對話方塊](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-如果自訂輪廓屬性未直接比對至單一實體 ID，則需要向 [!DNL Recommendations] 解說您希望實體的比對如何發生。 例如，假設您要顯示訪客最喜愛品牌的最暢銷商品專案。
+如果自訂設定檔屬性未直接比對至單一實體ID，則需要向[!DNL Recommendations]說明您希望實體的比對如何發生。 例如，假設您要顯示訪客最喜愛品牌的最暢銷商品專案。
 
 1. 從&#x200B;**[!UICONTROL 建議索引鍵]**&#x200B;下拉式清單（例如「最喜愛的品牌」）中選取自訂設定檔屬性。
 
@@ -380,7 +380,7 @@ ht-degree: 31%
 
    [!UICONTROL 依唯一值]分組選項隨即顯示。
 
-1. 選取符合所選索引鍵的實體屬性。 在此案例中，「最喜愛的品牌」與`entity.brand`相符。
+1. 選取與您所選索引鍵相符的實體屬性。 在此案例中，「最喜愛的品牌」與`entity.brand`相符。
 
    [!DNL Recommendations]現在會產生每個品牌的「最暢銷商品」清單，並依據訪客最喜愛的品牌設定檔屬性中儲存的值，向訪客顯示相關的「最暢銷商品」清單。
 

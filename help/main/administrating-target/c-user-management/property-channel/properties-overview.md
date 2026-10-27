@@ -9,30 +9,42 @@ exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 53%
-
+source-wordcount: '1513'
+ht-degree: 52%
 ---
-
 # 設定企業權限
 
 關於新增使用者至您的[!DNL Target]實作；建立工作區、使用者群組和屬性；更新您的[!DNL Target]實作以包括`at_property`引數；以及指定角色和許可權所需工作的資訊。
@@ -92,8 +104,8 @@ ht-degree: 53%
 
    * **新工作區 (產品設定檔):** 您可以透過下列方式，開始利用新權限功能:
 
-      * 在 [!DNL Admin Console for Enterprise] 內建立新工作區。
-      * 對工作區指派 Target 屬性。
+     * 在 [!DNL Admin Console for Enterprise] 內建立新工作區。
+     * 對工作區指派 Target 屬性。
 
    您可以使用這些工作區來依地區、事業單位、網站區段或透過您選擇的任何其他方法來對不同團隊劃分存取權。 使用者可以屬於多個工作區並且可具有每個工作區內不同的角色。
 
@@ -104,7 +116,7 @@ ht-degree: 53%
 
 ### 取得工作區ID {#workspace-id}
 
-您必須傳遞 Workspace ID，才能在 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank} 中運用企業權限。
+您必須傳遞工作區ID，才能在[Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}中運用企業許可權。
 
 1. 在[Adobe Admin Console](https://adminconsole.adobe.com)中，按一下[!UICONTROL 產品]標籤，然後按一下左側功能表中的產品以顯示PLC（工作區）清單。
 1. 按一下想要的 PLC(workspace)，然後在 URL 中找出「輪廓」ID，如下所示。
@@ -135,7 +147,7 @@ ht-degree: 53%
    * **說明:** 指定此屬性的可選說明。
    * **管道:** 選取屬性需要的管道: Web、行動應用程式、電子郵件或其他/API (例如電視盒或 PlayStation 主控台)。
 
-1. 按一下「**[!UICONTROL 複製]**」將代碼複製到剪貼簿，在[5中執行步驟時將使用該代碼：更新您的實作以包括at_property引數](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
+1. 按一下「**[!UICONTROL 複製]**」將代碼複製到剪貼簿，在[5：更新您的實作以包括at_property引數](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中執行步驟時將使用該代碼。
 1. 完成時，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!NOTE]
@@ -225,21 +237,21 @@ ht-degree: 53%
 * 從 Adobe Target 介面存取 Adobe Admin Console (3 個方式)
 * 在 Adobe Admin Console 中設定工作區
 
-   * 新增使用者至工作區
-   * 新增屬性至工作區
+  * 新增使用者至工作區
+  * 新增屬性至工作區
 
 * 瞭解預設工作區
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### 如何在Adobe Target (3:05) ![教學課程徽章](/help/main/assets/tutorial.png)中建立屬性
+### 如何在Adobe Target中建立屬性(3:05) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 * 如何在 [!DNL Adobe Target] 介面中建立屬性
 * 如何產生要包括在您的屬性實作中的屬性 Token
 * 讓您自己熟悉這三個實作方法:
 
-   * Web
-   * 行動應用程式
-   * 電子郵件、機上盒或API呼叫
+  * Web
+  * 行動應用程式
+  * 電子郵件、機上盒或API呼叫
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

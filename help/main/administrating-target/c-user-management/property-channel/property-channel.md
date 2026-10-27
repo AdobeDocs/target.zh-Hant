@@ -9,33 +9,48 @@ exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 TQID: https://experienceleague.adobe.com/-BGfedOu33CmhLMoKT543SebVtnp-H3DiWhmwO9OkCw
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: e22d67ea-317b-44f8-abd1-52e07f636ca8
+    internal-label: Reporting
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 3233
-ht-degree: 47%
-
+source-wordcount: '3255'
+ht-degree: 48%
 ---
-
 # 企業使用者權限
 
 企業使用者許可權是一種正式管理整個企業的[!DNL Adobe Target]使用者存取許可權的方法。 根據不同的部門、全域位置、管道和其他邏輯群組，將使用者新增至[!DNL Target]、根據其角色指派許可權，以及建立團隊的工作區。 您可以將角色指派給使用者[!UICONTROL 觀察者]、[!UICONTROL 編輯者]、[!UICONTROL 核准者]或[!UICONTROL 發佈者]。
@@ -170,8 +185,8 @@ Web 屬性是一組規則加上一個內嵌代碼。 Web 屬性可以是一或�
 
 ### 多國組織
 
-如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美國網頁、屬性或網站。
-重組後，使用上圖中的角色，您可以設定類似於以下的工作區和許可權：
+如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。
+重新組織之後，使用上圖中的人物誌，您可以設定類似於以下的工作區和權限:
 
 * **Jan**: Jan 是組織的美國網頁、屬性和網站的 Center of Excellence 的最佳化領導者。 她很可能具有 Adobe Experience Cloud 中的系統管理員權限。
 
@@ -231,40 +246,40 @@ Web 屬性是一組規則加上一個內嵌代碼。 Web 屬性可以是一或�
 * **重要**: 請勿刪除具有活動的工作區。 如果您刪除具有活動的工作區，請和Client Care合作復原這些活動。
 * 使用「所有我的工作區」檢視時:
 
-   * 您可以查看具有適當角色和權限可存取之所有工作區的活動、對象和產品建議。
-   * 當您選取[!UICONTROL 我的所有工作區]檢視時，新欄會新增至「活動」、「對象」和「選件」頁面。 此欄列示專案的工作區以及您與該專案相關聯的使用者許可權（觀察者、編輯者或核准者），
-   * 在「所有我的工作區」檢視中建立活動、對象或產品建議時，您必須選取要建立項目的工作區。 只能選取您具有「編輯者」或「核准者」權限的工作區。
-   * 在「所有我的工作區」檢視中複製活動、對象或產品建議時，您必須選取要複製項目的工作區。 只能選取您具有「編輯者」或「核准者」權限的工作區。
+  * 您可以查看具有適當角色和權限可存取之所有工作區的活動、對象和產品建議。
+  * 當您選取[!UICONTROL 我的所有工作區]檢視時，新欄會新增至「活動」、「對象」和「選件」頁面。 此欄列示專案的工作區以及您與該專案相關聯的使用者許可權（觀察者、編輯者或核准者），
+  * 在「所有我的工作區」檢視中建立活動、對象或產品建議時，您必須選取要建立項目的工作區。 只能選取您具有「編輯者」或「核准者」權限的工作區。
+  * 在「所有我的工作區」檢視中複製活動、對象或產品建議時，您必須選取要複製項目的工作區。 只能選取您具有「編輯者」或「核准者」權限的工作區。
 
 * 任何工作區中的任何[!UICONTROL 核准者]都可以控制下列[!UICONTROL 管理]頁面上的任何設定：
 
-   * 可視化體驗撰寫器
-   * 報表
-   * Scene7設定
-   * 實施
-   * 屬性
-   * 主機
-   * 環境
-   * 回應 Token
-   * 使用者
+  * 可視化體驗撰寫器
+  * 報表
+  * Scene7設定
+  * 實施
+  * 屬性
+  * 主機
+  * 環境
+  * 回應 Token
+  * 使用者
 
 * 使用者無法將資源從一個工作區 (產品設定檔) 移動至另一個。 不過支援複製。
 * 從 [!DNL Audiences] 頁面檢視客群時，頁面載入的速度會低於預期。 如果您以任何方式與搜尋列互動，對象會較快顯示。 此問題已知，並將在即將推出的更新中修正。 此問題不會影響在活動建立工作流程期間選取對象。
 * 下列資源屬於新企業權限模型:
 
-   * 在[!DNL Target Standard/Premium]內建立的活動、對象和代碼選件，可在客戶啟用許可權後使用。 （注意：客戶必須有權使用[!DNL Target Premium]。）
-   * 屬性可以新增到預設Workspace中的現有活動；但是，此方法可能會有所變更。
-   * 只有在Target Premium內建立的新資源（例如活動、代碼選件和對象）才能使用許可權加以限制（啟用企業許可權後）。
-   * 外部資源僅可供預設工作區中的使用者使用。 預設工作區中的使用者的角色將全域適用 (所有 Target 要求 和所有 Target 資源)。
+  * 在[!DNL Target Standard/Premium]內建立的活動、對象和代碼選件，可在客戶啟用許可權後使用。 （注意：客戶必須有權使用[!DNL Target Premium]。）
+  * 屬性可以新增到預設Workspace中的現有活動；但是，此方法可能會有所變更。
+  * 只有在Target Premium內建立的新資源（例如活動、代碼選件和對象）才能使用許可權加以限制（啟用企業許可權後）。
+  * 外部資源僅可供預設工作區中的使用者使用。 預設工作區中的使用者的角色將全域適用 (所有 Target 要求 和所有 Target 資源)。
 
 * 下列資源&#x200B;*不*&#x200B;屬於新企業權限模型:
 
-   * 影像產品建議
-   * 所有建議資源，包括條件資料庫、設計資料庫、目錄、建議設定。
-   * 在啟用企業許可權之前於Target Premium內建立的現有資源（例如活動、代碼選件和對象）可供複製，但無法移至其他工作區。
-   * 使用下列解決方案或方法建立的活動、對象、代碼選件、影像選件或任何其他資源，無法透過企業許可權模型控制，但屬於預設Workspace的一部分： Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services，以及透過API建立的資源。 透過 API 建立的資源包括活動、客群、代碼產品建議和影像產品建議。
-   * 影像選件（儲存在`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`下的資產）目前無法透過企業許可權模型控制。
-   * 當目的地連結或目的地頁面屬於活動中所包含屬性的一部分時，clickTracking和重新導向功能就會運作。 此外，使用`targetPageParams()`函式時，clickTracking可能無法運作。 `targetPageParamsAll()` 為建議的函數。
+  * 影像產品建議
+  * 所有建議資源，包括條件資料庫、設計資料庫、目錄、建議設定。
+  * 在啟用企業許可權之前於Target Premium內建立的現有資源（例如活動、代碼選件和對象）可供複製，但無法移至其他工作區。
+  * 使用下列解決方案或方法建立的活動、對象、代碼選件、影像選件或任何其他資源，無法透過企業許可權模型控制，但屬於預設Workspace的一部分： Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services，以及透過API建立的資源。 透過 API 建立的資源包括活動、客群、代碼產品建議和影像產品建議。
+  * 影像選件（儲存在`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`下的資產）目前無法透過企業許可權模型控制。
+  * 當目的地連結或目的地頁面屬於活動中所包含屬性的一部分時，clickTracking和重新導向功能就會運作。 此外，使用`targetPageParams()`函式時，clickTracking可能無法運作。 `targetPageParamsAll()` 為建議的函數。
 
   [!DNL Target]目前需要在發生追蹤所在的任何頁面上具有`at_property`權杖。 如果Token (1)不存在，(2)未在活動設定（VEC內）時偵測到，或(3)未透過`targetPageParamsAll()`函式傳遞至clickTracking Target呼叫，則量度不會遞增，並會顯示為「0」。
 

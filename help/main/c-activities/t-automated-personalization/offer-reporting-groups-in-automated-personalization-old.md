@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: e8a43148-398f-56c7-9433-6564f96999c2
     internal-label: Reports
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '893'
 ht-degree: 25%
 ---
 # [!UICONTROL Automated Personalization]中的選件報表群組

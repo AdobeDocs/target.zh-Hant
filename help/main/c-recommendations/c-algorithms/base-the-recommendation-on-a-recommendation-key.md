@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 25%
+source-wordcount: '4442'
+ht-degree: 24%
 ---
 # 使推薦以推薦索引鍵為依據
 
@@ -419,7 +419,7 @@ if (tier) return tier;
 1. 從&#x200B;**[!UICONTROL 建議索引鍵]**&#x200B;下拉式清單（例如&quot;[!UICONTROL 最近新增到觀看清單的節目]&quot;）中選取自訂設定檔屬性。
 1. 接著，選取您的&#x200B;**[!UICONTROL 建議邏輯]** （例如[!UICONTROL 瀏覽過此專案、也瀏覽了]專案的使用者）。
 
-如果自訂輪廓屬性未直接比對至單一實體 ID，則需要向 [!DNL Recommendations] 解說您希望實體的比對如何發生。 例如，假設您要顯示訪客最喜愛品牌的最暢銷商品專案。
+如果自訂設定檔屬性未直接比對至單一實體ID，則需要向[!DNL Recommendations]說明您希望實體的比對如何發生。 例如，假設您要顯示訪客最喜愛品牌的最暢銷商品專案。
 
 1. 從&#x200B;**[!UICONTROL 建議索引鍵]**&#x200B;下拉式清單（例如「最喜愛的品牌」）中選取自訂設定檔屬性。
 
@@ -427,7 +427,7 @@ if (tier) return tier;
 
    [!UICONTROL 依唯一值]分組選項隨即顯示。
 
-1. 選取符合所選索引鍵的實體屬性。 在此案例中，「[!UICONTROL 最愛的品牌]」與`entity.brand`相符。
+1. 選取與您所選索引鍵相符的實體屬性。 在此案例中，「[!UICONTROL 最愛的品牌]」與`entity.brand`相符。
 
    [!DNL Recommendations]現在會產生每個品牌的「[!UICONTROL 最暢銷商品]」清單，並根據訪客的[!UICONTROL 最喜愛的品牌]設定檔屬性中儲存的值，向訪客顯示適當的「[!UICONTROL 最暢銷商品]」清單。
 

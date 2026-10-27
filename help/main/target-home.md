@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 28%
 ---
 # [!DNL Adobe Target]商業從業者指南
@@ -58,7 +58,7 @@ UI的設計目的是為了清楚且有效率，協助您充分利用[!DNL Target
 
 *[!DNL *Targe]t UI更新常見問題**
 
-此常見問題集解決有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，此FAQ可協助您順利轉換，並充分運用更新後的UI。
+此常見問題集解決有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，本FAQ可協助您順利轉換並充分運用更新後的UI。
 
 [![深入瞭解圖示](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 

@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2259'
-ht-degree: 14%
+source-wordcount: '2260'
+ht-degree: 13%
 ---
 # 使用動態和靜態包含規則
 
@@ -122,7 +122,7 @@ ht-degree: 14%
 
 | 動作 | 可用於 | 詳細資料 |
 |--- |--- |--- |
-| [!UICONTROL 忽略此篩選規則] | [!UICONTROL 設定檔屬性比對]與[!UICONTROL 引數比對] | 此動作是[!UICONTROL 設定檔屬性比對]和[!UICONTROL 引數比對]的預設值。<P>此選項會指定忽略規則。 例如，假設有三個篩選規則，而第三個規則未傳遞任何值，為了避免不傳回任何結果，您可以直接用空白值忽略第三個規則。 |
+| [!UICONTROL 忽略此篩選規則] | [!UICONTROL 設定檔屬性比對]與[!UICONTROL 引數比對] | 此動作是[!UICONTROL 設定檔屬性比對]和[!UICONTROL 引數比對]的預設值。<P>此選項會指定忽略規則。 例如，如果有三個篩選規則，且第三個規則未傳遞任何值，您可以直接忽略具有空白值的第三個規則，而不傳回任何結果。 |
 | [!UICONTROL 不顯示此條件的任何結果]<P>（僅限條件） | [!UICONTROL 實體屬性比對]、[!UICONTROL 設定檔屬性比對]和[!UICONTROL 引數比對] | 此動作是[!UICONTROL 實體屬性比對]的預設值。<P>在新增此選項之前，此動作是[!DNL Target]處理空白值的方式：不顯示此條件的結果。 |
 | [!UICONTROL 不促銷任何專案<P>（僅限促銷活動）] | [!UICONTROL 實體屬性比對]、[!UICONTROL 設定檔屬性比對]和[!UICONTROL 引數比對] | 此動作是[!UICONTROL 實體屬性比對]的預設值。<P>在新增此選項之前，此動作是[!DNL Target]處理空白值的方式：不顯示此條件的結果。 |
 | [!UICONTROL 使用靜態值] | [!UICONTROL 實體屬性比對]、[!UICONTROL 設定檔屬性比對]和[!UICONTROL 引數比對] | 如果值為空白，您可以選擇使用靜態值。 |

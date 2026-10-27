@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 92%
+source-wordcount: '1384'
+ht-degree: 89%
 ---
 # 回應式體驗適用的行動檢視區
 
@@ -101,7 +101,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->您可以在行動檢視區內編輯體驗。 不過，這些變更會套用到所有檢視區和裝置，而不只是您正在使用的檢視區。 同樣地，在標準桌上型電腦檢視中編輯體驗時，將會變更所有螢幕大小的頁面，而不只是桌上型電腦檢視。 目前，[!DNL Target] 不支援檢視區特有的頁面變更。
+>您可以在行動檢視區內編輯體驗。 不過，這些變更會套用至所有檢視區和裝置，而不只是您正在使用的檢視區。 同樣地，在標準桌上型電腦檢視中編輯體驗時，將會變更所有螢幕大小的頁面，而不只是桌上型電腦檢視。 目前，[!DNL Target] 不支援檢視區特有的頁面變更。
 
 ## 行動檢視區設定 {#task_B4B161499DC0470584ED922A4D20FCAB}
 

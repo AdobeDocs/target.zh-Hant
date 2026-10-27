@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 61%
+source-wordcount: '479'
+ht-degree: 57%
 ---
 # 初始佈建 - A4T 常見問題集
 
@@ -62,14 +62,14 @@ ht-degree: 61%
 
 +++
 
-## 在 Target 中為何看不到 Analytics 選項? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## 在Target中為何看不到Analytics選項？ {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++回答
 請參閱「為什麼我的報表套裝未載入」? 以上。 此問題的根本原因是相同的。
 
 +++
 
-## 在 Analytics 中為何看不到 A4T 報表? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## 在Analytics中為何看不到A4T報表？ {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++回答
 請參閱「為什麼我的報表套裝未載入」? above. 此問題的根本原因是相同的。

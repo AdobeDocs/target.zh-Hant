@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 49%
+source-wordcount: '2560'
+ht-degree: 46%
 ---
 # [!UICONTROL 視覺化體驗撰寫器]最佳作法和限制
 
@@ -79,7 +79,7 @@ ht-degree: 49%
 +++詳細資料
 在[!DNL Visual Experience Composer]中編輯CSS類別時，使用描述性類別名稱讓類別易於識別會很有幫助。 這有助於確保您編輯所需的 CSS 類別，且頁面如預期般地顯示。
 
-隱藏或移除元素時，請勿使用 `!important` CSS 屬性。
+隱藏或移除元素時，請勿使用`!important` CSS屬性。
 
 如果`!important` CSS屬性存在，`target.js`在傳遞期間所做的變更將會被網站的CSS規則覆寫。
 
@@ -124,7 +124,7 @@ OR
 
 +++
 
-### 請勿在網站中使用 base 標記來解析 URL 和連結。
+### 請勿在網站中使用base標籤來解析URL和連結。
 
 +++詳細資料
 VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果您新增 base 標記，則瀏覽器會再次解析代理伺服器所使用的 URL，URL 會看似中斷。
@@ -141,7 +141,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 
 每次變更都會在VEC中建立新元素。 因為第二個動作會修改元素 1，如果您刪除元素 1，第二個動作便沒有任何項目需要修改，因此變更不再有作用。
 
-換句話說，如果您使用文字新增元素，然後在個別的動作中使用不同文字編輯了該元素，則代碼編輯器會將這兩個動作顯示為個別的元素。 編輯元素時，您會建立可修改您原始建立元素的新元素，包含編輯的文字。 如果您之後刪除原始元素，編輯後文字將找不到編輯後的元素，因此將不會顯示。 第二個元素會維持在元素的清單中，但它不會影響頁面，因為它變更的元素已不再存在。
+換句話說，如果您使用文字新增元素，然後在個別的動作中使用不同文字編輯了該元素，則代碼編輯器會將這兩個動作顯示為個別的元素。 編輯元素時，您會建立可修改您原始建立元素的新元素，包含編輯的文字。 如果您接著刪除原始元素，則編輯的文字將找不到已編輯的元素，且不會顯示。 第二個元素會維持在元素的清單中，但它不會影響頁面，因為它變更的元素已不再存在。
 
 檢視[!UICONTROL 視覺化體驗撰寫器]&#x200B;[&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)中使用的元素選取器。
 
@@ -188,7 +188,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 
 +++
 
-### 請勿在網站中使用 base 標記來解析 URL 和連結。
+### 請勿在網站中使用base標籤來解析URL和連結。
 
 +++詳細資料
 當您使用[!UICONTROL 增強體驗撰寫器]時，網站會在幕後由Proxy伺服器操控，該伺服器會更新所有連結URL，讓它們在Proxy中運作。 如果您新增base標籤，瀏覽器會解析所有這些URL，因此這些URL看起來會損毀。
@@ -265,7 +265,7 @@ VEC會使用可更新連結的Proxy伺服器，在幕後操控網站。 如果�
 ### [!UICONTROL 移動]功能不支援z-index。
 
 +++詳細資料
-因為沒有 z-index 功能，被移動的元素無法移至另一個元素上方。 如需詳細資料，請參閱[限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
+因為沒有z-index功能，被移動的元素無法移至另一個元素上方。 如需詳細資料，請參閱[限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
 +++
 

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # [!UICONTROL 自動鎖定目標]常見問題集和疑難排解
 
@@ -61,12 +61,12 @@ ht-degree: 30%
 
 如果您的目標是儘可能使最多的流量個人化，在活動期限內，您可以維持90%目標配置和10%控制。 如果您的目標是執行比較個人化演演算法與控制項的實驗，則50/50的分割比例最適合活動期限。
 
-最佳實務是維持活動期限的流量配置分割，讓訪客不必在目標鎖定和控制項體驗之間切換。
+最佳實務是維持活動期限的流量分配分割，讓訪客不會在目標鎖定和控制項體驗之間切換。
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++

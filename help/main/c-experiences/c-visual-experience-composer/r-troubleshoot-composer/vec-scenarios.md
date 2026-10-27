@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 90%
+source-wordcount: '533'
+ht-degree: 87%
 ---
 # 頁面修改案例
 
@@ -95,7 +95,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 
 **結果:**
 
-因為 `ul.nav:eq(0)` 提供了動態新增的元素，選取器無法運作。 無法使用元素，也不會套用動作。 在建立活動之後，動態或手動新增具有相同類別的類似清單項目時，第一個位置上會建立新元素。 這會使選取器失去作用。
+因為 `ul.nav:eq(0)` 提供了動態新增的元素，選取器無法運作。 元素將無法使用，且動作不會套用。 在建立活動之後，動態或手動新增具有相同類別的類似清單項目時，第一個位置上會建立新元素。 這會使選取器失去作用。
 
 在可以記錄:
 

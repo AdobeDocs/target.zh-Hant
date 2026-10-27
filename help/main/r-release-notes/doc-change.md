@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c358f8940302be125c1f7ddab4f695846c46580b
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2624'
 ht-degree: 29%
 ---
 # 文件變更
@@ -164,7 +164,7 @@ ht-degree: 29%
 |  | [Adobe Target Cookie](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/target){target=_blank} | 更新文字以新增`sessionId`不能包含大括弧( {} )。<P>文字現在顯示：工作階段ID可以是任何可列印的字串，除了空格、問號( ？ )、大括弧( { } )或正斜線( / )。 長度應為1到128個字元。 |
 |  | [Adobe Target Delivery API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | 更新文字以新增`sessionId`不能包含大括弧( {} )。<P> 文字現在顯示：工作階段ID可以是任何可列印的字串，除了空格、問號( ？ )、大括弧( { } )或正斜線( / )。 長度應為1到128個字元。 |
 | 6 月 12 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.6.2 版的發行說明。 |
-|  | [[!DNL Target] UI更新常見問題](/help/main/c-intro/updated-ui-faq.md) | 新文章。<P>此常見問題集解決有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，此FAQ可協助您順利轉換，並充分運用更新後的UI。 |
+|  | [[!DNL Target] UI更新常見問題](/help/main/c-intro/updated-ui-faq.md) | 新文章。<P>此常見問題集解決有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，本FAQ可協助您順利轉換並充分運用更新後的UI。 |
 | 6 月 6 日 | [[!DNL Target] 發行說明 (最新)](/help/main/r-release-notes/release-notes.md) | 已新增 [!DNL Target Standard/Premium] 25.6.1 版的發行說明。 |
 
 ### [!DNL Target Standard/Premium] 25.5.1 （2025年5月5日）

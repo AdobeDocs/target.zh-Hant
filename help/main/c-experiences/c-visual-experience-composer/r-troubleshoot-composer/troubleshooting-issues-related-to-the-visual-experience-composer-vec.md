@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # 疑難排解[!UICONTROL 視覺化體驗撰寫器]的相關問題
 
@@ -47,14 +47,14 @@ ht-degree: 29%
 
 +++
 
-## 我的頁面不會在 EEC 中開啟，或載入緩慢。 活動或體驗在 VEC 中載入緩慢。 (僅限 VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## 我的頁面無法在EEC中開啟或載入緩慢。 活動或體驗在 VEC 中載入緩慢。 (僅限 VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++詳細資料
 數個問題可能會影響[!UICONTROL Target]體驗撰寫器中的頁面效能。 一些常見問題包括:
 
 * 您的頁面上沒有 mbox。
 * 您的網站使用 Proxy 封鎖，它不允許在這兩個體驗撰寫器中開啟頁面。
-* 您的網站不允許在 iFrame 中開啟網站本身。
+* 您的網站不允許在iFrame中開啟本身。
 
 如果[!UICONTROL 增強體驗撰寫器]發生問題，請嘗試關閉[!UICONTROL 增強體驗撰寫器]，並改用[!UICONTROL 視覺化體驗撰寫器]。
 
@@ -80,7 +80,7 @@ ht-degree: 29%
 >
 >* 在 VEC 中編輯時啟用規則，並在不使用 VEC 時停用規則。
 >
->對於[!UICONTROL Modify Response Header]延伸模組([!DNL Firefox])，因為您無法新增URL規則，所以您必須執行下列動作：
+>對於[!UICONTROL Modify Response Header]延伸模組([!DNL Firefox])，因為您無法新增URL規則，所以必須執行下列動作：
 >
 >* 在 VEC 中編輯時啟用規則，並在不使用 VEC 時停用規則。
 

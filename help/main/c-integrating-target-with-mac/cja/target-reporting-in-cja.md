@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
+source-git-commit: ea519da13a7a2e5dad0ea5303980347489b824df
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1935'
 ht-degree: 20%
 ---
 # 在[!DNL Adobe Customer Journey Analytics]中進行[!DNL Target]報告
@@ -198,21 +198,23 @@ ht-degree: 20%
 
 ## 在[!DNL Customer Journey Analytics]中建立和檢視活動報告
 
+>[!BEGINSHADEBOX]
+
+此整合與Target  (A4T)的Adobe Analytics不同。
+
+* [!DNL Target]/[!DNL Customer Journey Analytics]整合不包含預先建立的報表，例如A4T。 活動報告必須在[!DNL Customer Journey Analytics]中建置。
+
+* 如果選取了[!UICONTROL 使用CJA量度]作為活動的目標量度，則此選項可讓您靈活地決定何時必須定義特定的成功量度。 設定[!UICONTROL Experimentation]面板時選取成功量度。 提升度和可信度是根據所選CJA量度來計算。
+
+>[!ENDSHADEBOX]
+
 活動上線且您完成連線和資料檢視設定後，[!DNL Customer Journey Analytics]中即可使用報表資料。 從[!DNL Target]中活動的&#x200B;**[!UICONTROL 報表]**&#x200B;索引標籤中，使用Customer Journey Analytics中的&#x200B;**[!UICONTROL 檢視]**&#x200B;開啟[!DNL Customer Journey Analytics]進行分析。 目前，此連結會將您重新導向至[!DNL Customer Journey Analytics]首頁登陸頁面。
 
 ![CJA報告連結](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
->[!NOTE]
->
->此整合與Target  (A4T)的Adobe Analytics不同。
->
->* [!DNL Target]/[!DNL Customer Journey Analytics]整合不包含預先建立的報表，例如A4T。 活動報告必須在[!DNL Customer Journey Analytics]中建置。
->
->* 如果選取了[!UICONTROL 使用CJA量度]作為活動的目標量度，則此選項可讓您靈活地決定何時必須定義特定的成功量度。 設定[!UICONTROL Experimentation]面板時選取成功量度。 提升度和可信度是根據所選CJA量度來計算。
-
 1. 在[!DNL Customer Journey Analytics]中，建立Experimentation面板，然後從&#x200B;**[!UICONTROL Experiment]**&#x200B;下拉式功能表中選取活動。
 
-   如需詳細資訊，請參閱&#x200B;*[!DNL Customer Journey Analytics]*&#x200B;指南中&#x200B;*實驗面板*&#x200B;下的[實驗面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}。
+   如需詳細資訊，請參閱[實驗面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}檔案。
 
    Customer Journey Analytics中的![實驗面板](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
@@ -225,3 +227,5 @@ ht-degree: 20%
    [!UICONTROL Experimentation]面板會傳回一組豐富的資料和視覺效果，協助您更清楚瞭解實驗的執行方式。 如需詳細資訊，請參閱&#x200B;*[!DNL Customer Journey Analytics]*&#x200B;指南中&#x200B;*實驗面板*&#x200B;下的[[!UICONTROL 面板輸出]](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}。
 
    ![實驗中](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
+
+如果[!UICONTROL Experimentation]面板的成功量度顯示0、[!UICONTROL 轉換]、[!UICONTROL 提升度]和[!UICONTROL 信賴度]欄，則成功量度可能不會在與[!DNL Target]活動相同的事件中發生。 檢閱是否為您的[!DNL Target]維度啟用[持續性](#set-up-data-views)，以及它是否適合您的使用案例。 如需詳細資訊，請參閱[持續性](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}。

@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2201'
-ht-degree: 94%
+source-wordcount: '2202'
+ht-degree: 93%
 ---
 # [!DNL Adobe Target] 公告和活動
 
@@ -317,7 +317,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   +++詳細資料
 
-  市場人員、產品擁有者和開發人員被要求在網站、應用程式，以及與客戶連結的任何地方最佳化整體客戶體驗，此情況更勝以往。 包含數據孤島和複雜實作的多種工具也辦不到。
+  市場人員、產品擁有者和開發人員被要求在網站、應用程式，以及與客戶連結的任何地方最佳化整體客戶體驗，此情況更勝以往。 多種具有資料獨立單位和複雜實作的工具無法做到。
 
   在此網路研討會影片中，Adobe Target 產品專家會討論將關鍵體驗最佳化決策移到裝置上，以便在零延遲的情況下於本機執行最佳化，可以促成令人興奮的新使用案例，同時為客戶改善網站績效。
 

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 91%
+source-wordcount: '872'
+ht-degree: 88%
 ---
 # 推薦
 
@@ -66,7 +66,7 @@ ht-degree: 91%
 
 ## 詞彙
 
-開始使用 [!DNL Recommendations] 之前，請務必熟悉本節中使用的部分詞語。 如果您尚未完全瞭解這些詞語，請放心，當您設定 [!DNL Recommendations] 活動時，您會更熟悉這些詞語。
+開始使用 [!DNL Recommendations] 之前，請務必熟悉本節中使用的部分詞語。 如果您尚未完全瞭解這些詞語，請放心，當您設定[!DNL Recommendations]活動時，您會更熟悉這些詞語。
 
 | 術語 | 定義 |
 | --- | --- |

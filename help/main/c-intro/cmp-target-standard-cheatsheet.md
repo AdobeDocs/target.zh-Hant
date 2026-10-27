@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 50%
+source-wordcount: '2918'
+ht-degree: 48%
 ---
 # Target 最佳化和個人化常見問答
 
@@ -359,7 +359,7 @@ ht-degree: 50%
 
 +++
 
-**為什麼我無法通過[!UICONTROL 視覺化體驗撰寫器] (VEC)的登入頁面，或是進入我沒有特定URL、深藏在其中的頁面？**
+**為什麼我無法通過在[!UICONTROL 視覺化體驗撰寫器] (VEC)中的登入頁面，或是進入我沒有特定URL、深藏在其中的頁面？**
 
 +++檢視詳細資料
 使用[!UICONTROL 撰寫]和[!UICONTROL 瀏覽]功能來導覽至所選擇的頁面，並開始建立您的體驗。
@@ -395,7 +395,7 @@ ht-degree: 50%
 **為什麼我的 QA 程序中沒有發生內容傳送？**
 
 +++檢視詳細資料
-您的網站的元素上可能有動態 ID、重複的 ID 或動態類別。 您可能必須在帳戶層級 (或是在活動層級，如果問題是網域或頁面特定) 評估網站偏好設定選項。 請參閱 [CSS 選取器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
+您的網站可能有動態ID、重複ID或元素上的動態類別。 您可能必須在帳戶層級 (或是在活動層級，如果問題是網域或頁面特定) 評估網站偏好設定選項。 請參閱 [CSS 選取器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
 
 +++
 
@@ -440,7 +440,7 @@ ht-degree: 50%
 **我無法在執行活動之前定義客群。 我發現[!DNL Target]個活動中報表對象的這個方面很具限制性。 我怎麼做才能讓此程式簡單點？**
 
 +++檢視詳細資料
-這是可方便使用 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的位置。 如果您有[!DNL Adobe Analytics]，只要選擇來源作為[!DNL Analytics]即可，這樣即可免除此限制。 現在您可以隨時對任何對象執行分析，並且不需預先定義報表對象。
+這是可方便使用 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的位置。 如果您有[!DNL Adobe Analytics]，只要選擇來源作為[!DNL Analytics]即可，這樣即可免除此限制。 現在您可以隨時對任何對象執行分析，而且您不需要預先定義報表對象。
 
 +++
 

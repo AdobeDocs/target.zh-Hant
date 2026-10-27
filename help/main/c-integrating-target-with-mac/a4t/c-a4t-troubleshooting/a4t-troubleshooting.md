@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 87%
+source-wordcount: '972'
+ht-degree: 78%
 ---
 # 針對 Analytics 和 [!DNL Target] 整合 (A4T) 進行疑難排解
 
@@ -38,11 +38,11 @@ ht-degree: 87%
 
 可能發生資料顯示為「未指定」的原因有幾個：
 
-* [!DNL Target] 中的分類尚未完全處理。
+* [!DNL Target]中的分類尚未完全處理。
 
   若要在第一次儲存後分類報表，通常需要 24 到 72 小時。
 
-* 報表套裝不含任何資料，但 [!DNL Target] 已嘗試將點閱分類。 [!DNL Target] 要直到第一次點閱發生時才能夠分類。
+* 報表套裝不含任何資料，但[!DNL Target]已嘗試將點選分類。 [!DNL Target] 要直到第一次點閱發生時才能夠分類。
 
   確保報表套裝已至少有一次點閱。
 
@@ -54,7 +54,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->資料有時在報表中正確顯示，但接著回復成「未指定」，因為增加的新活動尚未完成分類。 請記住，若要在第一次儲存後分類報表，通常需要 24 到 72 小時。
+>資料有時在報表中正確顯示，但接著回覆成「未指定」，因為新增的活動尚未完成分類。 請記住，若要在第一次儲存後分類報表，通常需要 24 到 72 小時。
 >
 >列為「未指定」時不會遺失任何資料。 分類執行之後，資料會適當地指派給適當的活動或體驗。
 
@@ -64,7 +64,7 @@ ht-degree: 87%
 
 一般而言，如果您在報表中選擇的常用量度不是[!DNL Target]所特有（例如[!UICONTROL 頁面檢視次數]、[!UICONTROL 造訪次數]、[!UICONTROL 不重複訪客]等），就會顯示此列。 在此案例中，[!UICONTROL 「未指定」]列包含與[!DNL Target]活動無關的所有[!UICONTROL 頁面檢視]、[!UICONTROL 造訪]和[!UICONTROL 不重複訪客]。
 
-該列不會有任何 [!DNL Target] 相關資訊 (例如，沒有訪客、造訪次數或曝光率)。 如需詳細資訊，請參閱 *Analytics 技術備忘稿*&#x200B;中[報表中的「未指定」、「無」、「其他」和「未知」](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=zh-Hant)。
+該列不會有任何[!DNL Target]相關資訊（例如，沒有訪客、造訪次數或曝光數）。 如需詳細資訊，請參閱 *Analytics 技術備忘稿*&#x200B;中[報表中的「未指定」、「無」、「其他」和「未知」](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=zh-Hant)。
 
 如果您在報表中選擇特定於[!DNL Target]的量度，該[!UICONTROL 「未指定」]列就不會顯示。 避免報表中出現此情況的唯一方式就是在從該頁面傳送的每個要求上設定 [!DNL Target] 呼叫，這既不常見，也非必要。
 
@@ -80,7 +80,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。 請參閱[使用Analytics
 >
 >如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 
-## 我的 Analytics 區段未出現在 Target 中。 {#section_DEE87F1557834F448E99381D3D02EEEF}
+## 我的Analytics區段不會出現在Target中。 {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 開啟建立 A4T 活動之前，請確定您具備正確權限:
 
@@ -100,7 +100,7 @@ A4T 活動需要您指定 Analytics 追蹤伺服器。 請參閱[使用Analytics
 
 如果您正在使用多個報告來源，則在 [!DNL Target] 中設定的預設報告來源中也必須有報表套裝。 如果報表套裝不在預設報告來源中，則不會顯示報表套裝。
 
-如果您還是沒看到您要尋找的報表套裝，請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)來啟用它。
+如果您還是沒看到您要尋找的報表套裝，請連絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以啟用它。
 
 ## 我在報表中看到的資料量不如預期。 {#section_75002584FA63456D8D9086172925DD8D}
 

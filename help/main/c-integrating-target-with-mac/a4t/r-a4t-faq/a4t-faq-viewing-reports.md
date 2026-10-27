@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 27%
+source-wordcount: '2716'
+ht-degree: 26%
 ---
 # 檢視報表 - A4T 常見問題集
 
@@ -114,7 +114,7 @@ ht-degree: 27%
 ## 為什麼在[!DNL Analytics]報表中看到「未指定」？ 這是什麼意思? {#unspecified}
 
 +++回答
-在其他報表中，「未指定」表示資料不符合分類規則，但這在 A4T 中絕對不會發生。 如果看到「未指定」，就表示分類服務尚未執行。 通常需要 24 到 72 小時，活動資料才會出現在報表中。 即使在此之前活動不會顯示在此報表中，但這些活動相關的所有訪客資料皆會擷取並在分類完成時顯示。
+在其他報表中，「未指定」表示資料不符合分類規則，但這在 A4T 中絕對不會發生。 如果您看到「未指定」，表示分類服務尚未執行。 通常需要 24 到 72 小時，活動資料才會出現在報表中。 即使在此之前活動不會顯示在此報表中，但這些活動相關的所有訪客資料皆會擷取並在分類完成時顯示。
 
 分類期過後，從網站收集完資料的大約一小時後，資料就會出現在這些報表中。 報表中的所有量度、區段和值，來自於您設定活動時所選取的報告套裝。
 

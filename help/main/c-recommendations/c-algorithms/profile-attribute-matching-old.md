@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 6%
 ---
 # 設定檔屬性比對
@@ -51,7 +51,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### 比對工作與求職者
 
-假設您正嘗試將工作與求職者進行比對。 您只想建議與求職者位於相同城市的工作。
+假設您正嘗試將工作與求職者比對。 您只想建議與求職者位於相同城市的工作。
 
 您可以使用包含規則，將求職者在其訪客設定檔中的位置與工作清單比對，如下列範例所示：
 

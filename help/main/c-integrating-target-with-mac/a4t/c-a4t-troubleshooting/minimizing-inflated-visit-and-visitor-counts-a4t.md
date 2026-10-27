@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: 891742a5-242d-5099-966a-ca76c17cd2d2
     internal-label: Analytics for Target (A4T)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 90%
 ---
 # 在 A4T 中將膨脹的造訪和訪客計數減到最少
 
@@ -73,7 +73,7 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 
 在多數情況下，一個 [!DNL Target] 點擊會與每個網頁上的一個 [!DNL Analytics] 點擊拼接。 如果 [!DNL Target] 和 [!DNL Analytics] 呼叫中同時有一個一致的 SDID，且相同頁面上的 [!DNL Experience Cloud ID] 呼叫中有一個 [!DNL Analytics] (MCID)，便會發生此拼接。 [!DNL Target] 通常也會有 MCID，但如果對 [!DNL Target] 的呼叫發生在訪客 ID 傳回之前，則由於 SDID 的緣故，該點擊仍會被計入。 同時，使用者必須停留在頁面上夠長的時間，才能在觸發 [!DNL Target] 呼叫之後觸發 [!DNL Analytics] 呼叫。 這是理想的情況。
 
-**部分資料點擊：**&#x200B;使用者有時留在頁面上的時間不夠長，因而無法傳送 [!DNL Analytics] 呼叫，但是 [!DNL Target] 會有正確的 MCID。 此情況會產生部分資料點擊 (沒有 [!DNL Analytics] 頁面瀏覽的點擊)。 如果這些使用者回到您的網站並檢視包含 [!DNL Analytics] 程式碼的頁面，即會將他們正確地計為回頭的訪客。 如果您的頁面上只有 [!DNL Analytics] 程式碼，則您會遺漏這些點擊。 有些用戶端不想要這些點擊的資料，因為它們會讓某些度量 (造訪) 膨脹，並讓其他度量 (每次造訪的頁面瀏覽數、每次造訪時間等) 縮小。 您也會看見沒有任何頁面瀏覽數的造訪。 不過，保留此資料仍有有效的原因。
+**部分資料點選：**&#x200B;使用者有時留在頁面上的時間不夠長，因而無法傳送[!DNL Analytics]呼叫，但[!DNL Target]會有正確的MCID。 此情況會產生部分資料點擊 (沒有 [!DNL Analytics] 頁面瀏覽的點擊)。 如果這些使用者回到您的網站並檢視包含 [!DNL Analytics] 程式碼的頁面，即會將他們正確地計為回頭的訪客。 如果您的頁面上只有 [!DNL Analytics] 程式碼，則您會遺漏這些點擊。 有些使用者端不想要這些點選的資料，因為它們會讓某些量度（造訪）膨脹，並讓其他量度（每次造訪的頁面檢視次數、每次造訪時間等）縮小。 您也會看見沒有任何頁面瀏覽數的造訪。 不過，保留此資料仍有有效的原因。
 
 為了將部分資料點擊最小化，您可以讓您的頁面載入更快，更新為最新版本的程式庫，或建立排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant)。 如需逐步指示，請參閱 *Analytics 元件指南*&#x200B;中的[建立虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant)。
 
@@ -94,7 +94,7 @@ Adobe 有一些客戶遇過在 [!DNL Analytics] 中的部分資料比率很高�
 * 與
 * 結束連結例項: 不存在
 
-**孤立點擊:** 少數情況下，使用者未持在頁面上夠長的時間，使得 Analytics 呼叫和 Target 未取得正確的 MCID。 Adobe 將這些點擊定義為「孤立的」點擊。 這些點擊代表的是客戶很少回來，以及他們不當地膨脹了造訪和訪客計數。
+**孤立點選：**&#x200B;在少數情況下，使用者未持在頁面上夠長的時間，使得Analytics呼叫和Target未取得正確的MCID。 Adobe 將這些點擊定義為「孤立的」點擊。 這些點擊代表的是客戶很少回來，以及他們不當地膨脹了造訪和訪客計數。
 
 若要將這些「孤立」點擊最小化，您可以建立可排除這些點擊的[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant)，如以上所述。
 

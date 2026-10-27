@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 17%
+source-wordcount: '1063'
+ht-degree: 15%
 ---
 # 建立自動鎖定目標[!UICONTROL 活動]
 
@@ -95,7 +95,7 @@ ht-degree: 17%
 
 1. 建立新體驗，透過變更頁面上的元素。
 
-   建立新活動後，[!UICONTROL 視覺化體驗撰寫器]在左側顯示兩個標籤： [!UICONTROL 體驗A]和[!UICONTROL 體驗B]。[!UICONTROL 體驗A]是控制體驗。 您的焦點在[!UICONTROL 體驗B]索引標籤上，您可以視需要修改此索引標籤。 [!UICONTROL 體驗B]是可新增至測試的替代體驗。 您可以按一下[!UICONTROL 體驗]窗格頂端的[!UICONTROL 新增]圖示（![新增圖示](/help/main/assets/icons/Add.svg)），新增多個體驗至測試。 如果您不想要包括預設網站體驗作為選項，則也可以從活動刪除體驗 A。
+   建立新活動後，[!UICONTROL 視覺化體驗撰寫器]在左側顯示兩個標籤： [!UICONTROL 體驗A]和[!UICONTROL 體驗B]。[!UICONTROL 體驗A]是控制體驗。 您的焦點在[!UICONTROL 體驗B]索引標籤上，您可以視需要修改此索引標籤。 [!UICONTROL 體驗B]是可新增至測試的替代體驗。 您可以按一下[!UICONTROL 體驗]窗格頂端的[!UICONTROL 新增]圖示（![新增圖示](/help/main/assets/icons/Add.svg)），新增多個體驗至測試。 如果您不想將預設網站體驗納入選項，您也可以從活動中刪除體驗A。
 
    如需在[!UICONTROL 視覺化體驗撰寫器]中新增及修改體驗的詳細資訊，請參閱[新增體驗](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 若要修改體驗 B，請從步驟 2 開始。
 

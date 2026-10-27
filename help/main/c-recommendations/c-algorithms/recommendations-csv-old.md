@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 32%
+source-wordcount: '738'
+ht-degree: 29%
 ---
 # 上傳自訂條件
 
@@ -68,7 +68,7 @@ ht-degree: 32%
 
 * 自訂條件更新預設為「累積」。 CSV 上傳檔案中指定的新機碼值組會覆寫現有的機碼值組。 未在CSV上傳中指定索引鍵的現有索引鍵/值組仍可用於傳送，且會在最後一次做為CSV檔案一部分上傳的31天後過期。
 
-  請聯絡客戶服務啟用這項設定，刪除下次 CSV 上傳中未涵蓋的現有結果。 如果啟用此設定，則只有自訂CSV摘要檔案中存在的金鑰才可用於傳送。 這項設定會套用至所有自訂條件。
+  請聯絡客戶服務以啟用此設定，捨棄未包含在下次CSV上傳的現有結果。 如果啟用此設定，則只有自訂CSV摘要檔案中存在的金鑰才可用於傳送。 這項設定會套用至所有自訂條件。
 
 * 自訂條件摘要每 24 小時會更新一次。
 

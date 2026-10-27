@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 42%
+source-wordcount: '252'
+ht-degree: 30%
 ---
 # 靜態篩選
 
@@ -29,7 +29,7 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->如果您熟悉 Target 17.6.1 版 (2017 年 6 月) 之前包含規則的設定方式，您將注意到一些選項和運算子已變更。 只會顯示適用於所選取選項的那些運算子，而一些運算子已重新命名 (「符合」現在是「等於」)，以便更為一致且直覺。 在此版本之前建立的所有現有排除規則皆已自動移轉至新結構。 您不需要重新處理結構。
+>如果您熟悉Target 17.6.1版（2017年6月）之前包含規則的設定方式，您將注意到一些選項和運運算元已變更。 只會顯示適用於所選取選項的那些運算子，而一些運算子已重新命名 (「符合」現在是「等於」)，以便更為一致且直覺。 在此版本之前建立的所有現有排除規則皆已自動移轉至新結構。 您不需要重新處理結構。
 
 ## 推薦分級為G或PG的內容
 

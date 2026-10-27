@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2289'
 ht-degree: 20%
 ---
 # [!DNL Adobe Target] 運作方式
@@ -258,7 +258,7 @@ The following information helps you understand the counting strategy used for [!
 
   考量您的測試已變更哪些專案。 微幅更新（例如按鈕顏色）不會影響自然排名。 不過，文字變更應採用硬式編碼。
 
-  此外，請考量您測試頁面的協助工具。 如果搜尋引擎無法存取頁面，且從來無意在自然搜尋中排名，則這些考量事項不適用。 其中一個範例是電子郵件促銷活動的專屬著陸頁面。
+  此外，請考量您正在測試頁面的協助工具。 如果搜尋引擎無法存取頁面，且從來無意在自然搜尋中排名，則這些考量事項不適用。 其中一個範例是電子郵件促銷活動的專屬著陸頁面。
 
 Google指出，測試中的變數通常對搜尋結果片段或頁面排名沒有影響或影響很小。
 

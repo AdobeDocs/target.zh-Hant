@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 55%
+source-wordcount: '626'
+ht-degree: 54%
 ---
 # [!UICONTROL 多變數測試]最佳實務
 
@@ -34,7 +34,7 @@ ht-degree: 55%
 
 ## 建立 {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* 請勿包括多於測試所需的組合。
+* 請勿包含超過測試所需的組合。
 
   每個測試的組合會明顯增加達成可接受的結果所需的流量和時間量。 例如，如果有三個位置，每個均具有三個產品建議，那麼會有 27 個可能組合 (3x3x3)。 三個位置，其中的兩個位置包含三個可能產品建議，而一個位置有兩個產品建議，那麼可提供 18 個選項 (3x3x2)。 數量會隨著每個額外的位置和產品建議增加。
 

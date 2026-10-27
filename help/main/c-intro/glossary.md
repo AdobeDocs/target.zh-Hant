@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Web experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 97%
+source-wordcount: '2528'
+ht-degree: 95%
 ---
 # 字彙表
 
@@ -231,7 +231,7 @@ Target Standard 中活動的視覺表示。
 
 **表單式體驗撰寫器**
 
-非可視化體驗和產品建議建立介面，適合在可視化體驗撰寫器無法使用或不實用的情況下，用於建立可供 A/B 測試、體驗鎖定目標、Automated Personalization 和推薦活動使用的體驗。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和產品建議。
+非視覺化體驗和選件建立介面，適合在視覺化體驗撰寫器無法使用或不實用的情況下，用於建立可供A/B測試、體驗鎖定目標、Automated Personalization和Recommendations活動使用的體驗。 例如，您可以使用表單式撰寫器，建立可在電子郵件、資訊站和語音助理中傳送的體驗和產品建議。
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 

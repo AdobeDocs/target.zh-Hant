@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '838'
 ht-degree: 52%
 ---
 # [!UICONTROL Visual Editing Helper]擴充功能
@@ -79,7 +79,7 @@ ht-degree: 52%
 1. 在 [!DNL Target] 中開啟 VEC。
 1. 若要使用擴充功能，請在VEC或QA模式中時，按一下Chrome瀏覽器工具列上的[!UICONTROL Visual Editing Helper]瀏覽器擴充功能圖示（ ![Visual Editing擴充功能圖示](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
 
-   在[!UICONTROL Target] VEC中開啟網站以支援撰寫時，[!UICONTROL Visual Editing Helper]會自動啟用。 此擴充功能沒有任何條件設定。 此擴充功能可自動處理所有設定，包括 SameSite Cookie 設定。
+   在[!UICONTROL Target] VEC中開啟網站以支援撰寫時，[!UICONTROL Visual Editing Helper]會自動啟用。 擴充功能沒有任何條件設定。 此擴充功能可自動處理所有設定，包括 SameSite Cookie 設定。
 
    如需有關 `SameSite=None` 屬性瀏覽器修正的詳細資訊，請參閱 [排解可視化體驗撰寫器和增強型體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中的「最近宣布的 Google Chrome SameSite cookie 執行政策對 VEC 和 EEC 有何影響？」。
 

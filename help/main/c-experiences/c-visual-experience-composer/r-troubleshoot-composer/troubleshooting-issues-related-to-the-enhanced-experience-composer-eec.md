@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 29%
+source-wordcount: '514'
+ht-degree: 23%
 ---
 # 疑難排解[!UICONTROL 增強體驗撰寫器]的相關問題
 
 顯示在某些情況下，有時候會在[!DNL Adobe Target] [!UICONTROL 增強體驗撰寫器] (EEC)中發生問題。
 
-## EEC 不會載入無法在公用 IP 上存取的內部 QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
+## EEC不會載入無法在公用IP上存取的內部QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
 
 
 +++詳細資料
@@ -159,7 +159,7 @@ ht-degree: 29%
 
 +++
 
-## EEC 不會在我使用 TLS 1.0 的網站上安全頁面中載入。 (僅限 EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
+## EEC不會在我使用TLS 1.0的網站上安全頁面中載入。 (僅限 EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++詳細資料
 您可能會看到上述「增強視覺化體驗撰寫器不會在我的網站上安全頁面中載入」中所述的錯誤訊息。 如果上述IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target]目前使用1.2的預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}。

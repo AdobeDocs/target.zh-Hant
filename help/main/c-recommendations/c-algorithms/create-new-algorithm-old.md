@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 48%
+source-wordcount: '2937'
+ht-degree: 47%
 ---
 # 建立條件
 
@@ -47,7 +47,7 @@ ht-degree: 48%
 
 1. 輸入&#x200B;**[!UICONTROL 條件名稱]**。
 
-   這是用來說明該條件的「內部」名稱。 例如，您可能想要將您的條件稱為「利潤最高的產品」，但您不想要將該標題公開顯示。 請參閱下一個步驟來設定公開顯示的標題。
+   這是用來說明該條件的「內部」名稱。 例如，您可能會想要將您的條件稱為「最高利潤產品」，但您不想要該標題公開顯示。 請參閱下一個步驟來設定公開顯示的標題。
 
    ![基本資訊區段](assets/basic-information.png)
 
@@ -125,7 +125,7 @@ ht-degree: 48%
 
    如果您的網站經常有大量流量和行為變更，請選擇較短的資料時段。 較短的時段可讓 [!DNL Recommendations] 對於市場和您的業務中的變更更具回應力。 例如，較短的時段表示 [!DNL Recommendations] 將在您的訪客開始季節性購物 (例如開學購物或聖誕節) 時偵測訪客行為中的變更，並將對這些購物季建議適當的項目。
 
-   如果您沒有許多資料，或訪客行為不會經常變更，則可以選取較長的時段。 不過，對許多網站而言，較短的期間會產生較高品質的建議。
+   如果您沒有大量資料，或訪客行為沒有經常變更，可以選取較長的視窗。 不過，對許多網站而言，較短的期間會產生較高品質的建議。
 
    可用的資料範圍為:
 

@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 86%
+source-wordcount: '1774'
+ht-degree: 83%
 ---
 # 將[!DNL Recommendations]與電子郵件整合
 
@@ -97,7 +97,7 @@ curl -X POST \
 
 ## 方法 2：使用 rawbox 電子郵件範本 {#rawbox}
 
-rawbox 類似於 mbox 請求，但適用於非 Web 環境，例如電子郵件服務提供者 (ESP)。 因為您沒有 [!DNL Adobe Experience Platform Web SDK] 或 [!DNL at.js] 可在 rawbox 請求中使用，所以您必須手動建立請求。 以下範例說明如何在電子郵件中使用 rawbox 請求。
+rawbox 類似於 mbox 請求，但適用於非 Web 環境，例如電子郵件服務提供者 (ESP)。 因為您沒有可在rawbox要求中使用的[!DNL Adobe Experience Platform Web SDK]或[!DNL at.js]，您必須手動建立您的要求。 以下範例說明如何在電子郵件中使用 rawbox 請求。
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ rawbox 類似於 mbox 請求，但適用於非 Web 環境，例如電子郵件�
 
 透過該方法，您可在電子郵件中追蹤推薦的效能，以正常方式測試推薦，並繼續在網站上追蹤。
 
-在 [!DNL Target] 中使用[「表單式體驗撰寫器」](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)選項設定 [!DNL Recommendations] 活動。 針對位置，選取您選擇在來自 ESP 的 Rawbox 要求中使用的 mbox 的名稱。 選取符合您對電子郵件所需外觀的設計。 在電子郵件建置時，ESP 會對每個要產生的電子郵件中的每個 Rawbox 對 [!DNL Target] 伺服器進行呼叫。 您的 ESP 必須有一個方式可在傳送的電子郵件中包括傳回的 HTML。
+在 [!DNL Target] 中使用[「表單式體驗撰寫器」](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)選項設定 [!DNL Recommendations] 活動。 對於位置，選取您選擇在來自ESP的rawbox請求中使用的mbox名稱。 選取符合您對電子郵件所需外觀的設計。 在電子郵件建置時，ESP 會對每個要產生的電子郵件中的每個 Rawbox 對 [!DNL Target] 伺服器進行呼叫。 您的 ESP 必須有一個方式可在傳送的電子郵件中包括傳回的 HTML。
 
 您使用的電子郵件系統必須能夠處理下列案例：
 

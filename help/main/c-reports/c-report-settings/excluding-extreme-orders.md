@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 62%
+source-wordcount: '336'
+ht-degree: 53%
 ---
 # 排除極端值
 
@@ -31,7 +31,7 @@ ht-degree: 62%
 
 如果值與使用上個月資料的平均訂購值 (直到進行計算的時間點) 相差超過 +/- 3 個標準差，就視為極端值。
 
-例如，極端值篩選器在使用 RPV 時經常相當實用。 RPV 結合了轉換率和平均訂購值，通常會公開這些的揮發性。 如果您使用 RPV 並判斷訂單未顯示為常態分佈，則在套用巨量訂購篩選器後應該能看到較常態的結果。
+例如，極端值篩選器在使用 RPV 時經常相當實用。 RPV 結合了轉換率和平均訂購值，通常會公開這些的揮發性。 如果您使用RPV並判定訂單似乎無法正常分配，則若套用極端訂單篩選條件，您可能會看到較正常的結果。
 
 將值標記為極端時，其在促銷活動期間至該時間點的訂單值會以「體驗的平均訂購值」取代，並排除極端訂購內容。 在[!UICONTROL 訂單詳細資料]報告和CSV下載每日結果中，訂單也標籤為極端。
 

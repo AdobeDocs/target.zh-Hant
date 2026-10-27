@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # 單頁應用程式 (SPA) 可視化體驗撰寫器
 
@@ -383,7 +383,7 @@ adobe.target.getOffers({
 | [自動個人化](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 無 |
 | [推薦](/help/main/c-recommendations/recommendations.md) | 無 |
 
-**如果我們安裝 at.js 2.x 並在網站上實作了 `triggerView()`，在 SPA VEC 不支援自動鎖定目標的情況下，該如何執行自動鎖定目標 A/B 活動?**
+**如果我們安裝at.js 2.x並在網站上實作`triggerView()`，在SPA VEC不支援自動鎖定目標的情況下，該如何執行自動鎖定目標A/B活動？**
 
 如果您希望使用自動鎖定目標 A/B 活動，可以移動所有的動作，讓它們在 VEC 中的「頁面載入事件」上執行。 暫留在每個動作上，然後按一下[!UICONTROL 移動到頁面載入事件]按鈕。 完成後，您可以在下一步中為流量分配方法選取「自動鎖定目標」。
 

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 16%
 ---
 # 使用[!DNL Adobe Analytics]資料
 
@@ -47,6 +47,6 @@ ht-degree: 19%
 
 您必須選取成功量度，以用作每個活動的目標。 您的活動目標為代表成功活動的轉換活動。 最佳作法永遠不要執行未以某些特定方式改善目標的測試。 您可以選擇[!DNL Analytics]量度選擇器中任何可用的[!DNL Analytics]量度。
 
-設定目標並不表示您無法在評估測試結果時使用其他量度。 不過，目標為您要對測試改善之項目的提示。
+設定目標不表示在評估測試結果時不能使用其他量度。 不過，目標為您要對測試改善之項目的提示。
 
 訪客完成目標後，該訪客將不再納入活動中。 如果訪客在完成活動後重新進入您的活動，則該訪客會計為新訪客。

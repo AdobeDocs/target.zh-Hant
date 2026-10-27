@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2022'
 ht-degree: 1%
 ---
 # [!DNL Target] UI更新常見問題集
 
-2025年推出的新功能，[!DNL Adobe Target]重新設計的使用者介面可為所有使用者提供更乾淨、更直覺的體驗。 此常見問題集涵蓋[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的重要更新，包括導覽變更、功能放置和移除暫時UI切換。 無論您是行銷人員、開發人員或管理員，都可讓您順利轉換及更聰明的工作流程。
+2025年推出的新功能，[!DNL Adobe Target]重新設計的使用者介面可為所有使用者提供更乾淨、更直覺的體驗。 此常見問題集涵蓋[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的重要更新，包括導覽變更、功能放置和移除暫時UI切換。 無論您是行銷人員、開發人員或管理員，此指南都可協助您順利轉換及更聰明的工作流程。
 
 ## 淘汰Target UI版本切換的時間表是否已更新？
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 ### 深入瞭解更新UI的資源
 
-* [[!DNL Target] UI更新常見問題集](/help/main/c-intro/updated-ui-faq.md)：此常見問題集解決有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，此FAQ可協助您順利轉換，並充分運用更新後的UI。
+* [[!DNL Target] UI更新常見問題集](/help/main/c-intro/updated-ui-faq.md)：此常見問題集解決有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，本FAQ可協助您順利轉換並充分運用更新後的UI。
 * [[!DNL Target Standard/Premium] 25.2.1 （2025年2月17日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!UICONTROL 活動]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)在[!DNL Target]中的主要UI變更摘要。
 * [[!DNL Target Standard/Premium] 25.1.1 （2025年1月9日）發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL 選件程式庫]在[!DNL Target]中的主要UI變更摘要。
 * [瞭解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供簡短的總覽，協助您熟悉[!DNL Target]，並提供連結，以取得更深入的資訊和逐步指示。

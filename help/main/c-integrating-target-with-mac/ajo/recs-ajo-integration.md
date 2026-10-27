@@ -1,28 +1,30 @@
 ---
 keywords: ajo；adobe journey optimizer；adobe journey optimizer target整合；建議；target建議；整合
-description: 將 [!DNL Adobe Target Recommendations] 與 [!DNL Adobe Journey Optimizer]整合。
-title: 如何在使用 [!DNL Adobe Journey Optimizer]的客戶歷程中使用 [!DNL Target Recommendations] ？
+description: 將[!DNL Adobe Target Recommendations]與[!DNL Adobe Journey Optimizer]整合。
+title: 如何在使用[!DNL Adobe Journey Optimizer]的客戶歷程中使用[!DNL Target Recommendations]？
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
-badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip=" [!DNL Adobe Target] 有哪些 Beta 版功能。"
+badgeBeta: label="Beta 版" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#beta newtab=true" tooltip="[!DNL Adobe Target]中有哪些Beta功能。"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
 TQID: https://experienceleague.adobe.com/JA--Ll80bDZwn9WtGqIb-z3YxyJLOvOYPzuhZeKA17w
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer journeys
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 2%
-
+source-wordcount: '647'
+ht-degree: 3%
 ---
-
 # 整合[!DNL Adobe Target Recommendations]和[!DNL Adobe Journey Optimizer]
 
 本文提供將[!DNL Adobe Target Recommendations]與[!DNL Adobe Journey Optimizer]整合的使用案例和指引，讓您提供連線、情境式和個人化的客戶體驗。

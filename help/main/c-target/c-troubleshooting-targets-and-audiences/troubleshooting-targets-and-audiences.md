@@ -1,25 +1,28 @@
 ---
 keywords: 疑難排解;常見問題集;FAQ;目標;客群
-description: 檢視關於體驗鎖定目標和Adobe [!DNL Target] 活動中使用之對象的常見問題(FAQ)。
+description: 檢視關於體驗鎖定目標和Adobe [!DNL Target]活動中使用之對象的常見問題(FAQ)。
 title: 何處可以找到有關鎖定目標和對象的問題和回答？
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 53%
-
+source-wordcount: '1007'
+ht-degree: 49%
 ---
-
 # 鎖定目標和客群常見問題集
 
 關於體驗鎖定目標和客群常見問題集 (FAQ) 的清單。
@@ -97,7 +100,7 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 例如，您可能會看到下列客群:「PC 使用者」(在 [!DNL AAM] 中) 和「PC 使用者 #1」(在 [!DNL Target] 中)。
 
-## 為何無法重新命名對象? {#section_54E420556F534D20836E261E253D8B97}
+## 為何無法重新命名對象？ {#section_54E420556F534D20836E261E253D8B97}
 
 部分 Target 對象是預先定義的，例如「新訪客」和「再度訪問的訪客」。 使用者無法重新命名這些對象。
 
@@ -105,9 +108,9 @@ Target 資料庫類別中預先建置的對象為舊版對象，並且存在於�
 
 [!DNL Target] 具有每個 mbox 呼叫 50 個獨特輪廓屬性的限制。 如果您需要傳遞超過50個設定檔屬性至[!DNL Target]，可以使用[!UICONTROL 設定檔更新] API方法來傳遞它們。 如需詳細資訊，請參閱 Adobe Target API 文件中的[設定檔更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
-## 訪客在 AP 活動中為何看到不應該看到的體驗? {#section_41CECEAE0881446A8D9F3B016857914B}
+## 訪客在AP活動中為何看到不應該看到的體驗？ {#section_41CECEAE0881446A8D9F3B016857914B}
 
-在每個工作階段都會評估一次自動個人化活動。 如果特定體驗有合格的使用中工作階段，且現在該體驗中已新增產品建議，則除了先前顯示的產品建議，使用者還會看到新內容。 因為使用者先前已符合那些體驗的資格，所以在工作階段期間仍然會看見那些體驗。 如果您想要在每次頁面造訪都進行評估，則應該改用體驗鎖定目標 (XT) 活動類型。
+在每個工作階段都會評估一次自動個人化活動。 如果特定體驗有合格的使用中工作階段，且現在該體驗中已新增產品建議，則除了先前顯示的產品建議，使用者還會看到新內容。 因為使用者先前已符合那些體驗的資格，所以在工作階段期間仍然會看見那些體驗。 如果每次造訪單頁時都想要評估此值，您應該變更為體驗鎖定目標(XT)活動型別。
 
 ## 為何透過API建立之對象所做的變更未反映在[!DNL Target] UI中？ {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 21%
 ---
 # 提升度和可信度 - A4T 常見問題集
 
@@ -48,7 +48,7 @@ ht-degree: 25%
 
 +++
 
-## 在計算量度上為何看不到提升度和可信度? {#lift-confidence}
+## 為什麼看不到已計算量度的提升度和可信度？ {#lift-confidence}
 
 +++回答
 提升度和可信度函式目前不支援計算量度。 Analytics會在彙總層級計算量度，而非訪客層級。 信賴度尤其是一種訪客層級的計算。
@@ -69,7 +69,7 @@ ht-degree: 25%
 
 +++
 
-## 提升度和可信度可用在隨選和報表產生器中嗎? 如果不是原生功能，我可以在產生器中自行操作嗎? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## 提升度和可信度可用在隨選和報表產生器中嗎? 如果不是原生功能，我可以在其中自行操作嗎？ {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++回答
 提升度和可信度在隨選或報表產生品中沒有作用，您也不能自行對連續變數做這種計算。 可手動針對二進位量度進行計算嗎?
