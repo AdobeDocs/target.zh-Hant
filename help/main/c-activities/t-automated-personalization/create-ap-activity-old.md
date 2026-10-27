@@ -2,7 +2,7 @@
 keywords: 自動個人化；ap
 description: 瞭解如何使用[!UICONTROL 視覺化體驗撰寫器]在[!DNL Adobe Target]中建立[!UICONTROL Automated Personalization] (AP)活動。
 title: 如何建立[!UICONTROL Automated Personalization]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 product_v2:
@@ -45,7 +45,7 @@ ht-degree: 29%
 
    >[!NOTE]
    >
-   >[!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都相符。
+   >[!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com/tw`]和[!DNL `https://wwww.adobe.com`]都相符。
 
    具有指定URL的頁面會在VEC中開啟。
 
