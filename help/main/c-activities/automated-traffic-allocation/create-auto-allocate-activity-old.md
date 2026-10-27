@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
     internal-label: Auto-allocate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 39%
+source-wordcount: '907'
+ht-degree: 36%
 ---
 # 建立[!UICONTROL 自動分配]活動
 
@@ -44,7 +44,7 @@ ht-degree: 39%
 
 1. (視條件而定) 如果您是 [Target Premium 客戶](/help/main/c-intro/intro.md#premium)，請選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)，然後按一下[建立]。**&#x200B;**
+1. 指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)，然後按一下[建立]。****
 
    如果您的帳戶設定了預設的 URL，該 URL 依預設會顯示。 您可以視需要將預設URL變更為其他URL。
 
@@ -67,7 +67,7 @@ ht-degree: 39%
 
 1. 建立任何體驗，透過變更頁面上的元素。
 
-   在您建立新增活動之後，[!UICONTROL 可視化體驗撰寫器]會在左邊顯示兩個標籤: 體驗 A 和體驗 B。體驗 A 為控制體驗。 您的焦點在體驗B索引標籤，您可以視需要修改它。 體驗 B 為您可以新增至您的測試的替代體驗。 您可以對測試新增多個體驗。 如果您不想要包括預設網站體驗作為選項，則也可以從活動刪除體驗 A。
+   在您建立新增活動之後，[!UICONTROL 可視化體驗撰寫器]會在左邊顯示兩個標籤: 體驗 A 和體驗 B。體驗 A 為控制體驗。 您的焦點在體驗B索引標籤，您可以視需要修改它。 體驗 B 為您可以新增至您的測試的替代體驗。 您可以對測試新增多個體驗。 如果您不想將預設網站體驗納入選項，您也可以從活動中刪除體驗A。
 
    如需在[!UICONTROL 視覺化體驗撰寫器]中新增及修改體驗的詳細資訊，請參閱[新增體驗](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)。 若要修改體驗 B，請從步驟 2 開始。
 
@@ -103,7 +103,7 @@ ht-degree: 39%
 
    * **[!UICONTROL 針對個人化體驗自動鎖定目標]**： [!DNL Target]會使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。 如需詳細資訊，請參閱[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 
-   您也可以按一下[新增&#x200B;**&#x200B;**]來新增其他體驗至活動。
+   您也可以按一下[新增&#x200B;****]來新增其他體驗至活動。
 
 1. 在您滿意您的對象、體驗選擇和流量配置選擇後，請按一下[下一步] **[!UICONTROL 移至三步驟引導式工作流程的第三個步驟。]**
 

@@ -2,7 +2,7 @@
 keywords: 建議設計;建立設計;複製設計
 description: 瞭解如何使用預設設計或透過建立自訂設計以最符合您的頁面版面配置，來建立[!DNL Target Recommendations]設計。
 title: 如何在Recommendations建立設計？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 23%
+source-wordcount: '1069'
+ht-degree: 21%
 ---
 # 建立設計
 
@@ -55,7 +55,7 @@ ht-degree: 23%
 1. 按一下「**[!UICONTROL 建議]** > **[!UICONTROL 設計]**」以顯示[!UICONTROL 設計]資料庫。
 
 
-1. 按一下您想要建立的設計的[更多動作]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下[複製]。**&#x200B;**
+1. 按一下您想要建立的設計的[更多動作]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下[複製]。****
 
    [!UICONTROL 建立設計]對話方塊隨即顯示。
 
@@ -170,7 +170,7 @@ ht-degree: 23%
    | `[YOUR_CLIENT_CODE]` | Target使用者端代碼（位於#recsSettings > Recommendations API Token >使用者端代碼）。 |
    | `[YOUR_MBOX_NAME]` | 您在表單式「建議」的「位置」區段中選取的名稱，此例子中是Sample_Recs_Response。 |
    | `[ENTITY_ID` | 目錄中之項目的 `entity.id`。 |
-   | `[AT_PROPERTY_TOKEN]` | (可選) 如果您已在活動設定期間選取「屬性」(「企業權限」的部分)，則新增。 |
+   | `[AT_PROPERTY_TOKEN]` | （選用）如果您在活動設定期間選取了屬性（企業許可權的一部分），請新增。 |
 
 當演算法執行之後，而且也有結果，則回應會如下所示:
 

@@ -2,7 +2,7 @@
 keywords: 建立自動鎖定目標； A/B測試；自動鎖定目標活動；新a/b活動；自動鎖定目標；針對個人化體驗自動鎖定目標；個人化；最佳化
 description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 自動鎖定目標] A/B測試活動。
 title: 如何建立[!UICONTROL 自動鎖定目標]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 38%
+source-wordcount: '905'
+ht-degree: 36%
 ---
 # 建立自動鎖定目標[!UICONTROL 活動]
 
@@ -70,7 +70,7 @@ ht-degree: 38%
 
 1. 建立任何體驗，透過變更頁面上的元素。
 
-   建立活動後，[!UICONTROL 視覺化體驗撰寫器]在左側顯示兩個標籤：體驗A和體驗B。體驗A是控制體驗。 您的焦點在體驗B索引標籤，您可以視需要修改它。 體驗B是可新增至測試的替代體驗。 您可以對測試新增多個體驗。 如果您不想要包括預設網站體驗作為選項，則也可以從活動刪除體驗 A。
+   建立活動後，[!UICONTROL 視覺化體驗撰寫器]在左側顯示兩個標籤：體驗A和體驗B。體驗A是控制體驗。 您的焦點在體驗B索引標籤，您可以視需要修改它。 體驗B是可新增至測試的替代體驗。 您可以對測試新增多個體驗。 如果您不想將預設網站體驗納入選項，您也可以從活動中刪除體驗A。
 
    如需在[!UICONTROL 視覺化體驗撰寫器]中新增及修改體驗的詳細資訊，請參閱[新增體驗](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)。 若要修改體驗 B，請從步驟 2 開始。
 
@@ -106,7 +106,7 @@ ht-degree: 38%
 
    * **[!UICONTROL 針對個人化體驗自動鎖定目標]**： [!DNL Target]會使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。
 
-   您也可以按一下[新增&#x200B;**&#x200B;**]來新增其他體驗至活動。
+   您也可以按一下[新增&#x200B;****]來新增其他體驗至活動。
 
 1. 在您滿意您的對象、體驗選擇和流量配置選擇後，請按一下[下一步] **[!UICONTROL 移至三步驟引導式工作流程的第三個步驟。]**
 

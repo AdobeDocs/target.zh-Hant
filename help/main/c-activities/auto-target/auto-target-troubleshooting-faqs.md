@@ -2,7 +2,7 @@
 keywords: 自動鎖定目標;鎖定目標;流量分配;常見問答;faq;疑難排解;疑難排解;流量
 description: 探索有關[!UICONTROL 自動鎖定目標]活動的疑難排解主題和常見問題。
 title: 如何疑難排解[!UICONTROL 自動鎖定目標]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 TQID: 'https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # [!UICONTROL 自動鎖定目標]常見問題集和疑難排解
 
@@ -61,12 +61,12 @@ ht-degree: 30%
 
 如果您的目標是儘可能使最多的流量個人化，在活動期限內，您可以維持90%目標配置和10%控制。 如果您的目標是執行比較個人化演演算法與控制項的實驗，則50/50的分割比例最適合活動期限。
 
-最佳實務是維持活動期限的流量配置分割，讓訪客不必在目標鎖定和控制項體驗之間切換。
+最佳實務是維持活動期限的流量分配分割，讓訪客不會在目標鎖定和控制項體驗之間切換。
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++
@@ -108,7 +108,7 @@ No, check marks for model generation show only the models built to date. There's
 +++回答
 在[!UICONTROL 自動鎖定目標]活動中建立模型所需的時間，通常取決於流向您所選活動位置的流量，以及與活動成功量度關聯的轉換率。
 
-[!UICONTROL 自動鎖定目標]不會嘗試為指定的體驗建立個人化模型，直到該體驗至少有50個轉換為止。 此外，如果建立的模型品質不佳（使用稱為AUC[&#128279;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度對保留「測試」資料進行離線評估所決定），則模型不會用於個人化的流量。
+[!UICONTROL 自動鎖定目標]不會嘗試為指定的體驗建立個人化模型，直到該體驗至少有50個轉換為止。 此外，如果建立的模型品質不佳（使用稱為AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度[對保留「測試」資料進行離線評估所決定），則模型不會用於個人化的流量。
 
 關於[!UICONTROL 自動鎖定目標]的模型建置要記住的其他要點：
 

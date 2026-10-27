@@ -7,19 +7,22 @@ exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 TQID: https://experienceleague.adobe.com/72tenrUdLD52p36hO1O70-zhr1Cg0jTVLfKXUR7iNhU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '742'
 ht-degree: 18%
-
 ---
-
 # mbox3rdPartyId 的即時輪廓同步
 
 [!DNL Adobe Target]中的`mbox3rdPartyId`是您公司的訪客ID，例如您公司的忠誠度計畫的會員ID。
@@ -55,17 +58,17 @@ ht-degree: 18%
 
 * 您可以使用兩種方法將訪客的客戶ID傳送至[!DNL Target]：
 
-   1. 使用`mbox3rdPartyId`/`thirdPartyId`。
+  1. 使用`mbox3rdPartyId`/`thirdPartyId`。
 
-      * 當您使用`targetPageParams`或`targetPageParamsAll`時，`mbox3rdPartyId`是引數名稱
-      * `thirdPartyId`是您直接在傳送API裝載中設定的引數名稱。
-      * 您只能在此引數中傳送一個值。
+     * 當您使用`targetPageParams`或`targetPageParamsAll`時，`mbox3rdPartyId`是引數名稱
+     * `thirdPartyId`是您直接在傳送API裝載中設定的引數名稱。
+     * 您只能在此引數中傳送一個值。
 
-   1. 使用ECID服務的`setCustomerId`/`customerIds`函式。
+  1. 使用ECID服務的`setCustomerId`/`customerIds`函式。
 
-      * `setCustomerId`是您可以在使用者端（瀏覽器）實施上使用的函式，當頁面上有VisitorAPI.js可用時。
-      * `customerIds`是您直接在傳送API裝載中設定引數時使用的引數名稱，通常是在伺服器端或IOT （物聯網）實作上完成。
-      * 與`mbox3rdPartyId`/`thirdPartyId`不同，您可以在此方法中以清單形式傳送多個ID，但由於[!DNL Target]僅支援每個TnT ID的單一客戶ID，因此會使用具有已知別名（在客戶屬性UI中設定的別名）的清單中的第一個ID。
+     * `setCustomerId`是您可以在使用者端（瀏覽器）實施上使用的函式，當頁面上有VisitorAPI.js可用時。
+     * `customerIds`是您直接在傳送API裝載中設定引數時使用的引數名稱，通常是在伺服器端或IOT （物聯網）實作上完成。
+     * 與`mbox3rdPartyId`/`thirdPartyId`不同，您可以在此方法中以清單形式傳送多個ID，但由於[!DNL Target]僅支援每個TnT ID的單一客戶ID，因此會使用具有已知別名（在客戶屬性UI中設定的別名）的清單中的第一個ID。
 
   如果[!DNL Target]是您唯一的[!DNL Adobe Experience Cloud]解決方案，而且您不想使用客戶屬性，則可以使用`mbox3rdPartyId`/`thirdPartyId`。 對於所有其他情況，我們建議您使用`setCustomerId`/`customerIds`來傳送客戶ID。
 

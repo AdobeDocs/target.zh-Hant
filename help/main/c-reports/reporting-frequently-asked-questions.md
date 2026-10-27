@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1399'
 ht-degree: 23%
 ---
 # 報表常見問題集
@@ -144,7 +144,7 @@ XT 活動應一律都有控制體驗。 如果您使用XT活動的方式類似�
 例如，我將流量分割設為50/50或25/25/25/25/25，但在報表中看到體驗之間的分佈大相逕庭。 [!DNL Target]報表中有幾個不平均訪客計數可解釋的原因：
 
 * 首次啟動[!DNL Target]活動時，流量分佈可能會不平均，因為[!DNL Target]用來最佳化體驗傳遞的邊緣節點架構。 最佳實務是給予活動一些時間以收集更多資料，且分配將會正常化。 如需[!DNL Adobe Target]架構和Edge節點的詳細資訊，請參閱[Adobe Target運作方式](/help/main/c-intro/how-target-works.md)。
-* 如果您在[!DNL Target]或[!DNL Analytics]，而且您使用&#x200B;**[!UICONTROL 造訪]**&#x200B;量度，請記住[!DNL Target]是以訪客為基礎的系統，且A/B或MVT測試的流量分佈是在訪客層級指派。 因此，如果您使用&#x200B;**[!UICONTROL 造訪]**&#x200B;量度來檢查活動結果，流量分佈可能會顯得不平均，因為某些訪客可能有多次造訪。 訪客是評估活動績效時的標準標準化量度。
+* 如果您在[!DNL Target]或[!DNL Analytics]中，且使用&#x200B;**[!UICONTROL 造訪]**&#x200B;量度，請記住[!DNL Target]是以訪客為基礎的系統，且A/B或MVT測試的流量分佈已指派給訪客層級。 因此，如果您使用&#x200B;**[!UICONTROL 造訪]**&#x200B;量度來檢查活動結果，流量分佈可能會顯得不平均，因為某些訪客可能有多次造訪。 訪客是評估活動績效時的標準標準化量度。
 * A/B和MVT測試的最佳實務是保持流量分割均勻。 在測試期間變更體驗之間的流量分佈（例如從90/10到50/50）可能會導致體驗之間的訪客不平均。 較低的流量體驗可能永遠無法「趕上」。
 * 如果您遵循上述最佳實務，且流量分割不會隨著時間正常化，您應檢查下列專案：
 

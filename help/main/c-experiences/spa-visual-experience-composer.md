@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # 單頁應用程式 (SPA) 可視化體驗撰寫器
 
@@ -383,7 +383,7 @@ adobe.target.getOffers({
 | [自動個人化](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 無 |
 | [推薦](/help/main/c-recommendations/recommendations.md) | 無 |
 
-**如果我們安裝 at.js 2.x 並在網站上實作了 `triggerView()`，在 SPA VEC 不支援自動鎖定目標的情況下，該如何執行自動鎖定目標 A/B 活動?**
+**如果我們安裝at.js 2.x並在網站上實作`triggerView()`，在SPA VEC不支援自動鎖定目標的情況下，該如何執行自動鎖定目標A/B活動？**
 
 如果您希望使用自動鎖定目標 A/B 活動，可以移動所有的動作，讓它們在 VEC 中的「頁面載入事件」上執行。 暫留在每個動作上，然後按一下[!UICONTROL 移動到頁面載入事件]按鈕。 完成後，您可以在下一步中為流量分配方法選取「自動鎖定目標」。
 
@@ -393,7 +393,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 是 |
 | [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
-| [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant){target=_blank} | 是 |
+| [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 是 |
 | [AEM 體驗片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
 ## 支援的功能 {#supported-features}
@@ -416,7 +416,7 @@ adobe.target.getOffers({
 
 ![頁面傳送選項對話方塊](/help/main/c-experiences/assets/page-delivery.png)
 
-例如，如上方顯示的[!UICONTROL 頁面傳送]設定所定義，Target活動會在訪客直接在`https://www.adobe.com/tw` *或*&#x200B;上登陸任何包含`https://www.adobe.com/tw/products`的URL時符合併執行。 這非常適合任何多頁應用程式，其中與頁面的所有互動都會叫用頁面重新載入，而 at.js 會擷取符合使用者導覽之目標 URL 的活動。
+例如，如上方顯示的[!UICONTROL 頁面傳送]設定所定義，Target活動會在訪客直接在`https://www.adobe.com` *或*&#x200B;上登陸任何包含`https://www.adobe.com/products`的URL時符合併執行。 這非常適合任何多頁應用程式，其中與頁面的所有互動都會叫用頁面重新載入，而 at.js 會擷取符合使用者導覽之目標 URL 的活動。
 
 不過，由於SPA的運作方式不同，[!UICONTROL 頁面傳送]的設定方式必須如SPA VEC活動中所定義，可將所有動作套用至檢視。
 
@@ -478,5 +478,5 @@ adobe.target.getOffers({
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-如需詳細資訊，請參閱[在Adobe Target中使用適用於單頁應用程式的視覺化體驗撰寫器(SPA VEC) &#x200B;](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。
+如需詳細資訊，請參閱[在Adobe Target中使用適用於單頁應用程式的視覺化體驗撰寫器(SPA VEC) ](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。
 

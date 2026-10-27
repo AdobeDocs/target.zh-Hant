@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 87%
+source-wordcount: '221'
+ht-degree: 61%
 ---
 # 第 8 章：溝通活動結果
 
@@ -30,6 +30,6 @@ ht-degree: 87%
 
 在傳達這些結果時，如同講故事一樣處理這些結果會很有幫助。 讓它變得有趣，並清楚地說明測試或個人化的內容，以及原因和結果。 使用審閱這些結果的人員所瞭解的語言和術語。
 
-我們在 Microsoft PowerPoint 中加入了[執行摘要結果範本](/help/main/assets/executive-summary.zip)。 使用您組織的色彩配置和標誌重新命名，並使用它來呈現您第一次測試或個人化活動的結果。 和活動規劃師一樣，歡迎套件也隨附於此處，做為一個獨立檔案，但我們也新增了它的影像以及範本每個區域要包含的資訊類型範例。
+我們在 Microsoft PowerPoint 中加入了[執行摘要結果範本](/help/main/assets/executive-summary.zip)。 使用您組織的色彩配置和標誌重新命名，並使用它來呈現您第一次測試或個人化活動的結果。 和Activity Planner一樣，歡迎套件也隨附於此處，做為一個獨立檔案，但我們也新增了它的影像以及範本每個區域要包含的資訊型別範例。
 
 ![執行摘要報告](/help/main/c-intro/assets/executive-summary-report.png)

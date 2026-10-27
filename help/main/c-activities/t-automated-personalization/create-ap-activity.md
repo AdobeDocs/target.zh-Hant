@@ -2,7 +2,7 @@
 keywords: 自動個人化；ap
 description: 瞭解如何使用[!UICONTROL 視覺化體驗撰寫器]建立[!UICONTROL Automated Personalization] (AP)活動。
 title: 如何建立[!UICONTROL Automated Personalization]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: 'https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8'
@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 23%
+source-wordcount: '2033'
+ht-degree: 22%
 ---
 # 建立[!UICONTROL Automated Personalization]活動
 
@@ -69,7 +69,7 @@ ht-degree: 23%
 
    如果您的帳戶[設定了預設的 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，該 URL 依預設會顯示。 您可以視需要將預設URL變更為其他URL。
 
-   [!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com/tw`]和[!DNL `https://wwww.adobe.com`]都相符。
+   [!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都相符。
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
@@ -169,8 +169,8 @@ ht-degree: 23%
 
 告訴[!DNL Target]成功的樣子。 您選擇的最佳化目標是個人化演演算法用來訓練的量度，因此請挑選對此活動最重要的結果。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以顯示&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面。
-1. 使用下列設定來設定活動，然後按一下[儲存並關閉]。**&#x200B;**
+1. 按一下[下一步]****&#x200B;以顯示&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面。
+1. 使用下列設定來設定活動，然後按一下[儲存並關閉]。****
 
    | 設定 | 說明 |
    |--- |--- |
@@ -178,7 +178,7 @@ ht-degree: 23%
    | [!UICONTROL 目標] | (可選) 輸入測試的目標。 目標可幫助您記住活動的目的。 |
    | [!UICONTROL 優先順序] | 根據您的設定，[!UICONTROL 優先順序]的[!DNL Target] UI和選項會有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的舊設定，或者您可以啟用從0到999的微調優先順序。<P>如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。 如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。<P>如果未在[!UICONTROL 管理] > [!UICONTROL 報告] （預設）中啟用此選項，請指定優先順序： [!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]。<P>若要啟用微調優先順序，請按一下[!UICONTROL 管理] > [!UICONTROL 報表]，然後將[!UICONTROL 啟用微調優先順序]選項切換到「開啟」位置。<P>如果已啟用此選項，請指定從0到999的值：<ul><li>0 = 低</li><li>999 = 高</li></ul>對於在舊版[!DNL Target Standard/Premium]中建立的活動，[!UICONTROL 低]優先順序已轉換為0，[!UICONTROL Medium]優先順序已轉換為5，而[!UICONTROL 高]優先順序已轉換為10。 您可以視需要調整這些值。<P>**注意**：在使用微調優先順序後，在您可以停用此選項之前，必須將所有優先順序設定回0、5和10。 |
    | [!UICONTROL 持續時間] | 設定活動的開始和結束日期。 您可以選取[!UICONTROL 啟用時]，或者您可以指定特定的日期和時間。 |
-   | [!UICONTROL 最佳化目標] | 指定最佳化目標，其中包含兩個參數:<ul><li>要使用活動測量的項目</li><li>活動加入者採取的動作，顯示已達成目標。</li></ul>您可以選取[!UICONTROL 我的主要目標]右側的三個點，以命名最佳化目標。 [!UICONTROL Automated Personalization]活動可測量[!UICONTROL 轉換]或[!UICONTROL 收入]。 可透過檢視頁面或檢視mbox來達到轉換。 也可以追蹤點擊。<P>主要目標也會變成模型系統用來計算體驗成功的模型量度。<P>您可以在達到模型目標之後，基於追蹤目的，讓使用者保持在活動中。 例如，通常使用[!UICONTROL Automated Personalization]活動來改善點按率，並且設為模型目標。 不過，務必查看增加的點擊率如何造成最終轉換，使得透過最終的轉換進行追蹤非常必要。<P>您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未到達時計數才會增加。<P>您必須定義兩個 (或多個) 成功量度，之後才可以讓某個量度相依於另一個量度。<P>[!UICONTROL 「新增相依性」]選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。<P>若要新增相依性:<ol><li>新增其他量度後，請按一下[!UICONTROL 其他目標]右側的三個點功能表下的&#x200B;**[!UICONTROL 進階設定]**。</li><li>按一下[!UICONTROL 報表設定]區段底部的&#x200B;**[!UICONTROL 新增相依性]**&#x200B;選項。</li><li>將需要的量度從左窗格拖曳到右窗格，然後按一下[!UICONTROL 「達到」]來將設定在[!UICONTROL 「達到」]與[!UICONTROL 「未達到」]之間切換。</li></ol>您可以在新增相依性之後加以編輯或移除。 |
+   | [!UICONTROL 最佳化目標] | 指定最佳化目標，其中包含兩個參數:<ul><li>要使用活動測量的項目</li><li>活動加入者採取的動作，顯示已達成目標。</li></ul>您可以選取[!UICONTROL 我的主要目標]右側的三個點，以命名最佳化目標。 [!UICONTROL Automated Personalization]活動可測量[!UICONTROL 轉換]或[!UICONTROL 收入]。 可透過檢視頁面或檢視mbox來達到轉換。 也可以追蹤點擊。<P>主要目標也會變成模型系統用來計算體驗成功的模型量度。<P>您可以在達到模型目標之後，基於追蹤目的，讓使用者保持在活動中。 例如，通常使用[!UICONTROL Automated Personalization]活動來改善點按率，並且設為模型目標。 不過，瞭解點按率增加會如何導致最終轉換很重要，因此追蹤最終轉換至關重要。<P>您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未到達時計數才會增加。<P>您必須定義兩個 (或多個) 成功量度，之後才可以讓某個量度相依於另一個量度。<P>[!UICONTROL 「新增相依性」]選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。<P>若要新增相依性:<ol><li>新增其他量度後，請按一下[!UICONTROL 其他目標]右側的三個點功能表下的&#x200B;**[!UICONTROL 進階設定]**。</li><li>按一下[!UICONTROL 報表設定]區段底部的&#x200B;**[!UICONTROL 新增相依性]**&#x200B;選項。</li><li>將需要的量度從左窗格拖曳到右窗格，然後按一下[!UICONTROL 「達到」]來將設定在[!UICONTROL 「達到」]與[!UICONTROL 「未達到」]之間切換。</li></ol>您可以在新增相依性之後加以編輯或移除。 |
    | [!UICONTROL 轉換量度] | 依預設，轉換量度與最佳化目標量度相同。 不過，您可以取消勾選[!UICONTROL 與最佳化目標]相同選項，以定義個別的轉換量度。 |
    | [!UICONTROL 其他量度] | 新增您要使用的任何其他報表量度。 您可以新增轉換或收入量度。<P>**注意**： [!UICONTROL 參與]量度不支援作為額外的量度。 [!DNL Target] UI可讓您選取[!UICONTROL 參與]量度，但資料未準確顯示在報表中。 |
    | [!UICONTROL 報表對象] | 新增對象以在報表中啟用按對象篩選。 依預設，報表會顯示所有合格訪客的結果。 新增對象以篩選結果，以獲得更明確的訪客子集。<P>**注意**：與其他活動型別不同，[!UICONTROL Automated Personalization]無法使用[!UICONTROL Adobe Analytics]作為其報告來源(A4T)。 |

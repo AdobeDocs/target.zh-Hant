@@ -2,7 +2,7 @@
 keywords: 包含規則；包含條件；建議；促銷活動；動態篩選；動態；設定檔屬性比對
 description: 瞭解如何比較專案（實體）與使用者設定檔中的值，以在Adobe [!DNL Target] Recommendations中動態篩選。
 title: 如何在Recommendations活動中依設定檔屬性比對來篩選？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 product_v2:
@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 6%
 ---
 # 設定檔屬性比對
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->建立和使用條件與促銷活動包含規則[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的程式相似，使用案例和範例也類似。
+>建立和使用條件與促銷活動包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[程式相似，使用案例和範例也類似。
 
 下列案例顯示如何使用[!UICONTROL 設定檔屬性比對]：
 
@@ -51,7 +51,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### 比對工作與求職者
 
-假設您正嘗試將工作與求職者進行比對。 您只想建議與求職者位於相同城市的工作。
+假設您正嘗試將工作與求職者比對。 您只想建議與求職者位於相同城市的工作。
 
 您可以使用包含規則，將求職者在其訪客設定檔中的位置與工作清單比對，如下列範例所示：
 

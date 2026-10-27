@@ -2,7 +2,7 @@
 keywords: 建議;常見問題;faq
 description: 常見問題集(FAQ)及其關於[!DNL Target Recommendations]設計的回答。
 title: 何處可以取得[!DNL Target Recommendations]的設計問題解答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 TQID: 'https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY'
@@ -18,18 +18,18 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 57%
+source-wordcount: '476'
+ht-degree: 46%
 ---
 # 設計常見問題集
 
 關於[!DNL Adobe Target] [!DNL Recommendations]設計的常見問題集(FAQ)清單。
 
-## 我的建議項目價格未在小數點右方顯示兩個值。 我該如何顯示這些值?
+## 我的建議專案價格未在小數點右方顯示兩個值。 我該如何顯示這些值?
 
-根據預設，設計範本中所傳回的數值 (例如 `entity.value`) 不會在小數點後顯示任何尾隨零。 例如，如果項目為 $35.00 美元，`entity.value` 等於 35 且只會在頁面上顯示 35，而不是 $35.00。
+根據預設，設計範本中傳回的數值（例如`entity.value`）不會在小數點後顯示任何尾隨零。 例如，如果項目為 $35.00 美元，`entity.value` 等於 35 且只會在頁面上顯示 35，而不是 $35.00。
 
 有兩個選項可解決此問題：
 
@@ -41,9 +41,9 @@ ht-degree: 57%
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## 設計中為何沒有顯示類別? 我正在使用`$entity1.categoryId`。 {#section_073309B8051049C7953D396A93EA0713}
+## 設計中為何沒有顯示類別？ 我正在使用`$entity1.categoryId`。 {#section_073309B8051049C7953D396A93EA0713}
 
-設計中無法顯示類別 ID。 因為可以儲存多個類別，所以系統不知道要顯示哪個類別。
+類別ID無法顯示在設計中。 因為可以儲存多個類別，所以系統不知道要顯示哪個類別。
 
 ## 如何變更設計才能立即更新? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 

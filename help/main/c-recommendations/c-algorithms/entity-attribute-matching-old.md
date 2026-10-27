@@ -2,7 +2,7 @@
 keywords: 包含規則；包含條件；建議；促銷活動；動態篩選；動態；實體屬性比對
 description: 瞭解如何透過將潛在專案集區與使用者已互動的特定專案進行比較，以在Adobe [!DNL Target] Recommendations中動態篩選。
 title: 如何在Recommendations活動中依實體屬性比對來篩選？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 product_v2:
@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # 實體屬性比對
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建立和使用條件與促銷活動包含規則[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的程式相似，使用案例和範例也類似。
+>建立和使用條件與促銷活動包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[程式相似，使用案例和範例也類似。
 
 例如，僅建議符合目前專案品牌的專案，如下列範例所示：
 

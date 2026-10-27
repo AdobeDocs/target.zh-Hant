@@ -2,7 +2,7 @@
 keywords: 疑難排解;常見問答;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
 description: 檢視有關[!DNL Target Recommendations]活動的常見問答清單。
 title: 哪裡可以找到有關[!DNL Recommendations]的問答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 80%
+source-wordcount: '3565'
+ht-degree: 77%
 ---
 # 推薦常見問題集
 
@@ -59,7 +59,7 @@ ht-degree: 80%
 
 * 如果某個項目之前已排除但現在應該納入，該項目將會納入下一次演算法執行 (12-24 小時)。
 
-  發生此狀況是因為 [!DNL Target] 會在線上和離線兩個狀態下讓排除生效。 如果新排除某個項目，線上排除很快就會生效。 如果新納入某個項目，線上排除很快就會消失，但離線排除要等到下一次演算法執行後才會消失。
+  發生此狀況是因為 [!DNL Target] 會在線上和離線兩個狀態下讓排除生效。 如果新排除某個項目，線上排除很快就會生效。 如果新納入某個專案，線上排除很快就會消失，但離線排除要等到下一次演演算法執行後才會消失。
 
 * 如果專案之前已納入但現在應該排除，則會根據「專案屬性已更新……」排除專案 根據摘要來源（透過mbox/API為15分鐘或透過摘要為12-24小時），上述時間線將有所討論。
 
@@ -108,15 +108,15 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## 建立推薦活動時，為何不是所有條件都可供選擇，包括自訂條件？ {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## 建立Recommendations活動時，為何不是所有條件都可供選擇，包括自訂條件？ {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 可用的條件取決於目前類別。 建立推薦產品建議時，演算法選擇器會根據類別 ID 來顯示條件。
 
-如果您套用此條件的位置不含類別 ID，則某些條件不會出現在演算法選擇器中。
+如果您套用此條件的位置不含類別ID，則某些條件不會出現在演演算法選擇器中。
 
 如果您使用的位置有類別 ID 存在於 mbox 中，則條件選擇器會包含所有適用的條件。
 
-[!DNL Target] 的[篩選不相容條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}設定可控制演算法選擇器的智慧型篩選。
+[!DNL Target] 的[篩選不相容條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定可控制演算法選擇器的智慧型篩選。
 
 >[!NOTE]
 >
@@ -205,7 +205,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果編輯現有條件、促銷活動或範本測試規則，則篩選條件將顯示建立期間提供的 mbox 名稱。
 
-## 定義新客群後，為何無法儲存舊版推薦活動? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## 定義新對象後，為何無法儲存舊版Recommendations活動？ {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 請確定對象有唯一的名稱。 若您為對象指定了與現有對象相同的名稱，則無法儲存舊版 Recommendations 活動 (2016 年 10 月以前建立的 Recommendations 活動)。
 
@@ -229,7 +229,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 >[!NOTE]
 >
->如果排除太多實體，則推薦會以沒有足夠實體可填入推薦範本的情況來處理。
+>如果排除太多實體，則建議會以沒有足夠實體可填入建議範本的情況來處理。
 
 若要排除 `entityIds`，請將 `&excludes=${mbox.excludedIds}` 權杖附加至產品建議內容 URL。 擷取內容 URL 時，目前的 mbox 請求參數會替代必要參數。
 
@@ -271,7 +271,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我可以在 [!DNL Recommendations Premium] 中使用 [!DNL Adobe Recommendations Classic] 中建立的演算法嗎？
 
-[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]&#x200B;[&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
+[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 您也許可以在 [!DNL Target Premium] 中使用舊版演算法；但是，當在 [!DNL Target Premium] UI 中停用或刪除活動時，演算法可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
 
 ## 如何只推薦新文章或影片？ {#recommend-new-articles}
 

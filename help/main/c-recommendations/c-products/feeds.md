@@ -2,7 +2,7 @@
 keywords: 建議摘要；摘要；SAINT；ftp；sftp；csv；分類；analytics分類
 description: 瞭解摘要如何使用CSV檔案、[!DNL Google Product Search]摘要格式和[!DNL Analytics]產品分類將實體匯入至[!DNL Adobe Target] [!DNL Recommendations]。
 title: 如何在[!DNL Target Recommendations]中使用[!UICONTROL 摘要]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 31%
+source-wordcount: '2792'
+ht-degree: 29%
 ---
 # 摘要
 
@@ -108,7 +108,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->您不能以空白值來覆寫現有值。 在其位置傳遞另一個值以覆寫現有值。 若是售價，常見的解決方案是傳入實際的「NULL」或其他訊息。 然後，您可以撰寫範本規則來排除含有該值的項目。
+>您不能以空白值覆寫現有值。 在其位置傳遞另一個值以覆寫現有值。 若是售價，常見的解決方案是傳入實際的「NULL」或其他訊息。 然後，您可以撰寫範本規則來排除含有該值的項目。
 
 產品在成功上傳其實體大約兩小時之後，就可以在管理介面中使用。
 
@@ -134,7 +134,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >您不需要將資料提交至[!DNL Google]。 您可以匯入自己的資料和排程更新，前提是檔案使用預先定義的[!DNL Google]屬性名稱。
 
-[!DNL Recommendations]接受遵循[!DNL Google]摘要規格的.xml、.txt和.tsv檔案，並使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的屬性。 指定摘要的URL或FTP位置，讓[!DNL Recommendations]伺服器可以擷取檔案並建置您的目錄。
+[!DNL Recommendations]接受遵循[!DNL Google]摘要規格的.xml、.txt和.tsv檔案，並使用Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的[屬性。 指定摘要的URL或FTP位置，讓[!DNL Recommendations]伺服器可以擷取檔案並建置您的目錄。
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
+[!DNL Adobe Analytics]產品分類是建議唯一可用的分類。 如需此分類檔案的詳細資訊，請參閱&#x200B;*Analytics元件*&#x200B;指南中的[關於分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 目前的實作中不一定有建議所需的所有資訊，因此，如果您想要新增至分類檔案，請遵循此使用者指南。
 
 >[!IMPORTANT]
 >
@@ -343,7 +343,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 | 狀態指示器 | 說明 |
 |--- |--- |
 | 綠色狀態指示器 | 當摘要成功完成編列索引時，綠色狀態點表示摘要處於成功狀態。 |
-| 黃色狀態指示器 | 當摘要或摘要索引延遲摘要頻率的 25% 時，就會出現黃色狀態點。 例如，假設摘要設定為每日執行，如果索引在排程時間之後的六小時未完成，則會顯示黃色點。 注意：一旦摘要狀態為「等候索引佇列」，新更新的值即可在傳遞和條件處理中使用。 |
+| 黃色狀態指示器 | 當摘要或摘要索引延遲摘要頻率的 25% 時，就會出現黃色狀態點。 例如，假設摘要設定為每日執行，若索引在排程時間之後的六小時未完成，則會顯示黃色點。 注意：一旦摘要狀態為「等候索引佇列」，新更新的值即可在傳遞和條件處理中使用。 |
 | 白色狀態指示器 | 當摘要未排程時，白色狀態點表示摘要尚未執行。 |
 | 紅色狀態指示器 | 如果摘要無法將資料上傳至伺服器，則會顯示紅色狀態指示器。 |
 
@@ -352,7 +352,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 **範例 1:**
 
 * 第一天：每日摘要處理於太平洋標準時間上午9:00。
-* 第二天: 現在是下午 3:30，摘要自昨天上午 9:00 以來尚未執行
+* 第二天：現在是下午3:30，而且摘要從昨天早上9:00起就沒有執行。
 
 狀態應該是黃色，因為索引在大約 6.5 小時以前就應該執行。 6.5 小時 + 24 等於 127% 的摘要時段。
 

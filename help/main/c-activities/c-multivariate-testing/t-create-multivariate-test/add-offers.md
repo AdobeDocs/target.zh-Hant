@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 55%
+source-wordcount: '500'
+ht-degree: 53%
 ---
 # 建立組合
 
@@ -59,7 +59,7 @@ ht-degree: 55%
 
 ## 最佳實務 {#section_2E98C23D2F1A460FA732A31799CE6291}
 
-* 請勿在測試中包含太多不必要的位置。 您在測試中包含的每個體驗，將會明顯增加達到滿意結果所需的流量和時間。 例如，假設您的頁面元素各有三個產品建議，總共有九種可能的組合 (3x3)。 在三個元素中，有兩個包含三個可能的產品建議，有一個有兩個產品建議，總共有 18 種選項 (3x3x2)。 每增加一個元素和產品建議，數字便會顯著增加。
+* 請勿包含超過測試所需的位置。 您在測試中包含的每個體驗，將會明顯增加達到滿意結果所需的流量和時間。 例如，假設您的頁面元素各有三個產品建議，總共有九種可能的組合 (3x3)。 在三個元素中，有兩個包含三個可能的產品建議，有一個有兩個產品建議，總共有 18 種選項 (3x3x2)。 每增加一個元素和產品建議，數字便會顯著增加。
 * 建立多變數測試時，您可以從測試排除超過10%的體驗，但前提是您認可之後必須使用離線報表進行分析的警告。
 * 利用預覽功能來避免不需要的內容組合。 例如，您可能有兩個影像在相同件商品或服務上提供不同的折扣。 在相同個頁面上同時顯示這些影像不合邏輯，很可能造成混淆。
 * 使用[流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)來確定您的測試是針對頁面所接收的流量而設計。 請確定流量估算程式為您的測試設定開了綠燈，以便您可以取得想要的結果。

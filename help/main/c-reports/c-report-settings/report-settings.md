@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 44%
 ---
 # 報表設定
 
@@ -151,7 +151,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，AEP資料流中的環境應符合[!DNL Target]報表設定中的環境。
+>如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，AEP資料流中的環境應符合[!DNL Target]報表設定中的環境。
 
 ### 重設報告資料
 
@@ -197,7 +197,7 @@ ht-degree: 47%
 考慮以下事項：
 
 * 僅在[!UICONTROL 資料表檢視]中檢視報表時可用。
-* 此功能無法供以[&#x200B; Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
+* 此功能無法供以[ Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
 
 ## 位置貢獻 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
@@ -266,8 +266,8 @@ ht-degree: 47%
 
 圖表會顯示前 16 個體驗 (部分重疊，所以看起來少於 16 條線)。 在左側的體驗窗格中，每一個體驗名稱旁的彩色點會指出體驗的繪圖線條，以對應的顏色顯示。
 
-如果您在體驗窗格中向下捲動，可看到第 17 個至第 26 個體驗的名稱變成灰色，如下圖所示:
+如果您在「體驗」窗格中向下捲動，您會發現第17到26個體驗的名稱會呈現灰色，如下圖所示：
 
 如果暫留在其中一個灰色體驗上，對應於該體驗的新灰色繪圖線條會短暫出現在圖表中。
 
-假設您想顯示體驗 R 的繪圖線條，而不想看到體驗 P 的線條。您可以按一下體驗 P 的名稱將它取消選取，然後按一下體驗 R 的名稱來選取它，如下所示:
+假設您要顯示體驗R的繪圖線，而不想看到體驗P的繪圖線。您可以按一下Experience P的名稱來取消選取它，然後按一下Experience R的名稱來選取，如下所示：

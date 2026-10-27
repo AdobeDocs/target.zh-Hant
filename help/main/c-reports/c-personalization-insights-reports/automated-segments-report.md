@@ -2,7 +2,7 @@
 keywords: 鎖定目標;AP 報告;自動個人化報告;自動鎖定目標;自動鎖定目標報告;個人化;洞察;自動化區段;faq;常見問題集
 description: 瞭解Adobe [!DNL Target]個人化模型所定義的不同區段，會如何檢視「自動化區段」報表，以回應活動中的選件/體驗。
 title: 什麼是自動化區段報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 58%
+source-wordcount: '2351'
+ht-degree: 56%
 ---
 # [!UICONTROL 自動化區段]報告
 
@@ -50,7 +50,7 @@ ht-degree: 58%
 >
 >* [!UICONTROL Personalization Insights]報告只有在從[!UICONTROL 報告量度]下拉式清單中選取[!UICONTROL 主要目標]時才可用。
 >
->* 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights報告。
+>* [!UICONTROL 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights]報告。
 >
 >* [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL 即時]狀態且已啟用且接收流量至少15天的活動產生。
 
@@ -68,7 +68,7 @@ ht-degree: 58%
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL 自動化區段]報表要等到您啟動活動至少15天後才能使用。 在初始期間，您將無法存取此報表，或點擊[!UICONTROL 「自動化區段」]圖示。 15 天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL 「自動化區段」]報表。
+   >您啟動活動後的至少15天內，將無法使用[!UICONTROL 自動化區段]報表。 在此初始期間，您將無法存取此報表或按一下「[!UICONTROL 自動化區段]」圖示。 15 天過後，假設您的活動中有足夠的個人化流量，即可使用[!UICONTROL 「自動化區段」]報表。
 
 1. 啟動活動 15 天後，即可點擊&#x200B;**[!UICONTROL 「自動化區段」]**&#x200B;圖示。
 
@@ -118,7 +118,7 @@ ht-degree: 58%
 
 尚未針對您的活動提供[!UICONTROL 「個人化前瞻分析」]報表的數個原因如下:
 
-* 自您啟動活動以來，15天未曾過去。 「自動化區段」和「重要屬性」報表在開始活動後至少 15 天內無法使用。 在初始期間，您將無法存取這些報表，或點擊「自動化區段」和「重要屬性」圖示。
+* 自您啟動活動以來，15天未曾過去。 您開始活動後的至少15天內，將無法使用「自動化區段」和「重要屬性」報表。 在此初始期間，您將無法存取這些報表，或按一下「自動化區段」和「重要屬性」圖示。
 * 您的活動在指定的時間範圍內沒有足夠的流量。 15 天過後，假設您的活動中有足夠的個人化流量以建立個人化模型，即可使用自動化區段和重要屬性報表。
 * 您的活動有收入最佳化目標。 目前，[!UICONTROL Personalization Insights]僅適用於轉換最佳化目標活動。 Adobe將在未來版本中新增對收入最佳化目標活動的支援。
 
@@ -126,7 +126,7 @@ ht-degree: 58%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。 例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 **何謂自動化區段?**
 

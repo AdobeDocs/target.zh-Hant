@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # 可視化體驗撰寫器 (VEC)
 
@@ -33,7 +33,7 @@ VEC 是 [!DNL Adobe Target] 的其中一項主要功能。 VEC 可讓行銷人�
 >
 >如果頁面包含混合內容 (例如，安全網站中的不安全頁面)，某些瀏覽器 (例如 Firefox) 會阻擋此頁面在 VEC 中顯示。 如果您的頁面未顯示，請在瀏覽器網址列按一下URL旁的圖示，然後按一下&#x200B;**[!UICONTROL 停用此頁面的保護]**。 此問題不影響向網站訪客顯示您的頁面。
 
-頁面上位於 iframe 內的內容無法在 VEC 中修改。 若要編輯 iframe 內的內容，請確定 iframe 文件已啟用 Target 功能，然後在 VEC 中載入該 iframe URL。
+頁面上位於iframe內的內容無法在VEC中修改。 若要編輯 iframe 內的內容，請確定 iframe 文件已啟用 Target 功能，然後在 VEC 中載入該 iframe URL。
 
 您可以使用橫跨頁面頂端的下拉式功能表，以不同對象的角度或以不同體驗來檢視您的頁面。 您可以在第二個下拉式清單中提供每一個體驗的名稱。 例如，假設您在導覽列中測試首頁連結的位置，您可能將最先出現首頁連結的體驗命名為像是「首頁連結」，以輕鬆地辨別清單中的體驗。
 

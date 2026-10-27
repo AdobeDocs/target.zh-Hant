@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 45%
+source-wordcount: '351'
+ht-degree: 38%
 ---
 # 活動衝突
 
@@ -42,4 +42,4 @@ ht-degree: 45%
 
 此清單會列出每個潛在衝突的狀態和優先順序，還有其他資訊。 您可以利用狀態和優先順序，協助您判斷衝突發生的可能性。 考慮兩個可能衝突的活動。 如果某個活動目前不在作用中，則不會發生衝突。 只有當非使用中活動變為使用中時，才可能發生衝突。 如果具有相同優先順序和相同對象的兩個已上線活動之間可能發生衝突，則會發生衝突。 您可以變更優先順序和狀態來防止衝突。
 
-即使對象不同，仍會有潛在衝突，因為特定訪客可能屬於多個對象。
+如果對象不同，仍可能會發生衝突，因為特定訪客可能屬於多個對象。

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # 疑難排解[!UICONTROL 視覺化體驗撰寫器]的相關問題
 
@@ -47,14 +47,14 @@ ht-degree: 29%
 
 +++
 
-## 我的頁面不會在 EEC 中開啟，或載入緩慢。 活動或體驗在 VEC 中載入緩慢。 (僅限 VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## 我的頁面無法在EEC中開啟或載入緩慢。 活動或體驗在 VEC 中載入緩慢。 (僅限 VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++詳細資料
 數個問題可能會影響[!UICONTROL Target]體驗撰寫器中的頁面效能。 一些常見問題包括:
 
 * 您的頁面上沒有 mbox。
 * 您的網站使用 Proxy 封鎖，它不允許在這兩個體驗撰寫器中開啟頁面。
-* 您的網站不允許在 iFrame 中開啟網站本身。
+* 您的網站不允許在iFrame中開啟本身。
 
 如果[!UICONTROL 增強體驗撰寫器]發生問題，請嘗試關閉[!UICONTROL 增強體驗撰寫器]，並改用[!UICONTROL 視覺化體驗撰寫器]。
 
@@ -80,7 +80,7 @@ ht-degree: 29%
 >
 >* 在 VEC 中編輯時啟用規則，並在不使用 VEC 時停用規則。
 >
->對於[!UICONTROL Modify Response Header]延伸模組([!DNL Firefox])，因為您無法新增URL規則，所以您必須執行下列動作：
+>對於[!UICONTROL Modify Response Header]延伸模組([!DNL Firefox])，因為您無法新增URL規則，所以必須執行下列動作：
 >
 >* 在 VEC 中編輯時啟用規則，並在不使用 VEC 時停用規則。
 
@@ -169,7 +169,7 @@ ht-degree: 29%
 ## 當我使用[!UICONTROL 瀏覽]模式時，VEC似乎損毀。 (僅限 VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++詳細資料
-使用[!UICONTROL 瀏覽]模式時，如果您存取的URL未實作[!DNL Target]資料庫（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hant){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}）或包含frame-buster標頭，VEC就會顯示為已損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
+使用[!UICONTROL 瀏覽]模式時，如果您存取的URL未實作[!DNL Target]資料庫（[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}）或包含frame-buster標頭，VEC就會顯示為已損毀。 由於瀏覽器安全性的顧慮，[!DNL Target]無法正確存取您導覽到的URL，或如果頁面載入，VEC URL無法一致更新。
 
 發生此問題的原因是VEC在`<iframe>`中載入網頁。 由於相同來源原則，瀏覽器的目前安全性機制導致[!DNL Target] UI無法存取指定框架的專案。 瀏覽器會封鎖嘗試存取具有不同來源且包含`location.href`等資訊之框架的Script。
 

@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 50%
+source-wordcount: '2918'
+ht-degree: 48%
 ---
 # Target 最佳化和個人化常見問答
 
@@ -87,14 +87,14 @@ ht-degree: 50%
 **是否有[!DNL Adobe]社群/論壇，我可以在這裡找到關於[!DNL Target]的答案和詳細資訊？**
 
 +++檢視詳細資料
-在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
+在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
 
 +++
 
 **[!DNL Target]支援哪些瀏覽器？**
 
 +++檢視詳細資料
-如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
+如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
 
 [!DNL Target]介面支援[!DNL Safari]。 您可以在[!DNL Safari]中建立表單式活動，並使用所有功能，但[!DNL Safari]不支援的[!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)除外。 若要在VEC或EEC中編輯體驗，請使用[!DNL Google Chrome]。
 
@@ -185,7 +185,7 @@ ht-degree: 50%
 **我可以將活動排程在固定時間開始和結束嗎？**
 
 +++檢視詳細資料
-使用三部分活動工作流程的[!UICONTROL 目標與設定]&#x200B;[&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的排程功能，指定開始和結束日期。
+使用三部分活動工作流程的[!UICONTROL 目標與設定]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的[排程功能，指定開始和結束日期。
 
 記得啟動活動。 只有線上活動才會遵循指定的排程。 達到結束日期之後，活動會進入[!UICONTROL 已結束]狀態。
 
@@ -194,7 +194,7 @@ ht-degree: 50%
 **我可以只對[!UICONTROL 鎖定目標]步驟進行變更，而不要完成整個三個步驟引導工作流程來進行編輯？**
 
 +++檢視詳細資料
-您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面[&#128279;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。
+您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。[
 
 +++
 
@@ -274,7 +274,7 @@ ht-degree: 50%
 查看產品的下列方面:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -311,7 +311,7 @@ ht-degree: 50%
 
 我們也提供[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單。
+也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單[。
 
 +++
 
@@ -325,7 +325,7 @@ ht-degree: 50%
 **我有多個網域。 其中一個網域需要啟用[!UICONTROL 增強體驗撰寫器]，而其他網域則需要將其停用。 我應該怎麼做？**
 
 +++檢視詳細資料
-您一律可以使用活動層級[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增強體驗撰寫器選項來覆寫預設設定（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
+您一律可以使用活動層級](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增強體驗撰寫器選項來覆寫預設設定（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
 
 +++
 
@@ -359,7 +359,7 @@ ht-degree: 50%
 
 +++
 
-**為什麼我無法通過[!UICONTROL 視覺化體驗撰寫器] (VEC)的登入頁面，或是進入我沒有特定URL、深藏在其中的頁面？**
+**為什麼我無法通過在[!UICONTROL 視覺化體驗撰寫器] (VEC)中的登入頁面，或是進入我沒有特定URL、深藏在其中的頁面？**
 
 +++檢視詳細資料
 使用[!UICONTROL 撰寫]和[!UICONTROL 瀏覽]功能來導覽至所選擇的頁面，並開始建立您的體驗。
@@ -395,7 +395,7 @@ ht-degree: 50%
 **為什麼我的 QA 程序中沒有發生內容傳送？**
 
 +++檢視詳細資料
-您的網站的元素上可能有動態 ID、重複的 ID 或動態類別。 您可能必須在帳戶層級 (或是在活動層級，如果問題是網域或頁面特定) 評估網站偏好設定選項。 請參閱 [CSS 選取器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
+您的網站可能有動態ID、重複ID或元素上的動態類別。 您可能必須在帳戶層級 (或是在活動層級，如果問題是網域或頁面特定) 評估網站偏好設定選項。 請參閱 [CSS 選取器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
 
 +++
 
@@ -421,7 +421,7 @@ ht-degree: 50%
 查看產品的下列方面:
 
 * [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -440,7 +440,7 @@ ht-degree: 50%
 **我無法在執行活動之前定義客群。 我發現[!DNL Target]個活動中報表對象的這個方面很具限制性。 我怎麼做才能讓此程式簡單點？**
 
 +++檢視詳細資料
-這是可方便使用 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的位置。 如果您有[!DNL Adobe Analytics]，只要選擇來源作為[!DNL Analytics]即可，這樣即可免除此限制。 現在您可以隨時對任何對象執行分析，並且不需預先定義報表對象。
+這是可方便使用 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的位置。 如果您有[!DNL Adobe Analytics]，只要選擇來源作為[!DNL Analytics]即可，這樣即可免除此限制。 現在您可以隨時對任何對象執行分析，而且您不需要預先定義報表對象。
 
 +++
 
@@ -495,6 +495,6 @@ ht-degree: 50%
 **我可以在何處進一步瞭解[!DNL Target] API？**
 
 +++檢視詳細資料
-我們提供詳盡的 API 相關文件。 請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
+我們提供詳盡的 API 相關文件。 請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
 
 +++

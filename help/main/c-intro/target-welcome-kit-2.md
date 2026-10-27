@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2620'
 ht-degree: 72%
 ---
 # 第 2 章：Adobe [!DNL Target] 總覽
@@ -80,7 +80,7 @@ ht-degree: 72%
 
 ## 頻道
 
-您可以使用[!DNL Target]測試和個人化幾乎任何地點的數位體驗 — 例如您的網站、行動網站和行動應用程式等傳統數位接觸點，或是資訊站、電子郵件、物聯網裝置、遊戲主機，甚至Alexa和Cortana等語音助理這類的接觸點。 許多公司都開始在其網站上使用 [!DNL Target]。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動裝置頻道現在至關重要。 在理想狀況下，您可以跨所有接觸點連結訪客體驗，以提供順暢、一致的體驗。
+您可以使用[!DNL Target]測試和個人化幾乎任何地點的數位體驗 — 例如您的網站、行動網站和行動應用程式等傳統數位接觸點，或是資訊站、電子郵件、物聯網裝置、遊戲主機，甚至Alexa和Cortana等語音助理這類的接觸點。 許多公司都開始在其網站上使用 [!DNL Target]。 不過，最近的研究顯示，有更多人從行動裝置瀏覽品牌。 最佳化您的行動裝置頻道現在至關重要。 理想情況下，您可以跨所有接觸點連結訪客體驗，以提供順暢、一致的體驗。
 
 | 頻道 | 詳細資料 |
 | --- | --- |
@@ -95,8 +95,8 @@ ht-degree: 72%
 
 | 實施類型 | 詳細資料 |
 | --- | --- |
-| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。 瀏覽器會決定要顯示哪個體驗，然後顯示其內容。 透過使用者端，您可以使用WYSIWYG編輯器、**[!UICONTROL 視覺化體驗撰寫器]** (VEC)或非視覺化介面&#x200B;**[!UICONTROL 表單式體驗撰寫器]**，來建立您的測試和個人化體驗。 [了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant){target=_blank}。 |
-| 伺服器端 | 在此類型的 [!DNL Target] 實施中，用戶端裝置會透過您的伺服器請求體驗，您的伺服器會將該請求傳送至 [!DNL Target]，[!DNL Target] 會將回應傳回至您的伺服器，而您的伺服器會決定要傳送哪個體驗至用戶端裝置，以供其呈現。 該體驗不需要顯示在瀏覽器中；它可以透過語音助理或某些其他非視覺體驗或非瀏覽器型裝置，在電子郵件或資訊站中顯示。 由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。 [了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。 |
+| 用戶端 | 透過 [!DNL Target] 的實施，[!DNL Target] 會將與活動相關聯的體驗直接傳送至用戶端瀏覽器。 瀏覽器會決定要顯示哪個體驗，然後顯示其內容。 透過使用者端，您可以使用WYSIWYG編輯器、**[!UICONTROL 視覺化體驗撰寫器]** (VEC)或非視覺化介面&#x200B;**[!UICONTROL 表單式體驗撰寫器]**，來建立您的測試和個人化體驗。 [了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
+| 伺服器端 | 在此類型的 [!DNL Target] 實施中，用戶端裝置會透過您的伺服器請求體驗，您的伺服器會將該請求傳送至 [!DNL Target]，[!DNL Target] 會將回應傳回至您的伺服器，而您的伺服器會決定要傳送哪個體驗至用戶端裝置，以供其呈現。 該體驗不需要顯示在瀏覽器中；它可以透過語音助理或某些其他非視覺體驗或非瀏覽器型裝置，在電子郵件或資訊站中顯示。 由於伺服器位於用戶端與 [!DNL Target] 之間，如果您需要更多控制和安全性，或有要在伺服器上執行的複雜後端程序，這種類型的實施也是非常理想的選擇。 [了解詳情](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。 |
 | 混合實施 | 在此實施中，您可以選擇最適合特定使用案例的實施方法。 例如，您可能會使用用戶端實施來 A/B 測試首頁上主頁橫幅中的一個產品建議，但也會使用伺服器端實施來決定要在用戶端瀏覽器上顯示的內部搜尋結果、要在智慧型儀表板上顯示的體驗，或要透過語音助手傳送的語音回應。 |
 
 ## 活動元素
@@ -113,7 +113,7 @@ ht-degree: 72%
 
 ## 活動建立工具
 
-[!DNL Target]提供三種主要方式來設定您的測試和個人化活動： [!UICONTROL 視覺化體驗撰寫器] (VEC)、[!UICONTROL 表單式體驗撰寫器]以及[!UICONTROL 單頁應用程式(SPA)視覺化體驗撰寫器]。 兩者都會透過三個步驟來引導您完成活動設定程式：定義體驗、選取或定義對象，以及選取您用來測量活動結果的主要和次要成功量度。
+[!DNL Target]提供三種主要方式來設定您的測試和個人化活動： [!UICONTROL 視覺化體驗撰寫器] (VEC)、[!UICONTROL 表單式體驗撰寫器]以及[!UICONTROL 單頁應用程式(SPA)視覺化體驗撰寫器]。 兩者都會透過三個步驟來引導您完成活動設定程式：定義體驗、選取或定義對象，以及選取您將用來測量活動結果的主要和次要成功量度。
 
 | 工具 | 詳細資料 |
 | --- | --- |

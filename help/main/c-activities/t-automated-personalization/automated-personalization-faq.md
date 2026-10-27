@@ -2,7 +2,7 @@
 keywords: 疑難排解；常見問題集；FAQ；FAQs；自動個人化；控制；預設體驗；最佳實務
 description: 在[!UICONTROL Adobe Target]中探索關於[!UICONTROL Automated Personalization] (AP)活動的常見問題集(FAQ)和回答清單。
 title: 如何尋找有關[!UICONTROL Automated Personalization]活動的常見問題集？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2307'
 ht-degree: 17%
 ---
 # Automated Personalization常見問題集

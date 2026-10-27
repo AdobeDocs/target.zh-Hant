@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 17%
 ---
 # 使用[!DNL Analytics]追蹤伺服器
@@ -36,7 +36,7 @@ ht-degree: 17%
 >
 >如果您使用 at.js 0.9.1 版 (或更新版本)，您在活動建立期間就不需要指定追蹤伺服器。 at.js 程式庫會自動傳送追蹤伺服器值給 [!DNL Target]。 在活動建立期間，您可以將[!UICONTROL 「目標與設定」]頁面上的[!UICONTROL 「追蹤伺服器」]欄位保留空白。
 >
->[!DNL Target]團隊同時支援at.js 1.*x*&#x200B;和at.js 2.*x*。 升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。 如需詳細資訊，請參閱[&#x200B; at.js 版本詳細資訊](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+>[!DNL Target]團隊同時支援at.js 1.*x*&#x200B;和at.js 2.*x*。 升級至任一主要版本的at.js最新更新，以確保您執行的是支援的版本。 如需詳細資訊，請參閱[ at.js 版本詳細資訊](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 為確保來自[!DNL Target]的資料進入[!DNL Analytics]中的正確位置，A4T要求在所有從[!DNL Target]呼叫Modstats時傳送[!DNL Analytics]追蹤伺服器。 針對使用多個追蹤伺服器的實作，請使用[!DNL Adobe Experience Platform Debugger]或瀏覽器的開發人員工具來決定活動的正確追蹤伺服器。
 
@@ -46,7 +46,7 @@ ht-degree: 17%
 
 1. 從您正在建立活動的頁面，開啟[!DNL Adobe Experience Platform Debugger]。
 
-   如果您尚未安裝除錯程式，請參閱[Adobe Experience Platform Debugger概觀](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=zh-Hant)。
+   如果您尚未安裝除錯程式，請參閱[Adobe Experience Platform Debugger概觀](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)。
 
 1. 按一下左側導覽功能表中的&#x200B;**[!UICONTROL Analytics]**。
 

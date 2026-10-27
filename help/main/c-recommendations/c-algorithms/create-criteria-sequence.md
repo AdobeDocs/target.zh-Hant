@@ -2,7 +2,7 @@
 keywords: 條件序列；多個條件；演演算法；條件；建議條件；序列；限制傳回的專案數；位置層級控制；位置
 description: 瞭解如何設定最多五個條件的順序，以更能掌控建議活動中出現的專案。
 title: 如何在Recommendations中建立條件序列？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 TQID: 'https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 21%
+source-wordcount: '834'
+ht-degree: 17%
 ---
 # 建立條件序列
 
@@ -33,7 +33,7 @@ ht-degree: 21%
 
 若要建立條件順序，您必須先建立您要在序列中包括的條件。 如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
-透過使用條件序列，您可以在條件未傳回可滿足您的設計的足夠結果時，提供其他鎖定目標的建議，而非使用更一般的備用建議。 通常，條件序列會從更具體的目標定位（可能會傳回較少的結果）進展到更一般的目標定位（通常傳回更多結果）。
+當條件未傳回足夠結果填滿您的設計時，透過使用條件序列，您可以提供其他鎖定目標的建議，而不是使用較一般的備用建議。 通常，條件序列會從更具體的目標定位（可能會傳回較少的結果）進展到更一般的目標定位（通常傳回更多結果）。
 
 您的條件序列可能會依頁面型別的不同而有所不同，如下列範例所示：
 
@@ -48,7 +48,7 @@ ht-degree: 21%
 
 有多個方式可到達[!UICONTROL 「建立條件順序」]畫面。 根據您達到畫面的方式，部分畫面選項可能有所不同。
 
-* 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」**&#x200B;[!UICONTROL >]&#x200B;**「建立條件順序」]**。 您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
+* 在&#x200B;**[!UICONTROL 「Recommendations」]**>**[!UICONTROL 「條件」]**&#x200B;資料庫畫面上，按一下&#x200B;**[!UICONTROL 「建立條件」**[!UICONTROL >]**「建立條件順序」]**。 您在這裡建立的條件會自動可供所有 [!UICONTROL Recommendations] 活動使用。
 * 建立[!UICONTROL Recommendations]活動時，請在[!UICONTROL 選取條件]畫面中按一下&#x200B;**[!UICONTROL 新建]** > **[!UICONTROL 建立條件順序]**。 您可以選擇儲存您的新條件序列以搭配其他[!UICONTROL Recommendations]活動使用。
 * 編輯[!UICONTROL Recommendations]活動時，請按一下頁面上的[!UICONTROL Recommendations位置]方塊，然後選取&#x200B;**[!UICONTROL 變更條件]**。 在[!UICONTROL 「選取條件」]畫面上，按一下&#x200B;**[!UICONTROL 「新建」]**>**[!UICONTROL 「建立條件順序」]**。 您可以選擇儲存您的新條件以搭配其他[!UICONTROL Recommendations]活動使用。
 

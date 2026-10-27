@@ -1,27 +1,32 @@
 ---
 keywords: 個人資料指令碼;個人資料指令碼屬性;個人資料指令碼最佳最法;偵錯;指令碼;個人資料指令碼;屬性;參數
-description: 了解儲存在訪客個人資料中的訪客特有屬性，這些屬性用於提供可以在 Adobe [!DNL Target] 活動中使用的資訊。
+description: 瞭解儲存在訪客設定檔中的訪客特定屬性，這些屬性用於提供可以在Adobe [!DNL Target]活動中使用的資訊。
 title: 什麼是個人資料屬性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 2520
-ht-degree: 88%
-
+source-wordcount: '2523'
+ht-degree: 86%
 ---
-
 # 個人資料屬性
 
 [!DNL Adobe Target] 中的個人資料屬性是訪客特有的參數。 這些屬性儲存於訪客的個人資料中，以提供可用於活動中的訪客相關資訊。
@@ -44,7 +49,7 @@ ht-degree: 88%
 
    | 參數類型 | 說明 |
    |--- |--- |
-   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。 請參閱&#x200B;*Target開發人員指南*&#x200B;中的[傳遞引數至全域Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=zh-Hant){target=_blank}。<P>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。 如果您必須傳遞超過50個設定檔屬性至[!DNL Target]，請使用[!UICONTROL 設定檔更新API]方法來傳遞它們。 如需詳細資訊，請參閱&#x200B;*目標開發人員指南*&#x200B;中的[更新設定檔](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=zh-Hant){target=_blank}。 |
+   | mbox | 建立 mbox 時透過頁面程式碼直接傳遞。 請參閱&#x200B;*Target開發人員指南*&#x200B;中的[傳遞引數至全域Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。<P>**注意**：[!DNL Target] 具有每個 mbox 呼叫 50 個獨特個人資料屬性的限制。 如果您必須傳遞超過50個設定檔屬性至[!DNL Target]，請使用[!UICONTROL 設定檔更新API]方法來傳遞它們。 如需詳細資訊，請參閱&#x200B;*目標開發人員指南*&#x200B;中的[更新設定檔](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}。 |
    | 個人資料 | 直接使用 JavaScript 程式碼片段定義。 這些片段可儲存累積總計 (例如消費者總花費金額)，並在每個 mbox 要求上執行。 請參閱底下的&#x200B;*個人資料指令碼屬性*。 |
 
 ## 個人資料指令碼屬性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -89,7 +94,7 @@ if (mbox.name == 'Track_Interest') {
 * 參數和值會區分大小寫。 請符合活動或測試期間所收到參數與值的大小寫。
 * 如需更多 JavaScript 語法，請參閱以下「指令碼個人資料參數的 JavaScript 參考資料」一節。
 * 在停用指令碼之後，此參數仍會留在個人資料中。 使用者的個人資料如果已包含用於某活動客群的參數，該使用者將有資格參加該活動。
-* 如果個人資料指令碼正在活動中使用，則無法將其刪除。
+* 無法刪除活動中正在使用的設定檔指令碼。
 * 不建議將使用某個人資料指令碼結果建立的相依個人資料指令碼用於其他個人資料指令碼。 無法保證個人資料指令碼執行的順序。
 
 ## 檢視個人資料指令碼資訊卡 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -149,11 +154,11 @@ if (mbox.name == 'Track_Interest') {
 
   最佳做法：
 
-   * 讓個人資料指令碼盡量小一點並且盡可能簡單。
-   * 避免使用規則運算式或是只使用簡單規則運算式。 即便是簡單運算式也需要許多指示來求值。
-   * 避免使用遞迴。
-   * 個人資料指令碼在新增到 [!DNL Target] 之前應該進行效能測試。 所有個人資料指令碼都會在每個 mbox 要求上執行。 如果個人資料指令碼無法正確執行，執行 mbox 要求需要更長的時間，因而可能影響流量和轉換。
-   * 如果個人資料指令碼變得太複雜，請考慮改用[回應 Token](/help/main/administrating-target/response-tokens.md)。
+  * 讓個人資料指令碼盡量小一點並且盡可能簡單。
+  * 避免使用規則運算式或是只使用簡單規則運算式。 即便是簡單運算式也需要許多指示來求值。
+  * 避免使用遞迴。
+  * 個人資料指令碼在新增到 [!DNL Target] 之前應該進行效能測試。 所有個人資料指令碼都會在每個 mbox 要求上執行。 如果個人資料指令碼無法正確執行，執行 mbox 要求需要更長的時間，因而可能影響流量和轉換。
+  * 如果個人資料指令碼變得太複雜，請考慮改用[回應 Token](/help/main/administrating-target/response-tokens.md)。
 
 * 如需詳細資訊，請參閱 JS Rhino 引擎文件。
 
@@ -187,7 +192,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否能夠使用個人資料指令碼從資料層中的頁面擷取資訊?**
 
-由於個人資料指令碼於伺服器端執行，因此其無法直接讀取頁面。 資料必須透過mbox要求或其他[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法傳入。 將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
+由於個人資料指令碼於伺服器端執行，因此其無法直接讀取頁面。 資料必須透過mbox要求或其他[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法傳入。 將資料傳入 [!DNL Target] 後，個人資料指令碼即可讀取資料當作 mbox 參數或個人資料參數。
 
 ## 指令碼個人資料參數的 JavaScript 參考資料
 
@@ -267,7 +272,7 @@ else if (mbox.param("adobeQA"))
 | `user.get('<par_name>')` | 傳回為目前訪客設定的「`user.<par_name>`」的值；如果沒有設定任何值，則會傳回 null。 |
 | `user.categoryAffinity` | 傳回最佳類別的名稱。 |
 | `user.categoryAffinities` | 傳回具有最佳類別的陣列。 |
-| `user.isFirstSession` | 如果這是訪客的第一個工作階段，則會傳回 true。 |
+| `user.isFirstSession` | 如果這是訪客的第一個工作階段，則傳回true。 |
 | `user.browser` | 傳回 HTTP 標頭中的使用者代理程式。 舉例來說，您可以建立只將目標鎖定於 Safari 使用者的運算式目標: `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### 常見運算子

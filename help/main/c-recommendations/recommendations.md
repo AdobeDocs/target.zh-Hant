@@ -2,7 +2,7 @@
 keywords: 推薦;推薦條件;推薦演算法;推薦活動;條件;推薦鎖定目標;recs
 description: 瞭解Adobe [!DNL Target]中的Recommendations活動，這些活動會根據先前的使用者活動或其他演演算法，自動顯示可能使客戶感興趣的內容。
 title: 什麼是[!DNL Target]建議？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 TQID: 'https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 91%
+source-wordcount: '872'
+ht-degree: 88%
 ---
 # 推薦
 
@@ -66,7 +66,7 @@ ht-degree: 91%
 
 ## 詞彙
 
-開始使用 [!DNL Recommendations] 之前，請務必熟悉本節中使用的部分詞語。 如果您尚未完全瞭解這些詞語，請放心，當您設定 [!DNL Recommendations] 活動時，您會更熟悉這些詞語。
+開始使用 [!DNL Recommendations] 之前，請務必熟悉本節中使用的部分詞語。 如果您尚未完全瞭解這些詞語，請放心，當您設定[!DNL Recommendations]活動時，您會更熟悉這些詞語。
 
 | 術語 | 定義 |
 | --- | --- |

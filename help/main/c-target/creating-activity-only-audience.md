@@ -1,24 +1,26 @@
 ---
 keywords: 客群;客群規則;建立客群;建立客群;僅限活動;僅活動;臨機
-description: 瞭解如何在Adobe [!DNL Target] 中建立單次使用的僅限於此活動的對象。
+description: 瞭解如何在Adobe [!DNL Target]中建立單次使用的僅限於此活動的對象。
 title: 我可以建立只使用一次的受眾嗎？
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: '479'
 ht-degree: 30%
-
 ---
-
 # 建立僅限活動的客群
 
 在建立活動時，從[!DNL Adobe Target]三步驟引導式工作流程內建立僅限活動的對象。 這些隨選受眾可用在相同活動內的其他位置，但不會儲存在[!UICONTROL 受眾資料庫]中，以用於其他活動。
@@ -59,5 +61,5 @@ ht-degree: 30%
 
   您可以使用下列替代方式來使用排除規則：
 
-   * [建立及使用資料庫對象](/help/main/c-target/c-audiences/create-audience.md)，而非僅限於此活動的對象。
-   * [將多個](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) （最多20個）資料庫對象合併為僅限於此活動的對象。 結合受眾時，即使結合的受眾儲存為僅限於此活動的受眾，仍可在個別資料庫受眾中使用包含和排除規則。
+  * [建立及使用資料庫對象](/help/main/c-target/c-audiences/create-audience.md)，而非僅限於此活動的對象。
+  * [將多個](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) （最多20個）資料庫對象合併為僅限於此活動的對象。 結合受眾時，即使結合的受眾儲存為僅限於此活動的受眾，仍可在個別資料庫受眾中使用包含和排除規則。

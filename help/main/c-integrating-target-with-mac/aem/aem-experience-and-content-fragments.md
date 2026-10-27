@@ -1,28 +1,34 @@
 ---
 keywords: aem；experience manager；adobe experience manager；整合；整合；體驗片段；內容片段
-description: 了解如何在  [!DNL Adobe Target]  活動中使用  [!DNL Adobe Experience Manager]  體驗和內容片段。
-title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]？
+description: 瞭解如何在[!DNL Adobe Target]活動中使用[!DNL Adobe Experience Manager]體驗和內容片段。
+title: 如何使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]？
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 TQID: https://experienceleague.adobe.com/OlgveSjoE0rh1orFsbEZVCSbjd3TKEk8fdBbbXtLxhA
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+    internal-label: Content and assets
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 407
-ht-degree: 40%
-
+source-wordcount: '410'
+ht-degree: 36%
 ---
-
 # AEM [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]概觀
 
 在[!DNL Target]個活動中使用[!DNL Adobe Experience Manager] (AEM)中建立的[!UICONTROL 體驗片段] (XF)和[!UICONTROL 內容片段] (CF)，以輔助最佳化和個人化。
@@ -41,16 +47,16 @@ ht-degree: 40%
 * 您需為 [!DNL Adobe Experience Manager] (AEM) 客戶才能使用這些功能。 請確保您滿足每種片段類型的要求：[體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements)或是[內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements)。
 * [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]可用於下列活動型別：
 
-   * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL 自動鎖定目標]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL 體驗鎖定] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL 自動鎖定目標]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL 體驗鎖定] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]不適用於下列活動型別：
 
-   * [[!UICONTROL 多變數測試] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL 推薦]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL 多變數測試] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL 推薦]](/help/main/c-recommendations/recommendations.md)
 
 * 您可以使用[視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，在[!DNL Target]個活動中使用[!UICONTROL 體驗片段]。
 * 您只能使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，在[!DNL Target]個活動中使用[!UICONTROL 內容片段]。
@@ -59,4 +65,4 @@ ht-degree: 40%
 
 [!DNL Adobe Experience Manager] [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]表面上看起來可能類似，但每個片段型別在不同使用案例中會扮演主要角色。
 
-如需[!UICONTROL 體驗片段]和[!UICONTROL 內容片段]如何相似、不同及使用時機的詳細資訊，請參閱[AEM Sites影片和教學課程指南](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=zh-Hant){target=_blank}中的[瞭解[!UICONTROL 內容片段]和[!UICONTROL 體驗片段]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=zh-Hant){target=_blank}。
+如需[!UICONTROL 體驗片段]和[!UICONTROL 內容片段]如何相似、不同及使用時機的詳細資訊，請參閱[AEM Sites影片和教學課程指南](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}中的[瞭解[!UICONTROL 內容片段]和[!UICONTROL 體驗片段]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}。

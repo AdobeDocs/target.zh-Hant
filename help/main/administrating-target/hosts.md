@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1097'
 ht-degree: 21%
 ---
 # 主機
@@ -48,7 +48,7 @@ ht-degree: 21%
 
 主機是發出[!DNL Target]要求的任何網域。 在網站上，它通常是發出[!DNL Target]請求的URL的`location.hostname`屬性。
 
-依預設，[!DNL Target]不會限制可以發出[!DNL Target]個要求並接收[!DNL Target]個回應的主機。 當新主機提出請求時，就會自動運作。 此程式也可針對您不知道或無法預測的不同網域進行測試。 如果您要覆寫此預設行為，可以設定允許清單或封鎖清單來限制哪些主機可搭配[!DNL Target]使用。
+依預設，[!DNL Target]不會限制可以發出[!DNL Target]個要求並接收[!DNL Target]個回應的主機。 當新主機提出請求時，就會自動運作。 此程式還可在您不知道或無法預測的不同網域上啟用測試。 如果您要覆寫此預設行為，可以設定允許清單或封鎖清單來限制哪些主機可搭配[!DNL Target]使用。
 
 {{permissions-update}}
 
@@ -113,7 +113,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->**安全性最佳實務**：如果您使用[!DNL Target]的ubox功能，此允許清單也會控制您的[重新導向程式](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hant){target=_blank}可瀏覽的網域清單。 使用ubox作為實施作業的一部分時，請務必新增您要重新導向的任何網域。 如果允許清單未指定，[!DNL Adobe]將無法驗證重新導向URL，並保護不受潛在的惡意重新導向。
+>**安全性最佳實務**：如果您使用[!DNL Target]的ubox功能，此允許清單也會控制您的[重新導向程式](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}可瀏覽的網域清單。 使用ubox作為實施作業的一部分時，請務必新增您要重新導向的任何網域。 如果允許清單未指定，[!DNL Adobe]將無法驗證重新導向URL，並保護不受潛在的惡意重新導向。
 >
 >允許清單的優先順序高於環境。 在使用允許清單功能之前，請先清除所有主機，然後只有允許清單允許的主機才會出現在您的主機清單中。 接著可將主機移至想要的環境中。
 

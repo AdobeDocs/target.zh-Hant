@@ -2,7 +2,7 @@
 keywords: 自動鎖定目標；鎖定目標；流量分配；常見問題；faq；疑難排解；疑難排解
 description: 瞭解[!DNL Target]中的[!UICONTROL 自動鎖定目標]活動如何根據客戶設定檔和類似訪客的行為，提供每位訪客量身打造的最佳體驗。
 title: 什麼是[!UICONTROL 自動鎖定目標]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 20%
+source-wordcount: '2104'
+ht-degree: 18%
 ---
 # [!UICONTROL 自動鎖定目標]總覽
 
@@ -37,7 +37,7 @@ ht-degree: 20%
 
 請繼續閱讀，瞭解如何使用[!UICONTROL 自動鎖定目標]來提高您組織的提升度和收入。
 
-## 概觀 {#section_972257739A2648AFA7E7556B693079C9}
+## 概述 {#section_972257739A2648AFA7E7556B693079C9}
 
 使用三步驟引導式工作流程[建立A/B活動](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)時，請在&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面上選擇&#x200B;**[!UICONTROL 針對個人化體驗自動鎖定目標]**&#x200B;選項（步驟2）。
 
@@ -81,7 +81,7 @@ A/B活動流程中的[!UICONTROL 自動鎖定目標]選項可讓您只要按一�
 |--- |--- |
 | [隨機森林演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!DNL Target]在[!UICONTROL 自動鎖定目標]和[!UICONTROL Automated Personalization]中使用的主要個人化演演算法是隨機森林。 整體方法（例如隨機森林）會使用多種學習演演算法，以獲得比從任何組成學習演演算法都更好的預測效能。 [!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]活動中的隨機森林演演算法是一種分類或回歸方法，可在訓練時建構許多決策樹來運作。 |
 | [正在上傳 [!DNL Target]的Personalization演演算法的資料](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | 有幾種方式可輸入[!UICONTROL 自動鎖定目標]和[!UICONTROL Automated Personalization]模型的資料。 |
-| [&#x200B; [!DNL Target]的Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]的個人化演演算法會自動收集各種資料。 |
+| [ [!DNL Target]的Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]的個人化演演算法會自動收集各種資料。 |
 
 ## 決定流量分配 {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -127,7 +127,7 @@ A/B活動流程中的[!UICONTROL 自動鎖定目標]選項可讓您只要按一�
 
 * 多臂吃角子老虎機可確保模型一律「花費」少量流量，在整個活動學習期間持續學習，並防止過度利用先前學習的趨勢。
 * 基礎模型每24小時會使用最新的訪客行為資料重建一次，以確保[!DNL Target]一律會利用訪客偏好設定的不斷變化進行探索。
-* 如果演算法無法為個人決定勝出體驗，則會自動切換為顯示整體表現最佳的體驗，同時仍繼續尋找個人化獲勝者。 採用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)可找出表現最佳的體驗。
+* 如果演演算法無法判斷個人的成功體驗，它會自動切換為顯示整體最佳表現體驗，同時繼續尋找個人化的獲勝者。 採用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)可找出表現最佳的體驗。
 
 ### 演演算法會持續針對單一目標量度最佳化。
 
@@ -139,7 +139,7 @@ A/B活動流程中的[!UICONTROL 自動鎖定目標]選項可讓您只要按一�
 
 ### [!DNL Target]會自動使用所有[!DNL Adobe Experience Cloud]個共用對象來建置個人化模型。
 
-* 您不需要做任何特定的動作將對象新增至模型。 如需將 [!DNL Experience Cloud Audiences] 用於 [!DNL Target] 的相關資訊，請參閱 [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)。
+* 您不需要執行任何特定動作，即可將對象新增至模型。 如需將 [!DNL Experience Cloud Audiences] 用於 [!DNL Target] 的相關資訊，請參閱 [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)。
 
 ### 行銷人員可以上傳離線資料、傾向分數或其他自訂資料，以建立個人化模型。
 

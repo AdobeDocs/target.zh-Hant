@@ -2,7 +2,7 @@
 keywords: 促銷活動；前端促銷活動；後端促銷活動；促銷活動型別；專案清單；依屬性促銷；促銷集合
 description: 瞭解如何新增提升的專案並控制其在您的Adobe [!DNL Target] Recommendations設計中的放置位置。 您可以新增靜態和動態促銷活動。
 title: 如何在Recommendations設計中新增促銷活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 TQID: 'https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 41%
+source-wordcount: '713'
+ht-degree: 34%
 ---
 # 新增促銷活動
 
@@ -33,11 +33,11 @@ ht-degree: 41%
 
 建立 [!DNL Recommendations] 活動時，您有選項可在您的 [!DNL Recommendations] 設計中包括促銷的項目。 促銷活動使用設計中的可用位置，並且優先於條件結果和備用建議。 例如，如果您的設計有六個位置，並且您對促銷活動使用其中兩個，即有四個位置可供根據條件建議的項目使用。
 
-促銷活動會根據活動條件所建議之項目取消重複，因此在單一建議匣中，指定項目不會顯示兩次。
+促銷活動會根據活動條件所建議之專案取消重複，因此指定專案不會在單一建議匣中出現兩次。
 
 您可以促銷特定項目、動態地促銷項目、根據屬性促銷項目或促銷集合。
 
-[!DNL Target] UI![&#128279;](assets/add_promotion_toggles.png)中的[!UICONTROL 前端促銷活動]和[!UICONTROL 後端促銷活動]選項
+[!DNL Target] UI](assets/add_promotion_toggles.png)中的![[!UICONTROL 前端促銷活動]和[!UICONTROL 後端促銷活動]選項
 
 >[!NOTE]
 >

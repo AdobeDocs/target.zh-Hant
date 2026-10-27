@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2961'
-ht-degree: 72%
+source-wordcount: '2987'
+ht-degree: 71%
 ---
 # 第 4 章：使用 Target 的提示
 
@@ -52,11 +52,11 @@ ht-degree: 72%
 
 例如，您可以將銷售點系統的購買資料與訪客資料建立關聯。 若要這麼做，只需建立包含最多 200 個離線變數的 CSV 檔案，然後透過檔案上傳直接上傳至 [!DNL Adobe Experience Cloud]，或使用 FTP 代管並排程您的檔案，以定期更新。 一旦您的客戶屬性位於 [!DNL Adobe Experience Cloud]中，您就可以將它們對應至 [!DNL Experience Cloud] 解決方案，例如 [!DNL Adobe Analytics] 和 [!DNL Target]，以便用於分析、測試和個人化。
 
-如需逐步指示，請參閱[自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hant&?lang=zh-Hant)。
+如需逐步指示，請參閱[自訂屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html??lang=zh-Hant)。
 
 **很高興知道**：由於 [!DNL Target] 此平台是開放且不可知的平台，可以搭配不同的技術運作，因此您可以以多種不同的方式新增 CRM 或購買的資料。 這表示您可以選擇最適合您組織的方法。
 
-如需詳細資訊，請參閱[將資料匯入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[將資料匯入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ## 提示 2：將 [!DNL Target] 客群與其他 Adobe Experience Cloud 客群混合，以實現更深度的個人化。
 
@@ -178,7 +178,7 @@ ht-degree: 72%
 
 例如，Adobe醫療服務客戶最近展示測試的價值，顯示團隊認為的主要橫幅實際上對轉換有負面影響。 如果您的組織尚未完全接受測試，最好先進行更簡單、範圍更小的測試，以便逐步變更測試結果。
 
-## 提示 19：讓每個人都知道您已啟動測試，以避免在網站變更時擔心。
+## 提示19：讓每個人都知道您已啟動測試，以避免在網站變更時擔心。
 
 設定活動以使用QA參數的好處之一，就是您可以與團隊中的每個人共用這些連結。 您可以讓更多人知道此活動，並確保他們在點選測試變體時，不認為網站運作不正常。
 

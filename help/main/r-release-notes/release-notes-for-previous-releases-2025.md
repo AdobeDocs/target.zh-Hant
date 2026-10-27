@@ -4,9 +4,9 @@ description: 檢視 Adobe Target 舊版版本包含的功能、增強功能與�
 title: 2025年舊版版本包含哪些功能？
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw'
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '25397'
+source-wordcount: '25402'
 ht-degree: 5%
 ---
 # 舊版發行說明
@@ -83,13 +83,13 @@ ht-degree: 5%
 
 * **具有實體屬性比對之屬性的促銷活動在活動儲存後無法載入建議索引鍵。** 修正型別[!UICONTROL 依屬性]且規則型別為[!UICONTROL 實體屬性比對]的促銷活動，在儲存活動後編輯時未載入建議金鑰的問題。 此問題是因為未透過GraphQL要求`customKeyId`所造成。 現在，建議索引鍵會在升級編輯期間正確載入。 (TGT-53117)
 * 從ExpB切換到ExpA時，**建議會以視覺化方式持續存在。** 解決在體驗B中插入建議，然後切換至體驗A，讓建議選件方塊保持可見的問題。 這僅是視覺上的不一致；現在當在體驗之間切換時，修改會正確呈現，以確保準確的UI行為。 (TGT-53911)
-* **建議金鑰未載入具有[!UICONTROL 實體屬性]相符的[!UICONTROL 依屬性的促銷活動]。** 已解決規則型別為[!UICONTROL 實體屬性比對]且依屬性促銷之型別的促銷活動在儲存活動後編輯時未載入建議金鑰的問題。 現在，可透過GraphQL正確擷取建議金鑰，確保促銷活動如預期般顯示及運作。 (TGT-53917)
+* **建議金鑰未載入具有[!UICONTROL 實體屬性]相符的[!UICONTROL 依屬性的促銷活動]。** 已解決規則型別為[!UICONTROL 實體屬性比對]且依屬性]促銷之型別[!UICONTROL 的促銷活動在儲存活動後編輯時未載入建議金鑰的問題。 現在，可透過GraphQL正確擷取建議金鑰，確保促銷活動如預期般顯示及運作。 (TGT-53917)
 * **在已更新的UI中，無法對隱藏的HTML元素編輯建議。** 解決[!UICONTROL 新建立]和VEC UI中，無法編輯套用至隱藏HTML元素的建議活動的問題。 此功能現在可如預期運作，恢復與舊版UI的同等性，並確保不論元素可見度為何，建議均可修改。 (TGT-53953)
 * **無法在更新的UI中編輯隱藏HTML元素的建議活動。** 解決更新UI中無法編輯套用至隱藏HTML元素的建議活動的問題。 此功能現在可如預期運作，恢復與舊版UI的同等性，並確保不論元素可見度為何，建議均可修改。 (TGT-53951)
 * **建議目錄在更新的UI中間歇性地遺漏屬性值。** 已解決在更新的[!UICONTROL Recommendations] UI中，目錄搜尋清單間歇性地無法顯示某些屬性值（例如訊息）的問題，即使是在產品摘要中顯示亦然。 屬性值現在會在搜尋結果中持續載入，而不需要重新設定欄，進而改善目錄管理的可靠性和效率。 (TGT-52769)
 * 更新的UI中缺少[!DNL Recommendations]活動的&#x200B;**[!UICONTROL 下載建議]按鈕。** 解決更新的[!DNL Recommendations] UI中，使用建議的A/B活動看不到[!UICONTROL 下載建議]按鈕的問題。 按鈕現在會正確顯示，可讓使用者如預期匯出建議資料，與舊版UI中的功能一致。 (TGT-53768)
 * 更新後的總覽UI中缺少&#x200B;**[!UICONTROL 下載建議資料]按鈕。** 解決更新的[!UICONTROL 總覽] UI中，包含建議的活動看不到[!UICONTROL 下載建議資料]按鈕的問題。 按鈕現在會正確顯示，確保使用者可直接匯出建議資料，而無需切換回舊版UI。 (TGT-53772)
-* **編輯活動條件有時會在更新的UI中產生空白熒幕。** 解決在更新的UI中按一下體驗中的編輯條件偶爾會導致某些活動的空白畫面的問題。 條件編輯器現在會在所有活動中以可靠的方式載入，確保使用者可以編輯而不會中斷。 (TGT-53961)
+* **編輯活動條件有時會在更新的UI中產生空白熒幕。** 解決在更新的UI中按一下體驗]中的[!UICONTROL 編輯條件偶爾會導致某些活動的空白畫面的問題。 條件編輯器現在會在所有活動中以可靠的方式載入，確保使用者可以編輯而不會中斷。 (TGT-53961)
 * **無法在更新的UI中編輯順序條件。** 解決在更新的UI中嘗試編輯[!UICONTROL 序列條件]導致條件快顯視窗在載入時卡住，然後顯示空白畫面的問題。 條件編輯器現在會正確載入，讓使用者可以編輯和更新順序條件而不會中斷。 (TGT-53985)
 
 +++
@@ -275,7 +275,7 @@ ht-degree: 5%
 
 +++檢視詳細資料
 
-* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。** 作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
+* **已將Target專屬的Web SDK檔案頁面移至Adobe Target存放庫。** 作為網頁SDK檔案重組的一部分，[!DNL Target]特定內容已從一般網頁SDK檔案移轉至[!DNL Adobe Target] [開發人員指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此變更可改善內容可發現性，並確保解決方案特定指導由適當的產品團隊維護。 (TGT-53374)
 
 +++
 
@@ -356,7 +356,7 @@ ht-degree: 5%
 * 相同的資料串流ID只能用於不同的連線，前提是它們是在不同的沙箱中設定。
 * 此規則適用於所有資料流選取專案，包括選取「無」時。
 
-此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱&#x200B;*Adobe Target目的地*&#x200B;指南中的[Experience Platform連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}。
+此更新可確保一致的設定，並防止多個沙箱環境之間發生衝突。 如需詳細資訊，請參閱&#x200B;*Adobe Target目的地*&#x200B;指南中的[Experience Platform連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}。
 
 ### [!DNL Target Standard/Premium] 25.9.1 （2025年9月5日）
 
@@ -1246,7 +1246,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->
@@ -1520,7 +1520,7 @@ For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/
 更新會根據最新[!DNL Adobe Spectrum]設計系統，將之前不一致的設計模式標準化，同時加入新的增強功能，例如：
 
 * [重新設計報表](/help/main/administrating-target/reporting.md)，以更深入瞭解活動結果。
-* [[!UICONTROL 已更新變更記錄]](/help/main/c-activities/change-log.md)頁面，現在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊。
+* [[!UICONTROL 已更新變更記錄]](/help/main/c-activities/change-log.md)頁面，現在從[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}取得即時深入分析的資訊。
 * [可自訂的清單檢視](/help/main/c-activities/activities.md)，以在不同團隊需求之間提供更好的彈性。
 * [增強的快速資訊和詳細熒幕](/help/main/c-activities/activities.md)，以更輕鬆存取資訊。
 * [工作階段持續搜尋和篩選選項](/help/main/c-activities/activities.md)。

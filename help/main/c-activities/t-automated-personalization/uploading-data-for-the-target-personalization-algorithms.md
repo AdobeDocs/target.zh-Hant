@@ -3,7 +3,7 @@ keywords: Automated Personalization；ap；上傳資料；離線資料；個人�
 description: 瞭解如何在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]活動中建立個人化模型時上傳離線資料。
 title: 如何上傳用於Personalization演演算法的資料？
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 TQID: 'https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0'
 product_v2:
@@ -36,16 +36,16 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '326'
 ht-degree: 12%
 ---
 # 上傳[!DNL Target]個人化演演算法的資料
 
 在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能會非常寶貴。
 
-有幾種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法以外，[!DNL Target]演演算法中也使用[!DNL Experience Cloud]個共用對象([!UICONTROL Adobe Analytics]， [!DNL Audience Manager])和活動內報表對象。
+有幾種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法以外，[!DNL Target]演演算法中也使用[!DNL Experience Cloud]個共用對象([!UICONTROL Adobe Analytics]， [!DNL Audience Manager])和活動內報表對象。
 
 如需[!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]個人化演演算法自動收集和使用之資料的相關資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 

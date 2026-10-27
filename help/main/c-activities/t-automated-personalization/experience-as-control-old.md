@@ -2,7 +2,7 @@
 keywords: 體驗;控制;automated personalization;自動鎖定目標
 description: 瞭解如何在[!DNL Adobe Target]中建立[!UICONTROL Automated Personalization] (AP)或[!UICONTROL 自動鎖定目標]活動時，選取要用來作為控制的體驗。
 title: 如何在[!UICONTROL Automated Personalization]活動中使用特定體驗作為控制？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
@@ -19,10 +19,10 @@ subfeature_v2:
     internal-label: Automated personalization
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 39%
+source-wordcount: '808'
+ht-degree: 34%
 ---
 # 選取[!UICONTROL Automated Personalization]或[!UICONTROL 自動鎖定目標]活動的控制權
 
@@ -56,7 +56,7 @@ ht-degree: 39%
 * 不建議刪除控制體驗。
 * 不建議透過作為控制的特定體驗將許多新選件或體驗新增至上線活動。
 * 在[!UICONTROL Automated Personalization]活動中，不建議在可能會進一步限制誰能看到控制體驗的該體驗上包含鎖定目標。
-* 在[!UICONTROL Automated Personalization]活動中，如果已選取特定體驗，則提升度和信賴資訊在選件層級的報告中&#x200B;*NOT*&#x200B;可用。 在[!UICONTROL Automated Personalization]活動的整體「已鎖定目標」與「控制」流量層級，可取得提升度和信賴資訊。 如果已選取「隨機」作為控制，則可取得提升度和信賴資訊。 此差異是因為比較特定體驗的轉換率與產品建議的轉換率，由於兩者單位不同，這種比較並不符合邏輯。 無論選取哪種控制型別，[!UICONTROL 自動鎖定目標]活動中可用的資訊都是相同的。
+* 在[!UICONTROL Automated Personalization]活動中，如果已選取特定體驗，則提升度和信賴資訊在選件層級的報告中&#x200B;*NOT*&#x200B;可用。 在[!UICONTROL Automated Personalization]活動的整體「已鎖定目標」與「控制」流量層級，可取得提升度和信賴資訊。 如果已選取「隨機」作為控制，則可取得提升度和信賴資訊。 此差異是因為比較特定體驗的轉換率與選件的轉換率，由於兩者單位不同，這種比較並不符合邏輯。 無論選取哪種控制型別，[!UICONTROL 自動鎖定目標]活動中可用的資訊都是相同的。
 * 因為在您選取體驗作為控制時，所有控制流量都會進入單一體驗或一組產品建議 (相較之下，在隨機狀況中，控制流量則會分散在活動中的多個體驗或產品建議之中)，您通常不需要像流向控制如此多的流量。 建議從 10% 開始。
 * 如果您透過作為控制的特定體驗對上線活動執行下列其中一項操作，控制會自動重設為隨機提供體驗 (而不是先前選取的特定體驗):
 

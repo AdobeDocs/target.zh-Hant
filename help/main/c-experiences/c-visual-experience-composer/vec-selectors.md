@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 29%
+source-wordcount: '457'
+ht-degree: 25%
 ---
 # 在可視化體驗撰寫器中使用的元素選取器
 
@@ -85,7 +85,7 @@ ht-degree: 29%
 
    選取器: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (「>」表示直屬子項。)
 
-   `eq` 會向索引表示一個元素有 &quot;tagName=UL&quot;，第一個類別是 `navigation`。 因此，`index` 為 0。 如需詳細資訊，請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
+   `eq`告訴索引有一個元素有&quot;tagName=UL&quot;，第一個類別是`navigation`。 因此，`index` 為 0。 如需詳細資訊，請參閱 MDN 中的[選取器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
 
 1. 如果專案不含類別，[!DNL Target]會針對專案使用`tagName`，並往父專案周遊，直到找到`<HTML>`專案或具有ID的專案為止。
 

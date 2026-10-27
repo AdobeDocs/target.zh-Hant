@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 25%
+source-wordcount: '4442'
+ht-degree: 24%
 ---
 # 使推薦以推薦索引鍵為依據
 
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 ## 購物車型 {#cart-based}
 
-[!UICONTROL 購物車型]演演算法型別允許根據訪客目前購物車的內容推薦專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
+[!UICONTROL 購物車型]演演算法型別允許根據訪客目前購物車的內容推薦專案。 建議金鑰是透過[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以逗號分隔的值提供。 僅考慮前 10 個值。
 
 購物車型建議邏輯類似於&quot;[!UICONTROL 為您推薦的]&quot;使用者型演演算法，以及&quot;[!UICONTROL 瀏覽過這些專案、購買那些]&quot;和&quot;[!UICONTROL 購買這些專案、購買那些]&quot;專案型演演算法的使用者。
 
@@ -200,7 +200,7 @@ ht-degree: 25%
 
 此演演算法依賴設定檔指令碼來填入屬性，指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。
 
-在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
+在[此頁面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
 
 例如，以訪客區域為基礎而名為`recsAttributeRegion`的指令碼可能會如下所示：
 
@@ -215,7 +215,7 @@ if (region) return region;
 
 建議依訪客設定檔屬性而非專案資訊群組的最暢銷商品，例如[!UICONTROL 依類別的最暢銷商品]和[!UICONTROL 依專案屬性的最暢銷商品]。 [!DNL Target]會保留每個屬性值的個別最暢銷商品清單，並在傳送時顯示符合訪客自己儲存值的清單。
 
-和設定檔屬性檢視次數最多的一樣，此演演算法依賴設定檔指令碼來填入屬性，而且指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]會將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
+和設定檔屬性]檢視次數最多的[!UICONTROL 一樣，此演演算法依賴設定檔指令碼來填入屬性，而且指令碼名稱必須以`recsAttribute`首碼開頭，因此[!DNL Target]會將其儲存為`user.recsAttribute<Name>`。 您可以針對與使用案例相關的任何訪客特性編寫指令碼。 在[此頁面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中進一步瞭解如何使用設定檔指令碼來設定設定檔屬性。
 
 例如，以訪客的忠誠度等級為基礎而名為`recsAttributeLoyaltyTier`的指令碼可能會如下所示：
 
@@ -419,7 +419,7 @@ if (tier) return tier;
 1. 從&#x200B;**[!UICONTROL 建議索引鍵]**&#x200B;下拉式清單（例如&quot;[!UICONTROL 最近新增到觀看清單的節目]&quot;）中選取自訂設定檔屬性。
 1. 接著，選取您的&#x200B;**[!UICONTROL 建議邏輯]** （例如[!UICONTROL 瀏覽過此專案、也瀏覽了]專案的使用者）。
 
-如果自訂輪廓屬性未直接比對至單一實體 ID，則需要向 [!DNL Recommendations] 解說您希望實體的比對如何發生。 例如，假設您要顯示訪客最喜愛品牌的最暢銷商品專案。
+如果自訂設定檔屬性未直接比對至單一實體ID，則需要向[!DNL Recommendations]說明您希望實體的比對如何發生。 例如，假設您要顯示訪客最喜愛品牌的最暢銷商品專案。
 
 1. 從&#x200B;**[!UICONTROL 建議索引鍵]**&#x200B;下拉式清單（例如「最喜愛的品牌」）中選取自訂設定檔屬性。
 
@@ -427,7 +427,7 @@ if (tier) return tier;
 
    [!UICONTROL 依唯一值]分組選項隨即顯示。
 
-1. 選取符合所選索引鍵的實體屬性。 在此案例中，「[!UICONTROL 最愛的品牌]」與`entity.brand`相符。
+1. 選取與您所選索引鍵相符的實體屬性。 在此案例中，「[!UICONTROL 最愛的品牌]」與`entity.brand`相符。
 
    [!DNL Recommendations]現在會產生每個品牌的「[!UICONTROL 最暢銷商品]」清單，並根據訪客的[!UICONTROL 最喜愛的品牌]設定檔屬性中儲存的值，向訪客顯示適當的「[!UICONTROL 最暢銷商品]」清單。
 

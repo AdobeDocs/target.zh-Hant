@@ -2,7 +2,7 @@
 keywords: 建立自訂條件；演演算法；條件；建議條件；csv；ftp；sftp；上傳csv
 description: 瞭解如何上傳CSV檔案，以自訂Adobe [!DNL Target] Recommendations中的建議。
 title: 如何在[!DNL Recommendations]中上傳自訂條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 TQID: 'https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 27%
+source-wordcount: '764'
+ht-degree: 24%
 ---
 # 上傳自訂條件
 
@@ -75,7 +75,7 @@ ht-degree: 27%
 
 * 自訂條件更新預設為「累積」。 CSV 上傳檔案中指定的新機碼值組會覆寫現有的機碼值組。 未在CSV上傳中指定索引鍵的現有索引鍵/值組仍可用於傳送，且會在最後一次做為CSV檔案一部分上傳的31天後過期。
 
-  請聯絡客戶服務啟用這項設定，刪除下次 CSV 上傳中未涵蓋的現有結果。 如果啟用此設定，則只有自訂CSV摘要檔案中存在的金鑰才可用於傳送。 這項設定會套用至所有自訂條件。
+  請聯絡客戶服務以啟用此設定，捨棄未包含在下次CSV上傳的現有結果。 如果啟用此設定，則只有自訂CSV摘要檔案中存在的金鑰才可用於傳送。 這項設定會套用至所有自訂條件。
 
 * 自訂條件摘要每 24 小時會更新一次。
 

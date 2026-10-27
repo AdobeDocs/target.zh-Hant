@@ -2,7 +2,7 @@
 keywords: 整合;角色;使用者權限;admin console
 description: 瞭解如何以Adobe Target中的所需角色，授予現有Adobe I/O整合功能可存取所有工作區的許可權。
 title: 如何授予Adobe I/O工作區存取權並指派角色？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 56%
+source-wordcount: '648'
+ht-degree: 50%
 ---
 # 授予 Adobe I/O 整合功能對工作區的存取權並指派角色
 
@@ -60,7 +60,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->如果未執行此動作，在 [!DNL Target] 2019 年 9 月版之後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。 事先設定整合功能並不會有任何不利的反應。 此變更越早進行越好。 根據您組織中的工作區數量，此程式只需要按幾下滑鼠，即可使用所需角色將現有整合功能新增至工作區。
+>如果未執行此動作，在2019年9月[!DNL Target]發行後，存取控制將啟用，而如果這是您目前設定的方式，您將只能以觀察者角色存取預設工作區。 事先設定整合功能並不會有任何不利的反應。 此變更越早進行越好。 根據您組織中的工作區數量，此程式只需要按幾下滑鼠，即可使用所需角色將現有整合功能新增至工作區。
 
 **如何授予 Adobe I/O 整合功能對工作區的存取權並指派角色:**
 
@@ -78,7 +78,7 @@ ht-degree: 56%
 
    ![整合功能索引標籤](/help/main/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. （視條件而定）若要新增整合，請按一下[新增整合] **&#x200B;**，選取想要的整合，然後按一下[儲存] **&#x200B;**。
+1. （視條件而定）若要新增整合，請按一下[新增整合] ****，選取想要的整合，然後按一下[儲存] ****。
 
 1. 從&#x200B;**[!UICONTROL 產品角色]**&#x200B;下拉式清單中，選取該工作區的所需角色：
 

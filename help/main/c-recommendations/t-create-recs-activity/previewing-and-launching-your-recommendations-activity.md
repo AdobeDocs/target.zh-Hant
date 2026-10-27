@@ -21,14 +21,14 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1539'
 ht-degree: 13%
 ---
 # 預覽和啟動推薦活動
 
-在您建立包含[Recommendations選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標] (XT)活動後，您將會想要預覽您的建議，以確保在啟動活動之前結果可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
+在您建立包含[Recommendations選件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標] (XT)活動後，您將想要預覽您的建議，以確保在啟動活動之前結果可用。 [!DNL Target Recommendations]提供多種預覽建議的方式。
 
 ## 正在檢查Recommendations演演算法狀態
 
@@ -82,7 +82,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->* Target QA模式為「粘性」，並儲存在Cookie中。 如果您沒有退出QA模式，您會在整個網站中持續看到QA結果。 若要結束QA模式，請使用[書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)。
+>* Target QA模式為「粘性」，並儲存在Cookie中。 如果您沒有結束QA模式，您會在整個網站中持續看到QA結果。 若要結束QA模式，請使用[書籤小程式](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md)。
 >
 >* 處於QA模式時，瀏覽網站將不會影響您設定檔的[!UICONTROL 最近檢視的專案]或[!UICONTROL 最近購買的專案]。 這種行為是透過設計進行的，以避免生產行為資料的無意汙染。 若要預覽[!UICONTROL 最近檢視的專案]或[!UICONTROL 以使用者為基礎的建議]條件的結果，請先在QA模式之外瀏覽網站，然後使用相同的工作階段來開啟QA模式連結。
 

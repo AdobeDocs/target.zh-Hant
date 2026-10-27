@@ -6,9 +6,9 @@ feature: Overview
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 2%
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 [!DNL Adobe Target] MCP工具與同事分別記錄，並提供不同的功能：
 
 * [目標MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)會記錄直接MCP伺服器公開的個別工具，包括其支援的活動型別、引數、許可權以及讀取或寫入範圍。
-* [Co-worker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences)提供獨立的自然語言協調層，可以結合功能並套用其他工作流程。
+* [Co-worker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences)提供獨立的自然語言協調層，可以結合功能並套用其他工作流程。
 
 下表為相關功能的高階比較。
 

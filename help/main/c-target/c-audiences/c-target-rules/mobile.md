@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 31%
 ---
 # 行動
 
@@ -36,7 +36,7 @@ ht-degree: 33%
 
 裝置偵測是經由分析 User-Agent 字串來完成。 某些裝置製造商 (例如 Apple) 在 UA 中不提供足夠資訊，所以會停用此功能。
 
-例如，Apple 裝置不會在 UA 中透露裝置型號專屬 Token。 結果，無法使用簡單的關鍵字型方法偵測iPhone模型（例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等）。
+例如，Apple裝置不會在UA中共用裝置型號特有的權杖。 結果，無法使用簡單的關鍵字型方法偵測iPhone模型（例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等）。
 
 為了解決此問題，[!DNL Target]會收集其他資料，以使用下列引數精確偵測iPhone和其他Apple裝置：
 

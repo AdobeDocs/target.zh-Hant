@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
     internal-label: Form based Experience Composer
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 39%
 ---
 # 表單式體驗撰寫器
@@ -51,7 +51,7 @@ ht-degree: 39%
    >
    >在活動建立期間建立手動輸入的位置不會自動建立新位置。 位置名稱僅會儲存在活動內容中。 位置是在有內容傳遞呼叫時建立。 建立位置之後，就可在其他活動中使用，以便從可用位置的下拉式清單中建立對象等。
 
-1. 按一下「新增對象細分」**&#x200B;**，為此活動選擇一個或多個[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然後按一下「完成」**&#x200B;**。
+1. 按一下「新增對象細分」****，為此活動選擇一個或多個[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然後按一下「完成」****。
 
    ![location_refinements_2圖片](assets/location_refinements_2.png)
 

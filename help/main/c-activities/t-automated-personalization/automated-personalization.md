@@ -2,7 +2,7 @@
 keywords: 自動個人化；ap；對象；整體；隨機森林；多臂吃角子老虎機；Thompson取樣；ml；機器學習
 description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL Automated Personalization] (AP)活動，這些活動使用進階機器學習將不同的選件變數對應到每位訪客。
 title: 什麼是[!UICONTROL Automated Personalization] (AP)活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 29%
+source-wordcount: '1054'
+ht-degree: 27%
 ---
 # [!UICONTROL Automated Personalization] (AP)
 
@@ -81,7 +81,7 @@ ht-degree: 29%
 
 * 多臂吃角子老虎機可確保模型一律會「花費」一小部分的流量，在整個活動期間繼續學習，並防止過度利用先前學習過的趨勢。
 * 每24小時使用最新的訪客行為資料重建基礎模型，以確保[!DNL Target]一律使用變更的訪客偏好設定。
-* 如果演算法無法判斷個別訪客的成功體驗，它會自動切換，以顯示整體的最佳執行體驗，同時仍繼續尋找個人化獲勝者。 使用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)找到執行最佳的體驗。
+* 如果演演算法無法判斷個別訪客的獲勝體驗，它會自動切換為顯示整體表現最佳的體驗，同時繼續尋找個人化的獲勝者。 使用 [Thompson 取樣](https://en.wikipedia.org/wiki/Thompson_sampling)找到執行最佳的體驗。
 
 ## 模型會持續將單一目標量度最佳化
 
@@ -99,9 +99,9 @@ ht-degree: 29%
 
 離線資料（例如CRM資訊或客戶流失傾向分數）在建置個人化模型時可能極具價值。 有幾種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]個人化演演算法中輸入資料。
 
-* [mbox 參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}
-* [輪廓參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}
-* [設定檔更新的伺服器端API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}
+* [mbox 參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [輪廓參數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [設定檔更新的伺服器端API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
 
 如需[!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]個人化演演算法自動收集和使用之資料的相關資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 

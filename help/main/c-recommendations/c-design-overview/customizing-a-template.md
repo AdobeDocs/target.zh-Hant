@@ -2,7 +2,7 @@
 keywords: 自訂設計;velocity;小數點;逗號;自訂設計
 description: 瞭解如何使用開放原始碼[!DNL Velocity]設計語言來自訂[!DNL Target] Recommendations中的建議設計。
 title: 如何使用Velocity自訂設計？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 TQID: 'https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 32%
+source-wordcount: '1095'
+ht-degree: 28%
 ---
 # 使用[!DNL Velocity]自訂設計
 
@@ -257,7 +257,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 * 如果第五個實體存在，指令碼會插入右 div 標記，並使用 `<div class="at-table-row">` 開啟新的一列。
 * 透過 4x2，最多將可顯示八個結果，但您可以修改 `$count <=8`，將此自訂為較小或較大的清單。
-* 請注意，邏輯不會平衡多個列上的實體。 例如，如果有五個或六個要顯示的實體，並不會動態變成三個在頂端、兩個在底部 (或三個在頂端、三個在底部)。 開始第二列之前，頂端列會顯示四個項目。
+* 請注意，邏輯不會平衡多個列上的實體。 例如，如果有五個或六個要顯示的實體，並不會動態變成三個在頂端、兩個在底部（或三個在頂端、三個在底部）。 開始第二列之前，頂端列會顯示四個項目。
 
 ```
 <div class="at-table">

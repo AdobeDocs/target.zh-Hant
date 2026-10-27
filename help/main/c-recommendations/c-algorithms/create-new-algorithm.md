@@ -2,7 +2,7 @@
 keywords: 條件；演演算法；垂直產業；頁面型別；建議索引鍵；建議邏輯；資料範圍；回顧視窗；行為資料來源；部分設計；備用建議；包含規則；屬性加權；目前類別；自訂屬性；上次購買的專案；上次檢視的專案；檢視次數最多的專案；最愛類別；人氣；最近檢視的專案；上次購買的專案；上次檢視次數最多；最愛；最近檢視；最近檢視
 description: 瞭解如何建立條件來控制[!DNL Recommendations]活動的內容，以顯示最適合您活動的建議。
 title: 如何在[!DNL Recommendations]中建立[!UICONTROL 條件]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: 'https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 44%
+source-wordcount: '2988'
+ht-degree: 43%
 ---
 # 建立條件
 
@@ -57,7 +57,7 @@ ht-degree: 44%
 
 1. 輸入&#x200B;**[!UICONTROL 條件名稱]**。
 
-   這是用來說明該條件的「內部」名稱。 例如，您可能想要將您的條件稱為「利潤最高的產品」，但您不想要將該標題公開顯示。 請參閱下一個步驟來設定公開顯示的標題。
+   這是用來說明該條件的「內部」名稱。 例如，您可能會想要將您的條件稱為「最高利潤產品」，但您不想要該標題公開顯示。 請參閱下一個步驟來設定公開顯示的標題。
 
 1. 輸入公開顯示的&#x200B;**[!UICONTROL 顯示標題]**，以在使用此條件的任何Recommendations頁面上顯示。
 
@@ -108,7 +108,7 @@ ht-degree: 44%
 
 1. 視需要選取&#x200B;**專案屬性**&#x200B;和&#x200B;**設定檔屬性以符合**、**建議金鑰**、**篩選金鑰**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以設定演演算法。
 
-其餘的演演算法組態選項會依選取的演演算法而有所不同。 若要完成演演算法的設定，請選取要比對的的[!UICONTROL 建議索引鍵]、[!UICONTROL 篩選索引鍵]、[!UICONTROL 共同發生基礎]、[!UICONTROL Analytics量度]和/或[!UICONTROL 專案屬性]和設定檔屬性。
+其餘的演演算法組態選項會依選取的演演算法而有所不同。 若要完成演演算法的設定，請選取要比對的]的[!UICONTROL 建議索引鍵]、[!UICONTROL 篩選索引鍵]、[!UICONTROL 共同發生基礎]、[!UICONTROL Analytics量度]和/或[!UICONTROL 專案屬性]和[!UICONTROL 設定檔屬性。
 
 當您選取[!UICONTROL 依設定檔屬性檢視次數最多]或[!UICONTROL 依設定檔屬性最暢銷商品]時，請選取&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;以群組互動資料。 設定檔屬性來自擷取訪客特性的設定檔指令碼，例如地區或國家，而且指令碼名稱必須包含`recsAttribute`前置詞，因此會儲存為`user.recsAttribute<Name>`，例如`user.recsAttributeRegion`。 在傳遞期間，[!DNL Target]會向每位訪客提供對應至該屬性自身值的排名清單。
 
@@ -177,7 +177,7 @@ ht-degree: 44%
 
    如果您的網站經常有大量流量和行為變更，請選擇較短的資料時段。 較短的時段可讓 [!DNL Recommendations] 對於市場和您的業務中的變更更具回應力。 例如，較短的時段表示 [!DNL Recommendations] 將在您的訪客開始季節性購物 (例如開學購物或聖誕節) 時偵測訪客行為中的變更，並將對這些購物季建議適當的項目。
 
-   如果您沒有許多資料，或訪客行為不會經常變更，則可以選取較長的時段。 不過，對許多網站而言，較短的期間會產生較高品質的建議。
+   如果您沒有大量資料，或訪客行為沒有經常變更，可以選取較長的視窗。 不過，對許多網站而言，較短的期間會產生較高品質的建議。
 
    可用的資料範圍為:
 

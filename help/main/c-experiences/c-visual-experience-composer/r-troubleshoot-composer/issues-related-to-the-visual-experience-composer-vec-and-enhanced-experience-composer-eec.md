@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1274'
+ht-degree: 29%
 ---
 # 疑難排解[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器]和[!UICONTROL 增強體驗撰寫器]的相關問題
 
@@ -139,7 +139,7 @@ ht-degree: 31%
 
 +++
 
-## 我無法編輯 iFrame-busting 網站的體驗。 (VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
+## 我無法編輯防iFrame失敗的網站的體驗。 (VEC 和 EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++詳細資料
 啟用[!UICONTROL 增強體驗撰寫器] (EEC)即可解決此問題。 按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]**，然後選取可啟用[!UICONTROL 增強體驗撰寫器]的核取方塊。 EEC使用[!DNL Adobe]管理的Proxy來載入您的頁面以進行編輯。 此Proxy允許在iFrame-busting網站上進行編輯，也允許在您尚未新增[!DNL Adobe Target]程式碼的網站和頁面上進行編輯。 在新增程式碼之後，才會將活動傳送至網站。 有些網站可能無法透過EEC載入，在此情況下，您可以取消勾選此選項，以透過iFrame載入EEC。
@@ -153,7 +153,7 @@ ht-degree: 31%
 ## 我想在尚未完成mbox/[!DNL Target]實作的頁面上設定測試。 (VEC 和 EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++詳細資料
-請參閱以上的「我無法編輯 iFrame-busting 網站的體驗」。
+請參閱上方的「我無法編輯iFrame-bursting網站的體驗」。
 
 +++
 

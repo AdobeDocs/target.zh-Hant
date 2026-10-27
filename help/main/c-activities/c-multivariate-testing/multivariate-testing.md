@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 46%
+source-wordcount: '1480'
+ht-degree: 45%
 ---
 # [!UICONTROL 多變數測試]總覽
 
@@ -114,7 +114,7 @@ Target的[流量估算程式](/help/main/c-activities/c-multivariate-testing/t-c
 
 ### 正在建立多變數測試(9:25) ![教學課程徽章](/help/main/assets/tutorial.png)
 
-此影片說明如何使用Target三步驟引導式工作流程來瞭解、規劃和建立多變數測試。
+此影片說明如何使用[!DNL]Target三步驟引導式工作流程來瞭解、規劃和建立多變數測試。
 
 * 定義和設計多變數測試
 * 建立多變數測試

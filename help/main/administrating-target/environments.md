@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 46%
+source-wordcount: '711'
+ht-degree: 43%
 ---
 # 環境
 
@@ -72,7 +72,7 @@ ht-degree: 46%
 >
 >[!DNL Recommendations]如果主機會切換主機群組， 的使用者必須重建其行為資料庫和產品資料庫。
 >
->如果您在 [!DNL Adobe Experience Platform] 資料流[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#target){target=_blank}中指定預設環境，此設定會覆寫[!DNL Target]中的設定。
+>如果您在 [!DNL Adobe Experience Platform] 資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}中指定[預設環境，此設定會覆寫[!DNL Target]中的設定。
 
 ## 變更環境的名稱 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

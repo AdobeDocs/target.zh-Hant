@@ -24,9 +24,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3805'
 ht-degree: 14%
 ---
 # [!DNL Adobe Target] MCP伺服器工具參考 {#target-mcp-tools-reference}
@@ -35,7 +35,7 @@ ht-degree: 14%
 >
 >[!DNL Adobe Target] MCP伺服器可供&#x200B;**公用Beta**&#x200B;中的所有客戶使用。 目前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中支援。
 
-此頁面是[!DNL Adobe Target] MCP伺服器公開之所有工具的完整參考。 對於每個工具，您都可以找到說明、引數詳細資料、傳回值以及自然語言提示範例。 如需設定指示和使用案例，請參閱[開始使用](target-mcp-get-started.md)和[使用案例和逐步說明](target-mcp-use-cases.md)。
+此頁面是[!DNL Adobe Target] MCP伺服器公開之所有工具的完整參考。 對於每個工具，您都會找到說明、引數詳細資訊、傳回值以及自然語言提示範例。 如需設定指示和使用案例，請參閱[開始使用](target-mcp-get-started.md)和[使用案例和逐步說明](target-mcp-use-cases.md)。
 
 >[!IMPORTANT]
 >
@@ -912,7 +912,7 @@ ht-degree: 14%
 |---|---|---|
 | 活動 | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | 產品建議 | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| 對象 | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
+| 客群 | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | 屬性 | 1 | `list_target_properties` |
 | 報表 | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
