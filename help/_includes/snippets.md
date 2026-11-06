@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 87c0d2aa67d54dcbc2963be63d2d7ad9c02b6aa9
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '413'
+ht-degree: 5%
 ---
 # 程式碼片段
 
@@ -35,5 +35,24 @@ ht-degree: 8%
 >* [[!UICONTROL 視覺化體驗撰寫器]選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文說明更新的VEC UI及其選項。
 >
 >* [[!DNL Target] UI更新常見問題集](/help/main/c-intro/updated-ui-faq.md)：此常見問題集解決有關新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常見問題，包括導覽變更、功能位置以及暫時性UI版本切換的淘汰。 無論您是行銷人員、開發人員或管理員，本FAQ可協助您順利轉換並充分運用更新後的UI。
+
+## 活動名稱規則 {#activity-name-rules}
+
+活動名稱不能以`=`、`+`、`-`或`@`開頭。 活動名稱也不能包含下列任何字元順序： `;=`、`;+`、`;-`、`;@`、`,=`、`,+`、`,-`、`,@`、`["`或`"]`。
+
+## 在鎖定目標步驟中選取對象 {#audience-selection-steps}
+
+1. 若要變更對象，請按一下右側框架中的&#x200B;**[!UICONTROL 取代]**&#x200B;圖示（ ![取代圖示](/help/main/assets/icons/Retweet.svg)）。
+
+1. 在&#x200B;**[!UICONTROL 新增對象]**&#x200B;對話方塊中，[選取所需的對象](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然後按一下&#x200B;**[!UICONTROL 指派對象]**。
+
+   若要建立結合多個對象的對象，請按一下&#x200B;**[!UICONTROL 結合對象]**。 如需詳細資訊，請參閱[合併多個對象](/help/main/c-target/combining-multiple-audiences.md)。
+
+   若要建立不在[!UICONTROL 對象庫]中的新對象，請按一下&#x200B;**[!UICONTROL 建立對象]**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)中，選擇下列其中一個選項：
+
+   * **[!UICONTROL 對象庫]**：建立儲存至[!UICONTROL 對象庫]的隨選對象，並可在其他活動中重複使用。
+   * **[!UICONTROL 僅此活動]**：建立未儲存至[!UICONTROL 對象庫]且僅能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
+
+1. 按一下右側框架中的&#x200B;**[!UICONTROL 訪客百分比]**，然後選擇符合您要讓其進入活動之訪客的百分比。
 
 

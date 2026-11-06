@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 191350233707b59e863e1315e6546e44bd837af7
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 17%
+source-wordcount: '867'
+ht-degree: 20%
 ---
 # 建立A/B測試活動
 
@@ -108,23 +108,13 @@ ht-degree: 17%
 
 1. （視條件而定）按一下&#x200B;**[!UICONTROL 所有訪客]**&#x200B;控制項以選取活動的其他對象。
 
-   [!UICONTROL 所有訪客]對象已設定為預設值。 如果您選取其他對象，其名稱會顯示在最左側的控制項中。
+   [!UICONTROL 所有訪客]對象已設定為預設值。 如果您選取其他對象，其名稱會顯示在最左側的控制項中。 例如，您可將項目限制為所有訪客的 50%，或「加州人」客群的 45%。
 
-   右側框架隨即顯示，可讓您新增或刪除對象，以及指派活動的訪客百分比。
+   +++ 選取不同對象的步驟
 
-   1. 若要變更對象，請按一下右側框架中的&#x200B;**[!UICONTROL 取代]圖示** （ ![取代圖示](/help/main/assets/icons/Retweet.svg) ）。
-   1. 在[!UICONTROL 新增對象]對話方塊中，[選取所需的對象](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然後按一下&#x200B;**[!UICONTROL 指派對象]**。
+   {{audience-selection-steps}}
 
-      您可以按一下&#x200B;**結合對象**&#x200B;到[建立結合多個對象的對象](/help/main/c-target/combining-multiple-audiences.md)。
-
-      如果您需要建立不在[!UICONTROL 對象庫]中的新對象，請按一下&#x200B;**建立對象**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)期間，您可以從下列選項中選擇：
-
-      * **[!UICONTROL 受眾程式庫]**：建立儲存至[!UICONTROL 受眾程式庫]的隨選受眾，以供在其他活動中重複使用。
-      * **[!UICONTROL 僅此活動]**：建立未儲存至[!UICONTROL 對象庫]且僅能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
-
-   1. 按一下右側框架中的&#x200B;**[!UICONTROL 訪客百分比]**，然後選擇符合您要讓其進入活動之訪客的百分比。
-
-   例如，您可將項目限制為所有訪客的 50%，或「加州人」客群的 45%。
+   +++
 
 1. 按一下&#x200B;**[!UICONTROL 流量分配]**&#x200B;控制項，然後在右窗格中選擇所需的流量分配方法，如下所示：
 
