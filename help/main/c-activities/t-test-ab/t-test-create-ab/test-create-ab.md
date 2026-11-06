@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 191350233707b59e863e1315e6546e44bd837af7
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 20%
@@ -112,7 +112,7 @@ ht-degree: 20%
 
    +++ 選取不同對象的步驟
 
-   {{audience-selection-steps}}
+   {{$include /help/_includes/audience-selection-steps.md}}
 
    +++
 
