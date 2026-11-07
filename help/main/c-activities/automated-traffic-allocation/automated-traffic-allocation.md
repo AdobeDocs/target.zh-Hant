@@ -258,7 +258,7 @@ ht-degree: 32%
 * 選取您的流量分配方法
 * 在不同體驗之間分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507598?captions=chi_hant)
 
 ### 建立A/B測試(8:36) ![教學課程徽章](/help/main/assets/tutorial.png)
 

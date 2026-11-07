@@ -130,4 +130,4 @@ ht-degree: 39%
 * 瞭解使用表單式體驗撰寫器與可視化體驗撰寫器的時機
 * 使用細分來鎖定位置
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507889?captions=chi_hant)

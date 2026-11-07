@@ -85,7 +85,7 @@ ht-degree: 38%
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
-(https://video.tv.adobe.com/v/17381?captions=chi_hant)
+(https://video.tv.adobe.com/v/3507952?captions=chi_hant)
 
 ### 建立A/B測試(8:36) ![教學課程徽章](/help/main/assets/tutorial.png)
 

@@ -301,4 +301,4 @@ else if (mbox.param("adobeQA"))
 * 使用「可用 Token」功能表來存取可用的選項
 * 啟用和停用個人資料指令碼
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/3507916?captions=chi_hant)

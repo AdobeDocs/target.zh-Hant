@@ -129,4 +129,4 @@ ht-degree: 55%
 * 瞭解並建置[!UICONTROL 轉換]、[!UICONTROL 收入]和[!UICONTROL 參與]量度
 * 建置點擊追蹤量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507824?captions=chi_hant)

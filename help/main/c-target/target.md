@@ -48,4 +48,4 @@ ht-degree: 38%
 * 選取您的流量分配方法
 * 在不同體驗之間分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507598?captions=chi_hant)

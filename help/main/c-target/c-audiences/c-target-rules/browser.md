@@ -143,7 +143,7 @@ ht-degree: 35%
 * 建立客群
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507779?captions=chi_hant)
 
 ## [!UICONTROL 瀏覽器]對象屬性中[!DNL iPad]和[!DNL iPhone]的更新（2024年4月30日） {#updates}
 
