@@ -121,4 +121,4 @@ ht-degree: 34%
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507952?captions=chi_hant)

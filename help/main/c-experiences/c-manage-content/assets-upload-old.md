@@ -50,4 +50,4 @@ ht-degree: 17%
 * 自訂 HTML 產品建議
 * 可視化體驗撰寫器中的自訂 HTML 產品建議
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/3507961?captions=chi_hant)

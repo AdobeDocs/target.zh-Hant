@@ -109,4 +109,4 @@ iOS 12.2 （或更新版本）更新不會影響下列模型的識別，因為�
 * 建立客群
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507779?captions=chi_hant)
