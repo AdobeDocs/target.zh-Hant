@@ -84,4 +84,4 @@ ht-degree: 35%
 
 ## 影片：將[!DNL Target]與[!DNL Campaign]整合
 
->[!VIDEO](https://video.tv.adobe.com/v/35149)
+>[!VIDEO](https://video.tv.adobe.com/v/3508015?captions=chi_hant)
