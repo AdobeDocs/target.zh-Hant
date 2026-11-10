@@ -84,7 +84,7 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
 >Flags擴充功能不是Mobile SDK BOM的一部分。 將`<latest-version>`取代為Maven Central的最新版本。 若沒有版本，Gradle將無法解析相依性。
 >
 ></br>
-&gt;對於生產應用程式，Adobe建議使用明確版本編號，而非動態版本，例如「3.+」。 如需詳細資訊，請參閱[管理Gradle相依性](https://docs.gradle.org/current/userguide/dependency_management.html)。
+>&gt;對於生產應用程式，Adobe建議使用明確版本編號，而非動態版本，例如「3.+」。 如需詳細資訊，請參閱[管理Gradle相依性](https://docs.gradle.org/current/userguide/dependency_management.html)。
 
 將下列相依性新增至應用程式的`build.gradle.kts` (Kotlin)或`build.gradle` (Groovy)檔案：
 
