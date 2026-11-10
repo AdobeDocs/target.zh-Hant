@@ -65,13 +65,13 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
 
 #### 發佈擴充功能 {#publish-extension}
 
-依照[發佈程式](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的設定。
+依照[發佈程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)更新您的設定。
 
 1. 將擴充功能新增至程式庫。
 
 1. 建置到您的開發環境。
 
-1. 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)進行驗證。
+1. 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hant)進行驗證。
 
 1. 提升至測試與生產。
 
@@ -95,7 +95,7 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
 
    >[!NOTE]
    >
-   >每個環境都有唯一的內嵌程式碼URL。 如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html)檔案。
+   >每個環境都有唯一的內嵌程式碼URL。 如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant)檔案。
 
    ![](../assets/extension-install-4.png)
 
