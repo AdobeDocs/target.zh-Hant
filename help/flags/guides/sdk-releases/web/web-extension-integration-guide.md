@@ -6,9 +6,9 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
+source-git-commit: a25ca0f3ce4c9cf38a871d8193ec43250d61edb9
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1241'
 ht-degree: 7%
 ---
 # 標示網頁的副檔名 {#web-extension-integration-guide}
@@ -55,21 +55,25 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
 
    ![](../assets/extension-install.png)
 
-1. 設定擴充功能設定：
+#### 設定擴充功能設定 {#configure-extension-settings}
 
-* 使用者端ID：旗標中您應用程式的唯一識別碼。
+安裝Flags擴充功能時，您會前往設定頁面。 完成下列設定:
 
-1. 選取&#x200B;**[!UICONTROL 儲存]**。
+| 設定 | 說明 | 必要 |
+|---|---|---|
+| 用戶端 ID | 旗標中應用程式的唯一識別碼。 | 是 |
 
-1. 依照[發佈程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)更新您的設定。
+#### 發佈擴充功能 {#publish-extension}
 
-   1. 將擴充功能新增至程式庫。
+依照[發佈程式](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的設定。
 
-   1. 建置到您的開發環境。
+1. 將擴充功能新增至程式庫。
 
-   1. 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hant)進行驗證。
+1. 建置到您的開發環境。
 
-   1. 提升至測試與生產。
+1. 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)進行驗證。
+
+1. 提升至測試與生產。
 
 ## 將Tags內嵌程式碼新增至您的網站 {#embed-code}
 
@@ -91,7 +95,7 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
 
    >[!NOTE]
    >
-   >每個環境都有唯一的內嵌程式碼URL。 如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant)檔案。
+   >每個環境都有唯一的內嵌程式碼URL。 如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html)檔案。
 
    ![](../assets/extension-install-4.png)
 
@@ -275,10 +279,10 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | 欄位 | 類型 | 說明 |
 |---|---|---|
 | `id` | 數字 | 數值功能識別碼。 功能層級控制項的`-1`。 |
-| `key` | 字串\| null | 功能鍵。 功能層級控制項的`null`。 |
-| `featureGroupKey` | 字串\| null | 功能群組索引鍵（可用時） |
-| `meta` | 字串\| null | 可用時提供功能中繼資料 |
-| `analyticsParam` | AnalyticsParam \| null | 已評估功能的Analytics詳細資料 |
+| `key` | `string \| null` | 功能鍵。 功能層級控制項的`null`。 |
+| `featureGroupKey` | `string \| null` | 功能群組索引鍵（可用時） |
+| `meta` | `string \| null` | 可用時提供功能中繼資料 |
+| `analyticsParam` | `AnalyticsParam \| null` | 已評估功能的Analytics詳細資料 |
 
 *AnalyticsParam*
 
@@ -286,7 +290,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | 數字 | 數值功能群組識別碼 |
 | `featureId` | 數字 | 數值功能識別碼 |
-| `variantId` | 數字\| null | 變體識別碼（如果使用者在控制組中，則為`0`） |
+| `variantId` | `number \| null` | 變體識別碼（如果使用者在控制組中，則為`0`） |
 
 **控制組行為**
 
