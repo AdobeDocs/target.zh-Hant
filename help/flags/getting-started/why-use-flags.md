@@ -7,9 +7,9 @@ exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # 為何使用標幟 {#why-use}
@@ -37,6 +37,6 @@ ht-degree: 0%
 提早將程式碼部署到生產環境，然後在精確的時間啟動功能 — 例如，在產品啟動事件開始時 — 沒有在最後一刻變更任何程式碼。
 
 **終止引數**
-如果發行後發現問題，請立即關閉該功能，而不使用Hotfix或重新部署。
+如果發行後發現問題，請關閉該功能，而不使用Hotfix或重新部署。 變更會在下次旗標重新整理時生效（預設為每5分鐘）。
 
 <!-- -->

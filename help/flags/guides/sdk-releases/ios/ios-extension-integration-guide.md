@@ -6,313 +6,372 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 6%
+source-wordcount: '1313'
+ht-degree: 3%
 ---
 # 標示iOS的擴充功能 {#ios-extension-integration-guide}
 
-本指南說明如何在iOS上將Flags擴充功能與Adobe Experience Platform Mobile SDK整合。
+本指南說明如何在iOS上將Flags擴充功能與Adobe Experience Platform Mobile SDK整合。 原始程式碼可在[aepsdk-flags-ios](https://github.com/adobe/aepsdk-flags-ios)存放庫中取得。
 
 ## 先決條件 {#prerequisites}
 
-在實作Flags擴充功能之前，請確定您擁有：
+開始之前，請確定您擁有：
 
-* 在[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中設定的行動屬性
-* 在您的行動屬性中安裝並設定的Flags擴充功能
-* Adobe Experience Cloud組織ID
-* 最低部署目標： iOS 12.0
+* iOS 12.0或更新版本，以及Swift 5.7或更新版本
+* [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection)中的行動屬性
+* 這些擴充功能已安裝並設定於行動屬性中：
 
-## 擴充功能相依性 {#extension-dependencies}
+  | 延伸 | 說明 | 最低SDK版本 |
+  |---|---|---|
+  | [行動核心](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | 設定和事件處理 | AEPCore 5.8.0 |
+  | [生命週期](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | 應用程式生命週期資料 | 與AEPCore相同 |
+  | [Edge Network](https://developer.adobe.com/client-sdks/edge/edge-network/) | 與Adobe Experience Platform Edge Network的通訊。 需要資料串流。 | AEPEdge 5.0.2 |
+  | Edge Network的[身分](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Edge Network的身分管理 | AEPEdgeIdentity 5.0.0 |
+  | [旗標](https://experienceleague.adobe.com/zh-hant/docs/target/flags/home) | 功能標幟評估 | 請參閱[安裝](#installation) |
 
-Flags擴充功能需要下列Adobe Experience Platform擴充功能：
-
-| 延伸 | 說明 | 必要 |
-|---|---|---|
-| 行動核心 | 提供核心功能，包括設定和事件處理 | 是 |
-| Lifecycle | 收集行動SDK的應用程式生命週期和工作階段資料 | 是 |
-| Edge Network | 啟用與Adobe Experience Platform Edge Network的通訊 | 是 |
-| Edge身分 | 使用Edge Network擴充功能時，啟用行動應用程式的身分管理 | 是 |
-
-請確認這些擴充功能已安裝在您的資料收集行動屬性中，並包含在您的應用程式相依性中。
-
-## 在資料收集中設定標幟副檔名 {#configure}
+## 在資料收集中設定標幟 {#configure}
 
 ### 安裝擴充功能 {#install-extension}
 
 1. 登入[Adobe Experience Platform資料彙集](https://experience.adobe.com/#/data-collection)。
-1. 選取&#x200B;**標籤**&#x200B;標籤，然後選擇您的行動裝置屬性。
-1. 瀏覽至&#x200B;**擴充功能** > **目錄**。
-1. 搜尋&#x200B;**標籤延伸模組**&#x200B;並選取&#x200B;**安裝**。
+
+1. 選取&#x200B;**[!UICONTROL 標籤]**&#x200B;功能表，然後選擇您的行動裝置屬性。
+
+1. 瀏覽至&#x200B;**[!UICONTROL 擴充功能]** > **[!UICONTROL 目錄]**。
+
+1. 搜尋&#x200B;**[!DNL Adobe Flags]**&#x200B;並選取&#x200B;**[!UICONTROL 安裝]**。
+
+   ![](../assets/extension-install.png)
+
 1. 設定擴充功能設定：
 
-   | 設定 | 說明 |
-   |---|---|
-   | 應用程式 ID | 旗標中應用程式的唯一識別碼 |
+   * **[!UICONTROL 沙箱]**：包含您的Flags設定的Adobe Experience Platform沙箱。
+   * **[!UICONTROL 應用程式識別碼]**：旗標中的應用程式識別碼。
 
-1. 選取&#x200B;**儲存**。
+1. 選取&#x200B;**[!UICONTROL 儲存]**。
+
 1. 依照[發佈程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/overview)更新您的設定。
 
 ### 取得環境檔案ID {#environment-file-id}
 
-1. 在您的行動屬性中，瀏覽至&#x200B;**環境**。
-1. 為您的環境選取&#x200B;**安裝**&#x200B;欄下的方塊圖示。
-1. 在&#x200B;**行動安裝指示**&#x200B;對話方塊中，複製&#x200B;**環境檔案識別碼**。
+1. 在您的行動屬性中，瀏覽至&#x200B;**[!UICONTROL 環境]**。
 
-## 將Flags擴充功能新增至您的應用程式 {#add-to-app}
+1. 在您選取環境的&#x200B;**[!UICONTROL 安裝]**&#x200B;欄中選取方塊圖示。
 
-### 新增相依性 {#add-dependencies}
+   ![](../assets/extension-install-2.png)
 
-將行動SDK相依性新增至您的專案。 Flags擴充功能需要行動核心及下列與Edge相關的擴充功能。
+1. 在&#x200B;**[!UICONTROL 行動安裝指示]**&#x200B;對話方塊中，複製&#x200B;**[!UICONTROL 環境檔案識別碼]**。
 
-#### 使用Swift封裝管理程式 {#swift-package-manager}
+   ![](../assets/extension-install-3.png)
 
-在Xcode中，選取&#x200B;**檔案** > **新增套件**，並新增下列Adobe Experience Platform Mobile SDK套件URL：
+## 安裝 {#installation}
 
-| 套件 | URL |
-|---|---|
-| AEPCore | `https://github.com/adobe/aepsdk-core-ios.git` |
-| AEPEdge | `https://github.com/adobe/aepsdk-edge-ios.git` |
-| AEPEdgeIdentity | `https://github.com/adobe/aepsdk-edgeidentity-ios.git` |
+使用Swift Package Manager或XCFramework新增擴充功能。 針對每個應用程式目標使用一個方法。
 
-出現提示時，選取下列資料庫以新增至您的目標：
+### Swift封裝管理程式 {#swift-package-manager}
 
-* `AEPCore`，`AEPLifecycle` （來自`aepsdk-core-ios`）
-* `AEPEdge` （來自`aepsdk-edge-ios`）
-* `AEPEdgeIdentity` （來自`aepsdk-edgeidentity-ios`）
+在Xcode中：
 
-使用AEPCore 5.8.0或更新版本。
+1. 選取&#x200B;**檔案** > **新增套件相依性**。
 
->[!NOTE]
->
->在Xcode中新增套件時，請為每個套件選擇相依性規則（例如&#x200B;**至下一個主要版本**），這會自動挑選新的次要和修補程式發行版本，同時排除下一個主要版本。 如需最新發行的版本，請檢視GitHub上每個擴充功能的發行頁面。
+1. 輸入封裝URL： `https://github.com/adobe/aepsdk-flags-ios.git`
 
-### 新增Flags套件 {#add-flags-package}
+1. 針對版本規則，請選取&#x200B;**確切版本**，並從[發行頁面](https://github.com/adobe/aepsdk-flags-ios/releases)輸入最新版本。
 
-請針對應用程式目標使用Swift套件或XCFramework整合方法，而非兩者。
-
-#### 適用於沒有Package.swift檔案的Xcode專案 {#xcode-project}
-
-1. 在Xcode中，選取&#x200B;**檔案** > **新增封裝**。
-1. 選取&#x200B;**新增本機**。
-1. 選取提供的`Packages/AEPFlags`目錄，其中包含`Package.swift`。
 1. 將`AEPFlags`資料庫新增至您的應用程式目標。
 
-Xcode會將本機套件參考儲存在專案中，因此您的應用程式不需要自己的`Package.swift`檔案。
+1. 新增擴充功能所依賴的Adobe套件，並將其程式庫新增至您的應用程式目標：
 
-#### 針對含有Package.swift檔案的專案 {#package-swift-project}
+   * `https://github.com/adobe/aepsdk-core-ios.git`： `AEPCore`、`AEPLifecycle`和`AEPServices`
+   * `https://github.com/adobe/aepsdk-edge-ios.git`: `AEPEdge`
+   * `https://github.com/adobe/aepsdk-edgeidentity-ios.git`: `AEPEdgeIdentity`
 
-在現有資訊清單中，新增`AEPFlags`至您的應用程式目標相依性，並使用提供的URL和資訊清單中的總和檢查碼新增二進位目標：
+如果您的專案使用`Package.swift`檔案，請在該處新增相依性。 以發行頁面的最新版本取代`<latest-version>`。
 
 ```swift
+dependencies: [
+    .package(url: "https://github.com/adobe/aepsdk-flags-ios.git", exact: "<latest-version>"),
+    .package(url: "https://github.com/adobe/aepsdk-core-ios.git", .upToNextMajor(from: "5.8.0")),
+    .package(url: "https://github.com/adobe/aepsdk-edge-ios.git", .upToNextMajor(from: "5.0.2")),
+    .package(url: "https://github.com/adobe/aepsdk-edgeidentity-ios.git", .upToNextMajor(from: "5.0.0"))
+],
 targets: [
     .target(
-        name: "YourApp",
+        name: "YourTarget",
         dependencies: [
-            "AEPFlags"
+            .product(name: "AEPFlags", package: "aepsdk-flags-ios"),
+            .product(name: "AEPCore", package: "aepsdk-core-ios"),
+            .product(name: "AEPLifecycle", package: "aepsdk-core-ios"),
+            .product(name: "AEPServices", package: "aepsdk-core-ios"),
+            .product(name: "AEPEdge", package: "aepsdk-edge-ios"),
+            .product(name: "AEPEdgeIdentity", package: "aepsdk-edgeidentity-ios")
         ]
-    ),
-    .binaryTarget(
-        name: "AEPFlags",
-        url: "<AEPFlags binary URL>",
-        checksum: "<AEPFlags binary checksum>"
     )
 ]
 ```
 
-Swift封裝管理程式會解析本機Xcode、CI和封存組建的二進位目標。
+### XCFramework {#xcframework}
 
-#### 直接新增XCFramework {#xcframework}
+1. 從[發行頁面](https://github.com/adobe/aepsdk-flags-ios/releases)，下載`AEPFlags-<version>.xcframework.zip`並將其解壓縮。
 
-或者，將提供的`AEPFlags.xcframework`拖曳至Xcode專案導覽器，並將其新增至您的應用程式目標。 在&#x200B;**一般** > **架構、程式庫和內嵌內容**&#x200B;底下，將架構設定為&#x200B;**內嵌與簽署**。
+1. 從每個存放庫的發行頁面下載擴充功能相依的XCFramework：
 
-### 初始化SDK {#initialize-sdk}
+   * [aepsdk-core-ios版本](https://github.com/adobe/aepsdk-core-ios/releases)： `AEPCore`、`AEPServices`、`AEPLifecycle`和`AEPRulesEngine`
+   * [aepsdk-edge-ios版本](https://github.com/adobe/aepsdk-edge-ios/releases)： `AEPEdge`
+   * [aepsdk-edgeidentity-ios發行版本](https://github.com/adobe/aepsdk-edgeidentity-ios/releases)： `AEPEdgeIdentity`
 
-呼叫任何Flags API之前，請先在您的`AppDelegate`中註冊Mobile SDK擴充功能。 在身分識別、Edge和生命週期後註冊`Flag`，然後使用行動屬性中的環境檔案ID設定SDK。
+1. 在Xcode中，選取您的應用程式目標，然後開啟&#x200B;**一般** > **架構、資料庫和內嵌內容**。
 
-#### 註冊和設定擴充功能 {#register-configure}
+1. 新增`AEPFlags.xcframework`和所有相依的XCFramework。
 
->[!IMPORTANT]
->
->對於生產應用程式，僅使用`.error`記錄層級；請勿在發行組建中使用`.debug`或`.trace`。
+1. 將每個框架設定為&#x200B;**嵌入與簽署**。
 
-**Swift**
+## 初始化SDK {#initialize-sdk}
+
+註冊Flags擴充功能，然後使用行動屬性中的環境檔案ID初始化SDK。 `MobileCore.initialize`不會為您註冊Flags副檔名，所以請先註冊它。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
-// AppDelegate.swift
 import AEPCore
-import AEPLifecycle
-import AEPEdge
-import AEPEdgeIdentity
 import AEPFlags
 import UIKit
 
-final class AppDelegate: NSObject, UIApplicationDelegate {
-
-    func application(_: UIApplication,
-                      didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
-        // Production: use .error only. Do not use .debug or .trace in release builds.
-        MobileCore.setLogLevel(.error)
-
-        MobileCore.registerExtensions([
-            Identity.self,
-            Edge.self,
-            Lifecycle.self,
-            Flag.self
-        ]) {
-            MobileCore.configureWith(appId: "YOUR_ENVIRONMENT_FILE_ID")
-            MobileCore.lifecycleStart(additionalContextData: nil)
-        }
-
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        MobileCore.registerExtensions([Flag.self])
+        MobileCore.initialize(appId: "<your-environment-file-id>")
         return true
     }
 }
 ```
 
-**Objective-C**
+>[!TAB Objective-C]
 
 ```objc
-// AppDelegate.m
-#import "AppDelegate.h"
 @import AEPCore;
-@import AEPLifecycle;
+@import AEPFlags;
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [AEPMobileCore registerExtensions:@[AEPMobileFlag.class] completion:nil];
+    [AEPMobileCore initializeWithAppId:@"<your-environment-file-id>" completion:nil];
+    return YES;
+}
+```
+
+>[!ENDTABS]
+
+### 手動註冊擴充功能 {#register-manually}
+
+如果您自行註冊擴充功能，請先註冊所有擴充功能。 應用程式進入前景時呼叫`MobileCore.lifecycleStart`，應用程式進入背景時呼叫`MobileCore.lifecyclePause`。
+
+如果您的應用程式使用場景，請改在`sceneWillEnterForeground(_:)`和`sceneDidEnterBackground(_:)`中進行這些呼叫。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
+
+```swift
+import AEPCore
+import AEPEdge
+import AEPEdgeIdentity
+import AEPFlags
+import AEPLifecycle
+import UIKit
+
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        MobileCore.registerExtensions([
+            Lifecycle.self,
+            Edge.self,
+            AEPEdgeIdentity.Identity.self,
+            Flag.self
+        ]) {
+            MobileCore.configureWith(appId: "<your-environment-file-id>")
+            DispatchQueue.main.async {
+                if application.applicationState != .background {
+                    MobileCore.lifecycleStart(additionalContextData: nil)
+                }
+            }
+        }
+        return true
+    }
+
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        MobileCore.lifecycleStart(additionalContextData: nil)
+    }
+
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        MobileCore.lifecyclePause()
+    }
+}
+```
+
+>[!TAB Objective-C]
+
+```objc
+@import AEPCore;
 @import AEPEdge;
 @import AEPEdgeIdentity;
 @import AEPFlags;
+@import AEPLifecycle;
 
-@implementation AppDelegate
-
-- (BOOL)application:(UIApplication *)application
-    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    // Production: use AEPLogLevelError only. Do not use Debug or Trace in release builds.
-    [AEPMobileCore setLogLevel:AEPLogLevelError];
-
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [AEPMobileCore registerExtensions:@[
-        AEPMobileEdgeIdentity.class,
-        AEPMobileEdge.class,
         AEPMobileLifecycle.class,
+        AEPMobileEdge.class,
+        AEPMobileEdgeIdentity.class,
         AEPMobileFlag.class
     ] completion:^{
-        [AEPMobileCore configureWithAppId:@"YOUR_ENVIRONMENT_FILE_ID"];
-        [AEPMobileCore lifecycleStart:nil];
+        [AEPMobileCore configureWithAppId:@"<your-environment-file-id>"];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (application.applicationState != UIApplicationStateBackground) {
+                [AEPMobileCore lifecycleStart:nil];
+            }
+        });
     }];
-
     return YES;
 }
 
-@end
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    [AEPMobileCore lifecycleStart:nil];
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    [AEPMobileCore lifecyclePause];
+}
 ```
+
+>[!ENDTABS]
 
 ## 評估內容 {#evaluation-context}
 
-`FeatureEvaluationContext`包含目標屬性（用於旗標規則比對）。
+每個評估呼叫都需要`FeatureEvaluationContext`。 它保有旗標的目標規則所使用的屬性。
 
 | 參數 | 必填 | 說明 |
 |---|---|---|
-| `attributes` | 否 | `[String: [String]]`. 索引鍵是旗標規則所使用的內容屬性名稱（例如`locale`、`platform`、`appVersion`、`deviceType`）。 值是目前使用者/工作階段之索引鍵的候選屬性值清單（例如`["en_US"]`或`["phone"]`）。 |
+| `attributes` | 否 | `[String: [String]]`. 每個索引鍵都是您的標幟鎖定目標規則所使用的屬性名稱。 每個值都是目前使用者的值清單。 |
 
-**Swift**
+* 使用與您在「旗標」中定義的鎖定目標規則相符的屬性名稱和值。
+* 每個產生器最多呼叫`withAttributes`一次。 第二個呼叫會終止應用程式。
+* 若要評估不含屬性，請呼叫`build()`而不呼叫`withAttributes`。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
 import AEPFlags
 
-let attrs: [String: [String]] = [
-    "locale": ["en_US"],
-    "platform": ["IOS"],
-    "appVersion": ["3.0.0"]
-]
-
-let ctx = FeatureEvaluationContext.builder()
-    .withAttributes(attrs)
+let context = FeatureEvaluationContext.builder()
+    .withAttributes([
+        "locale": ["en_US"],
+        "appVersion": ["3.0.0"]
+    ])
     .build()
 ```
 
-**Objective-C**
+>[!TAB Objective-C]
 
 ```objc
 @import AEPFlags;
 
-NSDictionary<NSString *, NSArray<NSString *> *> *attrs = @{
-    @"locale": @[@"en_US"],
-    @"platform": @[@"IOS"],
-    @"appVersion": @[@"3.0.0"]
-};
-
-AEPFeatureEvaluationContextBuilder *builder = [AEPFeatureEvaluationContext builder];
-AEPFeatureEvaluationContext *ctx = [[builder withAttributes:attrs] build];
+AEPFeatureEvaluationContext *context = [[[AEPFeatureEvaluationContext builder]
+    withAttributes:@{
+        @"locale": @[@"en_US"],
+        @"appVersion": @[@"3.0.0"]
+    }]
+    build];
 ```
 
-### 目標屬性範例 {#sample-attributes}
+>[!ENDTABS]
 
-| 屬性 | 說明 | 範例值 |
-|---|---|---|
-| `locale` | 使用者的地區/語言 | `["en_US"]`, `["fr_FR"]` |
-| `platform` | 平台識別碼 | `["IOS"]` |
-| `appVersion` | 應用程式版本 | `["3.0.0"]` |
-| `deviceType` | 裝置類型 | `["phone"]`, `["tablet"]` |
-
-### 自訂身分 {#custom-identity}
+## 自訂身分 {#custom-identity}
 
 Flags擴充功能會使用Edge Network的身分擴充功能來進行身分解析。 功能標幟可以在自訂身分上分組（例如CRM ID或忠誠度ID），以便變數拆分和分析繫結到對您的應用程式重要的身分。
 
 編寫功能標幟時，必須在標幟UI中選取自訂身分名稱空間。 若要根據該身分評估旗標，裝置上的Edge身分`identityMap`中必須存在相同的身分，使用相符的名稱空間。 在執行階段提供Edge Network `updateIdentities` API的身分識別。
 
-#### 將自訂身分新增至身分對應 {#add-identity}
+### 將自訂身分新增至身分對應 {#add-identity}
 
 在功能標幟上設定的相同名稱空間下新增身分。
 
-**Swift**
+請注意下列行為：
+
+* 名稱空間必須與標幟上設定的名稱空間完全相符，包括大寫和小寫字母。
+* 如果名稱空間中有數個身分，系統會使用標示為主要身分的身分。 如果沒有任何專案標示為主要，則會使用第一個專案。
+* 如果缺少身分，呼叫不會失敗。 系統只會針對目前應用程式工作階段隨機將使用者指派給變體，且可在應用程式重新啟動後將使用者指派給其他變體。 在評估使用身分的旗標之前，請先設定身分識別。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
 import AEPEdgeIdentity
 
 let identityMap = IdentityMap()
-identityMap.add(item: IdentityItem(id: "1111", authenticatedState: .authenticated, primary: true),
-                 withNamespace: "userCRMId") // must match the namespace configured on the feature flag
+identityMap.add(
+    item: IdentityItem(id: "1111", authenticatedState: .authenticated, primary: true),
+    withNamespace: "userCRMId" // must match the namespace configured on the feature flag
+)
 Identity.updateIdentities(with: identityMap)
 ```
 
-**Objective-C**
+>[!TAB Objective-C]
 
 ```objc
 @import AEPEdgeIdentity;
 
-AEPIdentityItem *item = [[AEPIdentityItem alloc]
-    initWithId:@"1111"
-    authenticatedState:AEPAuthenticatedStateAuthenticated
-    primary:YES];
+AEPIdentityItem *item = [[AEPIdentityItem alloc] initWithId:@"1111"
+                                         authenticatedState:AEPAuthenticatedStateAuthenticated
+                                                    primary:YES];
 AEPIdentityMap *identityMap = [[AEPIdentityMap alloc] init];
 [identityMap addItem:item withNamespace:@"userCRMId"]; // must match the namespace configured on the feature flag
 [AEPMobileEdgeIdentity updateIdentities:identityMap];
 ```
 
+>[!ENDTABS]
+
+
 ## API 參考資料 {#api-reference}
 
 ### isFeatureEnable {#is-feature-enabled}
 
-`isFeatureEnabled`會傳回指定內容的旗標功能是開啟還是關閉。 傳遞`featureKey`、`FeatureEvaluationContext` （選擇性目標屬性）和完成結束。 請參閱[評估內容](#evaluation-context)。
+檢查功能是否為目前使用者啟用。 當功能存在、使用者符合其目標規則，且使用者不在控制組時，結果為`true`。 否則，結果為`false`。
 
-**簽章**
+>[!BEGINTABS]
 
-*Swift*
+>[!TAB Swift]
 
 ```swift
 static func isFeatureEnabled(
     _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
-    completion: @escaping (Bool) -> Void
+    completion: @escaping (Bool) -> Void,
+    errorCallback: ((AEPError) -> Void)?
 )
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
 + (void)isFeatureEnabled:(NSString *)featureKey
        evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-               completion:(void (^)(BOOL))completion;
+              completion:(void (^)(BOOL))completion
+           errorCallback:(void (^ _Nullable)(enum AEPError))errorCallback;
 ```
+
+>[!ENDTABS]
 
 **參數**
 
@@ -321,65 +380,91 @@ static func isFeatureEnabled(
 | `featureKey` | 字串 | 要在旗標中評估的功能索引鍵 |
 | `evaluationContext` | FeatureEvaluationContext | 視需要包含目標屬性；針對空白內容使用`FeatureEvaluationContext.builder().build()`。 請參閱[評估內容](#evaluation-context)。 |
 | `completion` | `(Bool) -> Void` | 如果功能已啟用，則使用`true`呼叫，否則使用`false`。 |
+| `errorCallback` | `((AEPError) -> Void)?` | 選填。 僅針對真正失敗呼叫，例如空白金鑰、遺失設定、評估失敗或逾時。 |
 
 **範例**
 
-*Swift*
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
-import AEPFlags
-
-Flag.isFeatureEnabled(
-    "new-flag",
-    evaluationContext: ctx
-) { isEnabled in
-    if isEnabled {
-        // Feature is enabled: run the feature-specific behavior
-    } else {
-        // Feature is disabled: fall back to the default behavior
+Flag.isFeatureEnabled("new-flag", evaluationContext: context) { isEnabled in
+    DispatchQueue.main.async {
+        if isEnabled {
+            // Run the feature-specific behavior
+        } else {
+            // Run the default behavior
+        }
+    }
+} errorCallback: { _ in
+    DispatchQueue.main.async {
+        // Run the default behavior
     }
 }
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
-@import AEPFlags;
-
 [AEPMobileFlag isFeatureEnabled:@"new-flag"
-              evaluationContext:ctx
-                      completion:^(BOOL isEnabled) {
-    if (isEnabled) {
-        // Feature is enabled: run the feature-specific behavior
-    } else {
-        // Feature is disabled: fall back to the default behavior
-    }
+              evaluationContext:context
+                     completion:^(BOOL isEnabled) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (isEnabled) {
+            // Run the feature-specific behavior
+        } else {
+            // Run the default behavior
+        }
+    });
+} errorCallback:^(enum AEPError error) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        // Run the default behavior
+    });
 }];
 ```
 
+>[!ENDTABS]
+
 ### getFeature {#get-feature}
 
-`getFeature`會針對提供的內容傳回評估的功能裝載。 當您需要更多已啟用/已停用，並且想要功能中繼資料或值時，請使用此API。
+>[!IMPORTANT]
+>
+>舊版在功能未提供時，使用`AEPError.unexpected`呼叫錯誤回呼。 如果您的應用程式將該錯誤視為「功能遺失」，請在完成中改為處理`nil`。
 
-**簽章**
+傳回目前使用者的功能詳細資訊，包括其中繼資料和指派給使用者的變體。 當您需要更多啟用或停用時，請使用該功能。
 
-*Swift*
+只有在向使用者提供功能時，才會呼叫完成並產生結果。 如果未提供此功能，則會使用`nil`呼叫完成。 這是正常結果，而不是錯誤，而且不會呼叫錯誤回呼。 當發生下列情況時，使用`nil`呼叫完成：
+
+* 沒有功能有此索引鍵。
+* 使用者不符合目標規則。
+* 使用者是在控制組。
+
+只有在發生錯誤時，才會使用`AEPError.unexpected` （或其他`AEPError`）呼叫錯誤回呼：功能金鑰為空白、缺少必要的設定值、評估失敗、無法讀取回應，或要求逾時。
+
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
 static func getFeature(
     _ featureKey: String,
     evaluationContext: FeatureEvaluationContext,
-    completion: @escaping (FeatureEvaluationResult?) -> Void
+    completion: @escaping (FeatureEvaluationResult?) -> Void,
+    errorCallback: ((AEPError) -> Void)?
 )
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
 + (void)getFeature:(NSString *)featureKey
  evaluationContext:(AEPFeatureEvaluationContext *)evaluationContext
-        completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion;
+        completion:(void (^)(AEPFeatureEvaluationResult * _Nullable))completion
+     errorCallback:(void (^ _Nullable)(enum AEPError))errorCallback;
 ```
+
+>[!ENDTABS]
 
 **參數**
 
@@ -387,7 +472,8 @@ static func getFeature(
 |---|---|---|
 | `featureKey` | 字串 | 要在旗標中評估的功能索引鍵 |
 | `evaluationContext` | FeatureEvaluationContext | 視需要包含目標屬性；針對空白內容使用`FeatureEvaluationContext.builder().build()`。 請參閱[評估內容](#evaluation-context)。 |
-| `completion` | `(FeatureEvaluationResult?) -> Void` | 使用評估的功能裝載呼叫；找不到功能時`nil`。 |
+| `completion` | `(FeatureEvaluationResult?) -> Void` | 使用評估的功能裝載呼叫。 當功能未提供給使用者（未知索引鍵、目標不匹配或控制組）時，使用`nil`呼叫。 `nil`不是錯誤。 |
+| `errorCallback` | `((AEPError) -> Void)?` | 選填。 僅針對真正失敗呼叫，例如空白金鑰、遺失設定、評估失敗或逾時。 未提供功能時不會呼叫。 |
 
 **回應**
 
@@ -395,75 +481,60 @@ static func getFeature(
 
 | 欄位 | 類型 | 說明 |
 |---|---|---|
-| `id` | 整數 | 數值功能識別碼 |
+| `id` | 整數 | 功能ID |
 | `key` | 字串 | 功能鍵 |
-| `featureGroupKey` | 字串？ | 功能群組索引鍵（可用時） |
-| `meta` | 字串？ | 不透明功能中繼資料（可用時） |
-| `analyticsParam` | AnalyticsParam？ | 已評估功能的Analytics詳細資料 |
-
-*AnalyticsParam*
-
-| 欄位 | 類型 | 說明 |
-|---|---|---|
-| `featureGroupId` | 整數 | 數值功能群組識別碼 |
-| `featureId` | 整數 | 數值功能識別碼 |
-| `variantId` | 字串？ | 變體識別碼 |
+| `featureGroupKey` | 字串？ | 包含特徵的特徵群組的鍵 |
+| `meta` | 字串？ | 為功能設定的中繼資料，如文字。 如果您的中繼資料是JSON，請在應用程式中將其解碼。 |
+| `analyticsParam` | AnalyticsParam？ | 功能和使用者變體的識別碼 |
 
 **範例**
 
-*Swift*
+>[!BEGINTABS]
+
+>[!TAB Swift]
 
 ```swift
-import AEPFlags
-
-Flag.getFeature(
-    "new-flag",
-    evaluationContext: ctx
-) { feature in
-    guard let meta = feature?.meta, !meta.isEmpty else {
-        // No metadata available: fall back to the default behavior
-        return
+Flag.getFeature("new-flag", evaluationContext: context) { feature in
+    DispatchQueue.main.async {
+        guard let meta = feature?.meta, !meta.isEmpty else {
+            // The feature is not served to this user (feature is nil), or it has no metadata.
+            // Run the default behavior
+            return
+        }
+        // Use the metadata to drive the feature behavior
     }
-    // Feature metadata is available: use it to drive the feature behavior
+} errorCallback: { _ in
+    DispatchQueue.main.async {
+        // A genuine failure occurred. Run the default behavior
+    }
 }
 ```
 
-*Objective-C*
+>[!TAB Objective-C]
 
 ```objc
-@import AEPFlags;
-
 [AEPMobileFlag getFeature:@"new-flag"
-        evaluationContext:ctx
-                completion:^(AEPFeatureEvaluationResult * _Nullable feature) {
-    NSString *meta = feature.meta;
-    if (meta.length > 0) {
-        // Feature metadata is available: use it to drive the feature behavior
-    } else {
-        // No metadata available: fall back to the default behavior
-    }
+        evaluationContext:context
+               completion:^(AEPFeatureEvaluationResult * _Nullable feature) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (feature.meta.length > 0) {
+            // Use the metadata to drive the feature behavior
+        } else {
+            // Run the default behavior
+        }
+    });
+} errorCallback:^(enum AEPError error) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        // Run the default behavior
+    });
 }];
 ```
 
+>[!ENDTABS]
+
 ### extensionVersion {#extension-version}
 
-傳回Flags副檔名的版本字串。
-
-**語法**
-
-*Swift*
-
-```swift
-static var extensionVersion: String
-```
-
-*Objective-C*
-
-```objc
-+ (nonnull NSString *)flagExtensionVersion;
-```
-
-**範例**
+傳回Flags擴充功能的版本。
 
 *Swift*
 
@@ -481,14 +552,6 @@ NSString *version = [AEPMobileFlag flagExtensionVersion];
 
 | API | 傳回值 |
 |---|---|
-| `isFeatureEnabled(_:evaluationContext:completion:)`. `FeatureEvaluationContext`攜帶規則的鎖定目標屬性。 請參閱[isFeatureEnabled](#is-feature-enabled)。 | 透過完成關閉的布林值 |
-| `getFeature(_:evaluationContext:completion:)`. 傳回給定內容的評估功能裝載。 請參閱[getFeature](#get-feature)。 | FeatureEvaluationResult？ 透過關閉 |
+| `isFeatureEnabled(_:evaluationContext:completion:errorCallback:)` | 逐步完成整個步驟 |
+| `getFeature(_:evaluationContext:completion:errorCallback:)` | FeatureEvaluationResult？ 完成為止 |
 | `extensionVersion` | 字串 |
-
-## 另請參閱 {#see-also}
-
-* [行動應用程式](../../integrate/mobile-applications.md)
-* [SDK](../../integrate/sdks.md)
-* [Android擴充功能整合指南](../android/android-extension-integration-guide.md)
-
-<!-- -->
