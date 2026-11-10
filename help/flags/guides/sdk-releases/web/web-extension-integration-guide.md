@@ -6,10 +6,10 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 8%
+source-wordcount: '1229'
+ht-degree: 7%
 ---
 # 標示網頁的副檔名 {#web-extension-integration-guide}
 
@@ -45,28 +45,30 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
 
 ### 安裝擴充功能 {#install-extension}
 
-1. 使用您的Adobe ID憑證登入[experience.adobe.com](https://experience.adobe.com)。
-1. 導覽至&#x200B;**資料彙集** > **標籤**。
-1. 選取所需的標籤屬性。
-1. 瀏覽至&#x200B;**擴充功能** > **目錄**。
-1. 搜尋&#x200B;**旗標**&#x200B;並選取擴充功能卡。
-1. 選取&#x200B;**安裝**。
+1. 登入[Adobe Experience Platform資料彙集](https://experience.adobe.com/#/data-collection)。
 
-### 設定擴充功能設定 {#configure-settings}
+1. 選取&#x200B;**[!UICONTROL 標籤]**&#x200B;標籤，然後選擇您的行動裝置屬性。
 
-安裝Flags擴充功能時，您會前往設定頁面。 完成下列設定:
+1. 瀏覽至&#x200B;**[!UICONTROL 擴充功能]** > **[!UICONTROL 目錄]**。
 
-| 設定 | 說明 | 必要 |
-|---|---|---|
-| 用戶端 ID | 旗標中應用程式的唯一識別碼。 | 是 |
+1. 搜尋&#x200B;**[!DNL Adobe Flags]**&#x200B;並選取&#x200B;**[!UICONTROL 安裝]**。
 
-### 儲存並發佈 {#save-publish}
+   ![](../assets/extension-install.png)
 
-1. 選取&#x200B;**儲存**&#x200B;以儲存您的擴充功能組態。
-1. 依照發佈流程部署您的變更：
+1. 設定擴充功能設定：
+
+* 使用者端ID：旗標中您應用程式的唯一識別碼。
+
+1. 選取&#x200B;**[!UICONTROL 儲存]**。
+
+1. 依照[發佈程式](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的設定。
+
    1. 將擴充功能新增至程式庫。
+
    1. 建置到您的開發環境。
-   1. 使用Adobe Experience Platform Debugger進行驗證。
+
+   1. 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)進行驗證。
+
    1. 提升至測試與生產。
 
 ## 將Tags內嵌程式碼新增至您的網站 {#embed-code}
@@ -76,17 +78,28 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
 ### 複製內嵌程式碼 {#copy-embed-code}
 
 1. 在資料收集中，導覽至您的Web屬性。
-1. 在左側導覽中選取&#x200B;**環境**。
-1. 在您的目標環境（開發、測試或生產）的列中，選取&#x200B;**安裝**&#x200B;欄下的方塊圖示。
-1. 在&#x200B;**網頁安裝指示**&#x200B;對話方塊中，標籤預設為非同步內嵌程式碼。
-1. 選取「**複製**」圖示，將內嵌程式碼複製到剪貼簿。
-1. 選取&#x200B;**關閉**&#x200B;以關閉強制回應視窗。
+
+1. 存取&#x200B;**[!UICONTROL 環境]**&#x200B;功能表。
+
+1. 在您選取環境的&#x200B;**[!UICONTROL 安裝]**&#x200B;欄中選取方塊圖示。
+
+   ![](../assets/extension-install-2.png)
+
+1. 在&#x200B;**[!UICONTROL 網頁安裝指示]**&#x200B;對話方塊中，標籤預設為非同步內嵌程式碼。
+
+1. 選取「**[!UICONTROL 複製]**」圖示，將內嵌程式碼複製到剪貼簿。
+
+   >[!NOTE]
+   >
+   >每個環境都有唯一的內嵌程式碼URL。 如需詳細資訊，請參閱[環境](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html)檔案。
+
+   ![](../assets/extension-install-4.png)
+
+### 實作內嵌程式碼 {#implement-embed-code}
 
 >[!NOTE]
 >
->每個環境都有唯一的內嵌程式碼URL。 如需詳細資訊，請參閱環境。
-
-### 實作內嵌程式碼 {#implement-embed-code}
+>將`src` URL取代為您的環境頁面中的實際內嵌程式碼。 URL包含您的公司識別碼、屬性識別碼和環境識別碼（例如，`launch-EN123456789abcdef.min.js`）。
 
 在HTML頁面的`<head>`元素中新增內嵌程式碼。 內嵌程式碼應放置在依賴Tags程式庫的其他指令碼之前：
 
@@ -97,17 +110,13 @@ Flags擴充功能需要下列Adobe Experience Platform擴充功能：
   <title>My Website</title>
 
   <!-- Adobe Experience Platform Tags embed code -->
-  <script src="https://assets.adobedtm.com/yourcompany/your-property/launchENxxxxxxxxxxx.min.js" async></script>
+  <script src="https://assets.adobedtm.com/your-company/your-property/launch-ENxxxxxxxxxxx.min.js" async></script>
 </head>
 <body>
   <!-- Your page content -->
 </body>
 </html>
 ```
-
->[!NOTE]
->
->將`src` URL取代為您的環境頁面中的實際內嵌程式碼。 URL包含您的公司識別碼、屬性識別碼和環境識別碼（例如，`launch-EN123456789abcdef.min.js`）。
 
 ### 使用標籤元件評估標幟 {#tags-components}
 
@@ -168,7 +177,7 @@ const context = {
 
 ## API 參考資料 {#api-reference}
 
-### isFeatureEnable {#is-feature-enabled}
+### 功能評估 {#is-feature-enabled}
 
 `isFeatureEnabled`會傳回指定內容的旗標功能是開啟還是關閉。 傳遞`featureKey`和`FeatureEvaluationContext`。 請參閱[評估內容](#evaluation-context)。 使用&#x200B;**功能已啟用**&#x200B;標籤條件，或在初始化後從自訂程式碼呼叫`window._flagClient.isFeatureEnabled(...)`。
 
@@ -185,49 +194,52 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | `featureKey` | string | 要在旗標中評估的功能索引鍵 |
 | `context` | FeatureEvaluationContext | 身分（必要）和選用的目標定位屬性。 請參閱[評估內容](#evaluation-context)。 |
 
-### 建立功能標幟資料元素 {#create-data-element}
+## 建立功能標幟資料元素 {#create-data-element}
 
 當您在規則或自訂程式碼中需要可用為`%Data Element Name%`的旗標值時，請使用資料元素。
 
-**步驟**
+1. 在您的屬性中，存取&#x200B;**[!UICONTROL 資料元素]**&#x200B;功能表並選取&#x200B;**[!UICONTROL 新增資料元素]**。
 
-1. 在您的屬性中，移至&#x200B;**資料元素**&#x200B;並選取&#x200B;**新增資料元素**。
+   ![](../assets/extension-install-5.png)
+
 1. 在&#x200B;**建立資料元素**&#x200B;畫面上，設定標籤欄位：
 
-   | 欄位 | 值 |
-   |---|---|
-   | 名稱 | 描述性名稱（例如`checkout flag`） |
-   | 延伸 | 旗標 |
-   | 資料元素型別 | 功能標幟 |
+   * **[!UICONTROL 名稱]**：描述性名稱（例如`checkout flag`）
+   * **[!UICONTROL 延伸模組]**：旗標
+   * **[!UICONTROL 資料元素型別]**：功能標幟
 
 1. 設定&#x200B;**旗標**&#x200B;擴充功能欄位：
 
-   | 欄位 | 必要 | 說明 |
-   |---|---|---|
-   | 功能鍵 | 是 | 唯一的旗標索引鍵（例如`checkout_flag`） |
-   | 傳回類型 | 是 | **布林值(true/false)** — 已啟用/已停用，或&#x200B;**功能物件（完整詳細資料）** — 完整承載，包括`meta` |
+   * **[!UICONTROL 功能鍵]**：需要唯一的旗標鍵（例如`checkout_flag`）。
+   * **[!UICONTROL 傳回型別]**： **布林值(true/false)** — 已啟用/已停用，或&#x200B;**功能物件（完整詳細資料）** — 完整承載，包括`meta`，必要。
+
+     | 傳回型別 | 解析為 |
+     |---|---|
+     | 布林值 (true/false) | 如果啟用`true`，否則`false` |
+     | 功能物件（完整詳細資料） | 已評估旗標已啟用且內容符合其對象時的功能裝載；旗標已停用、找不到或內容不符合時則為`null` |
 
 1. 選取&#x200B;**儲存**。
 
-**傳回型別**
-
-| 傳回型別 | 解析為 |
-|---|---|
-| 布林值 (true/false) | 如果啟用`true`，否則`false` |
-| 功能物件（完整詳細資料） | 已完整評估功能裝載，或未滿足規則時則為`null` |
-
 ### 使用資料元素 {#use-data-element}
 
-在規則中 — 以名稱參照，例如`%Test Flag%`。
+在規則中，依名稱參照，例如`%Test Flag%`。
 
-在自訂程式碼中 — 使用`_satellite.getVar`。 使用執行階段屬性，傳遞平面屬性對應作為第二個引數來評估：
+在自訂程式碼中使用`_satellite.getVar`。 使用執行階段屬性，傳遞平面屬性對應作為第二個引數來評估：
 
 ```javascript
 var isEnabled = _satellite.getVar('Test Flag', {
   locale: ['en-US'],
   platform: ['web']
 });
+```
 
+**自訂程式碼**
+
+```javascript
+var isEnabled = _satellite.getVar('Test Flag', {
+  locale: ['en-US'],
+  platform: ['web']
+});
 if (isEnabled) {
   // your custom code
 } else {
@@ -239,7 +251,7 @@ if (isEnabled) {
 
 當您需要啟用/停用以外的中繼資料時，`getFeature`會傳回評估的功能裝載。
 
-使用具有&#x200B;**傳回型別的**&#x200B;功能旗標&#x200B;**資料元素：功能物件（完整詳細資料）** — 請參閱[建立功能旗標資料元素](#create-data-element) — 或在`flagClientReady`解析後從自訂程式碼呼叫`window._flagClient.getFeature(...)`。
+使用&#x200B;**功能標幟**&#x200B;資料元素搭配&#x200B;**傳回型別：功能物件（完整詳細資料）**，請參閱[建立功能標幟資料元素](#create-data-element)，或在`flagClientReady`解析後從自訂程式碼呼叫`window._flagClient.getFeature(...)`。
 
 **簽章**
 
@@ -255,6 +267,8 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | `context` | FeatureEvaluationContext | 身分（必要）和目標定位屬性。 請參閱[評估內容](#evaluation-context)。 |
 
 **回應**
+
+`getFeature`只有在旗標已啟用且提供的內容符合旗標對象條件時，才會評估旗標。 在這種情況下，它會傳回結果物件；否則，會傳回`null`。
 
 *功能結果*
 
@@ -272,7 +286,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | 數字 | 數值功能群組識別碼 |
 | `featureId` | 數字 | 數值功能識別碼 |
-| `variantId` | 數字\| null | 變體識別碼（`0`用於控制） |
+| `variantId` | 數字\| null | 變體識別碼（如果使用者在控制組中，則為`0`） |
 
 **控制組行為**
 
@@ -284,8 +298,14 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 
 **範例**
 
+*標籤資料元素*
+
+在規則中參考您的資料元素（例如`%Test Feature%`），並透過`_satellite.getVar`擷取它。
+
+*自訂程式碼*
+
 ```javascript
-var feature = _flagClient.getFeature('new-testflag', {
+var feature = _flagClient.getFeature('new-test-flag', {
   identityNamespace: 'ECID',
   identityId: visitorEcid,
   attributes: {
@@ -339,6 +359,8 @@ console.log(`Flags extension version: ${version}`);
 | 內容中缺少身分 | 評估擲回錯誤；同時提供`identityNamespace`和`identityId` |
 | 找不到功能 | `getFeature`傳回`null`；`isFeatureEnabled`傳回`false` |
 
+**範例**
+
 ```javascript
 try {
   const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
@@ -354,6 +376,8 @@ try {
 ### 提供一致的身分 {#consistent-identity}
 
 在評估中使用相同的身分名稱空間和ID，以百分比轉出進行一致的分段。
+
+**範例**
 
 ```javascript
 const context = {
@@ -373,7 +397,7 @@ const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
 找不到特徵或評估失敗時，請一律提供後援行為。
 
 ```javascript
-const feature = _flagClient.getFeature('new-testflag', context);
+const feature = _flagClient.getFeature('new-test-flag', context);
 
 if (feature && feature.meta) {
   // your custom code
@@ -399,4 +423,3 @@ window.flagClientReady.then(function () {
 * [功能標幟和功能群組中的對象](../../audience/audience-in-feature-flags-and-feature-groups.md)
 * [報告](../../feature-flags/reporting.md)
 
-<!-- -->
