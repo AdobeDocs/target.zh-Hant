@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 32%
@@ -59,7 +59,7 @@ ht-degree: 32%
 ## 何時使用[!UICONTROL 自動分配]與[!UICONTROL A/B測試]或[!UICONTROL Automated Personalization]活動 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * 當您想要從一開始便最佳化活動，並盡快識別勝出體驗時，請使用&#x200B;**[!UICONTROL 自動分配]**。 透過更頻繁地提供高效能體驗，整體活動效能得以提升。
-* 如果您想要在最佳化網站之前先表徵所有體驗的效能，請使用標準&#x200B;**[A/B測試](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**。 A/B測試可協助您對所有體驗進行排名，而[!UICONTROL 自動分配]會找出表現最好的專案，但無法保證區分表現較差的專案。
+* 如果您想要在最佳化網站之前先表徵所有體驗的效能，請使用標準&#x200B;**[A/B測試](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)**。 A/B測試可協助您對所有體驗進行排名，而[!UICONTROL 自動分配]會找出表現最好的專案，但無法保證區分表現較差的專案。
 * 當您想要最佳化最複雜演演算法時使用[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)，例如根據個人設定檔屬性建立預測的機器學習模型。 [!UICONTROL 自動分配]會檢視體驗的彙總行為（如同標準A/B測試），不會區別訪客。
 
 ## [!UICONTROL 自動分配]的主要優點 {#section_0913BF06F73C4794862561388BBDDFF0}
@@ -104,7 +104,7 @@ ht-degree: 32%
 >
 >如果活動只有兩個體驗，則兩個體驗會獲得相等的流量，直到[!DNL Target]找到具有75%信賴度的成功體驗為止。 到那時，三分之二的流量會分配給成功者，三分之一分配給失敗者。 之後，當體驗達到95%信賴度時，90%的流量會分配給獲勝者，而10%會分配給失敗者。 [!DNL Target]一律會傳送一些流量給「遺失」體驗，以避免最後的誤判（也就是說，維持一些探索）。
 
-在啟動[!UICONTROL 自動分配]活動後，不允許從Target UI執行下列操作：
+在啟動[!UICONTROL 自動分配]活動後，不允許從Tar[!DNL]get UI執行下列操作：
 
 * 將「流量配置」模式切換為「手動」
 * 變更目標量度類型
@@ -258,7 +258,7 @@ ht-degree: 32%
 * 選取您的流量分配方法
 * 在不同體驗之間分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/3507598?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### 建立A/B測試(8:36) ![教學課程徽章](/help/main/assets/tutorial.png)
 

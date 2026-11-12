@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 79%
@@ -65,10 +65,10 @@ ht-degree: 79%
 
 [!UICONTROL 「目標與設定」]頁面包括的其他設定可能因您要建立的活動類型而異。 如需這些設定的詳細資訊，參閱您的活動類型:
 
-* [A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [自動個人化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [體驗鎖定目標](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [多變數測試](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [體驗鎖定目標](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
+* [多變數測試](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [推薦](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## 訓練影片：活動設定![教學課程徽章](/help/main/assets/tutorial.png)
@@ -81,4 +81,4 @@ ht-degree: 79%
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3507952?captions=chi_hant)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

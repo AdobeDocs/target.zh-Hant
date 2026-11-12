@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 35%
@@ -50,7 +50,7 @@ ht-degree: 35%
 
    如果您要建立[!UICONTROL Recommendations]活動，此畫面會不同。 [!UICONTROL Recommendations]活動不包含體驗。
 
-1. &#x200B;
+1. 
    1. 按一下「**[!UICONTROL 重新命名]**」圖示（「![重新命名」圖示](/help/main/assets/icons/MoreSmallListVert.svg)），按一下「**[!UICONTROL 重新命名]**」，指定活動的名稱，然後按一下「**[!UICONTROL 儲存]**」。
 
    活動名稱的開頭不能是下列任一字元：
@@ -87,7 +87,7 @@ ht-degree: 35%
    >
    >在活動建立期間建立手動輸入的位置不會自動建立新位置。 位置名稱僅會儲存在活動內容中。 位置是在有內容傳遞呼叫時建立。 建立位置之後，就可在其他活動中使用，以便從可用位置的下拉式清單中建立對象等。
 
-1. 按一下「新增對象細分」**&#x200B;**，為此活動選擇一個或多個[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然後按一下「完成」**&#x200B;**。
+1. 按一下「新增對象細分」****，為此活動選擇一個或多個[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然後按一下「完成」****。
 
    在[!UICONTROL 表單式體驗撰寫器]中，精簡已取代為完整的對象功能。 現有活動的微調已移轉至[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
 
@@ -147,7 +147,7 @@ ht-degree: 35%
 1. 按一下&#x200B;**[!UICONTROL 下一步]**，然後照常對您的活動型別完成活動建立步驟。
 
 * [建立 A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
 * [建立建議活動](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## 訓練影片：表單式撰寫器![教學課程徽章](/help/main/assets/tutorial.png)
@@ -158,4 +158,4 @@ ht-degree: 35%
 * 瞭解使用表單式體驗撰寫器與可視化體驗撰寫器的時機
 * 使用細分來鎖定位置
 
->[!VIDEO](https://video.tv.adobe.com/v/3507889?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)

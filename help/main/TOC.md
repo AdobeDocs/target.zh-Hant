@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何跨網站、應用程式和社群管道將客戶體驗個人化，藉以大幅提升收益。
 feature-set: Target
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1293'
 ht-degree: 84%
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 84%
     + {hide-from-toc}[整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizer使用案例 {#use-cases}
       + {hide-from-toc}[Adobe Journey Optimizer中最佳化使用案例 — 網頁和程式碼型管道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[在Adobe Journey Optimizer中透過A/B測試進行內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + 在Adobe Journey Optimizer中透過A/B測試進行{hide-from-toc}[內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[在網頁中新增或隱藏元件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)
   + 將Target與Adobe Experience Manager (AEM)整合 {#aem}
@@ -166,24 +166,18 @@ ht-degree: 84%
     + [體驗鎖定目標概觀](c-activities/t-experience-target/experience-target.md)
     + 建立體驗鎖定目標活動 {#create-targeting}
       + [建立活動](c-activities/t-experience-target/t-xt-create/xt-create.md)
-      + [活動 URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
       + [建立體驗](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
       + [切換體驗鎖定目標中的體驗](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-      + [目標與設定](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
-      + [設定量度](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
   + 多變數測試 {#multivariate-test}
     + [多變數測試概觀](c-activities/c-multivariate-testing/multivariate-testing.md)
     + [多變數測試最佳實務](c-activities/c-multivariate-testing/best-practices.md)
     + [計劃多變數測試](c-activities/c-multivariate-testing/plan-mvt.md)
     + 建立多變數測試 {#create-mvt}
       + [建立測試](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-      + [活動 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
       + [建立組合](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
       + [多變數測試的預覽體驗](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [預估成功測試所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [測試摘要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-      + [目標與設定](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
-      + [設定量度](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
       + [疑難排解多變數測試](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
   + [推薦活動](c-activities/recommendations-activity.md)
   + [編輯活動](c-activities/edit-activity.md)

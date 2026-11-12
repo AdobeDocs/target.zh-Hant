@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 44%
@@ -94,7 +94,7 @@ ht-degree: 44%
 
 ## [!UICONTROL 報表量度] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-按一下&#x200B;**[!UICONTROL 報表量度]**&#x200B;下拉式清單，選取其他[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)或多個量度以顯示於圖表中。
+按一下&#x200B;**[!UICONTROL 報表量度]**&#x200B;下拉式清單，選取其他[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)或多個量度以顯示於圖表中。
 
 依預設，主要量度是在您建立活動時於成功量度設定中決定。 如果您變更設定並重新儲存活動，報表的主要量度會更新。
 
@@ -151,7 +151,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，AEP資料流中的環境應符合[!DNL Target]報表設定中的環境。
+>如果您的組織使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP)將量度資料傳送至[!DNL Target]，AEP資料流中的環境應符合[!DNL Target]報表設定中的環境。
 
 ### 重設報告資料
 
@@ -197,7 +197,7 @@ ht-degree: 44%
 考慮以下事項：
 
 * 僅在[!UICONTROL 資料表檢視]中檢視報表時可用。
-* 此功能無法供以[&#x200B; Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
+* 此功能無法供以[ Analytics 作為報表來源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 的活動使用。
 
 ## 位置貢獻 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 

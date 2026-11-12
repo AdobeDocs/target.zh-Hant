@@ -25,68 +25,96 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 4bdd36a7ca0162f95e5d9efd67899433d970d384
+source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 17%
+source-wordcount: '1114'
+ht-degree: 10%
 ---
-# 建立A/B測試活動
+# 建立A/B測試活動 {#create-ab-activity}
 
-運用[!DNL Adobe Target]中的[!UICONTROL 視覺化體驗撰寫器] (VEC)，直接在啟用[!DNL Target]的頁面上建立[!UICONTROL A/B測試]活動，以及在[!DNL Target]內修改頁面區段。
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)中建立手動&#x200B;**[!UICONTROL A/B測試]**&#x200B;活動。 您可以建置體驗、設定目標定位和流量分配，然後設定目標與設定。
+
+>[!ENDSHADEBOX]
+
+運用[!DNL Adobe Target]中的&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)，直接在啟用[!DNL Target]的頁面上建立&#x200B;**[!UICONTROL A/B測試]**&#x200B;活動，以及在[!DNL Target]內修改頁面區段。
 
 >[!NOTE]
 >
->除了[!UICONTROL 手動] （預設） [!UICONTROL A/B測試]活動（本文中討論）之外，[!DNL Target]還提供另外兩種型別的[!UICONTROL A/B測試]活動： [!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]。
+>除了&#x200B;**[!UICONTROL 手動]** （預設） **[!UICONTROL A/B測試]**&#x200B;活動（本文中討論）之外，[!DNL Target]還提供另外兩種型別的&#x200B;**[!UICONTROL A/B測試]**&#x200B;活動： **[!UICONTROL 自動分配]**&#x200B;和&#x200B;**[!UICONTROL 自動鎖定目標]**。
 >
 >檢視&#x200B;*A/B測試總覽*&#x200B;中的[A/B測試活動型別](/help/main/c-activities/t-test-ab/test-ab.md#types)。
 
-若要建立手動[!UICONTROL A/B測試]活動：
+活動會遵循VEC中的三步驟引導式工作流程：
+
+1. [建立體驗](#build-experiences)
+1. [設定目標定位和流量分配](#set-targeting)
+1. [設定目標與設定](#configure-goals-and-settings)
+
+## 步驟1：建立體驗 {#build-experiences}
+
+建立活動，然後設計您要針對控制項測試的替代體驗。
+
+### 建立活動 {#create-activity}
+
+開啟您要在&#x200B;**[!UICONTROL 視覺化體驗撰寫器]**&#x200B;中測試的頁面，並命名活動。
 
 1. 在&#x200B;**[!UICONTROL 活動]**&#x200B;清單中，按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL A/B測試]**。
 
-1. 從[!UICONTROL 建立A/B測試活動]對話方塊中，視需要選取&#x200B;**[!UICONTROL 視覺]**。
+   ![](../../assets/create-ab-1.png)
 
-   如果您偏好使用[!UICONTROL 表單式體驗撰寫器]，請選取[!UICONTROL 表單]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
+1. 從&#x200B;**[!UICONTROL 建立A/B測試活動]**&#x200B;對話方塊中，選擇您的體驗撰寫器：
+
+   * **[!UICONTROL 視覺]**。
+   * **[!UICONTROL 表單式體驗撰寫器]**，如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了VEC和[!UICONTROL 表單式體驗撰寫器]，[!DNL Target]還提供[!UICONTROL 單頁應用程式] VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和產品建議](/help/main/c-experiences/experiences.md)。
+   >除了VEC和&#x200B;**[!UICONTROL 表單式體驗撰寫器]**，[!DNL Target]還提供&#x200B;**[!UICONTROL 單頁應用程式]** VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和產品建議](/help/main/c-experiences/experiences.md)。
    >
    >如需VEC的疑難排解資訊，請參閱[疑難排解視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
 1. （視條件而定）如果您是[Target Premium客戶](/help/main/c-intro/intro.md#premium)，請從&#x200B;**[!UICONTROL 選擇Workspace]**&#x200B;下拉式清單中選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-   [[!UICONTROL 選擇工作區]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)選項是[Target Premium](/help/main/c-intro/intro.md)功能，如果您的組織有[!UICONTROL Target Standard]授權，則可能無法顯示。
-
 1. 在&#x200B;**[!UICONTROL 輸入活動URL]**&#x200B;方塊中，指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)。
 
    如果您的帳戶[設定了預設的 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，該 URL 依預設會顯示。 您可以視需要將預設URL變更為其他URL。
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。 **[!UICONTROL 「可視化體驗撰寫器」]**&#x200B;隨即開啟，顯示 URL 中指定的頁面。
 
-   [!UICONTROL 「可視化體驗撰寫器」]隨即開啟，顯示 URL 中指定的頁面。
-
-1. 若要命名活動，請按一下「[!UICONTROL 未命名活動]」旁的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg)），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 若要為活動命名，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg)）並指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
    {{activity-name-rules}}
 
-1. 建立新體驗，透過變更頁面上的元素。
+   ![](../../assets/create-ab-2.png)
 
-   在您建立新增活動之後，[!UICONTROL 可視化體驗撰寫器]會在左邊顯示兩個標籤: 體驗 A 和體驗 B。體驗 A 為控制體驗。 您的焦點在體驗B索引標籤，您可以視需要修改它。 體驗B是可新增至測試的替代體驗。 您可以按一下[!UICONTROL 體驗]窗格頂端的[!UICONTROL 新增]圖示（![新增圖示](/help/main/assets/icons/Add.svg)），新增多個體驗至測試。 如果您不想將預設網站體驗納入選項，您也可以從活動中刪除體驗A。
+### 設計體驗 {#design-experiences}
 
-   如需在[!UICONTROL 視覺化體驗撰寫器]中新增及修改體驗的詳細資訊，請參閱[新增體驗](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 若要修改體驗 B，請從步驟 2 開始。
+建立新體驗，透過變更頁面上的元素。
 
-1. 按一下[!UICONTROL 視覺化體驗撰寫器]頂端的&#x200B;**[!UICONTROL 鎖定目標]**，以前往三步驟引導工作流程中的下一個步驟。
+建立新活動後，**[!UICONTROL 視覺化體驗撰寫器]**&#x200B;在左側顯示兩個標籤：體驗A和體驗B。
 
-   流程圖表隨即開啟。
+* **體驗A**&#x200B;是控制體驗。 如果您不想將預設網站體驗納入選項，可以將其刪除。
+* **體驗B**&#x200B;是您新增至測試的替代體驗。 您的焦點在此標籤上，您可以視需要修改此標籤。
 
-   ![A/B 測試鎖定目標步驟](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
+若要新增更多體驗至測試，請按一下&#x200B;**[!UICONTROL 新增]**&#x200B;圖示（ ![新增圖示](/help/main/assets/icons/Add.svg) ）。
 
-   流程圖表將引導您進行指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
+![](../../assets/create-ab-3.png)
+
+如需在&#x200B;**[!UICONTROL 視覺化體驗撰寫器]**&#x200B;中新增及修改體驗的詳細資訊，請參閱[新增體驗](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#ab-add-experience)。
+
+## 步驟2：設定目標定位和流量分配 {#set-targeting}
+
+存取&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;功能表後，流程圖表隨即開啟。
+
+![A/B 測試鎖定目標步驟](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
+
+流程圖表會引導您指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配。
 
 1. （視條件而定）按一下&#x200B;**[!UICONTROL 所有訪客]**&#x200B;控制項以選取活動的其他對象。
 
-   [!UICONTROL 所有訪客]對象已設定為預設值。 如果您選取其他對象，其名稱會顯示在最左側的控制項中。 例如，您可將項目限制為所有訪客的 50%，或「加州人」客群的 45%。
+   **[!UICONTROL 所有訪客]**&#x200B;對象已設定為預設值。 如果您選取其他對象，其名稱會顯示在最左側的控制項中。 例如，您可將項目限制為所有訪客的 50%，或「加州人」客群的 45%。
 
    +++ 選取不同對象的步驟
 
@@ -97,33 +125,46 @@ ht-degree: 17%
 
       若要建立結合多個對象的對象，請按一下&#x200B;**[!UICONTROL 結合對象]**。 如需詳細資訊，請參閱[合併多個對象](/help/main/c-target/combining-multiple-audiences.md)。
 
-      若要建立不在[!UICONTROL 對象庫]中的新對象，請按一下&#x200B;**[!UICONTROL 建立對象]**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)中，選擇下列其中一個選項：
+      若要建立不在&#x200B;**[!UICONTROL 對象庫]**&#x200B;中的新對象，請按一下&#x200B;**[!UICONTROL 建立對象]**。 在[建立對象工作流程](/help/main/c-target/c-audiences/audiences.md)中，選擇下列其中一個選項：
 
-      * **[!UICONTROL 對象庫]**：建立儲存至[!UICONTROL 對象庫]的隨選對象，並可在其他活動中重複使用。
-      * **[!UICONTROL 僅此活動]**：建立未儲存至[!UICONTROL 對象庫]且僅能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
+      * **[!UICONTROL 對象庫]**：建立儲存至&#x200B;**[!UICONTROL 對象庫]**&#x200B;的隨選對象，並可在其他活動中重複使用。
+      * **[!UICONTROL 僅此活動]**：建立未儲存至&#x200B;**[!UICONTROL 對象庫]**&#x200B;且僅能用於目前活動的[活動特定對象](/help/main/c-target/creating-activity-only-audience.md)。
 
    1. 按一下右側框架中的&#x200B;**[!UICONTROL 訪客百分比]**，然後選擇符合您要讓其進入活動之訪客的百分比。
 
    +++
 
-1. 按一下&#x200B;**[!UICONTROL 流量分配]**&#x200B;控制項，然後在右窗格中選擇所需的流量分配方法，如下所示：
+1. 按一下&#x200B;**[!UICONTROL 流量分配]**&#x200B;控制項，然後在右窗格中選擇流量分配方法。 請參閱[流量分配方法](#traffic-allocation-methods)。
 
    ![流量分配方法設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   選擇所需的流量分配方法:
+   +++流量分配選項
 
-   * **[!UICONTROL 手動（預設）]**：指定您希望在各體驗上看見的加入者百分比。 您可以在所有體驗之間分割百分比，或對每個體驗指定較高或較低的百分比。 所有體驗的總計必須等於 100%。
+   | 方法 | 作用 |
+   |---|---|
+   | **[!UICONTROL 手動（預設）]** | 指定您希望在各體驗上看見的加入者百分比。 您可以在所有體驗之間分割百分比，或對每個體驗指定較高或較低的百分比。 所有體驗的總計必須等於 100%。 |
+   | **[!UICONTROL 自動分配至最佳體驗]** | 系統會自動將多數活動加入者導向表現較佳的體驗。 有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。 如需詳細資訊，請參閱[**[!UICONTROL 自動分配&#x200B;]**總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。 |
+   | **[!UICONTROL 針對個人化體驗自動鎖定目標]** | [!DNL Target]使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。 如需詳細資訊，請參閱[自動鎖定目標總覽](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
-   * **[!UICONTROL 自動分配至最佳體驗]**：系統會自動將多數活動加入者導向表現較佳的體驗。 有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。 如需詳細資訊，請參閱[[!UICONTROL 自動分配]總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
-
-   * **[!UICONTROL 針對個人化體驗自動鎖定目標]**： [!DNL Target]會使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。 如需詳細資訊，請參閱[自動鎖定目標總覽](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
+   +++
 
 1. 按一下右窗格中的&#x200B;**[!UICONTROL 體驗]**，然後指定每個體驗所需的流量分配。
 
 1. 在您滿意您的對象、體驗選擇和流量配置選擇後，請按一下[下一步] **[!UICONTROL 移至三步驟引導式工作流程的第三個步驟。]**
 
-1. 指定活動的[目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)。
+## 步驟3：設定目標與設定 {#configure-goals-and-settings}
+
+在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上，您指示[!DNL Target]如何測量活動。 可用的設定視您使用[!DNL Target]或[Analytics做為報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md)而定。
+
+1. 檢閱頁面的區段並設定您需要的專案。 檢視[您在目標與設定頁面](#goals-settings-overview)上設定的專案。
+
+   | 區域 | 您設定的專案 |
+   |---|---|
+   | **[!UICONTROL 活動設定]** | 選擇性目標&#x200B;**[!UICONTROL 優先順序]** （用於數個活動共用一個位置和一個對象時）和&#x200B;**[!UICONTROL 期間]** （開始和結束日期）。 |
+   | **[!UICONTROL 報表設定]** | 報表來源、目標量度（例如&#x200B;**[!UICONTROL 轉換]**&#x200B;量度）、其他量度、報表對象和統計方法。 |
+   | **[!UICONTROL 進階設定]** | 成功量度之間的相依性、訪客達到目標量度後會發生什麼情況，以及計數如何增加。 |
+   | **[!UICONTROL 其他中繼資料]** | 對您或其他專案團隊成員有用的活動附註。 |
 
 1. 按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;或&#x200B;**[!UICONTROL 儲存]**。
 
-建立活動後，[!UICONTROL 總覽]索引標籤會顯示有關活動的資訊，包括活動的圖表。
+建立活動後，**[!UICONTROL 總覽]**&#x200B;索引標籤會顯示有關活動的資訊，包括活動的圖表。
