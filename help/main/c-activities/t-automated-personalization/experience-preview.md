@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 41%
@@ -29,7 +29,7 @@ ht-degree: 41%
 
 使用體驗預覽URL可與團隊成員共用體驗，並跨瀏覽器和環境進行QA體驗，而不需建立個別的QA活動。 如果網站很複雜，或如果您的安全性原則不允許在模擬器中檢視網站，此功能特別有用。
 
-1. 建立[自動個人化活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)或按一下活動以開啟。
+1. 建立[自動個人化活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)或按一下活動以開啟。
 
    活動不需要上線即可預覽體驗。
 

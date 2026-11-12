@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e62cab5f2a4ac7d18bdb6847784a06b37513624a
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 本文記錄了[!DNL Adobe Target]中手動A/Bn測試使用的詳細統計計算。 已提供&#x200B;**[!UICONTROL 轉換率]**、**[!UICONTROL 轉換率的信賴區間]**、**[!UICONTROL 提升度]**、**[!UICONTROL 提升度的信賴區間]**、**[!UICONTROL 信賴度]**&#x200B;以及&#x200B;**[!UICONTROL 貝葉斯]**&#x200B;決定度量的定義。
 
-**[!UICONTROL A/B測試]** （手動）活動支援兩種統計方法，在[目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)中針對每個活動選取：
+**[!UICONTROL A/B測試]** （手動）活動支援兩種統計方法，在[目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology)中針對每個活動選取：
 
 * [Welch的t檢定](#welchs-t-test)：一種頻率方法，會根據固定樣本大小的假設檢驗，報告&#x200B;**[!UICONTROL 信賴]**&#x200B;百分比和信賴區間。 用於具有&#x200B;**[!UICONTROL 收入]**&#x200B;或&#x200B;**[!UICONTROL 參與]**&#x200B;主要目標的活動。
 
@@ -157,7 +157,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 **[!UICONTROL Bayesian]**&#x200B;方法也讓行銷人員根據過去實驗和控制變體的結果提供假設。
 
-**[!UICONTROL Bayesian]**&#x200B;方法僅適用於主要目標量度為&#x200B;**[!UICONTROL 轉換]**&#x200B;的活動，具有&#x200B;**[!UICONTROL 收入]**&#x200B;或&#x200B;**[!UICONTROL 參與]**&#x200B;主要目標的活動一律使用&#x200B;**[!UICONTROL Welch的t檢定]**。 如需選取方法的詳細資訊，請參閱[目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)。
+**[!UICONTROL Bayesian]**&#x200B;方法僅適用於主要目標量度為&#x200B;**[!UICONTROL 轉換]**&#x200B;的活動，具有&#x200B;**[!UICONTROL 收入]**&#x200B;或&#x200B;**[!UICONTROL 參與]**&#x200B;主要目標的活動一律使用&#x200B;**[!UICONTROL Welch的t檢定]**。 如需選取方法的詳細資訊，請參閱[目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology)。
 
 ### 平均提升度和可信區間
 

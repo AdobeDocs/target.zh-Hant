@@ -1,7 +1,7 @@
 ---
 keywords: 體驗；JSON；AEM；Adobe Experience Manager；匯出至 Adobe Target；體驗片段；片段；XF
-description: 瞭解如何在 [!DNL Adobe Target] 活動中使用 [!DNL Adobe Experience Manager] [!UICONTROL 體驗片段]。
-title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 體驗片段]？
+description: 瞭解如何在[!DNL Adobe Target]活動中使用[!DNL Adobe Experience Manager] [!UICONTROL 體驗片段]。
+title: 如何使用[!DNL Adobe Experience Manager] (AEM) [!UICONTROL 體驗片段]？
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 TQID: https://experienceleague.adobe.com/-W1ELJx0ajes6BPEVIiS8q6ebmRLTTgIrxvGMUEWEaM
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
-source-wordcount: 1446
+source-wordcount: '1449'
 ht-degree: 28%
-
 ---
-
 # AEM [!UICONTROL 體驗片段]
 
 在[!DNL Target]個活動中使用[!DNL Adobe Experience Manager] (AEM)中建立的[!UICONTROL 體驗片段] (XF)來協助最佳化和個人化。
@@ -40,16 +38,16 @@ ht-degree: 28%
 * 您需為 [!DNL Adobe Experience Manager] (AEM) 客戶才能使用此功能。 如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
 * [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]可用於下列活動型別：
 
-   * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL 自動鎖定目標]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL 體驗鎖定] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL 自動鎖定目標]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL 體驗鎖定] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]不適用於下列活動型別：
 
-   * [[!UICONTROL 多變數測試] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL 推薦]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL 多變數測試] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL 推薦]](/help/main/c-recommendations/recommendations.md)
 
 * 您可以使用[視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，在[!DNL Target]個活動中使用[!UICONTROL 體驗片段]。
 
@@ -152,8 +150,8 @@ ht-degree: 28%
    * **A/B 測試:** [建立 A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **自動分配:** [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **自動鎖定目標：**&#x200B;[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalization (AP):**&#x200B;[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Automated Personalization (AP):**&#x200B;[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
+   * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
    * **A/B 測試或 XT 活動中的建議：**&#x200B;[產品建議形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    在[!DNL Target]中匯出為JSON的[!UICONTROL 體驗片段]無法用於使用VEC建立的活動；在VEC型活動中只支援HTML [!UICONTROL 體驗片段]。 如果您想要使用JSON [!UICONTROL 體驗片段]，請在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)建立的活動中使用它們。

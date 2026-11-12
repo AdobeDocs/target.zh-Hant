@@ -31,54 +31,67 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: b30d6606502e330e939782253e2170ea285e3883
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 22%
+source-wordcount: '1507'
+ht-degree: 16%
 ---
-# [!UICONTROL 成功量度]
+# [!UICONTROL 成功量度] {#success-metrics}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解[!DNL Adobe Target]中可用的成功量度（轉換、收入和參與）、如何建立自訂量度，以及進階設定如何變更量度的計數方式。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Target]中的成功量度是協助測量活動效能的關鍵指標。 這些量度會擷取重要的業務結果，例如轉換、每位訪客帶來的收入和客戶參與度，讓您能夠評估特定體驗或選件的影響。
 
 例如，您可以追蹤新的促銷活動是否會增加每位訪客帶來的收入，或是否會導致更多專案新增至購物車。 成功量度還有助於識別使用者流程中的問題，例如註冊、結帳或購買程式，同時提供整體訪客行為的深入分析。
 
-## 概觀
+* [可用的成功量度](#overview)：轉換、收入和參與
+* [自訂成功量度](#custom-metrics)
+* [進階設定](#section_7CE95A2FA8F5438E936C365A6D43BC5B)：相依性、目標之後會發生什麼事，以及計數如何增加
+
+## 可用的成功量度 {#overview}
 
 在[!DNL Target]中，成功量度已預先設定建議的設定，以確保準確的報告和有效追蹤。
 
 依預設，轉換事件使用設定&#x200B;**[!UICONTROL 遞增計數並讓使用者留在活動中]。** 此設定表示每個訪客僅會計為轉換一次。 不計算重複轉換。 這些訪客會在整個工作階段中持續看到活動內容。
 
-對於使用相同設定的收入量度，只有訪客的第一個訂單會記錄訂單詳細資料。 雖然後續訂單會增加轉換計數，但不會貢獻收入型量度，例如[!UICONTROL 每位訪客帶來的收入(RPV)]、[!UICONTROL 平均訂單值(AOV)]或[!DNL Total Sales]。 這些額外的訂單也會從[!UICONTROL 訂單詳細資料]報表中排除。
+對於使用相同設定的收入量度，只有訪客的第一個訂單會記錄訂單詳細資料。 雖然後續訂單會增加轉換計數，但不會貢獻收入型量度，例如&#x200B;**[!UICONTROL 每位訪客帶來的收入(RPV)]**、**[!UICONTROL 平均訂單值(AOV)]**&#x200B;或[!DNL Total Sales]。 這些額外的訂單也會從&#x200B;**[!UICONTROL 訂單詳細資料]**&#x200B;報表中排除。
 
 >[!NOTE]
 >
->對於使用[Analytics作為報告來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活動，目標量度一律使用&quot;[!UICONTROL 遞增計數以及讓使用者留在活動中]&quot;以及&quot;[!UICONTROL 在每次曝光時]&quot;設定。 這些設定是&#x200B;*不可設定的*。
+>對於使用[Analytics作為報告來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活動，目標量度一律使用&quot;**[!UICONTROL 遞增計數以及讓使用者留在活動中]**&quot;以及&quot;**[!UICONTROL 在每次曝光時]**&quot;設定。 這些設定是&#x200B;*不可設定的*。
 
-您可以在[!UICONTROL 活動設定頁面]上的[!UICONTROL 報告設定]區段中，於[!UICONTROL 目標與設定]步驟下設定下列成功量度：
+您可以在&#x200B;**[!UICONTROL 活動設定]**&#x200B;頁面上的&#x200B;**[!UICONTROL 報告設定]**&#x200B;區段中，於&#x200B;**[!UICONTROL 目標與設定]**&#x200B;步驟下設定下列成功量度。
 
 | 成功量度 | 測量方式 | 定義 |
 |--- |--- |--- |
-| [!UICONTROL 轉換] | 轉換型 | 轉換是指訪客在您定義的網站上執行動作時，例如 <ul><li>已檢視頁面</li><li>已檢視 mbox</li><li>按一下元素</li></ul>每個訪客或每次訪客完成轉換時，可計算一次轉換。 |
-| [!UICONTROL 收入] | 轉換型 | 造訪產生的收入。 您只能選擇一個收入量度：<ul><li>已檢視 mbox</li></ul>在[!UICONTROL 報表]區段中選取收入檢視（RPV、AOV、總銷售或訂單），而不是在活動設定期間選取。 請參閱[切換收入報表檢視](#revenue-views)。 |
-| [!UICONTROL 參與] | 參與型 | 造訪產生的參與度。 您可以從下列參與量度中選擇：<UL><li>頁面檢視：每次不重複造訪均會計為轉換。</li><li>[!UICONTROL 自訂評分]：從訪客第一眼看到此活動的第一個顯示[!DNL Target]要求開始，根據指派給網站上造訪頁面的值彙總評分。</li>[!DNL Time on Site]：瀏覽所花的時間（以秒為單位），從訪客看到活動的第一個顯示[!DNL Target]要求開始，一直到載入工作階段中有要求的最後一頁為止。</UL> |
+| **[!UICONTROL 轉換]** | 轉換型 | 轉換是指訪客在您定義的網站上執行動作時，例如 <ul><li>已檢視頁面</li><li>已檢視 mbox</li><li>按一下元素</li></ul>每個訪客或每次訪客完成轉換時，可計算一次轉換。 |
+| **[!UICONTROL 收入]** | 轉換型 | 造訪產生的收入。 您只能根據已檢視的mbox選擇一個收入量度。 在&#x200B;**[!UICONTROL 報表]**&#x200B;區段中選取收入檢視（RPV、AOV、總銷售或訂單），而不是在活動設定期間選取。 請參閱[切換收入報表檢視](#revenue-views)。 |
+| **[!UICONTROL 參與]** | 參與型 | 造訪產生的參與度。 您可以從下列參與量度中選擇：<ul><li>**[!UICONTROL 頁面檢視]**：每次不重複造訪都會計為轉換。</li><li>**[!UICONTROL 自訂評分]**：從訪客第一眼看到此活動的第一個顯示[!DNL Target]要求開始，根據指派給網站上造訪頁面的值彙總評分。 檢視[擷取分數](/help/main/c-activities/r-success-metrics/capture-score.md)。</li><li>**[!DNL Time on Site]**：瀏覽所花的時間（以秒為單位），從訪客看到活動的第一個顯示[!DNL Target]要求開始，一直到載入工作階段中有要求的最後一頁為止。</li></ul> |
 
 針對參與型量度（不同於轉換型和收入型量度），訪客必須重新符合每次造訪的活動資格，才能遞增該工作階段的計數。 相關量度會在重新取得資格後開始增加計數，並在各訪客的工作階段結束後停止。 閒置 30 分鐘後，工作階段就會結束。 因此，在測試期間不會立即看到結果；不過，該工作階段的所有結果在工作階段結束後的幾分鐘內即可使用。
 
-## 自訂成功量度
+## 自訂成功量度 {#custom-metrics}
 
-您也可以建立自訂成功量度。
+您也可以建立自訂成功量度。 選取成功量度之後，請選取訪客為了達成目標採取的動作。 例如，選擇一個&#x200B;**[!UICONTROL 轉換]**&#x200B;量度，將其設為每位訪客計算一次，然後設定當訪客檢視特定頁面（或一組頁面）、檢視特定[!DNL Target]請求或按一下特定連結時是否成功。 如需相關步驟，請參閱[設定度量](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)。
 
-選取成功量度之後，請選取訪客為了達成目標採取的動作。 例如，選擇一個[!UICONTROL 轉換]量度，將其設為每位訪客計算一次，然後設定當訪客檢視特定頁面（或一組頁面）、檢視特定[!DNL Target]請求或按一下特定連結時是否成功。
+如果已啟用，轉換&#x200B;**欄位的**&#x200B;預估值會提供目標的值，但不提供其他量度的值：
 
-如果已啟用，一個轉換的[!UICONTROL 預計值]欄位（[!UICONTROL 頁面分數]量度無法使用）可提供目標的值，但不適用其他量度。 此值可讓 [!DNL Target] 計算收入中預估的提升度。 此欄位為可選; 不過，任何非收入量度的遞增收入若沒有它即無法計算。 針對所有收入量度（[!UICONTROL 每位訪客帶來的收入]、[!UICONTROL 平均訂單值]、[!UICONTROL 總銷售]及[!UICONTROL 訂單]），預估會使用每位訪客帶來的[!UICONTROL 收入]。 資料類型為貨幣。 請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。
+* 此值可讓[!DNL Target]計算收入的預估提升度。
+* 欄位是選用欄位；但是，沒有它就無法計算任何非收入量度的增量收入。
+* 此欄位不適用於&#x200B;**[!UICONTROL 頁面分數]**&#x200B;量度。
+* 針對所有收入量度（**[!UICONTROL 每位訪客帶來的收入]**、**[!UICONTROL 平均訂單值]**、**[!UICONTROL 總銷售]**&#x200B;及&#x200B;**[!UICONTROL 訂單]**），預估會使用每位訪客帶來的&#x200B;**[!UICONTROL 收入]**。 資料類型為貨幣。
 
-檢視活動報表時，您為活動選擇的成功量度會顯示在報表設定中。
+請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以取得詳細資訊。
 
-某些量度，例如[!UICONTROL 自訂評分]和[!UICONTROL 每位訪客帶來的收入]，需要傳入資訊的自訂實作，例如訂單總計和訂單ID。
+檢視活動報表時，您為活動選擇的成功量度會顯示在報表設定中。 某些量度，例如&#x200B;**[!UICONTROL 自訂評分]**&#x200B;和&#x200B;**[!UICONTROL 每位訪客帶來的收入]**，需要傳入資訊的自訂實作，例如訂單總計和訂單ID。
 
 ### 在收入報表檢視之間切換 {#revenue-views}
 
-收入報告預設會在[!UICONTROL 每次造訪收入(RPV)]檢視中開啟，因此在活動設定期間不需要選取。 您隨時可以在檢閱結果時切換到不同的檢視。
+收入報告預設會在&#x200B;**[!UICONTROL 每次造訪收入(RPV)]**&#x200B;檢視中開啟，因此在活動設定期間不需要選取。 您隨時可以在檢閱結果時切換到不同的檢視。
 
 若要在收入報表檢視之間切換：
 
@@ -93,39 +106,40 @@ ht-degree: 22%
 
    ![](assets/change-view.png)
 
-[!UICONTROL 每次造訪帶來的收入(RPV)]會維持顯示的檢視，除非選取其他選項。 此選取範圍只會影響報表中顯示的量度，不會影響傳送量度。
+**[!UICONTROL 每次造訪帶來的收入(RPV)]**&#x200B;會維持顯示的檢視，除非選取其他選項。 此選取範圍只會影響報表中顯示的量度，不會影響傳送量度。
 
 ## 進階設定 {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 使用進階設定來管理測量成功的方式。 選項包括新增相依性、選擇讓使用者留在活動還是移除活動，以及是否對每個加入者或每次曝光都計算一次量度。
 
-若要存取[!UICONTROL 進階設定]選項，請按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下&#x200B;**[!UICONTROL 進階設定]**。
+若要存取&#x200B;**[!UICONTROL 進階設定]**&#x200B;選項，請按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下&#x200B;**[!UICONTROL 進階設定]**。
 
 ![進階設定功能表](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-如需[!UICONTROL 進階設定]選項的詳細資訊（「[!UICONTROL 使用者遇到此目標後會發生什麼事]」和「[!UICONTROL 計數將如何增加]」），請參閱[使用者遇到此目標量度後會發生什麼事](#what-happens)？
-
 >[!NOTE]
 >
->如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。 [!UICONTROL 進階設定]選項無法使用。 如需詳細資訊，請參閱[Adobe Analytics作為Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報告來源。
+>如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。 **[!UICONTROL 進階設定]**&#x200B;選項無法使用。 如需詳細資訊，請參閱[Adobe Analytics作為Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報告來源。
 
-### 新增相依性
+如需有關選項&quot;**[!UICONTROL 當使用者遇到此目標]**&quot;後會發生什麼事&#x200B;**[!UICONTROL 計數將如何增加]**&quot;的詳細資訊，請參閱[當使用者遇到此目標量度後會發生什麼事？](#what-happens)。
 
-您可以使用進階設定來建立相依成功量度，只有在訪客先達到另一個量度時才遞增一個量度。
+### 新增相依性 {#add-dependency}
 
-例如，測試轉換可能只有在轉換之前訪客點擊了產品建議，或是達到特定頁面時才有效。
+您可以使用進階設定來建立相依成功量度，只有在訪客先達到另一個量度時才遞增一個量度。 例如，測試轉換可能只有在轉換之前訪客點擊了產品建議，或是達到特定頁面時才有效。
 
 相依性功能&#x200B;*不支援下列專案*：
 
-* [!UICONTROL Recommendations]活動。 所有其他活動類型均支援此功能。
+* **[!UICONTROL Recommendations]**&#x200B;活動。 所有其他活動類型均支援此功能。
 * 如果您使用[Analytics作為您的報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。
 * 「已檢視頁面」量度型別。
 * 視覺化體驗撰寫器(VEC)活動的「已點按元素」量度型別。
+* 當其他量度相依時，其進階選項&#x200B;**[!UICONTROL 計數將如何增加]**&#x200B;的成功量度會設為「每次曝光」或「每次曝光（不含重新整理）」。
+
+  當成功量度設為每次曝光遞增時，[!DNL Target]會在每次訪客造訪此成功量度時再次計入訪客。 [!DNL Target]然後將成功量度「成員資格」重設為0，以便在下次曝光時再次計入。 因此，如果另一個量度要求先看到此量度，[!DNL Target]永遠不會將該使用者識別為已看到第一個量度。
 
 相依成功量度在下列情況下不會轉換：
 
 * 如果您建立循環相依性，其中的 metric1 相依於 metric2，而 metric2 相依於 metric1，則這兩個量度都不會轉換。
-* 達到轉換量度時，[!UICONTROL Automated Personalization]活動會釋出使用者並重新啟動活動，因此相依於轉換量度的任何量度都不會轉換。
+* 達到轉換量度時，**[!UICONTROL Automated Personalization]**&#x200B;活動會釋出使用者並重新啟動活動，因此相依於轉換量度的任何量度都不會轉換。
 
 ### 使用者達到此目標量度後會發生什麼事? {#what-happens}
 
@@ -133,24 +147,18 @@ ht-degree: 22%
 
 | 使用者達到此目標量度之後 | 選項 |
 |--- |--- |
-| [!UICONTROL 增加計數並讓使用者留在活動中] | 指定計數的遞增方式:<ul><li>每次進入則計數加一 (預設)</li><li>在每次曝光時，排除頁面重新整理</li><li>在每次曝光時</li></ul> |
-| [!UICONTROL 增加計數、釋出使用者並允許重新進入] | 選取訪客重新進入活動時看到的體驗：<ul><li>相同體驗 (預設)</li><li>隨機體驗</li><li>未見的體驗</li></ul> |
-| [!UICONTROL 增加計數、釋出使用者並禁止重新進入] | 決定使用者看見的內容而非活動內容:<ul><li>相同體驗，無追蹤 (預設)</li><li>預設內容，或其他活動內容</li></ul> |
+| **[!UICONTROL 增加計數並讓使用者留在活動中]** | 指定計數的遞增方式:<ul><li>每次進入則計數加一 (預設)</li><li>在每次曝光時，排除頁面重新整理</li><li>在每次曝光時</li></ul> |
+| **[!UICONTROL 增加計數、釋出使用者並允許重新進入]** | 選取訪客重新進入活動時看到的體驗：<ul><li>相同體驗 (預設)</li><li>隨機體驗</li><li>未見的體驗</li></ul> |
+| **[!UICONTROL 增加計數、釋出使用者並禁止重新進入]** | 決定使用者看見的內容而非活動內容:<ul><li>相同體驗，無追蹤 (預設)</li><li>預設內容，或其他活動內容</li></ul> |
 
 >[!NOTE]
 >
->如果您將量度設定為[!UICONTROL 遞增計數]選項（如上所述）之一，則量度計數只會以訪客層級的每一位加入者正確遞增一次。 在造訪層級，每個新工作階段的量度計數在每次造訪中增加一次。
+>如果您將量度設定為&#x200B;**[!UICONTROL 遞增計數]**&#x200B;選項（如上所述）之一，則量度計數只會以訪客層級的每一位加入者正確遞增一次。 在造訪層級，每個新工作階段的量度計數在每次造訪中增加一次。
 
-### 計數如何增加：
+### 計數如何增加？ {#count-increment}
 
 選擇所要的行為：
 
 * 每個加入者一次
 * 在每次曝光時（排除頁面重新整理）
 * 在每次曝光時
-
-## 已知問題
-
-* 將進階選項「計數將如何增加」設為「在每次曝光時」或「在每次曝光時 (不含頁面重新整理)」的成功量度，無法當作另一個量度所相依的成功量度使用。
-
-  當成功量度設為每次曝光遞增時，[!DNL Target]會在每次訪客造訪此成功量度時再次計入訪客。 [!DNL Target]然後將成功量度「成員資格」重設為0，以便在下次曝光時再次計入。 因此，如果另一個量度要求先看到此量度，[!DNL Target]永遠不會將該使用者識別為已看到第一個量度。

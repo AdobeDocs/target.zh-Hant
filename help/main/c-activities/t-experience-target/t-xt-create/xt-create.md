@@ -23,79 +23,58 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 30%
+source-wordcount: '388'
+ht-degree: 32%
 ---
-# 建立[!UICONTROL 體驗鎖定目標] (XT)活動
+# 建立[!UICONTROL 體驗鎖定目標] (XT)活動 {#create-xt-activity}
 
-使用[!UICONTROL 視覺化體驗撰寫器] (VEC)在啟用[!DNL Target]的頁面上建立[!UICONTROL 體驗鎖定目標] (XT)活動，以及在[!DNL Adobe Target]內修改頁面的部分。
+>[!BEGINSHADEBOX]
 
-[!UICONTROL 體驗鎖定目標] (XT)會根據一組行銷人員定義的規則和條件將內容提供給特定對象。
+**在此頁面上：**&#x200B;瞭解如何在&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)中建立&#x200B;**[!UICONTROL 體驗鎖定目標]** (XT)活動。 您可以建立活動、新增鎖定在不同對象的體驗，然後設定目標與設定。
 
-[!UICONTROL 體驗鎖定目標] （包括[地理鎖定目標](/help/main/c-target/c-audiences/c-target-rules/geo.md)）對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。 您可以在傳送不同內容變數至不同客群的活動中定義數個規則。
+>[!ENDSHADEBOX]
 
-如需[!UICONTROL 體驗鎖定目標]、使用案例情境和訓練影片的詳細資訊，請參閱[體驗鎖定目標](/help/main/c-activities/t-experience-target/experience-target.md)。
+使用&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)在啟用[!DNL Target]的頁面上建立&#x200B;**[!UICONTROL 體驗鎖定目標]** (XT)活動，以及在[!DNL Adobe Target]內修改頁面的部分。
 
-**若要建立[!UICONTROL 體驗鎖定目標]活動：**
+**[!UICONTROL 體驗鎖定目標]** (XT)會根據一組行銷人員定義的規則和條件將內容提供給特定對象。 對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助，包括[地理定位](/help/main/c-target/c-audiences/c-target-rules/geo.md)。 您可以在傳送不同內容變數至不同客群的活動中定義數個規則。
 
-1. 從[!UICONTROL 活動]清單中，按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL 體驗鎖定目標]**。
+如需&#x200B;**[!UICONTROL 體驗鎖定目標]**、使用案例情境和訓練影片的詳細資訊，請參閱[體驗鎖定目標](/help/main/c-activities/t-experience-target/experience-target.md)。
+
+1. 從&#x200B;**[!UICONTROL 活動]**&#x200B;清單中，按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL 體驗鎖定目標]**。
 
    >[!NOTE]
    >
-   >可用的活動類型取決於您的 [!DNL Target] 帳戶。 有些活動類型可能不會出現在您的清單中。 例如，[!UICONTROL Automated Personalization]是[Target Premium功能](/help/main/c-intro/intro.md#premium)。
+   >可用的活動類型取決於您的 [!DNL Target] 帳戶。 有些活動類型可能不會出現在您的清單中。 例如，**[!UICONTROL Automated Personalization]**&#x200B;是[Target Premium功能](/help/main/c-intro/intro.md#premium)。
    >
    >如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 請參閱[Target 活動類型](/help/main/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
 
-1. 視需要選取&#x200B;**[!UICONTROL 視覺]**。
+   ![](../../assets/create-xt-1.png)
 
-   如果您偏好使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)，請選取[!UICONTROL 表單]。
+1. 從&#x200B;**[!UICONTROL 建立體驗鎖定目標活動]**&#x200B;對話方塊中，選擇您的體驗撰寫器：
+
+   * **[!UICONTROL 視覺]**。
+   * **[!UICONTROL 表單式體驗撰寫器]**，如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
 
    >[!NOTE]
    >
-   >除了VEC和[!UICONTROL 表單式體驗撰寫器]，[!DNL Target]還提供單頁應用程式VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和產品建議](/help/main/c-experiences/experiences.md)。
+   >除了VEC和&#x200B;**[!UICONTROL 表單式體驗撰寫器]**，[!DNL Target]還提供單頁應用程式VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和產品建議](/help/main/c-experiences/experiences.md)。
    >
    >如需VEC的疑難排解資訊，請參閱[疑難排解視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
 1. （視條件而定）如果您是[!DNL Target Premium]客戶，[請選擇工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-   [!UICONTROL 選擇工作區]選項是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您沒有看到此選項，表示貴組織擁有[!DNL Target Standard]授權。
-
-1. 指定您的[活動URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然後按一下[建立]。**&#x200B;**
+1. 指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#ab-activity-url)，然後按一下[建立]。**&#x200B;** VEC 隨即開啟，顯示 URL 中指定的頁面。
 
    如果您的帳戶[設定了預設的 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，該 URL 依預設會顯示。 您可以視需要將預設 URL 變更為其他 URL。
 
-   VEC 隨即開啟，顯示 URL 中指定的頁面。
+1. 若要為活動命名，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg)）並指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-1. 若要命名活動，請按一下「[!UICONTROL 未命名活動]」旁的&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示（![編輯圖示](/help/main/assets/icons/Edit.svg)），指定活動的描述性名稱，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+   {{activity-name-rules}}
 
-   活動名稱的開頭不能是下列任一字元：
+   ![](../../assets/create-xt-2.png)
 
-   | 字元 | 說明 |
-   |--- |--- |
-   | `=` | 等號 |
-   | `+` | 加號 |
-   | `-` | 減號 |
-   | `@` | 「@」符號 |
+1. 建立鎖定在不同對象的新體驗。 如需逐步指示，請參閱[新增體驗](/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md#xt-add-experience)。
 
-   活動名稱不能包含下列任一字元順序：
-
-   | 字元順序 | 說明 |
-   |--- |--- |
-   | ;= | 分號，等於 |
-   | ;+ | 分號，加號 |
-   | ;- | 分號，減號 |
-   | ;@ | 分號， At sign |
-   | ,= | 逗號，等於 |
-   | ,+ | 逗號，加號 |
-   | ,- | 逗號，減號 |
-   | ,@ | 逗號， At sign |
-   | `[`&quot; | 左方括弧，雙引號 |
-   | &quot;`]` | 雙引號，右方括弧 |
-
-1. 建立鎖定在不同對象的新體驗。
-
-   如需逐步指示，請參閱[新增體驗](/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md)。
-
-1. 指定活動的[目標與設定](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
+1. 指定活動的[目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)。

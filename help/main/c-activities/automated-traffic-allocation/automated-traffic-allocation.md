@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 32%
@@ -59,7 +59,7 @@ ht-degree: 32%
 ## 何時使用[!UICONTROL 自動分配]與[!UICONTROL A/B測試]或[!UICONTROL Automated Personalization]活動 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * 當您想要從一開始便最佳化活動，並盡快識別勝出體驗時，請使用&#x200B;**[!UICONTROL 自動分配]**。 透過更頻繁地提供高效能體驗，整體活動效能得以提升。
-* 如果您想要在最佳化網站之前先表徵所有體驗的效能，請使用標準&#x200B;**[A/B測試](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**。 A/B測試可協助您對所有體驗進行排名，而[!UICONTROL 自動分配]會找出表現最好的專案，但無法保證區分表現較差的專案。
+* 如果您想要在最佳化網站之前先表徵所有體驗的效能，請使用標準&#x200B;**[A/B測試](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)**。 A/B測試可協助您對所有體驗進行排名，而[!UICONTROL 自動分配]會找出表現最好的專案，但無法保證區分表現較差的專案。
 * 當您想要最佳化最複雜演演算法時使用[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)，例如根據個人設定檔屬性建立預測的機器學習模型。 [!UICONTROL 自動分配]會檢視體驗的彙總行為（如同標準A/B測試），不會區別訪客。
 
 ## [!UICONTROL 自動分配]的主要優點 {#section_0913BF06F73C4794862561388BBDDFF0}

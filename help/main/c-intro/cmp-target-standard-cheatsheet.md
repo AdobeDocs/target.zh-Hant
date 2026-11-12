@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -105,7 +105,7 @@ ht-degree: 48%
 **我可以在使用控制體驗時執行統計上嚴謹的活動來尋找成功和失敗體驗嗎？**
 
 +++檢視詳細資料
-使用 [A/B 測試](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (手動鎖定目標選項) 與[樣本大小計算機](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5)來獲得最佳結果。
+使用 [A/B 測試](/help/main/c-activities/t-test-ab/test-ab.md#test-ab) (手動鎖定目標選項) 與[樣本大小計算機](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)來獲得最佳結果。
 
 +++
 

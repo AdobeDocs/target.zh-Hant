@@ -30,27 +30,29 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 569476ceebaa6913cc86f4a2b871ccf29d9894d8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 12%
+source-wordcount: '238'
+ht-degree: 5%
 ---
 # 管理[!DNL Target]總覽
 
-協助您管理[!DNL Adobe Target]的資訊，包括Visual Experience Composer (VEC)、報告、Scene7設定、實作、主機、環境、加入允許清單的URL、回應權杖、使用者和[!DNL Recommendations]的設定設定。
+使用&#x200B;**[!UICONTROL 管理]**&#x200B;設定[!UICONTROL 視覺化體驗撰寫器] (VEC)、報告、傳遞基礎結構、存取控制和[!DNL Recommendations]的全帳戶預設值。
 
-{{permissions-update}}
+如果您是第一次設定[!DNL Target]，請從[管理員的第一步](/help/main/administrating-target/start-target.md)開始。 如需在更新的介面中尋找&#x200B;**[!UICONTROL 管理]**&#x200B;的協助，請參閱[瞭解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)。
 
-若要存取[!UICONTROL 管理]功能表專案，請按一下頂端功能表列中的&#x200B;**[!UICONTROL 管理]**，然後沿著左側按一下所需的標籤：
+若要開啟管理頁面，請按一下頂端功能表列中的&#x200B;**[!UICONTROL 管理]**，然後沿著左側按一下您想要的標籤：
 
-* [可視化體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md)
-* [報表](/help/main/administrating-target/reporting.md)
-* [Scene7設定](/help/main/administrating-target/scene7-settings.md)
-* [實施](/help/main/c-implementing-target/implementing-target.md)
-* [屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
-* [主機](/help/main/administrating-target/hosts.md)
-* [環境](/help/main/administrating-target/environments.md)
-* [已加入允許清單的URL](/help/main/administrating-target/allowlisted-urls.md)
-* [回應 Token](/help/main/administrating-target/response-tokens.md)
-* [使用者](/help/main/administrating-target/c-user-management/user-management.md)
-* [推薦](/help/main/administrating-target/recommendations-settings.md)
+| 「管理」標籤 | 說明 |
+| --- | --- |
+| [可視化體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md) | 設定您在VEC中建立體驗時使用的預設頁面URL和選項。 |
+| [報告](/help/main/administrating-target/reporting.md) | 選擇貴組織的報表解決方案、時區、貨幣及其他報表預設值。 另請參閱[預估收入中的提升度](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)。 |
+| [Scene7設定](/help/main/administrating-target/scene7-settings.md) | 連線[!DNL Dynamic Media] (Scene7)以在選件和體驗中傳遞影像。 |
+| [實施](/help/main/administrating-target/implementation.md) | 檢閱&#x200B;**[!UICONTROL 管理]**&#x200B;頁面上的全域實作設定。 如需完整的實作指引，請參閱[實作Target](/help/main/c-implementing-target/implementing-target.md)。 |
+| [主機](/help/main/administrating-target/hosts.md) | 組織[!DNL Target]接收請求的網站和生產前環境。 |
+| [環境](/help/main/administrating-target/environments.md) | 將主機分組到生產、測試和開發等環境中。 |
+| [已加入允許清單的URL](/help/main/administrating-target/allowlisted-urls.md) | 管理遠端選件和相關驗證的信任的URL模式。 |
+| [回應 Token](/help/main/administrating-target/response-tokens.md) | 在[!DNL Target]回應中包含設定檔和活動資料，以進行偵錯和整合。 |
+| [屬性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | 建立工作區並指派企業角色（僅限[Target Premium](/help/main/c-intro/intro.md#premium)）。 |
+| [使用者](/help/main/administrating-target/c-user-management/user-management.md) | 新增使用者並指派[!DNL Target]角色和許可權。 |
+| [推薦](/help/main/administrating-target/recommendations-settings.md) | 設定[!DNL Recommendations]活動的預設設定。 |
