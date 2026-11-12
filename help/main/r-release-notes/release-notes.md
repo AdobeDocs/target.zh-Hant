@@ -29,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
+source-git-commit: b608d181c660201f2c373ec8a1ac6e95be1be96c
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 42%
+source-wordcount: '703'
+ht-degree: 39%
 ---
 # [!DNL Target] 發行說明 (最新)
 
 探索[!DNL Adobe Target]的最新功能、增強功能和修正。 這些發行說明也涵蓋了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台元件（如適用）的更新。
 
 (括號內的問題編號供 [!DNL Adobe] 內部使用。)
+
+## [!DNL Target Standard/Premium] 26.11.1 （2026年11月12日）
+
+**[!UICONTROL 活動]**
+
++++檢視詳細資料
+
+* **[!DNL Coworker]進入點已新增至活動清單**。 如果您的組織可以存取[!DNL Coworker]，則[!UICONTROL 活動]清單現在包含每個活動的&#x200B;**[!UICONTROL 檢閱我的即時測試]**&#x200B;按鈕和&#x200B;**[!UICONTROL 詢問同事]**&#x200B;功能表。 使用它們來讓[!DNL Coworker]檢閱您的已上線活動或回答有關特定活動的問題。 (TGT-56536)
+  [了解更多](../c-activities/activities.md#coworker)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.2 （2026年10月15日）
 
@@ -118,7 +129,7 @@ ht-degree: 42%
 |--- |--- |
 | [文件變更](/help/main/r-release-notes/doc-change.md) | 檢視本指南未包含在這些發行說明中的更新詳細資訊。 |
 | [舊版發行說明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 檢視舊版 Target Standard 和 Target Premium 中新功能和增強功能的詳細資訊。 |
-| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
+| [Adobe Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | 檢視 Adobe Experience Cloud 解決方案的最新發行說明。 |
 
 ## 搶鮮版版本資訊 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
