@@ -39,9 +39,9 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->[!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://www.adobe.com`]都相符。
+>[!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]）。 因此，[!DNL `http://www.adobe.com/tw`]和[!DNL `https://www.adobe.com/tw`]都相符。
 
-如果您指定的網站URL不包括[!DNL Target] [at.js JavaScript資料庫或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}，則無法選取頁面元素。
+如果您指定的網站URL不包括[!DNL Target] [at.js JavaScript資料庫或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant){target=_blank}，則無法選取頁面元素。
 
 ## 顯示其他頁面 {#different-page}
 
