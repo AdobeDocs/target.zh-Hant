@@ -38,7 +38,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->此頁面適用於[!DNL Adobe Target]為報表來源時。 若為其他報表來源，請參閱[[!DNL Adobe Analytics] 作為 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中 [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) and [[!DNL Target] 報表的報表來源。
+>此頁面適用於[!DNL Adobe Target]為報表來源時。 若為其他報表來源，請參閱[[!DNL Adobe Analytics] 作為 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中 [!DNL Target]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) and [!DNL Target] 報表的報表來源。
 
 ## 設定量度 {#set-a-metric}
 

@@ -92,13 +92,13 @@ ht-degree: 16%
 
 1. 若要排除一個體驗，請按一下該體驗旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg)），然後按一下&#x200B;**[!UICONTROL 排除]**。
 
-1. 若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下[排除]。****
+1. 若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下[排除]。**&#x200B;**
 
 ## 設定目標 {#set-targeting}
 
 選擇哪些訪客進入測試，並檢閱測試摘要。
 
-1. 按一下[下一步]****&#x200B;以存取&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以存取&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面。
 
    流程圖表將引導您進行指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
 
@@ -124,7 +124,7 @@ ht-degree: 16%
 
    +++
 
-1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]]**。**[!UICONTROL 
+1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]&#x200B;**。**
 
 ## 設定目標與設定 {#configure-goals-and-settings}
 

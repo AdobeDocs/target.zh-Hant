@@ -110,7 +110,7 @@ ht-degree: 24%
 
   +++ 深入瞭解Customer Journey Analytics作為報表來源
 
-  請參閱 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中的[[!DNL Target] 報告，瞭解[!DNL Customer Journey Analytics]中支援的活動型別、沙箱和資料檢視選擇、目標量度和報告設定。
+  請參閱 [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中的[!DNL Target] 報告，瞭解[!DNL Customer Journey Analytics]中支援的活動型別、沙箱和資料檢視選擇、目標量度和報告設定。
   +++
 
 如果已在您的[帳戶設定](/help/main/administrating-target/reporting.md)中指定報表來源，則會使用指定的來源，而且此設定不會顯示。
@@ -194,7 +194,7 @@ ht-degree: 24%
 
 * 每個加入者&#x200B;**[!UICONTROL 一次]**
 * 每次曝光時&#x200B;**[!UICONTROL （排除頁面重新整理）]**
-* 每次曝光時&#x200B;****
+* 每次曝光時&#x200B;**&#x200B;**
 
 請參閱[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)以取得關於進階設定的詳細資訊。
 

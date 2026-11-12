@@ -142,17 +142,17 @@ ht-degree: 28%
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
-1. 選取所需的[!UICONTROL 體驗片段]，然後按一下[新增]。****
+1. 選取所需的[!UICONTROL 體驗片段]，然後按一下[新增]。**&#x200B;**
 1. 完成活動的設定。
 
    如需有關設定各種活動類型的詳細資訊，請參閱下列主題:
 
    * **A/B 測試:** [建立 A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **自動分配:** [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **自動鎖定目標：**[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalization (AP):**[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
+   * **自動鎖定目標：**&#x200B;[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * **Automated Personalization (AP):**&#x200B;[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
    * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
-   * **A/B 測試或 XT 活動中的建議：**[產品建議形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)
+   * **A/B 測試或 XT 活動中的建議：**&#x200B;[產品建議形式的建議](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    在[!DNL Target]中匯出為JSON的[!UICONTROL 體驗片段]無法用於使用VEC建立的活動；在VEC型活動中只支援HTML [!UICONTROL 體驗片段]。 如果您想要使用JSON [!UICONTROL 體驗片段]，請在使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)建立的活動中使用它們。
 
@@ -164,7 +164,7 @@ ht-degree: 28%
 
    [!UICONTROL 體驗片段]對話方塊會顯示在[!DNL AEM]中建立的內容，這些內容現在可從[!DNL Target]中以原生方式使用。
 
-1. 選取所需的[!UICONTROL 體驗片段]，然後按一下[新增]。****
+1. 選取所需的[!UICONTROL 體驗片段]，然後按一下[新增]。**&#x200B;**
 1. 完成活動的設定。
 
 ## 其他資訊
@@ -180,7 +180,7 @@ ht-degree: 28%
 
 有時整個HTML頁面會包裝[!UICONTROL 體驗片段]並導致問題。 請確定[!UICONTROL 體驗片段]是HTML的一小部分，而不是具有HTML、HEAD、BODY等的完整HTML頁面。
 
-如需詳細資訊，請參閱下列部落格： [AEM 6.5：從[!UICONTROL 匯出至Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}的體驗片段]移除clientlibs。
+如需詳細資訊，請參閱下列部落格： [AEM 6.5：從[[!UICONTROL 匯出至Target]](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}的體驗片段]移除clientlibs。
 
 ## 訓練影片：將AEM [!UICONTROL 體驗片段]與[!DNL Adobe Target]搭配使用
 

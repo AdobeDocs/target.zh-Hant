@@ -47,7 +47,7 @@ ht-degree: 61%
 >
 >為獲得最佳體驗並與他人分享，請下載互動式 [Adobe Target](/help/main/assets/activities_guide_82817.pdf) 活動指南 PDF。
 >
->本文不包含有關[**[!UICONTROL Recommendations ]**活動](/help/main/c-recommendations/recommendations.md)的資訊。 不過，您可以在**[!UICONTROL  A/B測試&#x200B;]**、**[!UICONTROL &#x200B;自動分配&#x200B;]**、**[!UICONTROL &#x200B;自動鎖定目標&#x200B;]**和**[!UICONTROL &#x200B;體驗鎖定目標&#x200B;]**(XT)活動中包含建議。 如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。 若要使用此功能，您必須具備 [Target Premium 授權](/help/main/c-intro/intro.md#premium)。
+>本文不包含有關[**[!UICONTROL Recommendations &#x200B;]**&#x200B;活動](/help/main/c-recommendations/recommendations.md)的資訊。 不過，您可以在&#x200B;**[!UICONTROL &#x200B; A/B測試&#x200B;]**、**[!UICONTROL &#x200B;自動分配&#x200B;]**、**[!UICONTROL &#x200B;自動鎖定目標&#x200B;]**&#x200B;和&#x200B;**[!UICONTROL &#x200B;體驗鎖定目標&#x200B;]**(XT)活動中包含建議。 如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。 若要使用此功能，您必須具備 [Target Premium 授權](/help/main/c-intro/intro.md#premium)。
 
 ## 它有什麼作用？ {#section_4ECAACC68723402EB3649033190E1BBC}
 
