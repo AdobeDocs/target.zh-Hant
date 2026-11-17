@@ -49,7 +49,7 @@ ht-degree: 8%
 
 當您建置&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活動時，**[!UICONTROL 流量估算程式]**&#x200B;可讓您檢查進入頁面的流量是否足以讓個人化模型及時準備就緒。 在啟動活動之前執行此檢查可協助您避免測試無法觸及足夠訪客以提供個人化內容，並示範如何在流量不足時調整優惠方案組合數量或活動持續時間。
 
-1. 從您的&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活動，存取**[!UICONTROL 視覺化體驗撰寫器]的&#x200B;**[!UICONTROL 體驗]**&#x200B;頁面。
+1. 從您的&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活動，存取&#x200B;**[!UICONTROL 視覺化體驗撰寫器]的&#x200B;**&#x200B;[!UICONTROL 體驗]**&#x200B;頁面。
 
 1. 按一下&#x200B;**[!UICONTROL 流量]**&#x200B;圖示（![流量估算器圖示](/help/main/assets/icons/Gauge2.svg)）。
 
