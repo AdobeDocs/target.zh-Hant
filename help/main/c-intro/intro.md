@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -125,7 +125,7 @@ ht-degree: 68%
 
 ### [!UICONTROL 自動個人化]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP)使用進階的機器學習演演算法來提供個人化的體驗，並改善數位互動的轉換率。
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP)使用進階的機器學習演演算法來提供個人化的體驗，並改善數位互動的轉換率。
 
 AP會記錄訪客活動、建立設定檔以將內容鎖定在類似的訪客上。 AP會追蹤個人和母體對內容的回應，使用複雜的模型，根據每位訪客的所有已知資訊自動鎖定目標。
 

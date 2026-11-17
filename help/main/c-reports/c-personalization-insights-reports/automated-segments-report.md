@@ -2,7 +2,7 @@
 keywords: 鎖定目標;AP 報告;自動個人化報告;自動鎖定目標;自動鎖定目標報告;個人化;洞察;自動化區段;faq;常見問題集
 description: 瞭解Adobe [!DNL Target]個人化模型所定義的不同區段，會如何檢視「自動化區段」報表，以回應活動中的選件/體驗。
 title: 什麼是自動化區段報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 56%
@@ -50,7 +50,7 @@ ht-degree: 56%
 >
 >* [!UICONTROL Personalization Insights]報告只有在從[!UICONTROL 報告量度]下拉式清單中選取[!UICONTROL 主要目標]時才可用。
 >
->* 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights報告。
+>* [!UICONTROL 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights]報告。
 >
 >* [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL 即時]狀態且已啟用且接收流量至少15天的活動產生。
 
@@ -58,7 +58,7 @@ ht-degree: 56%
 
 ## 存取「自動化區段」報表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下&#x200B;**[!UICONTROL 活動]**，然後從清單中按一下所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活動。
+1. 按一下&#x200B;**[!UICONTROL 活動]**，然後從清單中按一下所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活動。
 
    如果您有許多活動，請按一下篩選器（![篩選器圖示](/help/main/assets/icons/Filter.svg)）圖示，以篩選清單，方法是從[!UICONTROL 型別]、[!UICONTROL 狀態]、[!UICONTROL 報告Source]、[!UICONTROL 體驗撰寫器]、[!UICONTROL 量度型別]和[!UICONTROL 活動Source]下拉式清單中選取選項。
 
@@ -126,7 +126,7 @@ ht-degree: 56%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。 例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 **何謂自動化區段?**
 

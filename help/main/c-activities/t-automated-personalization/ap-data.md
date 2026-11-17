@@ -2,7 +2,7 @@
 keywords: 環境資料；工作階段資料；地理資料；地理位置資料；裝置資料；行動資料；屬性；設定檔屬性；個人化演演算法；機器學習演演算法；機器學習演演算法
 description: 瞭解[!DNL Adobe Target]收集並使用哪些資料來建置其機器學習演演算法。
 title: 系統會收集哪些資料來建置機器學習演演算法？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 TQID: 'https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U'
@@ -32,22 +32,28 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 50%
+source-wordcount: '2038'
+ht-degree: 48%
 ---
-# [!DNL Target]個機器學習演演算法使用的資料
+# [!DNL Target]個機器學習演演算法使用的資料 {#ap-data}
 
-[!DNL Adobe Target]會自動收集並使用各種資料，在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標] (AT)活動中建置其個人化演演算法。 當訪客進入[!UICONTROL Automated Personalization]或[!UICONTROL 自動鎖定目標]活動時，資訊的快照會傳遞至一組「訓練記錄」（個人化演演算法學習的訪客資料）。
+>[!BEGINSHADEBOX]
+
+**在此頁面：**&#x200B;瞭解哪些資料[!DNL Target]預設會收集，以及您可以提供哪些自訂資料來建置&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動的個人化模型。
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target]會自動收集並使用各種資料，在&#x200B;**[!UICONTROL Automated Personalization]** (AP)和&#x200B;**[!UICONTROL 自動鎖定目標]** (AT)活動中建置其個人化演演算法。 當訪客進入&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;或&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動時，資訊的快照會傳遞至一組「訓練記錄」（個人化演演算法學習的訪客資料）。
 
 若要深入瞭解[!DNL Target]個人化演演算法，請參閱[隨機森林演演算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。
 
 ## 預設[!DNL Target]屬性類別
 
-下表顯示[!UICONTROL Automated Personalization]與[!UICONTROL 自動鎖定目標]活動依預設收集的資料，且不含[!DNL Target]或其他[!DNL Adobe]解決方案的任何組態。 此表格也包含在[Personalization前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用於指示這些屬性的命名慣例。 您可以隨時擴大輸入的資料。 若要進一步瞭解如何上傳其他資料，請參閱[上傳 [!DNL Target] 個人化演演算法的資料](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+下表顯示&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;與&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動依預設收集的資料，且不含[!DNL Target]或其他[!DNL Adobe]解決方案的任何組態。 此表格也包含在[Personalization前瞻分析報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)中用於指示這些屬性的命名慣例。 您可以隨時擴大輸入的資料。 若要進一步瞭解如何上傳其他資料，請參閱[上傳 [!DNL Target] 個人化演演算法的資料](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
-| 資料類別 | 系統前置詞 | 說明 | 在[!UICONTROL 深入分析]報告中顯示名稱 |
+| 資料類別 | 系統前置詞 | 說明 | 在&#x200B;**[!UICONTROL 深入分析]**&#x200B;報告中顯示名稱 |
 | --- | --- | --- | --- |
 | 環境引數 | 環境 | 使用者環境的相關資訊，包括作業系統、瀏覽器、一天中的時間/星期幾。 | 瀏覽器 — [屬性名稱]<br>作業系統 — [值] |
 | Geography | 地理 | 透過IP查詢取得的使用者地理位置資訊。 | 地理 — [地理屬性] |
@@ -57,24 +63,23 @@ ht-degree: 50%
 
 ## 自訂[!DNL Target]屬性類別
 
-下表顯示[!UICONTROL Automated Personalization]與[!UICONTROL 自動鎖定目標]活動所收集之客戶提供的資料。 只有在您提供此資料時，才會收集此資料。 特定屬性名稱和範例值是您的系統組態所特有的。
+下表顯示&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;與&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動所收集之客戶提供的資料。 只有在您提供此資料時，才會收集此資料。 特定屬性名稱和範例值是您的系統組態所特有的。
 
-| 資料類別 | 系統前置詞 | 說明 | 在[!UICONTROL 深入分析]報告中顯示名稱 |
+| 資料類別 | 系統前置詞 | 說明 | 在&#x200B;**[!UICONTROL 深入分析]**&#x200B;報告中顯示名稱 |
 | --- | --- | --- | --- |
 | 頁面參數 | 方塊 | 在呼叫[!DNL Target]中傳遞的自訂頁面引數（「mbox引數」）。 | 自訂 — Mbox引數 — [引數名稱] |
 | [!DNL Target]設定檔 | PRO | 自訂設定檔屬性會透過API或頁面引數及[!DNL Target]設定檔指令碼直接上傳至[!DNL Target]設定檔。 | 自訂 — 訪客設定檔 — [屬性名稱] |
-| 客戶屬性 | CRS | 透過[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hant){target=_blank}上傳至[!DNL Target]設定檔的客戶屬性。 | 自訂 — 訪客設定檔 — [屬性名稱] |
+| 客戶屬性 | CRS | 透過[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}上傳至[!DNL Target]設定檔的客戶屬性。 | 自訂 — 訪客設定檔 — [屬性名稱] |
 | URL 參數 | URL | 目前檢視頁面的URL和任何URL引數。 | 自訂 — URL引數 — [URL引數] |
 | 反向連結 URL | 參照 | 反向連結URL和反向連結URL的任何URL引數。 | 自訂 — [反向連結URL引數] - [引數值] |
-| [!DNL Adobe Experience Cloud]個共用對象 | AAM | 從其他[!DNL Adobe Experience Cloud]解決方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，透過[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hant){target=_blank}）與[!DNL Target]共用所有對象。 | 自訂 — Experience Cloud對象 — [對象名稱] |
-| [!DNL Adobe Experience Platform Real-time CDP]個對象 | UPS | 透過[!UICONTROL 目的地]與[!DNL Target]共用的Platform Real-time CDP對象。 |  |
-
+| [!DNL Adobe Experience Cloud]個共用對象 | AAM | 從其他[!DNL Adobe Experience Cloud]解決方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，透過[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}）與[!DNL Target]共用所有對象。 | 自訂 — Experience Cloud對象 — [對象名稱] |
+| [!DNL Adobe Experience Platform Real-time CDP]個對象 | UPS | 透過&#x200B;**[!UICONTROL 目的地]**&#x200B;與[!DNL Target]共用的Platform Real-time CDP對象。 |  |
 
 ## 正在封鎖[!DNL Target]機器學習演演算法的功能
 
-可以從[!DNL Target]機器學習演演算法中封鎖功能，防止在任何[!UICONTROL Automated Personalization]或[!UICONTROL 自動鎖定目標]模型或活動中使用這些功能。
+可以從[!DNL Target]機器學習演演算法中封鎖功能，防止在任何&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;或&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;模型或活動中使用這些功能。
 
-如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target]開發人員指南*&#x200B;中的[模型API （封鎖清單）概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*[!DNL Adobe Target]開發人員指南*&#x200B;中的[模型API （封鎖清單）概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。
 
 ## 裝置和行動資料 {#device-mobile}
 
@@ -105,10 +110,10 @@ ht-degree: 50%
 | 瀏覽器 - 時區 | 訪客存取活動時的時區。 | 太平洋時間<br>美國東部標準時間<br>GMT | ENV_BrowserTimezoneOffsetMinutes |
 | 瀏覽器 - 類型 | 訪客存取活動時使用的瀏覽器類型。 | [!DNL Chrome]<br>[!DNL Firefox]<br>[!DNL Internet Explorer]<br>[!DNL Safari]<br>其他 | 環境瀏覽器 |
 | 瀏覽器 - 平日/週末 | 訪客存取活動時的工作狀態 (週末、上班時間、平日自由時間)。 | 星期六和星期日是週末<br>星期一至星期五0900 - 1800是上班時間<br>星期一至星期五的1800後至0900是平日自由時間 | ENV_UserHourType |
-| 瀏覽器 - 視窗高度 (px) | 訪客用來存取活動的瀏覽器視窗高度 (以像素為單位)。 | 1、2、3等， | 環境瀏覽器高度 |
-| 瀏覽器 - 視窗寬度 (px) | 訪客用來存取活動的瀏覽器視窗寬度 (以像素為單位)。 | 1、2、3等， | ENV_BrowserWidth |
-| 裝置 — 畫面高度(px) | 訪客用來存取活動的裝置畫面高度。 | 1、2、3等， | ENV_ScreenHeight |
-| 裝置 — 畫面寬度(px) | 訪客用來存取活動的裝置畫面寬度。 | 1、2、3等， | ENV_Screenwidth |
+| 瀏覽器 - 視窗高度 (px) | 訪客用來存取活動的瀏覽器視窗高度 (以像素為單位)。 | 1、2、3等。 | 環境瀏覽器高度 |
+| 瀏覽器 - 視窗寬度 (px) | 訪客用來存取活動的瀏覽器視窗寬度 (以像素為單位)。 | 1、2、3等。 | ENV_BrowserWidth |
+| 裝置 — 畫面高度(px) | 訪客用來存取活動的裝置畫面高度。 | 1、2、3等。 | ENV_ScreenHeight |
+| 裝置 — 畫面寬度(px) | 訪客用來存取活動的裝置畫面寬度。 | 1、2、3等。 | ENV_Screenwidth |
 | 作業系統 | 訪客用來存取活動的裝置上的作業系統。 | [!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br>搜尋機器人<br>未知的作業系統 | ENV_OperatingSystem |
 | 作業系統 - 版本 | 訪客用來存取活動的作業系統版本。 | [!DNL Windows] 10<br>[!DNL Mac OS] 10 | ENV_OperatingSystemVersion |
 | 流量來源 - 引用登陸頁面 URL | 訪客在存取您的網站時看到的第一個頁面。 | `https://www.adobe.com/ecloud.html` | ENV_Referrer |
@@ -135,7 +140,7 @@ ht-degree: 50%
 | --- | --- | --- | --- |
 | 訪客輪廓 - 活動期限訂購值 | 指定某個特定活動的所有造訪/工作階段的所有訂購值的總和。 | 雙倍 | SES_CUMULATIVE_ORDER_VALUE |
 | 訪客輪廓 - 活動期限網站逗留時間 | 指定訪客在網站上的總計停留時間，這不包括目前的工作階段，且會在工作階段過期時更新。 | 雙倍，毫秒 | SES_TOTAL_TIME |
-| 訪客輪廓 - 活動期間每個造訪的平均頁面檢視數 | 指定每個工作階段的平均頁面檢視數，這不包括目前的工作階段。 | 雙倍 | SES_REQUESTS_PER_SESSION |
+| 訪客設定檔 — 活動期間每次造訪的平均頁面檢視 | 指定每個工作階段的平均頁面檢視數，這不包括目前的工作階段。 | 雙倍 | SES_REQUESTS_PER_SESSION |
 | 訪客輪廓 - 每次瀏覽的平均時間 | 指定每個造訪/工作階段停留的平均時間。 這不包括目前的工作階段。 | 雙倍，毫秒 | SES_TIME_PER_SESSION |
 | 訪客輪廓 - 第一次造訪 | 指定使用者與[!DNL Target]互動的首次造訪時間。 | 雙倍，毫秒 | ses_PROFILE_CREATION_TIME |
 | 訪客輪廓 - 自上次造訪以來的時數 | 指定自上次造訪此特定活動以來的時數。 | 雙倍（僅限正整數） 1、2、3等。 | SES_HOURS_SINCE_LAST_VISIT |
@@ -147,7 +152,7 @@ ht-degree: 50%
 | 訪客輪廓 - 開始最近一次瀏覽 | 指定與[!DNL Target]的上次造訪/工作階段開始的時間。 此屬性會在工作階段過期時更新。<br>如果這是訪客的第一個工作階段，則會產生`LAST_SESSION_START = 0.` | 雙倍，毫秒 | SES_LAST_SESSION_START |
 | 訪客輪廓 - 初次進入活動時自最近一次造訪以來的時間 | 指定上一個工作階段與使用者進入活動且執行快照之間的時間的持續時間。 | 雙倍，毫秒 | SES_RECENCY |
 | 訪客輪廓 - 進入活動之前的造訪時間 | 指定上次與[!DNL Target]的互動與目前造訪開始時間之間的差異。 此屬性可視為在使用者進入活動且執行快照之前的造訪/工作階段持續時間。<br>當工作階段開始且同一個[!DNL Target]呼叫已觸發上次更新時間時，會發生負值。 負值應視為 0 (零)。 | 雙倍，毫秒 | SES_SESSION_TIME |
-| 訪客輪廓 - 瀏覽總數 | 指定指定造訪/工作階段總數。 不包含目前的造訪/工作階段。 | 雙倍（僅限正整數） 1、2、3等。 | SES_TOTAL_SESSIONS |
+| 訪客設定檔 — 造訪總數 | 指定指定造訪/工作階段總數。 不包含目前的造訪/工作階段。 | 雙倍（僅限正整數） 1、2、3等。 | SES_TOTAL_SESSIONS |
 | 訪客輪廓 - 活動的總造訪次數 | 指定特定活動的造訪次數。 如果之前沒有任何造訪，則會傳回 0 (零)。 | 雙倍（僅限正整數） 1、2、3等。 | SES_PREVIOUS_VISIT_COUNT |
 | 訪客輪廓 - 包含轉換之活動的總造訪次數 | 指定造訪期間至少有一個轉換時，特定活動的造訪/工作階段數目。 | 雙倍 | SES_CUMULATIVE_SUCCESSNS |
 | 訪客輪廓 - 不包含轉換之活動的造訪次數 | 不包含轉換之特定活動的造訪/工作階段數目。 此值在轉換後會重設為零，或者若從未發生轉換，則會出現 -1。 | 雙倍（僅限正整數） 1、2、3等。 | SES_SUCCESS_RECENCY |

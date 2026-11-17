@@ -3,7 +3,7 @@ keywords: Automated Personalization；ap；上傳資料；離線資料；個人�
 description: 瞭解如何在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]活動中建立個人化模型時上傳離線資料。
 title: 如何上傳用於Personalization演演算法的資料？
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 TQID: 'https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0'
 product_v2:
@@ -36,26 +36,32 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 12%
+source-wordcount: '365'
+ht-degree: 7%
 ---
-# 上傳[!DNL Target]個人化演演算法的資料
+# 上傳[!DNL Target]個人化演演算法的資料 {#upload-data-personalization}
 
-在[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能會非常寶貴。
+>[!BEGINSHADEBOX]
 
-有幾種方式可以在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標]個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的方法以外，[!DNL Target]演演算法中也使用[!DNL Experience Cloud]個共用對象([!UICONTROL Adobe Analytics]， [!DNL Audience Manager])和活動內報表對象。
+**在此頁面上：**&#x200B;瞭解如何將離線和自訂資料傳送至&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;演演算法，以及要遵循的最佳實務。
 
-如需[!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]個人化演演算法自動收集和使用之資料的相關資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
+>[!ENDSHADEBOX]
 
-## 最佳實務 {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
+當您在[!DNL Adobe Target] **[!UICONTROL Automated Personalization]** (AP)和&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動中建立個人化模型時，離線資料（例如CRM資訊或客戶流失傾向分數）可能會非常有價值。
 
-下列清單提供上傳[!DNL Target]個人化演演算法資料的最佳實務：
+有幾種方式可以在&#x200B;**[!UICONTROL Automated Personalization]** (AP)和&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;個人化演演算法中輸入資料。 除了[將資料傳入Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的方法以外，[!DNL Target]演演算法中也使用[!DNL Experience Cloud]共用對象(**[!UICONTROL Adobe Analytics]**， [!DNL Audience Manager])和活動內報表對象。
 
-* [!DNL Target]個人化演演算法可用的高品質資料越多，您的[!UICONTROL Automated Personalization]和[!UICONTROL 自動鎖定目標]活動中產生的模型品質就越好。
-* 限制使用多個提供相同用途的設定檔指令碼或屬性。
-* 請勿傳遞唯一ID，例如工作階段ID （若不需要）。
-* 檢閱[!DNL Target]自動收集哪些資料（[Target Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)），這樣您就不會傳送重複的資訊。 例如，[!DNL Target]使用IP位址來判斷訪客的郵遞區號。 不必以單獨的變數傳遞此資訊。
-* 請勿在相同的屬性或變數中傳遞多個值。 如果串連多個變數，[!DNL Target]個人化演演算法會將每個字串視為唯一值，減少個人化資訊的值。
-* 使用令人難忘且有意義的命名慣例，讓您的[Personalization Insights報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)更易於理解。
+如需&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;個人化演演算法自動收集和使用之資料的相關資訊，請參閱[Automated Personalization資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
+
+## 最佳做法 {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
+
+上傳[!DNL Target]個人化演演算法的資料時，請遵循下列最佳實務：
+
+* [!DNL Target]個人化演演算法可用的資料品質越高，您的&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動中產生的模型品質就越好。
+* 限制使用具有相同用途的多個設定檔指令碼或屬性。
+* 如果不需要唯一ID，例如工作階段ID，請勿傳遞。
+* 檢閱[!DNL Target]自動收集哪些資料（[目標Personalization演演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)），如此一來您便不會傳送重複的資訊。 例如，[!DNL Target]使用IP位址來判斷訪客的郵遞區號。 不必以單獨的變數傳遞此資訊。
+* 請勿在相同的屬性或變數中傳遞多個值。 如果串連多個變數，[!DNL Target]個人化演演算法會將每個字串視為唯一值，這會減少個人化資訊的值。
+* 使用令人難忘且有意義的命名慣例，讓您的[Personalization Insights報表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)更易於理解。

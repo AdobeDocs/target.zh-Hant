@@ -2,7 +2,7 @@
 keywords: 鎖定目標;AP 報告;自動個人化報告;自動鎖定目標;自動鎖定目標報告;個人化;洞察;faq;常見問題集; 重要屬性
 description: 瞭解如何使用[!UICONTROL 重要屬性]報告，該報告會顯示對個人化模型及其相對重要性造成影響的主要屬性。
 title: 什麼是「重要屬性」報表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 TQID: 'https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo'
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 55%
@@ -52,7 +52,7 @@ ht-degree: 55%
 >
 >* [!UICONTROL Personalization Insights]報告只有在從[!UICONTROL 報告量度]下拉式清單中選取[!UICONTROL 主要目標]時才可用。
 >
->* 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights報告。
+>* [!UICONTROL 只有[預設環境](/help/main/administrating-target/hosts.md)才支援Personalization Insights]報告。
 >
 >* [!UICONTROL Personalization Insights]報告只會針對處於[!UICONTROL 即時]狀態且已啟用且接收流量至少15天的活動產生。
 
@@ -60,7 +60,7 @@ ht-degree: 55%
 
 ## 存取[!UICONTROL 重要屬性]報告 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 按一下&#x200B;**[!UICONTROL 活動]**，然後從清單中按一下所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活動。
+1. 按一下&#x200B;**[!UICONTROL 活動]**，然後從清單中按一下所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)或[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活動。
 
    如果您有許多活動，請按一下篩選器（![篩選器圖示](/help/main/assets/icons/Filter.svg)）圖示，以篩選清單，方法是從[!UICONTROL 型別]、[!UICONTROL 狀態]、[!UICONTROL 報告Source]、[!UICONTROL 體驗撰寫器]、[!UICONTROL 量度型別]和[!UICONTROL 活動Source]下拉式清單中選取選項。
 
@@ -118,13 +118,13 @@ ht-degree: 55%
 
 屬性是關於訪客或他/她的個人化演算法所使用的特定造訪資訊，以學習如何個人化流量。 例如，屬性可能是瀏覽器類型、位置、造訪時間等。
 
-如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}。
+如需 [!DNL Target] 在其個人化模型中使用之屬性的詳細資訊，請參閱 [Target 個人化演算法的資料收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 如需如何將新屬性上傳到 Target，以在 Target 個人化模型中使用的更多資訊，請參閱[將資料傳入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ### 我看到一個或多個不希望模型用於訓練的屬性。 我可以從訓練模型中刪除這些屬性嗎？ {#models-api}
 
 [!UICONTROL 模型API] （也稱為Blocklist API）可讓使用者檢視和管理機器學習模型中用於[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自動鎖定目標] (AT)活動的屬性清單（也稱為功能）。 如果您想要排除一個或多個屬性，以免模型用於AP或AT活動，您可以使用模型API將這些屬性新增到「封鎖清單」。
 
-如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[模型API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hant){target=_blank}。 若要使用API來封鎖屬性，請參閱[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[模型API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。 若要使用API來封鎖屬性，請參閱[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}。
 
 ### [!UICONTROL 自動化區段]和[!UICONTROL 重要屬性]報表中的資訊是否與CSV下載中的資訊相同？
 

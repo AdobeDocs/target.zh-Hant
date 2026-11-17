@@ -2,7 +2,7 @@
 keywords: 建立自動鎖定目標； A/B測試；自動鎖定目標活動；新a/b活動；自動鎖定目標；針對個人化體驗自動鎖定目標；個人化；最佳化
 description: 瞭解如何使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!UICONTROL 自動鎖定目標] A/B測試活動。
 title: 如何建立[!UICONTROL 自動鎖定目標]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 TQID: 'https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k'
@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 12%
@@ -144,7 +144,7 @@ ht-degree: 12%
    | 方法 | 作用 |
    |---|---|
    | **[!UICONTROL 手動（預設）]** | 指定您希望在各體驗上看見的加入者百分比。 您可以在所有體驗之間分割百分比，或對每個體驗指定較高或較低的百分比。 所有體驗的總計必須等於 100%。 |
-   | **[!UICONTROL 自動分配至最佳體驗]** | 系統會自動將多數活動加入者導向表現較佳的體驗。 有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。 如需詳細資訊，請參閱[**[!UICONTROL 自動分配&#x200B;]**&#x200B;總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。 |
+   | **[!UICONTROL 自動分配至最佳體驗]** | 系統會自動將多數活動加入者導向表現較佳的體驗。 有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。 如需詳細資訊，請參閱[**[!UICONTROL 自動分配&#x200B;]**總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)。 |
    | **[!UICONTROL 針對個人化體驗自動鎖定目標]** | [!DNL Target]使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。 如需詳細資訊，請參閱[自動鎖定目標總覽](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
    +++

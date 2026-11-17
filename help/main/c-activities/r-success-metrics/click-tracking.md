@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6c83bb52aabc3441ee9c8caf02988dc5c227d837
+source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 47%
+source-wordcount: '1004'
+ht-degree: 40%
 ---
 # 點擊追蹤 {#click-tracking}
 
@@ -42,15 +42,15 @@ ht-degree: 47%
 >
 >全域[!DNL Target]要求作為表單式活動的地點時，不支援追蹤點按。
 
-* [設定點選追蹤](#section_5540C5A533114E57BAE022A600B02E72)
-* [選取的元素面板](#selected-elements)
-* [考量事項](#considerations)：選取元素、點按計數的方式、Analytics和at.js，以及限制
-
 ## 設定點選追蹤 {#section_5540C5A533114E57BAE022A600B02E72}
+
+點選追蹤是一種轉換成功量度。 它會計算活動加入者在您選取的頁面元素上進行的點按次數，以便您測量訪客與這些元素的互動情形。 可追蹤頁面的任何元素，例如連結、按鈕或影像。
 
 1. 在活動的&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上設定您的目標時，請選取&#x200B;**[!UICONTROL 轉換]**&#x200B;成功量度。
 
 1. 針對動作，選取&#x200B;**[!UICONTROL 「按一下元素」]**，然後按一下&#x200B;**[!UICONTROL 「選取元素」]**。
+
+   已選取![個元素](../assets/click-tracking-1.png)
 
    您的頁面隨即在&#x200B;**[!UICONTROL 可視化體驗撰寫器]** (VEC) 中開啟。
 
@@ -60,15 +60,19 @@ ht-degree: 47%
 
 1. 按一下熒幕上方的&#x200B;**[!UICONTROL 完成]**&#x200B;以儲存您的選擇。
 
+   然後，**[!UICONTROL 目標與設定]**&#x200B;頁面上的目標量度會顯示所選元素的數量。 將滑鼠指標暫留在其上以檢視元素。
+
+   已選取![個元素](../assets/click-tracking-2.png)
+
 當活動加入者點擊選取的元素時，該點擊會被計為轉換。
 
 ## 選取的元素面板 {#selected-elements}
 
 針對&#x200B;**[!UICONTROL A/B測試]**、**[!UICONTROL 體驗鎖定目標]** (XT)、**[!UICONTROL Automated Personalization]** (AP)及&#x200B;**[!UICONTROL 多變數測試]** (MVT)活動，**[!UICONTROL 選取的元素]**&#x200B;面板會在左側列出點選追蹤的選取元素。
 
-![所選元素面板](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
+![所選元素面板](../assets/click-tracking-3.png)
 
-按一下&#x200B;**[!UICONTROL 追蹤的元件]**&#x200B;面板中的元素時，可以套用數個動作。 下表說明可在元素上執行的各個動作:
+按一下&#x200B;**[!UICONTROL 選取的元素]**&#x200B;面板中的元素時，有數個動作可以套用。 下表說明可在元素上執行的各個動作:
 
 | 動作 | 說明 |
 | --- | --- |
@@ -80,19 +84,17 @@ ht-degree: 47%
 
 如果您已知道選取器的DOM路徑，可以按一下面板頂端的「**[!UICONTROL 新增元件]**」圖示手動新增。
 
-![新增元件圖示](/help/main/c-activities/r-success-metrics/assets/add-element.png)
+![新增元件圖示](../assets/click-tracking-4.png)
 
 ## 考量事項 {#considerations}
 
-設定點選追蹤時，請考量下列幾點。
-
 ### 選取元素
 
-* 設定點擊追蹤時，可使用 DOM 路徑功能。 當您按一下頁面上的元素時，VEC 選項功能表隨即顯示。 此外，對應的 DOM 路徑會顯示於頁面底部。 您可以使用 DOM 路徑快速查看有關已選取元素 (類型、ID 和類別) 的資訊，然後向上或向下移動 DOM 路徑以選取想要的元素。
+* 當您按一下元素時，VEC選項功能表隨即顯示，而元素的DOM路徑會顯示於頁面底部。 使用DOM路徑來檢視元素的資訊（型別、ID和類別），以及在路徑中向上或向下移動以選取您想要的元素。
 
-  就像在活動建立工作流程的步驟1建立體驗時一樣，頁面底部的DOM路徑選取器可讓您選擇元素。 在從 DOM 路徑選取元素時，VEC 中的對應元素會顯示為「已選取」。 若要取消選取已選取的元素，您可以在DOM路徑選取器中再次按一下該元素，或按一下VEC中的「已選取」方塊。
+  您在DOM路徑中選取的元素在VEC中顯示為&#x200B;**[!UICONTROL 已選取]**。 若要取消選取它，請在DOM路徑中再次按一下它，或在VEC中按一下&#x200B;**[!UICONTROL 已選取]**&#x200B;方塊。
 
-  ![DOM路徑選擇器](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+  ![DOM路徑選擇器](../assets/click-tracking-5.png)
 
   如需詳細資訊，請參閱&#x200B;*可視化體驗撰寫器選項*&#x200B;中的[使用 DOM 路徑導覽元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
@@ -100,10 +102,6 @@ ht-degree: 47%
 * 確定選取您要追蹤的元素層級。 例如，在指定按鈕時，請確定您選取連結而非按鈕文字。
 * 如果您選取多個元素，當加入者點擊所選取元素的任何一個時，即會計入該點擊。 若要個別計算每個項目，請為每個元素設定個別的成功量度。 若要按一下頁面上數個元素來計算專案，請編輯CSS Element Selector以比對多個元素。
 * 針對單頁應用程式(SPA)上的&#x200B;**[!UICONTROL Automated Personalization]** (AP)和自動鎖定目標活動，您可以選取屬於特定[!DNL Target]檢視的點選追蹤元素。 如需檢視的詳細資訊，請參閱[Adobe Target檢視和單頁應用程式](/help/main/c-experiences/spa-visual-experience-composer.md)。
-
-在您按一下&#x200B;**[!UICONTROL 完成]**&#x200B;後，**[!UICONTROL 目標與設定]**&#x200B;頁面上的目標量度中會顯示選取的元素數目。 將滑鼠指標暫留在其上可檢視所選元素。
-
-已選取![個元素](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ### 點按次數的計算方式
 
@@ -152,4 +150,4 @@ ht-degree: 47%
 * 瞭解並建置&#x200B;**[!UICONTROL 轉換]**、**[!UICONTROL 收入]**&#x200B;和&#x200B;**[!UICONTROL 參與]**&#x200B;量度
 * 建置點擊追蹤量度
 
->[!VIDEO](https://video.tv.adobe.com/v/3507824?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
