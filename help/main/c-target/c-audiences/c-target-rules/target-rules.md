@@ -46,4 +46,4 @@ ht-degree: 49%
 * 建立客群
 * 定義對象類別
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507779?captions=chi_hant)
