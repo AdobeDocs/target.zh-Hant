@@ -78,7 +78,7 @@ ht-degree: 27%
 
 使用[!UICONTROL 篩選器]按鈕依來源篩選[!UICONTROL 對象]清單： [!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Experience Cloud]和[!DNL Adobe Experience Platform]。
 
-[!UICONTROL 對象]清單](assets/filters.png)中的![篩選器選項
+[!UICONTROL 對象]清單![&#128279;](assets/filters.png)中的篩選器選項
 
 使用[!UICONTROL 搜尋對象]方塊來搜尋您的[!UICONTROL 對象]清單。 您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
@@ -96,7 +96,7 @@ ht-degree: 27%
 
 ![活動 > 客群定義](assets/view-details-activity-overview.png)
 
-對象定義卡片會顯示對象的型別、來源和屬性。 按一下[檢視完整詳細資料] ]**檢視參考該對象的其他活動（如果適用）。**[!UICONTROL &#x200B;如果您從活動的[!UICONTROL 總覽]頁面檢視對象定義卡，請按一下&#x200B;**[!UICONTROL 對象使用情形]**。
+對象定義卡片會顯示對象的型別、來源和屬性。 按一下[檢視完整詳細資料] **檢視參考該對象的其他活動（如果適用）。**&#x200B;如果您從活動的[!UICONTROL 總覽]頁面檢視對象定義卡，請按一下&#x200B;**[!UICONTROL 對象使用情形]**。
 
 對象使用資訊可協助您在編輯對象時避免對其他活動造成意外影響。 資訊包括[!UICONTROL 已上線的活動]、[!UICONTROL 非使用中的活動]、[!UICONTROL 已封存的活動]和[!UICONTROL 正在同步的活動]。 此功能適用於所有對象（資料庫對象和[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)）。
 

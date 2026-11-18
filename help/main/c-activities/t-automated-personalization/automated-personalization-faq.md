@@ -50,7 +50,7 @@ ht-degree: 6%
 +++ 設定[!UICONTROL Automated Personalization]活動的最佳實務是什麼？
 
 * 請密切注意&#x200B;*活動圖形* （位置數量×選件數量），不僅注意體驗總數。 位置和選件的卡式組合對製作時間效能的影響，會比原始體驗數量大。 如以下問題所述，為獲得最佳效能和管理性，請將&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;和&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動限製為4-6個位置，每個位置提供4-6個選件：「Automated Personalization有哪些限制？」 在本節中。 不建議使用較大的設定，這可能會導致&#x200B;**[!UICONTROL 視覺化體驗撰寫器]**&#x200B;中的載入或編輯速度緩慢。
-* 若要個人化低流量頁面，或對您個人化的體驗進行結構性變更，請考慮使用[**[!UICONTROL 自動鎖定目標&#x200B;]**活動](/help/main/c-activities/auto-target/auto-target-to-optimize.md)，而非**[!UICONTROL  Automated Personalization ]**。
+* 若要個人化低流量頁面，或對您個人化的體驗進行結構性變更，請考慮使用[**[!UICONTROL 自動鎖定目標&#x200B;]**&#x200B;活動](/help/main/c-activities/auto-target/auto-target-to-optimize.md)，而非&#x200B;**[!UICONTROL &#x200B; Automated Personalization &#x200B;]**。
 * 請考慮在您計畫於&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活動中使用的選件和位置之間執行&#x200B;**[!UICONTROL A/B測試]**&#x200B;活動，以確認位置和選項對最佳化目標有影響。 如果&#x200B;**[!UICONTROL A/B測試]**&#x200B;活動未展現明顯的差異，**[!UICONTROL Automated Personalization]**&#x200B;很可能也無法產生提升度。
 
   如果A/B...N測試顯示體驗之間沒有統計上的顯著差異，可能是因為下列一或多個情況所造成：

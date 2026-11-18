@@ -48,7 +48,7 @@ ht-degree: 57%
 >
 >您可以分辨貴組織是否擁有[!UICONTROL Standard]或[!UICONTROL Premium]授權，方法是按一下[!DNL Target] UI上方的[!UICONTROL 管理]連結。
 >
->* **[!DNL Target][!UICONTROL Standard]客戶**：如果您看見[!UICONTROL 使用者]標籤（[!UICONTROL 管理>使用者]） （而非&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤），則您的組織有[!DNL Target] [!UICONTROL Standard]授權。[!DNL Target] [!UICONTROL Standard]客戶應該依照本文的指示，在[!DNL Adobe Admin Console]中新增使用者並指派許可權。
+>* **[!DNL Target]&#x200B;[!UICONTROL Standard]客戶**：如果您看見[!UICONTROL 使用者]標籤（[!UICONTROL 管理>使用者]） （而非&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤），則您的組織有[!DNL Target] [!UICONTROL Standard]授權。[!DNL Target] [!UICONTROL Standard]客戶應該依照本文的指示，在[!DNL Adobe Admin Console]中新增使用者並指派許可權。
 >
 >* **[!DNL Target]Premium客戶**：如果您看到[!UICONTROL 使用者]標籤和[!UICONTROL 屬性]標籤（[!UICONTROL 管理>屬性]），表示貴組織擁有[!DNL Target] Premium授權。[!DNL Target] Premium客戶應該遵循[企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)和[設定企業許可權](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示，在[!DNL Adobe Admin Console]中新增使用者並指派許可權。
 >

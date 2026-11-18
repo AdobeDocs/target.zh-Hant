@@ -79,7 +79,7 @@ ht-degree: 3%
 
 將特定體驗指定為控制項，可為個人化流量提供在活動報表中用來比較的已知體驗，例如您目前的預設體驗。
 
-1. 在建立或編輯[**[!UICONTROL Automated Personalization ]**活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)或[**[!UICONTROL 自動鎖定目標]**&#x200B;活動](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity)時，視需要設定體驗。
+1. 在建立或編輯[**[!UICONTROL Automated Personalization &#x200B;]**&#x200B;活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)或[**[!UICONTROL 自動鎖定目標]**&#x200B;活動](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity)時，視需要設定體驗。
 
 1. 在&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面（三步驟引導式工作流程的步驟2）上，按一下控制體驗，以在右窗格中顯示&#x200B;**[!UICONTROL 控制項]**&#x200B;選項。
 

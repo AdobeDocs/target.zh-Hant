@@ -107,7 +107,7 @@ VEC中的![瀏覽模式](/help/main/c-experiences/c-visual-experience-composer/a
 * 將範本測試規則新增至[!UICONTROL 頁面傳送]條件
 * 透過EEC或僅限iframe模式載入頁面時，覆寫全域[!UICONTROL 增強體驗撰寫器] (EEC)切換按鈕
 
-取消頁面載入後，您可以在活動中的體驗之間切換，而不需要等候頁面載入。 按一下「重新載入&#x200B;****」以再次在VEC中顯示頁面。
+取消頁面載入後，您可以在活動中的體驗之間切換，而不需要等候頁面載入。 按一下「重新載入&#x200B;**&#x200B;**」以再次在VEC中顯示頁面。
 
 >[!IMPORTANT]
 >

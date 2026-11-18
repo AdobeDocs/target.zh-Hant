@@ -67,7 +67,7 @@ ht-degree: 4%
 1. 排除您不想測試的體驗。
 
    * 若要排除單一體驗，請按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;**[!UICONTROL 排除]**。
-   * 若要一次排除數個體驗，請選取每個體驗的核取方塊，然後按一下[排除]。**** 選取一或多個體驗時，會顯示&#x200B;**[!UICONTROL 排除]**&#x200B;圖示。
+   * 若要一次排除數個體驗，請選取每個體驗的核取方塊，然後按一下[排除]。**&#x200B;** 選取一或多個體驗時，會顯示&#x200B;**[!UICONTROL 排除]**&#x200B;圖示。
 
    ![分批排除體驗](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
