@@ -1,8 +1,8 @@
 ---
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 7%
+source-wordcount: '323'
+ht-degree: 6%
 ---
 # 程式碼片段
 
@@ -40,3 +40,6 @@ ht-degree: 7%
 
 活動名稱不能以`=`、`+`、`-`或`@`開頭。 活動名稱也不能包含下列任何字元順序： `;=`、`;+`、`;-`、`;@`、`,=`、`,+`、`,-`、`,@`、`["`或`"]`。
 
+## 訪客比對至活動 {#visitor-matching}
+
+已在&#x200B;**[!UICONTROL A/B測試]**&#x200B;或&#x200B;**[!UICONTROL 多變數測試]**&#x200B;活動的訪客符合該活動，直到他們轉換為止。 先前在&#x200B;**[!UICONTROL 體驗鎖定目標]**&#x200B;活動中的訪客必須再次符合該條件。 如果訪客符合對象規則，就屬於這些活動和特定體驗。

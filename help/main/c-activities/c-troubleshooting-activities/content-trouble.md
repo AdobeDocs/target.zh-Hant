@@ -29,28 +29,32 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22dff18ca8369805557788d62c4eaf09f9764494
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 84%
+source-wordcount: '1677'
+ht-degree: 55%
 ---
-# 疑難排解內容傳送
+# 疑難排解內容傳送 {#content-trouble}
 
-如果頁面未顯示預期的內容，您應執行一些步驟來除錯內容傳送。
+>[!BEGINSHADEBOX]
 
-* 請仔細檢查您的活動或促銷活動程式碼。 錯字或其他錯誤都可能導致預期的內容無法顯示。
-* 使用 mboxTrace 或 mboxDebug 來針對 [!DNL Target] 請求進行疑難排解。
-* 使用 Adobe Experience Cloud Debugger，與 mboxDebug 提供的資訊大多相同的易用工具，來針對 [!DNL Target] 請求進行疑難排解。
+**在此頁面上：**&#x200B;瞭解當您的頁面未顯示預期內容時，如何在[!DNL Adobe Target]中偵錯內容傳送。
 
-如果您在頁面上設定 [!DNL Target] 以確保引發 Target 要求以及設定 Cookie，mboxDebug 會很有用。 但是，這不會深入到偵錯內容傳送時很有用的詳細程度。 如果您的活動未顯示在頁面上，或是顯示不想要的內容，請使用 mboxTrace 來詳細檢查和偵錯頁面。
+>[!ENDSHADEBOX]
 
-## 擷取授權權杖以與偵錯工具一起使用 {#section_BED130298E794D1FA229DB7C3358BA54}
+當頁面未顯示預期的內容時，原因可能是活動代碼中的錯誤、[!DNL Target]請求遺失或放置錯誤，或與另一個活動衝突。 請仔細檢查您的活動或行銷活動代碼，因為拼寫錯誤或其他錯誤可能會阻止顯示預期的內容。 然後使用mboxTrace、mboxDebug或Adobe Experience Cloud Debugger來檢查[!DNL Target]請求。
 
-由於 mboxTrace 和 mboxDebug 會公開促銷活動資料和輪廓資料給外部對象，因此需要授權權仗。 在[!DNL Target]UI 中可以擷取授權 Token。 權杖的有效期限為六小時。
+當您在頁面上設定[!DNL Target]時，**mboxDebug**&#x200B;特別有用，以確保引發[!DNL Target]要求並設定Cookie。 但是，它不會進入在偵錯內容傳送時有用的詳細資訊。 如果您的活動未顯示在頁面上，或是顯示不想要的內容，請使用 mboxTrace 來詳細檢查和偵錯頁面。
+
+## 偵錯工具 {#debugging-tools}
+
+### 擷取授權Token {#section_BED130298E794D1FA229DB7C3358BA54}
+
+mboxTrace和mboxDebug會公開促銷活動資料和設定檔資料給外部對象，因此需要授權權杖。 在[!DNL Target]UI 中可以擷取授權 Token。 權杖的有效期限為六小時。
 
 您必須具備下列其中一個使用者權限才能產生驗證權杖：
 
-* 至少[!UICONTROL 編輯者]許可權（或[!UICONTROL 核准者]）
+* 至少&#x200B;**[!UICONTROL 編輯者]**&#x200B;許可權（或&#x200B;**[!UICONTROL 核准者]**）
 
   如需有關 [!DNL Target Standard] 客戶的詳細資訊，請參閱&#x200B;*使用者*&#x200B;中的[指定角色與權限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。 如需有關 [!DNL Target Premium] 客戶的詳細資訊，請參閱[設定企業權限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
@@ -62,8 +66,8 @@ ht-degree: 84%
 
 擷取授權權杖：
 
-1. 按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
-1. 在[偵錯工具]區段中，按一下[產生]新驗證Token **。**
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
+1. 在[偵錯工具]區段中，按一下[產生]新驗證Token ]**。**[!UICONTROL 
 
    ![產生新驗證權杖](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -71,7 +75,7 @@ ht-degree: 84%
 
    ![授權 Token](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
-## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
+### mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
 mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。 追蹤資訊可反映 [!DNL Target] 呼叫的結果 (例如，轉換或印象) 以及可協助判斷為何發生此特定結果的任何其他資料，例如在行銷活動中所進行選擇內的一組可用分支。 請使用此資訊來對內容傳送除錯。
 
@@ -110,107 +114,132 @@ mboxTrace 可讓您接收附加至 [!DNL Target] 回應的追蹤資訊。 追蹤
 
 mboxTrace 不會影響您網站的正常功能和外觀。 訪客會看到您的一般推薦設計。
 
-## mboxDebug {#mboxdebug}
+### mboxDebug {#mboxdebug}
 
 若要使用 mboxDebug，請附加 mboxDebug 參數至 URL 結尾。 下列表格含有與 [!DNL Target] 回應相關的 URL 參數的相關資訊。
 
->[!NOTE]
->
->有些 mboxDebug 參數可以不使用驗證。
+請注意，有些mboxDebug引數可以不使用驗證。
 
 | URL 參數 | 用途 |
 |--- |--- |
 | `mboxDebug=1` | 偵錯程式<br>將此參數新增至任何已定義 Target 請求的 URL 會開啟快顯視窗，其中含有重要的偵錯詳細資訊。 Cookie 資訊、PCid 及工作階段 ID 值會出現，而且所有的 URL 都會顯示。 按一下 Target 請求 URL 可顯示該 [!DNL Target] 請求的回應。 如需詳細資訊，請參閱 [mbox_debug.pdf](/help/main/assets/mbox_debug.pdf)。 |
 | `mboxDisable=1` | 停用頁面上的 mbox |
-| `mboxOverride.browserIp=<Insert IP address>` | 測試地理定位<br>使用這個 URL 參數測試地理定位。 輸入 IP 位址作為這個屬性的值，Test&amp;Target 的地理定位功能會評估該 IP 位址，以比對促銷活動中設定的任何定位與群體劃分。 |
+| `mboxOverride.browserIp=<Insert IP address>` | 測試地理定位<br>使用這個 URL 參數測試地理定位。 輸入IP位址作為此屬性的值，且[!DNL Target]地理定位會評估該IP位址，以比對促銷活動中設定的任何地理定位或細分。 |
 
 >[!NOTE]
 >
 >確保 URL 片段位於查詢字串參數之後。 第一個 `#` 之後的任何項目都是片段識別碼，導致偵錯程式參數無法正常運作。
 
-## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
+### Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作。 您可以快速查看資料庫組態、檢查要求以確定您的自訂參數傳遞正確、開啟主控台記錄功能，以及停用所有 Target 要求。 只要驗證進入 Experience Cloud，您就可以利用功能強大的 MboxTrace 工具來檢查活動、客群資格鑑定以及訪客輪廓。
+Adobe Experience Cloud Debugger可協助您瞭解[!DNL Target]實作。 您可以檢視程式庫組態、確認已正確傳遞自訂引數、開啟主控台記錄，以及停用所有[!DNL Target]要求。 在Experience Cloud中驗證之後，您可以使用mboxTrace來檢查您的活動和對象資格以及訪客設定檔。
 
-如需詳細資訊，請觀看下方的訓練影片：
+如需詳細資訊，請參閱本頁結尾的[訓練影片](#training-videos)和使用Adobe Experience Cloud Debugger偵錯at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}。[
 
-如需詳細資訊，請參閱[使用 Adobe Experience Cloud Debugger 偵錯 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}。
+## 常見問題 {#common-problems}
 
-## 最暢銷商品未出現在推薦中 {#section_3920C857270A406C80BE6CBAC8221ECD}
++++ 最暢銷商品未出現在推薦中
 
 *`SiteCatalyst: purchase`*&#x200B;呼叫無法用於「購買」演演算法流量資料。 改為使用 *`orderConfirmPage`* 呼叫。
 
-## 檢查活動優先順序 {#section_3D0DD07240F0465BAF655D0804100AED}
++++
 
-以 [!DNL Target Standard/Premium] 建立的表單式活動，可能與 [!DNL Target Classic] UI 中建立的活動發生衝突，兩者有相同的優先順序且使用相同的 [!DNL Target] 請求。
+</br>
 
-## 自訂程式碼在 Internet Explorer 8 中未產生預期結果。 {#section_FAC3651F19144D12A37A3E4F14C06945}
++++ 表單式活動與Target Classic活動發生衝突
 
-Target 不再支援 IE 8。
+以 [!DNL Target Standard/Premium] 建立的表單式活動，可能與 [!DNL Target Classic] UI 中建立的活動發生衝突，兩者有相同的優先順序且使用相同的 [!DNL Target] 請求。 如需詳細資訊，請參閱[活動優先順序](/help/main/c-activities/priority.md)。
 
-## 未設定 Target cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
++++
 
-如果您的網站有子網域，例如 [!DNL us.domain.com]，但您需要將 Target Cookie 設定在 [!DNL domain.com] (而不是 [!DNL us.domain.com])，則必須覆寫 `cookieDomain` 設定。 如需詳細資訊，請參閱 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
+</br>
 
-## 如果某個元素也是 Adobe Experience Manager 個人化的一部分，Target 內容會忽隱忽現或未出現。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
++++ 未設定[!DNL Target] Cookie
 
-如果 DOM 元素是 Adobe Experience Manager (AEM) 個人化目標鎖定和 Target 活動的一部分，Target 內容可能會忽隱忽現或沒有出現。
+如果您的網站有子網域，例如[!DNL us.domain.com]，但您需要在[!DNL domain.com] （而不是[!DNL us.domain.com]）上設定[!DNL Target] Cookie，則必須覆寫`cookieDomain`設定。 如需詳細資訊，請參閱 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
 
-若要補救這種情況，您可以在執行 Target 的頁面上停用 AEM 個人化。
++++
 
-## 無效 URL 導致重新導向與遠端產品建議無法傳送。 {#section_7D09043B687F43B39DAEDF17D00375AC}
+</br>
+
++++ 當元素也是Adobe Experience Manager個人化的一部分時，內容會忽隱勿現或未出現
+
+如果DOM元素是Adobe Experience Manager (AEM)個人化目標鎖定和[!DNL Target]活動的一部分，可能會忽隱忽現或未顯示[!DNL Target]內容。
+
+若要補救這種情況，您可以在執行[!DNL Target]的頁面上停用AEM個人化。
+
++++
+
+</br>
+
++++ 重新導向與遠端選件因為URL無效而無法傳遞
 
 如果重新導向與遠端產品建議使用無效的 URL，可能會無法傳送。
 
-若為重新導向產品建議，可包含 [!DNL Target] 回應`/* invalid redirect offer URL */`
+* 若為重新導向選件，[!DNL Target]回應可包含`/* invalid redirect offer URL */`。
+* 若為遠端選件，[!DNL Target]回應可包含`/* invalid remote offer URL */`。
 
-或
+您可以在瀏覽器中或使用mboxTrace來檢查[!DNL Target]回應。 請參閱 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) 以取得有效 URL 的詳細資訊。
 
-若為遠端產品建議，可包含 [!DNL Target] 回應`/* invalid remote offer URL */`
++++
 
-您可在瀏覽器中或使用 mboxTrace 來檢查 [!DNL Target] 回應。 請參閱 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) 以取得有效 URL 的詳細資訊。
+</br>
 
-## 我的網站未觸發 [!DNL Target] 請求。
++++ 我的網站未觸發[!DNL Target]個請求
 
-如果您使用無效的 doctype，at.js 不會觸發 Target 請求。 at.js 需要 HTML 5 doctype。
+如果您使用無效的doctype，at.js不會觸發[!DNL Target]請求。 at.js 需要 HTML 5 doctype。
 
-## 確保 [!DNL Target] 活動可正確處理含有查詢字串參數的 URL。 {#query-strings}
++++
 
-[!UICONTROL 活動URL]決定符合活動訪客資格的頁面，並向使用者呈現活動體驗。 在活動建立期間出現提示時，輸入完整 URL 並不一定能確保在該網站頁面上傳遞內容，尤其是包含查詢字串參數的 URL。
+## 在URL中有查詢字串引數的活動 {#query-strings}
+
+**[!UICONTROL 活動URL]**&#x200B;決定符合活動訪客資格的頁面，並向使用者呈現活動體驗。 在活動建立期間出現提示時，輸入完整 URL 並不一定能確保在該網站頁面上傳遞內容，尤其是包含查詢字串參數的 URL。
 
 根據預設，[!UICONTROL 視覺化體驗撰寫器] (VEC)會開啟[視覺化體驗撰寫器設定](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的頁面。 您也可以在活動建立期間指定不同的頁面。
 
-若要在VEC開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL 設定齒輪圖示]** >選取&#x200B;**[!UICONTROL 頁面傳送]** >然後在[!UICONTROL 活動URL]欄位中指定所需URL。
+若要在VEC開啟之後顯示不同的頁面，請按一下&#x200B;**[!UICONTROL 設定齒輪圖示]** >選取&#x200B;**[!UICONTROL 頁面傳送]** >然後在&#x200B;**[!UICONTROL 活動URL]**&#x200B;欄位中指定所需URL。
 
 ![設定頁面傳送設定 UI](assets/configure-page-delivery.png)
 
-但如果 URL 包含查詢字串參數，該怎麼辦？ 它是否可運作並顯示個人化內容？ 在這個案例中，無論目標客群為何，除了可定義查詢參數的基底 URL 外，還可以包含範本規則。
+當URL包含查詢字串引數時，頁面可能無法符合活動資格或顯示個人化內容。 無論目標對象為何，除了可定義查詢引數的基底URL之外，您還可以包含範本規則。
 
 下列選項可用來包含其他範本規則：
 
-### 選項1：複製URL，並使用「包含」選項將其保留在範本規則中。
+* **選項1：**&#x200B;複製URL並使用「包含」選項將其保留在範本規則中
 
-此選項可確保此 URL 符合活動的資格，但請注意，其相關邊角案例是，透過對包含基底 URL 的 URL 新增其他記錄來影響您的報告資料。
+  +++ 檢視範本規則設定
 
-在這個案例中，URL 為 `https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則「包含」相同的 URL (以 OR 運算子分隔)：
+  此選項可確保此 URL 符合活動的資格，但請注意，其相關邊角案例是，透過對包含基底 URL 的 URL 新增其他記錄來影響您的報告資料。
 
-![在範本規則中複製 URL](assets/option1.png)
+  在這個案例中，URL 為 `https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則「包含」相同的 URL (以 OR 運算子分隔)：
 
-### 選項2：限制URL僅「包含」查詢字串的條件。
+  ![在範本規則中複製 URL](assets/option1.png)
 
-上一個選項中討論的邊角案例適用於這個選項，但此處的條件設定僅限於查詢字串。
+  +++
 
-在這個案例中，URL 為 `https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則僅「包含」查詢字串 (以 OR 運算子分隔)：
+* **選項2：**&#x200B;限制URL「包含」只包含查詢字串的條件
 
-![範本規則僅包含查詢字串](assets/option2.png)
+  +++ 檢視範本規則設定
 
-### 選項 3：利用 URL 的特定部分，而非鎖定完整目標 URL。
+  上一個選項中討論的邊角案例適用於這個選項，但此處的條件設定僅限於查詢字串。
 
-在此案例中，URL為`https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則指定具有[!UICONTROL type] > [!UICONTROL 的[!UICONTROL 查詢]為（區分大小寫）] > type=Summers%20Offers，以OR運運算元分隔：
+  在這個案例中，URL 為 `https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則僅「包含」查詢字串 (以 OR 運算子分隔)：
 
-![範本規則利用 URL 的特定部分](assets/option3.png)
+  ![範本規則僅包含查詢字串](assets/option2.png)
 
-## [!DNL Target]設定檔屬性值中的逸出雙引號無法如預期運作。 {#escape}
+  +++
+
+* **選項3：**&#x200B;不要將目標定位為完整URL，而是利用URL的特定部分
+
+  +++ 檢視範本規則設定
+
+  在此案例中，URL為`https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則指定具有&#x200B;**[!UICONTROL type]** > **[!UICONTROL 的**[!UICONTROL &#x200B;查詢&#x200B;]**為（區分大小寫）]** > type=Summers%20Offers，以OR運運算元分隔：
+
+  ![範本規則利用 URL 的特定部分](assets/option3.png)
+
+  +++
+
+## 在設定檔屬性值中逸出雙引號 {#escape}
 
 當您在[!DNL Target]設定檔屬性中傳送包含雙引號的值時，您必須將其雙重逸出，如下所示。
 
@@ -223,7 +252,7 @@ adobe.target.trackEvent({
 });
 ```
 
-## 培訓影片
+## 培訓影片 {#training-videos}
 
 以下影片含有本文章探討之概念的詳細資訊。
 
