@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 27%
@@ -64,7 +64,7 @@ ht-degree: 27%
 
      如果此設定切換為「關閉」，請考量下列事項:
 
-     * 如果您正在測試的活動與其他上線活動之間發生衝突，請套用[一般優先順序規則](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。 由於發生衝突，您可能無法看見您想要進行QA的活動。
+     * 如果您正在測試的活動與其他上線活動之間發生衝突，請套用[一般優先順序規則](/help/main/c-activities/priority.md#priority)。 由於發生衝突，您可能無法看見您想要進行QA的活動。
      * 已檢視的活動會增加量度，但僅限於 QA 報表環境中。
 
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**&#x200B;以儲存變更。

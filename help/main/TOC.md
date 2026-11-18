@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何跨網站、應用程式和社群管道將客戶體驗個人化，藉以大幅提升收益。
 feature-set: Target
-source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 71%
 ---
 
@@ -124,6 +124,8 @@ ht-degree: 71%
   + [見解控制面板](c-activities/insights-dashboard.md)
   + [樣本數計算器](c-activities/sample-size-calculator.md)
   + [Target 活動類型](c-activities/target-activities-guide.md)
+  + [編輯活動](c-activities/edit-activity.md)
+  + [優先順序](c-activities/priority.md)
   + A/B 測試 {#abtest}
     + [開始使用A/B測試](c-activities/t-test-ab/test-ab.md)
     + [A/B 測試該執行多久？](c-activities/t-test-ab/sample-size-determination.md)
@@ -176,10 +178,6 @@ ht-degree: 71%
       + [多變數測試的預覽體驗](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [預估成功測試所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [測試摘要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-  + [推薦活動](c-activities/recommendations-activity.md)
-  + [編輯活動](c-activities/edit-activity.md)
-  + [優先順序](c-activities/priority.md)
-  + [活動設定](c-activities/activity-settings.md)
   + 成功量度 {#success-metrics}
     + [成功量度](c-activities/r-success-metrics/success-metrics.md)
     + [點擊追蹤](c-activities/r-success-metrics/click-tracking.md)

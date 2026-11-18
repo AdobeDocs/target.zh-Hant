@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 59%
@@ -58,5 +58,5 @@ ht-degree: 59%
 | 建立適當的活動或測試。 | [活動和測試](/help/main/c-intro/target-key-concepts.md) |
 | 必要的話，建立客群。 | [建立客群](/help/main/c-target/c-audiences/create-audience.md) |
 | 必要的話，合併多個客群。 | [合併多個客群](/help/main/c-target/combining-multiple-audiences.md) |
-| 在活動的「目標與設定」頁面上套用客群。 | A/B測試： [目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization： [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>體驗鎖定目標： [目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多變數測試： [目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>建議： [建議活動設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活動設定： [活動設定](/help/main/c-activities/activity-settings.md) |
+| 在活動的「目標與設定」頁面上套用客群。 | A/B測試： [目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization： [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>體驗鎖定目標： [目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>多變數測試： [目標與設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>建議： [建議活動設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活動設定： [活動設定](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) |
 | 檢視含有客群篩選條件之相關資訊的報表。 | [報表設定](/help/main/c-reports/c-report-settings/report-settings.md) |

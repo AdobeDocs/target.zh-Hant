@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -194,14 +194,14 @@ ht-degree: 48%
 **我可以只對[!UICONTROL 鎖定目標]步驟進行變更，而不要完成整個三個步驟引導工作流程來進行編輯？**
 
 +++檢視詳細資料
-您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面[&#128279;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。
+您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面[&#128279;](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。
 
 +++
 
 **我可以停留在特定步驟上，持續修改活動 (例如產品建議文字或自訂代碼)，然後在另一個索引標籤中執行 QA 嗎？**
 
 +++檢視詳細資料
-這是可能的。 只要[使用可用的[!UICONTROL 儲存]選項即可進行累加變更，而不需離開步驟](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
+這是可能的。 只要[使用可用的[!UICONTROL 儲存]選項即可進行累加變更，而不需離開步驟](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174)。
 
 +++
 
@@ -378,7 +378,7 @@ ht-degree: 48%
 **為什麼我看不到需要的產品建議/體驗，而是看到一些其他活動？**
 
 +++檢視詳細資料
-使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
 +++
 
@@ -402,7 +402,7 @@ ht-degree: 48%
 **為什麼我看不到需要的產品建議/體驗，而是看到一些其他活動？**
 
 +++檢視詳細資料
-使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
 +++
 
