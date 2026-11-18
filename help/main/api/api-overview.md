@@ -27,16 +27,16 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '186'
 ht-degree: 3%
 ---
-# Adobe [!DNL Target] SDK與API
+# 開始使用[!DNL Adobe Target] SDK和API
 
 開始使用[!DNL Adobe Target]之前，您必須在網站上實作它。
 
-[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}包含實施[!DNL Target]之前需要知道的資訊。
+[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}包含實施[!DNL Target]之前需要知道的資訊。
 
 開發人員入口網站包含下列實施型別的相關資訊：
 
@@ -53,4 +53,4 @@ ht-degree: 3%
 * 報告API。
 * 建議API。
 
-如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中的[Target API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}中的[Target API概觀](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank}。

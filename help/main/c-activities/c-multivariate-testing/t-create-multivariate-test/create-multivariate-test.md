@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: aad553690f1f399177214c94a2276d038f46d9cb
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 16%
 ---
 # 建立多變數測試 {#create-mvt}
@@ -34,6 +34,8 @@ ht-degree: 16%
 [!DNL Target]點選編輯器可讓您挑選任何位置並新增多個選件。
 
 **[!UICONTROL 多變數測試]** (MVT)需要頁面優先的報表。 換句話說，測試會在具有您為頁面所設計體驗的特定 URL 上執行。
+
+在建立測試之前，請檢閱[規劃建議](/help/main/c-activities/c-multivariate-testing/best-practices.md#plan)以檢查您的流量、選擇要測試的元素，以及準備您的內容。
 
 請依照下列步驟建立&#x200B;**[!UICONTROL 多變數測試]** (MVT)：
 
@@ -70,7 +72,7 @@ ht-degree: 16%
 
 將選件新增至每個位置、預覽產生的體驗，以及檢查您的測試計畫是否可行。
 
-1. [在每個位置中建立產品建議](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
+1. [在每個位置中建立產品建議](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#create-combinations)。
 
    您可以新增下列類型的產品建議:
 
@@ -82,7 +84,7 @@ ht-degree: 16%
 
 1. 按一下&#x200B;**[!UICONTROL 顯示體驗]**&#x200B;圖示（![顯示體驗圖示](/help/main/assets/icons/WebPages.svg)）以顯示左側框架中的所有體驗清單，然後按一下清單中的特定體驗以檢視該體驗。
 
-1. [使用流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)來測試您的測試計劃的可行性。
+1. [使用流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#use-traffic-estimator)來測試您的測試計劃的可行性。
 
 ### 排除體驗（選擇性） {#exclude-experiences}
 
@@ -92,13 +94,13 @@ ht-degree: 16%
 
 1. 若要排除一個體驗，請按一下該體驗旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg)），然後按一下&#x200B;**[!UICONTROL 排除]**。
 
-1. 若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下[排除]。**&#x200B;**
+1. 若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下[排除]。****
 
 ## 設定目標 {#set-targeting}
 
 選擇哪些訪客進入測試，並檢閱測試摘要。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以存取&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面。
+1. 按一下[下一步]****&#x200B;以存取&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面。
 
    流程圖表將引導您進行指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
 
@@ -124,7 +126,7 @@ ht-degree: 16%
 
    +++
 
-1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)並進行任何需要的變更，然後按一下[下一步]&#x200B;**。**
+1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary)並進行任何需要的變更，然後按一下[下一步]]**。**[!UICONTROL 
 
 ## 設定目標與設定 {#configure-goals-and-settings}
 

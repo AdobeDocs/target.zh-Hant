@@ -23,12 +23,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 69%
 ---
-# 體驗與產品建議
+# 開始使用體驗和選件
 
 [!DNL Adobe Target]中的體驗會決定當訪客滿足活動的對象條件時，要顯示哪些內容。
 

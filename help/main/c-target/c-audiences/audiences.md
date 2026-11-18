@@ -1,6 +1,6 @@
 ---
 keywords: 客群;客群規則;建立客群;建立客群;鎖定目標客群;報表客群;報表客群;區段;自訂輪廓參數;客群定義;客群清單
-description: 瞭解如何在 [!DNL Adobe Target]中使用對象。
+description: 瞭解如何在[!DNL Adobe Target]中使用對象。
 title: 如何使用「對象清單」？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '847'
 ht-degree: 27%
-
 ---
-
-# 建立客群
+# 開始建立對象
 
 [!DNL Adobe Target]中的對象會決定哪些人可以看到鎖定目標活動中的內容與體驗。
 
@@ -37,7 +35,7 @@ ht-degree: 27%
 * [建立活動特定對象](/help/main/c-target/creating-activity-only-audience.md)並鎖定該對象
 * [結合多個對象](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以建立隨選對象
 
-您也可以在[!DNL Target]和其他[!DNL Adobe Experience Cloud]應用程式中，使用[!DNL Adobe Analytics]所收集的對象資料進行即時目標定位和個人化。 請參閱&#x200B;*Experience Cloud中央介面元件*&#x200B;指南中的[Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant&?lang=zh-Hant)。
+您也可以在[!DNL Target]和其他[!DNL Adobe Experience Cloud]應用程式中，使用[!DNL Adobe Analytics]所收集的對象資料進行即時目標定位和個人化。 請參閱&#x200B;*Experience Cloud中央介面元件*&#x200B;指南中的[Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hant)。
 
 [!DNL Target]中有兩種型別的對象：
 
@@ -63,7 +61,7 @@ ht-degree: 27%
 
   >[!NOTE]
   >
-  >使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}的所有[!DNL Target]客戶都可使用[!DNL Adobe Experience Platform]來源。 來自[!DNL Adobe Experience Platform]的可用對象可依原樣使用，或將[與現有對象](/help/main/c-target/combining-multiple-audiences.md)結合。
+  >使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}的所有[!DNL Target]客戶都可使用[!DNL Adobe Experience Platform]來源。 來自[!DNL Adobe Experience Platform]的可用對象可依原樣使用，或將[與現有對象](/help/main/c-target/combining-multiple-audiences.md)結合。
   >
   >使用者在[!DNL Target]中必須具有[!UICONTROL 核准者]或以上狀態才能在AEP/RTCDP ([!DNL Real-time Customer Data Platform])中設定[!DNL Target] [!UICONTROL 目的地]卡片。
   >
@@ -80,7 +78,7 @@ ht-degree: 27%
 
 使用[!UICONTROL 篩選器]按鈕依來源篩選[!UICONTROL 對象]清單： [!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Experience Cloud]和[!DNL Adobe Experience Platform]。
 
-[!UICONTROL 對象]清單![&#128279;](assets/filters.png)中的篩選器選項
+[!UICONTROL 對象]清單](assets/filters.png)中的![篩選器選項
 
 使用[!UICONTROL 搜尋對象]方塊來搜尋您的[!UICONTROL 對象]清單。 您可以搜尋對象名稱的任何部分，或您可以將特定字串放在引號內。
 
@@ -98,7 +96,7 @@ ht-degree: 27%
 
 ![活動 > 客群定義](assets/view-details-activity-overview.png)
 
-對象定義卡片會顯示對象的型別、來源和屬性。 按一下[檢視完整詳細資料] **檢視參考該對象的其他活動（如果適用）。**&#x200B;如果您從活動的[!UICONTROL 總覽]頁面檢視對象定義卡，請按一下&#x200B;**[!UICONTROL 對象使用情形]**。
+對象定義卡片會顯示對象的型別、來源和屬性。 按一下[檢視完整詳細資料] ]**檢視參考該對象的其他活動（如果適用）。**[!UICONTROL &#x200B;如果您從活動的[!UICONTROL 總覽]頁面檢視對象定義卡，請按一下&#x200B;**[!UICONTROL 對象使用情形]**。
 
 對象使用資訊可協助您在編輯對象時避免對其他活動造成意外影響。 資訊包括[!UICONTROL 已上線的活動]、[!UICONTROL 非使用中的活動]、[!UICONTROL 已封存的活動]和[!UICONTROL 正在同步的活動]。 此功能適用於所有對象（資料庫對象和[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)）。
 

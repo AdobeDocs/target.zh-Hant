@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -69,19 +69,19 @@ ht-degree: 20%
 
 Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此使用者端JavaScript程式庫可讓[!DNL Adobe Experience Cloud]客戶透過[!DNL Experience Platform Edge Network]與各種服務互動。 [!DNL Adobe]建議新[!DNL Target]客戶實作[!DNL Experience Platform Web SDK]。
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此使用者端JavaScript程式庫可讓[!DNL Adobe Experience Cloud]客戶透過[!DNL Experience Platform Edge Network]與各種服務互動。 [!DNL Adobe]建議新[!DNL Target]客戶實作[!DNL Experience Platform Web SDK]。
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**：這個[!DNL Target]的實作程式庫可縮短Web實作的頁面載入時間，並為單頁應用程式提供更好的選項。 經常更新新功能，[!DNL Adobe]建議所有[at.js使用者更新至最新版本](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 >[!NOTE]
 >
 >mbox.js資料庫是[!DNL Target]的舊版實作，自2021年3月31日起不再支援。 升級至[!UICONTROL Experience Platform Web SDK] （偏好設定）或at.js最新版本。
 
-在您網站的每個頁面上參考[!UICONTROL Experience Platform Web SDK]或at.js。 例如，將其中一個程式庫新增至全域標頭。 或者，使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home){target=_blank}中的標籤來實作[!DNL Target]。
+在您網站的每個頁面上參考[!UICONTROL Experience Platform Web SDK]或at.js。 例如，將其中一個程式庫新增至全域標頭。 或者，使用Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的[標籤來實作[!DNL Target]。
 
 下列資源包含協助您實作 [!DNL Experience Platform Web SDK] 或 at.js 的詳細資訊：
 
-* [[!DNL Adobe Experience Platform Web SDK]副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hant){target=_blank}
-* [使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK]副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次訪客請求針對[!DNL Target]最佳化的頁面時，就會傳送即時請求給目標定位系統，以決定要提供的內容。 每次頁面載入時，都會提出並完成此要求，受行銷人員控制的活動和體驗管理。 內容將目標鎖定在個別網站訪客，最大化回應率、贏取率和收入。 個人化內容可協助確保訪客回應、互動或進行購買。
 
@@ -106,7 +106,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
 [!UICONTROL 自動分配]會識別兩個或多個選項中的成功體驗。 然後，它會自動重新分配更多流量給成功者，隨著測試持續執行和學習而增加轉換。
 
-如需詳細資訊，請參閱[[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+如需詳細資訊，請參閱[[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)。
 
 ### [!UICONTROL 自動鎖定目標] (AT)
 
@@ -118,19 +118,19 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
 [!UICONTROL Automated Personalization] (AP)結合選件或訊息，並使用進階機器學習來比對每位訪客的不同變數。 AP會根據個別客戶設定檔來個人化內容，以提高提升度。
 
-如需詳細資訊，請參閱 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
+如需詳細資訊，請參閱 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)。
 
 ### [!UICONTROL 體驗鎖定] (XT)
 
 [!UICONTROL 體驗鎖定目標] (XT)會根據行銷人員定義的規則和條件將內容提供給特定對象。 XT包含地理定位，對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。 您可以在傳送不同內容變數至不同對象的活動中設定多個規則。 訪客檢視您的網站時，XT會評估訪客，以判斷他們是否符合條件。 如果他們符合資格，他們會進入活動並檢視為他們設計的體驗。 您可以為單一活動內的多個客群建立體驗。
 
-如需詳細資訊，請參閱[體驗鎖定](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)。
+如需詳細資訊，請參閱[體驗鎖定](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt)。
 
 ### [!UICONTROL 多變數測試] (MVT)
 
 [!UICONTROL Multivariate Testing] (MVT)會比較頁面元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳。 MVT 可協助識別最影響活動成功的元素。
 
-如需詳細資訊，請參閱[多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)。
+如需詳細資訊，請參閱[多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt)。
 
 ### [!UICONTROL 推薦]
 
@@ -213,7 +213,7 @@ The following information helps you understand the counting strategy used for [!
 >
 >[!DNL Target]目前在中國缺少Edge叢集，因此限制了該區域[!DNL Target]客戶的訪客效能。 防火牆和缺少Edge叢集可能會影響網站體驗，導致轉譯和頁面載入速度緩慢。 此外，行銷人員在使用[!DNL Target]編寫UI時可能會遇到延遲。
 
-如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保護的使用者體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -244,7 +244,7 @@ The following information helps you understand the counting strategy used for [!
 
 * **使用rel=&quot;canonical&quot;**：有時A/B測試需要不同的URL才能顯示變數。 在這些情況下，所有變異都應該包含參照原始（控制） URL的rel=&quot;canonical&quot;標籤。 例如，如果[!DNL Adobe]正在測試其首頁是否有每個變數的不同URL，首頁的下列canonical標籤應該放在每個變數的`<head>`標籤中：
 
-  `<link rel="canonical" href="https://www.adobe.com/tw" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **使用302 （暫時）重新導向**：當測試中的變異頁面使用個別URL時，[!DNL Google]建議使用302重新導向，將流量導向測試變異。 302重新導向會通知搜尋引擎，重新導向是暫時性的，而且只有在測試執行時才有效。
 

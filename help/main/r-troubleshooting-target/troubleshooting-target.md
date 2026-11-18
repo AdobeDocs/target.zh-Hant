@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 77%
@@ -65,7 +65,7 @@ ht-degree: 77%
 
 ### 自動分配
 
-* [自動分配概觀](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [自動分配概觀](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#faq)
 
 ### 自動鎖定目標
 
@@ -82,7 +82,7 @@ ht-degree: 77%
 ### 多變數測試 (MVT)
 
 * [多變數測試最佳實務](/help/main/c-activities/c-multivariate-testing/best-practices.md)
-* [疑難排解多變數測試](/help/main/c-activities/c-multivariate-testing/best-practices.md)
+* [疑難排解多變數測試](/help/main/c-activities/c-multivariate-testing/best-practices.md#follow-up)
 * [預估成功測試所需的流量](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### 推薦
@@ -129,7 +129,7 @@ ht-degree: 77%
 
 ## 全域 mbox
 
-* [全域 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hant)
+* [全域 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## 主機/環境
 
@@ -141,12 +141,12 @@ ht-degree: 77%
 
 ### 一般實施
 
-* [受支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant)
+* [受支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
 * [使用雲端型例項搭配Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### 全域 mbox
 
-* [全域mbox常見問題集](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hant)
+* [全域mbox常見問題集](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
@@ -157,7 +157,7 @@ ht-degree: 77%
 
 ## 行動應用程式
 
-* [適用於行動應用程式的 Target 常見問答](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=zh-Hant)
+* [適用於行動應用程式的 Target 常見問答](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## 報表
 
@@ -166,11 +166,11 @@ ht-degree: 77%
 
 ## 搜尋引擎最佳化 (SEO)
 
-* [搜尋引擎最佳化 (SEO) 友善測試](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant)
+* [搜尋引擎最佳化 (SEO) 友善測試](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## 安全性
 
-* [內容安全性政策 (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=zh-Hant)
+* [內容安全性政策 (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## 系統狀態
 

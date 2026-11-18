@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '951'
 ht-degree: 24%
 ---
-# 報告
+# 開始使用報告
 
 報表提供有關[!DNL Adobe Target]活動進度和結果的資訊，可協助您根據資料進行決策。 報表資料可協助您決定要在何時終止活動、顯示哪個體驗或選件是獲勝者，以及提供判斷後續動作所需的前瞻分析或經驗談。
 
@@ -89,8 +89,8 @@ ht-degree: 24%
 | [[!UICONTROL 自動鎖定目標]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) | 有關AT活動[!UICONTROL 摘要]報告的資訊。 如需詳細資訊，請參閱[[!UICONTROL 自動鎖定目標摘要]報告](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)。<br>關於AT和AP活動之兩個[!UICONTROL Personalization Insights]報告的資訊： [!UICONTROL 自動化區段]報告和[!UICONTROL 重要屬性]報告。 如需詳細資訊，請參閱[個人化洞察報告](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | AP活動之兩個[!UICONTROL Automated Personalization摘要]報表的相關資訊： [!UICONTROL 活動層級]報表和[!UICONTROL 選件層級]報表。 如需詳細資訊，請參閱[Automated Personalization摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)。<br>AT和AP活動之兩個[!UICONTROL Personalization Insights]報表的相關資訊： [!UICONTROL 自動化區段]報表和[!UICONTROL 重要屬性]報表。 如需詳細資訊，請參閱[個人化洞察報告](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [[!UICONTROL 多變數測試]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | MVT活動之兩個報表的相關資訊： [!UICONTROL 體驗效能]報表和[!UICONTROL 位置貢獻]報表。 如需詳細資訊，請參閱[體驗效能報表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT)和[位置貢獻報表](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT)。 |
-| [[!DNL Adobe Analytics] 作為Adobe Target &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的報表Source | 使用[!DNL Adobe Analytics]做為[!DNL Target] (A4T)之報表來源的相關資訊。 A4T 可讓您存取 [!DNL Target] 活動的 [!DNL Analytics] 報表。 如需詳細資訊，請參閱 [Analytics for Target (A4T) 報表](/help/main/c-reports/analytics-for-target-a4t-reporting.md)。 |
-| [[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告 | 有關[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間整合的資訊，可為您的最佳化程式提供強大的分析與省時的工具。 |
+| [[!DNL Adobe Analytics] 作為Adobe Target ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的報表Source | 使用[!DNL Adobe Analytics]做為[!DNL Target] (A4T)之報表來源的相關資訊。 A4T 可讓您存取 [!DNL Target] 活動的 [!DNL Analytics] 報表。 如需詳細資訊，請參閱 [Analytics for Target (A4T) 報表](/help/main/c-reports/analytics-for-target-a4t-reporting.md)。 |
+| [[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告 | 有關[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}與[!DNL Target]之間整合的資訊，可為您的最佳化程式提供強大的分析與省時的工具。 |
 
 ## 封鎖來自指定IP位址的報告資料
 

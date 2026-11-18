@@ -18,12 +18,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 36%
 ---
-# 疑難排解活動
+# 開始使用疑難排解活動
 
 如果您的 [!DNL Adobe Target] 活動未出現在網站上，這些疑難排解建議應可協助您尋找您的解決方案。
 

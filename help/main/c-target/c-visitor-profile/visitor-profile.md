@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 118
-ht-degree: 36%
-
+source-wordcount: '121'
+ht-degree: 33%
 ---
-
-# 訪客輪廓
+# 開始使用訪客設定檔
 
 [!DNL Adobe Target]中的訪客設定檔包含您的訪客如何使用您的頁面和其他最佳化內容位置的資訊。
 
@@ -40,6 +38,6 @@ ht-degree: 36%
 - [訪客輪廓存留期](visitor-profile-lifetime.md)
 - [輪廓屬性](profile-parameters.md)
 - [類別親和性](category-affinity.md)
-- [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+- [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [mbox3rdPartyID 的即時輪廓同步](3rd-party-id.md)
 - [輪廓和變數字彙表](variables-profiles-parameters-methods.md)

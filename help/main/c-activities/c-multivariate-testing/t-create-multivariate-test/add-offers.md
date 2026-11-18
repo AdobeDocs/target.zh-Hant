@@ -16,14 +16,20 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 53%
+source-wordcount: '347'
+ht-degree: 29%
 ---
-# 建立組合
+# 建立組合 {#create-combinations}
 
-在[!DNL Adobe Target]中使用[!UICONTROL 視覺化體驗撰寫器] (VEC)來建立您要包含在[!UICONTROL 多變數測試] (MVT)中的選件。
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立構成&#x200B;**[!UICONTROL 多變數測試]**&#x200B;組合的影像和HTML選件。
+
+>[!ENDSHADEBOX]
+
+在&#x200B;**[!UICONTROL 多變數測試]** (MVT)中，每個位置都包含數個選件，而各個位置上的每個選件組合都是一個體驗。 在[!DNL Adobe Target]中使用&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)來建立您要包含在測試中的選件。
 
 如需有關如何使用 VEC 建立及編輯產品建議的詳細資訊，請參閱[可視化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
@@ -33,36 +39,38 @@ ht-degree: 53%
 >
 >您也可以使用 [DOM 路徑](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)來導覽元素。
 
-## 影像產品建議 {#section_A48333211DB149ED926AE467D0032914}
+## 影像產品建議 {#image-offers}
 
 在一個位置內測試多個影像選件，以判斷最成功的影像。
 
 1. 按一下頁面上的影像，然後選取&#x200B;**[!UICONTROL 變更影像選件]**。
 
-1. 從[!UICONTROL 影像選件]對話方塊中，選取要包含在測試中的所有影像，然後按一下&#x200B;**[!UICONTROL 新增]**。
+   ![變更影像選件功能表](../assets/multivariate-1.png)
+
+1. 從&#x200B;**[!UICONTROL 影像選件]**&#x200B;對話方塊中，選取要包含在測試中的所有影像，然後按一下&#x200B;**[!UICONTROL 新增]**。
+
+   ![變更影像選件功能表](../assets/multivariate-3.png)
 
 每個影像會變成該位置中的個別體驗。
 
-## HTML 產品建議 {#section_DF016101AFA9412C9B99862C23DE77B1}
+## HTML優惠方案 {#html-offers}
 
 在一個位置內測試多個 HTML 產品建議，以判斷最成功的產品建議。
 
 1. 按一下頁面上的HTML選件，然後按一下&#x200B;**[!UICONTROL 變更HTML選件]**。
 
-1. 按一下「**[!UICONTROL 建立選件]**」、按一下「**[!UICONTROL HTML選件]**」、為選件命名、輸入或貼上HTML選件的程式碼，然後按一下「**[!UICONTROL 建立]**」。
+   ![變更HTML選件功能表](../assets/multivariate-2.png)
 
-   對於您要包含的任何其他 HTML 產品建議，重複這樣做。
+1. 選擇您的HTML選件，然後按一下&#x200B;**[!UICONTROL 建立選件]**、**[!UICONTROL HTML選件]**。
+
+   ![變更HTML選件功能表](../assets/multivariate-4.png)
+
+1. 為選件命名，輸入或貼上HTML選件的程式碼，然後按一下[建立]。****
+
+   重複此步驟，加入您要加入的任何其他HTML選件。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 每個 HTML 產品建議會變成該位置中的個別體驗。
 
-## 最佳實務 {#section_2E98C23D2F1A460FA732A31799CE6291}
-
-* 請勿包含超過測試所需的位置。 您在測試中包含的每個體驗，將會明顯增加達到滿意結果所需的流量和時間。 例如，假設您的頁面元素各有三個產品建議，總共有九種可能的組合 (3x3)。 在三個元素中，有兩個包含三個可能的產品建議，有一個有兩個產品建議，總共有 18 種選項 (3x3x2)。 每增加一個元素和產品建議，數字便會顯著增加。
-* 建立多變數測試時，您可以從測試排除超過10%的體驗，但前提是您認可之後必須使用離線報表進行分析的警告。
-* 利用預覽功能來避免不需要的內容組合。 例如，您可能有兩個影像在相同件商品或服務上提供不同的折扣。 在相同個頁面上同時顯示這些影像不合邏輯，很可能造成混淆。
-* 使用[流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)來確定您的測試是針對頁面所接收的流量而設計。 請確定流量估算程式為您的測試設定開了綠燈，以便您可以取得想要的結果。
-* 您必須至少測試三個元素。 如果沒這麼多個，請執行 A/B 測試。
-* 每個元素的替代專案應彼此顯著不同。
-* 雖非必要，但每個元素最好有相同的替代項數量。
+有關啟動測試前要包含多少組合以及如何檢閱這些組合的建議，請參閱[多變數測試最佳作法](/help/main/c-activities/c-multivariate-testing/best-practices.md#create)。

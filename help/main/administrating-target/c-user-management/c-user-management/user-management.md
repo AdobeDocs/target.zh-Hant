@@ -1,7 +1,7 @@
 ---
 keywords: 新增使用者; 管理使用者; 使用者權限
-description: 了解如何使用  [!DNL Adobe Admin Console]  來管理  [!DNL Adobe Target Standard] 中的使用者及其權限和權利。
-title: 如何為  [!DNL Target Standard]  帳戶新增使用者並管理權限？
+description: 瞭解如何使用[!DNL Adobe Admin Console]管理[!DNL Adobe Target Standard]中的使用者及其許可權和權利。
+title: 如何新增使用者並管理[!DNL Target Standard]帳戶的許可權？
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
@@ -33,14 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 925
-ht-degree: 60%
-
+source-wordcount: '930'
+ht-degree: 57%
 ---
-
-# 使用者
+# 開始使用使用者
 
 在 [!DNL Adobe Admin Console] 中為 [!DNL Target Standard] 帳戶新增使用者並管理其權限。
 
@@ -50,11 +48,11 @@ ht-degree: 60%
 >
 >您可以分辨貴組織是否擁有[!UICONTROL Standard]或[!UICONTROL Premium]授權，方法是按一下[!DNL Target] UI上方的[!UICONTROL 管理]連結。
 >
->* **[!DNL Target]&#x200B;[!UICONTROL Standard]客戶**：如果您看見[!UICONTROL 使用者]標籤（[!UICONTROL 管理>使用者]） （而非&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤），則您的組織有[!DNL Target] [!UICONTROL Standard]授權。[!DNL Target] [!UICONTROL Standard]客戶應該依照本文的指示，在[!DNL Adobe Admin Console]中新增使用者並指派許可權。
+>* **[!DNL Target][!UICONTROL Standard]客戶**：如果您看見[!UICONTROL 使用者]標籤（[!UICONTROL 管理>使用者]） （而非&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤），則您的組織有[!DNL Target] [!UICONTROL Standard]授權。[!DNL Target] [!UICONTROL Standard]客戶應該依照本文的指示，在[!DNL Adobe Admin Console]中新增使用者並指派許可權。
 >
 >* **[!DNL Target]Premium客戶**：如果您看到[!UICONTROL 使用者]標籤和[!UICONTROL 屬性]標籤（[!UICONTROL 管理>屬性]），表示貴組織擁有[!DNL Target] Premium授權。[!DNL Target] Premium客戶應該遵循[企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)和[設定企業許可權](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的指示，在[!DNL Adobe Admin Console]中新增使用者並指派許可權。
 >
->如需有關如何管理使用者和權限的詳細資訊，請參閱&#x200B;*企業和團隊使用手冊*&#x200B;中的[管理產品和輪廓](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)。
+>如需有關如何管理使用者和權限的詳細資訊，請參閱&#x200B;*企業和團隊使用手冊*&#x200B;中的[管理產品和輪廓](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)。
 
 當您開始使用 [!DNL Adobe Target] 時，您可以找到 [!DNL Adobe Experience Cloud] 帳戶中預先填入的 ID (結尾是 Adobe.com)。 若您需要協助，這些 ID 可供 [!DNL Adobe] 團隊成員使用，好讓他們可以協助處理您的新帳戶及協助您使用 [!DNL Adobe Target]。 若要取得協助，請像平常一樣聯絡 Adobe 團隊。
 
@@ -91,14 +89,14 @@ ht-degree: 60%
 所有使用者管理都必須在 [!DNL Adobe Admin Console for Enterprise] 中執行。 不過，[!DNL Target] 中的所有現有使用者將會從 [!DNL Target] 移轉至 [!DNL Admin Console for Enterprise]。
 
 1. [在Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)中，按一下&#x200B;**[!UICONTROL 使用者]** > **[!UICONTROL 使用者]**&#x200B;以建立新使用者或編輯現有的使用者。
-1. 依照&#x200B;*企業版使用手冊*&#x200B;中的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/tw/enterprise/help/users.html)中的指示進行。
+1. 依照&#x200B;*企業版使用手冊*&#x200B;中的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示進行。
 
 ## 建立使用者群組 {#user-groups}
 
 您可以建立使用者群組，例如開發人員、分析人員、行銷人員、行政人員等，然後跨多個 [!DNL Adobe] 產品和工作區指派權限。 跨不同的 [!DNL Adobe] 產品為新團隊成員指派所有適當的權限，就如同將它們新增至特定使用者群組一樣簡單。
 
 1. [在Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)中，按一下&#x200B;**[!UICONTROL 使用者]** > **[!UICONTROL 使用者群組]**&#x200B;以建立新使用者群組或編輯現有的群組。
-1. 依照&#x200B;*企業版使用手冊*&#x200B;中的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/tw/enterprise/help/users.html)中的指示進行。
+1. 依照&#x200B;*企業版使用手冊*&#x200B;中的[在 Experience Cloud 中管理使用者和群組](https://helpx.adobe.com/enterprise/help/users.html)中的指示進行。
 
 ## 指定角色和權限 {#roles-permissions}
 
@@ -125,7 +123,7 @@ ht-degree: 60%
    | [!UICONTROL 觀察者] | 可以檢視活動，但無法建立或編輯活動。 |
    | [!UICONTROL 發行者] | 類似[!UICONTROL 觀察者]角色（可以檢視活動，但不能建立或編輯活動）。 但是，[!UICONTROL 發佈者]角色具有啟用活動的額外許可權。 |
 
-如需詳細資訊，請參閱&#x200B;*企業版使用手冊*&#x200B;中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/tw/enterprise/help/manage-permissions-and-roles.html)。
+如需詳細資訊，請參閱&#x200B;*企業版使用手冊*&#x200B;中的[在 Admin Console 中管理產品權限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 
 ## 培訓影片：如何設定 Adobe Target 工作區 ![教學課程徽章](/help/main/assets/tutorial.png)
 
@@ -133,8 +131,8 @@ ht-degree: 60%
 
 * 從 Adobe Target 介面存取 Adobe Admin Console (三個方式)
 * 在 Adobe Admin Console 中設定工作區
-   * 新增使用者至工作區
-   * 新增屬性至工作區
+  * 新增使用者至工作區
+  * 新增屬性至工作區
 * 瞭解預設工作區
 
 >[!NOTE]

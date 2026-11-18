@@ -1,6 +1,6 @@
 ---
 keywords: 鎖定目標；對象
-description: 瞭解如何使用 [!DNL Adobe Target] 中的對象將不同的內容和體驗鎖定在特定對象，以最佳化您的網頁行銷工作。
+description: 瞭解如何使用[!DNL Adobe Target]中的對象來將不同的內容和體驗鎖定在特定對象，以最佳化您的網站行銷工作。
 title: 如何使用[!UICONTROL 對象]將不同的內容鎖定在特定區段？
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
@@ -16,14 +16,12 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '321'
 ht-degree: 38%
-
 ---
-
-# 客群
+# 開始使用對象
 
 使用[!DNL Adobe Target]中的對象將不同的內容和體驗鎖定在特定對象，利用在正確時間向正確的人員顯示正確的訊息來最佳化您的網站行銷。
 
@@ -39,7 +37,7 @@ ht-degree: 38%
 
 如果驗明訪客屬於目標客群，[!DNL Target] 會根據建立活動時所建立的條件，決定要顯示的體驗。
 
-## 訓練影片：活動目標定位(2:13) ![教學課程徽章](/help/main/assets/tutorial.png)
+## 訓練影片：活動鎖定目標(2:13) ![教學課程徽章](/help/main/assets/tutorial.png)
 
 此視訊包含有關如何設定目標和對象的資訊。
 
@@ -48,4 +46,4 @@ ht-degree: 38%
 * 選取您的流量分配方法
 * 在不同體驗之間分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/3507598?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)

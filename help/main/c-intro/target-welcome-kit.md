@@ -19,12 +19,12 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 83%
+source-wordcount: '104'
+ht-degree: 77%
 ---
-# Adobe [!DNL Target] 歡迎套件
+# 開始使用[!DNL Target]歡迎套件
 
 歡迎來到 Adobe Target。
 

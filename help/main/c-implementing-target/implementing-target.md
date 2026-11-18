@@ -1,9 +1,9 @@
 ---
 keywords: 實作;實施
-description: 瞭解基本概念，熟悉 [!DNL Target] 如何運作以及與您的基礎架構整合，並瞭解如何追蹤訪客。
+description: 瞭解基本概念，熟悉[!DNL Target]如何運作以及與您的基礎架構整合，並瞭解如何追蹤訪客。
 landing-page-description: 開始使用Adobe Target之前，您必須在網站上實作該工具。
 short-description: 開始使用Adobe Target之前，您必須在網站上實作該工具。
-title: 如何實作 [!DNL Target]？
+title: 如何實作[!DNL Target]？
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
@@ -27,20 +27,18 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 210
-ht-degree: 11%
-
+source-wordcount: '213'
+ht-degree: 10%
 ---
-
-# 實作 Target
+# 開始實作[!DNL Target]
 
 開始使用[!DNL Adobe Target]之前，您必須在網站上實作它。
 
 {{permissions-update}}
 
-[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}包含實施[!DNL Target]之前需要知道的資訊。
+[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}包含實施[!DNL Target]之前需要知道的資訊。
 
 開發人員入口網站包含下列實施型別的相關資訊：
 
@@ -51,11 +49,11 @@ ht-degree: 11%
 * **行動應用程式**：協助您使用[!DNL Adobe Experience Platform Mobile] SDK實作的資訊。
 * **電子郵件**：協助您在電子郵件中實作[!DNL Target]的資訊。
 
-如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}。
 
 >[!NOTE]
 >
->先前包含在此指南的&#x200B;*實作Target*&#x200B;章節中的所有資訊（*Adobe Target從業人員指南*）現在包含在[開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}中。
+>先前包含在此指南的&#x200B;*實作Target*&#x200B;章節中的所有資訊（*Adobe Target從業人員指南*）現在包含在[開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}中。
 
 
 

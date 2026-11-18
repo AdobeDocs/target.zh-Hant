@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何跨網站、應用程式和社群管道將客戶體驗個人化，藉以大幅提升收益。
 feature-set: Target
-source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
+source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 84%
+source-wordcount: '1339'
+ht-degree: 71%
 ---
 
 # Adobe Target 商務從業者指南 {#using}
@@ -16,7 +16,7 @@ ht-degree: 84%
   + {hide-from-toc}[Target公告和活動](/help/main/r-release-notes/target-announcements.md)
   + [Target 發行說明 (最新)](r-release-notes/release-notes.md)
   + [Target 發行說明 (發行前)](r-release-notes/target-release-notes.md)
-  + [Target 文件概觀](/help/main/r-release-notes/target-documentation.md)
+  + [開始使用Target檔案](/help/main/r-release-notes/target-documentation.md)
   + [系統狀態更新和主動通知](r-release-notes/system-status-updates.md)
   + [文件變更](r-release-notes/doc-change.md)
   + 舊版發行說明 {#previous-rn}
@@ -31,7 +31,7 @@ ht-degree: 84%
   + [Target UI更新常見問題集](/help/main/c-intro/updated-ui-faq.md)
   + [Adobe Target的同事技能](c-intro/coworker-skills.md)
   + Adobe Target 歡迎套件 {#welcome}
-    + [Target 歡迎套件概觀](/help/main/c-intro/target-welcome-kit.md)
+    + [開始使用Target歡迎套件](/help/main/c-intro/target-welcome-kit.md)
     + [第 1 章：簡介](/help/main/c-intro/target-welcome-kit-1.md)
     + [第 2 章：Target 總覽](/help/main/c-intro/target-welcome-kit-2.md)
     + [第 3 章：提出您的測試和個人化構想](/help/main/c-intro/target-welcome-kit-3.md)
@@ -47,7 +47,7 @@ ht-degree: 84%
   + [Target Standard 和 Premium 培訓影片](c-intro/target-standard-premium-training-videos.md)
   + [Target 最佳化和個人化常見問答](c-intro/cmp-target-standard-cheatsheet.md)
 + 管理 Target {#administer}
-  + [管理 Target 概觀](administrating-target/administrating-target.md)
+  + [開始管理Target](administrating-target/administrating-target.md)
   + [管理員入門](administrating-target/start-target.md)
   + [設定可視化體驗撰寫器](/help/main/administrating-target/visual-experience-composer-set-up.md)
   + 報表 {#reporting}
@@ -63,7 +63,7 @@ ht-degree: 84%
   + 管理使用者 {#manage-users}
     + [使用者管理](administrating-target/c-user-management/user-management.md)
     + 使用者 {#users}
-      + [使用者概觀](administrating-target/c-user-management/c-user-management/user-management.md)
+      + [開始使用使用者](administrating-target/c-user-management/c-user-management/user-management.md)
       + [疑難排解使用者管理](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
     + 企業使用者權限 {#enterprise}
       + [企業使用者權限](administrating-target/c-user-management/property-channel/property-channel.md)
@@ -71,7 +71,7 @@ ht-degree: 84%
       + [授予 Adobe I/O 整合功能對工作區的存取權並指派角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
   + [推薦](/help/main/administrating-target/recommendations-settings.md)
 + 實作 Target {#implement-target}
-  + [實作 Target 概觀](c-implementing-target/implementing-target.md)
+  + [開始實作Target](c-implementing-target/implementing-target.md)
 + Adobe Target MCP伺服器 {#mcp}
   + [概觀](c-integrating-target-with-mac/mcp/target-mcp.md)
   + [開始使用](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
@@ -79,7 +79,7 @@ ht-degree: 84%
   + [MCP伺服器工具參考](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + 將Target與Experience Cloud整合 {#integrate}
   + Adobe Analytics作為Target (A4T)的報表來源 {#a4t}
-    + [A4T 概觀](c-integrating-target-with-mac/a4t/a4t.md)
+    + [開始使用A4T](c-integrating-target-with-mac/a4t/a4t.md)
     + [實作之前](c-integrating-target-with-mac/a4t/before-implement.md)
     + [Analytics for Target 實作](c-integrating-target-with-mac/a4t/a4timplementation.md)
     + [使用者權限需求](c-integrating-target-with-mac/a4t/account-reqs.md)
@@ -107,25 +107,25 @@ ht-degree: 84%
     + {hide-from-toc}[整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizer使用案例 {#use-cases}
       + {hide-from-toc}[Adobe Journey Optimizer中最佳化使用案例 — 網頁和程式碼型管道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[在Adobe Journey Optimizer中透過A/B測試進行內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + 在Adobe Journey Optimizer中透過A/B測試進行{hide-from-toc}[內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[在網頁中新增或隱藏元件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)
   + 將Target與Adobe Experience Manager (AEM)整合 {#aem}
-    + [將Target與AEM整合概覽](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+    + [開始整合Target與AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
     + 體驗片段和內容片段 {#fragments}
-      + [AEM體驗片段和內容片段概觀](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+      + [開始使用AEM體驗片段和內容片段](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
       + [AEM 體驗片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
       + [AEM內容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
   + [將Target與Adobe Audience Manager (AAM)整合](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
   + [與 Real-time Customer Data Platform 整合](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
   + [將 Target 與 Adobe Campaign 整合](c-integrating-target-with-mac/campaign-and-target.md)
 + 活動 {#activities}
-  + [活動概觀](c-activities/activities.md)
+  + [開始使用活動](c-activities/activities.md)
   + [見解控制面板](c-activities/insights-dashboard.md)
   + [樣本數計算器](c-activities/sample-size-calculator.md)
   + [Target 活動類型](c-activities/target-activities-guide.md)
   + A/B 測試 {#abtest}
-    + [A/B 測試概觀](c-activities/t-test-ab/test-ab.md)
+    + [開始使用A/B測試](c-activities/t-test-ab/test-ab.md)
     + [A/B 測試該執行多久？](c-activities/t-test-ab/sample-size-determination.md)
     + [十個常見的 A/B 測試陷阱和避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
     + [A/A 測試](/help/main/c-activities/t-test-ab/aa-testing.md)
@@ -139,17 +139,17 @@ ht-degree: 84%
       + [設定量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
       + [A/B 測試中的多個體驗客群](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
   + 自動分配 {#auto-allocate}
-    + [自動分配概觀](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+    + [開始使用自動分配](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
     + [建立自動分配活動](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
     + [解讀自動分配報告](c-activities/automated-traffic-allocation/determine-winner.md)
-    + [自動分配讓您能比手動測試更快速地測試果並獲得更高的收入](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+    + [自動分配比手動測試的表現如何](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
   + 自動鎖定目標 {#auto-target}
-    + [自動鎖定目標概觀](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+    + [開始使用自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     + [建立自動鎖定目標活動](/help/main/c-activities/auto-target/create-auto-target.md)
     + [自動鎖定目標常見問題集和疑難排解](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
     + [報表和自動鎖定目標](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
   + Automated Personalization {#automated-personalization}
-    + [Automated Personalization 概觀](c-activities/t-automated-personalization/automated-personalization.md)
+    + [開始使用Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
     + [隨機森林演算法](c-activities/t-automated-personalization/algo-random-forest.md)
     + [建立 Automated Personalization 活動](c-activities/t-automated-personalization/create-ap-activity.md)
     + [上傳用於 Target 個人化演算法的資料](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
@@ -159,26 +159,23 @@ ht-degree: 84%
     + [鎖定 Automated Personalization 產品建議](c-activities/t-automated-personalization/ap-target-offers.md)
     + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
     + [Automated Personalization 中的產品建議報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-    + [選取 Automated Personalization 或自動鎖定目標活動的控制權](c-activities/t-automated-personalization/experience-as-control.md)
+    + [選取控制體驗](c-activities/t-automated-personalization/experience-as-control.md)
     + [Automated Personalization 常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)
     + [疑難排解 Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
   + 體驗鎖定目標 {#experience-targeting}
-    + [體驗鎖定目標概觀](c-activities/t-experience-target/experience-target.md)
-    + 建立體驗鎖定目標活動 {#create-targeting}
-      + [建立活動](c-activities/t-experience-target/t-xt-create/xt-create.md)
-      + [建立體驗](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-      + [切換體驗鎖定目標中的體驗](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+    + [開始使用體驗鎖定目標](c-activities/t-experience-target/experience-target.md)
+    + [建立活動](c-activities/t-experience-target/t-xt-create/xt-create.md)
+    + [建立體驗](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+    + [切換體驗鎖定目標中的體驗](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
   + 多變數測試 {#multivariate-test}
-    + [多變數測試概觀](c-activities/c-multivariate-testing/multivariate-testing.md)
+    + [開始使用多變數測試](c-activities/c-multivariate-testing/multivariate-testing.md)
     + [多變數測試最佳實務](c-activities/c-multivariate-testing/best-practices.md)
-    + [計劃多變數測試](c-activities/c-multivariate-testing/plan-mvt.md)
     + 建立多變數測試 {#create-mvt}
       + [建立測試](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
       + [建立組合](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
       + [多變數測試的預覽體驗](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [預估成功測試所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [測試摘要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-      + [疑難排解多變數測試](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
   + [推薦活動](c-activities/recommendations-activity.md)
   + [編輯活動](c-activities/edit-activity.md)
   + [優先順序](c-activities/priority.md)
@@ -190,19 +187,19 @@ ht-degree: 84%
   + [活動變更記錄](c-activities/change-log.md)
   + [AI深入分析](c-activities/ai-insights.md)
   + 疑難排解活動 {#troubleshoot-activities}
-    + [疑難排解活動概觀](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
+    + [開始使用疑難排解活動](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [疑難排解內容傳送](c-activities/c-troubleshooting-activities/content-trouble.md)
   + 活動 QA {#activity-qa}
-    + [活動 QA 概觀](c-activities/c-activity-qa/activity-qa.md)
+    + [開始使用活動問答](c-activities/c-activity-qa/activity-qa.md)
     + [活動 QA 書籤小程式](c-activities/c-activity-qa/activity-qa-bookmark.md)
     + [使用透過伺服器端傳送的活動 QA](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + 客群 {#audiences}
-  + [客群概觀](c-target/target.md)
+  + [開始使用對象](c-target/target.md)
   + 建立客群 {#create-audiences}
-    + [建立客群概觀](c-target/c-audiences/audiences.md)
+    + [開始建立對象](c-target/c-audiences/audiences.md)
     + [在 Target 中建立客群](c-target/c-audiences/create-audience.md)
     + 客群的類別 {#categories-audiences}
-      + [客群類別概觀](c-target/c-audiences/c-target-rules/target-rules.md)
+      + [開始使用對象的類別](c-target/c-audiences/c-target-rules/target-rules.md)
       + [瀏覽器](c-target/c-audiences/c-target-rules/browser.md)
       + [自訂參數](c-target/c-audiences/c-target-rules/custom-parameters.md)
       + [地理](c-target/c-audiences/c-target-rules/geo.md)
@@ -220,7 +217,7 @@ ht-degree: 84%
   + [報表的客群篩選條件](c-target/managing-audience-filters.md)
   + [套用報表客群至成功量度](c-target/apply-reporting-audience-success-metric.md)
   + 訪客輪廓 {#visitor-profiles}
-    + [訪客輪廓概觀](c-target/c-visitor-profile/visitor-profile.md)
+    + [開始使用訪客設定檔](c-target/c-visitor-profile/visitor-profile.md)
     + [訪客輪廓存留期](c-target/c-visitor-profile/visitor-profile-lifetime.md)
     + [輪廓屬性](c-target/c-visitor-profile/profile-parameters.md)
     + [使用用來測試互斥活動的輪廓指令碼](/help/main/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
@@ -231,22 +228,22 @@ ht-degree: 84%
   + 鎖定目標和客群常見問題集 {#faq-audiences}
     + [鎖定目標和客群常見問題集](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + 體驗與產品建議 {#experiences}
-  + [體驗與產品建議概觀](c-experiences/experiences.md)
+  + [開始使用體驗和選件](c-experiences/experiences.md)
   + 可視化體驗撰寫器 (VEC) {#vec}
-    + [可視化體驗撰寫器概觀](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+    + [開始使用視覺化體驗撰寫器](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
     + [可視化體驗撰寫器選項](c-experiences/c-visual-experience-composer/viztarget-options.md)
     + [視覺化體驗撰寫器變更](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
     + [在類似頁面上包含相同體驗](c-experiences/c-visual-experience-composer/temtest.md)
     + [多頁活動](c-experiences/c-visual-experience-composer/multipage-activity.md)
     + [活動衝突](c-experiences/c-visual-experience-composer/activity-collisions.md)
     + 修改 {#modifications}
-      + [修改概觀](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+      + [開始修改](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
       + [體驗範本](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
     + [在可視化體驗撰寫器中使用的元素選取器](c-experiences/c-visual-experience-composer/vec-selectors.md)
     + [回應式體驗的行動檢視區](c-experiences/c-visual-experience-composer/mobile-viewports.md)
     + [可視化體驗撰寫器最佳做法與限制](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
     + 疑難排解可視化體驗撰寫器 {#troubleshoot-composer}
-      + [疑難排解可視化體驗撰寫器概觀](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+      + [開始使用疑難排解視覺化體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
       + [疑難排解可視化體驗撰寫器和增強體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
       + [疑難排解可視化體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
       + [疑難排解增強體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
@@ -259,7 +256,7 @@ ht-degree: 84%
   + [表單式體驗撰寫器](c-experiences/form-experience-composer.md)
   + [單頁應用程式 (SPA) 可視化體驗撰寫器](c-experiences/spa-visual-experience-composer.md)
   + 產品建議 {#offers}
-    + [產品建議概觀](c-experiences/c-manage-content/manage-content.md)
+    + [開始使用優惠方案](c-experiences/c-manage-content/manage-content.md)
     + [建立產品建議資料夾](c-experiences/c-manage-content/create-content-folder.md)
     + [上傳內容](c-experiences/c-manage-content/assets-upload.md)
     + [建立重新導向產品建議](c-experiences/c-manage-content/offer-redirect.md)
@@ -270,9 +267,9 @@ ht-degree: 84%
     + [將動態資料傳遞至產品建議](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
     + [AEM體驗和內容片段](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 報告 {#reports}
-  + [報表概觀](c-reports/reports.md)
+  + [開始使用報告](c-reports/reports.md)
   + 報表設定 {#settings}
-    + [報表設定概觀](c-reports/c-report-settings/report-settings.md)
+    + [開始使用報告設定](c-reports/c-report-settings/report-settings.md)
     + [在報表中檢視多個量度](c-reports/c-report-settings/view-multiple-metrics.md)
     + [排除極端值](c-reports/c-report-settings/excluding-extreme-orders.md)
     + [將資料下載為 CSV 檔案](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
@@ -282,7 +279,7 @@ ht-degree: 84%
     + [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
     + [Automated Personalization 摘要報表](/help/main/c-reports/personalization-reports/reports-ap.md)
   + Personalization前瞻分析報表 {#insights}
-    + [個人化洞察報告概觀](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+    + [開始使用Personalization Insights報表](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
     + [自動化區段報表](c-reports/c-personalization-insights-reports/automated-segments-report.md)
     + [重要屬性報表](c-reports/c-personalization-insights-reports/important-attributes-report.md)
   + 多變數測試報表 {#multivariate-test-reports}
@@ -291,11 +288,11 @@ ht-degree: 84%
   + [Analytics for Target (A4T) 報告](c-reports/analytics-for-target-a4t-reporting.md)
   + [報表常見問題集](c-reports/reporting-frequently-asked-questions.md)
 + 推薦 {#recommendations}
-  + [推薦概觀](c-recommendations/recommendations.md)
+  + [開始使用Recommendations](c-recommendations/recommendations.md)
   + [推薦簡介](c-recommendations/introduction-to-recommendations.md)
   + [計劃和實作推薦](c-recommendations/plan-implement.md)
   + 實體 {#entities}
-    + [實體概觀](c-recommendations/c-products/products.md)
+    + [開始使用實體](c-recommendations/c-products/products.md)
     + [實體屬性](c-recommendations/c-products/entity-attributes.md)
     + [自訂實體屬性](c-recommendations/c-products/custom-entity-attributes.md)
     + [摘要](c-recommendations/c-products/feeds.md)
@@ -303,7 +300,7 @@ ht-degree: 84%
     + [集合](c-recommendations/c-products/collections.md)
     + [排除項目](c-recommendations/c-products/exclusions.md)
   + 條件 {#criteria}
-    + [條件概觀](c-recommendations/c-algorithms/algorithms.md)
+    + [開始使用條件](c-recommendations/c-algorithms/algorithms.md)
     + [建立條件](c-recommendations/c-algorithms/create-new-algorithm.md)
     + [建立條件序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
     + [使推薦以推薦索引鍵為依據](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
@@ -319,7 +316,7 @@ ht-degree: 84%
     + [使用多值屬性](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
     + [使用 Adobe Analytics 和推薦](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
   + 設計 {#recommendations-design}
-    + [設計概觀](c-recommendations/c-design-overview/design-overview.md)
+    + [開始使用設計](c-recommendations/c-design-overview/design-overview.md)
     + [建立設計](c-recommendations/c-design-overview/create-design.md)
     + [設計常見問題集](c-recommendations/c-design-overview/template-faq.md)
     + [使用 Velocity 自訂設計](c-recommendations/c-design-overview/customizing-a-template.md)
@@ -339,5 +336,5 @@ ht-degree: 84%
   + [疑難排解 Target](r-troubleshooting-target/troubleshooting-target.md)
   + [限制](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
-  + [Adobe Target API 概觀](/help/main/api/api-overview.md)
+  + [開始使用Adobe Target SDK和API](/help/main/api/api-overview.md)
 + [資源與聯絡資訊](cmp-resources-and-contact-information.md)
