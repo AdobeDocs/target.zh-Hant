@@ -43,7 +43,7 @@ ht-degree: 14%
 
 1. 使用[VEC選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)編輯活動。
 
-1. 按一下[下一步]****&#x200B;進入下一個步驟，然後進行任何必要的編輯。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;進入下一個步驟，然後進行任何必要的編輯。
 
 1. 在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上，使用下列其中一個選項儲存變更：
 

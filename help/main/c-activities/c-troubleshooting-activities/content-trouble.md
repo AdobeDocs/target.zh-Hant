@@ -67,7 +67,7 @@ mboxTrace和mboxDebug會公開促銷活動資料和設定檔資料給外部對�
 擷取授權權杖：
 
 1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**。
-1. 在[偵錯工具]區段中，按一下[產生]新驗證Token ]**。**[!UICONTROL 
+1. 在[偵錯工具]區段中，按一下[產生]新驗證Token **。**
 
    ![產生新驗證權杖](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -134,7 +134,7 @@ mboxTrace 不會影響您網站的正常功能和外觀。 訪客會看到您的
 
 Adobe Experience Cloud Debugger可協助您瞭解[!DNL Target]實作。 您可以檢視程式庫組態、確認已正確傳遞自訂引數、開啟主控台記錄，以及停用所有[!DNL Target]要求。 在Experience Cloud中驗證之後，您可以使用mboxTrace來檢查您的活動和對象資格以及訪客設定檔。
 
-如需詳細資訊，請參閱本頁結尾的[訓練影片](#training-videos)和使用Adobe Experience Cloud Debugger偵錯at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}。[
+如需詳細資訊，請參閱本頁結尾的[訓練影片](#training-videos)和使用Adobe Experience Cloud Debugger偵錯at.js [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}。
 
 ## 常見問題 {#common-problems}
 
@@ -233,7 +233,7 @@ Adobe Experience Cloud Debugger可協助您瞭解[!DNL Target]實作。 您可�
 
   +++ 檢視範本規則設定
 
-  在此案例中，URL為`https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則指定具有&#x200B;**[!UICONTROL type]** > **[!UICONTROL 的**[!UICONTROL &#x200B;查詢&#x200B;]**為（區分大小寫）]** > type=Summers%20Offers，以OR運運算元分隔：
+  在此案例中，URL為`https://shopping.mycart.com?type=Summers%20Offers`，而其他範本規則指定具有&#x200B;**[!UICONTROL type]** > **[!UICONTROL 的**&#x200B;[!UICONTROL &#x200B;查詢&#x200B;]&#x200B;**為（區分大小寫）]** > type=Summers%20Offers，以OR運運算元分隔：
 
   ![範本規則利用 URL 的特定部分](assets/option3.png)
 
