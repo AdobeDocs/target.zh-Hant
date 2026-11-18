@@ -2,7 +2,7 @@
 keywords: 自動個人化；ap；對象；整體；隨機森林；多臂吃角子老虎機；Thompson取樣；ml；機器學習
 description: 瞭解如何在[!DNL Adobe Target]中使用[!UICONTROL Automated Personalization] (AP)活動，這些活動使用進階機器學習將不同的選件變數對應到每位訪客。
 title: 什麼是[!UICONTROL Automated Personalization] (AP)活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -83,7 +83,7 @@ ht-degree: 15%
 | **適應訪客行為的變化** | 多臂吃角子老虎機一律會花費一小部分流量，在活動期間繼續學習，並防止過度利用之前學習過的趨勢。 基礎模型會使用最新的訪客行為資料每24小時重建一次。 如果演演算法無法判斷個別訪客的成功體驗，則會顯示使用[Thompson取樣](https://en.wikipedia.org/wiki/Thompson_sampling)找到的整體最佳表現體驗，同時繼續尋找個人化的獲勝者。 |
 | **目標量度** | 模型會持續將單一目標量度最佳化，該量度可以是轉換型或收入型（具體而言，每次造訪帶來&#x200B;**[!UICONTROL 收入]**）。 |
 | **資料和對象** | [!DNL Target]會自動收集關於訪客的資訊以建置個人化模型。 如需&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;與&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;中所使用屬性的詳細資訊，請參閱[Automated Personalization資料彙集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 [!DNL Target]也會自動使用所有[!DNL Adobe Experience Cloud]個共用對象，因此您不需要執行任何特定動作來將對象新增至模型。 如需詳細資訊，請參閱[Experience Cloud對象](/help/main/c-integrating-target-with-mac/mmp.md)。 |
-| **自訂資料** | 行銷人員可以上傳離線資料（例如CRM資訊或客戶流失傾向分數），或其他自訂資料來建立個人化模型。 可以使用[mbox引數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}、[設定檔引數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}或設定檔更新[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}的伺服器端API來輸入資料。 |
+| **自訂資料** | 行銷人員可以上傳離線資料（例如CRM資訊或客戶流失傾向分數），或其他自訂資料來建立個人化模型。 可以使用[mbox引數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}、[設定檔引數](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}或設定檔更新[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hant){target=_blank}的伺服器端API來輸入資料。 |
 
 ## 訓練影片: 活動類型 {#training-video}
 
