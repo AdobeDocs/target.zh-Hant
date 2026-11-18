@@ -25,57 +25,67 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 23%
+source-wordcount: '506'
+ht-degree: 4%
 ---
-# 管理排除項目
+# 管理排除項目 {#manage-exclusions}
 
-掌握排除專案，控制您的[!UICONTROL Automated Personalization] (AP)策略。 無論您是要防止重複選件、改良體驗組合，還是要移除預設內容，排除專案可讓您提供更乾淨、更相關的體驗，以符合您的目標和受眾期望。
+>[!BEGINSHADEBOX]
 
-## 允許或不允許重複選件 {#concept_4EF78013F80E48EFA024AE0274C9F037}
+**在此頁面上：**&#x200B;瞭解如何在&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;活動中防止重複選件、排除特定體驗，以及排除預設內容。
+
+>[!ENDSHADEBOX]
+
+排除專案可控制&#x200B;**[!UICONTROL Automated Personalization]** (AP)活動提供哪些優惠方案及體驗。 它們可防止相同選件顯示兩次、移除無法搭配使用的選件組合，以及移除預設內容，讓活動提供更乾淨、更相關的體驗，且符合您的目標和對象。
+
+## 允許或不允許重複選件 {#allow-duplicate-offers}
+
+<a id="concept_4EF78013F80E48EFA024AE0274C9F037"></a>
 
 在AP活動中的不同位置使用選件資料庫中的選件時，避免這些選件重複。
 
-例如，您可能在有 12 個產品建議的六個位置頁面上有一個活動。 相同產品建議有可能放入活動中的一或多個位置。 此功能可讓您防止重複選件同時顯示在相同活動內的不同位置。
+例如，活動可在具有12個選件的頁面上具有6個位置，因此相同選件可放置於多個位置。 不允許重複選件，以防止同一活動內的不同位置同時顯示相同選件。
 
-1. 在[建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)時，按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示（![設定圖示](/help/main/assets/icons/Setting.svg) ） >按一下&#x200B;**[!UICONTROL 允許重複選件]**&#x200B;以開啟或關閉此功能，視您的需求而定。
+1. 在[建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)時，請按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示（![設定圖示](/help/main/assets/icons/Setting.svg)）。
 
-## 排除特定體驗 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+1. 按一下&#x200B;**[!UICONTROL 允許重複選件]**，根據您的需求開啟或關閉此功能。
 
-如果您想要從AP活動中排除某些選件組合，請排除特定體驗。
+   ![設定圖示](../assets/exclusion-1.png)
 
-可能有某些組合無法搭配使用，或您可能正在限制測試的體驗數量，以降低活動的流量需求。
+## 排除特定體驗 {#exclude-experiences}
 
-1. 在[建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)時，按一下&#x200B;**管理內容**&#x200B;圖示（![管理內容圖示](/help/main/assets/icons/Experience.svg)）。
+<a id="task_C17D36EF58AF4908B17A3D84CA6DE85A"></a>
 
-   [!UICONTROL 「體驗」]清單顯示從所有內容和位置選項的排列中產生的每一個體驗。
+排除特定體驗，以從AP活動中移除某些選件組合。 有些組合可能無法搭配使用，或者您可以限制測試的體驗數量，以降低活動的流量需求。
 
-1. 視需要排除體驗。
+1. 在[建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)時，按一下&#x200B;**[!UICONTROL 管理內容]**&#x200B;圖示（![管理內容圖示](/help/main/assets/icons/Experience.svg)）。
 
-   您可以按一下&#x200B;[!UICONTROL **更多動作**]&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;[!UICONTROL **排除**]，以排除特定體驗。
+   **[!UICONTROL 「體驗」]**&#x200B;清單顯示從所有內容和位置選項的排列中產生的每一個體驗。
 
-   或者，您可以選取相關體驗的核取方塊，然後按一下&#x200B;**[!UICONTROL 排除]**，以分批排除體驗。 勾選一或多個體驗時，會顯示[!UICONTROL 排除]圖示。
+1. 排除您不想測試的體驗。
+
+   * 若要排除單一體驗，請按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg) ），然後按一下&#x200B;**[!UICONTROL 排除]**。
+   * 若要一次排除數個體驗，請選取每個體驗的核取方塊，然後按一下[排除]。**&#x200B;** 選取一或多個體驗時，會顯示&#x200B;**[!UICONTROL 排除]**&#x200B;圖示。
 
    ![分批排除體驗](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
-   體驗現已從活動中排除，其[!UICONTROL 狀態]顯示為[!UICONTROL 已排除]。
+   體驗現已從活動中排除，其&#x200B;**[!UICONTROL 狀態]**&#x200B;顯示為&#x200B;**[!UICONTROL 已排除]**。
 
-## 排除預設內容 {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## 排除預設內容 {#exclude-default-content}
 
-有時候，您可能不想將預設內容加入您的AP活動。 您可以使用此方法，讓某個位置在活動中只有一個選件（與您的預設內容不同）。
+<a id="task_DCB4528989DF4C05A3A4729E5891D18F"></a>
 
-排除預設內容可有效地變更頁面其餘部分的外觀與操作方式，以適合您在 AP 活動中所測試的產品建議。 例如，假設您想要符合所測試之產品建議的色板，則可以變更頁面的背景顏色，並排除預設背景顏色。
+當您不想讓預設內容成為AP活動的一部分時，請排除此預設內容，如此一來，位置就只會包含一個與預設內容不同的選件。 此方法也可讓您變更頁面其餘部分的外觀與操作方式，以符合您測試的優惠方案。 例如，若要比對選件的調色盤，您可以變更頁面的背景顏色，並排除預設的背景顏色。
 
-**若要使用[!UICONTROL 視覺化體驗撰寫器] (VEC)排除預設內容：**
+1. 在[建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)時，請選取您要取代的內容，然後按一下&#x200B;**[!UICONTROL 變更文字/HTML]**、**[!UICONTROL 變更影像選件]**&#x200B;或&#x200B;**[!UICONTROL 變更背景顏色]**。 可用的選項會依內容型別而異。
 
-1. 在[建立或編輯AP活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)時，請選取您要取代的內容，然後按一下以存取&#x200B;**[!UICONTROL 變更文字/HTML]**、**[!UICONTROL 變更影像選件]**&#x200B;或&#x200B;**[!UICONTROL 變更背景顏色]**。 可用的選項會因內容型別而異。
+   ![變更選項](../assets/exclusion-1.png)
 
-   ![變更選項](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. 建立您的新內容。
 
-1. 按一下&#x200B;**[!UICONTROL 更多動作]** （![更多動作圖示](/help/main/assets/icons/Setting.svg) ）圖示，然後按一下&#x200B;**排除預設選件/包含預設選件**/切換以排除或包含預設選件。
+1. 按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/Setting.svg) ），然後按一下&#x200B;**排除預設選件/包含預設選件**&#x200B;切換以排除或包含預設選件。
 
    <!--
    Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 

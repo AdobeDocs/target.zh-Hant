@@ -17,12 +17,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 23%
+source-wordcount: '204'
+ht-degree: 22%
 ---
-# 設計概觀
+# 開始使用設計
 
 [!DNL Adobe Target Recommendations]中的設計會定義建議在頁面上的顯示方式。 設計會定義建議的版面配置和格式，以改善訪客參與度、轉換和收入。
 

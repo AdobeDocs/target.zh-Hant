@@ -26,21 +26,25 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 90943644c64269a8f34b79cf1b6dac35ffd57bb2
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 12%
+source-wordcount: '247'
+ht-degree: 5%
 ---
-# 報告和[!UICONTROL 自動鎖定目標]
+# 報告和[!UICONTROL 自動鎖定目標] {#reporting-and-auto-target}
 
-有關如何解譯[!DNL Adobe Target]中[!UICONTROL 自動鎖定目標摘要]報告的資訊，包括[!UICONTROL 自動化區段]和[!UICONTROL 重要屬性]報告。
+>[!BEGINSHADEBOX]
 
-如需各報表的詳細資訊，請參閱下列主題：
+**在此頁面上：**&#x200B;瞭解哪些報表可協助您解譯&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動的結果。
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target]提供三種報告來解釋&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動的結果：**[!UICONTROL 自動鎖定目標摘要]**&#x200B;報告、**[!UICONTROL 自動化區段]**&#x200B;報告和&#x200B;**[!UICONTROL 重要屬性]**&#x200B;報告。 如需各報表的詳細資訊，請參閱下列主題：
 
 | 報表 | 詳細資料 |
 | --- | --- |
-| [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | [!UICONTROL 自動鎖定目標摘要]報表可讓您以表格檢視或圖表檢視來檢視報表量度。<P>此報表可讓您檢視[!UICONTROL 造訪]、[!UICONTROL 轉換率]、[!UICONTROL 平均提升度和信賴區間]以及[!UICONTROL 信賴]的量度。 |
-| [「自動化區段」報表](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | [!UICONTROL 自動化區段]報表會顯示不同訪客對您的[!UICONTROL 自動鎖定目標]活動中的選件/體驗有哪些不同的回應。 此報表顯示[!DNL Target]的個人化模型定義的不同自動化區段如何回應活動中的選件/體驗。 |
-| [重要屬性報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | [!UICONTROL 重要屬性]報表顯示在不同的活動中，不同屬性對於模型決定個人化的方式或多或少都有不同的重要性。 此報表顯示影響模型及其相對重要性的常見屬性。 |
+| [自動鎖定目標摘要報表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | **[!UICONTROL 自動鎖定目標摘要]**&#x200B;報表可讓您以表格檢視或圖表檢視來檢視報表量度。<P>此報表可讓您檢視&#x200B;**[!UICONTROL 造訪]**、**[!UICONTROL 轉換率]**、**[!UICONTROL 平均提升度和信賴區間]**&#x200B;以及&#x200B;**[!UICONTROL 信賴]**&#x200B;的量度。 |
+| [「自動化區段」報表](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | **[!UICONTROL 自動化區段]**&#x200B;報表顯示不同訪客對您的&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;活動中的選件和體驗有不同的回應。 它顯示[!DNL Target]的個人化模型所定義的自動化區段如何回應活動中的選件和體驗。 |
+| [重要屬性報表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | **[!UICONTROL 重要屬性]**&#x200B;報表顯示在不同的活動中，不同屬性對於模型決定個人化的方式或多或少都有不同的重要性。 它會顯示影響模型的排名最前的屬性及其相對重要性。 |
 
 如需一般報告資訊，請參閱[報告](/help/main/c-reports/reports.md)。

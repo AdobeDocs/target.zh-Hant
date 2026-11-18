@@ -21,12 +21,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 84%
+source-wordcount: '514'
+ht-degree: 83%
 ---
-# [!DNL Target] 文件和資源概觀
+# 開始使用[!DNL Target]檔案和資源
 
 [!DNL Adobe Target] 文件和資源以多種格式提供，包括 [!DNL Target] UI 使用指南、開發人員資訊 (包括 SDK 和 API)、教學課程、社群論壇、影片和網路研討會。
 

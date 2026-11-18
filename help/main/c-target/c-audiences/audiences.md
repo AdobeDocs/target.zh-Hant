@@ -1,6 +1,6 @@
 ---
 keywords: 客群;客群規則;建立客群;建立客群;鎖定目標客群;報表客群;報表客群;區段;自訂輪廓參數;客群定義;客群清單
-description: 瞭解如何在 [!DNL Adobe Target]中使用對象。
+description: 瞭解如何在[!DNL Adobe Target]中使用對象。
 title: 如何使用「對象清單」？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '847'
 ht-degree: 27%
-
 ---
-
-# 建立客群
+# 開始建立對象
 
 [!DNL Adobe Target]中的對象會決定哪些人可以看到鎖定目標活動中的內容與體驗。
 

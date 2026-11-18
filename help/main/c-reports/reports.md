@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '951'
 ht-degree: 24%
 ---
-# 報告
+# 開始使用報告
 
 報表提供有關[!DNL Adobe Target]活動進度和結果的資訊，可協助您根據資料進行決策。 報表資料可協助您決定要在何時終止活動、顯示哪個體驗或選件是獲勝者，以及提供判斷後續動作所需的前瞻分析或經驗談。
 

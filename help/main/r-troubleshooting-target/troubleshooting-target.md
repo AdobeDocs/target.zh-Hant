@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 77%
@@ -65,7 +65,7 @@ ht-degree: 77%
 
 ### 自動分配
 
-* [自動分配概觀](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [自動分配概觀](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#faq)
 
 ### 自動鎖定目標
 
@@ -82,7 +82,7 @@ ht-degree: 77%
 ### 多變數測試 (MVT)
 
 * [多變數測試最佳實務](/help/main/c-activities/c-multivariate-testing/best-practices.md)
-* [疑難排解多變數測試](/help/main/c-activities/c-multivariate-testing/best-practices.md)
+* [疑難排解多變數測試](/help/main/c-activities/c-multivariate-testing/best-practices.md#follow-up)
 * [預估成功測試所需的流量](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### 推薦

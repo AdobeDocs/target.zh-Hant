@@ -24,12 +24,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '661'
 ht-degree: 7%
 ---
-# [!UICONTROL 標準]
+# 開始使用[!UICONTROL 條件]
 
 [!DNL Adobe Target] [!DNL Recommendations]中的[!UICONTROL 條件]是根據預先決定的一組訪客行為決定要建議哪些產品或內容的規則。 條件可以基於人氣趨勢、訪客的目前和過去行為，或類似的產品和內容。 您可以新增多個條件，將多個建議類型彼此測試。
 

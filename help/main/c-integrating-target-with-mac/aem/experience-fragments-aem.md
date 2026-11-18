@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 28%
@@ -126,7 +126,7 @@ ht-degree: 28%
 >
 >使用包含[!UICONTROL 體驗片段]的人工智慧、機器學習與建議：
 >
->* 若要充分利用 [!DNL Target] AI 和 ML 功能，您可以在建立活動時選取[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)或[自動個人化](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
+>* 若要充分利用 [!DNL Target] AI 和 ML 功能，您可以在建立活動時選取[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)或[自動個人化](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 >
 >* [!UICONTROL 體驗片段]在[!DNL Recommendations]活動中不受支援。 不過，若要使用[!UICONTROL 體驗片段]提供建議，您可以建立[!UICONTROL A/B測試]活動（包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]）或[!UICONTROL 體驗鎖定目標] (XT)活動，以及[包含建議作為選件](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
@@ -148,7 +148,7 @@ ht-degree: 28%
    如需有關設定各種活動類型的詳細資訊，請參閱下列主題:
 
    * **A/B 測試:** [建立 A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **自動分配:** [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **自動分配:** [自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)
    * **自動鎖定目標：**&#x200B;[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **Automated Personalization (AP):**&#x200B;[建立 Automated Personalization 活動](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
    * **體驗鎖定目標 (XT):** [建立體驗鎖定目標活動](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)

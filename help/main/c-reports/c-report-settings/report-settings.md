@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1934'
-ht-degree: 44%
+source-wordcount: '1937'
+ht-degree: 43%
 ---
-# 報表設定
+# 開始使用報告設定
 
 可協助您設定要在[!DNL Adobe Target]的報表中顯示之元素的資訊。 可以儲存報表設定以供稍後使用。
 

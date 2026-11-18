@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -119,7 +119,7 @@ ht-degree: 48%
 **如果時間很短，我如何執行活動？我可以在測試時針對我的目標最佳化嗎？**
 
 +++檢視詳細資料
-請參閱[報告以判斷獲勝者體驗](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9)。
+請參閱[報告以判斷獲勝者體驗](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#interpret-auto-allocate-reports)。
 
 +++
 
@@ -142,7 +142,7 @@ ht-degree: 48%
 **我如何找出頁面上的哪個元素組合其成功有貢獻，以及每個元素有幫助的程度如何？**
 
 +++檢視詳細資料
-請查看[全階乘多變數 (MVT) 活動](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)中的元素貢獻分析，看看它是否符合您的需求。
+請查看[全階乘多變數 (MVT) 活動](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt)中的元素貢獻分析，看看它是否符合您的需求。
 
 請注意，流量需求會隨著 MVT 活動增加。
 
@@ -264,7 +264,7 @@ ht-degree: 48%
 **我可以從一些少量的訪客開始活動嗎？**
 
 +++檢視詳細資料
-使用Target三步驟引導式工作流程的[步驟2 （「鎖定目標」頁面）](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)中可用的百分比配置控制項來決定您要如何設定活動。
+使用Target三步驟引導式工作流程的[步驟2 （「鎖定目標」頁面）](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#select-audience)中可用的百分比配置控制項來決定您要如何設定活動。
 
 +++
 
@@ -339,7 +339,7 @@ ht-degree: 48%
 **我想要在兩個不同體驗，例如固定折扣與百分比折扣之間測試，但我想要正確地鎖定體驗 (對來自不同國家/地區的人顯示不同地區設定文字或不同貨幣)。 我應該怎麼做？**
 
 +++檢視詳細資料
-使用[多個體驗版本功能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)，您便可輕鬆達成此目標。 請注意在這類測試中傳送的細微差別。
+使用[多個體驗版本功能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#use-case)，您便可輕鬆達成此目標。 請注意在這類測試中傳送的細微差別。
 
 +++
 

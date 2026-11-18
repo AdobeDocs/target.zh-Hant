@@ -18,12 +18,12 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 63%
+source-wordcount: '126'
+ht-degree: 61%
 ---
-# 實體
+# 開始使用實體
 
 實體會參考您要建議的項目。 實體可以是任何項目，例如產品、內容 (例如文章、投影片、影像、電影和電視節目)、工作清單和餐廳等。
 

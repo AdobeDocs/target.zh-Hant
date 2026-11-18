@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -106,7 +106,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
 [!UICONTROL 自動分配]會識別兩個或多個選項中的成功體驗。 然後，它會自動重新分配更多流量給成功者，隨著測試持續執行和學習而增加轉換。
 
-如需詳細資訊，請參閱[[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+如需詳細資訊，請參閱[[!UICONTROL 自動分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)。
 
 ### [!UICONTROL 自動鎖定目標] (AT)
 
@@ -118,19 +118,19 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
 [!UICONTROL Automated Personalization] (AP)結合選件或訊息，並使用進階機器學習來比對每位訪客的不同變數。 AP會根據個別客戶設定檔來個人化內容，以提高提升度。
 
-如需詳細資訊，請參閱 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
+如需詳細資訊，請參閱 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)。
 
 ### [!UICONTROL 體驗鎖定] (XT)
 
 [!UICONTROL 體驗鎖定目標] (XT)會根據行銷人員定義的規則和條件將內容提供給特定對象。 XT包含地理定位，對於定義將特定體驗或內容鎖定在特定對象的規則大有幫助。 您可以在傳送不同內容變數至不同對象的活動中設定多個規則。 訪客檢視您的網站時，XT會評估訪客，以判斷他們是否符合條件。 如果他們符合資格，他們會進入活動並檢視為他們設計的體驗。 您可以為單一活動內的多個客群建立體驗。
 
-如需詳細資訊，請參閱[體驗鎖定](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)。
+如需詳細資訊，請參閱[體驗鎖定](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt)。
 
 ### [!UICONTROL 多變數測試] (MVT)
 
 [!UICONTROL Multivariate Testing] (MVT)會比較頁面元素中選件的組合，以判斷哪個組合對特定對象執行時效果最佳。 MVT 可協助識別最影響活動成功的元素。
 
-如需詳細資訊，請參閱[多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)。
+如需詳細資訊，請參閱[多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt)。
 
 ### [!UICONTROL 推薦]
 

@@ -14,14 +14,12 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 50%
-
+source-wordcount: '388'
+ht-degree: 49%
 ---
-
-# 客群的類別
+# 開始使用對象的類別
 
 您可以使用[!DNL Adobe Target]鎖定數個類別屬性中的任一類別。 若要為每個屬性建立鎖定目標規則（或群組），請將所需屬性拖放至「對象產生器」窗格。
 

@@ -20,12 +20,12 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 66%
+source-wordcount: '253'
+ht-degree: 61%
 ---
-# 疑難排解可視化體驗撰寫器和增強體驗撰寫器
+# 開始疑難排解[!UICONTROL 視覺化體驗撰寫器]和[!UICONTROL 增強體驗撰寫器]
 
 顯示在某些情況下，[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)有時會發生問題。
 
