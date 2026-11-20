@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 30%
@@ -30,7 +30,7 @@ ht-degree: 30%
 * 您可以使用僅限於此活動的受眾，建立您僅要使用一次且不想儲存在[!UICONTROL 受眾資料庫]的受眾。 僅限於此活動的對象有助於防止[!UICONTROL 對象庫]雜亂地棧滿您絕不再想要使用的對象。
 * [!UICONTROL 對象資料庫]中看不到僅限於此活動的對象。 由於資料庫中不會顯示這些對象，因此可以避免組織中的其他人進行不必要的變更。
 
-1. 建立[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)時，請在&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面上按一下三個垂直的點，然後按一下&#x200B;**[!UICONTROL 取代對象]**。
+1. 建立[活動](/help/main/c-activities/activities.md)時，請在&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面上按一下三個垂直的點，然後按一下&#x200B;**[!UICONTROL 取代對象]**。
 
    ![步驟結果](assets/edit_audience.png)
 

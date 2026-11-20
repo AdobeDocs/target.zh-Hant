@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -137,7 +137,7 @@ AP完全自動化，以最少的人工分析持續學習。 它會建立模型�
 
 ### 推薦
 
-[推薦](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) 活動可依據先前的使用者行為，自動顯示可能使客戶感興趣的產品或內容。 [!UICONTROL Recommendations]可協助引導客戶至他們可能不知道的相關專案。
+[推薦](/help/main/c-recommendations/recommendations.md) 活動可依據先前的使用者行為，自動顯示可能使客戶感興趣的產品或內容。 [!UICONTROL Recommendations]可協助引導客戶至他們可能不知道的相關專案。
 
 建議會判斷向客戶建議產品的方式，取決於客戶在網站上的行為。 例如:
 

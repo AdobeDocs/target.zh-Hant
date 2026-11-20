@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # 建立A/B測試活動 {#create-ab-activity}
@@ -134,7 +134,7 @@ ht-degree: 10%
 
    +++
 
-1. 按一下&#x200B;**[!UICONTROL 流量分配]**&#x200B;控制項，然後在右窗格中選擇流量分配方法。 請參閱[流量分配方法](#traffic-allocation-methods)。
+1. 按一下&#x200B;**[!UICONTROL 流量分配]**&#x200B;控制項，然後在右窗格中選擇流量分配方法。 下表列出可用的方法。
 
    ![流量分配方法設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -156,7 +156,7 @@ ht-degree: 10%
 
 在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上，您指示[!DNL Target]如何測量活動。 可用的設定視您使用[!DNL Target]或[Analytics做為報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md)而定。
 
-1. 檢閱頁面的區段並設定您需要的專案。 檢視[您在目標與設定頁面](#goals-settings-overview)上設定的專案。
+1. 檢閱頁面的區段並設定您需要的專案。 檢視[您在目標與設定頁面](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)上設定的專案。
 
    | 區域 | 您設定的專案 |
    |---|---|

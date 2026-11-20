@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 2%
 ---
 # 開始使用[!UICONTROL 體驗鎖定目標] {#get-started-xt}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 訪客檢視您的網站時，[!UICONTROL 體驗鎖定目標]會評估這些訪客，以判斷他們是否符合您設定的條件。 如果他們符合條件，他們會進入活動，並且針對合格對象設計的體驗會顯示。
 
-[!UICONTROL 體驗鎖定目標]是個人化世界的第一步，通常會從A/B測試開始。 行銷人員執行A/B測試，並透過使用報表受眾，發現不同體驗會與不同受眾產生共鳴。 [!UICONTROL 體驗鎖定目標]可讓行銷人員輕鬆使用該探索，並切換為長期鎖定目標內容，以鎖定這些不同對象區段。
+[!UICONTROL 體驗鎖定目標]是個人化世界的第一步，通常會從A/B測試開始。 行銷人員執行A/B測試，並透過使用報表受眾，發現不同體驗會與不同受眾產生共鳴。 [!UICONTROL 體驗鎖定目標]可讓行銷人員使用該探索，並切換至長期鎖定目標內容，以鎖定這些不同對象區段。
 
 ## 案例：從A/B測試到體驗鎖定目標 {#xt-scenario}
 

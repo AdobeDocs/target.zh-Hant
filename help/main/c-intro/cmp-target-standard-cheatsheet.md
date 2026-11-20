@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -133,9 +133,9 @@ ht-degree: 48%
 **我如何知道哪個類型的活動最適合我的需要？**
 
 +++檢視詳細資料
-請閱讀[Target活動指南](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)，瞭解[!DNL Target]提供的每個選項對哪些案例而言有意義。
+請閱讀[Target活動指南](/help/main/c-activities/target-activities-guide.md)，瞭解[!DNL Target]提供的每個選項對哪些案例而言有意義。
 
-也請務必考慮 [推薦活動](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
+也請務必考慮 [推薦活動](/help/main/c-recommendations/recommendations.md)。
 
 +++
 
@@ -174,7 +174,7 @@ ht-degree: 48%
 **我如何清楚知道關於如何設定活動以達成我的目標？**
 
 +++檢視詳細資料
-這就是[目標](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)的功能。
+這就是[目標](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)的功能。
 
 您應該從知道要對什麼進行最佳化開始。 是[!UICONTROL 收入]、[!UICONTROL 轉換]或[!UICONTROL 參與]？ 這些選項的每個都可在目標小節中取得。 而您可以對這每個項目，進一步定義為了符合達到目標的資格，使用者在您的網站會進行的動作。
 

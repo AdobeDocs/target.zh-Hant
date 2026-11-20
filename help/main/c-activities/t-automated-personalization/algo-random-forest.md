@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 7%
+source-wordcount: '1312'
+ht-degree: 6%
 ---
 # 隨機森林演算法 {#random-forest-algorithm}
 
@@ -60,7 +60,7 @@ ht-degree: 7%
 
 ## 隨機森林如何使用決策樹？ {#section_536C105EF9F540C096D60450CAC6F627}
 
-決策樹雖然是強大的統計工具， 但有一些缺點。 最關鍵的是，它們可能「過度調整」資料，使得個別樹狀結構無法正確預測未來不用於建置初始樹狀結構的資料。 在統計學習中，此難題稱為[偏誤及變數之權衡](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)
+決策樹是一種有用的統計工具。 但有一些缺點。 最關鍵的是，它們可能「過度調整」資料，使得個別樹狀結構無法正確預測未來不用於建置初始樹狀結構的資料。 在統計學習中，此難題稱為[偏誤及變數之權衡](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)
 
 隨機森林有助於克服這個挑戰。 隨機森林是數百個決策樹的集合，這些決策樹是根據相同資料集以稍微不同的方式建置，而且這些「投票」一起產生比個別樹更好的模型。 這些樹狀結構是透過隨機選取具有取代的造訪記錄子集（稱為標籤）並隨機選取屬性子集來建置，因此樹狀結構是由稍微不同的決策樹組成。 此方法會將小變數引進樹狀結構中。 新增此受控量的變異數有助於改善演演算法的預測準確度。
 

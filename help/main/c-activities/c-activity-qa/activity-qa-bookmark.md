@@ -14,22 +14,26 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0a683f6e68bb7481b9e45c91a275a46b84a1ffd8
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 12%
+source-wordcount: '356'
+ht-degree: 6%
 ---
-# 活動 QA 書籤小程式
+# 活動 QA 書籤小程式 {#activity-qa-bookmarklet}
 
-可協助您使用[!DNL Target] QA書籤小程式來強制[!DNL Target]將您從QA模式釋出的資訊。
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用[!DNL Target] QA書籤小程式結束&#x200B;**[!UICONTROL 活動QA]**&#x200B;模式，並像一般訪客一樣檢視您的網站。
+
+>[!ENDSHADEBOX]
+
+當您以[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)瀏覽網站後，QA模式會跨頁面持續存在，直到[!DNL Target]工作階段過期為止。 書籤小程式是執行JavaScript的瀏覽器書籤。 [!DNL Target] QA書籤小程式強制[!DNL Target]將您從QA模式中釋出，因此您不必等待工作階段過期。 使用與網站上部署的at.js版本相符的版本。
 
 >[!NOTE]
 >
->建立書籤小程式的程序因瀏覽器類型與版本而異。 如需具體指示，請參閱瀏覽器的說明或搜尋網際網路。
+>建立書籤小程式的程序因瀏覽器類型與版本而異。 請參閱瀏覽器的說明，或在網際網路上搜尋特定指示。
 
 ## at.js 1.*x*&#x200B;的活動QA書籤小程式
-
-由於[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)有粘性，當您以QA模式瀏覽網站後，您的[!DNL Target]工作階段必須到期，或您需要[!DNL Target]將您從QA模式中釋出，才能像一般訪客一樣檢視您的網站。 使用QA [!DNL Target]書籤小程式強迫自己離開QA模式。
 
 若要使用[!DNL Target] QA書籤小程式，請建立包含下列JavaScript程式碼的書籤小程式，並將其新增至瀏覽器的書籤工具列：
 
@@ -50,15 +54,13 @@ javascript:(
 )();
 ```
 
-您也可以在網站上以帶有空白值的`at_preview_token`引數載入頁面，以手動強迫自己離開QA模式。
-
-例如：
+您也可以在網站上載入頁面，並將`at_preview_token`引數設為空白值，以手動強迫自己離開QA模式。 例如：
 
 `https://www.mysite.com/?at_preview_token=`
 
 ## at.js 2.*x*&#x200B;的活動QA書籤小程式
 
-與at.js 1.*x*&#x200B;不同，at.js 2.*x*&#x200B;不支援第三方Cookie，而且第一方網域的QA模式只有粘性（透過at.js設定的第一方Cookie）。 因此，在at.js 2.*x*&#x200B;中，QA模式工作階段僅在使用者端上受管理，而且不會將QA模式Cookie傳送至Target。
+與at.js 1.*x*&#x200B;不同，at.js 2.*x*&#x200B;不支援第三方Cookie。 QA模式只會透過at.js設定的第一方Cookie在第一方網域中持續存在。 因此，QA模式工作階段僅在使用者端受到管理，而且不會將任何QA模式Cookie傳送到[!DNL Target]。
 
 若要使用[!DNL Target] QA書籤小程式，請建立包含下列JavaScript程式碼的書籤小程式，並將其新增至瀏覽器的書籤工具列：
 
@@ -80,4 +82,8 @@ javascript:(
 
 ## 使用活動QA書籤小程式
 
-按一下瀏覽器工具列上的書籤小程式。
+將符合at.js版本的書籤小程式新增至瀏覽器後，每當想要離開QA模式時都可以使用：
+
+1. 處於QA模式時開啟網站的任何頁面。
+1. 按一下瀏覽器書籤工具列中的書籤小程式。
+1. 載入網站的頁面。 [!DNL Target]會從QA模式釋出工作階段，網站會以一般訪客的樣子顯示。

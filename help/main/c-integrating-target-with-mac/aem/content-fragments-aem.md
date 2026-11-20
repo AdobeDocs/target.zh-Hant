@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 20%
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 當您在[!DNL Target]中使用AEM [!UICONTROL 內容片段]時，請考量下列事項：
 
-* 您需為 [!DNL Adobe Experience Manager as a Cloud Service] 客戶才能使用此功能。 如需詳細資訊，請參閱下方的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
+* 您需為 [!DNL Adobe Experience Manager as a Cloud Service] 客戶才能使用此功能。 如需詳細資訊，請參閱下方的[要求](#requirements)。
 * [!UICONTROL 體驗片段]和[!UICONTROL 內容片段]可用於下列活動型別：
 
   * [[!UICONTROL A/B 測試]](/help/main/c-activities/t-test-ab/test-ab.md)

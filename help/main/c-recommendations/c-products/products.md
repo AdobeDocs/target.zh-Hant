@@ -18,19 +18,41 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 5ed511322cc9f04c349471f8ad84a17526d4925f
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 61%
+source-wordcount: '288'
+ht-degree: 1%
 ---
-# 開始使用實體
+# 開始使用實體 {#get-started-entities}
 
-實體會參考您要建議的項目。 實體可以是任何項目，例如產品、內容 (例如文章、投影片、影像、電影和電視節目)、工作清單和餐廳等。
+>[!BEGINSHADEBOX]
 
-「建議」會根據您設定的準則來顯示集合中的項目。
+**在此頁面上：**&#x200B;瞭解[!DNL Adobe Target Recommendations]中的實體以及在何處管理這些實體。
 
-使用「實體」:
+>[!ENDSHADEBOX]
 
-* 設定集合
-* 使用摘要將實體或內容資訊輸入建議中
-* 設定排除項目以防止某些項目出現在您的建議中
+實體是[!DNL Recommendations]可以建議的專案。 實體可以是產品、內容（例如文章、投影片、影像、電影或電視節目）、工作清單、餐廳等。
+
+[!DNL Recommendations]會根據您設定的條件，顯示您集合中的專案。
+
+## 實體如何達成建議
+
+您實體的相關資訊可以數種方式傳遞至[!DNL Recommendations]，包括：
+
+* 使用mbox或`targetPageParams`，從您的頁面傳送[實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md)。
+* 具有[摘要](/help/main/c-recommendations/c-products/feeds.md)，可使用CSV檔案、[!DNL Google Product Search]摘要格式或[!DNL Adobe Analytics]產品分類。
+* 透過傳送API。
+
+如果[!DNL Target]同時從摘要和mbox收集專案的資料，則會使用最新的資料。
+
+上傳的實體和實體屬性值會在61天後過期。 每隔60天至少再次傳送每個專案一次。 否則，[!DNL Target]會認為該專案已不再相關，並將其從目錄中移除。
+
+## 管理您的實體
+
+使用下列頁面處理您的實體：
+
+* [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md)和[自訂實體屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md)：定義您傳遞給[!DNL Recommendations]的產品或內容資訊。
+* [摘要](/help/main/c-recommendations/c-products/feeds.md)：將實體或內容資訊加入您的建議中。
+* [目錄搜尋](/help/main/c-recommendations/c-products/catalog-search.md)：在您的目錄中尋找專案。
+* [集合](/help/main/c-recommendations/c-products/collections.md)：設定您的集合。 當您建立[!DNL Recommendations]活動時，會為每個體驗選取一個集合。
+* [排除專案](/help/main/c-recommendations/c-products/exclusions.md)：防止某些專案顯示在您的建議中。 排除專案適用於帳戶中的所有活動。

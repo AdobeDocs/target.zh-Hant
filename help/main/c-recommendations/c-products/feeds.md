@@ -22,20 +22,24 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22eb14463a76adc797e57420cac0f646be3d3f00
 workflow-type: tm+mt
-source-wordcount: '2792'
-ht-degree: 29%
+source-wordcount: '2810'
+ht-degree: 25%
 ---
-# 摘要
+# 摘要 {#feeds}
 
-使用摘要來將實體匯入[!DNL Adobe Target] [!DNL Recommendations]。 可以使用CSV檔案、[!DNL Google Product Search]摘要格式和[!DNL Adobe Analytics]產品分類來傳送實體。
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解摘要如何將實體匯入至[!DNL Adobe Target Recommendations]、可用的來源型別，以及如何建立和監視摘要。
+
+>[!ENDSHADEBOX]
+
+使用摘要來將實體匯入[!DNL Adobe Target Recommendations]。 可以使用CSV檔案、[!DNL Google Product Search]摘要格式和[!DNL Adobe Analytics]產品分類來傳送實體。
 
 ## 摘要概觀 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-摘要可讓您傳遞[Entities](/help/main/c-recommendations/c-products/products.md)，或使用頁面上沒有提供或直接從頁面傳送不安全的資訊來擴增mbox資料。 例如，利潤、銷貨成本(COGS)等。
-
-摘要也可讓您將詳細的專案資訊傳遞至[!DNL Recommendations]，例如產品ID、類別、名稱、訊息和其他屬性。
+摘要可讓您傳遞[entities](/help/main/c-recommendations/c-products/products.md)，或使用頁面上沒有提供或不安全的資訊（直接從頁面傳送）來增加mbox資料。 例如，利潤、銷貨成本(COGS)等。 摘要也可讓您將詳細的專案資訊傳遞至[!DNL Recommendations]，例如產品ID、類別、名稱、訊息和其他屬性。
 
 您可以選取要將[!DNL Target]產品分類檔案或[!DNL Google Product Search]檔案中的哪些欄位傳送至[!DNL Recommendations]伺服器。
 
@@ -48,33 +52,34 @@ ht-degree: 29%
 
 可使用摘要或mbox將專案說明傳遞至[!DNL Target]。 如果[!DNL Target]同時使用實體摘要和mbox來收集資料，則最新的資料會獲勝。 通常最近的資料是來自 mbox，因為它較常被檢視。 同時點選實體摘要資料和 mbox 資料的情形不常見，這時會使用 mbox 資料。
 
-[!UICONTROL 摘要]清單（**[!UICONTROL Recommendations]** > **[!UICONTROL 摘要]**）提供您已建立的任何摘要的相關資訊。
+上傳的實體和實體屬性會在61天後過期。 這表示:
 
-[!UICONTROL 摘要]頁面包含下列資料行：
+* 您的摘要應至少每月執行一次，以確保您的目錄內容不會過期。
 
-* **名稱**: 建立期間指定的摘要名稱。 若要編輯摘要的名稱，您必須編輯摘要本身。 當您以新名稱儲存摘要時，摘要會重新整理。
-* **狀態**: 摘要的目前[狀態](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
-* **型別**：型別包含[CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和[Analytics分類](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
-* **項目**: 顯示摘要中的項目數量。
-* **排程**：顯示摘要的更新排程： [!UICONTROL 每日]、[!UICONTROL 每週]、[!DNL Every 2 Weeks]或[!UICONTROL 永不]。
-* **上次更新**: 顯示上次更新摘要的日期與時間，以及更新摘要的使用者名稱。
+* 從摘要檔案中移除專案並不會從目錄中移除該專案。 若要從目錄移除專案，請透過[!DNL Target] UI或API手動刪除專案。 或者，修改料號屬性（例如inventory），以確保不會考慮該料號。
 
-按一下[!UICONTROL 自訂表格]圖示（![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg)）以選取或取消選取您要顯示的欄。
+* 至少每60天上傳摘要檔案，以免建議活動中斷。 如果專案未至少每隔60天包含在摘要檔案（或其他實體更新方法）中，[!DNL Target]會推斷該專案已不再相關，並且會將其從目錄中移除。
 
-按一下「[!UICONTROL 資訊]」圖示（「![資訊」圖示](/help/main/assets/icons/InfoOutline.svg)）以顯示顯示上次上傳日期與摘要網址。
+### 摘要清單
 
-按一下[!UICONTROL 更多動作]圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg)）以存取下列動作： [!UICONTROL 停用]、[!DNL Edit]、[!UICONTROL 複製]以及[!UICONTROL 刪除]。
+[!UICONTROL 摘要]清單（**[!UICONTROL Recommendations]** > **[!UICONTROL 摘要]**）提供您已建立的任何摘要的相關資訊。 它包含下列欄：
 
->[!IMPORTANT]
->
->上傳的實體和實體屬性會在61天後過期。 這表示:
->
->* 您的摘要應至少每月執行一次，以確保您的目錄內容不會過期。
->* 從摘要檔案中移除專案並不會從目錄中移除該專案。 若要從目錄移除專案，請透過[!DNL Target] UI或API手動刪除專案。 或者，修改料號屬性（例如inventory），以確保不會考慮該料號。
+| 欄 | 說明 |
+|---|---|
+| **名稱** | 建立期間指定的摘要名稱。 若要編輯摘要的名稱，您必須編輯摘要本身。 當您以新名稱儲存摘要時，摘要會重新整理。 |
+| **狀態** | 摘要目前的[狀態](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。 |
+| **類型** | 型別包括[CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和[Analytics分類](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。 |
+| **項目** | 顯示摘要中的專案數。 |
+| **排程** | 顯示摘要的更新排程： **[!UICONTROL 每日]**、**[!UICONTROL 每週]**、**[!DNL Every 2 Weeks]**&#x200B;或&#x200B;**[!UICONTROL 永不]**。 |
+| **上次更新時間** | 顯示上次更新摘要的日期與時間，以及更新摘要的使用者名稱。 |
 
-## Source型別
+* 按一下&#x200B;**[!UICONTROL 自訂表格]**&#x200B;圖示（![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg)）以選取或取消選取您要顯示的欄。
+* 按一下「**[!UICONTROL 資訊]**」圖示（「![資訊」圖示](/help/main/assets/icons/InfoOutline.svg)）以顯示顯示上次上傳日期與摘要網址。
+* 按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg)）以存取下列動作： **[!UICONTROL 停用]**、**[!DNL Edit]**、**[!UICONTROL 複製]**&#x200B;以及&#x200B;**[!UICONTROL 刪除]**。
 
-可以使用CSV檔案、[!DNL Google Product Search]摘要格式和[!DNL Adobe Analytics]產品分類來傳送實體。
+## Source型別 {#source-types}
+
+以下各節說明可用於傳送實體的來源型別。
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -106,13 +111,11 @@ ht-degree: 29%
 "Apples ""Bananas"" Grapes""",
 ```
 
->[!NOTE]
->
->您不能以空白值覆寫現有值。 在其位置傳遞另一個值以覆寫現有值。 若是售價，常見的解決方案是傳入實際的「NULL」或其他訊息。 然後，您可以撰寫範本規則來排除含有該值的項目。
+請注意，您不能以空白值覆寫現有值。 在其位置傳遞另一個值以覆寫現有值。 若是售價，常見的解決方案是傳入實際的「NULL」或其他訊息。 然後，您可以撰寫範本規則來排除含有該值的項目。
 
 產品在成功上傳其實體大約兩小時之後，就可以在管理介面中使用。
 
-下列是 .csv 檔案的範例程式碼:
++++ 範例.csv檔案
 
 ```
 ## RECSRecommendations Upload File 
@@ -126,19 +129,19 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
++++
 
-[!DNL Google Product Search]摘要型別使用[!DNL Google]格式，而非[!DNL Adobe]專屬CSV格式。 您可以重複使用現有的[!DNL Google Product Feed]，將產品資料匯入[!DNL Recommendations]。
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 >[!NOTE]
 >
 >您不需要將資料提交至[!DNL Google]。 您可以匯入自己的資料和排程更新，前提是檔案使用預先定義的[!DNL Google]屬性名稱。
 
+[!DNL Google Product Search]摘要型別使用[!DNL Google]格式，而非[!DNL Adobe]專屬CSV格式。 您可以重複使用現有的[!DNL Google Product Feed]，將產品資料匯入[!DNL Recommendations]。
+
 [!DNL Recommendations]接受遵循[!DNL Google]摘要規格的.xml、.txt和.tsv檔案，並使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定義的屬性。 指定摘要的URL或FTP位置，讓[!DNL Recommendations]伺服器可以擷取檔案並建置您的目錄。
 
->[!NOTE]
->
->裝載[!DNL Google]摘要的伺服器必須允許POST方法。
+請注意，主控[!DNL Google]摘要的伺服器必須允許POST方法。
 
 請牢記以下要求和限制：
 
@@ -147,7 +150,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 摘要會在您儲存並啟動時執行，然後每天比初始執行時間晚一個小時。
 
-下列範例顯示.xml格式的[!DNL Google Product Search]摘要：
++++ 範例[!DNL Google Product Search]摘要，格式為.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -214,13 +217,17 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 </feed> 
 ```
 
-下列是[!DNL Google Product Search]摘要.tsv檔案的範常式式碼：
++++
+
++++ .tsv格式的範例[!DNL Google Product Search]摘要
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
 na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round case    https://example.com/shop/en-us/na3454_RipCurl    425    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075380 01050 5    DZ1437 
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
+
++++
 
 ### [!DNL Analytics]產品分類 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
@@ -233,22 +240,29 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 > 請注意下列警告:
 >
 >* 更新實體屬性會引起額外延遲，最多 24 小時。
->* [!DNL Target]僅支援[!UICONTROL 產品分類]。 [!DNL Analytics]產品SKU必須對應到與[!DNL Recommendations] `entity.id`相同的等級。 可使用[!UICONTROL Adobe Consulting服務]設計自訂[!DNL Analytics]分類。 如有疑問，請聯絡您的客戶經理。
+>* [!DNL Target]僅支援&#x200B;**[!UICONTROL 產品分類]**。 [!DNL Analytics]產品SKU必須對應到與[!DNL Recommendations] `entity.id`相同的等級。 可使用&#x200B;**[!UICONTROL Adobe Consulting服務]**&#x200B;設計自訂[!DNL Analytics]分類。 如有疑問，請聯絡您的客戶經理。
 
 ## 建立摘要 {#steps}
 
 建立摘要以將關於您的產品或服務的資訊插入 [!DNL Recommendations]。
 
+來源會決定[!DNL Recommendations]在何處擷取建置您目錄的實體資料。
+
 1. 在[!DNL Target]介面中，按一下&#x200B;**[!UICONTROL 建議]** > **[!UICONTROL 摘要]** > **[!UICONTROL 建立摘要]**。
 
+   ![建立摘要頁面](../assets/feeds_1.png)
+
 1. 為摘要指定描述性名稱。
+
 1. 選取&#x200B;**[!UICONTROL Source型別]**。
 
-   * [!UICONTROL CSV]
-   * [!UICONTROL Google產品摘要]
-   * [!UICONTROL Analytics分類]
+   * **[!UICONTROL CSV]**
+   * **[!UICONTROL Google產品摘要]**
+   * **[!UICONTROL Analytics分類]**
 
-   如需[!UICONTROL CSV]和[!UICONTROL Google產品摘要]摘要型別的相關資訊，請參閱[摘要概觀](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。 您也可以[下載模型CSV指南](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)，協助您正確地格式化摘要。
+   如需&#x200B;**[!UICONTROL CSV]**&#x200B;和&#x200B;**[!UICONTROL Google產品摘要]**&#x200B;摘要型別的相關資訊，請參閱[Source型別](#source-types)。 您也可以[下載模型CSV指南](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)，協助您正確地格式化摘要。
+
+   ![建立摘要頁面](../assets/feeds_2.png)
 
 1. （視條件而定）如果您已選取&#x200B;**[!UICONTROL CSV]**&#x200B;或&#x200B;**[!UICONTROL Google產品摘要]**，請指定可存取摘要的位置。
 
@@ -260,7 +274,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
      * 對於FTPS，請將伺服器設定為接受明確FTPS連線。
      * 您可以手動指定起始連線的連線埠（例如，`ftp://ftp.yoursite.com:2121`）。 如果您未指定連接埠，則會使用預設 FTP 或 FTPS 連接埠。
 
-   +++
+     +++
 
    * **SFTP**：輸入您的SFTP伺服器主機名稱或IP位址、連線埠（預設值： 22）、使用者名稱、目錄和檔案名稱。 如需驗證，請提供密碼、SSH私密金鑰或兩者。
 
@@ -273,28 +287,30 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
      * 輸入不含前置詞`sftp://`的裸主機名稱或IP位址、連線埠或路徑。 將「連線埠」欄位用於非預設的連線埠。
      * 第一次連線時接受伺服器主機金鑰，不需要與Adobe交換指紋。
      * Target介面和Recommendations API提供SFTP，舊版Recommendations Classic管理介面中不提供。 Adobe不託管SFTP端點，使用客戶託管的伺服器。
-     * SFTP伺服器必須可從網際網路連線，並允許來自Adobe Target下載位址的傳入連線。 發佈此更新之前，生產IP清單必須由工程部門確認。
+     * SFTP伺服器必須可從網際網路連線，並允許來自Adobe Target下載位址的傳入連線。
 
-   +++
+     +++
 
-   * **URL**：如果您選取[!UICONTROL URL]，請指定URL。
+   * **URL**：如果您選取&#x200B;**[!UICONTROL URL]**，請指定URL。
 
 1. （視條件而定）如果您已選取&#x200B;**[!UICONTROL Analytics分類]**，請從下拉式清單選擇報表套裝。
 
-1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;箭頭以顯示[!UICONTROL 排程]選項。
+1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;箭頭以顯示&#x200B;**[!UICONTROL 排程]**&#x200B;選項並選取更新選項：
 
-1. 選取更新選項:
+   * **[!UICONTROL 每日]**
+   * **[!UICONTROL 每週]**
+   * **[!UICONTROL 每2週]**
+   * **[!UICONTROL 從不]**：不排程更新。 如果不想執行此摘要，請選取此選項。
 
-   * [!UICONTROL 每日]
-   * [!UICONTROL 每週]
-   * [!UICONTROL 每2週]
-   * [!UICONTROL 從不]：不排程更新。 如果不想執行此摘要，請選取此選項。
+   ![建立摘要頁面](../assets/feeds_3.png)
 
 1. 指定您要執行摘要的時間。
 
    此選項是根據瀏覽器中使用的時區。 如果要使用不同時區的時間，則必須根據您的時區來計算該時間。
 
-1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;箭頭以顯示[!UICONTROL 對應]選項，然後指定如何將資料對應到[!DNL Target]定義。
+1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;箭頭以顯示&#x200B;**[!UICONTROL 對應]**&#x200B;選項，然後指定如何將資料對應到[!DNL Target]定義。
+
+   ![建立摘要頁面](../assets/feeds_4.png)
 
 1. (可選) 如果要讓摘要屬於某個環境 (主機群組)，請選取主機群組。
 
@@ -302,15 +318,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-在您建立或編輯摘要後，摘要會立即執行，然後根據您的設定進行更新。 摘要必須先同步、處理及編制索引，其資料才可供使用。 檢查[!UICONTROL 摘要]清單中的[摘要狀態](/help/main/c-recommendations/c-products/feeds.md#status)以取得進度。 即使您關閉[!DNL Target]，處理作業仍會繼續進行。
+在您建立或編輯摘要後，摘要會立即執行，然後根據您的設定進行更新。 摘要必須先同步、處理及編制索引，其資料才可供使用。 即使您關閉[!DNL Target]，處理作業仍會繼續進行，您可以追蹤&#x200B;**[!UICONTROL 摘要]**&#x200B;清單中的進度，並顯示[摘要狀態](/help/main/c-recommendations/c-products/feeds.md#status)。
 
-在索引期間，產品和摘要標題會顯示在個別值之前，因此您可以在索引完成之前搜尋產品並建立集合、排除專案、設計和活動。
+在編制索引期間，產品和摘要標題會顯示在個別值之前，因此您可以搜尋產品並建立集合、排除專案、設計和活動。
 
-「成功」狀態表示已找到檔案且已正確剖析。 它的資料只有在索引後才能在[!DNL Recommendations]中使用，這需要時間，具體取決於檔案大小。 失敗的原因可能是URL或FTP資訊不正確、檔案遺失或剖析錯誤。
+「成功」狀態表示已找到檔案且已正確剖析。 其資料僅在索引後才能使用，這在大型檔案中需要較長的時間。 錯誤的原因可能是URL或FTP資訊不正確、檔案遺失或剖析錯誤。
 
-## 摘要狀態和指示器 {#concept_E475986720D1400999868B3DFD14A7A0}
+## 摘要狀態和指標 {#concept_E475986720D1400999868B3DFD14A7A0}
 
-關於可能的摘要狀態和其指示器的資訊。
+本節說明可能的摘要狀態及其指標。
 
 ### 摘要狀態 {#status}
 
@@ -318,27 +334,35 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 | 狀態 | 說明 |
 |--- |--- |
-| [!UICONTROL 正在同步] | 摘要設定詳細資料正在儲存至[!DNL Target]。 |
-| [!UICONTROL 同步處理失敗] | 無法將摘要設定詳細資料儲存至[!DNL Target]。 再試一次。 |
-| [!UICONTROL 沒有執行的摘要] | 您已建立摘要，但尚未排程（頻率設為「從不」）。 |
+| **[!UICONTROL 正在同步]** | 摘要設定詳細資料正在儲存至[!DNL Target]。 |
+| **[!UICONTROL 同步處理失敗]** | 無法將摘要設定詳細資料儲存至[!DNL Target]。 再試一次。 |
+| **[!UICONTROL 沒有執行的摘要]** | 您已建立摘要，但尚未排程（頻率設為「從不」）。 |
 | 排定在&#x200B;*日期和時間* | 摘要尚未執行，但已排定在指定的日期和時間執行。 |
-| [!UICONTROL 正在等候下載] | [!DNL Target]正在準備下載摘要檔案。 |
-| [!UICONTROL 正在下載摘要檔案] | [!DNL Target]正在下載摘要檔案。 |
-| [!UICONTROL 正在匯入專案] | [!DNL Target]正在從摘要檔案匯入專案。 |
-| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | [!DNL Target]已將摘要檔案匯入其內容傳遞系統。 已在內容傳遞系統中進行專案屬性的變更，這些變更很快會反映在已傳送的建議中。 如果您沒有看到預期的變更，請再試一次，然後重新整理包含建議的頁面。<br>注意：<ul><li>如果專案屬性的變更導致建議排除了該專案，則會立即反映排除。 如果專案是新增的專案，或屬性變更導致建議中不再包含&#x200B;*專案*，該專案要等到下次演演算法更新時才會反映出來，這會在24小時內發生。</li><li>顯示此狀態時，更新可能尚未反映在[!UICONTROL 目錄搜尋] UI中。 [!UICONTROL 目錄搜尋]中會列出另一個狀態，指出上次更新可搜尋目錄的時間。</li></ul> |
-| 部分匯入失敗 | 先前，如果未上傳所有列，摘要仍會標籤為成功。 因此，當摘要顯示成功時，會建立所有列皆已上傳的錯誤印象。<P>以下是您可能會遇到部分摘要匯入的案例：<ul><li>您已上傳生產環境的摘要檔案，例如100列。</li><li>摘要執行並上傳了80列（共20列），但由於格式不正確、欄位超過字元等原因而捨棄了20列。</li><li>摘要在UI中標示為成功，讓您產生已上傳所有100列的印象。</li><li>您預期這20種產品中會有一部分在活動傳送中，但實際上並未發生。</li><li> 您現在很困惑，因為您上傳的摘要中有相關產品的產品詳細資料。 您透過實體API進行查詢時，不會在後端看到，這表示它不在後端。</li></ul>若要消除此混淆，已改良此訊息，以告知摘要的確切狀況。 與其標籤為成功，現在會標籤為部分匯入失敗。 |
-| [!UICONTROL 無法編列索引] | 編列索引作業失敗。 再試一次。 |
-| 找不到[!UICONTROL 伺服器] | FTP、SFTP或URL位置無效或無法連線。 |
+| **[!UICONTROL 正在等候下載]** | [!DNL Target]正在準備下載摘要檔案。 |
+| **[!UICONTROL 正在下載摘要檔案]** | [!DNL Target]正在下載摘要檔案。 |
+| **[!UICONTROL 正在匯入專案]** | [!DNL Target]正在從摘要檔案匯入專案。 |
+| 已於&#x200B;*時間*&#x200B;成功匯入摘要 | [!DNL Target]已將摘要檔案匯入其內容傳遞系統。 已在內容傳遞系統中進行專案屬性的變更，這些變更很快會反映在已傳送的建議中。 如果您沒有看到預期的變更，請再試一次，然後重新整理包含建議的頁面。<br>注意：<ul><li>如果專案屬性的變更導致建議排除了該專案，則會立即反映排除。 如果專案是新增的專案，或屬性變更導致建議中不再包含&#x200B;*專案*，該專案要等到下次演演算法更新時才會反映出來，這會在24小時內發生。</li><li>顯示此狀態時，更新可能尚未反映在&#x200B;**[!UICONTROL 目錄搜尋]** UI中。 **[!UICONTROL 目錄搜尋]**&#x200B;中會列出另一個狀態，指出上次更新可搜尋目錄的時間。</li></ul> |
+| 部分匯入失敗 | 並未上傳摘要檔案的所有列。 請參閱[部分匯入失敗](#partial-import-failed)。 |
+| **[!UICONTROL 無法編列索引]** | 編列索引作業失敗。 再試一次。 |
+| 找不到&#x200B;**[!UICONTROL 伺服器]** | FTP、SFTP或URL位置無效或無法連線。 |
 
-若要更新摘要 (例如，變更摘要組態或摘要檔案)，請開啟摘要，進行任何所需的變更，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
+#### 部分匯入失敗 {#partial-import-failed}
 
->[!IMPORTANT]
->
->上傳的實體會在 61 天後過期。 這表示應至少每隔 60 天上傳摘要檔案，以免建議活動中斷。 如果專案未至少每隔60天包含在摘要檔案（或其他實體更新方法）中，[!DNL Target]會推斷該專案已不再相關，並且會將其從目錄中移除。
+先前，當並非所有列都已上傳時，摘要仍會標示為成功。 這會產生所有列皆已上傳的錯誤印象。 訊息現在會說明發生的情況：摘要會標籤為部分匯入失敗而非成功。
+
+下列案例顯示可能發生部分摘要匯入的原因：
+
+* 您已上傳生產環境的摘要檔案，例如100列。
+* 摘要執行並上傳了80列（共20列），但由於格式不正確、欄位超過字元等原因而捨棄了20列。
+* 摘要在UI中標示為成功，讓您產生已上傳所有100列的印象。
+* 您預期這20種產品中會有一部分在活動傳送中，但實際上並未發生。
+* 您上傳的摘要有相關產品的產品詳細資料，但當您透過實體API進行查詢時，卻未在後端看到這些詳細資料，這表示它們不在後端。
+
+若要更新摘要 (例如，變更摘要組態或摘要檔案)，請開啟摘要，進行任何所需的變更，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。 上傳的實體會在 61 天後過期。 如需上傳頻率，請參閱[摘要概觀](#concept_D1E9C7347C5D4583AA69B02E79607890)中的備註。
 
 ### 摘要狀態指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-[!UICONTROL 「狀態」]欄中會顯示下列摘要狀態指示器:
+**[!UICONTROL 「狀態」]**&#x200B;欄中會顯示下列摘要狀態指示器:
 
 | 狀態指示器 | 說明 |
 |--- |--- |
@@ -367,7 +391,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 以下影片含有本文章探討之概念的詳細資訊。
 
-### 瞭解Recommendations中的摘要(3:01) ![Overview badge](/help/main/assets/overview.png)
++++ 瞭解Recommendations中的摘要
 
 此影片包含下列資訊:
 
@@ -376,7 +400,9 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### 建立摘要(6:44) ![教學課程徽章](/help/main/assets/tutorial.png)
++++
+
++++ 建立摘要
 
 此影片包含下列資訊:
 
@@ -384,3 +410,5 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 瞭解要使用哪種摘要類型
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696)
+
++++

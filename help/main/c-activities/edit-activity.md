@@ -16,7 +16,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 14%
@@ -76,7 +76,7 @@ ht-degree: 14%
 
 如果您屬於多國組織，可能會有一個工作區用於歐洲網頁、屬性或網站，以及另一個工作區用於美洲網頁、屬性或網站。 如果您屬於多品牌組織，則可能會有每個品牌的個別工作區。
 
-如需工作區與「企業使用者許可權」功能的詳細資訊，請參閱[企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
+如需工作區與「企業使用者許可權」功能的詳細資訊，請參閱[企業使用者許可權](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 如果您的環境中啟用了&#x200B;**[!UICONTROL 企業使用者許可權]**，您可以將活動複製到相同的工作區或另一個工作區。 您目前無法將活動從一個工作區移動至另一個工作區。 若要將活動複製到另一個工作區，請從&#x200B;**[!UICONTROL 活動]**&#x200B;頁面，按一下您要複製之活動旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmall.svg)），然後按一下&#x200B;**[!UICONTROL 複製]**。
 

@@ -19,14 +19,20 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5ed511322cc9f04c349471f8ad84a17526d4925f
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 80%
+source-wordcount: '1347'
+ht-degree: 54%
 ---
-# 自訂實體屬性
+# 自訂實體屬性 {#custom-entity-attributes}
 
-在[!DNL Adobe Target Recommendations]中使用單值和多值自訂實體屬性，以定義有關目錄中專案的其他資訊。
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何定義、傳送及使用描述您[!DNL Adobe Target Recommendations]目錄中的專案的單值及多值自訂實體屬性。
+
+>[!ENDSHADEBOX]
+
+在[!DNL Adobe Target Recommendations]中使用單值和多值自訂實體屬性，以定義有關目錄中專案的其他資訊。 然後，這些資訊便可用於演演算法包含規則、目錄規則和排除規則，並可在設計中顯示。
 
 ## 限制 {#limits}
 
@@ -34,7 +40,7 @@ ht-degree: 80%
 
 單值實體自訂屬性的長度上限為 15,000 個字元 (適用於單位元組和雙位元組 UTF-8 編碼語言，例如英文和其他拉丁字母) 或 10,000 個字元 (適用於三位元組 UTF-8 編碼語言，例如中文、日文和韓文)。
 
-多值實體自訂屬性不得包含超過 500 個值。 每個個別值限定為 100 個字元以內。 所有值的總字元數必須符合單值實體自訂屬性之長度上限的限制 (如上所述)。
+多值實體自訂屬性不得包含超過 500 個值。 每個個別值限定為 100 個字元以內。 所有值的字元總數必須符合單值實體自訂屬性之長度上限的限制（請參閱上文）。
 
 ## 自訂實體屬性值 {#section_313331A9F8194A89B5EDD89363018651}
 
@@ -67,7 +73,7 @@ ht-degree: 80%
 
 **限制**:
 
-* 您無法對自訂實體屬性使用預先定義的實體屬性名稱。 (請參閱[實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F))。
+* 您無法對自訂實體屬性使用預先定義的實體屬性名稱。 (請參閱[實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes))。
 * 屬性 `entity.environment` 由系統保留，並且無法用於自訂實體屬性。 嘗試使用 `entity.environment`、摘要或 API 來傳遞 `targetPageParams` 會被忽略。
 * 陣列必須包含單一值類型。 不支援混合值陣列 (`["AB",1,true]`)。
 * 含有巢狀 JSON 陣列 (`[10,12,[1,2,3]]`) 的多值屬性視為單值屬性。
@@ -78,11 +84,9 @@ ht-degree: 80%
 
 必須將雙引號逸出。 例如，`"[""test"", ""value""]"` 為可以在 CSV 中使用的有效 JSON 陣列。
 
-您在多值屬性中最多可以包含 500 個值。
-
 ### 使用targetpageparams
 
-下列範例顯示如何使用 `targetPageParams`
+下列範例顯示如何使用`targetPageParams`：
 
 ```javascript
 function targetPageParams() { 
@@ -91,10 +95,10 @@ function targetPageParams() {
     'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
     'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
     'entity.event.detailsOnly':     'true', 
-    'excludedIds":                  '[123, 3232, 2323, 4344]', 
-    'orderId":                      '123456', 
-    'orderTotal":                   '195.32', 
-    'productPurchaseId":            '[001,002,003]' 
+    'excludedIds':                  '[123, 3232, 2323, 4344]', 
+    'orderId':                      '123456', 
+    'orderTotal':                   '195.32', 
+    'productPurchaseId':            '[001,002,003]' 
   }; 
 }
 ```
@@ -151,113 +155,35 @@ function targetPageParams() {
 
 對於負數運算子，所有屬性值必須通過 (布林 *and*)。 例如，如果運運算元是`notEquals`，則任何值相符的結果將為&#x200B;*false*。
 
-請參閱下列章節，瞭解演演算法包含規則、目錄規則和排除規則中的運運算元行為。
+下表總結每個運運算元的行為方式，並提供每個範例規則的大小寫。
 
-### 等於
-
-如果有任何屬性值等於輸入值，則結果為 true。
-
-範例: `genre equals abc`
-
-* 案例 1: `entity.genre = ["ab", "bc", "de"]`。 結果為 false，因為沒有任何值等於 `abc`。
-* 案例 2: `entity.genre = ["abc", "de", "ef"]`。 結果為 true，因為有一個值等於 `abc`。
-* 案例3： `entity.genre = ["abcde", "de", "ef"]`。 結果為 false，因為 `abc` 不等於清單中的任何元素。
-
-### 不等於
-
-如果沒有任何屬性值等於輸入值，則結果為 true。
-
-範例: `genre not equals abc`
-
-* 案例 1: `entity.genre = ["ab", "bc", "de"]`。 結果為 true，因為沒有任何值等於 `abc`。
-* 案例 2: `entity.genre = ["abc", "de", "ef"]`。 結果為 false，因為有一個值等於 `abc`。
-* 案例3： `entity.genre = ["abcde", "de", "ef"]`。 結果為 true，因為 `abc` 不等於清單中的任何元素。
-
-### 包含
-
-如果屬性的任何值包含輸入值，則結果為 true。
-
-範例: `genre contains abc`
-
-* 案例 1: `entity.genre = ["ab", "bc", "de"]`。 結果為 false，因為沒有值包含 `abc`。
-* 案例 2: `entity.genre = ["abcde", "de", "ef"]`。 結果為 true，因為某個值包含 `abc`。
-
-### 不包含
-
-如果屬性的任何值都不包含輸入值，則結果為 true。
-
-範例: `genre does not contain abc`
-
-* 案例 1: `entity.genre = ["ab", "bc", "de"]`。 結果為 true，因為沒有任何值包含 `abc`。
-* 案例 2: `entity.genre = ["abcde", "de", "ef"]`。 規則的結果為 false，因為有一個值包含 `abc`。
-
-### 開始於
-
-如果屬性的任何值以輸入值開頭，則結果為 true。
-
-範例: `genre starts with abc`
-
-* 案例 1: `entity.genre = ["ab", "bc", "de"]`。 結果為 false，因為沒有任何值開頭為 `abc`。
-* 案例 2: `entity.genre = ["abcde", "de", "ef"]`。 結果為 true，因為某個值的開頭為 `abc`。
-* 案例3： `entity.genre = ["ab", "de", "abc"]`。 結果為 true，因為某個值的開頭為 `abc` (不一定是清單中的第一個元素)。
-
-### 終止於
-
-如果屬性的任何值結尾是輸入值，則結果為 true。
-
-範例: `genre ends with abc`
-
-* 案例 1: `entity.genre = ["ab", "bc", "de"]`。 結果為 false，因為沒有任何值結尾是 `abc`。
-* 案例 2: `entity.genre = ["deabc", "de", "ef"]`。 結果為 true，因為有一個值結尾是 `abc`。
-
-### 大於或等於 (僅限數值)
-
-屬性值會轉換為 double。 執行規則時會略過無法轉換的屬性。
-
-處理之後，如有任何屬性值大於或等於輸入值，則結果為true。
-
-範例: `price greater than or equal to 100`
-
-* 案例 1: `entity.price = ["10", "20", "45"]`。 結果為 false，因為沒有任何值大於或等於 100。 系統會略過值 `de`，因為無法將它轉換為 double。
-* 案例 2: `entity.price = ["100", "101", "90", "80"]`。 結果為 true，因為有兩個值大於或等於 100。
-
-### 小於或等於 (僅限數值)
-
-屬性值會轉換為 double。 執行規則時會略過無法轉換的屬性。
-
-處理之後，如有任何屬性值小於或等於輸入值，則結果為true。
-
-範例: `price less than or equal to 100`
-
-* 案例 1: `entity.price = ["101", "200", "141"]`。 結果為 false，因為沒有任何值小於或等於 100。 系統會略過值 `de`，因為無法將它轉換為 double。
-* 案例 2: `entity.price = ["100", "101", "90", "80"]`。 結果為 true，因為有兩個值小於或等於 100。
-
-### 動態符合 (僅適用於以項目為基礎的演算法)
-
-如果有任何屬性值符合輸入值，則結果為 true。
-
-範例: `genre matches abc`
-
-* 案例 1: `entity.genre = ["ab", "bc", "de"]`。 結果為 false，因為沒有任何值符合 `abc`。
-* 案例 2: `entity.genre = ["abc", "de", "ef"]`。 結果為 true，因為有一個值符合 `abc`。
-
-### 動態不符合 (僅適用於以項目為基礎的演算法)
-
-如果有任何屬性值符合輸入值，則結果為 false。
-
-範例: `genre does not match abc`
-
-* 案例 1: `entity.genre = ["ab", "bc", "de"]`。 結果為 true，因為沒有任何值符合 `abc`。
-* 案例 2: `entity.genre = ["abc", "de", "ef"]`。 規則的結果為 false，因為有一個值符合 `abc`。
-
-### 動態範圍 (僅適用於以項目為基礎的演算法、數值)
-
-如果有任何數字屬性值落在指定的範圍內，則結果為true。
-
-範例: `price dynamically ranges in 80% to 120% of 100`
-
-* 案例 1: `entity.price = ["101", "200", "125"]`。 結果為 true，因為 `101` 在 100 的 80% 到 120% 範圍內。 系統會略過值 `de`，因為無法將它轉換為 double。
-* 案例 2: `entity.price = ["130", "191", "60", "75"]`。 結果為 false，因為沒有任何值在 100 的 80% 到 120% 範圍內。
+| 運算子 | 當滿足以下條件時，結果為true | 規則範例 | 屬性值 | 結果 | 原因 |
+|---|---|---|---|---|---|
+| 等於 | 任何屬性值都等於輸入值。 | `genre equals abc` | `["ab", "bc", "de"]` | False | 沒有值等於`abc`。 |
+|  |  |  | `["abc", "de", "ef"]` | True | 一個值等於`abc`。 |
+|  |  |  | `["abcde", "de", "ef"]` | False | `abc`不等於清單中的任何元素。 |
+| 不等於 | 沒有屬性值等於輸入值。 | `genre not equals abc` | `["ab", "bc", "de"]` | True | 沒有值等於`abc`。 |
+|  |  |  | `["abc", "de", "ef"]` | False | 一個值等於`abc`。 |
+|  |  |  | `["abcde", "de", "ef"]` | True | `abc`不等於清單中的任何元素。 |
+| 包含 | 任何屬性值都包含輸入值。 | `genre contains abc` | `["ab", "bc", "de"]` | False | 沒有值包含`abc`。 |
+|  |  |  | `["abcde", "de", "ef"]` | True | 一個值包含`abc`。 |
+| 不包含 | 沒有屬性值包含輸入值。 | `genre does not contain abc` | `["ab", "bc", "de"]` | True | 沒有值包含`abc`。 |
+|  |  |  | `["abcde", "de", "ef"]` | False | 一個值包含`abc`。 |
+| 開始於 | 任何屬性值都會以輸入值開頭。 | `genre starts with abc` | `["ab", "bc", "de"]` | False | 沒有任何值以`abc`開頭。 |
+|  |  |  | `["abcde", "de", "ef"]` | True | 一個值以`abc`開頭。 |
+|  |  |  | `["ab", "de", "abc"]` | True | 一個值以`abc`開頭（不一定是清單中的第一個元素）。 |
+| 終止於 | 任何屬性值都以輸入值結尾。 | `genre ends with abc` | `["ab", "bc", "de"]` | False | 沒有任何值結尾是`abc`。 |
+|  |  |  | `["deabc", "de", "ef"]` | True | 一個值的結尾是`abc`。 |
+| 大於或等於 (僅限數值) | 任何屬性值大於或等於輸入值。 每個值都會轉換為double，而規則執行時會略過無法轉換的值。 | `price greater than or equal to 100` | `["10", "20", "45", "de"]` | False | 沒有值大於或等於100。 系統會略過值 `de`，因為無法將它轉換為 double。 |
+|  |  |  | `["100", "101", "90", "80"]` | True | 兩個值大於或等於100。 |
+| 小於或等於 (僅限數值) | 任何屬性值都小於或等於輸入值。 每個值都會轉換為double，而規則執行時會略過無法轉換的值。 | `price less than or equal to 100` | `["101", "200", "141", "de"]` | False | 沒有值小於或等於100。 系統會略過值 `de`，因為無法將它轉換為 double。 |
+|  |  |  | `["100", "101", "90", "80"]` | True | 兩個值小於或等於100。 |
+| 動態符合 (僅適用於以項目為基礎的演算法) | 任何屬性值都與輸入值相符。 | `genre matches abc` | `["ab", "bc", "de"]` | False | 沒有值符合`abc`。 |
+|  |  |  | `["abc", "de", "ef"]` | True | 有一個值符合`abc`。 |
+| 動態不符合 (僅適用於以項目為基礎的演算法) | 沒有符合輸入值的屬性值。 如果有任何屬性值相符，則結果為false。 | `genre does not match abc` | `["ab", "bc", "de"]` | True | 沒有值符合`abc`。 |
+|  |  |  | `["abc", "de", "ef"]` | False | 有一個值符合`abc`。 |
+| 動態範圍 (僅適用於以項目為基礎的演算法、數值) | 任何數值屬性值都位於指定的範圍內。 | `price dynamically ranges in 80% to 120% of 100` | `["101", "200", "125", "de"]` | True | `101`在100的80%到120%範圍內。 系統會略過值 `de`，因為無法將它轉換為 double。 |
+|  |  |  | `["130", "191", "60", "75"]` | False | 沒有任何值在100的80%到120%範圍內。 |
 
 >[!NOTE]
 >
@@ -271,6 +197,6 @@ function targetPageParams() {
 
 在設計中將 `entity.genre=["genre1","genre2"]` 當成 `$entity<N>.genre` 來參照時，結果就是 `genre1, genre2`。
 
-## 相關主題:
+## 相關主題
 
-* [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [實體屬性](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes)

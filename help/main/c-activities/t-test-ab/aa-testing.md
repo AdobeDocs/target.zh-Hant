@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '915'
 ht-degree: 1%
 ---
 # A/A 測試 {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-A/A測試會在兩個相同的體驗之間分割流量。 由於體驗沒有差異，測試是檢查活動、實施和報告是否如預期般運作的方法。 即使如此，相同的體驗有時也會顯示提升度的差異。 瞭解為何可協助您執行測試並正確解讀結果。
+A/A測試會在兩個相同的體驗之間分割流量，因此測試是檢查活動、實作和報告是否如預期般運作的方法。 即使如此，相同的體驗有時也會顯示提升度的差異。 瞭解為何可協助您執行測試並正確解讀結果。
 
 ## 什麼是A/A測試？ {#what-is-aa}
 

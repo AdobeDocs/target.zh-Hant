@@ -19,7 +19,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: af388cf398e03e4ec7b4c5c44b03f772eacedf51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 16%
@@ -58,9 +58,9 @@ ht-degree: 16%
 
    +++ 深入瞭解對象
 
-   客群資料庫包含先前已定義的客群，包括一些隨著 [!DNL Target] 預先建置的共通客群。 您可以從資料庫中選取客群或[建立新客群](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
+   客群資料庫包含先前已定義的客群，包括一些隨著 [!DNL Target] 預先建置的共通客群。 您可以從資料庫中選取客群或[建立新客群](/help/main/c-target/c-audiences/audiences.md)。
 
-   除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。 如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+   除了選取現有對象，您可以結合多個對象來建立隨選結合的對象而非建立新對象。 如需詳細資訊，請參閱[合併多個客群](/help/main/c-target/combining-multiple-audiences.md)。
 
    建立對象時，您可以選取位置並指定該位置的引數。 在&#x200B;**[!UICONTROL 自訂]** （**[!UICONTROL 建立對象]** > **[!UICONTROL 自訂]**）下，選取位置，然後指定所要的引數。
 
@@ -68,11 +68,11 @@ ht-degree: 16%
 
    +++
 
-1. 選取體驗要鎖定的一或多個對象，然後按一下&#x200B;**[!UICONTROL 指派對象]**。
+1. Select要以體驗鎖定一或多個對象，然後按一下&#x200B;**[!UICONTROL 指派對象]**。
 
    **[!UICONTROL 體驗B]**&#x200B;現在顯示在上圖中，且此體驗已鎖定適當的對象。
 
-1. 選取您要針對此體驗變更的元素，並進行所需的變更，如步驟1中所述。
+1. Select是您想要針對此體驗變更的元素，並進行所需的變更，如步驟1所述。
 
 1. 視需要重複上述步驟，建立其他鎖定目標的體驗。
 
