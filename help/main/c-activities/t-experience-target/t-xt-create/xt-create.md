@@ -65,7 +65,7 @@ ht-degree: 32%
 
 1. （視條件而定）如果您是[!DNL Target Premium]客戶，[請選擇工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#ab-activity-url)，然後按一下[建立]。**** VEC 隨即開啟，顯示 URL 中指定的頁面。
+1. 指定您的[活動URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#ab-activity-url)，然後按一下[建立]。**&#x200B;** VEC 隨即開啟，顯示 URL 中指定的頁面。
 
    如果您的帳戶[設定了預設的 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，該 URL 依預設會顯示。 您可以視需要將預設 URL 變更為其他 URL。
 

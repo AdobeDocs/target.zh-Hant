@@ -60,7 +60,7 @@ ht-degree: 12%
 
 1. 從活動的&#x200B;**[!UICONTROL 總覽]**&#x200B;頁面，按一下&#x200B;**[!UICONTROL 活動QA]**。
 
-   概觀頁面](../assets/activity-qa.png)活動位置區段中的![活動QA按鈕
+   概觀頁面![&#128279;](../assets/activity-qa.png)活動位置區段中的活動QA按鈕
 
 1. 設定&#x200B;**[!UICONTROL 符合對象規則以檢視體驗]**，以選擇測試者是否必須符合對象的資格。 開啟以確認您的對象比對有效果，或關閉以檢查活動的外觀。
 
@@ -148,7 +148,7 @@ ht-degree: 12%
 
 +++ 具有「URL為」條件的活動
 
-如果您在表單式撰寫器](/help/main/c-experiences/form-experience-composer.md)的[細分或視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)的[頁面傳送選項中建立活動時指定「URL是」，則QA URL無法運作，因為&#x200B;**[!UICONTROL 活動QA]**&#x200B;會附加URL引數。 若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
+如果您在表單式撰寫器[&#128279;](/help/main/c-experiences/form-experience-composer.md)的[細分或視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)的頁面傳送選項中建立活動時指定「URL是」，則QA URL無法運作，因為&#x200B;**[!UICONTROL 活動QA]**&#x200B;會附加URL引數。 若要解決此問題，請按一下 QA URL 前往您的網站，從 URL 中移除附加的參數，然後載入新的 URL。
 
 +++
 

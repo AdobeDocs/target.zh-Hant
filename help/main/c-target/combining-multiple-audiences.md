@@ -73,7 +73,7 @@ ht-degree: 55%
       >
       >合併客群時，運算子 (AND 或 OR) 必須保持相同。 您不能混用 &amp; 比對運算子。
 
-   1. 若要將排除專案新增至規則，請按一下[排除]。****
+   1. 若要將排除專案新增至規則，請按一下[排除]。**&#x200B;**
 
       ![combine_multiple_audiences3a影像](assets/combine_multiple_audiences3a.png)
 
