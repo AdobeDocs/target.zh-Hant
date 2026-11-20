@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 6e92e2e42c88d0802335f14e388ea24af239fa51
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 61%
@@ -47,7 +47,7 @@ ht-degree: 61%
 >
 >為獲得最佳體驗並與他人分享，請下載互動式 [Adobe Target](/help/main/assets/activities_guide_82817.pdf) 活動指南 PDF。
 >
->本文不包含有關[**[!UICONTROL Recommendations &#x200B;]**&#x200B;活動](/help/main/c-recommendations/recommendations.md)的資訊。 不過，您可以在&#x200B;**[!UICONTROL &#x200B; A/B測試&#x200B;]**、**[!UICONTROL &#x200B;自動分配&#x200B;]**、**[!UICONTROL &#x200B;自動鎖定目標&#x200B;]**&#x200B;和&#x200B;**[!UICONTROL &#x200B;體驗鎖定目標&#x200B;]**(XT)活動中包含建議。 如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。 若要使用此功能，您必須具備 [Target Premium 授權](/help/main/c-intro/intro.md#premium)。
+>本文不包含有關[**[!UICONTROL Recommendations ]**活動](/help/main/c-recommendations/recommendations.md)的資訊。 不過，您可以在**[!UICONTROL  A/B測試&#x200B;]**、**[!UICONTROL &#x200B;自動分配&#x200B;]**、**[!UICONTROL &#x200B;自動鎖定目標&#x200B;]**和**[!UICONTROL &#x200B;體驗鎖定目標&#x200B;]**(XT)活動中包含建議。 如需詳細資訊，請參閱 [推薦作為產品建議](/help/main/c-recommendations/recommendations-as-an-offer.md)。 若要使用此功能，您必須具備 [Target Premium 授權](/help/main/c-intro/intro.md#premium)。
 
 ## 它有什麼作用？ {#section_4ECAACC68723402EB3649033190E1BBC}
 
@@ -101,5 +101,5 @@ ht-degree: 61%
 | **[!UICONTROL 自動分配]** | **[!UICONTROL 自動分配]**&#x200B;可降低一般A/B測試的成本，因為它的整體轉換率比手動A/B測試高。 轉換率較高，因為&#x200B;**[!UICONTROL 自動分配]**&#x200B;會將更多流量推送至表現最佳的體驗，這表示您可以在測試期間結束前即意識到成功體驗的好處（您可以窺視！）。 | **[!UICONTROL 自動分配]**&#x200B;會識別獲勝者，但不會區分失敗者。 如果您必須知道每個體驗執行的如何，建議您使用 A/B 測試。<P>**[!UICONTROL 自動分配]**&#x200B;功能只能與一個進階量度設定搭配使用，即「增加計數以及讓使用者留在活動中」。 如果您不想要計算重複的轉換，您應該改為使用 A/B 測試。 |
 | **[!UICONTROL 自動鎖定目標]** | 透過&#x200B;**[!UICONTROL 自動鎖定目標]**，機器學習可套用至任何型別的體驗，包括多頁體驗。 **[!UICONTROL 自動鎖定目標]**&#x200B;活動也可讓您在使用熟悉的A/B測試工作流程時取得&#x200B;**[!UICONTROL Automated Personalization]**&#x200B;的值。 | 透過&#x200B;**[!UICONTROL 自動鎖定目標]**，如果您想要經常或頻繁變更優惠方案的內容，演演算法需要在每次變更後有足夠的時間加以利用，以便學習的內容並將內容傳送給適當的訪客。 |
 | **[!UICONTROL Automated Personalization]** (AP) | 透過&#x200B;**[!UICONTROL Automated Personalization]**，您可以在一個位置收集所有優惠方案，而演演算法會決定最佳優惠方案組合。 您不需指定或建置個別的體驗。 **[!UICONTROL Automated Personalization]**&#x200B;使用與&#x200B;**[!UICONTROL 自動鎖定目標]**&#x200B;相同的機器學習演演算法。 | 當您結合多個產品建議時會發生組合上的爆增，因而導致需要龐大的流量。 **[!UICONTROL Automated Personalization]**&#x200B;演演算法考慮許多因素；因此，需要最多的流量。<P>**[!UICONTROL Automated Personalization]**&#x200B;無法在[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)中使用報表。 |
-| **[!UICONTROL Multivariate Testing]** (MVT) | 透過&#x200B;**[!UICONTROL Multivariate Testing]**，您可以同時測試多個元素。 | **[!UICONTROL 多變數測試]**&#x200B;很耗時，而且因為有多個變數在起作用，所以不一定能產生有把握的成功體驗。<P>要達到完成測試所需的流量經常充滿挑戰。 因為所有&#x200B;**[!UICONTROL 多變數測試]**&#x200B;實驗都是全階乘，一次太多變更的元素可能會快速增加必須測試的許多可能組合。<P>即便是具有非常高流量的網站，也可能難以在適當的時間內完成具有超過 25 個組合的測試。 |
+| **[!UICONTROL Multivariate Testing]** (MVT) | 透過&#x200B;**[!UICONTROL Multivariate Testing]**，您可以同時測試多個元素。 | **[!UICONTROL 多變數測試]**&#x200B;很耗時，而且因為有多個變數在起作用，所以不一定能產生有把握的成功體驗。<P>要達到完成測試所需的流量經常充滿挑戰。 所有&#x200B;**[!UICONTROL 多變數測試]**&#x200B;實驗都是全階乘，因此一次太多變更的元素可以快速增加許多必須測試的可能組合。<P>即便是具有非常高流量的網站，也可能難以在適當的時間內完成具有超過 25 個組合的測試。 |
 | **[!UICONTROL 體驗鎖定]** (XT) | 透過&#x200B;**[!UICONTROL 體驗鎖定目標]**，您可以快速根據任何活動結果推斷出的深入分析採取行動。<P>例如，如果您執行A/B測試時，其中的挑戰者並未優於控制，但結果指出某個特定訪客區段對挑戰者的轉換比控制多四倍，則您可以使用&#x200B;**[!UICONTROL 體驗鎖定目標]**&#x200B;將挑戰者體驗導向至該特定區段。 | **[!UICONTROL 體驗鎖定目標]**&#x200B;不允許您控制跨多個對象間體驗的分割百分比。 |

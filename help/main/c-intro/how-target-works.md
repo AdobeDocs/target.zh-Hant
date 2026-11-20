@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -69,19 +69,19 @@ ht-degree: 20%
 
 Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此使用者端JavaScript程式庫可讓[!DNL Adobe Experience Cloud]客戶透過[!DNL Experience Platform Edge Network]與各種服務互動。 [!DNL Adobe]建議新[!DNL Target]客戶實作[!DNL Experience Platform Web SDK]。
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**：此使用者端JavaScript程式庫可讓[!DNL Adobe Experience Cloud]客戶透過[!DNL Experience Platform Edge Network]與各種服務互動。 [!DNL Adobe]建議新[!DNL Target]客戶實作[!DNL Experience Platform Web SDK]。
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**：這個[!DNL Target]的實作程式庫可縮短Web實作的頁面載入時間，並為單頁應用程式提供更好的選項。 經常更新新功能，[!DNL Adobe]建議所有[at.js使用者更新至最新版本](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 >[!NOTE]
 >
 >mbox.js資料庫是[!DNL Target]的舊版實作，自2021年3月31日起不再支援。 升級至[!UICONTROL Experience Platform Web SDK] （偏好設定）或at.js最新版本。
 
-在您網站的每個頁面上參考[!UICONTROL Experience Platform Web SDK]或at.js。 例如，將其中一個程式庫新增至全域標頭。 或者，使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home){target=_blank}中的標籤來實作[!DNL Target]。
+在您網站的每個頁面上參考[!UICONTROL Experience Platform Web SDK]或at.js。 例如，將其中一個程式庫新增至全域標頭。 或者，使用Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的[標籤來實作[!DNL Target]。
 
 下列資源包含協助您實作 [!DNL Experience Platform Web SDK] 或 at.js 的詳細資訊：
 
-* [[!DNL Adobe Experience Platform Web SDK]副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hant){target=_blank}
-* [使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK]副檔名](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [使用 [!DNL Adobe Experience Platform]實作 [!DNL Target] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次訪客請求針對[!DNL Target]最佳化的頁面時，就會傳送即時請求給目標定位系統，以決定要提供的內容。 每次頁面載入時，都會提出並完成此要求，受行銷人員控制的活動和體驗管理。 內容將目標鎖定在個別網站訪客，最大化回應率、贏取率和收入。 個人化內容可協助確保訪客回應、互動或進行購買。
 
@@ -136,7 +136,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js與網站整合：
 
 [!UICONTROL Recommendations]活動可依據客戶先前的活動或其他演演算法，自動顯示可能吸引客戶的產品或內容。 Recommendations有助於將客戶導向他們原本可能無法發現的相關專案。
 
-如需詳細資訊，請參閱 [推薦](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
+如需詳細資訊，請參閱 [推薦](/help/main/c-recommendations/recommendations.md)。
 
 <!--
 ## How [!DNL Target] counts server-call usage {#usage}
@@ -213,7 +213,7 @@ The following information helps you understand the counting strategy used for [!
 >
 >[!DNL Target]目前在中國缺少Edge叢集，因此限制了該區域[!DNL Target]客戶的訪客效能。 防火牆和缺少Edge叢集可能會影響網站體驗，導致轉譯和頁面載入速度緩慢。 此外，行銷人員在使用[!DNL Target]編寫UI時可能會遇到延遲。
 
-如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如有需要，您可以允許列出 [!DNL Target] 邊緣群集。 如需更多資訊，請參閱 [允許列出 Target 邊緣節點](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保護的使用者體驗 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -244,7 +244,7 @@ The following information helps you understand the counting strategy used for [!
 
 * **使用rel=&quot;canonical&quot;**：有時A/B測試需要不同的URL才能顯示變數。 在這些情況下，所有變異都應該包含參照原始（控制） URL的rel=&quot;canonical&quot;標籤。 例如，如果[!DNL Adobe]正在測試其首頁是否有每個變數的不同URL，首頁的下列canonical標籤應該放在每個變數的`<head>`標籤中：
 
-  `<link rel="canonical" href="https://www.adobe.com/tw" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **使用302 （暫時）重新導向**：當測試中的變異頁面使用個別URL時，[!DNL Google]建議使用302重新導向，將流量導向測試變異。 302重新導向會通知搜尋引擎，重新導向是暫時性的，而且只有在測試執行時才有效。
 

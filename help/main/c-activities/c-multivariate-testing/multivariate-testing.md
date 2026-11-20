@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 24%
@@ -44,7 +44,7 @@ ht-degree: 24%
 
 ![多變數測試組合](assets/multivariate.png)
 
-由於可產生的組合數目，**[!UICONTROL 多變數測試]**&#x200B;比A/B測試需要更多時間和流量。 頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。 若要獲得有用的結果，請瞭解您的頁面收到的流量量，並測試適當時間量的最佳組合數量。
+**[!UICONTROL 多變數測試]**&#x200B;需要的時間與流量比A/B測試還多，因為可產生的組合數目很多。 頁面必須接收足夠的流量，才能為每一個體驗產生統計顯著的結果。 若要獲得有用的結果，請瞭解您的頁面收到的流量量，並測試適當時間量的最佳組合數量。
 
 [流量估算程式](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#traffic-estimator)可協助您設計適用於流量的測試。 使用前，您應先具備良好的統計資料，顯示網站一般會收到的曝光次數和轉換次數，並考量您每日的流量層級。 活動擁有的體驗越多，活動必須包含的流量就越多，或必須執行的時間越長。 如果您的流量量不高，請測試幾個組合。 否則，產生有意義的測試結果所需的時間可能太長，以致於沒有用處。
 

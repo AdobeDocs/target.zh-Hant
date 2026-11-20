@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -120,5 +120,5 @@ ht-degree: 1%
 
 ![](assets/insights-7.png){align="center"}
 
-**[!UICONTROL 特定期間的活動]**&#x200B;圖表會追蹤在選取的時間範圍內建立、修改和發佈的活動數量，讓您在實驗方案中輕鬆發現趨勢、尖峰或靜默期。
+**[!UICONTROL 特定期間的活動]**&#x200B;圖表會追蹤在選取的時間範圍內建立、修改和發佈的活動數量，因此您可以在實驗方案中識別趨勢、尖峰或靜默期。
 

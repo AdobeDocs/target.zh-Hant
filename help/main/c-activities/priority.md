@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 19%
@@ -50,7 +50,7 @@ ht-degree: 19%
    {{visitor-matching}}
 
 1. 訪客相符的所有活動和體驗的內容會傳回至頁面，以便針對相同呼叫傳送來自數個活動的內容。
-1. [!DNL Target]比較每個活動內容參考的[CSS選取器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)。 如果活動參考不同的選取器，則會顯示所有內容。
+1. [!DNL Target]比較每個活動內容參考的[CSS選取器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)。 如果活動參考不同的選取器，則會顯示所有內容。
 1. 如果選取器重疊或重複，則會顯示最高優先順序活動的內容。
 
    >[!IMPORTANT]
@@ -126,4 +126,4 @@ ht-degree: 19%
 * 新增報表的對象，以建立報表篩選器
 * 輸入活動的備註
 
->[!VIDEO](https://video.tv.adobe.com/v/3507952?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)

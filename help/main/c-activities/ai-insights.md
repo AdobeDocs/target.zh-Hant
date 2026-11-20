@@ -4,12 +4,18 @@ description: 瞭解如何在Adobe Target活動概觀中使用AI產生的深入�
 title: 活動概觀中的AI深入分析
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 36%
+source-wordcount: '788'
+ht-degree: 35%
 ---
-# AI深入分析
+# AI深入分析 {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用[!DNL Adobe Target] **[!UICONTROL 活動總覽]**&#x200B;的&#x200B;**[!UICONTROL AI深入分析]**&#x200B;功能表來檢閱實驗學習、比較處理方式及識別最佳化機會。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

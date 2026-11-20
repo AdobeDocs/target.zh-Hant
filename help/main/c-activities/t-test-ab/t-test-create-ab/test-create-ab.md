@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # 建立A/B測試活動 {#create-ab-activity}
@@ -134,7 +134,7 @@ ht-degree: 10%
 
    +++
 
-1. 按一下&#x200B;**[!UICONTROL 流量分配]**&#x200B;控制項，然後在右窗格中選擇流量分配方法。 請參閱[流量分配方法](#traffic-allocation-methods)。
+1. 按一下&#x200B;**[!UICONTROL 流量分配]**&#x200B;控制項，然後在右窗格中選擇流量分配方法。 下表列出可用的方法。
 
    ![流量分配方法設定](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -143,7 +143,7 @@ ht-degree: 10%
    | 方法 | 作用 |
    |---|---|
    | **[!UICONTROL 手動（預設）]** | 指定您希望在各體驗上看見的加入者百分比。 您可以在所有體驗之間分割百分比，或對每個體驗指定較高或較低的百分比。 所有體驗的總計必須等於 100%。 |
-   | **[!UICONTROL 自動分配至最佳體驗]** | 系統會自動將多數活動加入者導向表現較佳的體驗。 有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。 如需詳細資訊，請參閱[**[!UICONTROL 自動分配&#x200B;]**&#x200B;總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)。 |
+   | **[!UICONTROL 自動分配至最佳體驗]** | 系統會自動將多數活動加入者導向表現較佳的體驗。 有些訪客會被分配至所有體驗，以保持能夠利用體驗並且可識別效能趨勢中的變更。 如需詳細資訊，請參閱[**[!UICONTROL 自動分配&#x200B;]**總覽](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)。 |
    | **[!UICONTROL 針對個人化體驗自動鎖定目標]** | [!DNL Target]使用進階機器學習來個人化內容，並透過識別多個高效能、行銷人員定義的體驗，然後根據訪客的個別客戶設定檔與類似訪客先前的行為，提供訪客量身打造的最佳體驗，藉此促進轉換。 如需詳細資訊，請參閱[自動鎖定目標總覽](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
    +++
@@ -156,7 +156,7 @@ ht-degree: 10%
 
 在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上，您指示[!DNL Target]如何測量活動。 可用的設定視您使用[!DNL Target]或[Analytics做為報表來源](/help/main/c-integrating-target-with-mac/a4t/a4t.md)而定。
 
-1. 檢閱頁面的區段並設定您需要的專案。 檢視[您在目標與設定頁面](#goals-settings-overview)上設定的專案。
+1. 檢閱頁面的區段並設定您需要的專案。 檢視[您在目標與設定頁面](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)上設定的專案。
 
    | 區域 | 您設定的專案 |
    |---|---|

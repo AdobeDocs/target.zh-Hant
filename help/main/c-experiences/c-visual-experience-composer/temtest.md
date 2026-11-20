@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 23%
@@ -45,7 +45,7 @@ ht-degree: 23%
 
 您可以指定包含變更元素的頁面，或將變更套用至您的網站或網域。
 
-1. 建立或編輯活動，如[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中所述。
+1. 建立或編輯活動，如[活動](/help/main/c-activities/activities.md)中所述。
 
 1. 若要指定顯示體驗的頁面，請在[!UICONTROL 視覺化體驗撰寫器] (VEC)中按一下[!UICONTROL 設定]圖示（ ![設定圖示](/help/main/assets/icons/Setting.svg) ），然後選取&#x200B;**[!UICONTROL 頁面傳送]**。
 
@@ -101,7 +101,7 @@ ht-degree: 23%
 * 加入全球橫幅（例如COVID-19公告）
 * 包含全球免運費促銷活動
 
-1. 建立或編輯活動，如[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中所述。
+1. 建立或編輯活動，如[活動](/help/main/c-activities/activities.md)中所述。
 
 1. 若要指定顯示體驗的網域，請在[!UICONTROL 視覺化體驗撰寫器]中按一下[!UICONTROL 設定]圖示（ ![設定圖示](/help/main/assets/icons/Setting.svg)），然後選取&#x200B;**[!UICONTROL 頁面傳送]**。
 

@@ -1,6 +1,6 @@
 ---
 keywords: 客群;客群規則;合併客群;排除;新增排除項目;隨選客群
-description: 瞭解如何立即結合多個對象（包括Adobe Experience Cloud對象和 [!DNL Target] 對象）以建立隨選對象。
+description: 瞭解如何立即結合多個對象（包括Adobe Experience Cloud對象和[!DNL Target]對象）以建立隨選對象。
 title: 我可以合併多個對象以建立新對象嗎？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
@@ -16,20 +16,18 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: '965'
 ht-degree: 55%
-
 ---
-
 # 合併多個客群
 
 即時合併多個對象（包括[!DNL Adobe Experience Cloud]、[!DNL Adobe Experience Platform]和[!DNL Target]對象）以建立隨選對象。 您也可以從規則建立排除規則和排除對象。
 
 >[!NOTE]
 >
->使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}的所有[!DNL Target]客戶都可使用[!DNL Adobe Experience Platform]來源。 [!DNL Adobe Experience Platform]中可用的對象可以如原樣使用，或如本主題中所述，與現有對象結合。
+>使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}的所有[!DNL Target]客戶都可使用[!DNL Adobe Experience Platform]來源。 [!DNL Adobe Experience Platform]中可用的對象可以如原樣使用，或如本主題中所述，與現有對象結合。
 >
 >如需詳細資訊，請參閱[使用來自Adobe Experience Platform的對象](/help/main/c-target/c-audiences/audiences.md#aep)。
 
@@ -45,7 +43,7 @@ ht-degree: 55%
 
 在三步驟引導式工作流程期間，您可以在活動的 [!UICONTROL Target] 頁面上建立隨選合併的對象。
 
-1. 建立[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)時，請在&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面上按一下三個垂直的點，然後按一下&#x200B;**[!UICONTROL 取代對象]**。
+1. 建立[活動](/help/main/c-activities/activities.md)時，請在&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面上按一下三個垂直的點，然後按一下&#x200B;**[!UICONTROL 取代對象]**。
 
    ![步驟結果](assets/edit_audience.png)
 
@@ -69,13 +67,13 @@ ht-degree: 55%
 
       ![combine_multiple_audiences3圖片](assets/combine_multiple_audiences3.png)
 
-      請注意，兩個瀏覽器類型客群之間的運算子是 &quot;AND&quot;。 選取[!UICONTROL 和]下拉式清單，並將其變更為「或」，即可針對使用Firefox或Safari的新訪客建立新的合併對象。 請小心，避免建立規則來排除所有可能的客群成員。 例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
+      請注意，兩個瀏覽器類型客群之間的運算子是 &quot;AND&quot;。 Select [!UICONTROL 和]下拉式清單，並將其變更為「或」，即可針對使用Firefox或Safari的新訪客建立新的合併對象。 請小心，避免建立規則來排除所有可能的客群成員。 例如，某人無法同時使用 Firefox 與 Safari 來造訪頁面。
 
       >[!NOTE]
       >
       >合併客群時，運算子 (AND 或 OR) 必須保持相同。 您不能混用 &amp; 比對運算子。
 
-   1. 若要將排除專案新增至規則，請按一下[排除]。**&#x200B;**
+   1. 若要將排除專案新增至規則，請按一下[排除]。****
 
       ![combine_multiple_audiences3a影像](assets/combine_multiple_audiences3a.png)
 
@@ -95,7 +93,7 @@ ht-degree: 55%
 
 您可以在活動的[!UICONTROL 「目標與設定」]頁面上建立隨選合併對象，以用於量度鎖定目標。 例如，若要使用合併的對象以根據轉換來建立鎖定目標，請執行下列動作:
 
-1. 編輯或建立[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)時，請在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上選取&#x200B;**[!UICONTROL 轉換]**&#x200B;作為成功量度，然後選取&#x200B;**[!UICONTROL 已檢視Mbox]**&#x200B;作為動作。
+1. 編輯或建立[活動](/help/main/c-activities/activities.md)時，請在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上選取&#x200B;**[!UICONTROL 轉換]**&#x200B;作為成功量度，然後選取&#x200B;**[!UICONTROL 已檢視Mbox]**&#x200B;作為動作。
 1. 在&#x200B;**[!UICONTROL 「搜尋 Mbox」]**&#x200B;欄位中選取所需的 Mbox。
 
    ![combine_multiple_audiences4影像](assets/combine_multiple_audiences4.png)
@@ -111,7 +109,7 @@ ht-degree: 55%
 
 您可以在活動的[!UICONTROL 「目標與設定」]頁面上建立隨選合併對象，以用於報表。
 
-1. 編輯或建立[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)時，請在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上按一下[!UICONTROL 報表對象]下的&#x200B;**[!UICONTROL 新增對象]**&#x200B;圖示，以顯示[!UICONTROL 選擇對象]頁面。
+1. 編輯或建立[活動](/help/main/c-activities/activities.md)時，請在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上按一下[!UICONTROL 報表對象]下的&#x200B;**[!UICONTROL 新增對象]**&#x200B;圖示，以顯示[!UICONTROL 選擇對象]頁面。
 
    ![combine_multiple_audiences6圖片](assets/combine_multiple_audiences6.png)
 

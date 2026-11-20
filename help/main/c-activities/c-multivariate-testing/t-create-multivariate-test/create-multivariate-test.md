@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 16%
 ---
 # 建立多變數測試 {#create-mvt}
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-在[!DNL Adobe Target]中的&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)可讓您輕鬆建立&#x200B;**[!UICONTROL 多變數測試]**，以及在[!DNL Target]內修改頁面的部分。
+[!DNL Adobe Target]中的&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)可讓您建立&#x200B;**[!UICONTROL 多變數測試]**，以及在[!DNL Target]內修改頁面的部分。
 
 [!DNL Target]點選編輯器可讓您挑選任何位置並新增多個選件。
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 
 1. 按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL 多變數測試]**。
 
-   如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 請參閱[Target 活動類型](/help/main/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
+   如需有關 [!DNL Target] 提供的各種活動類型及其差異的詳細資訊，請參閱[活動](/help/main/c-activities/activities.md#types)。 請參閱[Target 活動類型](/help/main/c-activities/target-activities-guide.md)，協助您決定哪種活動類型最適合您的需求。
 
    ![](../../assets/create-mvt-1.png)
 
@@ -94,13 +94,13 @@ ht-degree: 16%
 
 1. 若要排除一個體驗，請按一下該體驗旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg)），然後按一下&#x200B;**[!UICONTROL 排除]**。
 
-1. 若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下[排除]。**&#x200B;**
+1. 若要排除多個體驗，請選取所需體驗的核取方塊，然後按一下[排除]。****
 
 ## 設定目標 {#set-targeting}
 
 選擇哪些訪客進入測試，並檢閱測試摘要。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以存取&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面。
+1. 按一下[下一步]****&#x200B;以存取&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;頁面。
 
    流程圖表將引導您進行指派對象及其流量百分比、選取流量分配方法，以及指定活動中每個體驗的流量分配的步驟。
 
@@ -126,13 +126,13 @@ ht-degree: 16%
 
    +++
 
-1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary)並進行任何需要的變更，然後按一下[下一步]&#x200B;**。**
+1. [檢閱測試摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary)並進行任何需要的變更，然後按一下[下一步]]**。**[!UICONTROL 
 
 ## 設定目標與設定 {#configure-goals-and-settings}
 
 在&#x200B;**[!UICONTROL 目標與設定]**&#x200B;頁面上，您指示[!DNL Target]如何測量測試。 可用的設定視您使用[!DNL Target]或[!DNL Analytics]作為報表來源而定。
 
-1. 檢閱頁面的區段並設定您需要的專案。 檢視[您在目標與設定頁面](#goals-settings-overview)上設定的專案。
+1. 檢閱頁面的區段並設定您需要的專案。 檢視[您在目標與設定頁面](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)上設定的專案。
 
 
    | 區域 | 您設定的專案 |

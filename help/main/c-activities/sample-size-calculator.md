@@ -4,12 +4,18 @@ description: 使用Adobe Target樣本大小電腦來預估實驗持續時間、�
 title: 樣本數計算器
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
+source-git-commit: 39876928cad809220f39c0ffe104edf9422e2773
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 35%
+source-wordcount: '1632'
+ht-degree: 34%
 ---
-# 樣本數計算器
+# 樣本數計算器 {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用[!DNL Adobe Target]樣本大小計算器來估算A/B測試的流量、持續時間、體驗數量或可偵測的最小效果。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
@@ -100,7 +106,7 @@ ht-degree: 35%
 
    * **[!UICONTROL 統計檢定力]**：偵測實際效果的可能性。 80%的電源可減少誤報，但需要更多流量或時間。
 
-1. 選取&#x200B;**[!UICONTROL 執行計算]**&#x200B;以產生預估值。 選取&#x200B;**[!UICONTROL 重設]**&#x200B;以清除目前的輸入並重新啟動。
+1. Select **[!UICONTROL 執行計算]**&#x200B;以產生預估值。 Select **[!UICONTROL 重設]**&#x200B;以清除目前的輸入，然後重新開始。
 
 在您完成必要欄位並執行計算之後，**[!UICONTROL 結果]**&#x200B;面板會顯示預估值。 如果必填欄位不完整，面板會提示您輸入缺少的值。
 
@@ -157,7 +163,7 @@ ht-degree: 35%
 
    * **[!UICONTROL 變數]**：量度值的分佈方式。 點進率通常具有低變異數，每位使用者的收入可能會高很多。 如果您不確定，請保留預設值 1。
 
-     在[Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中瞭解如何計算&#x200B;**[!UICONTROL 變數]**
+     在[Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)中瞭解如何計算&#x200B;**[!UICONTROL 變數]**
 
      ![](assets/calculator-cja-analytics-2.png)
 

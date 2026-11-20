@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: abab6b3e464bb9f294e9c3c455dca1f57bb0d458
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 24%
+source-wordcount: '1732'
+ht-degree: 18%
 ---
 # 目標與設定 {#ab-goals-and-settings}
 
@@ -103,14 +103,14 @@ ht-degree: 24%
 
   若要指定報表來源，請先從您帳戶繫結的[!DNL Analytics]家公司中選擇任一，接著為該活動選取適當的報表套裝。 只有布建為連線至[!DNL Adobe Target]的報表套裝才可供選取。 如果您沒有看到預期的報表套裝，請先嘗試登出並重新登入[!DNL Adobe Experience Cloud]以重試。 如果清單中仍缺少報表套裝，請聯絡客戶服務。
 
-  [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在&#x200B;**[!UICONTROL 追蹤伺服器]**&#x200B;欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
+  [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在&#x200B;**[!UICONTROL 追蹤伺服器]**&#x200B;欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md)。
   +++
 
 * [!DNL Adobe Customer Journey Analytics]
 
   +++ 深入瞭解Customer Journey Analytics作為報表來源
 
-  請參閱 [!DNL Adobe Customer Journey Analytics]&#x200B;[&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中的[!DNL Target] 報告，瞭解[!DNL Customer Journey Analytics]中支援的活動型別、沙箱和資料檢視選擇、目標量度和報告設定。
+  請參閱 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中的[[!DNL Target] 報告，瞭解[!DNL Customer Journey Analytics]中支援的活動型別、沙箱和資料檢視選擇、目標量度和報告設定。
   +++
 
 如果已在您的[帳戶設定](/help/main/administrating-target/reporting.md)中指定報表來源，則會使用指定的來源，而且此設定不會顯示。
@@ -152,7 +152,7 @@ ht-degree: 24%
 
 ## 進階設定 {#section_E2FE441AFB324E498793ABB025ED9974}
 
-**[!UICONTROL 目標與設定]**&#x200B;頁面的&#x200B;**[!UICONTROL 進階設定]**&#x200B;區段可讓您設定進階選項。
+**[!UICONTROL 目標與設定]**&#x200B;頁面的&#x200B;**[!UICONTROL 進階設定]**&#x200B;區段可讓您調整每個成功量度的計數方式：是否相依於其他量度、達到目標後訪客會如何變化，以及計數如何增加。
 
 若要指定進階設定，請按一下&#x200B;**[!UICONTROL 我的主要目標]**&#x200B;區段中的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示（![更多圖示](/help/main/assets/icons/MoreSmallList.svg)），然後按一下&#x200B;**[!UICONTROL 進階設定]**。
 
@@ -162,39 +162,39 @@ ht-degree: 24%
 >
 >如果您使用 [!DNL Adobe Analytics] 作為您的報表來源，則設定是由 [!DNL Analytics] 伺服器管理。 進階設定選項無法使用。
 
-### 遞增此量度時，應達到什麼成功量度? {#dependencies}
+### 相依性 {#dependencies}
 
-使用此選項時，如果某人先前達到不同的成功量度，則僅將其計算為達到成功量度。 例如，活動轉換可能只有在轉換之前訪客點選了選件，或達到特定頁面時才有效。
+使用此選項可將訪客計算為到達成功量度，前提是該訪客先前已到達不同的成功量度。 例如，活動轉換可能只有在轉換之前訪客點選了選件或達到特定頁面時才有效。
 
-您可以提供多個量度上的相依性，並且具有彈性可選擇量度應為達到或未到達時計數才會增加。 定義兩個（或多個）成功量度，之後才可以讓某個量度相依於另一個量度。 **[!UICONTROL 「新增相依性」]**&#x200B;選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。
+您可以讓量度相依於多個量度，並為每個量度選擇必須達到或未達到時計數才會增加。 先定義所有成功量度，再讓某個量度相依於另一個量度。 **[!UICONTROL 新增相依性]**&#x200B;選項允許在已達到另一個成功量度或尚未達到時遞增成功量度。
 
 若要新增相依性:
 
-1. 新增其他量度後，按一下&#x200B;**[!UICONTROL 「進階設定」]**。
+1. 新增其他量度後，按一下&#x200B;**[!UICONTROL 進階設定]**。
 
 1. 按一下&#x200B;**[!UICONTROL 「新增相依性」]**&#x200B;選項。
 
-1. 拖放所需的量度，然後按一下&#x200B;**[!UICONTROL 已達到]**&#x200B;以在&#x200B;**[!UICONTROL 已達到]**&#x200B;與&#x200B;**[!UICONTROL 未達到]**&#x200B;之間切換設定。
+1. 拖放成功量度所依賴的量度，然後按一下&#x200B;**[!UICONTROL 已達到]**&#x200B;以在&#x200B;**[!UICONTROL 已達到]**&#x200B;與&#x200B;**[!UICONTROL 未達到]**&#x200B;之間切換設定。
 
-您可以在新增相依性之後加以編輯或移除。
+您可以在新增相依性之後加以編輯或移除。 對於不支援相依性的情況，請參閱[新增相依性](/help/main/c-activities/r-success-metrics/success-metrics.md#add-dependency)。
 
-### 使用者達到此目標量度後會發生什麼事? {#after-goal}
+### 訪客達到目標後 {#after-goal}
 
-達到活動目標之後，訪客會繼續看見活動內容，除非該訪客符合較高優先順序活動的資格。 如果訪客再次達到目標，將會將其計為另一次轉換。 這與[!DNL Target Classic]中的預設行為不同，如果訪客再次看到活動，則會計為新訪客。
+達到活動目標之後，訪客會繼續看見活動內容，除非該訪客符合較高優先順序活動的資格。 如果訪客再次達到目標，將會將其計為另一次轉換。 這與[!DNL Target Classic]中的預設行為不同，後者在訪客再次看到活動時將訪客計為新訪客。
 
 有三個選項可控制訪客達到目標量度後會發生什麼事:
 
-* **[!UICONTROL 增加計數以及讓使用者留在活動中]**&#x200B;以指定計數的增加方式。
-* **[!UICONTROL 增加計數、釋出使用者並允許重新進入]**，以指定使用者重新進入活動時看到的體驗。
-* **[!UICONTROL 增加計數、釋出使用者以及禁止重新進入]**，以指定使用者會看見的內容，而非活動內容。
+* **[!UICONTROL 增加計數以及讓使用者留在活動中]：**&#x200B;指定計數的增加方式，如下一節所述。
+* **[!UICONTROL 增加計數、釋出使用者以及允許重新進入]：**&#x200B;指定訪客在重新進入活動時看到的體驗：相同的體驗（預設）、隨機體驗或未看到的體驗。
+* **[!UICONTROL 增加計數、釋出使用者以及禁止重新進入]：**&#x200B;指定訪客看到的內容，而非活動內容：沒有追蹤的相同體驗（預設），或預設內容或其他活動內容。
 
-### 計數將如何增加? {#count-increment}
+### 計數增量 {#count-increment}
 
-計數的遞增方式共有三個選項:
+當您選取&#x200B;**[!UICONTROL 在活動中增加計數並保留使用者]**&#x200B;時，計數增加的方式有三個選項：
 
-* 每個加入者&#x200B;**[!UICONTROL 一次]**
+* 每個加入者&#x200B;**[!UICONTROL 一次]** （預設）
 * 每次曝光時&#x200B;**[!UICONTROL （排除頁面重新整理）]**
-* 每次曝光時&#x200B;**&#x200B;**
+* 每次曝光時&#x200B;****
 
 請參閱[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#overview)以取得關於進階設定的詳細資訊。
 

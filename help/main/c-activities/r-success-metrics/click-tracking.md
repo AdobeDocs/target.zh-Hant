@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 40%
@@ -98,7 +98,7 @@ ht-degree: 40%
 
   如需詳細資訊，請參閱&#x200B;*可視化體驗撰寫器選項*&#x200B;中的[使用 DOM 路徑導覽元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
-* 您可以瀏覽至不同頁面，以追蹤您可能不會變更內容之頁面上的點擊。 此不同頁面必須包含在使用[多頁功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)的活動中，而且必須在其上實作[!DNL at.js]。
+* 您可以瀏覽至不同頁面，以追蹤您可能不會變更內容之頁面上的點擊。 此不同頁面必須包含在使用[多頁功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)的活動中，而且必須在其上實作[!DNL at.js]。
 * 確定選取您要追蹤的元素層級。 例如，在指定按鈕時，請確定您選取連結而非按鈕文字。
 * 如果您選取多個元素，當加入者點擊所選取元素的任何一個時，即會計入該點擊。 若要個別計算每個項目，請為每個元素設定個別的成功量度。 若要按一下頁面上數個元素來計算專案，請編輯CSS Element Selector以比對多個元素。
 * 針對單頁應用程式(SPA)上的&#x200B;**[!UICONTROL Automated Personalization]** (AP)和自動鎖定目標活動，您可以選取屬於特定[!DNL Target]檢視的點選追蹤元素。 如需檢視的詳細資訊，請參閱[Adobe Target檢視和單頁應用程式](/help/main/c-experiences/spa-visual-experience-composer.md)。
@@ -150,4 +150,4 @@ ht-degree: 40%
 * 瞭解並建置&#x200B;**[!UICONTROL 轉換]**、**[!UICONTROL 收入]**&#x200B;和&#x200B;**[!UICONTROL 參與]**&#x200B;量度
 * 建置點擊追蹤量度
 
->[!VIDEO](https://video.tv.adobe.com/v/3507824?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

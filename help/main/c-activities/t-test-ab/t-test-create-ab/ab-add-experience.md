@@ -17,7 +17,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 25%
@@ -30,7 +30,7 @@ ht-degree: 25%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Target] **[!UICONTROL 視覺化體驗撰寫器]** (VEC)提供用於新增及編輯您的頁面上體驗的視覺介面。 如需關於體驗的其他詳細資料，請參閱[體驗](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+[!DNL Adobe Target] **[!UICONTROL 視覺化體驗撰寫器]** (VEC)提供用於新增及編輯您的頁面上體驗的視覺介面。 如需關於體驗的其他詳細資料，請參閱[體驗](/help/main/c-experiences/experiences.md)。
 
 ## 新增和設計體驗 {#add-experience}
 
@@ -58,7 +58,7 @@ ht-degree: 25%
 
 1. 按一下體驗旁的&#x200B;**[!UICONTROL 重新命名體驗]**&#x200B;圖示（ ![重新命名圖示](/help/main/assets/icons/Rename.svg) ）。
 
-1. 指定新名稱，然後按一下[儲存]。**&#x200B;**
+1. 指定新名稱，然後按一下[儲存]。****
 
 為體驗命名或重新命名時，不得使用下列字元：
 

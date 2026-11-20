@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 19%
 ---
 # 開始使用A/B測試 {#test-ab}
@@ -41,7 +41,7 @@ ht-degree: 19%
 使用手動A/B測試，當：
 
 * 您對如何改善您的頁面效能有清楚的假設，這些假設會根據成功量度或替代內容傳遞。
-* 您想要測試大型變更，例如新版面配置或元素的處理方式大不相同。 如果您的測試設計不容易分解為個別頁面元素，您應先執行A/B測試，再執行[多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。
+* 您想要測試大型變更，例如新版面配置或元素的處理方式大不相同。 如果您的測試設計無法細分為個別頁面元素，您應在執行[多變數測試](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)之前執行A/B測試。
 * 您希望決定可看見每個體驗的訪客百分比。 例如，您可在控制項和第二個體驗之間平均分割流量，或者可能透過僅向5%的受眾顯示來測試新的、風險更大的體驗。
 
 如需判斷 A/B 測試最佳樣本大小的詳細資訊，請參閱[計劃 A/B 測試](/help/main/c-activities/t-test-ab/sample-size-determination.md)。
