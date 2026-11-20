@@ -2,7 +2,7 @@
 keywords: 推薦;介紹;簡介;研討會;示範
 description: 瞭解Adobe [!DNL Target]中的Recommendations活動，這些活動會根據先前的使用者活動或其他演演算法，自動顯示可能使客戶感興趣的內容。
 title: 什麼是推薦活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 TQID: 'https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks'

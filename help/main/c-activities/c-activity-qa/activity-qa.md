@@ -106,7 +106,7 @@ ht-degree: 12%
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-如果您的網站已部署[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}，您可以手動強迫自己離開，方法是在網站上載入`at_qa_mode`引數設為空值的頁面。 例如：
+如果您的網站已部署[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant){target=_blank}，您可以手動強迫自己離開，方法是在網站上載入`at_qa_mode`引數設為空值的頁面。 例如：
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -154,7 +154,7 @@ ht-degree: 12%
 
 +++ 封鎖第三方Cookie的瀏覽器(at.js 1.*x*)
 
-如果您有at.js 1.*x*，如果您使用Safari或其他封鎖第三方Cookie的瀏覽器，**[!UICONTROL 活動QA]**&#x200B;模式不會在頁面之間持續存在。 在這些情況下，您必須將預覽引數新增至您導覽到的每個URL。 如果您已實作[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}，也同樣如此。
+如果您有at.js 1.*x*，如果您使用Safari或其他封鎖第三方Cookie的瀏覽器，**[!UICONTROL 活動QA]**&#x200B;模式不會在頁面之間持續存在。 在這些情況下，您必須將預覽引數新增至您導覽到的每個URL。 如果您已實作[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=zh-Hant){target=_blank}，也同樣如此。
 
 +++
 
@@ -204,9 +204,9 @@ ht-degree: 12%
 
 [!DNL Target]支援下列JavaScript資料庫：
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hant)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hant)
 
 下表列出各種活動型別，並指出每個程式庫是否支援&#x200B;**[!UICONTROL 活動QA]**&#x200B;模式：
 
