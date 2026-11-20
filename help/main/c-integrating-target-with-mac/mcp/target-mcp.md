@@ -5,7 +5,6 @@ title: Adobe Target MCP伺服器概述
 description: 瞭解Adobe Target MCP伺服器是什麼、其主要功能，以及它如何連線至您的AI助理。
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
-badge: label="Beta 版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 product_v2:
@@ -24,9 +23,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8fd1b8e05c92c3e0b49f61b17fbf5fba522a8410
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1029'
 ht-degree: 0%
 ---
 # [!DNL Adobe Target] MCP伺服器 {#target-mcp}
@@ -35,7 +34,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Target] MCP伺服器可供&#x200B;**公用Beta**&#x200B;中的所有客戶使用。 目前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中支援。 未來版本將新增對其他MCP相容應用程式的支援。
+>**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;目前支援[!DNL Adobe Target] MCP伺服器。 未來版本將新增對其他MCP相容應用程式的支援。
 
 
 ## 什麼是模型內容通訊協定？ {#mcp-overview}
