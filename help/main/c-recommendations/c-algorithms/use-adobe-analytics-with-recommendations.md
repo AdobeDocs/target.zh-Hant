@@ -2,7 +2,7 @@
 keywords: 行為資料來源；analytics；建議；條件；產品變數
 description: 瞭解如何在[!DNL Target Recommendations]中使用[!DNL Adobe Analytics]作為行為資料來源。
 title: 使用 Adobe Analytics 和推薦
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: 'https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs'
@@ -64,7 +64,7 @@ ht-degree: 1%
 >
 >如果是內容網站，個別內容片段必須視為「產品」，而該內容的關聯屬性必須作為屬性傳遞。 此類屬性可包括作者名稱、發佈日期、內容標題、發行月份等。 企業應根據使用案例的需求，決定類別層級的詳細程度或類別型別。
 
-如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)。 該檔案中的一些附註（例如有關類別）需要部署該檔案的團隊做出判斷。 建議先諮詢[!DNL Adobe]再進行此活動。
+如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hant)。 該檔案中的一些附註（例如有關類別）需要部署該檔案的團隊做出判斷。 建議先諮詢[!DNL Adobe]再進行此活動。
 
 ### 考量事項 {#considerations}
 

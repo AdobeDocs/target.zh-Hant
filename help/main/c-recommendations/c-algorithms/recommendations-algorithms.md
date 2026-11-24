@@ -2,7 +2,7 @@
 keywords: 建議演演算法；模型訓練；模型服務；內容傳送；專案型；使用者型；人氣型；購物車型；自訂條件
 description: 瞭解[!DNL Target Recommendations]中使用的演演算法，包括模型訓練和模型服務。
 title: Target 推薦演算法背後的科學
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 步驟如下：
 
-* **輸入資料**：當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集之訪客檢視和購買形式的行為資料。
+* **輸入資料**：當您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集之訪客檢視和購買形式的行為資料。
 
 * **模型訓練**：
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 步驟如下：
 
-* **輸入資料**：此演演算法僅使用目錄資料，透過[目錄摘要、實體API或頁面上的更新擷取到[!DNL Target]。](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}
+* **輸入資料**：此演演算法僅使用目錄資料，透過[目錄摘要、實體API或頁面上的更新擷取到[!DNL Target]。](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}
 
 * **模型訓練**：
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 步驟如下：
 
-* **輸入資料**：與專案 — 專案協同篩選(CF)方法相同。 **[!UICONTROL 為您推薦的]**&#x200B;和購物車型演演算法都使用使用者檢視和購買形式的行為資料，這些資料是在您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}時或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的。
+* **輸入資料**：與專案 — 專案協同篩選(CF)方法相同。 **[!UICONTROL 為您推薦的]**&#x200B;和購物車型演演算法都使用使用者檢視和購買形式的行為資料，這些資料是在您[實作Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}時或從[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的。
 
 * **模型訓練**：
 

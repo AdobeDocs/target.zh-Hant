@@ -49,7 +49,7 @@ ht-degree: 12%
 
 ## 購物車型 {#cart-based}
 
-**[!UICONTROL 購物車型]**&#x200B;演演算法型別會根據訪客目前購物車的內容來建議專案。 建議金鑰是在[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}中以逗號分隔的值提供。 僅考慮前 10 個值。
+**[!UICONTROL 購物車型]**&#x200B;演演算法型別會根據訪客目前購物車的內容來建議專案。 建議金鑰是在[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}中以逗號分隔的值提供。 僅考慮前 10 個值。
 
 購物車型建議邏輯類似於&quot;**[!UICONTROL 為您推薦的]**&quot;使用者型演演算法，以及&quot;**[!UICONTROL 瀏覽過此專案、購買該專案]**&#x200B;的人員」和&quot;**[!UICONTROL 購買過此專案、購買該專案]**&quot;演演算法的人員。
 
@@ -121,7 +121,7 @@ ht-degree: 12%
 >title="輪廓屬性"
 >abstract="您可以使用輪廓指令碼來建立輪廓屬性。 在建立並啟用輪廓指令碼後，就可以將其對應的輪廓屬性與此演算法搭配使用。"
 
-**[!UICONTROL 個人資料屬性檢視次數最多]**&#x200B;和個人資料屬性最暢銷商品&#x200B;**[!UICONTROL 依賴個人資料指令碼來填入屬性。]**&#x200B;指令碼名稱必須以`recsAttribute`首碼開頭，所以[!DNL Target]會儲存為`user.recsAttribute<Name>`。 您可以為與使用案例相關的任何訪客特性編寫指令碼。 如需使用設定檔指令碼設定設定檔屬性的詳細資訊，請參閱[設定檔引數](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)。
+**[!UICONTROL 個人資料屬性檢視次數最多]**&#x200B;和個人資料屬性最暢銷商品&#x200B;**[!UICONTROL 依賴個人資料指令碼來填入屬性。]**&#x200B;指令碼名稱必須以`recsAttribute`首碼開頭，所以[!DNL Target]會儲存為`user.recsAttribute<Name>`。 您可以為與使用案例相關的任何訪客特性編寫指令碼。 如需使用設定檔指令碼設定設定檔屬性的詳細資訊，請參閱[設定檔引數](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/visitor-profiles/profile-parameters)。
 
 例如，下列名為`recsAttributeRegion`的指令碼會根據訪客的區域提供建議：
 
