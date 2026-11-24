@@ -39,7 +39,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->如需詳細資訊，包括說明使用&#x200B;**[!UICONTROL 部分設計呈現]**&#x200B;和&#x200B;**[!UICONTROL 顯示備份內容]**&#x200B;選項之結果的矩陣，請參閱建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)的[備份內容區段。
+>如需詳細資訊，包括說明使用&#x200B;**[!UICONTROL 部分設計呈現]**&#x200B;和&#x200B;**[!UICONTROL 顯示備份內容]**&#x200B;選項之結果的矩陣，請參閱建立條件[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)的備份內容區段。
 
 備份建議功能一律會使用網站上檢視次數最多的專案，在使用演演算法的資料後填滿任何剩餘的位置。 例如，一個設計被設定為顯示五個建議專案，但演演算法有足夠的資料填補五個位置中的兩個。 接著，備用建議功能會將其他三個位置填入檢視次數最多的專案。
 

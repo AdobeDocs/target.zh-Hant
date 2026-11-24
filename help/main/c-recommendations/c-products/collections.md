@@ -37,7 +37,7 @@ ht-degree: 8%
 
 以下幾點說明集合如何與其餘的[!DNL Recommendations]互動：
 
-* 針對每個條件產生的備用建議](/help/main/c-recommendations/c-algorithms/backup-recs.md)也使用集合，因此只有集合中的專案會包含在備用建議中。 [因此，只會顯示對某個位置有意義的產品。
+* 針對每個條件產生的備用建議[&#128279;](/help/main/c-recommendations/c-algorithms/backup-recs.md)也使用集合，因此只有集合中的專案會包含在備用建議中。 因此，只會顯示對某個位置有意義的產品。
 * 每個條件每次執行時皆會重建或更新集合。
 * 收集規則會套用至執行條件後產生的建議專案。 它們只會影響輸出中的實體建議(ER)，而不會影響索引鍵。
 * 使用&#x200B;**[!UICONTROL 最近檢視的專案]**&#x200B;建議索引鍵時不會套用集合。

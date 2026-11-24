@@ -31,7 +31,7 @@ ht-degree: 14%
 
 >[!ENDSHADEBOX]
 
-自訂條件使用已上傳至[!DNL Target]的建議的CSV檔案。 這允許在[!DNL Target]以外計算的建議在[!DNL Recommendations]活動中傳遞。 如需自訂條件如何運作的詳細資訊，請參閱[ Target的建議演演算法背後的科學](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)。
+自訂條件使用已上傳至[!DNL Target]的建議的CSV檔案。 這允許在[!DNL Target]以外計算的建議在[!DNL Recommendations]活動中傳遞。 如需自訂條件如何運作的詳細資訊，請參閱[&#x200B; Target的建議演演算法背後的科學](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)。
 
 自訂條件是從&#x200B;**[!UICONTROL 建立新條件]**&#x200B;畫面建立的。 如需進入此畫面的方法，請參閱[存取「建立新條件」畫面](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#access-create-criteria)。 下列步驟從&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 條件]**&#x200B;資料庫畫面開始。
 

@@ -60,7 +60,7 @@ ht-degree: 5%
 | 演演算法型別 | 使用時機 | 可用的演演算法 |
 | --- | --- | --- |
 | **[!UICONTROL 購物車型]** | 根據使用者的購物車內容提供建議。 | <ul><li>**[!UICONTROL 瀏覽過這些專案的使用者，也瀏覽了]**</li><li>**[!UICONTROL 瀏覽過這些商品的人們也購買了]**</li><li>**[!UICONTROL 已購買這些商品的人，也已購買]**</li></ul>如需詳細資訊，請參閱&#x200B;*以推薦索引鍵*&#x200B;為基礎的建議[購物車型](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)。 |
-| **[!UICONTROL 以熱門程度為基礎]** | 根據網站中專案的整體人氣或使用者最喜愛或檢視次數最多類別、品牌、型別等內的專案人氣提供建議。 | <ul><li>整個網站檢視次數最多&#x200B;****</li><li>依類別檢視次數最多&#x200B;****</li><li>**[!UICONTROL 檢視次數最多的專案屬性]**</li><li>**[!UICONTROL 依輪廓屬性的檢視次數最多項目]**</li><li>整個網站&#x200B;**[!UICONTROL 最暢銷商品]**</li><li>**[!UICONTROL 依類別排名的最暢銷商品]**</li><li>**[!UICONTROL 依專案屬性的最暢銷商品]**</li><li>**[!UICONTROL 依個人檔案屬性的最暢銷商品]**</li><li>**[!UICONTROL Analytics量度排名最前]**</li></ul> |
+| **[!UICONTROL 以熱門程度為基礎]** | 根據網站中專案的整體人氣或使用者最喜愛或檢視次數最多類別、品牌、型別等內的專案人氣提供建議。 | <ul><li>整個網站檢視次數最多&#x200B;**&#x200B;**</li><li>依類別檢視次數最多&#x200B;**&#x200B;**</li><li>**[!UICONTROL 檢視次數最多的專案屬性]**</li><li>**[!UICONTROL 依輪廓屬性的檢視次數最多項目]**</li><li>整個網站&#x200B;**[!UICONTROL 最暢銷商品]**</li><li>**[!UICONTROL 依類別排名的最暢銷商品]**</li><li>**[!UICONTROL 依專案屬性的最暢銷商品]**</li><li>**[!UICONTROL 依個人檔案屬性的最暢銷商品]**</li><li>**[!UICONTROL Analytics量度排名最前]**</li></ul> |
 | **[!UICONTROL 專案型]** | 根據與使用者目前正在檢視或最近檢視之專案相似的專案提供建議。 | <ul><li>**[!UICONTROL 瀏覽過此專案、也瀏覽了其他專案的使用者]**</li><li>**[!UICONTROL 瀏覽過此專案、但購買了其他專案的使用者]**</li><li>**[!UICONTROL 購買了此專案、也購買了其他專案的使用者]**</li><li>**[!UICONTROL 具有類似屬性的專案]**</li></ul> |
 | **[!UICONTROL 以使用者為基礎]** | 根據使用者的行為提供建議。 | <ul><li>**[!UICONTROL 最近查看的項目]**</li><li>**[!UICONTROL 為您推薦]**</li></ul> |
 | **[!UICONTROL 自訂條件]** | 根據上傳的自訂檔案提出建議。 | <ul><li>自訂演演算法</li></ul> |
