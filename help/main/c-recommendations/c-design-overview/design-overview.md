@@ -1,7 +1,7 @@
 ---
 keywords: 建議設計;範本;建立設計;傳送;輸出
 description: 瞭解如何在Adobe [!DNL Target] Recommendations中使用設計來定義建議出現在頁面上的方式（1X4、1X6、2X2等）。
-title: 如何在Recommendations中使用設計？
+title: 開始使用設計
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 TQID: 'https://experienceleague.adobe.com/08jboJLkp6MhgXiISjkVzh2kVze5DRrxO8BbQBFLeA4'
@@ -17,25 +17,31 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 22%
+source-wordcount: '224'
+ht-degree: 9%
 ---
-# 開始使用設計
+# 開始使用設計 {#design-overview}
 
-[!DNL Adobe Target Recommendations]中的設計會定義建議在頁面上的顯示方式。 設計會定義建議的版面配置和格式，以改善訪客參與度、轉換和收入。
+>[!BEGINSHADEBOX]
 
-[!DNL Recommendations]隨附數個預設（預先建置）設計，或者您可以建立自己的設計。
+**在此頁面上：**&#x200B;瞭解設計如何定義[!DNL Adobe Target Recommendations]中建議的版面配置和格式。
 
-[!DNL Target]可提供您建議的完整外觀和風格，如下圖所示。 設計可以包含 HTML、JavaScript 和 CSS。 此設計稱為4 x 1設計：一列有四個空間。
+>[!ENDSHADEBOX]
 
-![velocity_example image](assets/velocity_example.png)
+[!DNL Adobe Target Recommendations]中的設計會定義建議在頁面上的顯示方式。 設計會定義建議的版面配置和格式。
 
-Target 也可以將您的建議當成 JSON 物件來傳送，然後就可用於電子郵件訊息、IoT (Internet of Things，物聯網) 裝置、主控台或語音使用案例中 (Amazon Alexa 或 Google 首頁)。
+[!DNL Recommendations]附帶幾個預設（預先建立）設計，也可以建立自訂設計。 如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md)。
 
-設計可協助您判斷：
+[!DNL Target]可以提供建議完整的觀感，如下圖所示。 設計可以包含 HTML、JavaScript 和 CSS。 此設計稱為4 x 1設計：一列有四個空間。
 
-* 您要在建議中顯示多少專案
-* 您要如何顯示專案（在列、欄、格線或表格中）
-* 您是否希望限制訪客只能看到指定數量的專案，或是希望訪客能夠捲動瀏覽數個專案？
+![標題為「其他有趣的活動」的4 x 1設計範例，其中四個專案分別顯示像片、名稱、價格、評分和距離](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+[!DNL Target]也可以以JSON物件的形式傳送建議，這些物件可用於電子郵件訊息、物聯網(IoT)裝置、主控台或語音使用案例（Amazon Alexa或Google首頁）。
+
+設計會決定：
+
+* 建議中顯示的專案數
+* 專案的顯示方式（在列、欄、網格或表格中）
+* 訪客是否只能看到指定數量的專案，或者可以捲動瀏覽數個專案

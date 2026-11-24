@@ -1,7 +1,7 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷活動；促銷活動；動態篩選；靜態；靜態篩選
 description: 瞭解如何在Adobe [!DNL Target] Recommendations中手動輸入一或多個靜態值，以使用包含規則進行篩選。
-title: 如何在Recommendations活動中依靜態值篩選？
+title: 靜態篩選器
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
@@ -18,23 +18,21 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 32%
+source-wordcount: '184'
+ht-degree: 2%
 ---
-# [!UICONTROL 靜態篩選器]
+# 靜態篩選器 {#static-filter}
 
-手動輸入一個或多個靜態值，以使用[!DNL Adobe Target Recommendations]中的包含規則進行篩選。
+>[!BEGINSHADEBOX]
 
-例如，僅建議電影協會(MPA)評等為&quot;G&quot;或&quot;PG&quot;的內容。
+**在此頁面上：**&#x200B;瞭解如何在[!DNL Adobe Target Recommendations]的包含規則中手動輸入一或多個靜態值，以篩選建議。
 
-您可以視需要建立許多包含規則。 包含規則是以 AND 運算子來結合。 必須符合所有規則，才能在建議中納入某個項目。
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->如果您熟悉Target 17.6.1版（2017年6月）之前包含規則的設定方式，您將注意到一些選項和運運算元已變更。 只會顯示適用於所選取選項的那些運算子，而一些運算子已重新命名 (「符合」現在是「等於」)，以便更為一致且直覺。 在此版本之前建立的所有現有排除規則皆已自動移轉至新結構。 您不需要重新處理結構。
+**[!UICONTROL 靜態篩選器]**&#x200B;將建議中的專案限製為符合手動輸入之靜態值的專案。 可建立任意數量的包含規則。 包含規則會使用AND運運算元連結，因此必須符合所有規則，才會將專案包含在建議中。 如需包含規則的一般資訊，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)。
 
 ## 推薦分級為G或PG的內容
 
-若要使用靜態值建立包含規則，以僅建議MPA評等為「G」或「PG」的內容（排除「R」和「NC17」內容），您可以建立下列篩選規則：「電影評等等於任何g評等」以及「電影評等等於任何pg評等」。
+若只要建議電影協會(MPA)評等為&quot;G&quot;或&quot;PG&quot;的內容（不包括&quot;R&quot;和&quot;NC17&quot;內容），請建立一個篩選規則，其運運算元為&quot;movie-rating equals any of&quot;，並輸入&quot;g-rated&quot;和&quot;pg-rated&quot;值。

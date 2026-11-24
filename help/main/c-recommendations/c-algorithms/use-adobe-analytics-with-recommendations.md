@@ -1,7 +1,7 @@
 ---
 keywords: 行為資料來源；analytics；建議；條件；產品變數
 description: 瞭解如何在[!DNL Target Recommendations]中使用[!DNL Adobe Analytics]作為行為資料來源。
-title: 如何搭配[!DNL Target Recommendations]使用[!DNL Adobe Analytics]？
+title: 使用 Adobe Analytics 和推薦
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
@@ -24,85 +24,79 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 374d176c5c40826d958a8b87d220422466433690
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 0%
+source-wordcount: '736'
+ht-degree: 1%
 ---
-# 搭配[!DNL Recommendations]使用[!DNL Adobe Analytics]
+# 搭配[!DNL Recommendations]使用[!DNL Adobe Analytics] {#use-analytics-with-recommendations}
 
-使用[!DNL Adobe Analytics]做為行為資料來源，可讓使用者端在[!DNL Adobe Target Recommendations]活動中使用[!DNL Analytics]的檢視型與購買型行為資料。 此功能在[!DNL Target Recommendations]設定是新的，且[!DNL Analytics]有許多歷史資料要使用的情況下特別有用。
+>[!BEGINSHADEBOX]
 
-使用[!DNL Analytics]做為行為資料來源可以做為使用者行為的豐富資訊來源。 此資訊可能包含僅與[!DNL Analytics]共用的協力廠商來源或摘要的資料。
+**在此頁面上：**&#x200B;瞭解如何在[!DNL Adobe Target Recommendations]活動中使用[!DNL Adobe Analytics]作為行為資料來源。
 
-在[!DNL Recommendations]中[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)時，有兩個選項按鈕可讓您選擇要使用的資料來源： [!UICONTROL mbox]或[!UICONTROL Analytics]。 若要建立條件，請按一下[!UICONTROL 建議] > [!UICONTROL 條件] > [!UICONTROL 建立條件] > [!UICONTROL 建立條件]。 如需詳細資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+>[!ENDSHADEBOX]
+
+使用[!DNL Adobe Analytics]做為行為資料來源，可讓[!DNL Adobe Target Recommendations]個活動使用來自[!DNL Analytics]的檢視型與購買型行為資料。 當[!DNL Target Recommendations]設定是新的，且[!DNL Analytics]有許多歷史資料要使用時，這個用法很有用。 資料也可能包含僅與[!DNL Analytics]共用的第三方來源或摘要的資訊。
+
+資料來源是使用&#x200B;**[!UICONTROL 行為資料Source]**&#x200B;選項選取，同時[在[!DNL Recommendations]中建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)： **[!UICONTROL Adobe Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**。
 
 >[!NOTE]
 >
->如果這兩個按鈕未顯示在您的帳戶中，請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+>如果這兩個選項未顯示在帳戶中，請連絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
-## [!DNL Target]中[!DNL Analytics]資料的使用案例
+## [!DNL Target]中[!DNL Analytics]資料的使用案例 {#use-cases}
 
-使用[!DNL Analytics]做為建議的行為資料來源也可讓您部署特定的使用案例，而不需要使用所有[!DNL Target]實體引數標籤實體頁面。 雖然上述要求必須具備特定必要條件，但「產品變數」的可用性是確保該功能順暢運作的最重要因素。 一般eVar和Prop不足以讓此交握在[!DNL Analytics]和[!DNL Target]之間自動發生。
+使用[!DNL Analytics]做為行為資料來源也允許部署特定使用案例，而不需使用所有[!DNL Target]實體引數標籤實體頁面。 這需要一些先決條件，而「產品變數」的可用性是最重要的必要條件。 一般eVar和Prop不足，[!DNL Analytics]和[!DNL Target]無法自動交換此資料。
 
-您可以使用[!DNL Analytics]做為行為資料來源來：
+[!DNL Analytics]可作為行為資料來源使用，以：
 
 * 根據上個月其他使用者從相同類別購買的內容（使用[!DNL Analytics]資料），在零售網站上向使用者顯示產品詳細資料頁面上的建議。
 * 根據[!DNL Analytics]資料，在媒體網站的主畫面上顯示目前趨勢特定類別中最受歡迎內容的內容。
 
 ## [!DNL Analytics]中的實作
 
-以下章節可協助您在[!DNL Analytics]端實作此功能。
+### 先決條件：在[!DNL Analytics]中設定產品變數 {#prerequisites}
 
-### 先決條件：在[!DNL Analytics]中設定產品變數
-
-使用[!DNL Target Recommendations]所需的必要屬性在[!DNL Analytics]中實作產品變數。
-
-[!DNL Target Recommendations]範例摘要格式可作為必須定義產品變數中所有屬性的指南。 之後，這些值必須在[!DNL Target] UI中為個別[!DNL Target]實體值「對應」。
+使用[!DNL Target Recommendations]所需的屬性在[!DNL Analytics]中實作產品變數。 [!DNL Target Recommendations]範例摘要格式會指導您必須在產品變數中定義哪些屬性。 這些值之後必須在[!DNL Target] UI中「對應」到個別[!DNL Target]實體值。
 
 >[!NOTE]
 >
->如果是內容網站，個別內容片段必須視為「產品」，且該內容的關聯屬性必須作為屬性傳遞。 此類屬性可包括作者名稱、發佈日期、內容標題、發行月份等。 類別層級或類別型別的詳細程度，應由企業根據使用案例需求決定。
+>如果是內容網站，個別內容片段必須視為「產品」，而該內容的關聯屬性必須作為屬性傳遞。 此類屬性可包括作者名稱、發佈日期、內容標題、發行月份等。 企業應根據使用案例的需求，決定類別層級的詳細程度或類別型別。
 
-如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hant)。 該檔案中有些附註需要部署團隊自行決定（例如：類別）。 在執行此活動之前，請一律建議諮詢[!DNL Adobe]。
+如需如何設定產品變數的詳細資訊，請參閱&#x200B;*實作Adobe Analytics*&#x200B;指南中的[產品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hant)。 該檔案中的一些附註（例如有關類別）需要部署該檔案的團隊做出判斷。 建議先諮詢[!DNL Adobe]再進行此活動。
 
-### 考量事項
+### 考量事項 {#considerations}
 
-[!DNL Analytics]資料會透過每日摘要傳送。 行為結果可能需要24小時的時間，才會反映在您網站上的建議結果中。 如同所有[!DNL Recommendations]條件設定一樣，此資料來源可以而且應該進行測試。
+[!DNL Analytics]資料會透過每日摘要傳送。 行為結果可能需要24小時的時間，才能反映在網站上的建議結果中。 如同所有[!DNL Recommendations]條件設定一樣，應該測試此資料來源。
 
-為了快速決定要使用哪個資料來源，如果使用者每天產生的有機資料很多，而且不需要太多歷史資料相依性，則使用[!DNL Target] mbox作為行為資料來源可能非常適合您。 在最近產生的有機資料可用性較低的情況下，如果您想要以[!DNL Analytics]資料為基礎進行儲存，則使用[!DNL Analytics]作為行為資料來源會很合適。
+若要選擇資料來源，請執行下列動作：
 
-現在應該在[!DNL Target]端對應這些變數，以持續提供行為資料。
+* 當使用者每天產生大量有機資料，而且幾乎不需要依賴歷史資料時，[!DNL Target] mbox會很適合。
+* 當最近產生的有機資料較少且將使用[!DNL Analytics]資料時，[!DNL Analytics]非常適合。
 
-## 在[!DNL Target]中實作
+`entity.id`和`entity.categoryId`值仍必須在[!DNL Target] mbox呼叫中傳遞。 其他屬性可透過[!DNL Analytics]摘要傳遞，如本頁所述。
+
+動態包含規則（例如比對實體引數與設定檔屬性）可與[!DNL Analytics]摘要方法搭配使用。 此方法類似於使用[!DNL Target]獨立式，但必須考量時機：應該符合設定檔變數的實體變數取決於資料層，而資料層可能稍後出現在頁面上。
+
+## 在[!DNL Target]中實作 {#implement-target}
+
+產品變數在[!DNL Target]中完成對應，以提供連續的行為資料供給。
 
 1. 在[!DNL Target]中，按一下&#x200B;**[!UICONTROL 建議]**，然後按一下&#x200B;**[!UICONTROL 摘要]**&#x200B;索引標籤。
 
 1. 按一下&#x200B;**[!UICONTROL 建立摘要]**。
 
-1. 選取&#x200B;**[!UICONTROL Analytics分類]**，然後指定報表套裝。
+   ![摘要頁面中的[建立摘要]按鈕反白顯示](../assets/feeds_1.png)
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以前進到&#x200B;**[!UICONTROL 排程]**&#x200B;設定，選取摘要的頻率期間：
+1. Select **[!UICONTROL Analytics分類]**，然後指定報表套裝。
 
-   * [!UICONTROL 每日]
-   * [!UICONTROL 每週]
-   * [!UICONTROL 每2週]
-   * [!UICONTROL 從不]
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以前進到&#x200B;**[!UICONTROL 排程]**&#x200B;設定，然後選取摘要的頻率： **[!UICONTROL 每日]**、**[!UICONTROL 每週]**、**[!UICONTROL 每兩週]**&#x200B;或&#x200B;**[!UICONTROL 永不]**。 您也可以選取一天中要處理的摘要時間。
 
-   您也可以選取一天中要處理摘要的時間。
+   ![使用「每日」、「每週」、「每兩週」和「永不」頻率選項，以及「每日時間」欄位，排程「建立摘要」對話方塊的步驟](../assets/feeds_3.png)
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;前進到&#x200B;**[!UICONTROL 對應]**&#x200B;設定，然後將欄位資料行標題對應到適當的[!UICONTROL Recommendations]欄位名稱。
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;前進到&#x200B;**[!UICONTROL 對應]**&#x200B;設定，然後將欄位資料行標題對應到適當的&#x200B;**[!UICONTROL Recommendations]**&#x200B;欄位名稱。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 常見問題集
-
-將[!DNL Analytics]與[!DNL Target]搭配使用時，請考量下列常見問題：
-
-### 需要在[!DNL Target] mbox呼叫中傳遞`entity.id`和`entity.categoryId`值嗎？
-
-是的，這兩個值仍然是必要的。 其餘屬性可透過[!DNL Analytics]摘要傳遞，如本檔案所述。
-
-### 我可以使用動態包含規則（例如使用[!DNL Analytics]摘要方法的實體引數符合設定檔屬性）嗎？
-
-可以。 使用[!DNL Target]獨立時的方法類似。 不過，在此情況下，您必須留意時間因素。 應該與設定檔變數相符的實體變數取決於資料層，而資料層可能會稍後出現在頁面上。
+如需建立摘要的詳細資訊，請參閱[建立摘要](/help/main/c-recommendations/c-products/feeds.md#steps)。

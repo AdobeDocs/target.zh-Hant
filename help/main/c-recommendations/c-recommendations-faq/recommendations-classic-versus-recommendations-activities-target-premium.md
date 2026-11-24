@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -79,7 +79,7 @@ ht-degree: 79%
 [!DNL Recommendations] 工作流程已簡化。 不需要填寫複雜的表單，您可以遵循可視化工作流程:
 
 1. 選取條件。
-1. 選取預先設定的[設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+1. Select預先設定的[設計](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)。
 1. 預覽建議結果。
 
 ## 視覺預覽 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

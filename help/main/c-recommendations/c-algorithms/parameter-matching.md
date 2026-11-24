@@ -1,7 +1,7 @@
 ---
 keywords: 包含規則；包含條件；建議；促銷活動；促銷活動；動態篩選；動態；引數比對
 description: 瞭解如何透過比較專案（實體）與請求中的值（API或mbox），在Adobe [!DNL Target] Recommendations中動態篩選。
-title: 如何在Recommendations活動中依引數比對來篩選？
+title: 參數比對
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
@@ -18,39 +18,35 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 10%
+source-wordcount: '311'
+ht-degree: 8%
 ---
-# [!UICONTROL 參數比對]
+# 參數比對 {#parameter-matching}
 
-比較專案（實體）與請求（API或mbox）中的值，以動態篩選。
+>[!BEGINSHADEBOX]
 
-例如，如下列範例所示，僅建議符合「產業」頁面引數或其他引數（例如裝置尺寸或地理位置）的內容。
+**在此頁面上：**&#x200B;瞭解如何比較專案（實體）與要求（API或mbox）中的值，以動態篩選[!DNL Adobe Target Recommendations]中的建議。
+
+>[!ENDSHADEBOX]
+
+**[!UICONTROL 引數符合]**&#x200B;只建議符合頁面引數或訪客引數的內容，例如裝置維度或地理位置。 例如，只能建議符合「產業」頁面引數的內容。 對於條件和促銷活動，建立和使用包含規則的過程很相似，就如同使用案例和範例很相似一樣。 如需詳細資訊，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)。
+
+其他範例包括：
 
 * 熒幕寬度和高度的Mbox引數可用來鎖定行動訪客，且僅建議行動裝置和配件。
-* 建立建議規則，只傳回符合或超過訪客使用檢視頁面之行動裝置熒幕高度的熱銷手機。
-* 區域地理位置引數可用來在冬季傳回工具建議。 在下雪地區，建議使用吹雪車和其他降雪工具，但若未下雪，則不建議使用訪客。
-
->[!NOTE]
->
->如果活動是在2016年10月31日之前建立，假如使用「引數比對」篩選器，則傳送會失敗。 若想暫時解決此問題，請:
->
->* 建立新活動，並在其中新增條件。
->* 使用不包含「參數比對」篩選的條件。
->* 從條件中移除「參數比對」篩選。
+* Recommendations規則只能傳回符合或超過訪客用來檢視頁面之行動裝置熒幕高度的熱銷手機。
+* 區域地理位置引數可用來在冬季傳回工具建議。 在下雪地區的訪客可建議使用吹雪機和其他降雪工具，但不建議未下雪地區的訪客使用。
 
 ## 引數比對範例
 
-[!UICONTROL 引數比對]可讓您建議符合頁面引數或訪客引數的內容，例如裝置維度或地理位置，如下列範例所示：
+[!DNL Recommendations]可以比對[!DNL Target]呼叫中傳送的引數值。 在下列範例中，[!DNL Target]會根據[!DNL Target]呼叫中傳送的熒幕高度和寬度引數，偵測到訪客正在使用行動裝置，並僅建議行動裝置專案。
 
-[!DNL Recommendations]可以比對[!DNL Target]呼叫中傳送的引數值。 在此執行個體中，[!DNL Target]會根據[!DNL Target]呼叫中傳送的熒幕高度和寬度引數，偵測到訪客正在使用行動裝置，並僅建議行動裝置專案。
-
-考量下列範例Target呼叫：
+考量下列範例[!DNL Target]呼叫：
 
 ![目標呼叫](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
-訪客在檢視的頁面上，將會看到行動裝置產品。
+訪客檢視的頁面上會顯示行動裝置產品。
 
 ![行動裝置產品](/help/main/c-recommendations/c-algorithms/assets/phones.png)

@@ -20,28 +20,42 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 20%
+source-wordcount: '551'
+ht-degree: 7%
 ---
-# [!UICONTROL 目錄搜尋]
+# [!UICONTROL 目錄搜尋] {#catalog-search}
 
-[!DNL Adobe Recommendations]中的[!UICONTROL 目錄搜尋]頁面可協助您在目錄中尋找產品或內容。 您可以在此頁面上執行的最基本工作是搜尋專案。 此外，您可以變更環境、篩選多面、修改表格中的欄、新增搜尋多面等等。
+>[!BEGINSHADEBOX]
 
-目錄是指您的整個產品集 (實體)。 您的目錄可以包含許多系列，好讓您以邏輯區間組織產品。
+**在此頁面上：**&#x200B;瞭解如何在[!DNL Adobe Recommendations]中搜尋目錄以尋找產品或內容，以及如何篩選、檢視和移除專案。
 
-## 存取[!UICONTROL 目錄搜尋]
+>[!ENDSHADEBOX]
 
-1. 若要存取[!UICONTROL 目錄搜尋]頁面，請按一下&#x200B;**[!UICONTROL 建議]** > **[!UICONTROL 目錄搜尋]**。
+[!DNL Adobe Recommendations]中的&#x200B;**[!UICONTROL 目錄搜尋]**&#x200B;頁面是用來尋找目錄中的產品或內容。 此頁面最基本的工作是搜尋專案。 此頁面也可讓您變更環境、篩選多面向、修改表格中的欄等等。
 
-1. （選擇性）若要將篩選器套用至您的搜尋，請按一下&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;圖示（ ![顯示篩選器圖示](/help/main/assets/icons/Filter.svg)）。 您可以依[!UICONTROL 環境]、[!UICONTROL 集合]、[!UICONTROL 類別]、[!UICONTROL 品牌]、[!UICONTROL 詳細目錄]和[!UICONTROL 值]來篩選。
+目錄是整個產品集（實體）。 它可以包含許多集合，這些集合會將產品組織在邏輯群組中。
 
-## 執行簡單搜尋
+目錄索引會在第一個摘要上傳時自動建立，並根據[指定的排程](/help/main/c-recommendations/c-products/feeds.md#steps)重新整理。
+
+透過摘要檔案、API或mbox更新收到更新時，目錄會自動重新整理。 更新通常會在一小時內完成。 如果正在進行更新，會顯示最新更新的開始時間。 如果沒有任何正在進行的更新，會顯示最新更新的開始和結束時間。
+
+## 搜尋目錄
+
+使用搜尋結果來檢閱目錄中的專案，並視需要從中移除專案。
+
+1. 按一下&#x200B;**[!UICONTROL 建議]** > **[!UICONTROL 目錄搜尋]**。
+
+1. （選擇性）若要篩選結果，請按一下&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg)），然後選取要套用的篩選器。 可用的篩選器為&#x200B;**[!UICONTROL 環境]**、**[!UICONTROL 集合]**、**[!UICONTROL 類別]**、**[!UICONTROL 品牌]**、**[!UICONTROL 詳細目錄]**&#x200B;和&#x200B;**[!UICONTROL 值]**。
+
+   [環境](/help/main/administrating-target/environments.md)組織網站和生產前環境，以進行管理和分隔的報表。 若要變更環境，請從&#x200B;**[!UICONTROL 環境]**&#x200B;下拉式清單中選取所需的環境。
+
+   ![反白顯示篩選面板的目錄搜尋頁面：集合、類別、品牌、詳細目錄、值和進階搜尋](../assets/catalog_search.png)
 
 1. 在&#x200B;**[!UICONTROL 搜尋範圍]**&#x200B;欄位中輸入搜尋字詞。
 
-1. （選擇性）您可以調整搜尋範圍，方法是按一下[!UICONTROL 搜尋範圍]欄位中的向下箭頭，從顯示的選項功能表中選取搜尋選項。
+1. （選擇性）從選項功能表中選取搜尋選項（從&#x200B;**[!UICONTROL 搜尋範圍]**&#x200B;欄位的向下箭頭開啟），以調整搜尋。
 
    搜尋選項包含下列項目:
 
@@ -49,13 +63,27 @@ ht-degree: 20%
    * 名稱
    * 訊息
 
+1. 按一下&#x200B;**[!UICONTROL 自訂表格]**&#x200B;圖示（![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg)）以修改&#x200B;**[!UICONTROL 目錄搜尋]**&#x200B;頁面上的作用中欄。
+
+   ![目錄搜尋頁面，其中的「自訂表格」圖示反白顯示](../assets/catalog_search_4.png)
+
 1. 捲動搜尋結果中的專案以檢視縮圖和其他產品資訊。
 
    >[!NOTE]
    >
-   > 當您針對包含某數值的自訂屬性執行目錄搜尋時，結果會將自訂屬性視為字串類型，而非數值。
+   >在針對具有某數值的自訂屬性進行目錄搜尋時，結果會將自訂屬性視為字串型別，而非數值。
    >
-   >目前沒有可讓您變更屬性型別的功能。 若要變更，[開啟客戶問題](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，指出需要將類型從字串變更為數值的屬性。
+   >目前無法變更屬性的型別。 若要要求變更，請[開啟客戶問題](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，此問題參考其型別必須從字串變更為數值的屬性。
+
+1. 按一下搜尋結果中的專案可檢視其詳細資訊，包括其ID、名稱、訊息、類別等。
+
+   ![目錄專案的詳細資料，顯示其ID、類別、利潤和其他屬性](../assets/catalog_search_2.png)
+
+1. 若要從目錄中移除專案，請按一下[從目錄中移除]。**&#x200B;**
+
+   然後，會從目錄索引中移除該專案的所有相關資訊。 只有在資料摘要中再次新增專案時，專案才會再次包含在目錄中。 已刪除的專案也必須從摘要中個別刪除。
+
+   ![目錄專案的詳細資料，其中的[從目錄移除]按鈕反白顯示](../assets/catalog_search_3.png)
 
 <!--
 ### Perform an advanced search {#advanced-search}
@@ -81,52 +109,6 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
    For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.
 -->
 
-## 檢視專案的詳細資訊
-
-您可以檢視個別專案的詳細資料，包括ID、名稱、訊息、類別等，只要檢視其詳細資料。
-
-1. 按一下搜尋結果中的專案以檢視其詳細資訊。
-
-## 從目錄中移除專案
-
-1. 按一下搜尋結果中的專案以檢視其詳細資訊。
-
-1. 按一下&#x200B;**[!UICONTROL 從目錄]**&#x200B;移除。
-
-1. 確認您要移除專案。
-
-該專案的所有相關資訊都會從目錄索引中移除。 只有當專案再次新增到資料摘要中時，它才會包含在您的目錄中。 已刪除的專案必須從摘要個別刪除。
-
-## 重新整理目錄
-
-當您上傳第一個摘要時，目錄索引會自動建立，並根據[指定的排程](/help/main/c-recommendations/c-products/feeds.md#steps)重新整理。
-
-透過摘要檔案、API 或 mbox 更新收到更新時，目錄會自動重新整理。 更新通常會在一小時內完成。 如果正在進行更新，會顯示最新更新的開始時間。 如果沒有任何正在進行的更新，會顯示最新更新的開始和結束時間。
-
-<!--
-## Create a collection or exclusion based on Advanced Search {#save-as}
-
-You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
-
-1. Perform an [advanced search](#advanced-search).
-
-1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
-
-   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
-
-   >[!IMPORTANT]
-   >
-   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
--->
-
-## 變更環境
-
-[環境](/help/main/administrating-target/environments.md)可讓您組織您的網站和生產前環境，以方便管理和分隔報表。
-
-1. 按一下「顯示篩選器」圖示（ ![顯示篩選器圖示](/help/main/assets/icons/Filter.svg) ）。
-
-1. 從&#x200B;**[!UICONTROL 環境]**&#x200B;下拉式清單中選取所需的環境。
-
 <!--
 ## Modify the Catalog Search page (filters and columns)
 
@@ -147,12 +129,20 @@ You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 Keep in mind that the additional filter facets are available in the current session only.
 -->
 
-## 修改欄
 
-您可以在[!UICONTROL 目錄搜尋]頁面上修改作用中的資料行。
 
-1. 按一下&#x200B;**[!UICONTROL 自訂表格]**&#x200B;圖示（![自訂表格圖示](/help/main/assets/icons/ColumnSetting.svg)）。
+<!--
+## Create a collection or exclusion based on Advanced Search {#save-as}
 
-1. 選取或取消選取想要顯示或隱藏的欄。
+You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-您所做的任何變更會跨工作階段持續保留。
+1. Perform an [advanced search](#advanced-search).
+
+1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
+
+   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
+
+   >[!IMPORTANT]
+   >
+   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
+-->

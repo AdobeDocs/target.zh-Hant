@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 52%
@@ -33,7 +33,7 @@ ht-degree: 52%
 
 1. 按一下&#x200B;**[!UICONTROL 活動]** > **[!UICONTROL 建立活動]** > **[!UICONTROL 建議]**。
 
-1. 視需要選取&#x200B;**[!UICONTROL 視覺]**。
+1. Select **[!UICONTROL 視覺]** （如有必要）。
 
    如果您偏好使用[!UICONTROL 表單式體驗撰寫器]，請選取[!UICONTROL 表單]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
 
@@ -88,7 +88,7 @@ ht-degree: 52%
 
 1. 選取[一或多個條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-   條件會以卡片的形式顯示，顯示每個條件的相關資訊。 根據預設，[!UICONTROL 選取條件]畫面會顯示與您的垂直產業相容的條件，以及您在上一步驟中選取的頁面型別。 您可以變更這些選項以顯示其他條件。
+   條件會以卡片的形式顯示，顯示每個條件的相關資訊。 根據預設，[!UICONTROL Select條件]畫面會顯示與您的垂直產業相容的條件，以及您在上一步驟中選取的頁面型別。 您可以變更這些選項以顯示其他條件。
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ ht-degree: 52%
 1. 按一下&#x200B;**[!UICONTROL 下一步]**。
 1. 選取[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   設計是一種用來決定位置在您頁面上外觀的範本。 [!DNL Target]包含數個預先設定的設計。 您也可以建立自己的自訂設計。 如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   設計是一種用來決定位置在您頁面上外觀的範本。 [!DNL Target]包含數個預先設定的設計。 您也可以建立自己的自訂設計。 如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)。
 
    ![選取設計對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ ht-degree: 52%
 
      如果您選取了多個條件，則僅能選取一個設計。
 
-   * 若要建立自訂設計，請按一下&#x200B;**[!UICONTROL 建立設計]**，然後填寫新設計的名稱和代碼。 按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成」]**>**[!UICONTROL 「完成」]**。 如需關於建立新設計的資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * 若要建立自訂設計，請按一下&#x200B;**[!UICONTROL 建立設計]**，然後填寫新設計的名稱和代碼。 按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成」]**>**[!UICONTROL 「完成」]**。 如需關於建立新設計的資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)。
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**。
 
