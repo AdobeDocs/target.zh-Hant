@@ -2,7 +2,7 @@
 keywords: 建立建議;推薦活動;新建議;建議概觀
 description: 瞭解如何使用[!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!DNL Recommendations]活動。
 title: 如何建立[!DNL Recommendations]活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 52%
@@ -33,7 +33,7 @@ ht-degree: 52%
 
 1. 按一下&#x200B;**[!UICONTROL 活動]** > **[!UICONTROL 建立活動]** > **[!UICONTROL 建議]**。
 
-1. 視需要選取&#x200B;**[!UICONTROL 視覺]**。
+1. Select **[!UICONTROL 視覺]** （如有必要）。
 
    如果您偏好使用[!UICONTROL 表單式體驗撰寫器]，請選取[!UICONTROL 表單]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
 
@@ -45,11 +45,11 @@ ht-degree: 52%
 
 1. （視條件而定）選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定活動URL，然後按一下[建立]。**&#x200B;**
+1. 指定活動URL，然後按一下[建立]。****
 
    >[!NOTE]
    >
-   >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。 因此，[!DNL `http://www.adobe.com/tw`]和[!DNL `https://wwww.adobe.com`]都相符。
+   >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都相符。
 
    活動URL是建議顯示的頁面。
 
@@ -88,17 +88,17 @@ ht-degree: 52%
 
 1. 選取[一或多個條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-   條件會以卡片的形式顯示，顯示每個條件的相關資訊。 根據預設，[!UICONTROL 選取條件]畫面會顯示與您的垂直產業相容的條件，以及您在上一步驟中選取的頁面型別。 您可以變更這些選項以顯示其他條件。
+   條件會以卡片的形式顯示，顯示每個條件的相關資訊。 根據預設，[!UICONTROL Select條件]畫面會顯示與您的垂直產業相容的條件，以及您在上一步驟中選取的頁面型別。 您可以變更這些選項以顯示其他條件。
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。 根據您的Recommendations設定（**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件]**），可能不會顯示[!UICONTROL 相容]選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+   >不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。 根據您的Recommendations設定（**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件]**），可能不會顯示[!UICONTROL 相容]選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
    ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    如果您選取多個條件，流量會在選取的條件間平均分割。 例如，如果您已選取了兩個條件，而您的活動是設計為對 20% 的活動加入者顯示預設內容，那麼 40% 的活動加入者將看到每個條件所控制的建議。 沒有選項可變更每個條件的百分比。
 
-   * 若要搜尋現有條件（例如，如果顯示了大量條件卡片），請在搜尋欄位中輸入內容，直到需要的條件出現為止，接著選取條件，然後按一下[下一步]。**&#x200B;**
+   * 若要搜尋現有條件（例如，如果顯示了大量條件卡片），請在搜尋欄位中輸入內容，直到需要的條件出現為止，接著選取條件，然後按一下[下一步]。****
 
      有些條件是由 [!DNL Recommendations] 提供。 您和您的團隊也可以建立自己的自訂條件。
 
@@ -108,17 +108,17 @@ ht-degree: 52%
 1. 按一下&#x200B;**[!UICONTROL 下一步]**。
 1. 選取[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   設計是一種用來決定位置在您頁面上外觀的範本。 [!DNL Target]包含數個預先設定的設計。 您也可以建立自己的自訂設計。 如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   設計是一種用來決定位置在您頁面上外觀的範本。 [!DNL Target]包含數個預先設定的設計。 您也可以建立自己的自訂設計。 如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)。
 
    ![選取設計對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
    每個設計會顯示其外觀的圖形呈現，而圖示會顯示目前您的已上線和非使用中的活動有多少使用該設計。
 
-   * 若要選取一或多個現有設計，請按一下設計，然後按一下[下一步]。**&#x200B;**
+   * 若要選取一或多個現有設計，請按一下設計，然後按一下[下一步]。****
 
      如果您選取了多個條件，則僅能選取一個設計。
 
-   * 若要建立自訂設計，請按一下&#x200B;**[!UICONTROL 建立設計]**，然後填寫新設計的名稱和代碼。 按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成」]**>**[!UICONTROL 「完成」]**。 如需關於建立新設計的資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * 若要建立自訂設計，請按一下&#x200B;**[!UICONTROL 建立設計]**，然後填寫新設計的名稱和代碼。 按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成」]**>**[!UICONTROL 「完成」]**。 如需關於建立新設計的資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)。
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**。
 
@@ -134,7 +134,7 @@ ht-degree: 52%
 
    完成預覽您的建議時，請按一下&#x200B;**[!UICONTROL 「撰寫」]**。
 
-1. 在VEC中檢閱您的建議，然後按一下[下一步]。**&#x200B;**
+1. 在VEC中檢閱您的建議，然後按一下[下一步]。****
 
 1. 在流程圖表中檢閱您的 [!DNL Recommendations] 活動，並進行任何必要的變更。
 

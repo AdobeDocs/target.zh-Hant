@@ -1,8 +1,8 @@
 ---
 keywords: 建議;備用
 description: 瞭解如何在Adobe [!DNL Target Recommendations]中使用備份建議。
-title: 如何在[!DNL Target Recommendations]中使用備份建議？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+title: 使用備份推薦
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 TQID: 'https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0'
@@ -22,46 +22,43 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 64%
+source-wordcount: '497'
+ht-degree: 18%
 ---
-# 使用備份推薦
+# 使用備份推薦 {#backup-recommendations}
 
-如果您在[!DNL Adobe Target]中使用備份建議功能，則任何沒有足夠建議專案的建議都不會顯示預設內容。 建議會改為顯示備份演算法的結果。
+>[!BEGINSHADEBOX]
 
-如果您未使用備份建議，而建議沒有足夠的項目來顯示，則系統會對使用者顯示預設內容。
+**在此頁面上：**&#x200B;瞭解備份建議如何在[!DNL Adobe Target Recommendations]中填滿設計的剩餘位置。
+
+>[!ENDSHADEBOX]
+
+當建議沒有足夠的建議專案來填滿設計時，[!DNL Adobe Target]中的備份建議功能會顯示備份演演算法的結果，而非預設內容。 如果沒有備份建議，系統會向使用者顯示預設內容。
 
 >[!NOTE]
 >
->其他資訊包含在建立條件[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主題的內容區段中，其中包括說明使用[!UICONTROL 部分設計呈現]和[!UICONTROL 顯示備份建議]選項時您會觀察到的結果的矩陣。
+>如需詳細資訊，包括說明使用&#x200B;**[!UICONTROL 部分設計呈現]**&#x200B;和&#x200B;**[!UICONTROL 顯示備份內容]**&#x200B;選項之結果的矩陣，請參閱建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)的[備份內容區段。
 
-備份建議功能一律會使用網站上檢視次數最多的專案，填滿使用演演算法資料後剩餘的所有位置。 例如，您的範本設定為顯示五個建議專案，而您使用的是&#x200B;*購買相關性*&#x200B;演演算法。 然而，您僅有足夠的資料來填充五個區段中的其中兩個，因此備份建議功能可用檢視次數最多的項目來填充另外三個區段。
+備份建議功能一律會使用網站上檢視次數最多的專案，在使用演演算法的資料後填滿任何剩餘的位置。 例如，一個設計被設定為顯示五個建議專案，但演演算法有足夠的資料填補五個位置中的兩個。 接著，備用建議功能會將其他三個位置填入檢視次數最多的專案。
 
 從整個網站前 500 個最常檢視的產品中，隨機挑選備份建議。 備份建議的日期時段為 1 週。
 
-500 個最常檢視的結果會依序排序，然後分割成每 20 個一組。 各組依序提供，但每一組內的結果會隨機化並傳回給頁面。 如果使用者重新整理頁面，則會看到新的隨機化結果。 如果集合的聯集和篩選規則的結果集小於20，則會隨機從集合中選取。
+500 個最常檢視的結果會依序排序，然後分割成每 20 個一組。 值區會依順序提供，但每個值區內的結果會隨機化並傳回至頁面，因此重新整理頁面的使用者會看到新的隨機結果。 如果集合的聯集和篩選規則的結果集小於20，則會從集合中隨機選取專案。
 
 此分組程序表示備用建議會依下列順序顯示:
 
-1. 顯示 20 個最常檢視的項目、隨機化，然後
-1. 顯示接下來 20 個最常檢視的項目、隨機化，然後
-1. 顯示接下來 20 個最常檢視的項目、隨機化，
-1. 以此類推。
+1. 檢視次數最多的20個專案，隨機。
+1. 接下來20個檢視次數最多的專案，隨機進行。
+1. 接下來的20個檢視次數最多的專案，隨機化等等。
 
-如果備用建議不分組，可能會顯示第 499 個最常檢視的項目、接著第 200 個最常檢視的項目、接著第 380 個最常檢視的項目，以此類推。 分組程序可確保最先建議檢視次數最多的項目。
+若不進行分組，則會顯示檢視次數最多的第499個專案，然後是檢視次數最多的第200個專案，最後是檢視次數最多的第380個專案，以此類推。 分組可確保首先推薦檢視次數最多的專案。
 
->[!NOTE]
->
->如果您將項目群組至目錄，建議內針對每個演算法產生的備用建議也會使用該目錄，因此只有目錄中的項目會包含在備用建議中。
+如果專案分組到集合，為每個條件產生的備用建議也會使用該集合，因此只有集合中的專案會包含在備用建議中。 全域排除規則所排除的任何項目都不會做為備份建議。 從多批建議中移除重複部份。
 
-全域排除規則所排除的任何項目都不會做為備份建議。
+預設會啟用備用建議，並隨機選取網站上最受歡迎的專案，以填滿設計中額外的位置。
 
-備份建議會依預設啟用，並且會將隨機選取的網站上最熱門項目填入範本中的額外位置。
+使用備份建議通常是初始設定期間與實作團隊討論的一部分。 若要在實施後變更備份建議設定，請聯絡客戶經理。
 
-從多批建議中移除重複部份。
-
-備份建議的使用通常是初始設定期間與實施團隊進行討論的內容之一。 如要在實施後變更備份建議設定，請聯絡客戶經理。
-
-如果未啟用「啟用部分設計呈現」（請參閱[內容設定](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)），且範本未顯示，則會改為顯示備份建議或預設內容。
+當&#x200B;**[!UICONTROL 部分設計呈現]** （請參閱[備份內容](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)）未啟用且無法填滿設計時，將改為顯示備份建議（啟用時）或預設內容。

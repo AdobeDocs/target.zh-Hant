@@ -1,7 +1,7 @@
 ---
 keywords: 多值；屬性；建議；多值；多值
 description: 瞭解如何使用特殊的多值運運算元在[!DNL Target Recommendations]中使用多值欄位。
-title: 我可以在Recommendations中使用多值屬性嗎？
+title: 使用多值屬性
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 TQID: 'https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE'
@@ -17,43 +17,36 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 8%
+source-wordcount: '502'
+ht-degree: 2%
 ---
-# 使用多值屬性
+# 使用多值屬性 {#multi-value-attributes}
 
-有時您可能會想要使用多值欄位。 考量下列範例：
+>[!BEGINSHADEBOX]
 
-* 您提供影片給使用者。 某部電影有多位演員。
-* 你賣音樂會的票。 給定用戶有多個喜愛的樂隊。
-* 你賣衣服。 襯衫有多種尺寸。
+**在此頁面上：**&#x200B;瞭解如何傳送多值資料給[!DNL Adobe Target Recommendations]，以及如何在多值運運算元的包含規則中使用資料。
 
-若要處理這些案例中的建議，您可以將多值資料傳遞至[!DNL Target Recommendations]並使用特殊的多值運運算元。
+>[!ENDSHADEBOX]
 
-若要允許[!DNL Recommendations]識別多值資料，應以JSON陣列傳送，如下列程式碼範例所示。
+多值欄位會保留相同專案或訪客的多個值。 例如：
 
-## 在JavaScript中傳遞多值引數
+* 提供給使用者的電影：指定電影有多位演員。
+* 演唱會門票已售：特定使用者有多個最喜愛的樂隊。
+* 已售出衣服：襯衫有多種尺寸。
 
-```
-function targetPageParams() { 
-  return { 
-    'entity.id':                   '123', 
-    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
-    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
-    'entity.event.detailsOnly':     'true', 
-    'excludedIds":                  '[123, 3232, 2323, 4344]', 
-    'orderId":                      '123456', 
-    'orderTotal":                   '195.32', 
-    'productPurchaseId":            '[001,002,003]' 
-  }; 
-}
-```
+若要處理這些案例中的建議，可將多值資料傳遞至[!DNL Target Recommendations]並搭配特殊的多值運運算元使用。
 
-如需詳細資訊，請參閱&#x200B;*自訂實體屬性*&#x200B;中的[實作多值屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)。
+## 傳送多值資料 {#send}
 
-## 在CSV檔案中傳遞多值實體屬性
+若要允許[!DNL Recommendations]識別多值資料，應以JSON陣列傳送。
+
+若為JavaScript (`targetPageParams`)中的多值引數，請參閱&#x200B;*自訂實體屬性*&#x200B;中的[實作多值屬性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)。
+
+在CSV檔案中，多值實體屬性會在屬性的儲存格中以JSON陣列形式傳送，如以下範例所示。
+
++++ 具有多值屬性的範例CSV檔案
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -70,26 +63,28 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-當根據上述格式以多值形式提供實體屬性、設定檔屬性或mbox引數時，[!DNL Recommendations]會自動推斷欄位是多值。
++++
+
+在此格式中提供實體屬性、設定檔屬性或mbox引數為多值時，[!DNL Recommendations]會自動推斷欄位是多值。
+
+## 在包含規則中使用多值屬性 {#multi-value-inclusion-rules}
 
 下列運運算元可搭配多值實體、設定檔和mbox屬性使用：
 
-* [!UICONTROL 包含在清單]中
-* [!UICONTROL 不在清單]中
-
-## 在包含規則中使用多值屬性
+* **[!UICONTROL 包含在清單]**&#x200B;中
+* **[!UICONTROL 不在清單]**&#x200B;中
 
 >[!NOTE]
 >
->目前，只有在比較左側的單一值和多值右側時，使用設定檔屬性比對或引數(mbox)屬性比對規則時，才有條件支援動態比對多值屬性。 促銷活動、實體屬性比對或包含規則左側的清單目前不支援多值屬性。
+>目前，只有使用設定檔屬性比對或引數(mbox)屬性比對規則（將左側的單一值與右側的多個值比較）的條件，才支援動態比對多值屬性。 促銷活動、實體屬性比對或包含規則左側的清單目前不支援多值屬性。
 
 ### 範例：排除最近觀看的專案
 
-假設您想要防止推薦使用者最近看過十部影片中的任何影片。 首先，編寫名為`user.lastWatchedMovies`的設定檔指令碼，以JSON陣列形式追蹤最後十部檢視的電影。 然後，您可以使用以下包含規則排除專案：
+若要避免建議使用者觀看的最後10部影片中的任何影片，請先撰寫名為`user.lastWatchedMovies`的設定檔指令碼，以JSON陣列形式追蹤最後10部檢視的影片。 然後可以使用以下包含規則排除專案：
 
 ```
-`Profile Attribute Matching`
-`id - is not contained in list - user.lastWatchedMovies`
+Profile Attribute Matching
+id - is not contained in list - user.lastWatchedMovies
 ```
 
 包含規則的JSON API表示法：
@@ -107,11 +102,11 @@ function targetPageParams() {
 
 ### 範例：從使用者的最愛中建議專案
 
-假設您只想要向演唱會推薦門票，如果播放的樂隊是使用者最喜愛的樂隊之一。 首先，請確定您有一個名為`profile.favoriteBands`的設定檔變數，其中包含使用者最喜愛的樂隊。 然後，請確定您的目錄包含屬性`entity.artistPerforming`，該屬性包含演唱會中的演出者。 然後，您可以使用以下包含規則：
+只有當樂團演奏是使用者最喜愛的樂團之一時，才建議音樂會票證，需要兩個專案：名為`profile.favoriteBands`的設定檔變數包含使用者最喜愛的樂隊，以及目錄中的屬性`entity.artistPerforming`，包含音樂會中演奏的藝人。 然後可以使用以下包含規則：
 
 ```
-`Profile Attribute Matching`
-`artistPerforming - is contained in list - profile.favoriteBands`
+Profile Attribute Matching
+artistPerforming - is contained in list - profile.favoriteBands
 ```
 
 包含規則的JSON API表示法：
@@ -129,7 +124,7 @@ function targetPageParams() {
 
 ### 範例：API建立條件，從使用者的最愛中建議專案
 
-使用多值篩選規則的條件（例如所有條件）可透過[!DNL Adobe Target] API建立。 以下提供建立條件的範例API呼叫，其中實體屬性`id`包含在mbox引數清單`favorites`中：
+使用多值篩選規則的條件可以透過[!DNL Adobe Target] API建立，例如所有條件。 下列範例API呼叫會建立條件，其中實體屬性`id`包含在mbox引數清單`favorites`中：
 
 ```
 curl -X POST \
@@ -166,7 +161,7 @@ curl -X POST \
 }'
 ```
 
-這會與頁面上的JavaScript配對以傳入「我的最愛」內容：
+此呼叫會與傳入我的最愛內容之頁面上的JavaScript配對：
 
 ```
 <!-- pass in the value of mbox parameter "favorites" as JSON array -->

@@ -19,48 +19,65 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 13%
+source-wordcount: '496'
+ht-degree: 6%
 ---
-# 排除項目
+# 排除項目 {#exclusions}
 
-在[!DNL Adobe Target Recommendations]中建立排除專案，以防止向訪客建議產品或內容。 排除是不建議給訪客的產品或內容子集。
+>[!BEGINSHADEBOX]
 
-整個帳戶都可以使用排除專案。 集合是當您建立[!UICONTROL Recommendations]活動時，為每個體驗指定特定的集合。不同於此集合，排除適用於整個帳戶的所有活動。 活動建立期間沒有指派排除群組的選項。
+**在此頁面上：**&#x200B;瞭解如何在[!DNL Adobe Target Recommendations]中建立和管理排除專案，以防止向訪客建議產品或內容。
 
-您使用排除專案的次數範例包括：
+>[!ENDSHADEBOX]
+
+排除是不建議給訪客的產品或內容子集。 整個帳戶都可以使用排除專案。 與建立[!DNL Recommendations]活動時為每個體驗選取的集合不同，排除套用至帳戶中的所有活動，且在活動建立期間無法指派排除群組。
+
+排除專案通常用於：
 
 * 已停產的產品。
-* 秋冬目錄現在是唯一應該線上上顯示的目錄。 Summer目錄中的任何專案都不再提供購買。
+* 目錄中不再可用的專案。 例如，當只有秋季和冬季目錄應該線上上出現時，夏季目錄中的任何專案都不能購買。
 * 可能不適合在大多數頁面或熒幕上推薦的專案（成人產品、NC-17電影等）。
 * 中繼資料欄位不完整的產品（遺失縮圖、價格或其他重要中繼資料）。
-* 不應建議使用的產品（可能系統中已有某專案的SKU，但並非可購買的專案）。 或許QA團隊模擬購買而不實際訂購東西可能是虛假SKU)。
+* 不應建議使用的產品，例如存在於系統中但並非可購買專案的SKU，或QA團隊用來模擬購買而不訂購任何東西的虛假SKU。
 
 >[!IMPORTANT]
 >
 >排除規則會全域套用至所有[環境](/help/main/administrating-target/environments.md)。
 >
->靜態和動態排除規是可協助您從事行銷活動的強大功能。 如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
+>如需靜態和動態排除規則的詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules)。
 
 ## 建立排除項目
 
+排除規則定義一次，然後套用至帳戶中的每個[!DNL Recommendations]活動。
+
 1. 按一下「**[!UICONTROL 建議]** > **[!UICONTROL 排除專案]**」以顯示現有排除專案的清單。
 
-   針對[!UICONTROL 排除專案]清單檢視中的每個排除專案所報告的「專案數量」，是設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數量。 如需有關如何變更預設主機群組的資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[計畫和實作 [!DNL Recommendations]](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/recommendations){target=_blank}。
+   >[!NOTE]
+   >
+   >針對&#x200B;**[!UICONTROL 排除專案]**&#x200B;清單檢視中的每個排除專案所報告的「專案數量」，是設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）內符合該排除專案規則的產品數量。 如需有關如何變更預設主機群組的資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[計畫和實作 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg)），然後在建立（或更新）排除專案以預覽該環境中的排除專案內容時，從&#x200B;**[!UICONTROL 環境]**&#x200B;下拉式清單中選擇所需的[環境](/help/main/administrating-target/environments.md)。 依照預設，會顯示預設主機群組的結果。
+
+1. 按一下&#x200B;**[!UICONTROL 顯示篩選器]**&#x200B;圖示（![顯示篩選器圖示](/help/main/assets/icons/Filter.svg)），然後從&#x200B;**[!UICONTROL 環境]**&#x200B;下拉式清單中選擇所需的[環境](/help/main/administrating-target/environments.md)，以預覽該環境中排除專案的內容。 依照預設，會顯示預設主機群組的結果。
+
+   ![排除專案頁面，其中已開啟篩選器面板且環境清單](../assets/exclusions_2.png)
 
 1. 按一下&#x200B;**[!UICONTROL 建立排除專案]**。
 
-1. 輸入排除專案&#x200B;**[!UICONTROL 名稱]**，然後輸入選擇性說明。
+   ![包含「建立排除專案」按鈕的「排除專案」頁面](../assets/exclusions_1.png)
 
-1. 使用規則產生器來建立排除項目。
+1. 輸入排除專案&#x200B;**[!UICONTROL 名稱]**。 您也可以輸入選填的說明。
 
-   在[!UICONTROL 規則]清單中選取引數，選取運運算元，然後輸入一或多個值以識別產品。 使用逗號分隔多個值。
+1. 使用規則產生器來定義排除專案。
+
+   Select是&#x200B;**[!UICONTROL 規則]**&#x200B;清單中的引數，請選取運運算元，然後輸入一或多個值以識別產品。 使用逗號分隔多個值。
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
+
+1. 按一下清單中所需排除專案旁的「更多動作」圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg)），然後按一下適當的選項： **[!UICONTROL 編輯]**、**[!UICONTROL 複製]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**。
+
+   ![排除專案清單，[更多動作]功能表已開啟，顯示[編輯]、[複製]和[刪除]](../assets/exclusions_3.png)
 
 <!--
 ## Create an exclusion using Advanced Search
@@ -76,13 +93,6 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded.
 -->
 
-## 編輯、複製或刪除排除專案
-
-按一下清單中所需排除專案旁的「更多動作」圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg)），然後按一下適當的圖示： [!UICONTROL 編輯]、[!UICONTROL 複製]或[!UICONTROL 刪除]。
-
-您可以複製現有的排除專案，以建立重複的排除專案，然後進行修改。 此選項可讓您輕鬆建立類似的排除專案。
-
-請注意，整個帳戶都可以使用排除專案。 刪除排除專案前，請務必考量此注意事項。 已刪除的排除專案無法復原。
 
 ## 訓練影片：在Recommendations (7:05) ![教學課程徽章](/help/main/assets/tutorial.png)中建立集合和排除專案
 
