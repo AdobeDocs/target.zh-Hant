@@ -49,7 +49,7 @@ ht-degree: 12%
 
 ## 購物車型 {#cart-based}
 
-**[!UICONTROL 購物車型]**&#x200B;演演算法型別會根據訪客目前購物車的內容來建議專案。 建議金鑰是在[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}中以逗號分隔的值提供。 僅考慮前 10 個值。
+**[!UICONTROL 購物車型]**&#x200B;演演算法型別會根據訪客目前購物車的內容來建議專案。 建議金鑰是在[mbox引數`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}中以逗號分隔的值提供。 僅考慮前 10 個值。
 
 購物車型建議邏輯類似於&quot;**[!UICONTROL 為您推薦的]**&quot;使用者型演演算法，以及&quot;**[!UICONTROL 瀏覽過此專案、購買該專案]**&#x200B;的人員」和&quot;**[!UICONTROL 購買過此專案、購買該專案]**&quot;演演算法的人員。
 
@@ -83,8 +83,8 @@ ht-degree: 12%
 
 | 演算法 | 運作方式 | 使用時機 | 建議索引鍵 |
 | --- | --- | --- | --- |
-| 整個網站檢視次數最多&#x200B;**&#x200B;** | 建議由檢視次數最多的專案決定，根據造訪間隔/頻率標準。 檢視整個網站的[檢視次數最多評分](#most-viewed)。 | 一般頁面，例如首頁或登陸頁面及離站廣告。 | |
-| 依類別檢視次數最多&#x200B;**&#x200B;** | 建議由接收最多活動的類別確定，而使用的方法與檢視次數最多專案相同，只不過是以類別計分，而非產品。 檢視依類別評分的[檢視次數最多](#most-viewed-category)。 | 一般頁面，例如首頁或登陸頁面及離站廣告。 | **[!UICONTROL 目前類別]**，**[!UICONTROL 最喜愛的類別]** |
+| 整個網站檢視次數最多&#x200B;**** | 建議由檢視次數最多的專案決定，根據造訪間隔/頻率標準。 檢視整個網站的[檢視次數最多評分](#most-viewed)。 | 一般頁面，例如首頁或登陸頁面及離站廣告。 | |
+| 依類別檢視次數最多&#x200B;**** | 建議由接收最多活動的類別確定，而使用的方法與檢視次數最多專案相同，只不過是以類別計分，而非產品。 檢視依類別評分的[檢視次數最多](#most-viewed-category)。 | 一般頁面，例如首頁或登陸頁面及離站廣告。 | **[!UICONTROL 目前類別]**，**[!UICONTROL 最喜愛的類別]** |
 | **[!UICONTROL 檢視次數最多的專案屬性]** | 建議與網站上檢視次數最多的專案或媒體類似的專案或媒體。 已選取建議所根據的專案屬性，例如「名稱」或「品牌」。 接著選取儲存在訪客設定檔中要比對的設定檔屬性，例如「最喜愛的品牌」、「加入購物車的最後一個專案」或「最常檢視的節目」。 | | |
 | **[!UICONTROL 依輪廓屬性的檢視次數最多項目]** | 建議依訪客設定檔屬性而非專案資訊群組的最常檢視專案，例如&#x200B;**[!UICONTROL 依類別檢視次數最多]**&#x200B;和&#x200B;**[!UICONTROL 依專案屬性檢視次數最多]**。 [!DNL Target]會為每個屬性值保留個別的排名清單，並在傳送時顯示符合自己儲存值的清單。 請參閱[設定檔屬性演演算法](#profile-attribute-algorithms)。 | | |
 | 整個網站&#x200B;**[!UICONTROL 最暢銷商品]** | 顯示整個網站中，已完成最多訂單所包含的料號。 單一訂單中相同項目的多個單位視為一份訂單。 | 為網站上的最暢銷專案建立建議，以提高轉換率和收入。 此邏輯適用於首次造訪網站的訪客。 | |
@@ -121,7 +121,7 @@ ht-degree: 12%
 >title="輪廓屬性"
 >abstract="您可以使用輪廓指令碼來建立輪廓屬性。 在建立並啟用輪廓指令碼後，就可以將其對應的輪廓屬性與此演算法搭配使用。"
 
-**[!UICONTROL 個人資料屬性檢視次數最多]**&#x200B;和個人資料屬性最暢銷商品&#x200B;**[!UICONTROL 依賴個人資料指令碼來填入屬性。]**&#x200B;指令碼名稱必須以`recsAttribute`首碼開頭，所以[!DNL Target]會儲存為`user.recsAttribute<Name>`。 您可以為與使用案例相關的任何訪客特性編寫指令碼。 如需使用設定檔指令碼設定設定檔屬性的詳細資訊，請參閱[設定檔引數](https://experienceleague.adobe.com/zh-hant/docs/target/using/audiences/visitor-profiles/profile-parameters)。
+**[!UICONTROL 個人資料屬性檢視次數最多]**&#x200B;和個人資料屬性最暢銷商品&#x200B;**[!UICONTROL 依賴個人資料指令碼來填入屬性。]**&#x200B;指令碼名稱必須以`recsAttribute`首碼開頭，所以[!DNL Target]會儲存為`user.recsAttribute<Name>`。 您可以為與使用案例相關的任何訪客特性編寫指令碼。 如需使用設定檔指令碼設定設定檔屬性的詳細資訊，請參閱[設定檔引數](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)。
 
 例如，下列名為`recsAttributeRegion`的指令碼會根據訪客的區域提供建議：
 
