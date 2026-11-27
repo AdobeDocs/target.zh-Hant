@@ -51,7 +51,7 @@ ht-degree: 2%
 
 1. （視條件而定）選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定活動URL，然後按一下[建立]。****
+1. 指定活動URL，然後按一下[建立]。**&#x200B;**
 
    活動URL是建議顯示的頁面。 [!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]），因此`http://www.adobe.com`和`https://www.adobe.com`都相符。
 
@@ -106,7 +106,7 @@ ht-degree: 2%
 1. 選擇性地尋找或建立條件：
 
    * 若要在清單很長時搜尋現有條件，請在搜尋欄位中輸入內容，直到需要的條件出現為止。 [!DNL Recommendations]提供了部分條件，團隊也可以建立自訂條件。
-   * 若要建立新條件，請按一下[建立條件] ****，然後輸入新條件的資訊。 請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * 若要建立新條件，請按一下[建立條件] **&#x200B;**，然後輸入新條件的資訊。 請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
    * 若要將條件分組到序列中，請建立條件序列。 請參閱[建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**。
@@ -119,8 +119,8 @@ ht-degree: 2%
 
    ![具有「建立設計」按鈕的Select Design對話方塊，以及已選取2 x 4設計的設計清單](../assets/create_reco_5.png)
 
-   * 若要使用現有設計，請選取一或多個設計的核取方塊，然後按一下[下一步]。**** 選取多個條件時，只能選取一個設計。
-   * 若要建立自訂設計，請按一下[建立設計] ****，然後輸入新設計的名稱和代碼。 按[下一步]****，選取或上傳影像，然後按一下[完成]]**> [完成]****。**[!UICONTROL 
+   * 若要使用現有設計，請選取一或多個設計的核取方塊，然後按一下[下一步]。**&#x200B;** 選取多個條件時，只能選取一個設計。
+   * 若要建立自訂設計，請按一下[建立設計] **&#x200B;**，然後輸入新設計的名稱和代碼。 按[下一步]&#x200B;**&#x200B;**，選取或上傳影像，然後按一下[完成]&#x200B;**> [完成]**&#x200B;**。**
 
    [!DNL Target]包含數個預先設定的設計。 如需自訂設計的詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)和[使用Velocity自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)。
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視向訪客呈現的活動外觀。 此模式可允許與建議互動，因為訪客會與建議互動。 按一下&#x200B;**[!UICONTROL 撰寫]**&#x200B;以返回VEC。
 
-1. 在VEC中檢閱建議，然後按一下[下一步]。****
+1. 在VEC中檢閱建議，然後按一下[下一步]。**&#x200B;**
 
 1. 在流程圖表中檢閱活動，並進行任何必要的變更。 完成時，請按一下&#x200B;**[!UICONTROL 下一步]**。
 

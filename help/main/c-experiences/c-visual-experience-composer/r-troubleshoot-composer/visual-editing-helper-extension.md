@@ -70,7 +70,7 @@ ht-degree: 4%
 
 在[!DNL Chrome]中安裝擴充功能可讓您可靠地在VEC中載入網站，包括封鎖iframe或尚未實作at.js的網站。
 
-1. 移至Chrome網站商店](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper ]**瀏覽器擴充功能。
+1. 移至Chrome網站商店[&#128279;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper &#x200B;]**&#x200B;瀏覽器擴充功能。
 1. 按一下&#x200B;**[!UICONTROL 新增至Chrome]** > **[!UICONTROL 新增擴充功能]**。
 1. 在 [!DNL Target] 中開啟 VEC。
 1. 在VEC或QA模式中，按一下[!DNL Chrome]工具列中的&#x200B;**[!UICONTROL Visual Editing Helper]**&#x200B;瀏覽器擴充功能圖示（ ![Visual Editing Helper圖示](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
@@ -92,7 +92,7 @@ ht-degree: 4%
 
 此擴充功能會將startup cookie cleanup實驗功能新增至VEC Helper。 此功能會在編寫開始時為每個索引標籤清除一次未分割的Cookie，而非持續進行，這麼做可改善效能和可靠性。 它會追蹤每個標籤的歷史記錄，以防止多餘的清除，並在標籤關閉時清除該歷史記錄，因此在標籤重新開啟時清除會正確運作。 單元測試可確保一致的行為。
 
-![ VEC Helper擴充功能的選項，包括Cookie處理模式、進階記錄選項，以及實驗功能：延遲網頁載入、Cookie清理和啟動Cookie清理](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
+![&#x200B; VEC Helper擴充功能的選項，包括Cookie處理模式、進階記錄選項，以及實驗功能：延遲網頁載入、Cookie清理和啟動Cookie清理](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## 常見問題集
 

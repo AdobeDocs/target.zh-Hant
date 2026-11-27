@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL 視覺化體驗撰寫器]需要[!DNL Chrome Web Store]中可用的[!DNL Adobe Experience Cloud] [**[!UICONTROL Visual Editing Helper ]**擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>更新的[!UICONTROL 視覺化體驗撰寫器]需要[!DNL Chrome Web Store]中可用的[!DNL Adobe Experience Cloud] [**[!UICONTROL Visual Editing Helper &#x200B;]**&#x200B;擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
 VEC會在建立活動或編輯現有活動時顯示。
 

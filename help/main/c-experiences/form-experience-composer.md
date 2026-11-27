@@ -50,7 +50,7 @@ ht-degree: 35%
 
    如果您要建立[!UICONTROL Recommendations]活動，此畫面會不同。 [!UICONTROL Recommendations]活動不包含體驗。
 
-1. 
+1. &#x200B;
    1. 按一下「**[!UICONTROL 重新命名]**」圖示（「![重新命名」圖示](/help/main/assets/icons/MoreSmallListVert.svg)），按一下「**[!UICONTROL 重新命名]**」，指定活動的名稱，然後按一下「**[!UICONTROL 儲存]**」。
 
    活動名稱的開頭不能是下列任一字元：
@@ -87,7 +87,7 @@ ht-degree: 35%
    >
    >在活動建立期間建立手動輸入的位置不會自動建立新位置。 位置名稱僅會儲存在活動內容中。 位置是在有內容傳遞呼叫時建立。 建立位置之後，就可在其他活動中使用，以便從可用位置的下拉式清單中建立對象等。
 
-1. 按一下「新增對象細分」****，為此活動選擇一個或多個[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然後按一下「完成」****。
+1. 按一下「新增對象細分」**&#x200B;**，為此活動選擇一個或多個[對象](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然後按一下「完成」**&#x200B;**。
 
    在[!UICONTROL 表單式體驗撰寫器]中，精簡已取代為完整的對象功能。 現有活動的微調已移轉至[僅限於此活動的對象](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
 

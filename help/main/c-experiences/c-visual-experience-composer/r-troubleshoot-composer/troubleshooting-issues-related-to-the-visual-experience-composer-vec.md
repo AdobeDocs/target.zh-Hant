@@ -64,7 +64,7 @@ ht-degree: 4%
 
 ![瀏覽器主控台錯誤訊息，指出由於X-Frame-Options設為SAMEORIGIN，頁面已拒絕顯示在框架中](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-當這兩種撰寫器都無法運作時，覆寫網站X-Frame-Options標頭的瀏覽器擴充功能(例如[!DNL Requestly] （[!DNL Chrome]或[!DNL Firefox]）或Modify Response Headers ([!DNL Firefox]))會允許網站載入iFrame，進而啟用VEC。 當無法使用瀏覽器延伸時，請使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。 除了下列程式外，也可以使用[!DNL Google Chrome]的[[!DNL Adobe Target] **[!UICONTROL Visual Editing Helper ]**擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+當這兩種撰寫器都無法運作時，覆寫網站X-Frame-Options標頭的瀏覽器擴充功能(例如[!DNL Requestly] （[!DNL Chrome]或[!DNL Firefox]）或Modify Response Headers ([!DNL Firefox]))會允許網站載入iFrame，進而啟用VEC。 當無法使用瀏覽器延伸時，請使用[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。 除了下列程式外，也可以使用[!DNL Google Chrome]的[[!DNL Adobe Target] **[!UICONTROL Visual Editing Helper &#x200B;]**&#x200B;擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ ht-degree: 4%
 
 檢查下列原因：
 
-* **擴充功能版本：**&#x200B;最新版本的[[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper ]**擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)提供與VEC的最佳相容性。 若要驗證已安裝的版本，請移至**[!UICONTROL &#x200B;擴充功能&#x200B;]**>**[!UICONTROL &#x200B;管理擴充功能&#x200B;]**，然後按一下**[!UICONTROL &#x200B;詳細資料&#x200B;]**。
+* **擴充功能版本：**&#x200B;最新版本的[[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper &#x200B;]**&#x200B;擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)提供與VEC的最佳相容性。 若要驗證已安裝的版本，請移至&#x200B;**[!UICONTROL &#x200B;擴充功能&#x200B;]**>**[!UICONTROL &#x200B;管理擴充功能&#x200B;]**，然後按一下&#x200B;**[!UICONTROL &#x200B;詳細資料&#x200B;]**。
 * **編寫資料庫：** VEC需要編寫資料庫才能修改網頁。 這些檔案內嵌於at.js資料庫中，無論at.js或[!DNL Adobe Experience Platform Web SDK]是否已在頁面上，每次使用VEC時，擴充功能都會從[!DNL Adobe]伺服器下載這些檔案。 檢查&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 實作]**&#x200B;中設定的at.js標頭是否不包含無效的變更。
 * **已封鎖的要求：**&#x200B;當頁面內嵌於iFrame中時，頁面不可封鎖載入的必要要求。 這種封鎖包括`frame-ancestors` CSP指示、網站中的自訂JavaScript程式碼、中繼HTML標籤和`x-frame-options`標頭。
 * **保留的檔案名稱：**&#x200B;頁面的JavaScript不得干擾編寫程式庫。 請勿使用或包含具有下列保留名稱的檔案：

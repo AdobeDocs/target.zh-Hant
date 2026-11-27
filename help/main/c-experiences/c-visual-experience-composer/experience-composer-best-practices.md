@@ -206,7 +206,7 @@ VEC （包括&#x200B;**[!UICONTROL 增強體驗撰寫器]**）會透過Proxy伺�
 
 同樣地，如果元素是以文字和個別動作新增，接著又以不同文字編輯該元素，則程式碼編輯器會將這兩個動作顯示為個別的元素。 編輯會建立可修改原始元素並包含已編輯文字的新元素。 如果隨後刪除了原始元素，則編輯的文字將找不到要修改的元素且不會顯示。 第二個元素會保留在元素清單中，但因為變更的元素已不存在，所以對頁面沒有影響。
 
-檢視&#x200B;**[!UICONTROL 視覺化體驗撰寫器]**](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#vec-selectors)中使用的[元素選取器。
+檢視&#x200B;**[!UICONTROL 視覺化體驗撰寫器]**&#x200B;[&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#vec-selectors)中使用的元素選取器。
 
 +++
 
@@ -299,7 +299,7 @@ VEC （包括&#x200B;**[!UICONTROL 增強體驗撰寫器]**）會透過Proxy伺�
 
 +++ 處理VEC與[!DNL Chrome]擴充功能原則變更的相容性。
 
-在Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新的[V3資訊清單原則下，擴充功能在瀏覽器剖析原始DOM之前，無法再加以修改。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
+在Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新的V3資訊清單原則下，擴充功能在瀏覽器剖析原始DOM之前，無法再加以修改。 因此，某些安全性指令碼（例如iframe-busting實作）可能會阻擋頁面在VEC中載入。
 
 為確保相容性，當頁面載入[!DNL Target] iframe內時，有條件地停用這些指令碼。 可透過檢查是否存在`window.adobeVecExtension`物件安全地完成此操作，當VEC載入時，[!DNL Target]會插入該物件。
 

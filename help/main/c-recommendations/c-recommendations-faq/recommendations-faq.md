@@ -250,7 +250,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 +++ 在[!DNL Adobe Recommendations Classic]中建立的演演算法是否可用於[!DNL Recommendations Premium]？
 
-[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 舊版演演算法可能可在[!DNL Target Premium]中使用，但在[!DNL Target Premium] UI中停用或刪除活動時，可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
+[!DNL Recommendations Premium] 不支援在 [!DNL Recommendations Classic] 中建立的演算法。 舊版演演算法可能可在[!DNL Target Premium]中使用，但在[!DNL Target Premium] UI中停用或刪除活動時，可能會產生同步問題。 如需這兩個解決方案之間差異的詳細資訊，請參閱 [!DNL Target Premium]&#x200B;[&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 與 [!DNL Recommendations] 活動。
 
 +++
 
