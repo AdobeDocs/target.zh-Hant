@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 1%
@@ -242,7 +242,7 @@ UI版本切換是暫時功能，可讓您使用切換按鈕，在更新的[!DNL 
 +++詳細資料
 如需可加入允許清單之IP位址的詳細資訊，請參閱下列文章：
 
-* **增強體驗撰寫器(EEC)**：請參閱[EEC不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法於公用IP上存取的內部QA URL &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)
+* **增強體驗撰寫器(EEC)**：請參閱[EEC不會在&#x200B;*疑難排解增強體驗撰寫器的相關問題*&#x200B;中，載入無法於公用IP上存取的內部QA URL ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#eec-ip-addresses)
 * **[!UICONTROL 建議]**：檢視Recommendations摘要處理伺服器使用的[IP位址](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)。
 
 +++

@@ -14,28 +14,42 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 87%
+source-wordcount: '626'
+ht-degree: 4%
 ---
-# 頁面修改案例
+# 頁面修改案例 {#vec-scenarios}
 
-本主題中的案例顯示對頁面所做的變更如何影響Adobe Target顯示體驗的功能。
+>[!BEGINSHADEBOX]
 
-Target 選取器會決定在何處顯示體驗。 如果在 Target 外修改頁面，變更可能會造成 Target 無法顯示體驗。
+**在此頁面上：**&#x200B;瞭解對[!DNL Target]外部頁面所做的變更如何影響[!DNL Target]顯示體驗的能力，透過七個案例和範例。
 
-使用選取器時，唯一類別不等同於 ID。 選取器一律只使用唯一類別。 如果未將類別指派給元素，選取器會計算先前具有相同標記名稱的同層級項目數。
+>[!ENDSHADEBOX]
+
+[!DNL Target]選擇器決定體驗的顯示位置。 在[!DNL Target]之外修改頁面時，變更可能會影響[!DNL Target]尋找該位置並顯示體驗的能力。
+
+選取器一律與不重複類別搭配使用，不等同於ID。 若未將任何類別指派給元素，選取器即會計入具有相同標籤名稱的先前同層級。
 
 >[!NOTE]
 >
->雖然這些案例使用清單項目當作範例，但概念適用於任何元素。
+>案例使用清單專案作為範例，但概念適用於任何元素。
 
-## 情節: 在選取的元素前面，插入具有不同類別名稱的元素 {#section_298F661F72384F6AB957D5885A99D822}
+下表總結了情境。 在每個案例中，選取器都是`#wrap > ul.nav:eq(0) > li.women-section:eq(0)`。
 
-在此範例中，會插入一個新元素作為 Target 選取器中元素的同層級項目。
+| 藍本 | 已套用動作 | 原因 |
+|---|---|---|
+| 在選取的元素前面，插入具有不同類別名稱的元素 | 是 | `li.women-section:eq(0)`不受影響 |
+| 插入與所選元素具有相同類別名稱的元素 | 否 | 新元素會佔據第一個位置，這會破壞選取器 |
+| 在選取的元素後面插入元素 | 是 | 新元素會新增至與父元素對應的相同位置 |
+| 移除所選元素前面緊鄰的元素 | 是 | 所選專案的類別未變更 |
+| 移除所選元素後面緊鄰的元素 | 是 | 所選專案的類別未變更 |
+| 移除選取的元素 | 是 | 元素已成功移除 |
+| 重新命名所選元素的類別 | 否 | 找不到`class` |
 
-JavaScript 有可能會新增元素上出現的第一個類別。 在此情況下，傳送會失敗，也不會套用動作。
+## 在選取的元素前面，插入具有不同類別名稱的元素
+
+新元素會插入為[!DNL Target]選取器中元素的同層級。 如果JavaScript已新增元素上的第一個類別，則傳送會失敗且不會套用動作。
 
 **插入的元素:**
 
@@ -43,71 +57,67 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 <li class="kids-section">Kids</li>
 ```
 
-**已選取:**
+**選取的元素：**
 
 `<li class="women-section">Women</li>`
 
-選取器: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**選取器：** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**結果:**
+**結果：**&#x200B;選取器如預期般運作，因為`li.women-section:eq(0)`不受影響。
 
-因為 `li.women-section:eq(0)` 不受影響，選取器會正常運作。
-
-在可以記錄:
+**之前：**
 
 ```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
-     </ul> 
+     </ul>
 </div>
 ```
 
-之後:
+**之後：**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
-    </ul> 
+    </ul>
 </div>
 ```
 
-## 情節: 插入與所選元素的類別名稱相同的元素 {#section_0969B88C2F154E648D9969C8C85EF55A}
+## 插入與所選元素具有相同類別名稱的元素
 
-在此情節中，會嘗試在已選取清單中的項目時插入清單。
+在選取清單專案時插入清單。
 
 **插入的元素:**
 
 ```html
-<ul class="nav"> 
-   <li class="item"> Sale </li> 
-   <li> class="item"> Offers </li> 
+<ul class="nav">
+   <li class="item"> Sale </li>
+   <li class="item"> Offers </li>
 </ul>
 ```
 
-**已選取**
+**選取的元素：**
 
 `<li class="women-section">Women</li>`
 
-選取器: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**選取器：** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**結果:**
+**結果：**&#x200B;選取器無法運作。 `ul.nav:eq(0)`現在指向無法使用的動態新增元素，因此不會套用動作。 在建立活動後，以動態或手動方式新增具有相同類別的類似清單專案時，會將新元素放在第一個位置，這會破壞選取器。
 
-因為 `ul.nav:eq(0)` 提供了動態新增的元素，選取器無法運作。 元素將無法使用，且動作不會套用。 在建立活動之後，動態或手動新增具有相同類別的類似清單項目時，第一個位置上會建立新元素。 這會使選取器失去作用。
-
-在可以記錄:
+**之前：**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
-    </ul> 
+    </ul>
 </div>
 ```
 
-之後 (理想結果):
+**之後（嘗試）：**
 
 ```html
 <div id="wrap">
@@ -122,46 +132,44 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 </div>
 ```
 
-## 情節: 在選取的元素後面插入元素 {#section_15B07B84BEE94ED39D85BBBE0733E170}
+## 在選取的元素後面插入元素
 
-在此情節中，會在選取的元素後面插入清單項目。
+清單會插入在選取的清單專案之後。
 
 **插入的元素:**
 
 ```html
-<ul class="nav"> 
-   <li class="men-section"> Men Clothes</li> 
-   <li class="women-section"> Women Clothes</li> 
+<ul class="nav">
+   <li class="men-section"> Men Clothes</li>
+   <li class="women-section"> Women Clothes</li>
 </ul>
 ```
 
-**已選取:**
+**選取的元素：**
 
 `<li class="women-section">Women Shoes</li>`
 
-選取器: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**選取器：** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**結果:**
+**結果：**&#x200B;在結尾為選取專案的清單後面插入清單會如預期般運作。 新元素會新增至與所選元素相同的位置（相對於父元素）。
 
-在此情況下，在尾端是所選清單項目的清單後面再插入清單沒有問題。 新元素會新增至與所選元素相同的位置 (相對於父元素)。
-
-在可以記錄:
+**之前：**
 
 ```html
 <div id="wrap">
     <ul class="nav">
-        <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
+        <li class="men-section">Men Shoes </li>       <li class="women-section">Women Shoes</li>
     </ul>
 </div>
 ```
 
-之後:
+**之後：**
 
 ```html
 <div id="wrap">
     <ul class="nav">
-        <li class="men">Men Shoes </li>
-        <li class="women">Women Shoes</li>
+        <li class="men-section">Men Shoes </li>
+        <li class="women-section">Women Shoes</li>
     </ul>
       <ul class="nav">
         <li class="men-section">Men Clothes</li>
@@ -170,9 +178,9 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 </div>
 ```
 
-## 情節: 移除另一個元素前面緊鄰的元素 {#section_F193674F04F84AA593EAA1137C880EBA}
+## 移除所選元素前面緊鄰的元素
 
-在此情節中，會刪除所選元素前面的清單項目。
+刪除所選元素之前的清單專案。
 
 **移除的元素:**
 
@@ -180,17 +188,15 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 <li class="men-section"> Men </li>
 ```
 
-**已選取:**
+**選取的元素：**
 
 `<li class="women-section">Women</li>`
 
-選取器: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**選取器：** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**結果:**
+**結果：**&#x200B;已成功移除專案，因為未變更選取專案的類別。
 
-元素已成功移除，因為所選取項目的類別未遭更改。
-
-在可以記錄:
+**之前：**
 
 ```html
 <div id="wrap">
@@ -201,7 +207,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 </div>
 ```
 
-之後:
+**之後：**
 
 ```html
 <div id="wrap">
@@ -211,9 +217,9 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 </div>
 ```
 
-## 情節: 移除另一個元素後面緊鄰的元素 {#section_F83B51BE54924FB58679D512DAF1EBB2}
+## 移除所選元素後面緊鄰的元素
 
-在此情節中，會刪除所選元素後面的清單項目。
+刪除所選元素後的清單專案。
 
 **移除的元素:**
 
@@ -221,29 +227,27 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 <li class="kids-section">Kids</li>
 ```
 
-**已選取:**
+**選取的元素：**
 
 `<li class="women-section">Women</li>`
 
-選取器: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**選取器：** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**結果:**
+**結果：**&#x200B;已成功移除專案，因為選取專案的類別未變更，而且移除的專案在其父子樹狀結構中有唯一的類別。
 
-元素已成功移除，因為所選取項目的類別未遭更改。 移除的元素包含其父系樹狀子目錄內唯一的類別。
-
-在可以記錄:
+**之前：**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
         <li class="women-section">Women</li>
-        <li class="kids-section">Women</li>
+        <li class="kids-section">Kids</li>
     </ul>
 </div>
 ```
 
-之後:
+**之後：**
 
 ```html
 <div id="wrap">
@@ -254,38 +258,36 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 </div>
 ```
 
-## 情節: 移除所選的元素 {#section_1989CF1E2C344CC5963084ED83C18F9C}
+## 移除選取的元素
 
-在此情節中，會刪除所選的清單項目。
+所選的清單專案即被刪除。
 
 **移除的元素:**
 
 ```html
-<li class="women-shoes">Women</li>
+<li class="women-section">Women</li>
 ```
 
-**已選取:**
+**選取的元素：**
 
-`<li class="women-shoes">Women</li>`
+`<li class="women-section">Women</li>`
 
-選取器: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**選取器：** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**結果:**
+**結果：**&#x200B;已成功移除專案。
 
-成功移除元素。
-
-在可以記錄:
+**之前：**
 
 ```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
-        <li class="women-shoes">Women</li>
+        <li class="women-section">Women</li>
     </ul>
 </div>
 ```
 
-之後
+**之後：**
 
 ```html
 <div id="wrap">
@@ -295,9 +297,9 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 </div>
 ```
 
-## 情節: 重新命名所選元素的類別 {#section_79D244C588BA452DB8E433D82B7F63EA}
+## 重新命名所選元素的類別
 
-在此情節中，會變更所選清單項目的類別。
+選取清單專案的類別已變更。
 
 **變更的元素:**
 
@@ -305,17 +307,15 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 <li class="women-section">Women</li>
 ```
 
-**已選取:**
+**選取的元素：**
 
 `<li class="women-section">Women</li>`
 
-選取器: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
+**選取器：** `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
-**結果:**
+**結果：**&#x200B;無法重新命名類別，因為找不到`class`。
 
-無法重新命名元素類別，因為找不到 `class`。
-
-在可以記錄:
+**之前：**
 
 ```html
 <div id="wrap">
@@ -326,7 +326,7 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
 </div>
 ```
 
-之後 (理想結果):
+**之後（嘗試）：**
 
 ```html
 <div id="wrap">
@@ -334,5 +334,5 @@ JavaScript 有可能會新增元素上出現的第一個類別。 在此情況�
         <li class="men-section">Men</li>
         <li class="women-shoes">Women</li>
     </ul>
-</div>
+</div> 
 ```

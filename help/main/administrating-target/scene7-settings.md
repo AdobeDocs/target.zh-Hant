@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 5%
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 ## 整合可讓哪些方面受益 {#what-it-enables}
 
-設定&#x200B;**[!UICONTROL Scene7設定]**&#x200B;時，作者可以使用上傳至[!DNL Target]活動中[!DNL Adobe Experience Cloud]資產資料夾的影像。 **[!UICONTROL 交換影像選件]**&#x200B;選項出現在活動工作流程中，包括在[視覺化體驗撰寫器和表單式體驗撰寫器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中。 如需VEC中的交換行為，請參閱[視覺化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+設定&#x200B;**[!UICONTROL Scene7設定]**&#x200B;時，作者可以使用上傳至[!DNL Target]活動中[!DNL Adobe Experience Cloud]資產資料夾的影像。 **[!UICONTROL 交換影像選件]**&#x200B;選項出現在活動工作流程中，包括在[視覺化體驗撰寫器和表單式體驗撰寫器](/help/main/c-experiences/experiences.md#experiences-overview)中。 如需VEC中的交換行為，請參閱[視覺化體驗撰寫器選項](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 如果未設定此設定，則在活動建立期間無法使用&#x200B;**[!UICONTROL 交換影像選件]**。
 

@@ -14,63 +14,67 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 60%
+source-wordcount: '701'
+ht-degree: 21%
 ---
-# 體驗範本
+# 體驗範本 {#experience-templates}
 
-有關用於自訂程式碼的[!DNL Adobe Target]體驗範本的資訊。[!DNL Target] 體驗範本是預先編碼的範例，具有可設定的輸入，用於執行常見行銷人員使用案例。
+>[!BEGINSHADEBOX]
 
-這些體驗範本可透過 VEC 或表單式體驗撰寫器免費提供給開發人員和行銷人員，做為執行常見使用案例的起點。
+**在此頁面上：**&#x200B;尋找可用於自訂程式碼的[!DNL Adobe Target]個體驗範本，以及每個範本的常用用途。
 
-目前，Adobe Marketing Cloud GitHub 提供下列範本，請參閱 [Target-Experience-Templates](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)。
+>[!ENDSHADEBOX]
 
-## Banner Carousel with Thumbnails {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
+[!DNL Adobe Target]體驗範本是預先編碼的範例，具有可設定的輸入，用來執行常見行銷人員使用案例。 開發人員與行銷人員可透過VEC或表單式體驗撰寫器，免費使用這些擴充功能作為執行常見使用案例的起點。
 
-[Banner Carousel with Thumbnails 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)為旋轉輪播，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。 此輪播不會透過影像自動旋轉，可按一下主影像下方的較小影像直接進行互動。
+Adobe Marketing Cloud GitHub目前提供下列範本： [Target-Experience-Templates](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)。
 
-![exp-template-banner-carousel-thumbnails影像](assets/exp-template-banner-carousel-thumbnails.png)
+## Banner Carousel with Thumbnails {#banner-carousel-thumbnails}
 
-## Banner Carousel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+[Banner Carousel with Thumbnails 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)為旋轉輪播，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。 此輪播不會自動在影像中旋轉。 您可以按一下主要影像下方的較小影像，直接與互動。
 
-[Banner Carousel 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)為旋轉輪播，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。 此輪播不會透過影像自動旋轉，可按一下左箭頭和右箭頭直接進行互動。
+![含有縮圖範本的橫幅輪播：一張包含三張較小像片的大型像片，下方有字幕](assets/exp-template-banner-carousel-thumbnails.png)
 
-![exp-template-banner-carousel影像](assets/exp-template-banner-carousel.png)
+## Banner Carousel {#banner-carousel}
 
-## Banner Countdown {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+[Banner Carousel 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)為旋轉輪播，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。 此輪播不會自動在影像中旋轉。 您可以按一下左右箭頭，直接與進行互動。
+
+![橫幅轉盤範本：包含左右箭頭和四個指標點的像片](assets/exp-template-banner-carousel.png)
+
+## Banner Countdown {#banner-countdown}
 
 [Banner Countdown 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)為中央有倒數計時的大型橫幅，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
 
-![exp-template-banner-countdown影像](assets/exp-template-banner-countdown.png)
+![Banner Countdown範本：含有以天、小時、分鐘和秒為單位之倒數計時的大型橫幅，以及[前往這裡]按鈕](assets/exp-template-banner-countdown.png)
 
-## Button Builder {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
+## Button Builder {#button-builder}
 
-[Button Builder 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)為帶有動作呼叫文字的小按鈕。 可設定此按鈕，並將其放在頁面上任何地方以新增動作呼叫，或以更多可設定替代項取代現有按鈕。
+[Button Builder 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)為帶有動作呼叫文字的小按鈕。 按鈕可供設定。 它可放置在頁面上的任何位置，以新增新的call to action，或使用可設定性更強的替代按鈕來取代現有按鈕。
 
-![exp-template-button-builder影像](assets/exp-template-button-builder.png)
+![Button Builder範本：兩個按鈕，連絡我們並前往橫幅標題下方](assets/exp-template-button-builder.png)
 
-## Lightbox with Countdown {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Lightbox with Countdown {#lightbox-countdown}
 
 [Lightbox with Countdown 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)為中央有倒數計時的燈箱覆蓋彈出式視窗，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
 
-![exp-template-lightbox-countdown影像](assets/exp-template-lightbox-countdown.png)
+![包含倒數計時的燈箱範本：包含倒數計時的快顯視窗、[前往這裡]按鈕，以及[謝謝]連結](assets/exp-template-lightbox-countdown.png)
 
-## Lightbox with Exit Intent {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
+## Lightbox with Exit Intent {#lightbox-exit-intent}
 
-[Lightbox with Exit Intent 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)為退出意圖 (將滑鼠移至畫面右上角) 所觸發的燈箱覆蓋彈出式視窗，可部署於任何您想在最後吸引注意的 Web 屬性上。
+[具有退出意圖的燈箱體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)為退出意圖的燈箱覆蓋彈出式視窗（將滑鼠移至熒幕右上方）。 它可部署在想最後吸引注意力的任何Web屬性上。
 
-![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
+![Lightbox with Exit Intent範本：提供折扣的快顯視窗，包含[前往這裡]按鈕和[不謝]連結](assets/exp-template-lightbox-exit.png)
 
-## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
+## Lightbox {#lightbox}
 
-[燈箱體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)為帶有內建延遲的燈箱覆蓋彈出式視窗，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
+[燈箱體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)是具有內建延遲的燈箱覆蓋彈出式視窗，通常用於首頁頁面、登陸頁面或其他高流量登入頁面。
 
-![exp-template-lightbox影像](assets/exp-template-lightbox.png)
+![燈箱範本：左邊有像片的快顯視窗、右邊的訊息、前往這裡按鈕，以及感謝連結](assets/exp-template-lightbox.png)
 
-## Ribbon {#section_CCBB656265F140AEA1B200409D719000}
+## Ribbon {#ribbon}
 
-[Ribbon 體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)為插入至網頁最上方的 100% 寬度色帶，通常用於快閃特賣、免運費、安全性或天氣事件，或其他重要公告。
+[功能區體驗範本](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)是插入網頁最上方的100%寬度功能區。 它通常用於表示限時搶購、免運費、安全性或天氣事件，或其他重要公告。
 
-![exp-template-ribbon影像](assets/exp-template-ribbon.png)
+![Ribbon範本：位於頁面頂端的全形功能區，內含文字檢視我們正在執行的促銷活動](assets/exp-template-ribbon.png)

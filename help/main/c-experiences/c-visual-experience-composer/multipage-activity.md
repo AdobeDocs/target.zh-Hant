@@ -16,33 +16,44 @@ topic_v2:
     internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 54%
+source-wordcount: '374'
+ht-degree: 13%
 ---
-# 多頁活動
+# 多頁活動 {#multipage-activity}
 
-[!DNL Adobe Target]中的多頁活動可讓您使用每個頁面專屬的設計，來建立多個頁面的劇本。
+>[!BEGINSHADEBOX]
 
-例如，您可能要測試某個產品建議，在購買超過某個金額時提供免運費。 您可能想要讓該產品建議出現在您的登陸頁面、類別頁面和某些產品頁面，但想要它有不同的大小且位在每個頁面類型上不同位置。 您可以在首頁上顯示一個顯眼的產品建議，然後在其他相關頁面上以較小的產品建議強化該產品建議。
+**在此頁面上：**&#x200B;瞭解如何使用多頁活動來建立多個頁面的劇本，每個頁面都有專屬的設計。
 
-您也可以使用多頁活動來為您的桌面和非回應式行動網站定義不同的配置。 如果網站有獨立的行動網站，例如[!DNL m.mysite.com]，而不是[!DNL `www.mysite.com`]，您應該改為建立[多頁活動](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，新增[!DNL m.mysite.com]做為獨立的頁面，然後套用行動編輯，對相同體驗中的案頭版和行動版進行適當的變更。 若為回應式行動網站，請使用[行動體驗編](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)。
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target]中的多頁活動會在多個頁面上建立劇本，每個頁面都有專屬的設計。
+
+例如，可以測試購買量超過特定金額的免費送貨優惠。 優惠方案可出現在登入頁面、類別頁面和某些產品頁面上，且大小不同，位置也不同。 顯著的優惠方案可顯示在首頁上，然後以其他相關頁面上的較小優惠方案來強化。
+
+多頁活動也可以為案頭和非回應式行動網站定義不同的版面配置。 如果網站有獨立的行動網站，例如[!DNL m.mysite.com]而非[!DNL `www.mysite.com`]，請建立多頁活動，新增[!DNL m.mysite.com]做為獨立的頁面，然後套用行動編輯，對相同體驗中的案頭版和行動版進行適當的變更。 若為回應式行動網站，請使用[行動體驗編](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 
 >[!NOTE]
 >
->多頁面活動是針對同一產品建議在多個頁面上有不同外觀的活動而設計。 如果產品建議在所有頁面上皆呈現相同外觀，使用[範本測試](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)會更有效率。
+>多頁面活動是針對同一產品建議在多個頁面上有不同外觀的活動而設計。 如果產品建議在所有頁面上皆呈現相同外觀，使用[範本測試](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages)會更有效率。
 
-您可以對多頁面測試中的每一個頁面指定範本規則。 例如，在首頁和所有類別頁面上執行多頁面測試時，您可以在多頁面測試中對類別頁面套用範本規則。 請參閱[在類似頁面上包含相同體驗](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
+您可以為多頁測試中的每個頁面指定範本規則。 例如，將範本規則套用至多頁測試的類別頁面，即可在首頁和所有類別頁面中執行多頁測試。 請參閱[在類似頁面上包含相同體驗](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages)。
 
-若要將頁面新增至測試:
+## 將頁面新增至活動 {#add-pages}
+
+新增至活動的每個頁面都可以有自己的優惠方案設計。
 
 1. 按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示（ ![設定圖示](/help/main/assets/icons/Setting.svg) ）。
+
 1. 按一下&#x200B;**[!UICONTROL 「新增其他頁面」]**。
 
-   畫面左側會顯示[!UICONTROL 頁面]窗格。
+   畫面左側會顯示&#x200B;**[!UICONTROL 頁面]**&#x200B;窗格。
 
-1. 指定您的頁面並設定預設頁面。
+   ![設定圖示](assets/vec_edit_4.png)
+
+1. 指定頁面並設定預設頁面。
 
    按一下&#x200B;**[!UICONTROL 新增頁面]** （![新增圖示](/help/main/assets/icons/Add.svg)）以新增其他頁面，指定頁面名稱和URL，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 

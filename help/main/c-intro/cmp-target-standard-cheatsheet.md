@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -87,14 +87,14 @@ ht-degree: 48%
 **是否有[!DNL Adobe]社群/論壇，我可以在這裡找到關於[!DNL Target]的答案和詳細資訊？**
 
 +++檢視詳細資料
-在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hant){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
+在[Target社群論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中與其他的[!DNL Target]位從業人員連絡。 分享您的專業知識、提出問題，並與使用[!DNL Target]來推動個人化和實驗的其他人共同作業。 一個欣欣向榮的社群有賴於積極的參與。 您的見解和經驗可以協助其他人獲得成功。 快速上手、貢獻內容，並找到您需要的答案。
 
 +++
 
 **[!DNL Target]支援哪些瀏覽器？**
 
 +++檢視詳細資料
-如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hant){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
+如需更多詳細資訊，請參閱[支援的瀏覽器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩陣。 請注意，有兩個方面： [!DNL Target Standard/Premium]介面支援和案頭/裝置的一般使用者瀏覽器支援。
 
 [!DNL Target]介面支援[!DNL Safari]。 您可以在[!DNL Safari]中建立表單式活動，並使用所有功能，但[!DNL Safari]不支援的[!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)除外。 若要在VEC或EEC中編輯體驗，請使用[!DNL Google Chrome]。
 
@@ -151,7 +151,7 @@ ht-degree: 48%
 **我可以跨不同頁面結構的多個頁面執行活動嗎？ 我可以套用位在不同位置（例如，結帳funnel）的選件嗎？**
 
 +++檢視詳細資料
-請試用[多頁活動功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，它可讓您在體驗內使用多個頁面。
+請試用[多頁活動功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity)，它可讓您在體驗內使用多個頁面。
 
 +++
 
@@ -185,7 +185,7 @@ ht-degree: 48%
 **我可以將活動排程在固定時間開始和結束嗎？**
 
 +++檢視詳細資料
-使用三部分活動工作流程的[!UICONTROL 目標與設定]&#x200B;[&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的排程功能，指定開始和結束日期。
+使用三部分活動工作流程的[!UICONTROL 目標與設定]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步驟中的[排程功能，指定開始和結束日期。
 
 記得啟動活動。 只有線上活動才會遵循指定的排程。 達到結束日期之後，活動會進入[!UICONTROL 已結束]狀態。
 
@@ -194,7 +194,7 @@ ht-degree: 48%
 **我可以只對[!UICONTROL 鎖定目標]步驟進行變更，而不要完成整個三個步驟引導工作流程來進行編輯？**
 
 +++檢視詳細資料
-您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面[&#128279;](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。
+您可以輕鬆執行此動作，方法是從[!UICONTROL 活動概覽]頁面](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C)直接進入您所選的必要步驟，然後使用[!UICONTROL 儲存並關閉]選項從該步驟結束。[
 
 +++
 
@@ -274,7 +274,7 @@ ht-degree: 48%
 查看產品的下列方面:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -284,7 +284,7 @@ ht-degree: 48%
 **我可以在相同頁面結構的多個頁面上執行活動嗎？**
 
 +++檢視詳細資料
-請查看[範本規則](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)以將許多類似結構的頁面併入活動中，同時仍在提供的單一 URL 上建立體驗。
+請查看[範本規則](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages)以將許多類似結構的頁面併入活動中，同時仍在提供的單一 URL 上建立體驗。
 
 +++
 
@@ -293,39 +293,39 @@ ht-degree: 48%
 +++檢視詳細資料
 這是因為您的網站有混合式內容 — 這是一個會擷取HTTP和HTTPS資源的網站。 請要求您的 IT 團隊完成改用 HTTPS。
 
-在此之前，請依照[在瀏覽器中啟用混合式內容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的指示操作，讓您的瀏覽器載入混合式內容。 這是多數現代瀏覽器的安全性功能。
+在此之前，請依照[在瀏覽器中啟用混合式內容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content)中的指示操作，讓您的瀏覽器載入混合式內容。 這是多數現代瀏覽器的安全性功能。
 
 +++
 
 **我可以在我的網站上嘗試[!UICONTROL 視覺化體驗撰寫器] (VEC)，即使[!DNL Target] at.js資料庫尚未部署？**
 
 +++檢視詳細資料
-嘗試使用[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)載入頁面。
+嘗試使用[增強體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)載入頁面。
 
 +++
 
 **為什麼我的網站沒有在[!UICONTROL 視覺化體驗撰寫器] (VEC)內載入？**
 
 +++檢視詳細資料
-請嘗試運用說明頁面中概述的[疑難排解資訊](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。 如果這些方法都沒有效，請向 [Adobe 支援](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)求助。。
+請嘗試運用說明頁面中概述的[疑難排解資訊](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer)。 如果這些方法都沒有效，請向 [Adobe 支援](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)求助。。
 
 我們也提供[表單式方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)可以排除您的障礙。
 
-也請閱讀[增強體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器[&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)也加入允許清單。
+也請閱讀[增強體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)何時與為何很實用。 您可能需要連絡您的IT部門，將Adobe的Proxy伺服器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices)也加入允許清單[。
 
 +++
 
 **我有回應式網站。 建立活動時，我如何確定我考慮的是重要裝置？**
 
 +++檢視詳細資料
-請試用[行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)功能。 請注意，它只有在啟用[!UICONTROL 增強體驗撰寫器]時才有作用。
+請試用[行動檢視區](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports)功能。 請注意，它只有在啟用[!UICONTROL 增強體驗撰寫器]時才有作用。
 
 +++
 
 **我有多個網域。 其中一個網域需要啟用[!UICONTROL 增強體驗撰寫器]，而其他網域則需要將其停用。 我應該怎麼做？**
 
 +++檢視詳細資料
-您一律可以使用活動層級[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增強體驗撰寫器選項來覆寫預設設定（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
+您一律可以使用活動層級](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)的[增強體驗撰寫器選項來覆寫預設設定（[!UICONTROL 管理] > [!UICONTROL 視覺化體驗撰寫器]）。
 
 +++
 
@@ -346,7 +346,7 @@ ht-degree: 48%
 **我如何看到我在[!UICONTROL 視覺化體驗撰寫器] (VEC)中進行的修改？**
 
 +++檢視詳細資料
-我們會一律將您的變更顯示在[代碼編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中。 [!UICONTROL 修改]索引標籤會顯示您套用至選件的CSS選取器或mbox。
+我們會一律將您的變更顯示在[代碼編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)中。 [!UICONTROL 修改]索引標籤會顯示您套用至選件的CSS選取器或mbox。
 
 請注意，CSS 選取器為 Sizzle 選取器。 您可以使用此區段來快速進行次要的修改或刪除某些產品建議。
 
@@ -355,7 +355,7 @@ ht-degree: 48%
 **我想要隨著實驗/活動傳送 JavaScript 以快速修改一些動態元素或只是傳送呼叫給第三方解決方案。 我應該怎麼做？**
 
 +++檢視詳細資料
-其中一種方式是使用[自訂代碼編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。 請開始將您的 JavaScript 放在區段中，系統即會將它傳送。 視您的需求而定，您可以選擇將它放在標頭或主體中傳送。
+其中一種方式是使用[自訂代碼編輯器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor)。 請開始將您的 JavaScript 放在區段中，系統即會將它傳送。 視您的需求而定，您可以選擇將它放在標頭或主體中傳送。
 
 +++
 
@@ -378,7 +378,7 @@ ht-degree: 48%
 **為什麼我看不到需要的產品建議/體驗，而是看到一些其他活動？**
 
 +++檢視詳細資料
-使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)。
 
 +++
 
@@ -402,7 +402,7 @@ ht-degree: 48%
 **為什麼我看不到需要的產品建議/體驗，而是看到一些其他活動？**
 
 +++檢視詳細資料
-使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我們的[除錯程式](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools)，檢查是否有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions)。
 
 +++
 
@@ -421,7 +421,7 @@ ht-degree: 48%
 查看產品的下列方面:
 
 * [目標分析 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [客群](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -495,6 +495,6 @@ ht-degree: 48%
 **我可以在何處進一步瞭解[!DNL Target] API？**
 
 +++檢視詳細資料
-我們提供詳盡的 API 相關文件。 請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
+我們提供詳盡的 API 相關文件。 請參閱[傳送 API、NodeJS SDK 和推薦 API 說明文件](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
 
 +++

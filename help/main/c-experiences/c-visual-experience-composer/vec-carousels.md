@@ -14,18 +14,22 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 2%
 ---
-# 建立可在可視化體驗撰寫器中運作的輪播
+# 建立可在[!UICONTROL 視覺化體驗撰寫器]中運作的輪播 {#vec-carousels}
 
-此主題顯示如何建立可以在[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)中編輯的輪播。
+>[!BEGINSHADEBOX]
 
-使用下列步驟時，[!DNL Target] 一律知道已選取投影片會有正確投影片的「選取器」，即便在幾秒後它在可視化體驗撰寫器中已變更。
+**在此頁面上：**&#x200B;瞭解如何建立可以在&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)中編輯的輪播。
 
-1. 建立靜態的 HTML 預留位置。
+>[!ENDSHADEBOX]
+
+可以在[!DNL Adobe Target] **[!UICONTROL 視覺化體驗撰寫器]** (VEC)中編輯使用以下結構建立的輪播。 此結構可讓每個幻燈片的選取器保持有效，因此[!DNL Target]一律會識別正確的幻燈片，即使顯示的幻燈片在VEC中的頁面載入數秒後有所變更。
+
+1. 將幻燈片建立為靜態HTML預留位置，其中一個幻燈片為可見幻燈片，其他幻燈片則依類別隱藏。
 
    ```html
    <ul>
@@ -35,14 +39,10 @@ ht-degree: 66%
    </ul>
    ```
 
-1. 新增 CSS 以設計外觀和風格。
-
-   請勿對此使用JavaScript。
+1. 僅使用CSS設計外觀和風格。 請勿對此使用JavaScript。
 
    >[!NOTE]
    >
-   >如果是在可視化體驗撰寫器中使用[!UICONTROL 使用 JavaScript 呈現]選項搭配自訂代碼，則目前不支援該選項。
+   >在&#x200B;**[!UICONTROL 視覺化體驗撰寫器]**&#x200B;中使用&#x200B;**[!UICONTROL 使用JavaScript]**&#x200B;呈現選項，以及自訂程式碼時，目前不支援該選項。
 
-1. 僅更新 classNames 以隱藏其他項目，並使用計時器/動畫顯示下一個。
-
-   永遠不要使用 JavaScript 更新 DOM 結構。
+1. 只更新類別名稱來顯示下一張幻燈片：隱藏其他幻燈片，並使用計時器或動畫顯示下一張幻燈片。 切勿使用JavaScript更新DOM結構。

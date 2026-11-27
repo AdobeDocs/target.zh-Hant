@@ -16,96 +16,79 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 89%
+source-wordcount: '1126'
+ht-degree: 19%
 ---
-# 回應式體驗適用的行動檢視區
+# 回應式體驗適用的行動檢視區 {#mobile-viewports}
 
-行動檢視區可讓您預覽您的 [!DNL Adobe Target] 活動在各種大小的螢幕上的面貌。
+>[!BEGINSHADEBOX]
 
-行動檢視區預覽功能是專為可適當呈現在各種裝置、視窗和螢幕大小的回應式網站所設計。 回應式網站會自動調整並適應任何螢幕大小，包括桌上型電腦、筆記型電腦、平板電腦或行動電話。
+**在此頁面上：**&#x200B;瞭解如何設定行動檢視區，並使用它們來預覽和建置各種大小熒幕的體驗。
+
+>[!ENDSHADEBOX]
+
+行動檢視區會以各種裝置的熒幕大小顯示[!DNL Adobe Target]個活動。 它們專為回應式網站而設計，可自動調整以適合桌上型電腦、筆記型電腦、平板電腦和行動電話，並且可讓您檢查體驗是否會在每個網站上呈現良好。
 
 >[!NOTE]
 >
-> * 如果您的網站為回應式網站，且桌上型電腦頁面中的相同元素也透過不同的組態用於行動頁面中，請使用行動檢視區。 如果您有另一個行動網站具有不同的結構，例如 `m.mysite.com`，請改用[多頁活動](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)。
+> * 當網站為回應式且行動頁面以不同版面配置重複使用案頭頁面元素時，請使用行動檢視區。 當行動網站是分開的並具有自己的結構時，例如`m.mysite.com`，請改用[多頁活動](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity)。
 >
->* 行動檢視區被重新導向產品建議覆蓋所重疊時會無法使用。
+>* 當重新導向選件覆蓋與行動檢視區重疊時，行動檢視區將不可用。
 
-檢視區是以螢幕上的網頁填入的矩形大小來定義。 檢視區是瀏覽器視窗的大小減去捲軸和工具列。 瀏覽器使用「CSS 像素」。 對於許多裝置，例如有視網膜螢幕的裝置，檢視區小於公布的裝置解析度。
+## 檢視區和CSS中斷點
 
-底下是常用裝置的檢視區和解析度。 請記得在 [!DNL Target] 中使用檢視區大小。
+檢視區是網頁所填滿的熒幕區域：瀏覽器視窗的大小減去卷軸和工具列。 瀏覽器會以CSS畫素來測量檢視區，因此在許多裝置上（例如配備網際網路熒幕的裝置），檢視區會小於公告的裝置解析度。 一律使用[!DNL Target]中的檢視區大小。 下表列出常用裝置的兩個值。
+
++++ 常用裝置的檢視區和解析度
 
 >[!NOTE]
 >
 >各個網站都有列出常用裝置的檢視區大小。 如需範例，請參閱 `https://viewportsizer.com/devices/`。 如需最準確且最新的資訊，請查詢裝置製造商的網站。
+>
+>檢視區大小標示為「估計」。 為預估值。
 
 | 裝置 | 檢視區大小（寬度x高度） | 裝置解析度 (寬度 x 高度) |
 |---|---|---|
-| iPhone 12 | 390 x 844 | 1170 x 2532 |
-| iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
-| iPhone 12 Pro | 390 x 844 | 1170 x 2532 |
-| iPhone 12 Pro Max | 428 x 926 | 1248 x 2778 |
-| iPhone SE | 214 x 379 | 640 x 1136 |
-| iPhone 11 Pro Max | 414 x 896 | 1242 x 2688 |
-| iPhone 11 Xs Max | 414 x 896 | 1242 x 2688 |
-| iPhone 11 | 414 x 896 | 828 x 1792 |
-| iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
-| iPhone 11 X | 375 x 812 | 1125 x 2436 |
-| iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
-| iPhone X | 375 x 812 | 1125 x 2436 |
-| iPhone 8 Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 8 | 375 x 667 | 750 x 1334 |
-| iPhone 7 Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 7 | 375 x 667 | 750 x 1334 |
-| iPhone 6s Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 6s | 375 x 667 | 750 x 1334 |
-| iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
-| iPhone 6 | 375 x 667 | 750 x 1334 |
-| iPad Pro | 1024 x 1366 | 2048 x 2732 |
-| iPad 第 3 代與第 4 代 | 768 x 1024 | 1536 x 2048 |
-| iPad Air 1 和 2 | 768 x 1024 | 1536 x 2048 |
-| iPad Mini | 768 x 1024 | 768 x 1024 |
-| iPad Mini 2 和 3 | 768 x 1024 | 1536 x 2048 |
-| Nexus 6P | 411 x 731 | 1440 x 2560 |
-| Nexus 5X | 411 x 731 | 1080 x 1920 |
-| Google Pixel | 411 x 731 | 1080 x 1920 |
-| Google Pixel XL | 411 x 731 | 1440 x 2560 |
-| Google Pixel 2 | 411 x 731 | 1080 x 1920 |
-| Google Pixel 2 XL | 411 x 823 | 1440 x 2880 |
-| Samsung Galaxy Note 5 | 480 x 853 | 1440 x 2560 |
-| LG G5 | 360w x 640 | 1440 x 2560 |
-| LG G4 | 360w x 640 | 1440 x 2560 |
-| LG G3 | 360w x 640 | 1440 x 2560 |
-| One Plus 3 | 480 x 853 | 1080 x 1920 |
-| Samsung Galaxy S9 | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S9+ | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S8 | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S8+ | 360 x 740 | 1440 x 2960 |
-| Samsung Galaxy S7 | 360 x 640 | 1440 x 2560 |
-| Samsung Galaxy S7 Edge | 360 x 640 | 1440 x 2560 |
-| Nexus 7 (2013) | 600 x 960 | 1200 x 1920 |
-| Nexus 9 | 768 x 1024 | 1536 x 2048 |
-| Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
-| Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
+| iPhone 18 Pro Max | 440 x 956 | 1320 x 2868 |
+| iPhone 18 Pro | 402 x 874 | 1206 x 2622 |
+| iPhone 17 Pro Max | 440 x 956 | 1320 x 2868 |
+| iPhone 17 Pro | 402 x 874 | 1206 x 2622 |
+| iPhone航空 | 420 x 912 | 1260 x 2736 |
+| iPhone 17 | 402 x 874 | 1206 x 2622 |
+| iPhone 16e | 390 x 844 | 1170 x 2532 |
+| iPad (A16) | 820 x 1180 | 1640 x 2360 |
+| iPad mini (A17 Pro) | 744 x 1133 | 1488 x 2266 |
+| iPad Air 11英吋(M3 / M4) | 820 x 1180 | 1640 x 2360 |
+| iPad Pro 11英吋(M5) | 834 x 1210 | 1668 x 2420 |
+| Google Pixel 11 | 412 x 924 （東部標準時間） | 1080 x 2424 |
+| Google Pixel 11 Pro | 410 x 914 （估計值） | 1280 x 2856 |
+| Google Pixel 11 Pro XL | 448 x 997 （東部標準時間） | 1344 x 2992 |
+| Google Pixel 10 | 412 x 924 | 1080 x 2424 |
+| Google Pixel 10 Pro | 410 x 914 （估計值） | 1280 x 2856 |
+| Google Pixel 10 Pro XL | 448 x 997 （東部標準時間） | 1344 x 2992 |
+| Samsung Galaxy S26 | 360 x 780 | 1080 x 2340 |
+| Samsung Galaxy S26 Ultra | 412 x 891 | 1440 x 3120 |
+| iPhone Duo （展開） | 890 x 626 （估計值） | 2670 x 1878 |
+| iPhone Duo （摺疊） | 466 x 678 （東部標準時間） | 1398 x 2034 |
+| Samsung Galaxy Z Fold 7 （摺疊） | 412 x 960 （估計值） | 1080 x 2520 |
+| Samsung Galaxy Z Flip 8 | 360 x 840 （估計值） | 1080 x 2520 |
+| Google Pixel 11 Pro Fold （展開） | 791 x 820 （估計值） | 2076 x 2152 |
 
-若要將活動傳送給特定裝置上的訪客，請在活動圖表中選擇適合該裝置的客群。 使用「行動裝置網頁撰寫器」，針對該裝置來編輯活動中的頁面。 若要在整個數位體驗中執行活動以確保該活動在所有裝置上都顯示良好，請勿套用目標定位。 而是要改用行動檢視區來預覽該活動在各種螢幕大小上的面貌。
++++
 
-如果是回應式網站，您的網站通常會有以下設計：當具有特定螢幕大小的裝置存取網站時，在不同檢視中開啟。 觸發新檢視的螢幕大小稱為 CSS 中斷點。 CSS 中斷點是指網站內容做出回應的點，用以根據裝置寬度向訪客顯示最佳版面。 CSS 中斷點也稱為[媒體查詢](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。
+回應式網站會以特定熒幕大小切換至不同的版面。 這些大小稱為CSS中斷點或[媒體查詢](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。 將網站的CSS中斷點儲存在[!DNL Target]中可預覽每個檢視，然後按一下顯示頂端的檢視區，即可開啟該熒幕大小的檢視。
 
-將 CSS 中斷點儲存在 [!DNL Target] 中，就可以針對您定義的每一個檢視來預覽體驗。 其中每個體驗都會顯示在 [!DNL Target] 介面的行動檢視區中。 若要開啟每個螢幕大小的檢視，請在畫面頂端按一下該檢視區。
-
-如果網站不是回應式網站，只要活動是以特定裝置為目標，您仍可使用「行動裝置網頁撰寫器」來檢視網站。
+若要將活動傳送至特定裝置，請在活動圖表中選取該裝置的閱聽眾，然後在行動裝置網頁撰寫器中編輯該裝置的頁面。 當活動鎖定特定裝置時，相同的工具可用來檢視沒有回應的網站。 若要在所有裝置上執行活動，請套用無目標定位，並使用行動檢視區預覽每個熒幕大小的活動。
 
 >[!IMPORTANT]
 >
->您可以在行動檢視區內編輯體驗。 不過，這些變更會套用至所有檢視區和裝置，而不只是您正在使用的檢視區。 同樣地，在標準桌上型電腦檢視中編輯體驗時，將會變更所有螢幕大小的頁面，而不只是桌上型電腦檢視。 目前，[!DNL Target] 不支援檢視區特有的頁面變更。
+>體驗可從行動檢視區內編輯，但變更會套用至所有檢視區和裝置，而不僅套用至使用中的檢視區。 同樣地，在案頭檢視中編輯體驗會變更所有熒幕大小的頁面。 [!DNL Target]目前不支援檢視區特有的頁面變更。
 
 ## 行動檢視區設定 {#task_B4B161499DC0470584ED922A4D20FCAB}
 
-打造您的體驗時，請設定您要提供的行動檢視區。
+定義建立體驗時可用的行動檢視區。
 
 1. 按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 視覺化體驗撰寫器]**。
 1. 在&#x200B;**[!UICONTROL 行動檢視區組態]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增]**。
@@ -114,16 +97,10 @@ ht-degree: 89%
 
    或
 
-   若要變更現有行動檢視區的設定，請選取該檢視區，然後按一下[!UICONTROL 編輯] （鉛筆）圖示。
+   若要變更現有行動檢視區的設定，請選取該檢視區，然後按一下&#x200B;**[!UICONTROL 編輯]** （鉛筆）圖示。
 
-1. 輸入行動檢視區的名稱。
-
-   為您的行動檢視區提供易於識別的描述性名稱。 名稱的長度最多可為 36 個字元。
-
-1. 指定行動裝置的螢幕大小，包含寬度和高度。
-
-   寬度可以是 150 到 968 像素。 高度可以是 150 到 1280 像素。
-
+1. 輸入行動檢視區的描述性名稱。 名稱的長度最多可為 36 個字元。
+1. 輸入行動裝置的熒幕大小。 寬度可以是150到968畫素，高度可以是150到1280畫素。
 1. (可選) 選取裝置的作業系統。
 
    選項:
@@ -134,20 +111,20 @@ ht-degree: 89%
    * Symbian
    * Blackberry
 
-   如果您使用[增強型體驗撰寫器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)並選擇作業系統，[!DNL Target] 會在您檢視頁面時模擬該裝置。 例如，如果您的回應式網站在 Android 與 iOS 上的外觀與風格有一些不同，[!DNL Target] 會模擬該行為。
+   如果已啟用[增強體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec)並選取作業系統，[!DNL Target]會在檢視頁面時模擬該裝置。 例如，如果回應式網站在Android與iOS中的外觀與風格不同，[!DNL Target]會模擬該行為。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!NOTE]
 >
->如果您嘗試刪除使用中的行動檢視區，將會顯示以下訊息：「此檢視區目前與一或多個活動有關聯。 您必須先從這些活動中移除該檢視區，才能將其刪除。」
+>嘗試刪除使用中的行動檢視區會顯示下列訊息：「此檢視區目前與一或多個活動相關聯。 您必須先從這些活動中移除該檢視區，才能將其刪除。」
 
 ## 打造回應式體驗 {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-將行動檢視區新增到您的 [!DNL Target] 活動，為手機螢幕打造回應式體驗。
+將行動檢視區新增至[!DNL Target]個活動，為行動熒幕建立回應式體驗。
 
 1. 建立[所需的活動](/help/main/c-activities/activities.md)。
-1. 在[!UICONTROL 視覺化體驗撰寫器] (VEC)中，按一下&#x200B;**[!UICONTROL 設定]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL 新增行動檢視區]**。
+1. 在&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)中，按一下&#x200B;**[!UICONTROL 設定]**&#x200B;齒輪圖示，然後選取&#x200B;**[!UICONTROL 新增行動檢視區]**。
 
    ![「新增行動檢視區」選項](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -157,25 +134,21 @@ ht-degree: 89%
 
    行動檢視區會根據寬度從最小到最大列出。
 
-1. 視需要編輯行動檢視區。
-
-   您對體驗所做的所有變更都會套用到所有裝置上的體驗。 例如，您可變更標題中的文字。
-
-   將游標移至檢視區名稱的上方即可查看檢視區的大小。
+1. 視需要在行動檢視區中編輯體驗。 任何變更都會套用到所有裝置上的體驗，例如標題文字的變更。 將滑鼠懸停在檢視區名稱上，即可檢視檢視區的大小。
 
    ![iPhone 11 Pro Max 回應式體驗](/help/main/c-experiences/c-visual-experience-composer/assets/iphone11.png)
 
-1. 如有需要，請按一下所要的方向圖示，在直向與橫向模式之間切換。
+1. （選用）按一下方向圖示，在直向與橫向模式之間切換。
 
    ![方向選項](/help/main/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
 ## 培訓影片
 
-以下影片含有本文章探討之概念的詳細資訊。
+以下影片包含行動檢視區的詳細資訊。
 
 ### 視覺化體驗撰寫器(2/2) (7:29) ![總覽徽章](/help/main/assets/overview.png)
 
-下列示範影片包含透過視覺體驗撰寫器來使用行動檢視區的相關資訊:
+下列示範影片包含使用視覺化體驗撰寫器來使用行動檢視區的相關資訊：
 
 * 重新命名和複製體驗
 * 建立重新導向體驗
@@ -190,4 +163,4 @@ ht-degree: 89%
 
 此影片包含設定行動檢視區的相關資訊，從影片中的4:40處開始。
 
->[!VIDEO](https://video.tv.adobe.com/v/3507634?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)

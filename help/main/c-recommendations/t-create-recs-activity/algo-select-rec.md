@@ -2,7 +2,7 @@
 keywords: Recommendations；Recommendations活動；條件；演演算法
 description: 瞭解如何選取條件（決定要建議哪些產品或內容的規則），以用於您的Adobe [!DNL Target] Recommendations活動。
 title: 我該如何為Recommendations活動設定Select條件？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Select要在您的[!DNL Adobe Target Recommendations]活動中使用的[條件](
 
 **若要選取條件:**
 
-1. 在[建立新建議](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)時，請在&#x200B;**[!UICONTROL Select條件]**&#x200B;對話方塊中，找出並選取一或多個條件。
+1. 在[建立新建議](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity)時，請在&#x200B;**[!UICONTROL Select條件]**&#x200B;對話方塊中，找出並選取一或多個條件。
 
    您可以使用[!UICONTROL 產業型別]篩選器、[!UICONTROL 頁面型別]篩選器和[!UICONTROL 相容]核取方塊來篩選條件清單。 這些選項可協助您找到所需的條件。
 
@@ -43,4 +43,4 @@ Select要在您的[!DNL Adobe Target Recommendations]活動中使用的[條件](
    * **頁面類型:** 頁面類型可幫助您對您的建議進行分類。 也有可為每個頁面類型選擇的內建條件。
    * **相容:** 僅顯示選取的頁面通過所需資料的這些條件。 不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。 可以在您的設定中停用或啟用此選項： **[!UICONTROL Recommendations]** > **[!UICONTROL 設定]**。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以顯示[Select設計](/help/main/c-recommendations/c-design-overview/design-overview.md)對話方塊。
+1. 按一下[下一步]****&#x200B;以顯示[Select設計](/help/main/c-recommendations/c-design-overview/design-overview.md)對話方塊。

@@ -2,7 +2,7 @@
 keywords: 集合;鎖定目標
 description: 瞭解如何使用[!DNL Target Recommendations]中的產品或專案集合。
 title: 如何在Recommendations活動中使用集合？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: 'https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o'
@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 8%
@@ -37,7 +37,7 @@ ht-degree: 8%
 
 以下幾點說明集合如何與其餘的[!DNL Recommendations]互動：
 
-* 針對每個條件產生的備用建議[&#128279;](/help/main/c-recommendations/c-algorithms/backup-recs.md)也使用集合，因此只有集合中的專案會包含在備用建議中。 因此，只會顯示對某個位置有意義的產品。
+* 針對每個條件產生的備用建議](/help/main/c-recommendations/c-algorithms/backup-recs.md)也使用集合，因此只有集合中的專案會包含在備用建議中。 [因此，只會顯示對某個位置有意義的產品。
 * 每個條件每次執行時皆會重建或更新集合。
 * 收集規則會套用至執行條件後產生的建議專案。 它們只會影響輸出中的實體建議(ER)，而不會影響索引鍵。
 * 使用&#x200B;**[!UICONTROL 最近檢視的專案]**&#x200B;建議索引鍵時不會套用集合。
@@ -54,7 +54,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >在&#x200B;**[!UICONTROL 集合]**&#x200B;清單檢視上，每個集合的「專案數量」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）中，符合集合規則的產品數量。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}，瞭解如何變更預設主機群組。
+   >在&#x200B;**[!UICONTROL 集合]**&#x200B;清單檢視上，每個集合的「專案數量」為設定的預設Recommendations [主機群組](/help/main/administrating-target/hosts.md) （環境）中，符合集合規則的產品數量。 請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}，瞭解如何變更預設主機群組。
 
 1. 按一下&#x200B;**[!UICONTROL 建立集合]**。
 
@@ -88,7 +88,7 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## 在活動中使用集合
+## 在活動中使用集合 {#use-collection}
 
 已針對[!DNL Recommendations]活動的每個體驗選取集合。 集合會決定哪些專案符合出現在該體驗的建議中的資格。
 

@@ -20,23 +20,27 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 61%
+source-wordcount: '276'
+ht-degree: 3%
 ---
-# 開始疑難排解[!UICONTROL 視覺化體驗撰寫器]和[!UICONTROL 增強體驗撰寫器]
+# 開始疑難排解[!UICONTROL 視覺化體驗撰寫器]和[!UICONTROL 增強體驗撰寫器] {#troubleshoot-composer}
 
-顯示在某些情況下，[!DNL Adobe Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)和[!UICONTROL 增強體驗撰寫器] (EEC)有時會發生問題。
+>[!BEGINSHADEBOX]
 
-VEC 是 [!DNL Adobe Target] 的其中一項主要功能。 VEC 是一項編輯器，可讓行銷人員和設計人員使用視覺介面來建立和變更內容。 您可以進行許多設計選擇，而不需直接編輯程式碼。 您也可以使用撰寫器中提供的編輯選項來編輯 HTML 和 JavaScript。
+**在此頁面上：**&#x200B;瞭解使用哪個頁面來疑難排解&#x200B;**[!UICONTROL 視覺化體驗撰寫器]** (VEC)和&#x200B;**[!UICONTROL 增強體驗撰寫器]** (EEC)中的問題。
 
-EEC 是 VEC 的擴充功能，可幫助您編輯 iframe-busting 網站或尚未納入 Target 實施頁面的體驗。 如果您在 VEC 中開啟您的頁面遇到問題，請嘗試使用 EEC。
+>[!ENDSHADEBOX]
 
-如需VEC和EEC的相關資訊，請參閱[體驗](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+顯示在某些情況下，[!DNL Adobe Target] **[!UICONTROL 視覺化體驗撰寫器]** (VEC)和&#x200B;**[!UICONTROL 增強體驗撰寫器]** (EEC)有時會發生問題。
 
-請注意，有些問題對 VEC 和 EEC 均會造成影響，而有些問題只會影響其中一個撰寫器。 如需詳細資訊，請參閱相關頁面。
+VEC 是 [!DNL Adobe Target] 的其中一項主要功能。 這是一個編輯器，可讓行銷人員和設計人員使用視覺化介面來建立和變更內容，以便在不編輯程式碼的情況下做出許多設計選擇。 您也可以使用撰寫器中提供的編輯選項來編輯HTML和JavaScript。
 
-* [疑難排解可視化體驗撰寫器和增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [疑難排解可視化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [疑難排解增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+EEC是VEC的擴充功能，用於編輯iframe-busting網站或尚未包含[!DNL Target]實作的頁面上的體驗。 在VEC中無法開啟頁面時，請試用EEC。 如需VEC和EEC的相關資訊，請參閱[體驗](/help/main/c-experiences/experiences.md#experiences-overview)。
+
+有些問題會影響這兩種撰寫器，有些則只會影響其中一種。 檢閱符合問題的頁面：
+
+* [疑難排解視覺化體驗撰寫器和增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)：影響兩個撰寫器的問題。
+* [疑難排解視覺化體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)：僅影響VEC的問題。
+* [疑難排解增強體驗撰寫器的相關問題](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)：僅影響EEC的問題。
