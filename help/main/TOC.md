@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 商務從業者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何跨網站、應用程式和社群管道將客戶體驗個人化，藉以大幅提升收益。
 feature-set: Target
-source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
+source-git-commit: d917e1b4f0d3c70eccd6c5fa1df5f799093f1f41
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 71%
@@ -107,7 +107,7 @@ ht-degree: 71%
     + {hide-from-toc}[整合 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Adobe Journey Optimizer使用案例 {#use-cases}
       + {hide-from-toc}[Adobe Journey Optimizer中最佳化使用案例 — 網頁和程式碼型管道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-      + {hide-from-toc}[在Adobe Journey Optimizer中透過A/B測試進行內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+      + 在Adobe Journey Optimizer中透過A/B測試進行{hide-from-toc}[內容變更](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
       + {hide-from-toc}[在網頁中新增或隱藏元件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Experience Cloud 客群](/help/main/c-integrating-target-with-mac/mmp.md)
   + 將Target與Adobe Experience Manager (AEM)整合 {#aem}
@@ -161,7 +161,7 @@ ht-degree: 71%
     + [鎖定 Automated Personalization 產品建議](c-activities/t-automated-personalization/ap-target-offers.md)
     + [管理排除項目](c-activities/t-automated-personalization/managing-exclusions.md)
     + [Automated Personalization 中的產品建議報表群組](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-    + [選取控制體驗](c-activities/t-automated-personalization/experience-as-control.md)
+    + [Select控制體驗](c-activities/t-automated-personalization/experience-as-control.md)
     + [Automated Personalization 常見問題集](c-activities/t-automated-personalization/automated-personalization-faq.md)
     + [疑難排解 Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
   + 體驗鎖定目標 {#experience-targeting}
@@ -245,7 +245,7 @@ ht-degree: 71%
       + [疑難排解可視化體驗撰寫器和增強體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
       + [疑難排解可視化體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
       + [疑難排解增強體驗撰寫器](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-      + [在您的瀏覽器中啟用混合式內容](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+      + [在瀏覽器中啟用混合式內容](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
       + [頁面修改案例](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
       + [Visual Editing Helper擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
       + [可視化體驗撰寫器 Helper 擴充功能](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
