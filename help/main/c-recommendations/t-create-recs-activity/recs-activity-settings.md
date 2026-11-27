@@ -95,4 +95,4 @@ ht-degree: 13%
 * 新增報表對象以建立報表篩選器。
 * 輸入活動的附註。
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507952?captions=chi_hant)

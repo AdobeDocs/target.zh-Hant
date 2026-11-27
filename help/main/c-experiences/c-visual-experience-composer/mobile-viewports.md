@@ -163,4 +163,4 @@ ht-degree: 19%
 
 此影片包含設定行動檢視區的相關資訊，從影片中的4:40處開始。
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507634?captions=chi_hant)
