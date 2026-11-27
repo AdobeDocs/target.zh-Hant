@@ -2,7 +2,7 @@
 keywords: 建立建議;推薦活動;新建議;建議概觀
 description: 瞭解如何使用[!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!DNL Recommendations]活動。
 title: 建立[!DNL Recommendations]活動
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 1. 指定活動URL，然後按一下[建立]。**&#x200B;**
 
-   活動URL是建議顯示的頁面。 [!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]），因此`http://www.adobe.com`和`https://www.adobe.com`都相符。
+   活動URL是建議顯示的頁面。 [!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]），因此`http://www.adobe.com/tw`和`https://www.adobe.com/tw`都相符。
 
    VEC隨即開啟並顯示頁面。
 
@@ -101,7 +101,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。 若要讓目前專案或目前類別建議相容，頁面或mbox必須傳入`entity.id`或`entity.categoryId`。 最好只顯示相容的條件。 若要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 相容]**&#x200B;核取方塊。 根據&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 建議]** > **[!UICONTROL 篩選不相容的條件]**&#x200B;設定，此核取方塊可能不會顯示。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+   >不是每個條件都能在每個頁面上正確執行。 若要讓目前專案或目前類別建議相容，頁面或mbox必須傳入`entity.id`或`entity.categoryId`。 最好只顯示相容的條件。 若要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 相容]**&#x200B;核取方塊。 根據&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 建議]** > **[!UICONTROL 篩選不相容的條件]**&#x200B;設定，此核取方塊可能不會顯示。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
 
 1. 選擇性地尋找或建立條件：
 

@@ -168,7 +168,7 @@ EEC不會載入無法在公用IP位址上存取的內部QA URL。 將用於EEC P
 
 +++ EEC沒有在使用TLS 1.0的網站安全頁面上載入
 
-當IP位址已加入允許清單，但網站不支援TLS 1.2時，會顯示上一項中說明的錯誤訊息。 [!DNL Target]目前使用1.2版作為預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
+當IP位址已加入允許清單，但網站不支援TLS 1.2時，會顯示上一項中說明的錯誤訊息。 [!DNL Target]目前使用1.2版作為預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}。
 
 若要在Firefox中檢查網站的TLS版本（其他瀏覽器有類似的步驟）：
 
@@ -185,7 +185,7 @@ EEC不會載入無法在公用IP位址上存取的內部QA URL。 將用於EEC P
 
    ![Firefox頁面資訊視窗，安全性索引標籤，技術詳細資訊下方會醒目提示TLS版本](assets/firefox_more_info_3.png)
 
-1. 如果網站顯示TLS 1.0，請參閱[TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}，以取得[!DNL Target]的TLS支援原則相關資訊。 若要補救目前狀況（2018年9月12日前有效），請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得TLS版本和網域的組態。
+1. 如果網站顯示TLS 1.0，請參閱[TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}，以取得[!DNL Target]的TLS支援原則相關資訊。 若要補救目前狀況（2018年9月12日前有效），請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得TLS版本和網域的組態。
 
 +++
 

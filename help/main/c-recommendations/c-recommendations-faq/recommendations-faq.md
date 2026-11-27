@@ -2,7 +2,7 @@
 keywords: 疑難排解;常見問答;FAQ;FAQs;推薦;特殊字元;屬性加權;內容相似度
 description: 檢視有關[!DNL Target Recommendations]活動的常見問答清單。
 title: 哪裡可以找到有關[!DNL Recommendations]的問答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -156,7 +156,7 @@ ht-degree: 10%
 
 可用的條件取決於目前類別。 建立建議選件時，演演算法選擇器會根據類別ID顯示條件。 如果套用條件的位置不含類別ID，則某些條件不會出現在演演算法選擇器中。 如果使用mbox中存在類別ID的位置，則條件選擇器包含所有適用的條件。
 
-[!DNL Target]的[篩選不相容的條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}設定可控制演演算法選擇器的智慧型篩選。 若要存取&#x200B;**[!UICONTROL 篩選不相容的條件]**&#x200B;設定，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 建議]**。
+[!DNL Target]的[篩選不相容的條件](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}設定可控制演演算法選擇器的智慧型篩選。 若要存取&#x200B;**[!UICONTROL 篩選不相容的條件]**&#x200B;設定，請按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 建議]**。
 
 ![含有篩選不相容條件選項的Recommendations設定頁面反白顯示](assets/recs_settings_filter.png)
 
