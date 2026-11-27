@@ -1,5 +1,5 @@
 ---
-kewords: redirect;redirect url;send to different page
+keywords: 重新導向；重新導向url；傳送至不同頁面
 description: 瞭解當您想要將訪客傳送至其他頁面而不是在相同頁面上顯示內容時，如何使用Adobe [!DNL Target]中的「重新導向至URL」選項。
 title: 我可以將頁面重新導向至不同的URL嗎？
 feature: Visual Experience Composer (VEC)
@@ -21,51 +21,54 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 80%
+source-wordcount: '433'
+ht-degree: 2%
 ---
-# 重新導向至 URL
+# 重新導向至 URL {#redirect-to-url}
 
-當您想要將訪客傳送至不同頁面而不是在相同頁面上顯示內容時，請使用[!DNL Adobe Target]中的[!UICONTROL 重新導向至URL]選項。
+>[!BEGINSHADEBOX]
 
-您可能擁有兩個完全不同的測試頁面，而非只是改變同一頁面中的某部分內容。 若是這種情況，您的 A/B 測試會比較頁面 A 和頁面 B。使用兩個體驗來設定 A/B 測試促銷活動: 一個指向預設的頁面 A，另一個重新導向至頁面 B。在「體驗動作」功能表中，透過按一下體驗的字母標籤，接著選擇&#x200B;**[!UICONTROL 「重新導向至 URL」]**，然後指定頁面 B 的 URL 來找到。選件會設定為將訪客重新導向至不同頁面。
+**在此頁面上：**&#x200B;瞭解如何使用&#x200B;**[!UICONTROL 重新導向至URL]**&#x200B;選項，將訪客傳送至不同頁面，而不是在同一頁面上顯示內容。
 
-重新導向產品建議會執行 JavaScript 程式碼來重新導向瀏覽器。 此產品建議會使用 `window.location.replace();` 方法，所以訪客被重新導向的來源頁面不會儲存在瀏覽器記錄中。 這可讓訪客仍然可以使用瀏覽器中的上一步按鈕。
+>[!ENDSHADEBOX]
 
-重新導向產品建議有一些限制:
+[!DNL Adobe Target]中的&#x200B;**[!UICONTROL 重新導向至URL]**&#x200B;選項會將訪客傳送至不同頁面，而不是在相同頁面上顯示內容。 它適合比較兩個完全不同的頁面，而不是一個頁面內內容的片段。 A/B測試則會比較頁面A與頁面B：一個體驗指向預設頁面A，另一個體驗會重新導向至頁面B。
 
-* 針對使用 A4T 活動中的重新導向產品建議，您的實施必須符合某些最低需求。 此外，還有需要您知道的重要資訊。 如需詳細資訊，請參閱[重新導向產品建議 - A4T 常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
-* 使用表單式體驗撰寫器時，重新導向產品建議不應該用於屬於頁面的 mbox 中。 來自屬於 HTML `<head>` 一部分的指令碼標記時，才應該使用重新導向產品建議。 您應該一律使用自動建立，並為全域 mbox 設定重新導向產品建議。
+重新導向選件會執行可重新導向瀏覽器的JavaScript程式碼。 程式碼使用`window.location.replace();`方法，所以訪客被重新導向的來源頁面不會儲存在瀏覽器記錄中。 因此，訪客仍然可以使用瀏覽器的返回按鈕。
+
+## 建立重新導向選件 {#create-redirect-offer}
+
+重新導向的體驗會定義將訪客傳送至的頁面，以及重新導向的條件（選擇性）。
+
+1. 建立體驗。
+
+1. 在&#x200B;**[!UICONTROL 體驗]**&#x200B;框架中，針對重新導向的體驗按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ）。
+
+1. 按一下&#x200B;**[!UICONTROL 重新導向至URL]**。
+
+   ![其他動作圖示](assets/redirect_1.png)
+
+1. 在&#x200B;**[!UICONTROL 重新導向至URL]**&#x200B;對話方塊中，輸入頁面B的URL。
+
+   ![其他動作圖示](assets/redirect_2.png)
+
+1. （選用） Select包含目前查詢引數的選項。
+
+   選取此選項時，訪客URL中`?`之後的所有專案都會在重新導向時附加至重新導向URL。
+
+## 限制
+
+重新導向選件有下列限制：
+
+* **A4T：**&#x200B;使用A4T之活動中的重新導向選件需要符合特定最低需求的實作，且適用其他重要資訊。 請參閱[重新導向選件 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。
+* **表單式體驗撰寫器：**&#x200B;在屬於頁面的mbox中不使用重新導向選件。 僅使用屬於HTML `<head>`一部分的指令碼標籤中的重新導向選件，且一律使用自動建立並設定全域mbox的重新導向選件。
 
 >[!NOTE]
 >
->如果要傳入登陸頁面的反向連結值，建議您使用 HTML 產品建議，而不要使用重新導向產品建議。
-
-若要建立重新導向產品建議:
-
-1. 建立體驗。
-1. 在[!UICONTROL 體驗]框架中，按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallList.svg) ）以取得所需的體驗。
-1. 按一下&#x200B;**[!UICONTROL 重新導向至URL]**。
-1. 在「重新導向至URL」對話方塊中，輸入URL。
-1. 如果需要，請選取包括目前的查詢參數的選項。
-
-   如果已選取此選項， 訪客的 URL 中，? 之後的任何內容會在重新導向時附加至重新導向 URL。
-
-1. (可選) 建立其他規則。
-
-   其他規則可以根據以下任何項目:
-
-   * URL
-   * 網域
-   * 路徑
-   * 雜湊 (#) 片段
-   * 查詢
-   * mbox 參數
-
-   可以使用「與」或「或」將其他規則加入活動 URL。 您新增的所有規則會使用「與」彼此進行評估。
+>若要傳遞登入頁面的反向連結值，請使用HTML選件，而非重新導向選件。
 
 ## 已知問題
 
-* at.js 實作中的重新導向活動可能會造成預覽 URL 進入迴圈 (重複傳送產品建議)。 您可以使用 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)，而不是執行預覽和 QA。 此問題不會影響產品建議的實際傳送。 (TGT-23019)
+at.js實作中的重新導向活動可能會導致預覽URL進入回圈，並重複傳送選件。 請改用[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)來預覽及測試活動。 此問題不會影響實際傳送選件。 (TGT-23019)

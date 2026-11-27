@@ -1,7 +1,7 @@
 ---
 keywords: 建立建議;推薦活動;新建議;建議概觀
 description: 瞭解如何使用[!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)來建立[!DNL Recommendations]活動。
-title: 如何建立[!DNL Recommendations]活動？
+title: 建立[!DNL Recommendations]活動
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
@@ -22,174 +22,157 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 52%
+source-wordcount: '1169'
+ht-degree: 2%
 ---
-# 建立[!DNL Recommendations]活動
+# 建立[!DNL Recommendations]活動 {#create-recs-activity}
 
-使用[!DNL Target] [!UICONTROL 視覺化體驗撰寫器] (VEC)直接在啟用[!DNL Target]的頁面上建立[!DNL Recommendations]活動，以及在[!DNL Target]內修改頁面的部分。
+>[!BEGINSHADEBOX]
 
-1. 按一下&#x200B;**[!UICONTROL 活動]** > **[!UICONTROL 建立活動]** > **[!UICONTROL 建議]**。
+**在此頁面上：**&#x200B;瞭解如何在[!DNL Target] **[!UICONTROL 視覺化體驗撰寫器]** (VEC)中建立[!DNL Recommendations]活動，從選取位置到設定活動。
+
+>[!ENDSHADEBOX]
+
+[!DNL Recommendations]活動會在頁面上顯示建議專案。 在[!DNL Target] **[!UICONTROL 視覺化體驗撰寫器]** (VEC)中建立活動，可讓建議直接放置在啟用[!DNL Target]的頁面上，與訪客應該看到的位置完全相同。
+
+## 建立活動並選取位置 {#create-activity}
+
+活動URL和位置會定義頁面，以及建議顯示的頁面區域。
+
+1. 從&#x200B;**[!UICONTROL 活動]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 建立活動]** > **[!UICONTROL 建議]**。
+
+   ![所有活動頁面，其中的[建立活動]功能表已開啟，且[建議]選項已反白顯示](../assets/create_reco_1.png)
 
 1. Select **[!UICONTROL 視覺]** （如有必要）。
 
-   如果您偏好使用[!UICONTROL 表單式體驗撰寫器]，請選取[!UICONTROL 表單]。 如需詳細資訊，請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。
-
-   >[!NOTE]
-   >
-   >除了VEC和[!UICONTROL 表單式體驗撰寫器]，[!DNL Target]還提供[!UICONTROL 單頁應用程式] VEC。 如需各種撰寫器的詳細資訊，請參閱[體驗和產品建議](/help/main/c-experiences/experiences.md)。
-   >
-   >如遇問題，需要關於 VEC 的疑難排解資訊，請參閱[疑難排解可視化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
+   若要改用&#x200B;**[!UICONTROL 表單式體驗撰寫器]**，請選取&#x200B;**[!UICONTROL 表單]**。 請參閱[表單式體驗撰寫器](/help/main/c-experiences/form-experience-composer.md)。 若要比較撰寫器，包括&#x200B;**[!UICONTROL 單頁應用程式]** VEC，請參閱[體驗和選件](/help/main/c-experiences/experiences.md)。 如需VEC問題，請參閱[疑難排解視覺化體驗撰寫器](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
 1. （視條件而定）選擇[工作區](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 指定活動URL，然後按一下[建立]。**&#x200B;**
 
-   >[!NOTE]
-   >
-   >[!DNL Target] 不會區分 URL 通訊協定([!DNL https] 和 [!DNL http])。 因此，[!DNL `http://www.adobe.com/tw`]和[!DNL `https://wwww.adobe.com`]都相符。
+   活動URL是建議顯示的頁面。 [!DNL Target]不會區分URL通訊協定（[!DNL https]和[!DNL http]），因此`http://www.adobe.com/tw`和`https://www.adobe.com/tw`都相符。
 
-   活動URL是建議顯示的頁面。
+   VEC隨即開啟並顯示頁面。
 
-   當您按一下[!UICONTROL 建立]時，VEC會開啟並顯示您的頁面。 您可以使用建議取代目前的元素，或插入建議。
+1. 按一下建議應顯示的元素，然後選取&#x200B;**[!UICONTROL 取代內容]** > **[!UICONTROL 建議]**。
 
-1. 按一下您的頁面上的元素，然後如果建議可供元素所在的位置使用，請按一下&#x200B;**[!UICONTROL 使用建議取代]**、**[!UICONTROL 插入建議在前]**，或&#x200B;**[!UICONTROL 插入建議在後]**。
+   <!--
+   * **[!UICONTROL Replace w/ Recommendations]**: Deletes the current content of the element and replaces it with the recommendations.
+   * **[!UICONTROL Insert Recommendations Before]**: Places the recommendations before the element, above or to the left of it, depending on the page construction.
+   * **[!UICONTROL Insert Recommendations After]**: Places the recommendations after the element, below or to the right of it, depending on the page construction.
 
-   >[!NOTE]
-   >
-   >[!UICONTROL Recommendations]活動一次僅支援一個修改/建議。 針對多個建議，您可以建立多個[!DNL Recommendations]活動或使用A/B或XT測試。
+   ![Visual Experience Composer with a selected container and the menu options Replace w/ Recommendations, Insert Recommendations Before, Insert Recommendations After, and Expand Selection](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   網站的訪客只有在符合建議資格時，才會看到建議內容。 不符合建議資格的訪客將看到預設內容。
+   Use **[!UICONTROL Expand Selection]** to expand the selection to the parent container, so that it includes the desired page elements.
+   -->
 
-   ![推薦選項](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
-
-   * **[!UICONTROL 取代為Recommendations]**：以建議取代元素會刪除目前的內容，並以您的建議取代。 當訪客造訪您的網站並符合建議資格時，他們將在指定區域中看到建議專案，而不是現有內容。
-   * **[!UICONTROL 在]**&#x200B;之前插入建議：在選取的元素之前插入建議，將建議的內容置於該元素之前。 根據您的頁面建構，建議會顯示在所選元素的上方或左側。
-   * **[!UICONTROL 在]**&#x200B;之後插入建議：在選取的元素之後插入建議，會將建議的內容放在該元素之後。 根據您的頁面建構，建議會顯示在所選元素的下方或右側。
-
-   **[!UICONTROL 展開選取範圍]**&#x200B;選項可讓您展開選取的位置（父容器），協助您更輕鬆地識別並包含想要的頁面元素。
-
-1. 選取頁面類型。
-
-   頁面類型可包括:
-
-   * 購物車頁面
-   * 類別頁面
-   * 首頁
-   * 登陸頁面
-   * 產品頁面
-   * 搜尋結果頁面
-   * 感謝頁面
-   * 其他
-
-   ![選取頁面類型選項](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
-
-1. 選取[一或多個條件](/help/main/c-recommendations/c-algorithms/algorithms.md)。
-
-   條件會以卡片的形式顯示，顯示每個條件的相關資訊。 根據預設，[!UICONTROL Select條件]畫面會顯示與您的垂直產業相容的條件，以及您在上一步驟中選取的頁面型別。 您可以變更這些選項以顯示其他條件。
+   符合建議的訪客可在指定區域檢視建議專案。 不符合資格的訪客會看到預設內容。
 
    >[!NOTE]
    >
-   >不是每個條件都能在每個頁面上正確執行。 頁面或 mbox 必須傳入 `entity.id` 或 `entity.categoryId`，目前項目/目前類別建議才能相容。 一般來說，最好只顯示相容的條件。 不過，如果您想要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 「相容」]**&#x200B;核取方塊。 根據您的Recommendations設定（**[!UICONTROL Recommendations]** > **[!UICONTROL 設定]** > **[!UICONTROL 篩選不相容的條件]**），可能不會顯示[!UICONTROL 相容]選項。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+   >**[!UICONTROL Recommendations]**&#x200B;活動一次僅支援一個修改或建議。 若要顯示多個建議，請建立多個[!DNL Recommendations]活動，或使用A/B或XT測試。
 
-   ![選取條件對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
+   ![視覺化體驗撰寫器，在頁面上選取影像，且功能表中顯示「建議」選項](../assets/create_reco_2.png)
 
-   如果您選取多個條件，流量會在選取的條件間平均分割。 例如，如果您已選取了兩個條件，而您的活動是設計為對 20% 的活動加入者顯示預設內容，那麼 40% 的活動加入者將看到每個條件所控制的建議。 沒有選項可變更每個條件的百分比。
+<!--
+1. Select a page type: Cart Page, Category Page, Home Page, Landing Page, Product Page, Search Results Page, Thank You Page, or Other.
 
-   * 若要搜尋現有條件（例如，如果顯示了大量條件卡片），請在搜尋欄位中輸入內容，直到需要的條件出現為止，接著選取條件，然後按一下[下一步]。**&#x200B;**
+   ![Select Page Type dialog box with the list of page types open](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
-     有些條件是由 [!DNL Recommendations] 提供。 您和您的團隊也可以建立自己的自訂條件。
+   The page type determines which criteria are suggested in the next section.
+-->
 
-   * 若要建立新條件，請按一下&#x200B;**[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件]**，然後填寫新條件的資訊。 如需關於建立新條件的資訊，請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
-   * 您也可以將條件群組為序列。 若要建立新的條件序列，請按一下&#x200B;**[!UICONTROL 建立條件]** > **[!UICONTROL 建立條件序列]**。 如需詳細資訊，請參閱[建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md)。
+1. 存取&#x200B;**[!UICONTROL 顯示屬性]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL Select建議]**。
+
+   ![具有Select的視覺化體驗撰寫器的建議面板建議按鈕](../assets/create_reco_3.png)
+
+## Select條件 {#select-criteria}
+
+條件會決定要建議哪些專案，以及如何為每位訪客選擇專案。
+
+1. Select一或多個[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)的核取方塊。
+
+   ![Select條件對話方塊，其中包含搜尋欄位、篩選圖示、建立條件按鈕，以及選取了一個條件的條件清單](../assets/create_reco_4.png)
+
+   選取多個條件時，流量會平均分散在各個條件之間，而且無法變更每個條件的百分比。 例如，如果選取兩個條件，而活動對20%的加入者顯示預設內容，則40%的加入者會看到每個條件的建議。
+
+   >[!NOTE]
+   >
+   >不是每個條件都能在每個頁面上正確執行。 若要讓目前專案或目前類別建議相容，頁面或mbox必須傳入`entity.id`或`entity.categoryId`。 最好只顯示相容的條件。 若要讓不相容的條件可供活動使用，請清除&#x200B;**[!UICONTROL 相容]**&#x200B;核取方塊。 根據&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 建議]** > **[!UICONTROL 篩選不相容的條件]**&#x200B;設定，此核取方塊可能不會顯示。 如需詳細資訊，請參閱[設定](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hant){target=_blank}。
+
+1. 選擇性地尋找或建立條件：
+
+   * 若要在清單很長時搜尋現有條件，請在搜尋欄位中輸入內容，直到需要的條件出現為止。 [!DNL Recommendations]提供了部分條件，團隊也可以建立自訂條件。
+   * 若要建立新條件，請按一下[建立條件] **&#x200B;**，然後輸入新條件的資訊。 請參閱[建立條件](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * 若要將條件分組到序列中，請建立條件序列。 請參閱[建立條件序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**。
+
+## Select設計與促銷活動 {#select-design}
+
+設計是一種範本，可決定建議在所選位置的外觀，而集合則決定哪些專案符合出現條件。 您可以選擇將促銷活動新增至建議。
+
 1. 選取[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   設計是一種用來決定位置在您頁面上外觀的範本。 [!DNL Target]包含數個預先設定的設計。 您也可以建立自己的自訂設計。 如需詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)和[自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)。
+   ![具有「建立設計」按鈕的Select Design對話方塊，以及已選取2 x 4設計的設計清單](../assets/create_reco_5.png)
 
-   ![選取設計對話方塊](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
+   * 若要使用現有設計，請選取一或多個設計的核取方塊，然後按一下[下一步]。**&#x200B;** 選取多個條件時，只能選取一個設計。
+   * 若要建立自訂設計，請按一下[建立設計] **&#x200B;**，然後輸入新設計的名稱和代碼。 按[下一步]&#x200B;**&#x200B;**，選取或上傳影像，然後按一下[完成]&#x200B;**> [完成]**&#x200B;**。**
 
-   每個設計會顯示其外觀的圖形呈現，而圖示會顯示目前您的已上線和非使用中的活動有多少使用該設計。
-
-   * 若要選取一或多個現有設計，請按一下設計，然後按一下[下一步]。**&#x200B;**
-
-     如果您選取了多個條件，則僅能選取一個設計。
-
-   * 若要建立自訂設計，請按一下&#x200B;**[!UICONTROL 建立設計]**，然後填寫新設計的名稱和代碼。 按&#x200B;**[!UICONTROL 「下一步」]**，然後選取或上傳影像並按一下&#x200B;**[!UICONTROL 「完成」]**>**[!UICONTROL 「完成」]**。 如需關於建立新設計的資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)。
+   [!DNL Target]包含數個預先設定的設計。 如需自訂設計的詳細資訊，請參閱[建立設計](/help/main/c-recommendations/c-design-overview/create-design.md#create-design)和[使用Velocity自訂設計](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design)。
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**。
 
-   您有選項可將促銷活動新增至您的建議。 如需新增前端與後端促銷活動的詳細資訊，請參閱[新增促銷活動](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+1. 在&#x200B;**[!UICONTROL 選項]**&#x200B;頁面上，選取集合。
+
+   集合會決定哪些專案符合出現在建議中的資格。 如需詳細資訊，包括如何建立集合，請參閱[在活動中使用集合](/help/main/c-recommendations/c-products/collections.md#use-collection)。
+
+1. （選用）將前端和後端促銷活動新增至建議。 請參閱[新增促銷活動](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#add-promotions)。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-   VEC 畫面會在您的頁面上顯示建議的設計。
+   VEC畫面會在頁面上顯示建議設計。
 
-1. （選擇性）按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視向訪客呈現的活動外觀。
+## 檢閱並完成活動 {#complete-activity}
 
-   [!UICONTROL 預覽]模式可讓您與您的建議互動，雖然訪客會這麼做。
+在儲存前先檢閱建議和活動流程，有助於確認適當的對象、條件和設計已準備就緒。
 
-   完成預覽您的建議時，請按一下&#x200B;**[!UICONTROL 「撰寫」]**。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視向訪客呈現的活動外觀。 此模式可允許與建議互動，因為訪客會與建議互動。 按一下&#x200B;**[!UICONTROL 撰寫]**&#x200B;以返回VEC。
 
-1. 在VEC中檢閱您的建議，然後按一下[下一步]。**&#x200B;**
+1. 在VEC中檢閱建議，然後按一下[下一步]。**&#x200B;**
 
-1. 在流程圖表中檢閱您的 [!DNL Recommendations] 活動，並進行任何必要的變更。
+1. 在流程圖表中檢閱活動，並進行任何必要的變更。 完成時，請按一下&#x200B;**[!UICONTROL 下一步]**。
 
-   ![推薦流程圖](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   將「所有訪客」分割為10%控制組和90%群組的![Recommendations流程圖表，可產生「所有集合」、選取的條件和2 x 4設計](../assets/create_reco_6.png)
 
-   流程圖表將引導您進行選擇活動客群和設定體驗的步驟，並指定成功量度。
+   流程圖涵蓋活動的對象、體驗和成功量度。 從圖表中，可以進行下列變更：
 
-   您可從流程圖表執行下列工作:
+   * **對象**：所有訪客預設都會看到建議，但可以改為選取現有對象。 除了建立新受眾之外，您也可以建立[僅限於此活動的受眾](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)，或是[可結合多個受眾](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以建立隨選受眾。
+   * **條件**：檢視條件，或變更集合（**[!UICONTROL 條件]**&#x200B;標籤旁）。
+   * **控制組**：變更看到控制體驗的加入者百分比。 在[!DNL Recommendations]活動中，控制群組會看見沒有任何建議的頁面。
+   * **設計**：檢視設計程式碼，或變更或移除設計。
 
-   * 變更將看見建議的對象
+1. 指定活動設定，例如名稱（必要）和目標（選用）。 如需設定，包括活動名稱的規則，請參閱[Recommendations活動設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#recs-activity-settings)。
 
-     >[!NOTE]
-     >
-     >除了選取現有客群，您還可以[建立僅限於此活動的客群](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)，或是[結合多個客群](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)來建立隨選客群而非建立新客群。
+1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**。
 
-     依預設，所有使用者都會看到建議。 不過，您可以將建議鎖定在特定對象。
+## 管理活動 {#manage-activity}
 
-     針對 [!DNL Recommendations] 活動，控制群組會看見沒有任何建議的頁面。
+儲存活動後，**[!UICONTROL 總覽]**&#x200B;頁面會顯示活動的摘要。 此頁面提供下列動作：
 
-   * 檢視條件
-   * 變更集合 ([!UICONTROL 「條件」]標籤旁)
-   * 變更可看見控制體驗的加入者百分比
-   * 檢視設計代碼
-   * 變更或移除設計
+* 啟動、編輯活動或進行QA。
+* 將活動共用至Experience Cloud摘要。
+* 檢視體驗URL和下載資料。
+* 變更看到控制體驗的活動加入者百分比。
+* 顯示或隱藏條件詳細資訊，並檢視設計的程式碼。
 
-1. 完成時，請按一下&#x200B;**[!UICONTROL 下一步]**。
-1. 指定您的活動設定。
+活動中有兩個額外頁面可供使用：
 
-   例如，輸入活動的名稱 (必要) 和目標 (可選)。 如需設定的相關資訊，請參閱[Recommendations活動設定](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
-
-   >[!NOTE]
-   >
-   >如果指定的 [!DNL Recommendation] 活動名稱是 [!DNL Recommendations Classic] 中另一個已存在活動的名稱，則會將新活動重新同步為新名稱。 新名稱為原始名稱附加時間戳記的唯一名稱。 這個新名稱會顯示在 [!DNL Target Standard/Premium] 和 [!DNL Recommendations Classic] 中。
-
-1. 完成時，按一下&#x200B;**[!UICONTROL 儲存並關閉]**。
-
-   您的活動概覽隨即顯示。
-
-   從[!UICONTROL 「概覽」]頁面，您可以:
-
-   * 啟動活動
-   * 編輯活動
-   * 將活動共用至您的Experience Cloud摘要
-   * QA活動
-   * 檢視您的體驗 URL
-   * 下載資料
-   * 變更可看見控制體驗的活動加入者百分比
-   * 顯示或隱藏條件詳細資料
-   * 檢視您的設計的代碼
-
-1. （選擇性）開啟[!UICONTROL 報表]頁面以檢視顯示[!DNL Recommendations]活動效能的報表。
-
-1. （選擇性）開啟[!UICONTROL 衝突]頁面以檢視可能發生的任何[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)。
-
-   當多個活動設為傳送內容至相同的頁面時會發生活動衝突，並且可能造成顯示未預期的內容。
+* **[!UICONTROL 報告]**：顯示[!DNL Recommendations]活動效能的報告。
+* **[!UICONTROL 衝突]**：顯示可能發生的所有[活動衝突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md)。 當多個活動將內容傳送至相同頁面時會發生衝突，並可能導致顯示非預期的內容。
 
 ## 訓練影片：建立Recommendations活動(7:15) ![教學課程徽章](/help/main/assets/tutorial.png)
 

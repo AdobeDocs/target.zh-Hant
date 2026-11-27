@@ -24,33 +24,28 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 46%
+source-wordcount: '488'
+ht-degree: 13%
 ---
-# 推薦活動設定
+# 推薦活動設定 {#recs-activity-settings}
 
-您可以用來描述及控制[!DNL Adobe Target]中[!UICONTROL Recommendations]活動的設定相關資訊。
+>[!BEGINSHADEBOX]
 
-以下章節說明[!UICONTROL Recommendations]活動可用的設定。
+**在此頁面上：**&#x200B;瞭解描述和控制[!DNL Adobe Target]中[!DNL Recommendations]活動的設定。
+
+>[!ENDSHADEBOX]
+
+活動設定會識別[!DNL Recommendations]活動、控制其顯示的時間和位置，並定義其結果的報告方式。
 
 ## 名稱
 
-按一下「更多動作」圖示（ ![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下「**[!UICONTROL 重新命名]**」以提供描述性名稱，協助您和您的團隊識別活動。
+按一下「更多動作」圖示（![更多動作圖示](/help/main/assets/icons/MoreSmallListVert.svg) ），然後按一下「**[!UICONTROL 重新命名]**」，為活動提供有助於識別它的描述性名稱。
 
-活動名稱中不允許下列字元:
+活動名稱中不允許下列字元： `/`、`?`、`#`、`:`、`=`、`+`、`-`和`@`。
 
-`/`
-`?`
-`#`
-`:`
-`=`
-`+`
-`-`
-`@`
-
-如果指定已存在 [!UICONTROL Recommendations Classic] 另一個活動中的 [!UICONTROL Recommendations] 活動名稱，則會將新活動重新同步為新名稱。 新名稱為原始名稱附加時間戳記的唯一名稱。 這個新名稱會顯示在[!DNL Target Standard/Premium]和[!UICONTROL Recommendations Classic]中。
+如果[!UICONTROL Recommendations Classic]中的另一個活動已存在[!DNL Recommendations]活動的名稱，則會以新名稱重新同步新活動。 新名稱是原始名稱，會附加時間戳記，使其成為唯一名稱。 它會顯示在[!DNL Target Standard/Premium]和[!UICONTROL Recommendations Classic]中。
 
 ## 目標
 
@@ -58,52 +53,46 @@ ht-degree: 46%
 
 ## 優先順序
 
-調整滑桿來決定優先順序層級。
+調整滑桿以設定優先等級。
 
-如果將多個活動指派至具有相同客群的相同位置，則會使用優先順序。 如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
+當多個活動指派至具有相同對象的相同位置時，就會使用優先順序。 如果將兩個以上活動指派至位置，則會顯示具有最高優先順序的活動。
 
 ## 持續時間
 
 設定活動的持續時間。
 
-活動可以在啟用後開始，或者您可以設定特定的日期和時間。 同樣地，活動可以在停用時結束，或者您可以設定日期和時間。 時間選擇器使用 24 小時時鐘，午夜為 00:00。 時區會設為瀏覽器中設定的時區。 若要使用不同的時區，請將您的瀏覽器設定為其他時區並重新啟動瀏覽器。
+活動可以在啟動時開始，或在特定的日期和時間開始。 同樣地，它可以在停用時或在特定日期和時間結束。
+
+時間選擇器使用 24 小時時鐘，午夜為 00:00。 時區是瀏覽器中設定的時區。 若要使用不同的時區，請將瀏覽器設定為該時區，然後重新啟動瀏覽器。
 
 ## 報表設定
 
-* **報告Source：**&#x200B;指定收集自下列專案的解決方案資料：
+以下設定會定義活動結果的報告方式。
 
-  * [!DNL Adobe Target]
-  * [!DNL Adobe Analytics]
-  * [!DNL Adobe Customer Journey Analytics]
+* **[!UICONTROL 報告Source]：**&#x200B;指定資料收集來源的解決方案： [!DNL Adobe Target]、[!DNL Adobe Analytics]或[!DNL Adobe Customer Journey Analytics]。
 
-  如果已在您的[帳戶設定](/help/main/administrating-target/reporting.md)中指定報表解決方案，則會使用指定的解決方案，而且此設定不會顯示。
+  如果在[帳戶設定](/help/main/administrating-target/reporting.md)中指定了報表解決方案，則會使用該解決方案，而且此設定不會顯示。 為保持報表的一致性，在活動上線後無法變更報表來源。
 
-  為了讓報表保持一致，在活動上線後，您無法變更您的報表來源。
-
-  **[!DNL Adobe Analytics]**：檢視[[!DNL Adobe Analytics] 作為 [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報告來源，以瞭解報告解決方案之間的差異和各自的優點。
-
-  選取[!DNL Analytics]做為[!DNL Target] (A4T)的報告來源時，請選取[!DNL Analytics]報告套裝來接收[!DNL Target]活動資料。 若要這麼做，請先從您帳戶繫結的[!DNL Analytics]家公司中選擇任一，接著為該活動選取適當的報表套裝。 只有布建為連線至[!DNL Target]的報表套裝才可供選取。 如果您沒有看到預期的報表套裝，請先嘗試登出並重新登入[!DNL Adobe Experience Cloud]以重試。 如果清單中仍缺少報表套裝，請連絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
-
-  [!DNL Analytics for Target] (A4T)需要追蹤伺服器才能正確回報結果。 預設追蹤伺服器會顯示在[!UICONTROL 追蹤伺服器]欄位中。 如果您使用多個追蹤伺服器，請確定您在此欄位中包含正確的追蹤伺服器。 如需詳細資訊，請參閱[使用Analytics追蹤伺服器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
+  **[!DNL Adobe Analytics]**：請參閱[[!DNL Adobe Analytics] 作為 [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的報告來源，以瞭解報告解決方案之間的差異與各自的優點。 如需選取[!DNL Analytics]報表套裝和追蹤伺服器，請參閱[報告Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source)。
 
   **[!DNL Adobe Customer Journey Analytics]**：如需有關[!DNL Adobe Customer Journey Analytics]與[!DNL Target]之間整合的詳細資訊，請參閱[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中報告。
 
-* **目標量度:** 選取判斷活動是否成功的成功量度。
-* **其他度量:** 設定要在您的報表中使用的其他成功度量。
-* **報表對象:** 定義篩選報表時可以使用的對象。
+* **[!UICONTROL 目標量度]：**&#x200B;選取判斷活動是否成功的成功量度。
+* **[!UICONTROL 其他度量]：**&#x200B;設定報告的其他成功度量。
+* **[!UICONTROL 報表對象]：**&#x200B;定義可用來篩選報表的對象。
 
 ## 其他中繼資料
 
-輸入關於您的活動的備註。
+輸入有關活動的附註。
 
 ## 訓練影片：活動設定(3:02) ![教學課程徽章](/help/main/assets/tutorial.png)
 
-此影片包括關於活動設定的資訊。
+本影片涵蓋下列活動設定：
 
-* 輸入活動的目標
-* 設定活動的優先順序層級
-* 排程活動開始和結束時間
-* 新增報表的對象，以建立報表篩選器
-* 輸入活動的備註
+* 輸入活動的目標。
+* 設定活動的優先等級。
+* 排程開始和結束時間。
+* 新增報表對象以建立報表篩選器。
+* 輸入活動的附註。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507952?captions=chi_hant)

@@ -18,20 +18,24 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 19%
 ---
-# [!DNL Recommendations]個摘要處理伺服器使用的IP位址
+# [!DNL Recommendations]個摘要處理伺服器使用的IP位址 {#recs-ip-addresses}
 
-[!DNL Adobe Target] [!DNL Recommendations]摘要處理伺服器中使用的IP位址清單，可協助您將防火牆設定為允許來自[!DNL Adobe]伺服器的IP位址。
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;尋找[!DNL Adobe Target] [!DNL Recommendations]摘要處理伺服器使用的IP位址，以設定允許來自[!DNL Adobe]伺服器之IP位址的防火牆。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->[!DNL Target]團隊目前正在更新NAT閘道位址，以便下載[!DNL Recommendations]摘要。 如果您實施IP允許清單，請確定您允許清單下列新的AWS主機。 現有主機預計於2024年6月30日停止服務。 為確保順利轉換，請將所有九個地址加入允許清單。 移除現有位址並不緊迫。
+>[!DNL Target]團隊目前正在更新NAT閘道位址，以便下載[!DNL Recommendations]摘要。 實作IP允許清單時，會將下列新的AWS主機加入允許清單。 現有主機預計於2024年6月30日停止服務。 為確保順利轉換，請將所有九個地址加入允許清單。 移除現有位址並不緊迫。
 
-存取客戶的FTP伺服器時，[!DNL Target]個[!UICONTROL Recommendations]活動會使用下列AWS主機：
+存取客戶的FTP伺服器時，[!DNL Target] [!UICONTROL 建議]活動會使用下列AWS主機。
 
 **新主機**：
 

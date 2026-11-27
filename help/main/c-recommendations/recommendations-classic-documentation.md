@@ -19,21 +19,25 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 55%
+source-wordcount: '126'
+ht-degree: 13%
 ---
-# 推薦經典版文件
+# 推薦經典版文件 {#recs-classic-documentation}
 
-[!DNL Recommendations Classic] 會依據網站上先前的使用者行為，自動顯示可能吸引客戶的產品或內容。
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;尋找舊版[!DNL Recommendations]產品[!DNL Recommendations Classic]的檔案。
+
+>[!ENDSHADEBOX]
+
+[!DNL Recommendations Classic]會根據網站上先前的使用者行為，自動顯示可能吸引客戶的產品或內容。 這些建議有助於將客戶導向他們原本可能不知道的專案，提升網站產生的銷售額。
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] 是舊版產品，不再授權給新客戶。 為獲得最佳的[!DNL Recommendations]體驗，請升級至[Adobe Target Premium](/help/main/c-intro/intro.md)中可用的[!DNL Recommendations]個活動。
+>[!DNL Recommendations Classic] 是舊版產品，不再授權給新客戶。 為獲得最佳的[!DNL Recommendations]體驗，請升級至[!DNL Recommendations]個活動，這些活動可在[Adobe Target Premium](/help/main/c-intro/intro.md)中取得。
 
-推薦有助於將客戶導向他們原本可能不知道的項目，提升網站產生的銷售額。
+若要在[!DNL Target Premium]中的[!DNL Recommendations Classic]與[!DNL Recommendations]個活動之間選擇，請參閱Target Premium中的[Recommendations Classic與Recommendations活動的比較](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)。
 
-如需可協助您在[!DNL Target Premium]中的[!DNL Recommendations Classic]與[!DNL Recommendations]個活動之間進行選擇的資訊，請參閱Target Premium中的[Recommendations Classic與Recommendations活動的比較](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)。
-
-下載 PDF 格式的 [Adobe 推薦經典版](/help/main/assets/adobe-recommendations-classic.pdf) 文件。
+[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)的檔案可以下載PDF格式。

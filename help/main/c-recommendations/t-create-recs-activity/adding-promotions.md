@@ -18,77 +18,72 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 34%
+source-wordcount: '695'
+ht-degree: 3%
 ---
-# 新增促銷活動
+# 新增促銷活動 {#add-promotions}
 
-新增提示的專案並控制其在您[!DNL Adobe Target Recommendations]設計中的放置位置。 您可以新增靜態和動態促銷活動。
+>[!BEGINSHADEBOX]
 
->[!IMPORTANT]
->
->靜態和動態排除規是可協助您從事行銷活動的強大功能。 如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules)。
+**在此頁面上：**&#x200B;瞭解如何將提升的專案新增至[!DNL Recommendations]設計，以及如何決定其排序順序。
 
-建立 [!DNL Recommendations] 活動時，您有選項可在您的 [!DNL Recommendations] 設計中包括促銷的項目。 促銷活動使用設計中的可用位置，並且優先於條件結果和備用建議。 例如，如果您的設計有六個位置，並且您對促銷活動使用其中兩個，即有四個位置可供根據條件建議的項目使用。
+>[!ENDSHADEBOX]
 
-促銷活動會根據活動條件所建議之專案取消重複，因此指定專案不會在單一建議匣中出現兩次。
+除了條件所建議的專案之外，促銷活動還會在[!DNL Recommendations]設計中放置特定專案。 它們在設計中使用可用的位置，並優先於條件結果和備份建議。 例如，如果某個設計有六個位置，其中兩個用於促銷活動，則根據條件推薦的專案將保留四個位置。
 
-您可以促銷特定項目、動態地促銷項目、根據屬性促銷項目或促銷集合。
+促銷活動會根據活動條件所建議的專案刪除重複專案，因此在單一建議匣中，指定專案不會顯示兩次。
 
-[!DNL Target] UI![&#128279;](assets/add_promotion_toggles.png)中的[!UICONTROL 前端促銷活動]和[!UICONTROL 後端促銷活動]選項
+![變更促銷活動對話方塊，其中前端促銷活動和後端促銷活動已關閉](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
->使用促銷活動會變更 CSV 結構和輸出。 這些變更對牽涉到 CSV 的任何外部程序 (例如電子郵件) 會造成影響。
+>使用促銷活動會變更CSV結構和輸出。 這些變更可能會影響任何涉及CSV的外部程式，例如電子郵件。
+
+## 新增促銷活動 {#add-promotion}
+
+促銷活動會定義促銷哪些專案、其使用多少設計版塊，以及顯示的時段。
 
 1. 在&#x200B;**[!UICONTROL 選項]**&#x200B;頁面上，按一下&#x200B;**[!UICONTROL 前端促銷活動]**&#x200B;或&#x200B;**[!UICONTROL 後端促銷活動]**&#x200B;切換。
 
-   下圖顯示處於「開啟」位置的[!UICONTROL 前端促銷活動]切換按鈕。
+   下圖顯示處於「開啟」位置的&#x200B;**[!UICONTROL 前端促銷活動]**&#x200B;切換按鈕。 促銷活動可在條件結果之前和之後插入。
 
-   ![新增前端促銷活動選項](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
+   ![變更促銷活動對話方塊，並開啟前端促銷活動切換按鈕，顯示「設計位置數量」、「排程」和「促銷活動型別」選項](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
-   您可以將促銷活動插入在 *and* 之前與您的條件結果之後。
+1. 設定要用於促銷專案的設計位置數量&#x200B;**[!UICONTROL 數量]**。
 
-1. 設定要用於促銷的項目之設計位置的數量。
+   視[!DNL Recommendations]設計而定，最多可使用20個位置。 根據條件傳回的建議無法使用所使用的每個位置。
 
-   根據您的 [!DNL Recommendations] 設計，您可以使用最多 20 個位置。 您使用的每個位置會變得無法供根據您的條件傳回的建議使用。
+1. 為升級的專案設定&#x200B;**開始**&#x200B;日期和&#x200B;**結束**&#x200B;日期。
 
-1. 設定您促銷項目的開始日期和結束日期。
+   若未設定開始日期，則促銷活動會立即開始。 如果未設定結束日期，則促銷活動會無限期地執行。
 
-   如果您未設定開始日期，則促銷活動會立即開始。 如果您未設定結束日期，則促銷活動會無限期地執行。
+1. Select a **[!UICONTROL 促銷活動型別]**：
 
-1. 選取&#x200B;**[!UICONTROL 促銷活動型別]**。
+   * **[!UICONTROL 專案清單]**：輸入要促銷的專案的`entity.id`個值（以逗號分隔）。
+   * **[!UICONTROL 依屬性促銷]**：新增規則以定義要促銷的專案的屬性。 此選項可透過靜態和動態包含規則進行動態比對。 如需詳細資訊、範例和使用案例，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules)。
+   * **[!UICONTROL 促銷一個集合]**：選擇要促銷的專案集合。 可以為促銷活動建立新的集合。 請參閱[建立集合](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)。
 
-   * 選取&#x200B;**[!UICONTROL 專案清單]**，然後輸入要促銷之特定專案的`entity.id`值（以逗號分隔）。
+   促銷活動型別也會決定促銷專案的排序順序。 檢視[促銷活動型別和排序順序](#promotion-sort-order)。
 
-   * 選取&#x200B;**[!UICONTROL 「依屬性促銷」]**，並新增規則以定義您要促銷的項目的屬性。
-
-     如果您選取[!UICONTROL 依屬性促銷]，您可以建立動態相符專案。 如需詳細資訊，請參閱[使用動態和靜態包含規則](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules)。
-
-   * 選取&#x200B;**[!UICONTROL 「促銷一個集合」]**，並選擇您要促銷的項目集合。
-
-     您可以建立新的集合用於促銷活動。 如需詳細資訊，請參閱[建立集合](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)。
-
-   如果您選擇&#x200B;**[!UICONTROL 專案清單]**&#x200B;作為&#x200B;**[!UICONTROL 促銷活動型別]**，您可以視需要選取&#x200B;**[!UICONTROL 隨機排列專案順序]**&#x200B;核取方塊。
-
-   [!UICONTROL 專案清單]的預設排序順序是根據您在[!DNL Target] UI或API中輸入的順序而定。 如果您的清單包含的專案多於您為促銷活動設定的位置數量，[!UICONTROL 隨機排列專案順序]選項會隨機排列您的設計中顯示的促銷專案。 選擇此選項會導致[!DNL Target]從每次點選上設定的整個促銷活動中，隨機選取在範本中為促銷活動啟用的專案。
-
-   如果您的實體沒有`entity.value`屬性（例如，您沒有銷售產品），您可以將數值傳遞至`entity.value`屬性（例如發佈日期）。 在此情況下，可根據最近發佈日期以降序提升已提升的專案。 `entity.value`屬性屬於雙精度型別；它不接受字串。
-
-   若您選取&#x200B;**[!UICONTROL 依屬性促銷]**&#x200B;或&#x200B;**[!UICONTROL 促銷集合]**&#x200B;選項，則隨機排列順序的選項不適用。
-
-   使用[!UICONTROL 依屬性促銷]或[!UICONTROL 促銷集合]選項促銷特定專案時，專案的預設顯示順序是以`entity.value`屬性為基礎，以遞減數字順序顯示。
-
-   下表說明這些選項之間的差異：
-
-   | 促銷活動型別 | 預設排序 | 備份排序 | 動態篩選選項 |
-   | --- | --- | --- | --- |
-   | [!UICONTROL 專案清單] | 在Target UI/API中輸入的訂單 | 隨機（透過UI/API選取時） | 否 |
-   | [!UICONTROL 依屬性促銷] | `entity.value` （遞減順序） | 無隨機化 | 是 |
-   | [!UICONTROL 提升集合] | `entity.value` （遞減順序） | 無隨機化 | 否 |
+   ![使用反白顯示的「促銷活動型別」選項變更促銷活動對話方塊：專案清單、依屬性促銷活動以及促銷集合](/help/main/c-recommendations/t-create-recs-activity/assets/promotion_type.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 促銷活動會套用至活動中的所有體驗。
+
+## 促銷活動型別與排序順序 {#promotion-sort-order}
+
+推進專案的排序順序取決於推進型別，如下表所示。
+
+| 促銷活動型別 | 預設排序 | 備份排序 | 動態篩選選項 |
+| --- | --- | --- | --- |
+| **[!UICONTROL 專案清單]** | 在[!DNL Target] UI或API中輸入的順序 | 隨機（透過UI或API選取時） | 否 |
+| **[!UICONTROL 依屬性促銷]** | `entity.value` （遞減順序） | 無隨機化 | 是 |
+| **[!UICONTROL 提升集合]** | `entity.value` （遞減順序） | 無隨機化 | 否 |
+
+* **[!UICONTROL 專案清單]**：預設的排序順序是在[!DNL Target] UI或API中輸入的順序。 **[!UICONTROL 隨機專案順序]**&#x200B;核取方塊適用於此型別。 當清單包含的專案多於為促銷活動設定的位置數量時，此選項會隨機化設計中顯示的促銷專案。 在每個點選上，[!DNL Target]會從整個促銷活動集中隨機選取範本中啟用促銷活動的專案。
+* **[!UICONTROL 依屬性升級]**&#x200B;和&#x200B;**[!UICONTROL 升級集合]**：預設順序是以`entity.value`屬性為基礎，以遞減數字順序。 隨機排列順序不適用。
+
+如果實體沒有`entity.value`屬性（例如，企業不銷售產品），則發佈日期等數值可傳入`entity.value`屬性。 接著會以遞減順序依最近發佈日期來排序促銷專案。 `entity.value`屬性為double型別，不接受字串。

@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 28%
@@ -132,7 +132,7 @@ ht-degree: 28%
 
 **使用VEC使用[!UICONTROL 體驗片段]：**
 
-1. 在[!DNL Target]中，在[視覺化體驗撰寫器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中建立或編輯體驗時，按一下頁面上您要插入[!DNL AEM]內容的位置，然後按一下&#x200B;**[!UICONTROL 取代內容]** > **[!UICONTROL 體驗片段]**&#x200B;以顯示[!UICONTROL 體驗片段]對話方塊。
+1. 在[!DNL Target]中，在[視覺化體驗撰寫器](/help/main/c-experiences/experiences.md#experiences-overview)中建立或編輯體驗時，按一下頁面上您要插入[!DNL AEM]內容的位置，然後按一下&#x200B;**[!UICONTROL 取代內容]** > **[!UICONTROL 體驗片段]**&#x200B;以顯示[!UICONTROL 體驗片段]對話方塊。
 
    [!UICONTROL 體驗片段]對話方塊會顯示在[!DNL AEM]中建立的內容，這些內容現在可從[!DNL Target]中以原生方式使用。
 
@@ -142,7 +142,7 @@ ht-degree: 28%
 
    ![experience_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
-1. 選取所需的[!UICONTROL 體驗片段]，然後按一下[新增]。**&#x200B;**
+1. Select所需的[!UICONTROL 體驗片段]，然後按一下&#x200B;**[!UICONTROL 新增]**。
 1. 完成活動的設定。
 
    如需有關設定各種活動類型的詳細資訊，請參閱下列主題:
@@ -164,7 +164,7 @@ ht-degree: 28%
 
    [!UICONTROL 體驗片段]對話方塊會顯示在[!DNL AEM]中建立的內容，這些內容現在可從[!DNL Target]中以原生方式使用。
 
-1. 選取所需的[!UICONTROL 體驗片段]，然後按一下[新增]。**&#x200B;**
+1. Select所需的[!UICONTROL 體驗片段]，然後按一下&#x200B;**[!UICONTROL 新增]**。
 1. 完成活動的設定。
 
 ## 其他資訊

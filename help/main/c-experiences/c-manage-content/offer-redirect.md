@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 24%
@@ -44,7 +44,7 @@ ht-degree: 24%
 >
 >* 對於使用[[!UICONTROL Analytics做為報表來源]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活動中的重新導向選件，您的實作必須符合特定的最低需求。 此外，還有需要您知道的重要資訊。 請參閱[重新導向選件 — A4T常見問題集](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
 >
->* 如需設定可重新導向的體驗的相關資訊，請參閱[重新導向至 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
+>* 如需設定可重新導向的體驗的相關資訊，請參閱[重新導向至 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#redirect-to-url)。
 
 重新導向產品建議會執行 JavaScript 程式碼來重新導向瀏覽器。 此產品建議會使用 `window.location.replace();` 方法，所以訪客被重新導向的來源頁面不會儲存在瀏覽器記錄中。 此程式可讓訪客在其瀏覽器中使用「上一步」按鈕。
 
@@ -128,5 +128,5 @@ ht-degree: 24%
 1. 指定所需位置，並視需要新增任何對象細分。
 
 1. 按一下&#x200B;**[!UICONTROL 內容]**&#x200B;下拉式清單，按一下&#x200B;**[!UICONTROL 清單]**&#x200B;圖示（![清單](/help/main/assets/icons/MoreSmallList.svg) ），然後按一下&#x200B;**[!UICONTROL 變更重新導向選件]**。
-1. 從[!UICONTROL 選取重新導向選件]對話方塊中選取所需的重新導向選件，然後按一下&#x200B;**[!UICONTROL 新增]**。
+1. 從[!UICONTROL Select重新導向選件]對話方塊中Select所需的重新導向選件，然後按一下&#x200B;**[!UICONTROL 新增]**。
 1. 完成活動的設定。

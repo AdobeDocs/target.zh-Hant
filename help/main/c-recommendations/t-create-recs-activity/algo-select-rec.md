@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Select要在您的[!DNL Adobe Target Recommendations]活動中使用的[條件](
 
 **若要選取條件:**
 
-1. 在[建立新建議](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)時，請在&#x200B;**[!UICONTROL Select條件]**&#x200B;對話方塊中，找出並選取一或多個條件。
+1. 在[建立新建議](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity)時，請在&#x200B;**[!UICONTROL Select條件]**&#x200B;對話方塊中，找出並選取一或多個條件。
 
    您可以使用[!UICONTROL 產業型別]篩選器、[!UICONTROL 頁面型別]篩選器和[!UICONTROL 相容]核取方塊來篩選條件清單。 這些選項可協助您找到所需的條件。
 

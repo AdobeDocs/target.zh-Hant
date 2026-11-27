@@ -18,71 +18,68 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 55%
+ht-degree: 12%
 ---
-# 推薦作為產品建議
+# 推薦作為產品建議 {#recommendations-as-an-offer}
 
-您現在可以在[!UICONTROL A/B測試] （包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]）和[!UICONTROL 體驗鎖定目標] (XT)活動中包含建議。
+>[!BEGINSHADEBOX]
 
-這項功能開啟了全新功能，例如:
+**在此頁面上：**&#x200B;瞭解如何在[!UICONTROL A/B測試]和[!UICONTROL 體驗鎖定目標] (XT)活動中新增、編輯和刪除建議作為選件。
+
+>[!ENDSHADEBOX]
+
+除了[!UICONTROL Recommendations]活動之外，建議也可包含在[!UICONTROL A/B測試] （包括[!UICONTROL 自動分配]和[!UICONTROL 自動鎖定目標]）和[!UICONTROL 體驗鎖定目標] (XT)活動中。 這可提供下列功能：
 
 * 在同一個活動內測試及鎖定建議與非建議內容。
-* 輕鬆試驗建議在頁面中的放置方法，包括多個建議的排列順序。
-* 使用[!UICONTROL 自動分配]自動將流量推送到績效最佳的建議體驗。
-* 使用[!UICONTROL 自動鎖定目標]，根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
+* 嘗試在頁面上放置建議，包括多個建議的順序。
+* 透過&#x200B;**[!UICONTROL 自動分配]**，自動將流量推送到績效最佳的建議體驗。
+* 使用&#x200B;**[!UICONTROL 自動鎖定目標]**，根據訪客的設定檔，以動態方式為訪客指派自訂建議體驗。
 
-若要開始，請使用[!UICONTROL 視覺化體驗撰寫器]建立[!UICONTROL A/B測試]或[!UICONTROL 體驗鎖定目標]活動，並使用[!UICONTROL 插入在前]、[!UICONTROL 插入在後]或[!UICONTROL 取代為]動作來將建議新增至體驗。
+## 新增建議作為選件 {#add-recs-offer}
 
-## 新增建議作為 A/B 測試或 XT 活動中的產品建議
+使用[!UICONTROL 視覺化體驗撰寫器] (VEC)在[!UICONTROL A/B測試]或XT活動中建立體驗時，建議會新增為選件。
 
-1. 使用可視化體驗撰寫器 (VEC) 開始三步驟引導式工作流程，建立 [A/B 測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)或[體驗鎖定目標](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT) 活動。
+1. 開始VEC的三步驟引導式工作流程，以建立[A/B測試](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)或[體驗鎖定目標](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT)活動。
 
    >[!NOTE]
    >
-   >若為 A/B 測試，您可以選擇[「自動分配」](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)選項以自動將流量推送至成效最佳的建議，或是選擇[「自動鎖定目標」](/help/main/c-activities/auto-target/auto-target-to-optimize.md)選項，以便根據訪客的輪廓，以動態方式為訪客指派自訂建議體驗。
+   >若為A/B測試，[自動分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)選項會自動將流量推送至成效最佳的建議，而[自動鎖定目標](/help/main/c-activities/auto-target/auto-target-to-optimize.md)選項會根據訪客的設定檔，以量身打造的建議體驗來指派訪客。
 
-1. 建立[體驗](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)時，按一下您想要新增建議作為選件的元素，按一下&#x200B;**[!UICONTROL 取代內容]**，然後選取&#x200B;**[!UICONTROL 建議]**。
+1. 建立[體驗](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)時，請以下列其中一種方式將建議新增為選件：
 
-   ![插入推薦作為產品建議](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
+   * 按一下新增建議的元素，按一下&#x200B;**[!UICONTROL 取代內容]**，然後選取&#x200B;**[!UICONTROL 建議]**。
 
-1. 從下列選項中選擇，按照頁面類型檢視熱門建議條件:
+     ![已選取標題並在功能表中反白顯示「建議」選項的視覺化體驗撰寫器（在HTML選件和體驗片段選項旁）](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
-   * 購物車頁面
-   * 類別頁面
-   * 首頁
-   * 登陸頁面
-   * 產品頁面
-   * 搜尋結果頁面
-   * 感謝頁面
-   * 其他
+   * 在&#x200B;**[!UICONTROL 元件]**&#x200B;邊欄中，選取&#x200B;**[!UICONTROL 動態]**&#x200B;底下的&#x200B;**[!UICONTROL 建議]**，將滑鼠游標停留在頁面上的現有元素上，然後按一下&#x200B;**[!UICONTROL 插入到]**&#x200B;之前，或按一下&#x200B;**[!UICONTROL 插入到]**&#x200B;之後，將建議置於該元素之前或之後。
 
-1. 選取所需的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)，然後按一下[下一步]。
-1. 選取所需的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下[下一步] 。
-1. 在[!UICONTROL 選項]對話方塊中，指定下列專案：
+1. 存取&#x200B;**[!UICONTROL 顯示屬性]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL Select建議]**。
+
+1. Select所需的[條件](/help/main/c-recommendations/c-algorithms/algorithms.md)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+
+1. Select所需的[設計](/help/main/c-recommendations/c-design-overview/design-overview.md)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+
+1. 在&#x200B;**[!UICONTROL 選項]**&#x200B;對話方塊中，指定下列專案：
 
    * 選擇一個[集合](/help/main/c-recommendations/c-products/collections.md)。
-   * 視需要設定[「前端促銷活動」和「後端促銷活動」](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)選項。
+   * 如有必要，請設定[前端促銷活動和後端促銷活動](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)選項。
 
-1. 按一下[!UICONTROL 「儲存」]。
-1. 使用三步驟引導式工作流程完成 A/B 測試或 XT 活動的設定。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 編輯推薦產品建議的設定
+1. 使用三步驟引導式工作流程完成[!UICONTROL A/B測試]或XT活動的設定。
 
-編輯產品建議組態的方式有兩種:
+## 編輯Recommendations選件 {#edit-recs-offer}
 
-* 使用[!UICONTROL 編輯]功能表
-* 使用[!UICONTROL 修改]面板
+建議選件的條件、設計、集合和促銷活動可在新增選件後從&#x200B;**[!UICONTROL 建議]**&#x200B;窗格變更。
 
-### 使用「編輯」選單編輯建議產品建議
+1. 按一下選件，編輯並瀏覽右窗格功能表中的選項。
 
-1. 按一下您要編輯的選件，然後按一下[編輯]。**&#x200B;**
+   ![包含條件、設計和集合名稱的建議窗格，以及所選優惠的「新增促銷活動」按鈕](assets/create_reco_7.png)
 
-   ![編輯推薦產品建議](/help/main/c-recommendations/assets/recs-offer-edit.png)
-
-1. 從下列選項中選擇:
+1. Select提供下列其中一個選項：
 
    * [變更條件](/help/main/c-recommendations/c-algorithms/algorithms.md)
    * [變更設計](/help/main/c-recommendations/c-design-overview/design-overview.md)
@@ -91,44 +88,21 @@ ht-degree: 55%
 
 1. 進行編輯。
 
-### 使用「修改」面板編輯建議產品建議
+## 刪除建議產品建議 {#delete-recs-offer}
 
-1. 按一下[!UICONTROL 修改]圖示&#x200B;**( `</>` )**&#x200B;以顯示[修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
-1. 將游標停留在所需的動作上，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
+可以從&#x200B;**[!UICONTROL 建議]**&#x200B;窗格中刪除不再需要的建議選件。
 
-   ![「修改」面板](/help/main/c-recommendations/assets/recs-offer-modifications.png)
+按一下要移除的選件，然後按一下&#x200B;**[!UICONTROL 建議]**&#x200B;窗格中的bin圖示（![Bin圖示](assets/Smock_Delete_18_N.svg)）。
 
-1. 進行編輯。
+![建議窗格，反白顯示bin圖示](assets/create_reco_8.png)
 
-## 刪除建議產品建議
+## 檢視建議選件的狀態 {#status}
 
-刪除建議產品建議的方式有兩種:
+建議選件（演演算法）的狀態會顯示在[!UICONTROL A/B測試]和包含建議選件之XT活動的&#x200B;**[!UICONTROL 總覽]**&#x200B;頁面底部。 狀態為下列其中一項：
 
-* 使用[!UICONTROL 編輯]功能表
-* 使用[!UICONTROL 修改]面板
-
-### 使用「編輯」選單刪除建議產品建議
-
-1. 按一下您要移除的選件，然後按一下&#x200B;**[!UICONTROL 配置>移除]**。
-
-   ![移除](/help/main/c-recommendations/assets/recs-offer-remove.png)
-
-### 使用「修改」面板刪除建議產品建議
-
-1. 按一下[!UICONTROL 修改]圖示&#x200B;**( &lt;/> )**&#x200B;以顯示[修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)窗格。
-1. 將游標停留在所需的動作上，然後按一下[!UICONTROL 刪除]圖示。
-
-   ![「刪除」圖示](/help/main/c-recommendations/assets/recs-offer-delete.png)
-
-### 檢視Recommendations選件的狀態 {#status}
-
-Recommendations選件的（演演算法）狀態會顯示在包含Recommendations選件之A/B測試和XT活動的[!UICONTROL 總覽]頁面底部：
-
-* 可用結果
-* 不可用結果
-* 摘要失敗
-
-![推薦產品建議狀態](/help/main/c-recommendations/assets/recs-offer-status.png)
+* **[!UICONTROL 個結果已就緒]**
+* **[!UICONTROL 個結果未就緒]**
+* **[!UICONTROL 摘要失敗]**
 
 ## 訓練影片：推薦作為![Overview badge](/help/main/assets/overview.png) 的產品建議
 

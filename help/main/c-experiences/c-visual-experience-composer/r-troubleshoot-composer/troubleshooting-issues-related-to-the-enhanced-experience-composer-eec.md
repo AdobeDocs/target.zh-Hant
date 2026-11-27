@@ -22,25 +22,28 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '581'
+ht-degree: 5%
 ---
-# 疑難排解[!UICONTROL 增強體驗撰寫器]的相關問題
+# 疑難排解[!UICONTROL 增強體驗撰寫器]的相關問題 {#eec-issues}
 
-顯示在某些情況下，有時候會在[!DNL Adobe Target] [!UICONTROL 增強體驗撰寫器] (EEC)中發生問題。
+>[!BEGINSHADEBOX]
 
-## EEC不會載入無法在公用IP上存取的內部QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
+**在此頁面上：**&#x200B;瞭解如何解決僅影響&#x200B;**[!UICONTROL 增強體驗撰寫器]** (EEC)的問題，例如因為EEC Proxy的IP位址被封鎖而無法載入的頁面。
 
+>[!ENDSHADEBOX]
 
-+++詳細資料
-此問題可透過將下列IP位址列入允許清單來解決。 這些IP位址是用於用於EEC Proxy的[!DNL Adobe]伺服器。 這些IP位址僅供活動編輯所需。 您網站的訪客不需要將這些IP位址加入允許清單。
+顯示在某些情況下，有時候會在[!DNL Adobe Target] **[!UICONTROL 增強體驗撰寫器]** (EEC)中發生問題。 以下專案說明僅影響EEC的問題以及如何解決這些問題。
 
-要求您的IT團隊將下列IP位址加入允許清單：
+## 將EEC Proxy的IP位址列入允許清單 {#eec-ip-addresses}
+
+EEC不會載入無法在公用IP位址上存取的內部QA URL。 將用於EEC Proxy的[!DNL Adobe]伺服器IP位址列入允許清單可解決此問題。 這些IP位址只有在編輯活動時才需要，網站的訪客不需要將它們加入允許清單。 要求IT團隊將下列IP位址列入允許清單。
 
 ### 美國(va7)
 
+```
 40.70.154.136/29
 52.254.106.240/28
 52.254.106.160/28
@@ -64,9 +67,11 @@ ht-degree: 23%
 4.152.211.251
 52.254.107.144/28
 52.254.106.144/28
+```
 
 ### EMEA (nld2)
 
+```
 51.138.17.16/28
 51.138.17.48/28
 51.138.16.128/28
@@ -89,9 +94,11 @@ ht-degree: 23%
 51.138.12.100
 51.138.17.64/28
 51.138.12.160/28
+```
 
 ### APAC (aus)
 
+```
 20.43.104.160/28
 20.227.35.177
 20.40.188.227
@@ -117,11 +124,13 @@ ht-degree: 23%
 20.43.104.192/28
 20.43.105.0/28
 20.43.104.0/28
+```
 
 ### 舊版IP位址
 
 下列舊版IP位址應繼續列入允許清單，直到另行通知為止。
 
+```
 34.254.77.200
 54.73.207.147
 54.229.152.123
@@ -140,52 +149,48 @@ ht-degree: 23%
 35.75.212.45
 52.199.184.130
 18.180.161.176
+```
 
-您可能會在[!DNL Target]中看到下列錯誤訊息：
++++ EEC會顯示錯誤訊息，指出網站網域封鎖它
 
-`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+下列錯誤訊息可在[!DNL Target]中顯示：
 
-![EEC_error影像](assets/EEC_error.png)
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in Configure > Page Delivery menu.`
 
-下列是您可能會看見此錯誤訊息的原因和修正此情況的補救方式:
+![體驗撰寫器，錯誤訊息為網站網域(ISP)封鎖Enhanced Experience Composer，建議將IP位址加入允許清單，或在[設定頁面傳送]功能表中關閉撰寫器](assets/EEC_error.png)
 
-* **問題：**&#x200B;您的網站網域(ISP)封鎖[!UICONTROL 增強體驗撰寫器]。
+此錯誤訊息有兩個可能的原因：
 
-  **補救措施：**&#x200B;將上述IP位址列入允許清單。
-
-* **問題：** IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target]目前使用1.2的預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}。
-
-  **解決方案：**&#x200B;請參閱下列問題（[!UICONTROL 增強視覺化體驗撰寫器]不會在我使用TLS 1.2的網站上安全頁面中載入）。
+* 網站網域(ISP)會封鎖EEC。 若要解決此問題，請將[中列出的IP位址加入允許清單，將EEC Proxy](#eec-ip-addresses)的IP位址加入允許清單。
+* 這些IP位址已加入允許清單，但網站不支援TLS 1.2。 若要解決此問題，請參閱下列專案。
 
 +++
 
-## EEC不會在我使用TLS 1.0的網站上安全頁面中載入。 (僅限 EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
++++ EEC沒有在使用TLS 1.0的網站安全頁面上載入
 
-+++詳細資料
-您可能會看到上述「增強視覺化體驗撰寫器不會在我的網站上安全頁面中載入」中所述的錯誤訊息。 如果上述IP位址已加入允許清單，但您的網站不支援TLS 1.2版。 [!DNL Target]目前使用1.2的預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}。
+當IP位址已加入允許清單，但網站不支援TLS 1.2時，會顯示上一項中說明的錯誤訊息。 [!DNL Target]目前使用1.2版作為預設設定。 在[!DNL Target] 18.4.1 （2018年4月25日）之前，預設設定支援TLS 1.0。 如需詳細資訊，請參閱 [TLS (傳輸層安全性) 加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}。
 
-若要使用 Firefox 檢查您的網站的 TLS 版本 (其他瀏覽器有類似的步驟):
+若要在Firefox中檢查網站的TLS版本（其他瀏覽器有類似的步驟）：
 
 1. 在 Firefox 中開啟受影響的網站。
-1. 在瀏覽器的位址列按一下&#x200B;**[!UICONTROL 「顯示網站資訊」]**&#x200B;圖示。
+1. 按一下瀏覽器位址列上的&#x200B;**[!UICONTROL 顯示網站資訊]**&#x200B;圖示。
 
-   ![firefox_more_info影像](assets/firefox_more_info.png)
+   ![Firefox位址列，在URL](assets/firefox_more_info.png)左側反白顯示[顯示網站資訊]圖示
 
 1. 按一下&#x200B;**[!UICONTROL 「顯示連線詳細資料」]**>**[!UICONTROL 「詳細資訊」]**。
 
-   ![firefox_more_info_2圖片](assets/firefox_more_info_2.png)
+   ![Firefox網站資訊面板，在「安全連線」旁邊反白顯示「顯示連線詳細資料」箭頭](assets/firefox_more_info_2.png)
 
-1. 在技術詳細資料下檢查 TLS 版本資訊:
+1. 檢查&#x200B;**[!UICONTROL 技術詳細資料]**&#x200B;下的TLS版本資訊。
 
-   ![firefox_more_info_3圖片](assets/firefox_more_info_3.png)
+   ![Firefox頁面資訊視窗，安全性索引標籤，技術詳細資訊下方會醒目提示TLS版本](assets/firefox_more_info_3.png)
 
-1. 如果您發現您的網站顯示TLS 1.0，請參閱[TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}，以取得Target的TLS支援原則相關資訊。 若要補救目前狀況（2018年9月12日前有效）{target=_blank}，請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得您的TLS版本和網域的組態。
+1. 如果網站顯示TLS 1.0，請參閱[TLS （傳輸層安全性）加密變更](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hant){target=_blank}，以取得[!DNL Target]的TLS支援原則相關資訊。 若要補救目前狀況（2018年9月12日前有效），請聯絡[客戶服務](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以取得TLS版本和網域的組態。
 
 +++
 
-## 載入已啟用 Proxy 的網站時，我看到逾時或「拒絕存取」錯誤。 (僅限 EEC) {#section_60CBB9022DC449F593606C0E6252302D}
++++ 載入已啟用Proxy的網站時，會顯示逾時或「拒絕存取」錯誤
 
-+++詳細資料
-確定您的環境中未封鎖 Proxy IP。
+請確定環境中未封鎖Proxy IP位址。 這些位址列在[允許列出EEC Proxy](#eec-ip-addresses)的IP位址。
 
 +++
